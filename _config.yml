@@ -18,7 +18,7 @@ email: glyons66@hotmail.com
 description: > # Website to document opensoucre work.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gavinlyonsrepo.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: @liontron2
+twitter_username: "@liontron2"
 github_username:  gavinlyonsrepo
 permalink: date
 
