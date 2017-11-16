@@ -16,7 +16,7 @@
 title: github page for gavinlyonsrepo
 email: glyons66@hotmail.com
 description: Website to document open source work.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: ""  # the subpath of your site, e.g. /blog
 url: "https://gavinlyonsrepo.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "@liontron2"
 github_username: gavinlyonsrepo

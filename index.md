@@ -5,6 +5,12 @@
 layout: home
 ---
 
+<head>
+	<title>{{site.name}}</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
 <div class="content">
   <div class="related">
     <ul>
@@ -16,3 +22,12 @@ layout: home
     </ul>
   </div>
 </div>
+
+<section id="showcase">
+	<div class="container">
+		<h1> 
+		</h1>
+	</div>
+	
+</body>
+

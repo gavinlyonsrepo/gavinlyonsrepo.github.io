@@ -1,0 +1,37 @@
+body{
+	background-color:#f4f4f4;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#showcase{
+	background-image:url('../images/showcase.jpg');
+	background-position: center right;
+	min-height:30px;
+	margin-bottom:30px;
+	text-align: center;
+	padding:0 30px;
+}
+
+.p-box{
+	width:32px;
+	height:32px;
+	border:1px solid #000;
+	margin-top:30px;
+	position:relative;
+	background-image:url('../images/myicon.png');
+	background-repeat: no-repeat;
+	background-position:100px 200px;
+	background-position:center top;
+}
+
+
