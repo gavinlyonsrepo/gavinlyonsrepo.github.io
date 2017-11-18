@@ -7,19 +7,34 @@ body{
 	margin:0;
 }
 
-/* not working yet WIP 181117 */
-#post h1{
- font-size: 10px; 
+/* not working yet WIP 181117 
+.postcontent h1{
+ font-size: 5px; 
+}
+*/
+
+/* bg image on home page */
+#bgimage{
+	background-image:url('../images/bgimage.jpg');
+	background-position:center right;
+	min-height:auto;
+	margin-bottom:30px;
+	text-align: left center;
 }
 
-/* image on home page */
-#showcase{
-	background-image:url('../images/showcase.jpg');
-	background-position: center right;
-	min-height:30px;
-	margin-bottom:30px;
-	text-align: center;
-	padding:0 30px;
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+	text-align: left center;
+}
+
+/* divider on home page */
+#divider{
+	background-image:url('../images/divider.jpg');
+	background-position:center right;
+	min-height:70px;
+	margin-bottom:35px;
 }
 
 /* icon display */

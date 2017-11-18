@@ -4,30 +4,29 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-
+<html>
 <head>
 	<title>{{site.name}}</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-
-<div class="content">
-  <div class="related">
-    <ul>
-      {% for post in site.posts %}
-      <li>
-	<span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
-
-<section id="showcase">
+<body>
+<section id="bgimage">
 	<div class="container">
-		<h1> .
-		</h1>
+			<ul>
+			  {% for post in site.posts %}
+			  <li>
+			<span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+			  </li>
+			  {% endfor %}
+			</ul>
 	</div>
-	
+</section>
+
+<section id="divider">
+	<h1> </h1>
+</section>
+</body>
+</html>
 
 

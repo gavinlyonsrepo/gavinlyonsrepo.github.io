@@ -15,7 +15,7 @@ title: Contact
 	<section>
 	<br>
 	<address>
-		<p> Name: <strong>  Gavin Lyons  </strong></p>
+		<p> Name: Gavin Lyons</p>
 
 		<p> Email: <a href="mailto:{{site.author_email}}">{{site.email}}</a></p>
 	</address>
@@ -24,4 +24,4 @@ title: Contact
 </body>
 </html>
 
-[Repository: Gavinlyonsrepo](https://github.com/gavinlyonsrepo) 
+Repository: [ Gavinlyonsrepo](https://github.com/gavinlyonsrepo) 

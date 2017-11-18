@@ -16,7 +16,8 @@ permalink: /about/
 
 </html>
 
-This website documents the work carried out in this repository:
+This website documents the open source 
+work carried out in this repository:
 [Gavinlyonsrepo](https://github.com/gavinlyonsrepo) 
 
 This website is created using Jekyll.
