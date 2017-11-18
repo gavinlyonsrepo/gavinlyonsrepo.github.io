@@ -13,12 +13,15 @@ title: Contact
 	</div>
 	
 	<section>
+	<br>
 	<address>
-		<p><strong> Gavin Lyons  </strong></p>
+		<p> Name: <strong>  Gavin Lyons  </strong></p>
 
-		<p> <a href="mailto:{{site.author_email}}">{{site.email}}</a></p>
+		<p> Email: <a href="mailto:{{site.author_email}}">{{site.email}}</a></p>
 	</address>
 </section>
 
 </body>
 </html>
+
+[Repository: Gavinlyonsrepo](https://github.com/gavinlyonsrepo) 

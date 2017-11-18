@@ -11,14 +11,15 @@ permalink: /about/
 	<div class="p-box">
 	<h1> </h1>
 	</div>
+	<br>
 </body>
+
 </html>
 
-This website documents the work carried out in this repository
-**Gavinlyonsrepo**. 
+This website documents the work carried out in this repository:
+[Gavinlyonsrepo](https://github.com/gavinlyonsrepo) 
 
-
-This  website is created using ruby-Jekyll. 
+This website is created using Jekyll.
 
 
 

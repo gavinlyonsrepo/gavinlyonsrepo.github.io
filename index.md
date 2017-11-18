@@ -10,7 +10,7 @@ layout: home
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<body>
+
 <div class="content">
   <div class="related">
     <ul>
@@ -25,9 +25,9 @@ layout: home
 
 <section id="showcase">
 	<div class="container">
-		<h1> 
+		<h1> .
 		</h1>
 	</div>
 	
-</body>
+
 
