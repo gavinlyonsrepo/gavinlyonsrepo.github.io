@@ -16,11 +16,16 @@ permalink: /about/
 
 </html>
 
-This website documents the open source 
-work carried out in this repository:
+This Website is written using the
+"Jekyll" static site generator with HTML and CSS. 
+This website documents open source work in this repository.
+It is hosted on github pages free website feature.
+
+Topics include shell, python, arduino, raspberry pi and C++
+
 [Gavinlyonsrepo](https://github.com/gavinlyonsrepo) 
 
-This website is created using Jekyll.
+
 
 
 
