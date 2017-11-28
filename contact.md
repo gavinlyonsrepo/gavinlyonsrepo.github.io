@@ -25,3 +25,5 @@ title: Contact
 </html>
 
 Repository: [ Gavinlyonsrepo](https://github.com/gavinlyonsrepo) 
+
+PGP Key: [0x6950C2BF](http://pgp.mit.edu/pks/lookup?search=0x6950C2BF&op=index&fingerprint=on)

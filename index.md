@@ -12,6 +12,7 @@ layout: home
 </head>
 
 <body>
+
 <section id="bgimage">
 	<div class="container">
 			<ul>
