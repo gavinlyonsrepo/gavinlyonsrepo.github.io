@@ -35,7 +35,7 @@ body{
 #divider{
 	background-image:url('../images/divider.jpg');
 	background-position:center right;
-	min-height:70px;
+	min-height:200px;
 	margin-bottom:35px;
 }
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "particle_fire_simulation created"
+title:  "particle_fire_simulation 1.0 created"
 categories: cpp
 ---
 
@@ -9,3 +9,6 @@ categories: cpp
 * Title: particle fire simulation
 * Description: particle fire simulation C++ graphics program. 
 The program creates a SDL API driven graphic display in a window.
+
+* [pfsim](https://github.com/gavinlyonsrepo/particle_fire_simulation)
+

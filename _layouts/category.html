@@ -7,8 +7,11 @@ layout: page
 </head>
 
 {% for post in site.categories[page.category] %}
-    <a href="{{ post.url | absolute_url }}">
-      {{ post.title }}
-      <br/>
-    </a>
+    	<ul>
+			
+			<li>
+			<span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+			</li>
+			
+		</ul>
 {% endfor %}
