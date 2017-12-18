@@ -18,8 +18,7 @@ title: Contact
 		<p> PGP Key: <a href="http://pgp.mit.edu/pks/lookup?search=0x6950C2BF&op=index&fingerprint=on">0x6950C2BF</a></p>
 		<p> Repository: <a href="https://github.com/gavinlyonsrepo">gavinlyonsrepo</a></p>
 	</address>
-	</section>
-	
+	</section>	
 </body>
 </html>
 
