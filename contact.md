@@ -7,9 +7,6 @@ title: Contact
 	<link rel="stylesheet" type="text/css" href="{{site.url}}/css/style.css">
 </head>
 <body>
-	<div class="p-box">
-	<h1> </h1>
-	</div>
 	<section>
 	<br>
 	<address>

@@ -42,15 +42,15 @@ body{
 
 /* icon display */
 .p-box{
-	width:32px;
-	height:32px;
+	width:48px;
+	height:48px;
 	border:0px solid #000;
-	margin-top:30px;
-	position:relative;
+	position:absolute;
+    left: 150px;
+    top: 5px;
 	background-image:url('../images/myicon.png');
 	background-repeat: no-repeat;
-	background-position:100px 200px;
-	background-position:center top;
+	background-position: left center;
 }
 
 
