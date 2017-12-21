@@ -8,9 +8,8 @@ permalink: /about/
 	<link rel="stylesheet" type="text/css" href="{{site.url}}/css/style.css">
 </head>
 <body>
-	<br>
+	
 </body>
-
 </html>
 
 This Website is written using the

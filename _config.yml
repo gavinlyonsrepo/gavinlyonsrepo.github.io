@@ -16,8 +16,7 @@
 name: Gavin Lyons
 title: Gavin Lyons Blog
 email: glyons66@hotmail.com
-description: "
-This website documents open source work in the github repository: gavinlyonsrepo."
+description: "This website documents open source work in the github repository: gavinlyonsrepo."
 
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: "https://gavinlyonsrepo.github.io/" # the base hostname & protocol for your site, e.g. http://example.com

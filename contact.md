@@ -14,7 +14,9 @@ title: Contact
 		<p> Email: <a href="mailto:{{site.author_email}}">{{site.email}}</a></p>
 		<p> PGP Key: <a href="http://pgp.mit.edu/pks/lookup?search=0x6950C2BF&op=index&fingerprint=on">0x6950C2BF</a></p>
 		<p> Repository: <a href="https://github.com/gavinlyonsrepo">gavinlyonsrepo</a></p>
-        <p> RSS feed: <a href='https://gavinlyonsrepo.github.io/feed.xml' rel='alternate' type='application/atom+xml'> Click to subscribe </a></p>
+
+        <p class="Rss-subscribe:">Subscribe <a href="{{ "/feed.xml" |  absolute_url }}">via RSS</a></p>
+    
 	</address>
 	</section>	
 </body>
