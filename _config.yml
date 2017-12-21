@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 name: Gavin Lyons
-title: Gavin Lyons Blog
+title: Gavin Lyons Blog - home
 email: glyons66@hotmail.com
 description: "This website documents open source work in the github repository: gavinlyonsrepo."
 
