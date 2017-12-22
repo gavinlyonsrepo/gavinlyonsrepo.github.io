@@ -2,18 +2,15 @@
 layout: default
 ---
  <head>
-   <link rel="stylesheet" type="text/css" href="{{site.url}}/css/style.css">
+     <link rel="stylesheet" type="text/css" href="{{site.url}}/css/style.css">
 </head>
 <article class="post">
-
   <header class="post-header">
      {% if page.title != "Home" %}
-        <h1 class="post-title">{{ page.title | escape }}</h1>
+        <h1 style="font-size: 180%;" class="post-title">{{ page.title | escape }}</h1>
     {% endif %}
   </header>
-
   <div class="post-content">
     {{ content }}
   </div>
-
 </article>
