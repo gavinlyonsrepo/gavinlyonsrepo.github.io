@@ -4,7 +4,7 @@ layout: page
 <html>
 <body>
 <h3>Blog posts: </h3>
-<section id="bgimage">
+<div class="bgimage">
 	<div class="container">
 			<ul>
 			  {% for post in site.posts %}
@@ -14,8 +14,23 @@ layout: page
 			  {% endfor %}
 			</ul>
 	</div>
-</section>
-<section id="divider"> </section>
+</div>
+<br>
+<h3>Number of blog posts by category: </h3>
+<div class="bgimage">
+	<div class="container">
+        <ul class="tag-box inline">
+        {% assign tags_list = site.categories %}  
+            {% for tag in tags_list %} 
+              <li><a href="category/{{  tag[0] }}">{{ tag[0] | capitalize }} <span style="color:black" >{{ tag[1].size }}</span></a></li>
+            {% endfor %}
+         
+        {% assign tags_list = nil %}
+        </ul>
+	</div>
+</div>
+
+
 </body>
 </html>
 

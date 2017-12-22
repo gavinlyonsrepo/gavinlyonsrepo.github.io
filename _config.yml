@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 name: Gavin Lyons
-title: " Gavin Lyons Blog "
+title: "Gavin Lyons"
 email: glyons66@hotmail.com
-description: "This website documents open source work in the github repository: gavinlyonsrepo."
-
+description: "This blog documents open source work in the github repository: gavinlyonsrepo."
+author: Copyright (C) 2017
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: "https://gavinlyonsrepo.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "@liontron2"

@@ -3,17 +3,19 @@
   <div class="wrapper">
 
    <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
-
+      
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.name | escape }}
-            {% endif %}
-            </li>
+            <div class="footertext">          
+                <li>
+                {% if site.author %}
+                   {{ site.author | escape }} 
+                {% else %}
+                  {{ site.name | escape }}
+                {% endif %}
+                </li>
+            </div>
             {% if site.email %}
             <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {% endif %}
@@ -35,12 +37,16 @@
           {% endif %}
         </ul>
       </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
-      </div>
+        <div class="footertext"> 
+              <div class="footer-col footer-col-3">
+                <p>  {{ site.description | escape }}  </p>
+              </div>
+        </div>
+      <!-- my foot image -->
+       <section id="footimage"> </section>
+   
     </div>
-
+    
   </div>
-
+     
 </footer>

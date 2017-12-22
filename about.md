@@ -5,7 +5,7 @@ permalink: /about/
 ---
 <html>
 <body>	
-	<section id="bgimage">
+	<div class="bgimage">
          <div class="container">
             <p>This website is written using the Jekyll static site generator with HTML and CSS. <br>
                This blog documents open source development work in the linked github repository. <br>
@@ -22,7 +22,7 @@ permalink: /about/
                 <p class="Rss-subscribe:">Subscribe <a href="{{ "/feed.xml" |  absolute_url }}">via RSS</a></p>   
 	        </address>
         </div>
-	</section>		
+	</div>		
 </body>
 </html>
 
