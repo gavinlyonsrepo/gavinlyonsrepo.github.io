@@ -16,8 +16,8 @@
 name: Gavin Lyons
 title: "Gavin Lyons"
 email: glyons66@hotmail.com
-description: "This blog documents open source work in the github repository: gavinlyonsrepo."
-author: Copyright (C) 2017
+description: "This blog documents open source work in the github repository."
+author: Gavin Lyons (C) 2017
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: "https://gavinlyonsrepo.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "@liontron2"

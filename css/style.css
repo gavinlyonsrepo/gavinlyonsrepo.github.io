@@ -1,34 +1,40 @@
 /* css style page for https://gavinlyonsrepo.github.io/ */
+/* 01-12-17 glyons */
 
 /* apply to main body for all pages */
 body{
-	background-color:#bdb875;
+	
+    background-color: lightsteelblue;
 	color:#000;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:16px;
 	line-height:1.6em;
 	margin:0;
 	padding: 0px;
+    letter-spacing: 0.02em;
+    word-spacing: 0.1em;
 }
 
+/* header */
 
-
-/* class site-title(non-custom tag from minima), style for title in header.html */
+/* class site-title(non-custom class from minima), style for title in header.html */
 .site-title{
     font-size:35px;
-    color: blue;
+    color: #black;
+    font-family: Verdana, Geneva, sans-serif;
     font-weight: bold;
     font-style: italic;
 }
 
-/* class page-link(non-custom tag from minima), style for the buttons in header.html */
+/* class page-link(non-custom  class from minima), style for the BUTTONs in header.html */
 .page-link{
-    color:black;
+    color: black;
     border: 3px solid black;
     padding: 5px; 
-    background-color: lightsteelblue;
+    background-color:#b3b3b3;
+    border-radius: 10px;
+    box-shadow: 1px 2px ;
 }
-
 
 /* id myicon , icon display in header.html */
 #myicon{
@@ -43,13 +49,23 @@ body{
 }
 
 
+/* middle */
+
+/*  class post-title(non-custom  class from minima), style for post title in page.html */
+.post-title{
+     font-size: 170%; 
+     font-family: Verdana, Geneva, sans-serif;
+}
+
 /* class bgimage, bgimage.jpg image background for text on all pages */
 .bgimage{
 	background-image:url('../images/bgimage.jpg');
-	border:5px solid #000;
+	border:5px solid black;
 	background-position:top;
 	background-repeat: no-repeat;
 	padding: 15px;
+    border-radius: 20px;
+   
 }
 
 /* class container , contains the text posts text on all pages" */
@@ -61,6 +77,8 @@ body{
 }
 
 
+/* footer */
+
 /*class footertext style text for footer.html */
 .footertext{
      color: black; 
@@ -68,15 +86,16 @@ body{
 
 /* id footimage , image in footer.html */
 #footimage{
-	background-image:url('../images/footimage.jpg');
+    background-image:url('../images/footimage.jpg');
 	width:230px;
-	height:60px;
-	border:2px solid #000;
+	height:100px;
+	border:3px solid #000;
 	position:relative;
     right: 250px;
-    bottom: 10px;
+    bottom: 5px;
 	background-repeat: no-repeat;
 	background-position: left center;
+    border-radius: 20px;
 }
 
 
