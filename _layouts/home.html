@@ -3,7 +3,7 @@ layout: page
 ---
 <html>
 <body>
-<h3>Blog posts </h3>
+<h3>Blog posts: {{ site.posts | size }} </h3>
 <div class="bgimage">
 	<div class="container">
 			<ul>
@@ -19,14 +19,14 @@ layout: page
 <h3>Number of blog posts by category </h3>
 <div class="bgimage">
 	<div class="container">
-        <ul class="tag-box inline">
-        {% assign tags_list = site.categories %}  
-            {% for tag in tags_list %} 
-              <li><a href="category/{{  tag[0] }}">{{ tag[0] | capitalize }} <span style="color:black" >{{ tag[1].size }}</span></a></li>
-            {% endfor %}
-         
-        {% assign tags_list = nil %}
-        </ul>
+		<ul class="tag-box inline">
+		{% assign tags_list = site.categories %}  
+			{% for tag in tags_list %} 
+			  <li><a href="category/{{  tag[0] }}">{{ tag[0] | capitalize }} <span style="color:black" >{{ tag[1].size }}</span></a></li>
+			{% endfor %}
+		 
+		{% assign tags_list = nil %}
+		</ul>
 	</div>
 </div>
 

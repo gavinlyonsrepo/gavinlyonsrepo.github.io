@@ -5,12 +5,12 @@ Overview
 
 * Description :
 
-```sh
+
 This website is written using the Jekyll static site generator with HTML and CSS. 
 This blog documents open source development work in the linked github repository. 
 It is hosted on github pages free static website feature. 
 Topics include shell, python, arduino, raspberry pi and C++.
-```
+
  
 * Author: Gavin Lyons
 
@@ -29,5 +29,4 @@ Copyright
 Copyright (C) 2017 Gavin Lyons 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public license published by
-the Free Software Foundation, see LICENSE.md in documentation section 
-for more details
+the Free Software Foundation. [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)

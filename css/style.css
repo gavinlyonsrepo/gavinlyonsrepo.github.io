@@ -17,6 +17,19 @@ body{
 
 /* header */
 
+/* id myicon , icon display in header.html */
+#myicon{
+    background-image:url('../images/myicon.png');
+	width:48px;
+	height:48px;
+	border:0px solid #000;
+	position:relative;
+    right: 250px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+
 /* class site-title(non-custom class from minima), style for title in header.html */
 .site-title{
     font-size:35px;
@@ -34,18 +47,11 @@ body{
     background-color:#b3b3b3;
     border-radius: 10px;
     box-shadow: 1px 2px ;
+    cursor: pointer;
 }
 
-/* id myicon , icon display in header.html */
-#myicon{
-    background-image:url('../images/myicon.png');
-	width:48px;
-	height:48px;
-	border:0px solid #000;
-	position:relative;
-    right: 250px;
-	background-repeat: no-repeat;
-	background-position: left center;
+.page-link:hover {
+    background-color: white; 
 }
 
 
