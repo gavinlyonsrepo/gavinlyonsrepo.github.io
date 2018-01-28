@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "rpi_tempmon 1.4-5 has been released"
+title:  "rpi_tempmon 1.4-5 released"
 categories: python
 ---
 

@@ -9,8 +9,8 @@ categories: cpp
 * Title : Fm-radio and speaker
 * Description : Arduino Fm radio module using TEA5767 fm module, LM386 module Audio AMP 
 with KA2284 audio level indicator and 0.96" SSD1306 I2C OLED LCD Display Module.
-The unit can be used as a radio or speaker. by placing removebale audio cable between output
-of TEA5767 and inoput of LM386 Audio AMP.
+The unit can be used as a radio or speaker, by placing removable audio cable between output
+of TEA5767 and input of LM386 Audio AMP.
 
 
 [Radio](https://github.com/gavinlyonsrepo/Arduino_FM_radio)
