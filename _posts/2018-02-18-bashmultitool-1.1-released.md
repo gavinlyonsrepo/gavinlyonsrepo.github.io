@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "bashmultitool 1.1-2 created"
+title:  "bashmultitool 1.1-2 released"
 categories: shell
 ---
 
