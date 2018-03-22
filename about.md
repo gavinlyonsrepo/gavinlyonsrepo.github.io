@@ -17,7 +17,7 @@ permalink: /about/
 		        <p> Email: <a href="mailto:{{site.author_email}}">{{site.email}}</a></p>
 		        <p> PGP Key: <a href="http://pgp.mit.edu/pks/lookup?search=0x6950C2BF&op=index&fingerprint=on">0x6950C2BF</a></p>
                 <p class="Rss-subscribe:">Subscribe <a href="{{ "/feed.xml" |  absolute_url }}">via RSS</a></p>   
-                <p> {% include icon-github.html username=site.github_username %} </p>
+                <p> Github: <a href="https://github.com/gavinlyonsrepo">gavinlyonsrepo</a></p>
 	        </address>
         </div>
 	</div>		
