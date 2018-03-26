@@ -9,5 +9,5 @@ categories: python
 * Written in python 3
 * Two components currently :-
 * (1) 28BYJ-48 Stepper motor + ULN2003 driver board 
-* (2) Tower pro Digital micro servo SG90
+* (2) Tower pro Digital micro servo SG90 (Note: should work with many servos types but only tested with SG90)
 * [RpiMotorLib](https://github.com/gavinlyonsrepo/RpiMotorLib)
