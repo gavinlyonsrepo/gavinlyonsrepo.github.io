@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Capacitance meter 1.0 created"
+title:  "Capacitance meter 1.0-1 created"
 categories: cpp
 ---
 
