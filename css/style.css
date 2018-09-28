@@ -68,7 +68,7 @@ body{
 	background-image:url('../images/bgimage.jpg');
 	border:5px solid black;
 	background-position:top;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	padding: 15px;
     border-radius: 20px;
    
