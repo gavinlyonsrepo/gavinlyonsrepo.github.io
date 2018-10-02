@@ -6,9 +6,9 @@ categories: c
 
 
 * Name: pic_12F675_projects
-* Title: pic micro-controller: pic12F675 project and examples .
-* Description: A repository to store pic12F675 project and examples in 
-C and assembly for a beginner to the pic micro-controller.
+* Title: PIC12F675 project and examples .
+* Description: A repository to store PIC12F675 projects and example code in 
+C and assembly for the PIC micro-controller.
 * Author: Gavin Lyons
 
 
