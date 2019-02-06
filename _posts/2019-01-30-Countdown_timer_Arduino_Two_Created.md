@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Countdown Timer Two, Arduino based 1.0-1 created"
+title:  "Countdown Timer 2, Arduino based 1.0-1 created"
 categories: cpp
 ---
 

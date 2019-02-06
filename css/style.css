@@ -4,27 +4,27 @@
 /* apply to main body for all pages */
 body{
 	
-    background-color: lightsteelblue;
+	background-color: lightsteelblue;
 	color:#000;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:16px;
 	line-height:1.6em;
 	margin:0;
 	padding: 0px;
-    letter-spacing: 0.02em;
-    word-spacing: 0.1em;
+	letter-spacing: 0.02em;
+	word-spacing: 0.1em;
 }
 
 /* header */
 
 /* id myicon , icon display in header.html */
 #myicon{
-    background-image:url('../images/myicon.png');
+	background-image:url('../images/myicon.png');
 	width:48px;
 	height:48px;
 	border:0px solid #000;
 	position:relative;
-    right: 250px;
+	right: 250px;
 	background-repeat: no-repeat;
 	background-position: left center;
 }
@@ -32,26 +32,26 @@ body{
 
 /* class site-title(non-custom class from minima), style for title in header.html */
 .site-title{
-    font-size:35px;
-    color: #black;
-    font-family: Verdana, Geneva, sans-serif;
-    font-weight: bold;
-    font-style: italic;
+	font-size:35px;
+	color: #black;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	font-style: italic;
 }
 
 /* class page-link(non-custom  class from minima), style for the BUTTONs in header.html */
 .page-link{
-    color: black;
-    border: 3px solid black;
-    padding: 5px; 
-    background-color:#b3b3b3;
-    border-radius: 10px;
-    box-shadow: 1px 2px ;
-    cursor: pointer;
+	color: black;
+	border: 3px solid black;
+	padding: 5px; 
+	background-color:#b3b3b3;
+	border-radius: 10px;
+	box-shadow: 1px 2px ;
+	cursor: pointer;
 }
 
 .page-link:hover {
-    background-color: white; 
+	background-color: white; 
 }
 
 
@@ -59,8 +59,8 @@ body{
 
 /*  class post-title(non-custom  class from minima), style for post title in page.html */
 .post-title{
-     font-size: 170%; 
-     font-family: Verdana, Geneva, sans-serif;
+	 font-size: 170%; 
+	 font-family: Verdana, Geneva, sans-serif;
 }
 
 /* class bgimage, bgimage.jpg image background for text on all pages */
@@ -70,7 +70,7 @@ body{
 	background-position:top;
 	background-repeat: repeat;
 	padding: 15px;
-    border-radius: 20px;
+	border-radius: 20px;
    
 }
 
@@ -87,23 +87,31 @@ body{
 
 /*class footertext style text for footer.html */
 .footertext{
-     color: black; 
+	 color: black; 
 }
 
 /* id footimage , image in footer.html */
 #footimage{
-    background-image:url('../images/footimage.jpg');
+	background-image:url('../images/footimage.jpg');
 	width:230px;
 	height:100px;
 	border:3px solid #000;
 	position:relative;
-    right: 250px;
-    bottom: 5px;
+	right: 250px;
+	bottom: 5px;
 	background-repeat: no-repeat;
 	background-position: left center;
-    border-radius: 20px;
+	border-radius: 20px;
 }
 
+/* Apply to table  id t01 ( table in Arduino.html page */
+
+#t01, th, td  {
+  width:100%;
+  border: 2px solid black;
+  background-color: #eee;
+  
+}
 
 
 
