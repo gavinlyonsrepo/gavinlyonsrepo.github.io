@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Arduino library Tm1638plus version 1.1.1 released"
+title:  "Arduino library Tm1638plus 1.1.1 released"
 categories: cpp
 ---
 
