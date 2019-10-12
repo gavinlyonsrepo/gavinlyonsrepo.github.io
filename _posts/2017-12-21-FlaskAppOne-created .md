@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "FlaskAppOne created"
-categories: misc
+categories: python
 ---
 
 * Website created.

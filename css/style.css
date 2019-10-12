@@ -104,13 +104,15 @@ body{
 	border-radius: 20px;
 }
 
-/* Apply to table  id t01 ( table in Arduino.html page */
+/* Apply to table  id t01 ( table in Arduino.html and pic.html page */
 
 #t01, th, td  {
-  width:100%;
-  border: 2px solid black;
-  background-color: #eee;
-  
+   width:100%;
+   border: 2px solid black;
+   position:relative;
+   background-color: #eee;
+   margin:auto;
+   background-image:url('../images/bgimage.jpg');
 }
 
 
