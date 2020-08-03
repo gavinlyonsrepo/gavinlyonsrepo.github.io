@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "bashmultitool 1.1-2 released"
-categories: shell
+categories: [shell, linux_utilities]
 ---
 
 

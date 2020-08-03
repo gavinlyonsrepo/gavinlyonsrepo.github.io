@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Arduino library Tm1638plus created"
-categories: cpp
+categories: [cpp, arduino]
 ---
 
 

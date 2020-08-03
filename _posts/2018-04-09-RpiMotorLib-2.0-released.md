@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "RpiMotorLib 2.0-1 released"
-categories: python
+categories: [python, rpi]
 ---
 
 * Added DC motors driven by L298N 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Arduino library segment display 2.1 released"
-categories: cpp
+categories: [cpp, arduino]
 ---
 
 * Version 2.1.0 Jan 2020

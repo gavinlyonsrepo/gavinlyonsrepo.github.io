@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Arduino library Tm1638plus 1.3.0 released"
-categories: cpp
+categories: [cpp, arduino]
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "rpi_tempmon 1.5-6 released"
-categories: python
+categories: [python,rpi]
 ---
 
 

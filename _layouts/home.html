@@ -26,9 +26,10 @@ layout: page
 <div class="bgimage">
 	<div class="container">
 		<ul class="tag-box inline">
-		{% assign tags_list = site.categories %}
+		{% assign tags_list = site.categories | sort %}
 			{% for tag in tags_list %}
 			  <li><a href="category/{{  tag[0] }}">{{ tag[0] | capitalize }} <span style="color:black" >{{ tag[1].size }}</span></a></li>
+			
 			{% endfor %}
 
 		{% assign tags_list = nil %}

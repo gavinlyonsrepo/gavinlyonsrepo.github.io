@@ -1,16 +1,17 @@
 ---
 layout: post
-title:  "ESP8266 NodeMcu projects, created"
-categories: cpp
+title:  "ESP-X projects, created"
+categories: [esp, cpp]
 ---
 
 
-Name: ESP8266_projects.
+Name: ESP_projects.
 
-Description: A set of projects and example code for a WIFI module ESP8266, NodeMCU ESP8266 ESP-12e module.
+Description: A set of projects and example code for ESP-X boards.
+ESP micro-controllers are produced by  Espressif Systems
 
 Author: Gavin Lyons.
 
 
 
-[URL LINK](https://github.com/gavinlyonsrepo/ESP8266_projects)
+[URL LINK](https://github.com/gavinlyonsrepo/ESP_projects)

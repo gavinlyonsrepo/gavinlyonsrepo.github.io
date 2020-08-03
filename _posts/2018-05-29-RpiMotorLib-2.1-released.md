@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "RpiMotorLib 2.1 released"
-categories: python
+categories: [python, rpi]
 ---
 
 * Added Nema stepper driven by motor controller A3967 "Easy Driver"

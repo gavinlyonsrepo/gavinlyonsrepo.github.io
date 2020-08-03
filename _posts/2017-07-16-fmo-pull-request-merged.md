@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "fmo 1.1 : Pull request merged"
-categories: shell
+categories: [shell, linux_utilities]
 ---
 
 

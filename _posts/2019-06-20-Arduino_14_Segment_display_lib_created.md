@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Arduino library 14 segment display created"
-categories: cpp
+categories: [cpp, arduino]
 ---
 
 

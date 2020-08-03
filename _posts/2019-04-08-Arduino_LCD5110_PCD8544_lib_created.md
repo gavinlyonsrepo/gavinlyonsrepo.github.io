@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Arduino library Nokia 5110 LCD created"
-categories: cpp
+categories: [cpp, arduino]
 ---
 
 

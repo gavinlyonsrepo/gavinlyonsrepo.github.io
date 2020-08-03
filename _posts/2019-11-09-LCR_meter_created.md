@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "LCR_meter, Arduino based 1.0-1 created"
-categories: cpp
+categories: [cpp, arduino]
 ---
 
 

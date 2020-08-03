@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Arduino_FM_radio 1.0 created"
-categories: cpp
+categories: [cpp, arduino]
 ---
 
 

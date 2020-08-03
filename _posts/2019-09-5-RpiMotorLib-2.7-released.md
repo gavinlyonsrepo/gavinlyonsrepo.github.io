@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "RpiMotorLib 2.7 released"
-categories: python
+categories: [python, rpi]
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "pic_18F47K42 projects , 1-0-1 created"
-categories: c
+categories: [c, pic]
 ---
 
 

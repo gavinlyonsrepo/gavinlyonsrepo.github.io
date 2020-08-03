@@ -8,7 +8,9 @@ permalink: /about/
 	<div class="bgimage">
 		 <div class="container">
 			<p> This blog documents open source development work in the linked github repository, "gavinlyonsrepo". 
+			
 			 Topics include micro-controllers, raspberry pi, shell, python, C and C++.
+			 
 			 This website is written using the Jekyll static site generator with HTML and CSS.
 			 It is hosted on github pages free static website feature. 
 			 </p> 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "RpiMotorLib 2.3 released"
-categories: python
+categories: [python, rpi]
 ---
 
 * Added support for pigpio library for servo control.(version 2.2)

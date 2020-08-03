@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "backupmenu 1.0-1 created"
-categories: shell
+categories: [shell, linux_utilities]
 ---
 
 

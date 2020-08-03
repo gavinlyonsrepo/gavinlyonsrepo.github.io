@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "LED Display unit, arduino based, 1.0-1 created"
-categories: cpp
+categories: [cpp, arduino]
 ---
 
 

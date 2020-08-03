@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "pic_12F675 projects and examples , 1-0-1 created"
-categories: c
+categories: [c , pic]
 ---
 
 

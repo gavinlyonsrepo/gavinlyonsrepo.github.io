@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "bashmultitool 1.0-1 created"
-categories: shell
+categories: [shell, linux_utilities]
 ---
 
 

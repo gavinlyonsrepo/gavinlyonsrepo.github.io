@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "RpiMotorLib 2.4 released"
-categories: python
+categories: [python, rpi]
 ---
 
 * Merged pull request by Erez Levanon

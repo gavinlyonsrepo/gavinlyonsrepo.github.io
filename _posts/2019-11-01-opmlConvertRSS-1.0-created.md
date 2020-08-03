@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "opml_convert_RSS 1.1-1 created"
-categories: python
+categories: [python , misc]
 ---
 
 1. first version 1.1-1.

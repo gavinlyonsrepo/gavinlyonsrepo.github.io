@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Capacitance meter 1.0-1 created"
-categories: cpp
+categories: [cpp, arduino]
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "rpi_tempmon 2.2-3 released"
-categories: python
+categories: [python, rpi]
 ---
 
 * version 2.2-3 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ccryptmenu 1.0-1 created"
-categories: shell
+categories: [shell, linux_utilities]
 ---
 
 * Menu based TUI backup utility for Linux distributions.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Arduino_clock_1 1.0 created"
-categories: cpp
+categories: [cpp, arduino]
 ---
 
 

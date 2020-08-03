@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "RpiMotorLib 1.0-1 created"
-categories: python
+categories: [python, rpi]
 ---
 
 * first version 1.0-1
