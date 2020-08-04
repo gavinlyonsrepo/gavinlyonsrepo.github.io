@@ -9,7 +9,7 @@ body{
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:16px;
 	line-height:1.6em;
-	margin:0;
+	margin:0px;
 	padding: 0px;
 	letter-spacing: 0.02em;
 	word-spacing: 0.1em;
@@ -34,6 +34,7 @@ body{
 .site-title{
 	font-size:35px;
 	color: #black;
+	position:relative;
 	font-family: Verdana, Geneva, sans-serif;
 	font-weight: bold;
 	font-style: italic;
@@ -43,11 +44,12 @@ body{
 .page-link{
 	color: black;
 	border: 3px solid black;
-	padding: 5px; 
+	padding: 7px; 
 	background-color:#b3b3b3;
 	border-radius: 10px;
 	box-shadow: 1px 2px ;
 	cursor: pointer;
+	 margin-right: 150px;
 }
 
 .page-link:hover {
@@ -88,6 +90,7 @@ body{
 /*class footertext style text for footer.html */
 .footertext{
 	 color: black; 
+	 position:relative;
 }
 
 /* id footimage , image in footer.html */

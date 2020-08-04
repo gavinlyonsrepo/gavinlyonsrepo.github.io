@@ -1,0 +1,32 @@
+---
+layout: page
+title: Categories
+---
+<html>
+<body>	
+<h3>Blog posts sorted by category.  </h3>
+<div class="bgimage">
+	<div class="container">
+		<ul class="tag-box inline">
+		{% assign tags_list = site.categories | sort %}
+			{% for tag in tags_list %}
+			  <li><a href="category/{{  tag[0] }}">{{ tag[0] | capitalize }} <span style="color:black" >{{ tag[1].size }}</span></a></li>
+			{% endfor %}
+		{% assign tags_list = nil %}
+		</ul>
+	</div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
