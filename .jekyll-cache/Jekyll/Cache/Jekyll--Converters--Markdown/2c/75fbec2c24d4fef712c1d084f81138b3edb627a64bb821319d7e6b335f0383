@@ -1,0 +1,12 @@
+I"<h3 id="version-53-5-280518">Version 5.3-5 280518</h3>
+
+<ul>
+  <li>Minor update caused by pacman 5.1 release breaking stuff.</li>
+  <li>pacman 5.1 update has split misc tools into new separate package, called pacman-contrib.</li>
+  <li>Some of these tools are needed, so added pacman-contribs as a dependency to cylon,</li>
+  <li>
+    <p>Also pacman-optimise tool now obsolete and permanently removed, so option removed from pacman menu.</p>
+  </li>
+  <li><a href="https://github.com/gavinlyonsrepo/cylon">Cylon</a></li>
+</ul>
+:ET

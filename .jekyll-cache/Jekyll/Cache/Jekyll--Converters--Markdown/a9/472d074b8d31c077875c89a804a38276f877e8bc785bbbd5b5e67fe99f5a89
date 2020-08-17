@@ -1,0 +1,12 @@
+I"n<ul>
+  <li>Added DC motors driven by L298N</li>
+  <li>Added Nema stepper driven by A4998 and L298N</li>
+  <li>Added two new functions to Servo section
+    <ul>
+      <li>Sweep by timed delay steps.</li>
+      <li>Convert degree to Duty cycle percentage.</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/gavinlyonsrepo/RpiMotorLib">RpiMotorLib</a></li>
+</ul>
+:ET

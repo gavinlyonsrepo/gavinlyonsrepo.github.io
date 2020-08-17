@@ -1,0 +1,10 @@
+I"z<ul>
+  <li>Name : clock_number_3</li>
+  <li>Title : Arduino Real Time Alarm Clock DS3231 with TM1638</li>
+  <li>Description : Arduino Clock with Battery backup (real time clock), 
+Time, Date, Alarm, Temperature, TM1638 seven segment module output and input.</li>
+  <li>Author: Gavin Lyons</li>
+</ul>
+
+<p><a href="https://github.com/gavinlyonsrepo/Arduino_Clock_3">Clock</a></p>
+:ET

@@ -1,0 +1,9 @@
+I"k<ul>
+  <li>first version</li>
+  <li>GUI to view tv shows details using TV maze application programming interface</li>
+  <li>Written in python 3 and PyQt 5</li>
+  <li>Stores user favourites in an SQLite database.</li>
+  <li>Uses python module pytvmaze to interface with API</li>
+  <li><a href="https://github.com/gavinlyonsrepo/tv_viewer">tv_viewer</a></li>
+</ul>
+:ET

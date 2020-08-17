@@ -1,0 +1,8 @@
+I""<ul>
+  <li>Cylon_deb is a highly truncated fork of cylon arch, see here <a href="https://github.com/gavinlyonsrepo/cylon">Cylon arch</a></li>
+  <li>While cylon arch was aimed at users of arch based distros, Cylon_deb provides for Debian based distros users.</li>
+  <li>The program provides updates, maintenance, backups and system checks.</li>
+  <li>It is a Terminal user interface, menu driven, bash shell script for a Debian based Linux distro user.</li>
+  <li><a href="https://github.com/gavinlyonsrepo/cylon_deb">cylon_deb 1.0</a></li>
+</ul>
+:ET

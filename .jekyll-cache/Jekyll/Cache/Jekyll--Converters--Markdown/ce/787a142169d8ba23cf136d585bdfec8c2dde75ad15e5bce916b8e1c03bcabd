@@ -1,0 +1,7 @@
+I"<ul>
+  <li>Menu based TUI backup utility for Linux distributions.</li>
+  <li>Provides a convenient terminal user interface wrapper for ccrypt.</li>
+  <li>ccrypt is a utility for encrypting and decrypting files and streams.</li>
+  <li>Written in bash, CLI program.</li>
+</ul>
+:ET

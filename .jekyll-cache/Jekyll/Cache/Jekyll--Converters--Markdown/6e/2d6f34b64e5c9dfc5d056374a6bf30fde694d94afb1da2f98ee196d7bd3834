@@ -1,0 +1,13 @@
+I"J<ul>
+  <li>Version 1.2.0 November 2019
+    <ul>
+      <li>Patch to deal with issue number 3 on github, dealing 
+  with swapped displays on some modules (model 2) with different wiring, See Note A in Readme.md</li>
+      <li>Removed ASCII font to a separate file for efficiency purposes as it was duplicated in both header files.</li>
+      <li>Memory footprint decrease for Model 2 library by using “Progmem” for the ASCII font file data as per Model 1.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><a href="https://github.com/gavinlyonsrepo/TM1638plus">Library for TM1638 module Link.</a></p>
+:ET

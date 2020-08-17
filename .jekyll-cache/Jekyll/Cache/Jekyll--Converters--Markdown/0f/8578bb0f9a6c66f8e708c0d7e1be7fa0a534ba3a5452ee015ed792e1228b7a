@@ -1,0 +1,13 @@
+I"R<ul>
+  <li>Version 1.3.0 Jan 2020
+    <ul>
+      <li>Two new example files for Model2, demonstrating practical examples and scrolling text</li>
+      <li>Example file for model 1 extended, demonstrating practical examples and scrolling text</li>
+      <li>New function displayIntNum(model 1 only ) For displaying integer numbers</li>
+      <li>New function  DisplayDecNumNibble,  allow two separate numbers to be sent to each nibble</li>
+      <li>Model 2 ReadKey16() button function optimised.</li>
+      <li>ASCII font reduced in size  last 5 characters removed.</li>
+    </ul>
+  </li>
+</ul>
+:ET

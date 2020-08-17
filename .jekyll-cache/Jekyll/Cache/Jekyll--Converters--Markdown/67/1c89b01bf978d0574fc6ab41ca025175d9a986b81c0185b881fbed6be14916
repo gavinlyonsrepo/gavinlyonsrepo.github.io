@@ -1,0 +1,12 @@
+I"�<ul>
+  <li>Version 2.1.0 August 2020
+    <ul>
+      <li>“Bias” member created.</li>
+      <li>Issue 1 on github closed , public access to “sleep” member granted via new function LCDisSleeping()</li>
+      <li>Added font 9 “Mega” 16*32, takes 4 row blocks, 5 characters max.</li>
+      <li>Changed function header of “LCDCustomChar()” so it complies for ESP32</li>
+      <li>Tested on new boards : ESP32, ESP8266 and STM32 “blue pill” , It Works!!</li>
+    </ul>
+  </li>
+</ul>
+:ET

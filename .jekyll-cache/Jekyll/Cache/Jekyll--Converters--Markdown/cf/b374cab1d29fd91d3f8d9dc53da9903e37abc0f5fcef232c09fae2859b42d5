@@ -1,0 +1,16 @@
+I"¨<p>Name: FourteenSegDisplay</p>
+
+<p>Description:</p>
+
+<ol>
+  <li>Version 2.0.0 November 2019</li>
+  <li>Added Model 2 for Fourteen segment displays</li>
+  <li>Added Sixteen segment display support</li>
+  <li>Added Seven Segment display support</li>
+</ol>
+
+<p>Author: Gavin Lyons.
+Development platform: Tested with Arduino NANO UNO</p>
+
+<p><a href="https://github.com/gavinlyonsrepo/FourteenSegDisplay">Library Link.</a></p>
+:ET

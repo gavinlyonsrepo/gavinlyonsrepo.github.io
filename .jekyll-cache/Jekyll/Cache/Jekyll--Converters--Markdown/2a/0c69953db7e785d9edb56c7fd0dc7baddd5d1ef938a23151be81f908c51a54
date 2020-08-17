@@ -1,0 +1,20 @@
+I"H<p>Name: FourteenSegDisplay</p>
+
+<p>Description:</p>
+
+<ol>
+  <li>An Arduino library to display data on a 14 segment alphanumeric LED display module.</li>
+  <li>It requires two Daisy chained shift registers.</li>
+  <li>The module was tested on a two digit LDD-F5406RI common cathode module.</li>
+  <li>Library is also designed to work with common anode.</li>
+  <li>Library includes ASCII font, also supports Hexadecimal input and Decimal point function.</li>
+  <li>Optimized low memory footprint.</li>
+  <li>It also provides a function for manually setting segments to any user defined pattern.</li>
+  <li>It requires (3+N) Digital GPIO pins, where N is number of digits used.</li>
+</ol>
+
+<p>Author: Gavin Lyons.
+Development platform: Arduino NANO</p>
+
+<p><a href="https://github.com/gavinlyonsrepo/FourteenSegDisplay">Library Link.</a></p>
+:ET

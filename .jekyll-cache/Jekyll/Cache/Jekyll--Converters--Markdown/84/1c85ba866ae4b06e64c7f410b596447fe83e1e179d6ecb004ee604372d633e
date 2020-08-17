@@ -1,0 +1,10 @@
+I"¥<h2 id="overview">Overview</h2>
+<ul>
+  <li>Title : LED_Segment_Display_Simulator</li>
+  <li>Description: Simulator to display LED segments, 7, 9, 14, and 16 segment displays supported
+includes ASCII fonts and spreadsheet Character Creator.
+A segment display is a form of electronic display device for displaying characters.</li>
+  <li>Code: JavaScript - P5 library</li>
+  <li>Copyright 2020, Gavin Lyons, GPL.</li>
+</ul>
+:ET

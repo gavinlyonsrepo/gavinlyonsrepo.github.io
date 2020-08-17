@@ -1,0 +1,10 @@
+I"Í<ul>
+  <li>first version 1.0-1</li>
+  <li>A python 3 library for various motors and servos to connect to a raspberry pi</li>
+  <li>Written in python 3</li>
+  <li>Two categories of components currently :-</li>
+  <li>(1) 28BYJ-48 Stepper motor + ULN2003 driver board</li>
+  <li>(2) Servo GPIO PWM , tested on a servo with a 20mS duty cycle should work for most servos.</li>
+  <li><a href="https://github.com/gavinlyonsrepo/RpiMotorLib">RpiMotorLib</a></li>
+</ul>
+:ET

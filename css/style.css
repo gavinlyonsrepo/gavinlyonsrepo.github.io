@@ -109,14 +109,21 @@ body{
 
 /* Apply to table  id t01 ( table in Arduino.html and pic.html page */
 
-#t01, th, td  {
-   width:100%;
-   border: 2px solid black;
-   position:relative;
-   background-color: #eee;
-   margin:auto;
-   background-image:url('../images/bgimage.jpg');
+#to1 {
+  width: 100%;
+  border: 10px solid black;
+  padding: 8px;
 }
 
+#to1 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
 
+}
 
+#to1 tr{
+  background-color: white;
+}

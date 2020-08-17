@@ -1,0 +1,9 @@
+I"L<ol>
+  <li>Version 2.0.0 July 2020</li>
+  <li>LCDFillBlock() method added</li>
+  <li>Modify LCDclear() to take parameter to fill screen with pattern.</li>
+  <li>LCDCustomChar() method added to display custom characters</li>
+  <li>Added two new Large Fonts, Font 7 Large and Font 8 Huge</li>
+  <li>Added new example file.</li>
+</ol>
+:ET

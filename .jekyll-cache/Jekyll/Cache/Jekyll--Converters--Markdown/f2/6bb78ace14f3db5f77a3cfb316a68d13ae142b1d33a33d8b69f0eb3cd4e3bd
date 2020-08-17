@@ -1,0 +1,9 @@
+I"Ë<ol>
+  <li>first version 1.1-1.</li>
+  <li>Command line python utility.</li>
+  <li>Converts the opml(Xml) file of a youtube user subscriptions provided by youtube.</li>
+  <li>Into a text file which can added to RSS reader setup file file, like newsboat for example.</li>
+  <li>Thus converting your youtube subscriptions, into a group of tagged RSS feeds.</li>
+  <li><a href="https://github.com/gavinlyonsrepo/opml_convert_RSS">opml_convert_RSS</a></li>
+</ol>
+:ET

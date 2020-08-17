@@ -1,0 +1,11 @@
+I"y<h2 id="version-20-1-feb-2019">version 2.0-1 Feb 2019</h2>
+
+<ol>
+  <li>Added third test, third button.</li>
+  <li>Improved and Optimised the information display on the OLED.</li>
+  <li>Status LED implemented using NANO onboard LED.</li>
+  <li>Documentation and schematics improvements.</li>
+</ol>
+
+<p><a href="https://github.com/gavinlyonsrepo/Cap_meter_arduino">Meter</a></p>
+:ET

@@ -1,0 +1,7 @@
+I"I<ul>
+  <li>Lynis and rkhunter removed.</li>
+  <li>Updates due to upstream changes to lostfiles and auracle.</li>
+  <li>optdepends ccrypt moved from community to AUR, changing documentation and SW to reflect.</li>
+  <li>Update to package list generator as “base” is now a package as opposed to a group of packages.</li>
+</ul>
+:ET

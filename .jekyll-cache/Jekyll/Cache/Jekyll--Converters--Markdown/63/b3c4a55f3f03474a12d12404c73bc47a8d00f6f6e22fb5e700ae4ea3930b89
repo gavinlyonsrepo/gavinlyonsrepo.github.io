@@ -1,0 +1,16 @@
+I"�<h3 id="version-55-7-081212">Version 5.5-7 081212</h3>
+
+<ul>
+  <li>optional dependency “lostfiles” was moved from AUR to community repo, 
+changed documentation and SW to reflect.(5.4-6)</li>
+  <li>package list generator size increased from 25 to 26</li>
+  <li>added package list help file to install and added it to help display.</li>
+  <li>Two new trizen options added</li>
+  <li>Multilib repo size calculation bug corrected on system help page
+(only appeared if mutlilib was both enabled and empty)</li>
+  <li>
+    <p>Various minor optimisations.</p>
+  </li>
+  <li><a href="https://github.com/gavinlyonsrepo/cylon">Cylon</a></li>
+</ul>
+:ET

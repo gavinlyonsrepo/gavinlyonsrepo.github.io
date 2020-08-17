@@ -1,0 +1,8 @@
+I")<ul>
+  <li>Name: timer_arduino</li>
+  <li>Title : Countdown Timer, arduino based.</li>
+  <li>Description: Countdown Timer: 1-99 minutes. Output(mm:ss) to seven segment display(TM1637) and Buzzer.
+Push button to start.  10K Pot used for time select input.</li>
+  <li>Author: Gavin Lyons</li>
+</ul>
+:ET

@@ -1,0 +1,7 @@
+I"ü<ul>
+  <li>Changes to graph modes due to matplotlib upgrade to 2.2.2 causing some display issues</li>
+  <li>Data mode and Notify mode added.</li>
+</ul>
+
+<p><a href="https://github.com/gavinlyonsrepo/raspberrypi_tempmon">Rpi temperature monitor</a></p>
+:ET

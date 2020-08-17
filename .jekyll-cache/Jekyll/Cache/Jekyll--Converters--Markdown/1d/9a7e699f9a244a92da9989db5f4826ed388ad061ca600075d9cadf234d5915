@@ -1,0 +1,9 @@
+I" <ul>
+  <li>Added support for pigpio library for servo control.(version 2.2)</li>
+  <li>Added DC motors driven by L9110S module</li>
+  <li>
+    <p>Added DC motors driven by DRV8833 module</p>
+  </li>
+  <li><a href="https://github.com/gavinlyonsrepo/RpiMotorLib">RpiMotorLib</a></li>
+</ul>
+:ET

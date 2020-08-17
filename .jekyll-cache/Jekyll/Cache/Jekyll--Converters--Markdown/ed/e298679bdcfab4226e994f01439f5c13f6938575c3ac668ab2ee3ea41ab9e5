@@ -1,0 +1,10 @@
+I"3<ul>
+  <li>
+    <p>Aur helper and optional dependency “cower” replaced by “auracle-git”, 
+as cower is now obsolete,  see here : <a href="https://github.com/falconindy/auracle">auracle</a></p>
+  </li>
+  <li>
+    <p>new option added to package list generator, for total of 25 lists.</p>
+  </li>
+</ul>
+:ET

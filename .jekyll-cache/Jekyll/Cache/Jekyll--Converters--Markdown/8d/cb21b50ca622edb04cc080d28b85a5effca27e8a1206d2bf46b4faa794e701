@@ -1,0 +1,10 @@
+I"�<ul>
+  <li>Added Nema stepper driven by motor controller A3967 “Easy Driver”</li>
+  <li>Added Nema stepper driven by motor controller DRV8825</li>
+  <li>
+    <p>Added new option (sweeplen) to servo_sweep method. 
+Defines a fixed length to the sweep rather than a continuous loop.</p>
+  </li>
+  <li><a href="https://github.com/gavinlyonsrepo/RpiMotorLib">RpiMotorLib</a></li>
+</ul>
+:ET

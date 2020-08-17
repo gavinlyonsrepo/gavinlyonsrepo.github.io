@@ -1,0 +1,12 @@
+I"ü<ul>
+  <li>version 2.2-3
+    <ul>
+      <li>For mail mode, replaced ssmpt with msmtp in mail function.</li>
+      <li>ssmtp had to be replaced as ssmtp is deprecated in RPi <a href="https://raspberrypi.stackexchange.com/questions/99968/cannot-send-mail-from-buster">Buster</a>,</li>
+      <li>and is considered obsolete, users were reporting issues via mail.</li>
+      <li>Users using mail mode option will have to install and configure msmtp.</li>
+      <li>Details in Readme.</li>
+    </ul>
+  </li>
+</ul>
+:ET

@@ -1,0 +1,10 @@
+I"�<ul>
+  <li>Package list expanded from 10 to 20 items</li>
+  <li>Extra information added to system display.</li>
+  <li>Pull request by “uros-stegic” to fix typo on system display page added</li>
+  <li>Dependency array code optimisation to HelpFunc instead of long list</li>
+  <li>prompt and information display for orphan delete option added</li>
+  <li>CowerFunc new option to search AUR packages by orphan maintainer.</li>
+  <li>Ascii art placed in function AsciiArtFunc.</li>
+</ul>
+:ET

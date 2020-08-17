@@ -1,0 +1,10 @@
+I"E<ul>
+  <li>Two new package lists added to package list generator.</li>
+  <li>New optional environment variable to allow for no colour “CYLON_COLOR_OFF”.</li>
+  <li>System information display optimisations.</li>
+  <li>New system maintenance option added “List All Open Files”, htop removed as dependency.</li>
+  <li>Option to backup GPT partition added in addition to MBR. also rsync option optimised.</li>
+  <li>New command line option added “notify -n” to enable desktop notifications.</li>
+  <li><a href="https://github.com/gavinlyonsrepo/cylon">Cylon</a></li>
+</ul>
+:ET
