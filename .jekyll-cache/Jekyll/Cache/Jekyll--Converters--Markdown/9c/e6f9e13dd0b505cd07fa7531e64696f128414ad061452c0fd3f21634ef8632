@@ -1,0 +1,38 @@
+I"�<ul>
+  <li>Name :  ERM19264_UC1609</li>
+  <li>Title : Library for ERM19264-5 v3 LCD  (UC1609C controller) for the Arduino eco-system</li>
+  <li>Description :</li>
+</ul>
+
+<ol>
+  <li>Arduino library.</li>
+  <li>Inverse, rotate and contrast control.</li>
+  <li>ASCII text strings and character text display.</li>
+  <li>Graphics library included based on the Adafruit GFX library.</li>
+  <li>Sleep mode.</li>
+  <li>3 different modes: Multi-buffer , single buffer , light weight text only</li>
+  <li>custom bitmaps supported.</li>
+</ol>
+
+<ul>
+  <li>Tested on following MCUs both software and hardware SPI,
+The example files are setup for an UNO for the pin connections used 
+by for other MCU testing see extras folder GPIO_MCU_used.txt file.</li>
+</ul>
+
+<ol>
+  <li>Arduino  UNO &amp; NANO v3</li>
+  <li>ESP8266</li>
+  <li>ESP32</li>
+  <li>STM32 “blue pill”</li>
+</ol>
+
+<ul>
+  <li>
+    <p>Library for ERM19264_ LCD , UC1609 controller, <a href="https://github.com/gavinlyonsrepo/ERM19264_UC1609">here at github, Link.</a></p>
+  </li>
+  <li>
+    <p>There is also stand-alone text only light weight version <a href="https://github.com/gavinlyonsrepo/ERM19264_UC1609_T">here at github, link</a></p>
+  </li>
+</ul>
+:ET
