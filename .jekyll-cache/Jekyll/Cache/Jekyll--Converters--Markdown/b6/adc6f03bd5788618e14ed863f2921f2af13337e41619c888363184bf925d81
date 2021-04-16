@@ -1,9 +1,4 @@
----
-layout: page
-title: About
-permalink: /about/
----
-<html>
+I"w<html>
 <body>	
 	<div class="bgimage">
 		 <div class="container">
@@ -16,12 +11,12 @@ permalink: /about/
 
 		<h4> Contact Details: </h4>
 			<address>
-				<p> Author: {{site.name}} </p>
+				<p> Author: Gavin Lyons </p>
 				<p> Github: <a href="https://github.com/gavinlyonsrepo">gavinlyonsrepo</a></p>
 				<p> Donations: <a href="https://paypal.me/whitelight976">Paypal</a></p>
-				<p> Email: <a href="mailto:{{site.author_email}}">{{site.email}}</a></p>
-				<p> PGP Key: <a href="http://pgp.mit.edu/pks/lookup?search=0x6950C2BF&op=index&fingerprint=on">0x6950C2BF</a></p>
-				<p class="Rss-subscribe:">Subscribe: <a href="{{ "/feed.xml" |  absolute_url }}"> via RSS feed</a></p>   
+				<p> Email: <a href="mailto:">glyons66@hotmail.com</a></p>
+				<p> PGP Key: <a href="http://pgp.mit.edu/pks/lookup?search=0x6950C2BF&amp;op=index&amp;fingerprint=on">0x6950C2BF</a></p>
+				<p class="Rss-subscribe:">Subscribe: <a href="http://localhost:4000/feed.xml"> via RSS feed</a></p>   
 				</address>
 				
 				<p> This website is written using the Jekyll static site generator with HTML and CSS.
@@ -32,13 +27,4 @@ permalink: /about/
 </body>
 </html>
 
-
-
-
-
-
-
-
-
-
-
+:ET

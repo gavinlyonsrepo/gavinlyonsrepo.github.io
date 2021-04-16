@@ -1,0 +1,15 @@
+I"ì<ul>
+  <li>version 1.1.0 April 2021
+    <ul>
+      <li>Minor update</li>
+      <li>Typos in Keyword.txt and,  Example file -MISC  removed.</li>
+      <li>Delay <UC1609_RESET_DELAY2> reduced, as ERM19264SBS (white on blue)version of LCD on  Software SPI would not initialise, intermittently.</UC1609_RESET_DELAY2></li>
+      <li>Example -TEST new test added to print out extended ASCII font.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Library for ERM19264_ LCD , UC1609 controller, <a href="https://github.com/gavinlyonsrepo/ERM19264_UC1609">here at github, Link.</a></p>
+  </li>
+  <li>There is also a stand-alone, text only, light weight version available <a href="https://github.com/gavinlyonsrepo/ERM19264_UC1609_T">here at github, link</a></li>
+</ul>
+:ET

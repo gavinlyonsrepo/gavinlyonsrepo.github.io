@@ -22,11 +22,12 @@ body{
 	background-image:url('../images/myicon.png');
 	width:48px;
 	height:48px;
-	border:0px solid #000;
+	border:2px solid #000;
 	position:relative;
 	right: 250px;
 	background-repeat: no-repeat;
 	background-position: left center;
+	border-radius: 10px;
 }
 
 
@@ -70,7 +71,7 @@ body{
 	background-image:url('../images/bgimage.jpg');
 	border:5px solid black;
 	background-position:top;
-	background-repeat: repeat;
+	background-repeat: no-repeat;
 	padding: 15px;
 	border-radius: 20px;
    

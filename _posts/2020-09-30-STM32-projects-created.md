@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "STM32 projects, 1-0-1 created"
-categories:  [c, cpp]
+categories:  [c, cpp,stm32]
 ---
 
 * Name: STM32_projects

@@ -1,0 +1,11 @@
+I"¤<ul>
+  <li>version 1.1.0 April 2021
+    <ul>
+      <li>Minor update</li>
+      <li>Typos in Keyword.txt and,  Example file -MISC  removed.</li>
+      <li>Delay <UC1609_RESET_DELAY2> reduced, as ERM19264SBS (white on blue)version of LCD on  Software SPI would not initialise, intermittently.</UC1609_RESET_DELAY2></li>
+      <li>Example -TEST new test added to print out extended ASCII font.</li>
+    </ul>
+  </li>
+</ul>
+:ET
