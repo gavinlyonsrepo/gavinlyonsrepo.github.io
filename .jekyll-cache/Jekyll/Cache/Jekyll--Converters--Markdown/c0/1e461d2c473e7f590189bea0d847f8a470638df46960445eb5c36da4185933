@@ -1,0 +1,11 @@
+I"7<ul>
+  <li>version 3.0-1 150421
+    <ul>
+      <li>Pull request number eight merged.</li>
+      <li>Added Motor-stop method to all stepper motors classes</li>
+      <li>Added Servo-Stop method to all servo classes</li>
+      <li>Servo pigpio: make pigpio host and port configurable</li>
+    </ul>
+  </li>
+</ul>
+:ET
