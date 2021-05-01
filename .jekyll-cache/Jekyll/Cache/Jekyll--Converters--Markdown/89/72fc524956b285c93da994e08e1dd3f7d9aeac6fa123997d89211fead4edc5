@@ -1,0 +1,35 @@
+I"�<ul>
+  <li>Name : ER_OLEDM1_CH1115</li>
+  <li>Title : Library to support the ER-OLEDM1.09-1 128X64 OLED Display Module driven by the CH1115 controller for the Arduino eco-system.</li>
+  <li>Description :</li>
+</ul>
+
+<ol>
+  <li>Arduino library.</li>
+  <li>Inverse colour, vertical rotate, sleep, fade effect, horizontal scroll and contrast control.</li>
+  <li>Extended ASCII scalable font.</li>
+  <li>Graphics class included, based on the Adafruit GFX library.</li>
+  <li>3 different modes: Multi-buffer , single buffer , no buffer.</li>
+  <li>Bitmaps supported.</li>
+  <li>Hardware &amp; software SPI options</li>
+</ol>
+
+<ul>
+  <li>Author: Gavin Lyons</li>
+  <li>
+    <p>Arduino IDE: 1.8.10</p>
+  </li>
+  <li>Tested on following MCUs both software and hardware SPI,
+The example files are setup for an UNO for the pin connections used 
+by for other MCU testing see extras folder, GPIO_MCU_used.txt file.
+    <ol>
+      <li>Arduino  UNO &amp; NANO v3</li>
+      <li>ESP8266</li>
+      <li>ESP32</li>
+      <li>STM32 “blue pill”</li>
+    </ol>
+  </li>
+  <li>Library for ER-OLEDM1.09-1  , CH1115 controller, <a href="https://github.com/gavinlyonsrepo/ER_OLEDM1_CH1115">here at github, Link.</a></li>
+</ul>
+
+:ET

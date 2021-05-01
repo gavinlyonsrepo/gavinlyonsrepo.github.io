@@ -20,7 +20,7 @@ description: "This blog documents open source work in the github repository name
 author: Gavin Lyons (C) 2017
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: "https://gavinlyonsrepo.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: "@liontron2"
+twitter_username: ""
 github_username: gavinlyonsrepo
 permalink: date
 
