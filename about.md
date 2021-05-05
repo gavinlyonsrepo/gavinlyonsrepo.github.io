@@ -27,9 +27,9 @@ permalink: /about/
 				</address>
 				
 				<a href="https://github.com/gavinlyonsrepo/gavinlyonsrepo">
-				  <img align="center" src="https://github-readme-stats.vercel.app/api?username=gavinlyonsrepo&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="GitHub Stats" />
+				  <img align="center" src="https://github-readme-stats.vercel.app/api?username=gavinlyonsrepo&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&hide_rank=true&include_all_commits=true&border_radius=50&hide=contribs" alt="" />
 				</a>
-				
+
 				<p> This website is written using the Jekyll static site generator with HTML and CSS.
 			 It is hosted on github pages free static website feature. </p>
 			

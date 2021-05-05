@@ -1,4 +1,4 @@
-I"><html>
+I"…<html>
 <body>	
 	<div class="bgimage">
 		 <div class="container">
@@ -22,9 +22,9 @@
 				</address>
 				
 				<a href="https://github.com/gavinlyonsrepo/gavinlyonsrepo">
-				  <img align="center" src="https://github-readme-stats.vercel.app/api?username=gavinlyonsrepo&amp;show_icons=true&amp;line_height=27&amp;count_private=true&amp;title_color=ffffff&amp;text_color=c9cacc&amp;icon_color=2bbc8a&amp;bg_color=1d1f21" alt="GitHub Stats" />
+				  <img align="center" src="https://github-readme-stats.vercel.app/api?username=gavinlyonsrepo&amp;show_icons=true&amp;line_height=27&amp;count_private=true&amp;title_color=ffffff&amp;text_color=c9cacc&amp;icon_color=2bbc8a&amp;bg_color=1d1f21&amp;hide_rank=true&amp;include_all_commits=true&amp;border_radius=50&amp;hide=contribs" alt="" />
 				</a>
-				
+
 				<p> This website is written using the Jekyll static site generator with HTML and CSS.
 			 It is hosted on github pages free static website feature. </p>
 			
