@@ -1,5 +1,6 @@
-.sass-cache
+.sass-cache/
 .jekyll-metadata
+.jekyll-cache/
 Gemfile.lock
 mystuff
 _site
