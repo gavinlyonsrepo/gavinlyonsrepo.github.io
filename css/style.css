@@ -96,7 +96,7 @@ body{
 
 /* id footimage , image in footer.html */
 #footimage{
-	background-image:url('../images/footimage.jpg');
+	background-image:url('../images/foot_image.jpg');
 	width:230px;
 	height:100px;
 	border:3px solid #000;
