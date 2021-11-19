@@ -13,7 +13,8 @@ permalink: /about/
 			
 			If you used these libraries and projects and found them useful you can donate below.
 			<br><br>
-			For business inquiries or ideas for new open source projects please contact by email below.
+			For business inquiries or ideas for new open source projects please contact by email below.<br><br>
+			
 			If you have a issue with a project, best to contact at the relevant github repository. 
 			 </p> 
 
