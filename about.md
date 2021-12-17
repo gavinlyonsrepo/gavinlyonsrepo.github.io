@@ -30,7 +30,6 @@ permalink: /about/
 				
 				<p> This website is written using the Jekyll static site generator with HTML and CSS.
 			 It is hosted on github pages free static website feature. </p>
-			
 		</div>
 	</div>		
 </body>
