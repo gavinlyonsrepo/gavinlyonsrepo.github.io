@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Raspberry Pi library TM1638plus_RPI  created"
+title:  "Raspberry Pi library TM1638plus_PICO  created"
 categories: [cpp, rpi]
 ---
 
