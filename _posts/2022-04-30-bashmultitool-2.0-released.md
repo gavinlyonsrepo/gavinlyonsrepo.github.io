@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "BashMultitTool 2.0-1 released"
+title:  "BashMultiTool 2.0-1 released"
 categories: [shell, linux_utilities]
 ---
 
