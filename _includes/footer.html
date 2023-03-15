@@ -1,31 +1,40 @@
-<footer class="site-footer">
-
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+      <!-- my footer image -->
+    <section id="footimage"> </section>
   <div class="wrapper">
+	
+  <!--  <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
+	
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-            <div class="footertext">          
-                <li>
-                {% if site.author %}
-                   {{ site.author | escape }} 
-                {% else %}
-                  {{ site.name | escape }}
-                {% endif %}
-                </li>
-            </div>
+          <li> {{ site.title | escape }}</li>
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+            </li>
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
         </ul>
       </div>
-       
-        <div class="footertext"> 
-              <div class="footer-col footer-col-3">
-                <p>  {{ site.description | escape }}  
-                 <a href="https://github.com/gavinlyonsrepo">gavinlyonsrepo.</a></p>              
-              </div>             
-        </div>
-    
-  
-     <!-- my foot image -->
-    <section id="footimage"> </section>>
-    </div>   
-  </div>    
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+      <!--
+      <div class="footer-col footer-col-3">
+        <p>{{- site.description | escape -}}</p>
+      </div>
+      -->
+      
+
+    </div>
+
+  </div>
+
 </footer>

@@ -16,13 +16,15 @@
 name: Gavin Lyons
 title: "Tech Blog" 
 email: glyons66@hotmail.com
-description: "This blog documents open source work in the github repository named :"
+description: "This blog documents open source work in the github repository linked."
 author: Gavin Lyons (C) 2017
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: "https://gavinlyonsrepo.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ""
+twitter_username: typematrix99
 github_username: gavinlyonsrepo
+rss: RSS feed
 permalink: date
+
 
 # Build settings
 markdown: kramdown

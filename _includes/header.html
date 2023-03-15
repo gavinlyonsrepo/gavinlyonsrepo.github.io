@@ -1,6 +1,8 @@
 <header class="site-header" role="banner">
-  
+  	<!-- icon top left-->
+  	 <section id="myicon"> </section>
   <div class="wrapper">
+ 
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>   
@@ -32,8 +34,6 @@
       </nav>
     {% endif %}
     
-   <!-- icon top right -->
-  <section id="myicon"> </section>
   </div>
 
 </header>

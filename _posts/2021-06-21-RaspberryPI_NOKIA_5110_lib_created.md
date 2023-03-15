@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Raspberry Pi library NOKIA_5110_RPI  created"
-categories: [c, rpi]
+categories: [cpp, rpi]
 ---
 
 Overview
@@ -10,7 +10,7 @@ Overview
 * Description:
 
 0. C Library for Nokia 5110 LCD, PCD8544 Driver. 84 x 48 pixels.
-1. Dynamic install-able Raspberry Pi C library.
+1. Dynamic install-able Raspberry Pi C++ library.
 2. Inverse colour, rotate, sleep, contrast methods supported.
 3. Five fonts
 4. Graphics class included.

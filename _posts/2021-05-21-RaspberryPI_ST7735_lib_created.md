@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Raspberry Pi library ST7735_TFT  created"
-categories: [c, rpi]
+categories: [cpp, rpi]
 ---
 
 * Name: ST7735_TFT_RPI
@@ -9,7 +9,7 @@ categories: [c, rpi]
 
 0. Library for TFT SPI LCD, ST7735 Driver, RED PCB v1.1, 1.44'', 128 x 128 pixels. 
 no SD card holder.
-1. Raspberry Pi C library, gcc.      
+1. Raspberry Pi C++ library, gcc.      
 2. Inverse colour, rotate, sleep, idle mode & verticaly scroll methods supported. 
 3. Five fonts 
 4. Graphics class included.
