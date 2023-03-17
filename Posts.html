@@ -8,16 +8,21 @@ permalink: /posts/
 <h3>Blog post sorted by year.  Total : #{{ site.posts | size }}  </h3>
 <div class="bgimage">
 	<div class="container">
-		<ul>
-		{% for post in site.posts %}
-		  {% assign currentdate = post.date | date: "%Y" %}
-		  {% if currentdate != date %}
-			<li id="y{{currentdate}}">{{ currentdate }}</li>
-			{% assign date = currentdate %} 
-		  {% endif %}
-			<li><span>{{ post.date | date: "%b" }}</span>  : : <a href="{{ post.url }}">{{ post.title }}</a></li>
+		{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+		{% for year in postsByYear %}
+			<h2>{{ year.name }}</h2>
+			{% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%B'" %}
+			{% for month in postsByMonth %}
+				{{ month.name }}
+				<ul>
+					{% for post in month.items %}
+						<li>
+							<a href="{{ post.url }}">{{ post.title }}</a>
+						</li>
+					{% endfor %}
+			</ul>
+			{% endfor %}
 		{% endfor %}
-		</ul>
 	</div>
 </div>
 </body>
