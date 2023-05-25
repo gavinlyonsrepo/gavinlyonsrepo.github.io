@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MAX7219_7SEG_RPI
-   &#160;<span id="projectnumber">1.1.0</span>
+   &#160;<span id="projectnumber">1.2.0</span>
    </div>
    <div id="projectbrief">MAX7219 seven segment Driver, Raspberry PI C++ library</div>
   </td>
@@ -58,6 +58,35 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:a7ab93492652a5c249caed7d1508b5955"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a7ab93492652a5c249caed7d1508b5955">DecodeMode_e</a> : uint8_t { <a class="el" href="classMAX7219__SS__RPI.html#a7ab93492652a5c249caed7d1508b5955a0f49852fbb7d047906858db9e06ca027">DecodeModeNone</a> = 0x00
+, <a class="el" href="classMAX7219__SS__RPI.html#a7ab93492652a5c249caed7d1508b5955a5513f09667c2846fda47edb6a570bb7b">DecodeModeBCDOne</a> = 0x01
+, <a class="el" href="classMAX7219__SS__RPI.html#a7ab93492652a5c249caed7d1508b5955aab8257204d0950a533b691828c7ea6bf">DecodeModeBCDTwo</a> = 0x0F
+, <a class="el" href="classMAX7219__SS__RPI.html#a7ab93492652a5c249caed7d1508b5955abf08c802e624646388ce8bbfed19d771">DecodeModeBCDThree</a> = 0xFF
+ }</td></tr>
+<tr class="separator:a7ab93492652a5c249caed7d1508b5955"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16e558b5c26bd45ba685262aa73a3496"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496">CodeBFont_e</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496a3a7dcae5adfb66886f0bb8d223918812">CodeBFontZero</a> = 0x00
+, <a class="el" href="classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496a7f1016e792b46304f0c22b191870dcf6">CodeBFontOne</a> = 0x01
+, <a class="el" href="classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496a187a03f90b88239a4bee2a4b8bc05905">CodeBFontTwo</a> = 0x02
+, <a class="el" href="classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496a84eea18e8f5af7a621791d9f5ca3bb19">CodeBFontThree</a> = 0x03
+, <br />
+&#160;&#160;<a class="el" href="classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496a50adda0ffa58e579274ee7cd1a9508c4">CodeBFontFour</a> = 0x04
+, <a class="el" href="classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496af8872617409e77d92273e8df50b225e7">CodeBFontFive</a> = 0x05
+, <a class="el" href="classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496adadc05c6c3639b699455f525d44c4d01">CodeBFontSix</a> = 0x06
+, <a class="el" href="classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496a74b0793e4be3936c7069efdc3c82632c">CodeBFontSeven</a> = 0x07
+, <br />
+&#160;&#160;<a class="el" href="classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496a2c3b53526839e291dd9c592547daebb3">CodeBFontEight</a> = 0x08
+, <a class="el" href="classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496a0780889ad6e60249579b840348058da4">CodeBFontNine</a> = 0x09
+, <a class="el" href="classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496acf90b7fca4c7c290475a75e37a389725">CodeBFontDash</a> = 0x0A
+, <a class="el" href="classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496ac28b5e98aefed35c0e5ee00e4c33cca2">CodeBFontE</a> = 0x0B
+, <br />
+&#160;&#160;<a class="el" href="classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496ab3e48fd5eaee857b5d17311483805baf">CodeBFontH</a> = 0x0C
+, <a class="el" href="classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496a47f937e971ec3c65faa7ff993e374edd">CodeBFontL</a> = 0x0D
+, <a class="el" href="classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496a5f5e7a920cba7b6a4954c15e8f9c7473">CodeBFontP</a> = 0x0E
+, <a class="el" href="classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496aaed7eaba517a44e600957f6cc7d9ce63">CodeBFontSpace</a> = 0x0F
+<br />
+ }</td></tr>
+<tr class="separator:a16e558b5c26bd45ba685262aa73a3496"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a375b0775632361fe21d29133007547d9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a375b0775632361fe21d29133007547d9">TextAlignment_e</a> : uint8_t { <a class="el" href="classMAX7219__SS__RPI.html#a375b0775632361fe21d29133007547d9adf07e88e11953d68e9f05cde997cb95a">AlignLeft</a> = 0
 , <a class="el" href="classMAX7219__SS__RPI.html#a375b0775632361fe21d29133007547d9a15b96b00162439d171c3753a5f5f60ac">AlignRight</a> = 1
 , <a class="el" href="classMAX7219__SS__RPI.html#a375b0775632361fe21d29133007547d9a9173dc25fc115c235b505bb2d5488424">AlignRightZeros</a> = 2
@@ -72,6 +101,19 @@ Public Types</h2></td></tr>
 , <a class="el" href="classMAX7219__SS__RPI.html#a5b9b5d28ece169dea457918a75ec0fd0a7a96d8c8e0f363554b0f1c59ccd02f16">IntensityMax</a> = 0x0F
  }</td></tr>
 <tr class="separator:a5b9b5d28ece169dea457918a75ec0fd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a885f7e7134b7ebb1569f5431ecbab253"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253">ScanLimit_e</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253a1d2c8ed09706387e7fa7d79816a19ddd">ScanOneDigit</a> = 0x00
+, <a class="el" href="classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253a999524d15a0ae88711006fc480eacfb4">ScanTwoDigit</a> = 0x01
+, <a class="el" href="classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253ace171b2232c279b3c2e08f89b51ed188">ScanThreeDigit</a> = 0x02
+, <a class="el" href="classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253a47d955d428f5e06db351578e24f7ea78">ScanFourDigit</a> = 0x03
+, <br />
+&#160;&#160;<a class="el" href="classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253aaf1cbe53d508f9a2ba2203cbcb1629f4">ScanFiveDigit</a> = 0x04
+, <a class="el" href="classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253a5a1abe2e4e4d149306fc48ea66c49fd9">ScanSixDigit</a> = 0x05
+, <a class="el" href="classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253a16a1a37a233dfaddc28fc7a5ca444ec3">ScanSevenDigit</a> = 0x06
+, <a class="el" href="classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253a3b5ddff5467f95d7a7b662c66c040480">ScanEightDigit</a> = 0x07
+<br />
+ }</td></tr>
+<tr class="separator:a885f7e7134b7ebb1569f5431ecbab253"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10c504879398d960ca3efd6acf45087b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a10c504879398d960ca3efd6acf45087b">RegisterModes_e</a> : uint8_t { <br />
 &#160;&#160;<a class="el" href="classMAX7219__SS__RPI.html#a10c504879398d960ca3efd6acf45087ba9a93cff941c743e79ed754cca0439749">MAX7219_REG_NOP</a> = 0x00
 , <a class="el" href="classMAX7219__SS__RPI.html#a10c504879398d960ca3efd6acf45087ba003460d12a7bb8cc28dc6d176f5e0518">MAX7219_REG_DecodeMode</a> = 0x09
@@ -92,31 +134,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aab3fe4648348a901600c9c955ea089ed"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#aab3fe4648348a901600c9c955ea089ed">MAX7219_SS_RPI</a> (uint32_t kiloHertz, uint8_t SPICEX_PIN)</td></tr>
 <tr class="memdesc:aab3fe4648348a901600c9c955ea089ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for class <a class="el" href="classMAX7219__SS__RPI.html" title="The main Class , used drive MAX7219 seven segment displays.">MAX7219_SS_RPI</a> hardware SPI.  <a href="classMAX7219__SS__RPI.html#aab3fe4648348a901600c9c955ea089ed">More...</a><br /></td></tr>
 <tr class="separator:aab3fe4648348a901600c9c955ea089ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ca28573b5052609f8ff89fa7ba12636"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a2ca28573b5052609f8ff89fa7ba12636">InitDisplay</a> (uint8_t numDigits, uint8_t decodeMode)</td></tr>
-<tr class="memdesc:a2ca28573b5052609f8ff89fa7ba12636"><td class="mdescLeft">&#160;</td><td class="mdescRight">Init the display.  <a href="classMAX7219__SS__RPI.html#a2ca28573b5052609f8ff89fa7ba12636">More...</a><br /></td></tr>
-<tr class="separator:a2ca28573b5052609f8ff89fa7ba12636"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba981ae806818b5e96d439057f4fed18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#aba981ae806818b5e96d439057f4fed18">InitDisplay</a> (<a class="el" href="classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253">ScanLimit_e</a> numDigits, <a class="el" href="classMAX7219__SS__RPI.html#a7ab93492652a5c249caed7d1508b5955">DecodeMode_e</a> decodeMode)</td></tr>
+<tr class="memdesc:aba981ae806818b5e96d439057f4fed18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Init the display.  <a href="classMAX7219__SS__RPI.html#aba981ae806818b5e96d439057f4fed18">More...</a><br /></td></tr>
+<tr class="separator:aba981ae806818b5e96d439057f4fed18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42f56a9ff39cf98b8dbca28e79430aea"><td class="memItemLeft" align="right" valign="top"><a id="a42f56a9ff39cf98b8dbca28e79430aea"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a42f56a9ff39cf98b8dbca28e79430aea">ClearDisplay</a> (void)</td></tr>
 <tr class="memdesc:a42f56a9ff39cf98b8dbca28e79430aea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the display. <br /></td></tr>
 <tr class="separator:a42f56a9ff39cf98b8dbca28e79430aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1982c7f6d7a242c3abc3cf4303ca2929"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a1982c7f6d7a242c3abc3cf4303ca2929">DisplayChar</a> (uint8_t digit, uint8_t value, <a class="el" href="classMAX7219__SS__RPI.html#a5d094247fc99fe5c9ba970cf25a63802">DecimalPoint_e</a> decimalPoint)</td></tr>
-<tr class="memdesc:a1982c7f6d7a242c3abc3cf4303ca2929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays a character on display.  <a href="classMAX7219__SS__RPI.html#a1982c7f6d7a242c3abc3cf4303ca2929">More...</a><br /></td></tr>
-<tr class="separator:a1982c7f6d7a242c3abc3cf4303ca2929"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a540e8969a377269af1c44fd19558ca6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a540e8969a377269af1c44fd19558ca6c">DisplayText</a> (char *text, <a class="el" href="classMAX7219__SS__RPI.html#a375b0775632361fe21d29133007547d9">TextAlignment_e</a> TextAlignment)</td></tr>
-<tr class="memdesc:a540e8969a377269af1c44fd19558ca6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays a text string on display.  <a href="classMAX7219__SS__RPI.html#a540e8969a377269af1c44fd19558ca6c">More...</a><br /></td></tr>
-<tr class="separator:a540e8969a377269af1c44fd19558ca6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a905b29ad52983a4cb75ec60d6e766587"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a905b29ad52983a4cb75ec60d6e766587">DisplayText</a> (char *text)</td></tr>
-<tr class="memdesc:a905b29ad52983a4cb75ec60d6e766587"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays a text string on display.  <a href="classMAX7219__SS__RPI.html#a905b29ad52983a4cb75ec60d6e766587">More...</a><br /></td></tr>
-<tr class="separator:a905b29ad52983a4cb75ec60d6e766587"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a561b975f770afbda2252200ecb6b8d80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a561b975f770afbda2252200ecb6b8d80">SetSegment</a> (uint8_t digit, uint8_t segment)</td></tr>
-<tr class="memdesc:a561b975f770afbda2252200ecb6b8d80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a seven segment LED ON.  <a href="classMAX7219__SS__RPI.html#a561b975f770afbda2252200ecb6b8d80">More...</a><br /></td></tr>
-<tr class="separator:a561b975f770afbda2252200ecb6b8d80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6d801c5ec78aab75244395bc1b2acd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#af6d801c5ec78aab75244395bc1b2acd8">DisplayIntNum</a> (unsigned long number, <a class="el" href="classMAX7219__SS__RPI.html#a375b0775632361fe21d29133007547d9">TextAlignment_e</a> TextAlignment)</td></tr>
-<tr class="memdesc:af6d801c5ec78aab75244395bc1b2acd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display an integer and leading zeros optional.  <a href="classMAX7219__SS__RPI.html#af6d801c5ec78aab75244395bc1b2acd8">More...</a><br /></td></tr>
-<tr class="separator:af6d801c5ec78aab75244395bc1b2acd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1c6f28c03abc4d80f18bfbec96829ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#af1c6f28c03abc4d80f18bfbec96829ea">DisplayDecNumNibble</a> (uint16_t numberUpper, uint16_t numberLower, <a class="el" href="classMAX7219__SS__RPI.html#a375b0775632361fe21d29133007547d9">TextAlignment_e</a> TextAlignment)</td></tr>
-<tr class="memdesc:af1c6f28c03abc4d80f18bfbec96829ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display an integer in a nibble (4 digits on display)  <a href="classMAX7219__SS__RPI.html#af1c6f28c03abc4d80f18bfbec96829ea">More...</a><br /></td></tr>
-<tr class="separator:af1c6f28c03abc4d80f18bfbec96829ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d4de06ec2176a0f69f930b14e2e4fe1"><td class="memItemLeft" align="right" valign="top"><a id="a8d4de06ec2176a0f69f930b14e2e4fe1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a8d4de06ec2176a0f69f930b14e2e4fe1">DisplayEndOperations</a> (void)</td></tr>
+<tr class="memdesc:a8d4de06ec2176a0f69f930b14e2e4fe1"><td class="mdescLeft">&#160;</td><td class="mdescRight">End display operations, called at end of program before closing bcm2835 library. <br /></td></tr>
+<tr class="separator:a8d4de06ec2176a0f69f930b14e2e4fe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e9eaa543e6607010479672c7b57003f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a2e9eaa543e6607010479672c7b57003f">SetBrightness</a> (uint8_t brightness)</td></tr>
 <tr class="memdesc:a2e9eaa543e6607010479672c7b57003f"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the brighttness of display  <a href="classMAX7219__SS__RPI.html#a2e9eaa543e6607010479672c7b57003f">More...</a><br /></td></tr>
 <tr class="separator:a2e9eaa543e6607010479672c7b57003f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,20 +154,46 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a27117b1f3d6a9f6acbd7264d65cbec73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a27117b1f3d6a9f6acbd7264d65cbec73">ShutdownMode</a> (bool OnOff)</td></tr>
 <tr class="memdesc:a27117b1f3d6a9f6acbd7264d65cbec73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn on and off the Shutdown Mode.  <a href="classMAX7219__SS__RPI.html#a27117b1f3d6a9f6acbd7264d65cbec73">More...</a><br /></td></tr>
 <tr class="separator:a27117b1f3d6a9f6acbd7264d65cbec73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7db8fa5d1f6f2777bf02458f6c29410f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a7db8fa5d1f6f2777bf02458f6c29410f">SetCommDelay</a> (uint16_t commDelay)</td></tr>
-<tr class="memdesc:a7db8fa5d1f6f2777bf02458f6c29410f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the communication delay value.  <a href="classMAX7219__SS__RPI.html#a7db8fa5d1f6f2777bf02458f6c29410f">More...</a><br /></td></tr>
-<tr class="separator:a7db8fa5d1f6f2777bf02458f6c29410f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3075e50b777791ab50b7328138292386"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a3075e50b777791ab50b7328138292386">GetCommDelay</a> (void)</td></tr>
 <tr class="memdesc:a3075e50b777791ab50b7328138292386"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the communication delay value.  <a href="classMAX7219__SS__RPI.html#a3075e50b777791ab50b7328138292386">More...</a><br /></td></tr>
 <tr class="separator:a3075e50b777791ab50b7328138292386"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7db8fa5d1f6f2777bf02458f6c29410f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a7db8fa5d1f6f2777bf02458f6c29410f">SetCommDelay</a> (uint16_t commDelay)</td></tr>
+<tr class="memdesc:a7db8fa5d1f6f2777bf02458f6c29410f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the communication delay value.  <a href="classMAX7219__SS__RPI.html#a7db8fa5d1f6f2777bf02458f6c29410f">More...</a><br /></td></tr>
+<tr class="separator:a7db8fa5d1f6f2777bf02458f6c29410f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5fab44b6503bd9a9ce6545393cda28b"><td class="memItemLeft" align="right" valign="top"><a id="ae5fab44b6503bd9a9ce6545393cda28b"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#ae5fab44b6503bd9a9ce6545393cda28b">GetHardwareSPI</a> (void)</td></tr>
 <tr class="memdesc:ae5fab44b6503bd9a9ce6545393cda28b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get value of _HardwareSPI , true hardware SPI on , false off. <br /></td></tr>
 <tr class="separator:ae5fab44b6503bd9a9ce6545393cda28b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d4de06ec2176a0f69f930b14e2e4fe1"><td class="memItemLeft" align="right" valign="top"><a id="a8d4de06ec2176a0f69f930b14e2e4fe1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a8d4de06ec2176a0f69f930b14e2e4fe1">DisplayEndOperations</a> (void)</td></tr>
-<tr class="memdesc:a8d4de06ec2176a0f69f930b14e2e4fe1"><td class="mdescLeft">&#160;</td><td class="mdescRight">End display operations, called at end of program before closing bcm2835 library. <br /></td></tr>
-<tr class="separator:a8d4de06ec2176a0f69f930b14e2e4fe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad837f38af8f93acbf8b3f52c734d6c40"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#ad837f38af8f93acbf8b3f52c734d6c40">GetCurrentDisplayNumber</a> (void)</td></tr>
+<tr class="memdesc:ad837f38af8f93acbf8b3f52c734d6c40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Current Display Number.  <a href="classMAX7219__SS__RPI.html#ad837f38af8f93acbf8b3f52c734d6c40">More...</a><br /></td></tr>
+<tr class="separator:ad837f38af8f93acbf8b3f52c734d6c40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81ab31d510f7a5b569524d804ea9ced9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a81ab31d510f7a5b569524d804ea9ced9">SetCurrentDisplayNumber</a> (uint8_t)</td></tr>
+<tr class="memdesc:a81ab31d510f7a5b569524d804ea9ced9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Current Display Number.  <a href="classMAX7219__SS__RPI.html#a81ab31d510f7a5b569524d804ea9ced9">More...</a><br /></td></tr>
+<tr class="separator:a81ab31d510f7a5b569524d804ea9ced9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1982c7f6d7a242c3abc3cf4303ca2929"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a1982c7f6d7a242c3abc3cf4303ca2929">DisplayChar</a> (uint8_t digit, uint8_t value, <a class="el" href="classMAX7219__SS__RPI.html#a5d094247fc99fe5c9ba970cf25a63802">DecimalPoint_e</a> decimalPoint)</td></tr>
+<tr class="memdesc:a1982c7f6d7a242c3abc3cf4303ca2929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays a character on display.  <a href="classMAX7219__SS__RPI.html#a1982c7f6d7a242c3abc3cf4303ca2929">More...</a><br /></td></tr>
+<tr class="separator:a1982c7f6d7a242c3abc3cf4303ca2929"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a540e8969a377269af1c44fd19558ca6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a540e8969a377269af1c44fd19558ca6c">DisplayText</a> (char *text, <a class="el" href="classMAX7219__SS__RPI.html#a375b0775632361fe21d29133007547d9">TextAlignment_e</a> TextAlignment)</td></tr>
+<tr class="memdesc:a540e8969a377269af1c44fd19558ca6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays a text string on display.  <a href="classMAX7219__SS__RPI.html#a540e8969a377269af1c44fd19558ca6c">More...</a><br /></td></tr>
+<tr class="separator:a540e8969a377269af1c44fd19558ca6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a905b29ad52983a4cb75ec60d6e766587"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a905b29ad52983a4cb75ec60d6e766587">DisplayText</a> (char *text)</td></tr>
+<tr class="memdesc:a905b29ad52983a4cb75ec60d6e766587"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays a text string on display.  <a href="classMAX7219__SS__RPI.html#a905b29ad52983a4cb75ec60d6e766587">More...</a><br /></td></tr>
+<tr class="separator:a905b29ad52983a4cb75ec60d6e766587"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6d801c5ec78aab75244395bc1b2acd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#af6d801c5ec78aab75244395bc1b2acd8">DisplayIntNum</a> (unsigned long number, <a class="el" href="classMAX7219__SS__RPI.html#a375b0775632361fe21d29133007547d9">TextAlignment_e</a> TextAlignment)</td></tr>
+<tr class="memdesc:af6d801c5ec78aab75244395bc1b2acd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display an integer and leading zeros optional.  <a href="classMAX7219__SS__RPI.html#af6d801c5ec78aab75244395bc1b2acd8">More...</a><br /></td></tr>
+<tr class="separator:af6d801c5ec78aab75244395bc1b2acd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1c6f28c03abc4d80f18bfbec96829ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#af1c6f28c03abc4d80f18bfbec96829ea">DisplayDecNumNibble</a> (uint16_t numberUpper, uint16_t numberLower, <a class="el" href="classMAX7219__SS__RPI.html#a375b0775632361fe21d29133007547d9">TextAlignment_e</a> TextAlignment)</td></tr>
+<tr class="memdesc:af1c6f28c03abc4d80f18bfbec96829ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display an integer in a nibble (4 digits on display)  <a href="classMAX7219__SS__RPI.html#af1c6f28c03abc4d80f18bfbec96829ea">More...</a><br /></td></tr>
+<tr class="separator:af1c6f28c03abc4d80f18bfbec96829ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f0057a080eabe6f334d16238019f089"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a6f0057a080eabe6f334d16238019f089">DisplayBCDChar</a> (uint8_t digit, <a class="el" href="classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496">CodeBFont_e</a> value)</td></tr>
+<tr class="memdesc:a6f0057a080eabe6f334d16238019f089"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays a character on display using MAX7219 Built in BCD code B font.  <a href="classMAX7219__SS__RPI.html#a6f0057a080eabe6f334d16238019f089">More...</a><br /></td></tr>
+<tr class="separator:a6f0057a080eabe6f334d16238019f089"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30c36c8f49b7cc7534c7bce432178463"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a30c36c8f49b7cc7534c7bce432178463">DisplayBCDText</a> (char *text)</td></tr>
+<tr class="memdesc:a30c36c8f49b7cc7534c7bce432178463"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays a BCD text string on display using MAX7219 Built in BCD code B font.  <a href="classMAX7219__SS__RPI.html#a30c36c8f49b7cc7534c7bce432178463">More...</a><br /></td></tr>
+<tr class="separator:a30c36c8f49b7cc7534c7bce432178463"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a561b975f770afbda2252200ecb6b8d80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a561b975f770afbda2252200ecb6b8d80">SetSegment</a> (uint8_t digit, uint8_t segment)</td></tr>
+<tr class="memdesc:a561b975f770afbda2252200ecb6b8d80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a seven segment LED ON.  <a href="classMAX7219__SS__RPI.html#a561b975f770afbda2252200ecb6b8d80">More...</a><br /></td></tr>
+<tr class="separator:a561b975f770afbda2252200ecb6b8d80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -152,12 +206,12 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a615a5c99950ec91339e09cbe28120575"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a615a5c99950ec91339e09cbe28120575">ASCIIFetch</a> (uint8_t character, <a class="el" href="classMAX7219__SS__RPI.html#a5d094247fc99fe5c9ba970cf25a63802">DecimalPoint_e</a> decimalPoint)</td></tr>
 <tr class="memdesc:a615a5c99950ec91339e09cbe28120575"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fetch's the seven segment code for a given ASCII code from the font.  <a href="classMAX7219__SS__RPI.html#a615a5c99950ec91339e09cbe28120575">More...</a><br /></td></tr>
 <tr class="separator:a615a5c99950ec91339e09cbe28120575"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab503557a6131a43a8dc36aebb31feb1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#ab503557a6131a43a8dc36aebb31feb1a">SetDecodeMode</a> (uint8_t mode)</td></tr>
-<tr class="memdesc:ab503557a6131a43a8dc36aebb31feb1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the decode mode of the MAX7219 decode mode register.  <a href="classMAX7219__SS__RPI.html#ab503557a6131a43a8dc36aebb31feb1a">More...</a><br /></td></tr>
-<tr class="separator:ab503557a6131a43a8dc36aebb31feb1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60b38dc0c6e379c0c1cedfc16b633a31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a60b38dc0c6e379c0c1cedfc16b633a31">SetScanLimit</a> (uint8_t numDigits)</td></tr>
-<tr class="memdesc:a60b38dc0c6e379c0c1cedfc16b633a31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the decode mode of the MAX7219 decode mode register.  <a href="classMAX7219__SS__RPI.html#a60b38dc0c6e379c0c1cedfc16b633a31">More...</a><br /></td></tr>
-<tr class="separator:a60b38dc0c6e379c0c1cedfc16b633a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e81193ab7350128264b7562ad09287c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a1e81193ab7350128264b7562ad09287c">SetDecodeMode</a> (<a class="el" href="classMAX7219__SS__RPI.html#a7ab93492652a5c249caed7d1508b5955">DecodeMode_e</a> mode)</td></tr>
+<tr class="memdesc:a1e81193ab7350128264b7562ad09287c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the decode mode of the MAX7219 decode mode register.  <a href="classMAX7219__SS__RPI.html#a1e81193ab7350128264b7562ad09287c">More...</a><br /></td></tr>
+<tr class="separator:a1e81193ab7350128264b7562ad09287c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd702bcf511c99f62bf3e0f9a4693b7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#abd702bcf511c99f62bf3e0f9a4693b7b">SetScanLimit</a> (<a class="el" href="classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253">ScanLimit_e</a> numDigits)</td></tr>
+<tr class="memdesc:abd702bcf511c99f62bf3e0f9a4693b7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the decode mode of the MAX7219 decode mode register.  <a href="classMAX7219__SS__RPI.html#abd702bcf511c99f62bf3e0f9a4693b7b">More...</a><br /></td></tr>
+<tr class="separator:abd702bcf511c99f62bf3e0f9a4693b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -177,10 +231,63 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a1cd307318762facace22cd14b27f4c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0750534d69cd560f61c7533a7ecb104"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#ae0750534d69cd560f61c7533a7ecb104">_HardwareSPI</a> = false</td></tr>
 <tr class="separator:ae0750534d69cd560f61c7533a7ecb104"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bb2fefc89ca8b7dbf9497af329e9db4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMAX7219__SS__RPI.html#a7ab93492652a5c249caed7d1508b5955">DecodeMode_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a9bb2fefc89ca8b7dbf9497af329e9db4">CurrentDecodeMode</a></td></tr>
+<tr class="separator:a9bb2fefc89ca8b7dbf9497af329e9db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1926a18a5d46f3e6397673266bf3aeff"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a1926a18a5d46f3e6397673266bf3aeff">_CurrentDisplayNumber</a> = 1</td></tr>
+<tr class="separator:a1926a18a5d46f3e6397673266bf3aeff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The main Class , used drive MAX7219 seven segment displays. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a16e558b5c26bd45ba685262aa73a3496"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16e558b5c26bd45ba685262aa73a3496">&#9670;&nbsp;</a></span>CodeBFont_e</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496">MAX7219_SS_RPI::CodeBFont_e</a> : uint8_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>sets BCD code B font (0-9, E, H, L,P, and -) Built-in font </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a16e558b5c26bd45ba685262aa73a3496a3a7dcae5adfb66886f0bb8d223918812"></a>CodeBFontZero&#160;</td><td class="fielddoc"><p>Code B decode for Zero </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a16e558b5c26bd45ba685262aa73a3496a7f1016e792b46304f0c22b191870dcf6"></a>CodeBFontOne&#160;</td><td class="fielddoc"><p>Code B decode for One </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a16e558b5c26bd45ba685262aa73a3496a187a03f90b88239a4bee2a4b8bc05905"></a>CodeBFontTwo&#160;</td><td class="fielddoc"><p>Code B decode for Two </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a16e558b5c26bd45ba685262aa73a3496a84eea18e8f5af7a621791d9f5ca3bb19"></a>CodeBFontThree&#160;</td><td class="fielddoc"><p>Code B decode for Three </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a16e558b5c26bd45ba685262aa73a3496a50adda0ffa58e579274ee7cd1a9508c4"></a>CodeBFontFour&#160;</td><td class="fielddoc"><p>Code B decode for Four </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a16e558b5c26bd45ba685262aa73a3496af8872617409e77d92273e8df50b225e7"></a>CodeBFontFive&#160;</td><td class="fielddoc"><p>Code B decode for Five </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a16e558b5c26bd45ba685262aa73a3496adadc05c6c3639b699455f525d44c4d01"></a>CodeBFontSix&#160;</td><td class="fielddoc"><p>Code B decode for Six </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a16e558b5c26bd45ba685262aa73a3496a74b0793e4be3936c7069efdc3c82632c"></a>CodeBFontSeven&#160;</td><td class="fielddoc"><p>Code B decode for Seven </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a16e558b5c26bd45ba685262aa73a3496a2c3b53526839e291dd9c592547daebb3"></a>CodeBFontEight&#160;</td><td class="fielddoc"><p>Code B decode for Eight </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a16e558b5c26bd45ba685262aa73a3496a0780889ad6e60249579b840348058da4"></a>CodeBFontNine&#160;</td><td class="fielddoc"><p>Code B decode for Nine </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a16e558b5c26bd45ba685262aa73a3496acf90b7fca4c7c290475a75e37a389725"></a>CodeBFontDash&#160;</td><td class="fielddoc"><p>Code B decode for Dash </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a16e558b5c26bd45ba685262aa73a3496ac28b5e98aefed35c0e5ee00e4c33cca2"></a>CodeBFontE&#160;</td><td class="fielddoc"><p>Code B decode for letter E </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a16e558b5c26bd45ba685262aa73a3496ab3e48fd5eaee857b5d17311483805baf"></a>CodeBFontH&#160;</td><td class="fielddoc"><p>Code B decode for letter H </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a16e558b5c26bd45ba685262aa73a3496a47f937e971ec3c65faa7ff993e374edd"></a>CodeBFontL&#160;</td><td class="fielddoc"><p>Code B decode for letter L </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a16e558b5c26bd45ba685262aa73a3496a5f5e7a920cba7b6a4954c15e8f9c7473"></a>CodeBFontP&#160;</td><td class="fielddoc"><p>Code B decode for letter P </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a16e558b5c26bd45ba685262aa73a3496aaed7eaba517a44e600957f6cc7d9ce63"></a>CodeBFontSpace&#160;</td><td class="fielddoc"><p>Code B decode for Space </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a id="a5d094247fc99fe5c9ba970cf25a63802"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5d094247fc99fe5c9ba970cf25a63802">&#9670;&nbsp;</a></span>DecimalPoint_e</h2>
 
@@ -197,6 +304,31 @@ Private Attributes</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5d094247fc99fe5c9ba970cf25a63802ada413b1941418729d9db65ebcbcdc51b"></a>DecPointOff&#160;</td><td class="fielddoc"><p>Decimal point segment off </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a5d094247fc99fe5c9ba970cf25a63802a8e9a498632513792da756e69a0009028"></a>DecPointOn&#160;</td><td class="fielddoc"><p>Decimal point segment on </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a7ab93492652a5c249caed7d1508b5955"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ab93492652a5c249caed7d1508b5955">&#9670;&nbsp;</a></span>DecodeMode_e</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classMAX7219__SS__RPI.html#a7ab93492652a5c249caed7d1508b5955">MAX7219_SS_RPI::DecodeMode_e</a> : uint8_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The decode-mode register sets BCD code B or no-decode operation for each digit </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7ab93492652a5c249caed7d1508b5955a0f49852fbb7d047906858db9e06ca027"></a>DecodeModeNone&#160;</td><td class="fielddoc"><p>No decode for digits 7–0 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a7ab93492652a5c249caed7d1508b5955a5513f09667c2846fda47edb6a570bb7b"></a>DecodeModeBCDOne&#160;</td><td class="fielddoc"><p>Code B decode for digit 0, No decode for digits 7–1 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a7ab93492652a5c249caed7d1508b5955aab8257204d0950a533b691828c7ea6bf"></a>DecodeModeBCDTwo&#160;</td><td class="fielddoc"><p>Code B decode for digits 3–0, No decode for digits 7–4 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a7ab93492652a5c249caed7d1508b5955abf08c802e624646388ce8bbfed19d771"></a>DecodeModeBCDThree&#160;</td><td class="fielddoc"><p>Code B decode for digits 7–0 </p>
 </td></tr>
 </table>
 
@@ -250,6 +382,39 @@ Private Attributes</h2></td></tr>
  </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a10c504879398d960ca3efd6acf45087ba8c959d4a25c7ba169e027fbb8727fe7f"></a>MAX7219_REG_DisplayTest&#160;</td><td class="fielddoc"><p>Display-test mode turns all LEDs on by overriding, but not altering, all controls and digit registers </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a885f7e7134b7ebb1569f5431ecbab253"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a885f7e7134b7ebb1569f5431ecbab253">&#9670;&nbsp;</a></span>ScanLimit_e</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253">MAX7219_SS_RPI::ScanLimit_e</a> : uint8_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The scan-limit register sets how many digits are displayed </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a885f7e7134b7ebb1569f5431ecbab253a1d2c8ed09706387e7fa7d79816a19ddd"></a>ScanOneDigit&#160;</td><td class="fielddoc"><p>Scan One digit </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a885f7e7134b7ebb1569f5431ecbab253a999524d15a0ae88711006fc480eacfb4"></a>ScanTwoDigit&#160;</td><td class="fielddoc"><p>Scan Two digit </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a885f7e7134b7ebb1569f5431ecbab253ace171b2232c279b3c2e08f89b51ed188"></a>ScanThreeDigit&#160;</td><td class="fielddoc"><p>Scan Three digit </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a885f7e7134b7ebb1569f5431ecbab253a47d955d428f5e06db351578e24f7ea78"></a>ScanFourDigit&#160;</td><td class="fielddoc"><p>Scan Four digit </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a885f7e7134b7ebb1569f5431ecbab253aaf1cbe53d508f9a2ba2203cbcb1629f4"></a>ScanFiveDigit&#160;</td><td class="fielddoc"><p>Scan Five digit </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a885f7e7134b7ebb1569f5431ecbab253a5a1abe2e4e4d149306fc48ea66c49fd9"></a>ScanSixDigit&#160;</td><td class="fielddoc"><p>Scan Six digit </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a885f7e7134b7ebb1569f5431ecbab253a16a1a37a233dfaddc28fc7a5ca444ec3"></a>ScanSevenDigit&#160;</td><td class="fielddoc"><p>Scan Seven digit </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a885f7e7134b7ebb1569f5431ecbab253a3b5ddff5467f95d7a7b662c66c040480"></a>ScanEightDigit&#160;</td><td class="fielddoc"><p>Scan Eight digit </p>
 </td></tr>
 </table>
 
@@ -406,6 +571,71 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The seven segment representation of the ASCII character in a byte dpabcdefg </dd></dl>
+
+</div>
+</div>
+<a id="a6f0057a080eabe6f334d16238019f089"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f0057a080eabe6f334d16238019f089">&#9670;&nbsp;</a></span>DisplayBCDChar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MAX7219_SS_RPI::DisplayBCDChar </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>digit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496">CodeBFont_e</a>&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Displays a character on display using MAX7219 Built in BCD code B font. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">digit</td><td>The digit to display character in, 7-0 ,7 = LHS 0 =RHS </td></tr>
+    <tr><td class="paramname">value</td><td>The BCD character to display </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>sets BCD code B font (0-9, E, H, L,P, and -) Built-in font </dd></dl>
+
+</div>
+</div>
+<a id="a30c36c8f49b7cc7534c7bce432178463"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30c36c8f49b7cc7534c7bce432178463">&#9670;&nbsp;</a></span>DisplayBCDText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MAX7219_SS_RPI::DisplayBCDText </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Displays a BCD text string on display using MAX7219 Built in BCD code B font. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>pointer to character array containg text string </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>sets BCD code B font (0-9, E, H, L,P, and -) Built-in font </dd></dl>
 
 </div>
 </div>
@@ -648,6 +878,27 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad837f38af8f93acbf8b3f52c734d6c40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad837f38af8f93acbf8b3f52c734d6c40">&#9670;&nbsp;</a></span>GetCurrentDisplayNumber()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t MAX7219_SS_RPI::GetCurrentDisplayNumber </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Current Display Number. </p>
+<dl class="section return"><dt>Returns</dt><dd>Get the Current Display Number </dd></dl>
+
+</div>
+</div>
 <a id="a28bdf5a72893f069b88b77d3ee4363e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a28bdf5a72893f069b88b77d3ee4363e1">&#9670;&nbsp;</a></span>HighFreqshiftOut()</h2>
 
@@ -683,8 +934,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2ca28573b5052609f8ff89fa7ba12636"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ca28573b5052609f8ff89fa7ba12636">&#9670;&nbsp;</a></span>InitDisplay()</h2>
+<a id="aba981ae806818b5e96d439057f4fed18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba981ae806818b5e96d439057f4fed18">&#9670;&nbsp;</a></span>InitDisplay()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -692,13 +943,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void MAX7219_SS_RPI::InitDisplay </td>
           <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramtype"><a class="el" href="classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253">ScanLimit_e</a>&#160;</td>
           <td class="paramname"><em>numDigits</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramtype"><a class="el" href="classMAX7219__SS__RPI.html#a7ab93492652a5c249caed7d1508b5955">DecodeMode_e</a>&#160;</td>
           <td class="paramname"><em>decodeMode</em>&#160;</td>
         </tr>
         <tr>
@@ -713,10 +964,11 @@ Private Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">numDigits</td><td>scan limit set to 8 normally , advanced use only </td></tr>
-    <tr><td class="paramname">decodeMode</td><td>Always 0x00 or "No decode for digits 7–0" for this library. </td></tr>
+    <tr><td class="paramname">decodeMode</td><td>Must users will use 0x00 here </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section note"><dt>Note</dt><dd>when cascading supplies init display one first always! </dd></dl>
 
 </div>
 </div>
@@ -772,8 +1024,34 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab503557a6131a43a8dc36aebb31feb1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab503557a6131a43a8dc36aebb31feb1a">&#9670;&nbsp;</a></span>SetDecodeMode()</h2>
+<a id="a81ab31d510f7a5b569524d804ea9ced9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81ab31d510f7a5b569524d804ea9ced9">&#9670;&nbsp;</a></span>SetCurrentDisplayNumber()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MAX7219_SS_RPI::SetCurrentDisplayNumber </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>DisplayNum</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Current Display Number. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">DisplayNum</td><td>Set the Current Display Number </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1e81193ab7350128264b7562ad09287c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e81193ab7350128264b7562ad09287c">&#9670;&nbsp;</a></span>SetDecodeMode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -784,7 +1062,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void MAX7219_SS_RPI::SetDecodeMode </td>
           <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramtype"><a class="el" href="classMAX7219__SS__RPI.html#a7ab93492652a5c249caed7d1508b5955">DecodeMode_e</a>&#160;</td>
           <td class="paramname"><em>mode</em></td><td>)</td>
           <td></td>
         </tr>
@@ -799,15 +1077,15 @@ Private Attributes</h2></td></tr>
 <p>Set the decode mode of the MAX7219 decode mode register. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">mode</td><td>Always 0x00 or "No decode for digits 7–0" for this library. </td></tr>
+    <tr><td class="paramname">mode</td><td>Set to 0x00 for most users </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a60b38dc0c6e379c0c1cedfc16b633a31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60b38dc0c6e379c0c1cedfc16b633a31">&#9670;&nbsp;</a></span>SetScanLimit()</h2>
+<a id="abd702bcf511c99f62bf3e0f9a4693b7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd702bcf511c99f62bf3e0f9a4693b7b">&#9670;&nbsp;</a></span>SetScanLimit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -818,7 +1096,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void MAX7219_SS_RPI::SetScanLimit </td>
           <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramtype"><a class="el" href="classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253">ScanLimit_e</a>&#160;</td>
           <td class="paramname"><em>numDigits</em></td><td>)</td>
           <td></td>
         </tr>
@@ -974,6 +1252,29 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a1926a18a5d46f3e6397673266bf3aeff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1926a18a5d46f3e6397673266bf3aeff">&#9670;&nbsp;</a></span>_CurrentDisplayNumber</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t MAX7219_SS_RPI::_CurrentDisplayNumber = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Which display the user wishes to write to in a cascade of connected displays </p>
+
+</div>
+</div>
 <a id="ae0750534d69cd560f61c7533a7ecb104"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae0750534d69cd560f61c7533a7ecb104">&#9670;&nbsp;</a></span>_HardwareSPI</h2>
 
@@ -1039,7 +1340,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>GPIO connected to CLK on MAX7219 SW SPI only </p>
+<p>GPIO connected to CLK on MAX7219, SW SPI only </p>
 
 </div>
 </div>
@@ -1062,7 +1363,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>GPIO connected to CS on MAX7219 SW SPI only </p>
+<p>GPIO connected to CS on MAX7219, SW SPI only </p>
 
 </div>
 </div>
@@ -1085,7 +1386,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>GPIO connected to DIO on MAX7219 SW SPI only </p>
+<p>GPIO connected to DIO on MAX7219, SW SPI only </p>
 
 </div>
 </div>
@@ -1132,6 +1433,30 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>value = X , which SPI_CE pin to use, X = 1 or 0 </p>
+
+</div>
+</div>
+<a id="a9bb2fefc89ca8b7dbf9497af329e9db4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bb2fefc89ca8b7dbf9497af329e9db4">&#9670;&nbsp;</a></span>CurrentDecodeMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMAX7219__SS__RPI.html#a7ab93492652a5c249caed7d1508b5955">DecodeMode_e</a> MAX7219_SS_RPI::CurrentDecodeMode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Enum to store current decode mode <br  />
+ </p>
 
 </div>
 </div>

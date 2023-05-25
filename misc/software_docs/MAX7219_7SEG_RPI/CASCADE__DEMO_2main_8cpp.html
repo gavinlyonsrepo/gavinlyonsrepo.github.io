@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MAX7219_7SEG_RPI
-   &#160;<span id="projectnumber">1.1.0</span>
+   &#160;<span id="projectnumber">1.2.0</span>
    </div>
    <div id="projectbrief">MAX7219 seven segment Driver, Raspberry PI C++ library</div>
   </td>
@@ -40,37 +40,24 @@ $(function() {
 <div id="main-nav"></div>
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="dir_95b57effb8038f90624a8a5b60361b2e.html">src</a></li><li class="navelem"><a class="el" href="dir_55b71691e9e584eb7bcee52fede22795.html">HELLOWORLD</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="dir_95b57effb8038f90624a8a5b60361b2e.html">src</a></li><li class="navelem"><a class="el" href="dir_db675ecf77bf8af5332509733cd6dbb5.html">CASCADE_DEMO</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">HELLOWORLD/main.cpp File Reference</div>  </div>
+<div class="title">CASCADE_DEMO/main.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A demo file library for Max7219 seven segment displays Carries out most basic use case/test , "hello world" ~ helowrld Software SPI Project Name: MAX7219_7SEG_RPI.  
+<p>A demo file library for Max7219 seven segment displays Shows simple example with two cascades displays Hardware SPI Project Name: MAX7219_7SEG_RPI.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;bcm2835.h&gt;</code><br />
 <code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="MAX7219__7SEG__RPI_8hpp_source.html">MAX7219_7SEG_RPI.hpp</a>&gt;</code><br />
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a4b355291fe6b8ba8e167ab0faa862e45"><td class="memItemLeft" align="right" valign="top"><a id="a4b355291fe6b8ba8e167ab0faa862e45"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CLK</b>&#160;&#160;&#160;25</td></tr>
-<tr class="separator:a4b355291fe6b8ba8e167ab0faa862e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3780e2fe762dc532df7d0f030b55caa0"><td class="memItemLeft" align="right" valign="top"><a id="a3780e2fe762dc532df7d0f030b55caa0"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CS</b>&#160;&#160;&#160;24</td></tr>
-<tr class="separator:a3780e2fe762dc532df7d0f030b55caa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab86126dc606c0ccfda0aadc00cef0b96"><td class="memItemLeft" align="right" valign="top"><a id="ab86126dc606c0ccfda0aadc00cef0b96"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DIN</b>&#160;&#160;&#160;23</td></tr>
-<tr class="separator:ab86126dc606c0ccfda0aadc00cef0b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memItemLeft" align="right" valign="top"><a id="a3c04138a5bfe5d72780bb7e82a18e627"></a>
@@ -79,14 +66,20 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>main</b> (int argc, ch
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a13d748abd005133406bb56ae3522d57c"><td class="memItemLeft" align="right" valign="top"><a id="a13d748abd005133406bb56ae3522d57c"></a>
-<a class="el" href="classMAX7219__SS__RPI.html">MAX7219_SS_RPI</a>&#160;</td><td class="memItemRight" valign="bottom"><b>myMAX</b> (CLK, CS, DIN)</td></tr>
-<tr class="separator:a13d748abd005133406bb56ae3522d57c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab45c845c0949c3d57bd22b9e95d6a25e"><td class="memItemLeft" align="right" valign="top"><a id="ab45c845c0949c3d57bd22b9e95d6a25e"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_SCLK_FREQ</b> = 5000</td></tr>
+<tr class="separator:ab45c845c0949c3d57bd22b9e95d6a25e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafaec16ad5770b19ce14e82e65ec9ed2"><td class="memItemLeft" align="right" valign="top"><a id="aafaec16ad5770b19ce14e82e65ec9ed2"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_CEX_GPIO</b> = 0</td></tr>
+<tr class="separator:aafaec16ad5770b19ce14e82e65ec9ed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bc8d1c28d7c77459dbeccf00395e28c"><td class="memItemLeft" align="right" valign="top"><a id="a5bc8d1c28d7c77459dbeccf00395e28c"></a>
+<a class="el" href="classMAX7219__SS__RPI.html">MAX7219_SS_RPI</a>&#160;</td><td class="memItemRight" valign="bottom"><b>myMAX</b> (SPI_SCLK_FREQ, SPI_CEX_GPIO)</td></tr>
+<tr class="separator:a5bc8d1c28d7c77459dbeccf00395e28c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A demo file library for Max7219 seven segment displays Carries out most basic use case/test , "hello world" ~ helowrld Software SPI Project Name: MAX7219_7SEG_RPI. </p>
+<div class="textblock"><p>A demo file library for Max7219 seven segment displays Shows simple example with two cascades displays Hardware SPI Project Name: MAX7219_7SEG_RPI. </p>
 <dl class="section author"><dt>Author</dt><dd>Gavin Lyons</dd></dl>
-<dl class="test"><dt><b><a class="el" href="test.html#_test000001">Test:</a></b></dt><dd>Test 0 Hello World </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>not fully tested as only one display available </dd></dl>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

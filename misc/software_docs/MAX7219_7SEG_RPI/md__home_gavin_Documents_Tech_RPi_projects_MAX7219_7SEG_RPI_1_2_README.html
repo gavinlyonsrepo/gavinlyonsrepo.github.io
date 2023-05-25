@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MAX7219_7SEG_RPI
-   &#160;<span id="projectnumber">1.1.0</span>
+   &#160;<span id="projectnumber">1.2.0</span>
    </div>
    <div id="projectbrief">MAX7219 seven segment Driver, Raspberry PI C++ library</div>
   </td>
@@ -89,28 +89,32 @@ Installation</h2>
 </ul>
 </li>
 </ol>
-<div class="fragment"><div class="line">curl -sL https://github.com/gavinlyonsrepo/MAX7219_7SEG_RPI/archive/1.1.tar.gz | tar xz</div>
+<div class="fragment"><div class="line">curl -sL https://github.com/gavinlyonsrepo/MAX7219_7SEG_RPI/archive/1.2.tar.gz | tar xz</div>
 </div><!-- fragment --><ol type="1">
 <li>Run "make" to run the makefile in base folder to make and install library, it will be installed to usr/lib and usr/include</li>
 </ol>
-<div class="fragment"><div class="line">cd MAX7219_7SEG_RPI-1.1</div>
+<div class="fragment"><div class="line">cd MAX7219_7SEG_RPI-1.2</div>
 <div class="line">make</div>
 <div class="line">sudo make install</div>
 </div><!-- fragment --><h2><a class="anchor" id="autotoc_md5"></a>
 Test</h2>
 <p>Wire up your Display. Next step is to test LED display and the just installed library with an example file.</p>
-<p>There are 4 examples files. The default example file is "hello world". To decide which one the makefile(In examples folder) builds simply edit "SRC" variable at top of the makefile(In examples folder). in the "User SRC directory Option Section" at top of file.</p>
+<p>There are 6 examples files. The default example file is "hello world". To decide which one the makefile(In examples folder) builds simply edit "SRC" variable at top of the makefile(In examples folder). in the "User SRC directory Option Section" at top of file.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
-<th class="markdownTableHeadNone">List No   </th><th class="markdownTableHeadNone">example file name   </th><th class="markdownTableHeadNone">Description   </th><th class="markdownTableHeadNone">SPI?    </th></tr>
+<th class="markdownTableHeadNone">List No   </th><th class="markdownTableHeadNone">Example file name   </th><th class="markdownTableHeadNone">Description   </th><th class="markdownTableHeadNone">SPI type    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone"><a class="el" href="HELLOWORLD_2main_8cpp.html" title="A demo file library for Max7219 seven segment displays Carries out most basic use case/test ,...">src/HELLOWORLD/main.cpp</a>   </td><td class="markdownTableBodyNone">Hello world   </td><td class="markdownTableBodyNone">software    </td></tr>
+<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone"><a class="el" href="TESTS_2main_8cpp.html" title="A demo file for Max7219 seven segment displays , Carries out series of tests to test the library....">src/TESTS/main.cpp</a>   </td><td class="markdownTableBodyNone">test sequence   </td><td class="markdownTableBodyNone">software    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone"><a class="el" href="TESTS_2main_8cpp.html" title="A demo file for Max7219 seven segment displays , Carries out series of tests to test the library....">src/TESTS/main.cpp</a>   </td><td class="markdownTableBodyNone">test sequence   </td><td class="markdownTableBodyNone">software    </td></tr>
+<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone"><a class="el" href="HELLOWORLD__HWSPI_2main_8cpp.html" title="A demo file library for Max7219 seven segment displays Carries out most basic use case/test ,...">src/HELLOWORLD_HWSPI/main.cpp</a>   </td><td class="markdownTableBodyNone">Hello world   </td><td class="markdownTableBodyNone">hardware    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone"><a class="el" href="HELLOWORLD__HWSPI_2main_8cpp.html" title="A demo file library for Max7219 seven segment displays Carries out most basic use case/test ,...">src/HELLOWORLD_HWSPI/main.cpp</a>   </td><td class="markdownTableBodyNone">Hello world   </td><td class="markdownTableBodyNone">hardware    </td></tr>
+<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone"><a class="el" href="TESTS__HWSPI_2main_8cpp.html" title="A demo file for Max7219 seven segment displays , Carries out series of tests to test the library....">src/TESTS_HWSPI/main.cpp</a>   </td><td class="markdownTableBodyNone">test sequence   </td><td class="markdownTableBodyNone">hardware    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone"><a class="el" href="TESTS__HWSPI_2main_8cpp.html" title="A demo file for Max7219 seven segment displays , Carries out series of tests to test the library....">src/TESTS_HWSPI/main.cpp</a>   </td><td class="markdownTableBodyNone">test sequence   </td><td class="markdownTableBodyNone">hardware   </td></tr>
+<td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone"><a class="el" href="BCDMODE_2main_8cpp.html" title="A demo file library for Max7219 seven segment displays Carries out tests on BCD decode mode 3....">src/BCDMODE/main.cpp</a>   </td><td class="markdownTableBodyNone">Shows use of BCD built-in font   </td><td class="markdownTableBodyNone">hardware    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone"><a class="el" href="CLOCK__DEMO_2main_8cpp.html" title="A demo file library for Max7219 seven segment displays.">src/CLOCK_DEMO/main.cpp</a>   </td><td class="markdownTableBodyNone">Clock demo , Shows use of cascaded displays   </td><td class="markdownTableBodyNone">hardware    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">6   </td><td class="markdownTableBodyNone"><a class="el" href="CASCADE__DEMO_2main_8cpp.html" title="A demo file library for Max7219 seven segment displays Shows simple example with two cascades display...">src/CASCADE_DEMO/main.cpp</a>   </td><td class="markdownTableBodyNone">simple Demo showing use of cascaded displays   </td><td class="markdownTableBodyNone">hardware   </td></tr>
 </table>
 <p>Next enter the examples folder and run the makefile in THAT folder, This makefile builds the examples file using the just installed library. and creates a test exe file in "bin".</p>
 <div class="fragment"><div class="line">cd examples</div>
@@ -125,7 +129,7 @@ Software</h2>
 2. Example directory, builds example file using installed library to an executable.
 </pre> <h2><a class="anchor" id="autotoc_md7"></a>
 Hardware</h2>
-<p>For Software SPI Pick any GPIO you want. For Hardware SPI you must Suse SPI pins SPIMOSI and SPISCLK , user can choice between SPICE0 and SPICE1 for chip select. The Datasheet says it's a 10MHZ device, In hardware SPI user can pick SPI bus speed. In software SPI user may need to increase or decrease _CommDelay variable (uS Communication delay) depending on speed of CPU on system. User can adjust brightness from 0x00 to 0x0f by default it is 0x08. 0x0f being brightest</p>
+<p>For Software SPI Pick any GPIO you want. For Hardware SPI the User must use fixed SPI pins SPIMOSI and SPISCLK, user can choice between SPICE0 and SPICE1 for chip select. The Datasheet says it's a 10MHZ device, In hardware SPI user can pick SPI bus speed. In software SPI user may need to increase or decrease CommDelay variable (uS Communication delay) depending on speed of CPU on system. User can adjust brightness from 0x00 to 0x0f by default it is 0x08. 0x0f being brightest</p>
 <p>Connections to RPI:</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -142,7 +146,7 @@ Hardware</h2>
 Notes</h2>
 <p>TODO</p>
 <ol type="1">
-<li>Support for Cascaded Displays. </li>
+<li>Support for Cascaded Displays added in Version 1.2 but untested as only one display available. Casacded Displays are displays connected together. Din-&gt; Dout and CS lines tied together. </li>
 </ol>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
