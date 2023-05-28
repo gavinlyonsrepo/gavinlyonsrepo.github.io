@@ -1,0 +1,6 @@
+<map id="ERMCH1115" name="ERMCH1115">
+<area shape="rect" id="node1" title="class to drive the ERMCh1115 OLED" alt="" coords="188,171,291,197"/>
+<area shape="rect" id="node2" href="$classERMCH1115__graphics.html" title="Graphics class to hold graphic related functions." alt="" coords="5,81,169,108"/>
+<area shape="rect" id="node3" title=" " alt="" coords="61,5,113,32"/>
+<area shape="rect" id="node4" href="$classERMCH1115__SharedBuffer.html" title="class to hold screen data to define buffer , multiple screens can be made for the shared buffer Buffe..." alt="" coords="193,81,387,108"/>
+</map>
