@@ -19,7 +19,7 @@ permalink: /about/
 			<div class="mailiconimage"></div> 
 			<p><a class="u-email" href="mailto:{{ site.email }}">{{site.email }} </a></p>
 			{%- include social.html -%}
-			<li> Donations: <a href="https://paypal.me/whitelight976">Paypal</a> or <a href="{{site.url}}/misc/monero.html">monero</a></li>
+			<li> Donations: <a href="https://paypal.me/whitelight976">Paypal</a> </li>
 			<li> PGP Key: <a href="https://pgp.mit.edu/pks/lookup?search=0x32f33fd2&op=index">0x32f33fd2</a></li>
 			
 			<br> 
