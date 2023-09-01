@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classPrint.html" title="class that provides polymorphic print methods for printing data" alt="" coords="5,5,57,32"/>
+<area shape="rect" id="node2" href="$classSSD1306__graphics.html" title="Graphics class to hold graphic related functions." alt="" coords="105,5,248,32"/>
+<area shape="rect" id="node3" href="$classSSD1306.html" title="class to control OLED and define buffer" alt="" coords="296,5,376,32"/>
+</map>
