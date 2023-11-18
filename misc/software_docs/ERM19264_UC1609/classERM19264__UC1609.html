@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ERM19264_UC1609
-   &#160;<span id="projectnumber">1.6.0</span>
+   &#160;<span id="projectnumber">1.7.0</span>
    </div>
    <div id="projectbrief">Arduino Eco-system Library for ERM19264 LCD driven by  UC1609 controller.</div>
   </td>
@@ -98,9 +98,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a208f6e0dc9ce457e3fc728e492c98c2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a208f6e0dc9ce457e3fc728e492c98c2c">LCDBuffer</a> (int16_t x, int16_t y, uint8_t w, uint8_t h, uint8_t *data)</td></tr>
 <tr class="memdesc:a208f6e0dc9ce457e3fc728e492c98c2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a data array to the screen.  <a href="classERM19264__UC1609.html#a208f6e0dc9ce457e3fc728e492c98c2c">More...</a><br /></td></tr>
 <tr class="separator:a208f6e0dc9ce457e3fc728e492c98c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af36db3026694dde3b8fca12d532d9c05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#af36db3026694dde3b8fca12d532d9c05">LCDbegin</a> (uint8_t VbiasPot=<a class="el" href="ERM19264__UC1609_8h.html#a17ba7a879e2feffd7cac2cc579fdc971">UC1609_DEFAULT_GN_PM</a>)</td></tr>
-<tr class="memdesc:af36db3026694dde3b8fca12d532d9c05"><td class="mdescLeft">&#160;</td><td class="mdescRight">begin Method initialise LCD Sets pinmodes and SPI setup  <a href="classERM19264__UC1609.html#af36db3026694dde3b8fca12d532d9c05">More...</a><br /></td></tr>
-<tr class="separator:af36db3026694dde3b8fca12d532d9c05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac941eac2e26c14ca9a827e5844a22aff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#ac941eac2e26c14ca9a827e5844a22aff">LCDbegin</a> (uint8_t VbiasPot=<a class="el" href="ERM19264__UC1609_8h.html#a17ba7a879e2feffd7cac2cc579fdc971">UC1609_DEFAULT_GN_PM</a>, uint8_t AddressSet=<a class="el" href="ERM19264__UC1609_8h.html#aaf66f91cfed65119cb8aecc46a16a4f8">UC1609_ADDRESS_SET</a>)</td></tr>
+<tr class="memdesc:ac941eac2e26c14ca9a827e5844a22aff"><td class="mdescLeft">&#160;</td><td class="mdescRight">begin Method initialise LCD Sets pinmodes and SPI setup  <a href="classERM19264__UC1609.html#ac941eac2e26c14ca9a827e5844a22aff">More...</a><br /></td></tr>
+<tr class="separator:ac941eac2e26c14ca9a827e5844a22aff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc9a41c14661421548277a6f07c28b71"><td class="memItemLeft" align="right" valign="top"><a id="afc9a41c14661421548277a6f07c28b71"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#afc9a41c14661421548277a6f07c28b71">LCDinit</a> (void)</td></tr>
 <tr class="memdesc:afc9a41c14661421548277a6f07c28b71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called from LCDbegin carries out Power on sequence and register init Can be used to reset LCD to default values. <br /></td></tr>
@@ -140,6 +140,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a0993682db481154bb0e12d8c43f11ba7">LCDPowerDown</a> (void)</td></tr>
 <tr class="memdesc:a0993682db481154bb0e12d8c43f11ba7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Powerdown procedure for LCD see datasheet P40. <br /></td></tr>
 <tr class="separator:a0993682db481154bb0e12d8c43f11ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecd4d5203c231c4caed54d56f7507d98"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#aecd4d5203c231c4caed54d56f7507d98">LCDGetConstrast</a> (void)</td></tr>
+<tr class="memdesc:aecd4d5203c231c4caed54d56f7507d98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for _VbiasPOT contrast member.  <a href="classERM19264__UC1609.html#aecd4d5203c231c4caed54d56f7507d98">More...</a><br /></td></tr>
+<tr class="separator:aecd4d5203c231c4caed54d56f7507d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af42d1f29e735791c0fa5ece9ca118031"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#af42d1f29e735791c0fa5ece9ca118031">LCDGetAddressCtrl</a> (void)</td></tr>
+<tr class="memdesc:af42d1f29e735791c0fa5ece9ca118031"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for _AddressCtrl Display RAM address control member.  <a href="classERM19264__UC1609.html#af42d1f29e735791c0fa5ece9ca118031">More...</a><br /></td></tr>
+<tr class="separator:af42d1f29e735791c0fa5ece9ca118031"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classERM19264__graphics"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classERM19264__graphics')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classERM19264__graphics.html">ERM19264_graphics</a></td></tr>
 <tr class="memitem:a0c3b66623001c43fdde40545038d5a88 inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a0c3b66623001c43fdde40545038d5a88">ERM19264_graphics</a> (int16_t w, int16_t h)</td></tr>
 <tr class="memdesc:a0c3b66623001c43fdde40545038d5a88 inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">init the LCD Graphics class object  <a href="classERM19264__graphics.html#a0c3b66623001c43fdde40545038d5a88">More...</a><br /></td></tr>
@@ -271,6 +277,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a7b4ff673e77e675ff01d823b80b3e09f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05e4451fa8a10da6a01708ff18a07a84"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a05e4451fa8a10da6a01708ff18a07a84">_VbiasPOT</a></td></tr>
 <tr class="separator:a05e4451fa8a10da6a01708ff18a07a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b550446e14a247c51c1d0bf9e05c273"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a8b550446e14a247c51c1d0bf9e05c273">_AddressCtrl</a></td></tr>
+<tr class="separator:a8b550446e14a247c51c1d0bf9e05c273"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -595,8 +603,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="af36db3026694dde3b8fca12d532d9c05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af36db3026694dde3b8fca12d532d9c05">&#9670;&nbsp;</a></span>LCDbegin()</h2>
+<a id="ac941eac2e26c14ca9a827e5844a22aff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac941eac2e26c14ca9a827e5844a22aff">&#9670;&nbsp;</a></span>LCDbegin()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -605,8 +613,18 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">void ERM19264_UC1609::LCDbegin </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>VbiasPOT</em> = <code><a class="el" href="ERM19264__UC1609_8h.html#a17ba7a879e2feffd7cac2cc579fdc971">UC1609_DEFAULT_GN_PM</a></code></td><td>)</td>
+          <td class="paramname"><em>VbiasPOT</em> = <code><a class="el" href="ERM19264__UC1609_8h.html#a17ba7a879e2feffd7cac2cc579fdc971">UC1609_DEFAULT_GN_PM</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>AddressSet</em> = <code><a class="el" href="ERM19264__UC1609_8h.html#aaf66f91cfed65119cb8aecc46a16a4f8">UC1609_ADDRESS_SET</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -615,6 +633,7 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">VbiasPOT</td><td>contrast default = 0x49 , range 0x00 to 0xFE </td></tr>
+    <tr><td class="paramname">AddressSet</td><td>AC [2:0] registers for RAM addr ctrl. default=2 range 0-7 </td></tr>
   </table>
   </dd>
 </dl>
@@ -848,6 +867,48 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="af42d1f29e735791c0fa5ece9ca118031"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af42d1f29e735791c0fa5ece9ca118031">&#9670;&nbsp;</a></span>LCDGetAddressCtrl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t ERM19264_UC1609::LCDGetAddressCtrl </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Getter for _AddressCtrl Display RAM address control member. </p>
+<dl class="section return"><dt>Returns</dt><dd>value of _AddressCtrl </dd></dl>
+
+</div>
+</div>
+<a id="aecd4d5203c231c4caed54d56f7507d98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecd4d5203c231c4caed54d56f7507d98">&#9670;&nbsp;</a></span>LCDGetConstrast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t ERM19264_UC1609::LCDGetConstrast </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Getter for _VbiasPOT contrast member. </p>
+<dl class="section return"><dt>Returns</dt><dd>value of_VbiasPOT </dd></dl>
+
+</div>
+</div>
 <a id="a1d521c103d87d5224f047da540e9e647"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1d521c103d87d5224f047da540e9e647">&#9670;&nbsp;</a></span>LCDGotoXY()</h2>
 
@@ -1013,6 +1074,29 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a8b550446e14a247c51c1d0bf9e05c273"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b550446e14a247c51c1d0bf9e05c273">&#9670;&nbsp;</a></span>_AddressCtrl</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t ERM19264_UC1609::_AddressCtrl</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set AC [2:0] Program registers for RAM address control. 0x00 to 0x07 </p>
+
+</div>
+</div>
 <a id="a0319980795a4302f78a97f17d13413a8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0319980795a4302f78a97f17d13413a8">&#9670;&nbsp;</a></span>_LCD_CD</h2>
 
