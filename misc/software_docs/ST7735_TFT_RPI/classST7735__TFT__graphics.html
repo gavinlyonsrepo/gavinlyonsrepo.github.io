@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ST7735_TFT_RPI
-   &#160;<span id="projectnumber">1.6.0</span>
+   &#160;<span id="projectnumber">1.7.0</span>
    </div>
    <div id="projectbrief">ST7735 Driver, Raspberry PI C++ library</div>
   </td>
@@ -78,6 +78,9 @@ Public Types</h2></td></tr>
 , <a class="el" href="classST7735__TFT__graphics.html#a1d432afbfe4242680433c194599102a5aebc24f6588ff01a5b44450e25485a34d">TFTFont_HomeSpun</a> = 6
 , <a class="el" href="classST7735__TFT__graphics.html#a1d432afbfe4242680433c194599102a5a9cce35d0cf97054c43d5e0e4b11e78e7">TFTFont_Bignum</a> = 7
 , <a class="el" href="classST7735__TFT__graphics.html#a1d432afbfe4242680433c194599102a5ab55baac24d160c594acdca42c08cec01">TFTFont_Mednum</a> = 8
+, <br />
+&#160;&#160;<a class="el" href="classST7735__TFT__graphics.html#a1d432afbfe4242680433c194599102a5a7bc58a945458eb2a002d9ea3e6bea6be">TFTFont_ArialRound</a> = 9
+, <a class="el" href="classST7735__TFT__graphics.html#a1d432afbfe4242680433c194599102a5ae12024103f22dd95a84eedcebb127833">TFTFont_ArialBold</a> = 10
 <br />
  }</td></tr>
 <tr class="separator:a1d432afbfe4242680433c194599102a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -99,6 +102,7 @@ Public Types</h2></td></tr>
 <tr class="separator:ab8bd2c685c870ff16d0ebe25b6783ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a462612f07753c6cd7c5e376dc45a3e95"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classST7735__TFT__graphics.html#a462612f07753c6cd7c5e376dc45a3e95">TFT_Font_height_e</a> : uint8_t { <a class="el" href="classST7735__TFT__graphics.html#a462612f07753c6cd7c5e376dc45a3e95a0a32e4a1274dbaae7ffa7430fb55b4a8">TFTFont_height_8</a> = 8
 , <a class="el" href="classST7735__TFT__graphics.html#a462612f07753c6cd7c5e376dc45a3e95aea81a4b132023e2fa02d97d2877c48c2">TFTFont_height_16</a> = 16
+, <a class="el" href="classST7735__TFT__graphics.html#a462612f07753c6cd7c5e376dc45a3e95a5b14d2ddecc3ef13969805323f49afad">TFTFont_height_24</a> = 24
 , <a class="el" href="classST7735__TFT__graphics.html#a462612f07753c6cd7c5e376dc45a3e95a8bc60b2fbc3e2a515f8a1c63b89c050d">TFTFont_height_32</a> = 32
  }</td></tr>
 <tr class="separator:a462612f07753c6cd7c5e376dc45a3e95"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -118,8 +122,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ada4dc7105b53a89d3839f6ba5f54579c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classST7735__TFT__graphics.html#ada4dc7105b53a89d3839f6ba5f54579c">TFTfillScreen</a> (uint16_t color)</td></tr>
 <tr class="memdesc:ada4dc7105b53a89d3839f6ba5f54579c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills the whole screen with a given color.  <a href="classST7735__TFT__graphics.html#ada4dc7105b53a89d3839f6ba5f54579c">More...</a><br /></td></tr>
 <tr class="separator:ada4dc7105b53a89d3839f6ba5f54579c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b9d26043b5dc0ef3aa31fb6a54181c7"><td class="memItemLeft" align="right" valign="top"><a id="a9b9d26043b5dc0ef3aa31fb6a54181c7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>TFTsetCursor</b> (int16_t x, int16_t y)</td></tr>
+<tr class="memitem:a9b9d26043b5dc0ef3aa31fb6a54181c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classST7735__TFT__graphics.html#a9b9d26043b5dc0ef3aa31fb6a54181c7">TFTsetCursor</a> (int16_t x, int16_t y)</td></tr>
+<tr class="memdesc:a9b9d26043b5dc0ef3aa31fb6a54181c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Cursor Position on screen.  <a href="classST7735__TFT__graphics.html#a9b9d26043b5dc0ef3aa31fb6a54181c7">More...</a><br /></td></tr>
 <tr class="separator:a9b9d26043b5dc0ef3aa31fb6a54181c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae2e8d5fa406e06fc159d363bf93db01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classST7735__TFT__graphics.html#aae2e8d5fa406e06fc159d363bf93db01">TFTdrawPixel</a> (uint8_t, uint8_t, uint16_t)</td></tr>
 <tr class="memdesc:aae2e8d5fa406e06fc159d363bf93db01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a pixel to screen.  <a href="classST7735__TFT__graphics.html#aae2e8d5fa406e06fc159d363bf93db01">More...</a><br /></td></tr>
@@ -178,14 +182,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>TFTsetCursor</b> (int
 <tr class="memitem:a1871dd66670dd2b9d05cf91852e18de0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classST7735__TFT__graphics.html#a1871dd66670dd2b9d05cf91852e18de0">TFTdrawTextNumFont</a> (uint8_t x, uint8_t y, char *pText, uint16_t color, uint16_t bg)</td></tr>
 <tr class="memdesc:a1871dd66670dd2b9d05cf91852e18de0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes text string (*ptext) on the TFT.  <a href="classST7735__TFT__graphics.html#a1871dd66670dd2b9d05cf91852e18de0">More...</a><br /></td></tr>
 <tr class="separator:a1871dd66670dd2b9d05cf91852e18de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7085b16d8bde7178df94750782090c63"><td class="memItemLeft" align="right" valign="top"><a id="a7085b16d8bde7178df94750782090c63"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setTextColor</b> (uint16_t c)</td></tr>
+<tr class="memitem:a7085b16d8bde7178df94750782090c63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classST7735__TFT__graphics.html#a7085b16d8bde7178df94750782090c63">setTextColor</a> (uint16_t c)</td></tr>
+<tr class="memdesc:a7085b16d8bde7178df94750782090c63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set text color.  <a href="classST7735__TFT__graphics.html#a7085b16d8bde7178df94750782090c63">More...</a><br /></td></tr>
 <tr class="separator:a7085b16d8bde7178df94750782090c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a347fa65cd480ebbdd4be2d50e4a8540a"><td class="memItemLeft" align="right" valign="top"><a id="a347fa65cd480ebbdd4be2d50e4a8540a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setTextColor</b> (uint16_t c, uint16_t bg)</td></tr>
+<tr class="memitem:a347fa65cd480ebbdd4be2d50e4a8540a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classST7735__TFT__graphics.html#a347fa65cd480ebbdd4be2d50e4a8540a">setTextColor</a> (uint16_t c, uint16_t bg)</td></tr>
+<tr class="memdesc:a347fa65cd480ebbdd4be2d50e4a8540a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set text color foreground and background.  <a href="classST7735__TFT__graphics.html#a347fa65cd480ebbdd4be2d50e4a8540a">More...</a><br /></td></tr>
 <tr class="separator:a347fa65cd480ebbdd4be2d50e4a8540a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3677bdd61c4a95282f945902d3d2b545"><td class="memItemLeft" align="right" valign="top"><a id="a3677bdd61c4a95282f945902d3d2b545"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setTextSize</b> (uint8_t s)</td></tr>
+<tr class="memitem:a3677bdd61c4a95282f945902d3d2b545"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classST7735__TFT__graphics.html#a3677bdd61c4a95282f945902d3d2b545">setTextSize</a> (uint8_t s)</td></tr>
+<tr class="memdesc:a3677bdd61c4a95282f945902d3d2b545"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the size of text, fonts 1-6.  <a href="classST7735__TFT__graphics.html#a3677bdd61c4a95282f945902d3d2b545">More...</a><br /></td></tr>
 <tr class="separator:a3677bdd61c4a95282f945902d3d2b545"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a703ad2651e11620b50aeedf068bf5f47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classST7735__TFT__graphics.html#a703ad2651e11620b50aeedf068bf5f47">TFTdrawIcon</a> (uint8_t x, uint8_t y, uint8_t w, uint16_t color, uint16_t bgcolor, const unsigned char character[])</td></tr>
 <tr class="memdesc:a703ad2651e11620b50aeedf068bf5f47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws an custom Icon of X by 8 size to screen , where X = 0 to 127.  <a href="classST7735__TFT__graphics.html#a703ad2651e11620b50aeedf068bf5f47">More...</a><br /></td></tr>
@@ -266,9 +270,9 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>println</b> (double
 <tr class="memitem:a169b128f9e22f0c15883768f580541a2 inherit pub_methods_classPrint"><td class="memItemLeft" align="right" valign="top"><a id="a169b128f9e22f0c15883768f580541a2"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>println</b> (void)</td></tr>
 <tr class="separator:a169b128f9e22f0c15883768f580541a2 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e65eed803938e026804a767a9f99336 inherit pub_methods_classPrint"><td class="memItemLeft" align="right" valign="top"><a id="a9e65eed803938e026804a767a9f99336"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><b>println</b> (const std::string &amp;s)</td></tr>
-<tr class="separator:a9e65eed803938e026804a767a9f99336 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac25f6dcb54e7287d485a8432f1ae9f46 inherit pub_methods_classPrint"><td class="memItemLeft" align="right" valign="top"><a id="ac25f6dcb54e7287d485a8432f1ae9f46"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><b>println</b> (const std::string &amp;)</td></tr>
+<tr class="separator:ac25f6dcb54e7287d485a8432f1ae9f46 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -391,11 +395,13 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><b>_TFT_SDATA</b></td>
 </div><div class="memdoc">
 <p>Height of the font in bits </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a462612f07753c6cd7c5e376dc45a3e95a0a32e4a1274dbaae7ffa7430fb55b4a8"></a>TFTFont_height_8&#160;</td><td class="fielddoc"><p>8 font 1-6 at size 1 </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a462612f07753c6cd7c5e376dc45a3e95a0a32e4a1274dbaae7ffa7430fb55b4a8"></a>TFTFont_height_8&#160;</td><td class="fielddoc"><p>8 bit font 1-6 at size 1 </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a462612f07753c6cd7c5e376dc45a3e95aea81a4b132023e2fa02d97d2877c48c2"></a>TFTFont_height_16&#160;</td><td class="fielddoc"><p>16 font 8 </p>
+<tr><td class="fieldname"><a id="a462612f07753c6cd7c5e376dc45a3e95aea81a4b132023e2fa02d97d2877c48c2"></a>TFTFont_height_16&#160;</td><td class="fielddoc"><p>16 bit font 8, 10 </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a462612f07753c6cd7c5e376dc45a3e95a8bc60b2fbc3e2a515f8a1c63b89c050d"></a>TFTFont_height_32&#160;</td><td class="fielddoc"><p>32 font 7 </p>
+<tr><td class="fieldname"><a id="a462612f07753c6cd7c5e376dc45a3e95a5b14d2ddecc3ef13969805323f49afad"></a>TFTFont_height_24&#160;</td><td class="fielddoc"><p>24 bit font 9 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a462612f07753c6cd7c5e376dc45a3e95a8bc60b2fbc3e2a515f8a1c63b89c050d"></a>TFTFont_height_32&#160;</td><td class="fielddoc"><p>32 bit font 7 </p>
 </td></tr>
 </table>
 
@@ -453,6 +459,10 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><b>_TFT_SDATA</b></td>
 </td></tr>
 <tr><td class="fieldname"><a id="a1d432afbfe4242680433c194599102a5ab55baac24d160c594acdca42c08cec01"></a>TFTFont_Mednum&#160;</td><td class="fielddoc"><p>Mednum number only </p>
 </td></tr>
+<tr><td class="fieldname"><a id="a1d432afbfe4242680433c194599102a5a7bc58a945458eb2a002d9ea3e6bea6be"></a>TFTFont_ArialRound&#160;</td><td class="fielddoc"><p>Arial round font </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1d432afbfe4242680433c194599102a5ae12024103f22dd95a84eedcebb127833"></a>TFTFont_ArialBold&#160;</td><td class="fielddoc"><p>Arial bold font </p>
+</td></tr>
 </table>
 
 </div>
@@ -480,7 +490,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><b>_TFT_SDATA</b></td>
 </td></tr>
 <tr><td class="fieldname"><a id="a90c1fb1c436d7440aedcd7958751aca5ad43193bd7359125ed931ba6e43ae9d6d"></a>TFTFont_width_8&#160;</td><td class="fielddoc"><p>8 wide font </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a90c1fb1c436d7440aedcd7958751aca5ace8f8550ec72a26c551dfd16c8d9fcc0"></a>TFTFont_width_16&#160;</td><td class="fielddoc"><p>Big and Medium number font </p>
+<tr><td class="fieldname"><a id="a90c1fb1c436d7440aedcd7958751aca5ace8f8550ec72a26c551dfd16c8d9fcc0"></a>TFTFont_width_16&#160;</td><td class="fielddoc"><p>16 font 7-10 </p>
 </td></tr>
 </table>
 
@@ -573,6 +583,95 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><b>_TFT_SDATA</b></td>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>not in use currently. </dd></dl>
+
+</div>
+</div>
+<a id="a7085b16d8bde7178df94750782090c63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7085b16d8bde7178df94750782090c63">&#9670;&nbsp;</a></span>setTextColor() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ST7735_TFT_graphics::setTextColor </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set text color. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td>text color , Color definitions 16-Bit Color Values R5G6B5 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a347fa65cd480ebbdd4be2d50e4a8540a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a347fa65cd480ebbdd4be2d50e4a8540a">&#9670;&nbsp;</a></span>setTextColor() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ST7735_TFT_graphics::setTextColor </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set text color foreground and background. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td>text foreground color , Color definitions 16-Bit Color Values R5G6B5 </td></tr>
+    <tr><td class="paramname">b</td><td>text background color , Color definitions 16-Bit Color Values R5G6B5 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3677bdd61c4a95282f945902d3d2b545"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3677bdd61c4a95282f945902d3d2b545">&#9670;&nbsp;</a></span>setTextSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ST7735_TFT_graphics::setTextSize </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the size of text, fonts 1-6. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>size of text. 1 2 3 etc </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1000,7 +1099,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><b>_TFT_SDATA</b></td>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>for font 7,8 only </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>for font 7-10 only </dd></dl>
 
 </div>
 </div>
@@ -1568,7 +1667,7 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><b>_TFT_SDATA</b></td>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>for font 7,8 only </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>for font 7-10 only </dd></dl>
 
 </div>
 </div>
@@ -1994,11 +2093,11 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><b>_TFT_SDATA</b></td>
 <p>Set the font type. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">FontNumber</td><td>1-8 enum OLED_FONT_TYPE_e </td></tr>
+    <tr><td class="paramname">FontNumber</td><td>1-10 enum OLED_FONT_TYPE_e </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>1=default 2=thick 3=seven segment 4=wide 5=tiny 6=homespun 7=bignums 8=mednums </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>1=default 2=thick 3=seven segment 4=wide 5=tiny 6=homespun 7=bignums 8=mednums 9=Arial Round 10=Arial Bold </dd></dl>
 
 </div>
 </div>
@@ -2051,6 +2150,43 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><b>_TFT_SDATA</b></td>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd><a href="https://en.wikipedia.org/wiki/Bit_blit">https://en.wikipedia.org/wiki/Bit_blit</a> </dd></dl>
+
+</div>
+</div>
+<a id="a9b9d26043b5dc0ef3aa31fb6a54181c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b9d26043b5dc0ef3aa31fb6a54181c7">&#9670;&nbsp;</a></span>TFTsetCursor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ST7735_TFT_graphics::TFTsetCursor </td>
+          <td>(</td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Cursor Position on screen. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>the x co-ord of the cursor position </td></tr>
+    <tr><td class="paramname">y</td><td>the y co-ord of the cursor position </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

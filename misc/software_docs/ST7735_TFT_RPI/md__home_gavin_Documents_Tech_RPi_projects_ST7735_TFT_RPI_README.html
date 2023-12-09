@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ST7735_TFT_RPI
-   &#160;<span id="projectnumber">1.6.0</span>
+   &#160;<span id="projectnumber">1.7.0</span>
    </div>
    <div id="projectbrief">ST7735 Driver, Raspberry PI C++ library</div>
   </td>
@@ -46,18 +46,27 @@ $(function() {
 <div class="contents">
 <div class="textblock"><p><a href="https://www.paypal.com/paypalme/whitelight976"><img src="https://img.shields.io/badge/Donate-PayPal-green.svg" alt="Donate" style="pointer-events: none;" class="inline"/></a></p>
 <p><img src="https://github.com/gavinlyonsrepo/pic_16F18346_projects/blob/master/images/st7735/pcb.jpg" alt=" ig " class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md1"></a>
+<h1><a class="anchor" id="autotoc_md1"></a>
+ST7735_TFT_RPI</h1>
+<h2><a class="anchor" id="autotoc_md2"></a>
 Table of contents</h2>
 <ul>
 <li><a href="#overview">Overview</a></li>
 <li><a href="#installation">Installation</a></li>
 <li><a href="#test">Test</a></li>
-<li><a href="#software">Software</a> <br  />
+<li><a href="#software">Software</a><ul>
+<li><a href="#api">API</a></li>
+<li><a href="#user-options">User Options</a></li>
+<li><a href="#file-system">File system</a></li>
+<li><a href="#fonts">Fonts</a></li>
+<li><a href="#bitmap">Bitmap</a> <br  />
+</li>
+</ul>
 </li>
 <li><a href="#hardware">Hardware</a></li>
 <li><a href="#output">Output</a></li>
 </ul>
-<h2><a class="anchor" id="autotoc_md2"></a>
+<h2><a class="anchor" id="autotoc_md3"></a>
 Overview</h2>
 <ul>
 <li>Name: ST7735_TFT_RPI</li>
@@ -66,7 +75,7 @@ Overview</h2>
 <p>0. C++ Library for a TFT SPI LCD, ST7735 Driver</p><ol type="1">
 <li>Dynamic install-able Raspberry Pi C++ library.</li>
 <li>Inverse colour, rotate, sleep, idle &amp; vertical scroll modes supported.</li>
-<li>8 fonts</li>
+<li>10 fonts</li>
 <li>Graphics + print class included.</li>
 <li>24 bit colour , 16 bit color &amp; bi-color Bitmaps supported.</li>
 <li>Hardware and Software SPI</li>
@@ -84,7 +93,7 @@ Overview</h2>
 </ol>
 </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md3"></a>
+<h2><a class="anchor" id="autotoc_md4"></a>
 Installation</h2>
 <ol type="1">
 <li>Make sure SPI bus is enabled on your raspberry PI</li>
@@ -99,13 +108,15 @@ Installation</h2>
 </ul>
 </li>
 </ol>
-<div class="fragment"><div class="line">curl -sL https://github.com/gavinlyonsrepo/ST7735_TFT_RPI/archive/1.6.tar.gz | tar xz</div>
+<div class="fragment"><div class="line">curl -sL https://github.com/gavinlyonsrepo/ST7735_TFT_RPI/archive/1.7.tar.gz | tar xz</div>
 </div><!-- fragment --><ol type="1">
 <li>Install library. Run "make" to run the makefile to install library, it will be installed to usr/lib and usr/include</li>
 </ol>
-<div class="fragment"><div class="line">cd ST7735_TFT_RPI-1.6</div>
-<div class="line">sudo make</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md4"></a>
+<div class="fragment"><div class="line">cd ST7735_TFT_RPI-1.7</div>
+<div class="line">make</div>
+<div class="line">sudo make install</div>
+</div><!-- fragment --><p>Note :: to uninstall library run sudo make uninstall</p>
+<h2><a class="anchor" id="autotoc_md5"></a>
 Test</h2>
 <ol type="1">
 <li>Next step is to test TFT and installed library with the included main.cpp test example file. Wire up your TFT. Next enter the example folder and run the makefile in THAT folder, This second makefile builds the examples file using the just installed library, and creates a test exe file in "bin". Make run will use "sudo" as the bcm2835 requires root permissions by default <a href="http://www.airspayce.com/mikem/bcm2835/">see here for details</a> you should now see the test routines in that file running on the display. The example file is setup by default for a 128x128 red tab TFT.</li>
@@ -114,35 +125,37 @@ Test</h2>
 <div class="line">make</div>
 <div class="line">make run</div>
 </div><!-- fragment --><ol type="1">
-<li>There are three examples files. The default example file is Tests. To decide which one the makefile(In examples folder) builds simply edit "SRC" variable at top of the makefile. In the "User SRC directory Option Section" at top of file. Pick an example "SRC" directory path and ONE ONLY.</li>
+<li>There are three examples files. The default example file is Hello World. To decide which one the makefile(In examples folder) builds simply edit "SRC" variable at top of the makefile. In the "User SRC directory Option Section" at top of file. Pick an example "SRC" directory path and ONE ONLY.</li>
 </ol>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">#   </th><th class="markdownTableHeadNone">example file name   </th><th class="markdownTableHeadNone">Desc    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">src/Tests   </td><td class="markdownTableBodyNone">Tests text , fonts, bitmap ,functions    </td></tr>
+<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">src/Hello_world   </td><td class="markdownTableBodyNone">Basic use case    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">src/Hello_world   </td><td class="markdownTableBodyNone">basic use case    </td></tr>
+<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">src/Tests   </td><td class="markdownTableBodyNone">Tests graphics, text, fonts, bitmap's &amp; functions    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">src/Frame_rate_test   </td><td class="markdownTableBodyNone">FPS speed testing   </td></tr>
+<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">src/Frame_rate_test   </td><td class="markdownTableBodyNone">Frame rate per second (FPS) speed test   </td></tr>
 </table>
-<h2><a class="anchor" id="autotoc_md5"></a>
+<h2><a class="anchor" id="autotoc_md6"></a>
 Software</h2>
-<p><b>API</b></p>
+<h3><a class="anchor" id="autotoc_md7"></a>
+API</h3>
 <p>The API (application programming interface) documentation is at link hosted on github pages and generated by Doxygen.</p>
 <p><a href="https://gavinlyonsrepo.github.io/misc/software_docs/ST7735_TFT_RPI/index.html">URL</a></p>
-<p><b>USER OPTIONS</b></p>
+<h3><a class="anchor" id="autotoc_md8"></a>
+User options</h3>
 <p>In the example files. There are 3 sections in "Setup()" function where user can make adjustments to select for SPI type used, PCB type used and screen size.</p>
 <ol type="1">
 <li>USER OPTION 1 GPIO/SPI TYPE</li>
 <li>USER OPTION 2 SCREEN SECTION</li>
 <li>USER OPTION 3 PCB_TYPE, SPI SPEED , SPI_CE_PIN</li>
 </ol>
-<p><b>USER OPTION 1 SPI TYPE / GPIO</b></p>
+<p><em>USER OPTION 1 SPI TYPE / GPIO</em></p>
 <p>This library supports both Hardware SPI and software SPI. The parameters set for TFTSetupGPIO define which is used, by default its Hardware. to switch between the two: set SCLK, SDIN and CS to -1 for HW SPI set them to valid GPIO numbers for SW SPI. HW SPI is far faster and more reliable than SW SPI If user is having reliability issues with SW SPI in some setups. The user can adjust the TFT_HIGHFREQ_DELAY setting in ST7735_TFT.h file, this is a microsecond delay in SW SPI loop. It is set to 0 by default, Increasing it will slow down SW SPI further.</p>
-<p><b>USER OPTION 2 Screen size + Offsets</b></p>
+<p><em>USER OPTION 2 Screen size + Offsets</em></p>
 <p>User can adjust screen pixel height, screen pixel width and x &amp; y screen offsets. These offsets can be used in the event of screen damage or manufacturing errors around edge such as cropped data or defective pixels. The function TFTInitScreenSize sets them.</p>
-<p><b>USER OPTION 3 PCB Version, SPI SPEED , SPI_CE_PIN</b></p>
+<p><em>USER OPTION 3 PCB Version, SPI SPEED , SPI_CE_PIN</em></p>
 <p>TFTInitPCBType method</p>
 <ol type="1">
 <li>Param1 PCB_TYPE</li>
@@ -171,34 +184,45 @@ Software</h2>
 <li>SPICE0 = 0</li>
 <li>SPICE1 = 1</li>
 </ul>
-<p><b>Files</b></p>
+<h3><a class="anchor" id="autotoc_md9"></a>
+File system</h3>
 <p>In example folder: The Main.cpp file contains tests showing library functions. A bitmap data file contains data for bi-color bitmaps and icons tests. The color bitmaps used in testing are in bitmap folder, 3 16-bit and 3 24-bit images.</p>
 <p>There are two makefiles </p><pre class="fragment">1. At root directory builds and installs library at a system level.
 2. Example directory builds example file + installed library to an executable.
-</pre><p><b>Fonts</b></p>
-<p>8 fonts available :</p>
+</pre><h3><a class="anchor" id="autotoc_md10"></a>
+Fonts</h3>
+<p>10 fonts available :</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
-<th class="markdownTableHeadNone">num   </th><th class="markdownTableHeadNone">name   </th><th class="markdownTableHeadNone">size xbyy   </th><th class="markdownTableHeadNone">ASCII range    </th></tr>
+<th class="markdownTableHeadNone">#   </th><th class="markdownTableHeadNone">name   </th><th class="markdownTableHeadNone">Char size WxH   </th><th class="markdownTableHeadNone">ASCII range   </th><th class="markdownTableHeadNone">Size in bytes    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">Default   </td><td class="markdownTableBodyNone">5x8   </td><td class="markdownTableBodyNone">Full Extended ASCII 0x00 - 0xFF    </td></tr>
+<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">Default   </td><td class="markdownTableBodyNone">5x8   </td><td class="markdownTableBodyNone">Full Extended ASCII 0x00 - 0xFF   </td><td class="markdownTableBodyNone">1275    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">Thick   </td><td class="markdownTableBodyNone">7x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x5A , no lowercase letters    </td></tr>
+<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">Thick   </td><td class="markdownTableBodyNone">7x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x5A , no lowercase letters   </td><td class="markdownTableBodyNone">406    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">Seven segment   </td><td class="markdownTableBodyNone">4x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x7A    </td></tr>
+<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">Seven segment   </td><td class="markdownTableBodyNone">4x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x7A   </td><td class="markdownTableBodyNone">364    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">Wide   </td><td class="markdownTableBodyNone">8x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x5A , no lowercase letters    </td></tr>
+<td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">Wide   </td><td class="markdownTableBodyNone">8x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x5A , no lowercase letters   </td><td class="markdownTableBodyNone">464    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">Tiny   </td><td class="markdownTableBodyNone">3x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x7A    </td></tr>
+<td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">Tiny   </td><td class="markdownTableBodyNone">3x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x7A   </td><td class="markdownTableBodyNone">285    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">6   </td><td class="markdownTableBodyNone">Homespun   </td><td class="markdownTableBodyNone">7x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x7A    </td></tr>
+<td class="markdownTableBodyNone">6   </td><td class="markdownTableBodyNone">Homespun   </td><td class="markdownTableBodyNone">7x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x7A   </td><td class="markdownTableBodyNone">658    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">7   </td><td class="markdownTableBodyNone">Big Nums   </td><td class="markdownTableBodyNone">16x32   </td><td class="markdownTableBodyNone">ASCII 0x2E-0x3A , Numbers + : . only    </td></tr>
+<td class="markdownTableBodyNone">7   </td><td class="markdownTableBodyNone">Big Nums   </td><td class="markdownTableBodyNone">16x32   </td><td class="markdownTableBodyNone">ASCII 0x2E-0x3A , Numbers + : . only   </td><td class="markdownTableBodyNone">704    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">8   </td><td class="markdownTableBodyNone">Med Nums   </td><td class="markdownTableBodyNone">16x16   </td><td class="markdownTableBodyNone">ASCII 0x2E-0x3A , Numbers + : . only   </td></tr>
+<td class="markdownTableBodyNone">8   </td><td class="markdownTableBodyNone">Med Nums   </td><td class="markdownTableBodyNone">16x16   </td><td class="markdownTableBodyNone">ASCII 0x2E-0x3A , Numbers + : . only   </td><td class="markdownTableBodyNone">352    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">9   </td><td class="markdownTableBodyNone">Arial round   </td><td class="markdownTableBodyNone">16x24   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x7E   </td><td class="markdownTableBodyNone">4608    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">10   </td><td class="markdownTableBodyNone">Arial bold   </td><td class="markdownTableBodyNone">16x16   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x7E   </td><td class="markdownTableBodyNone">3072   </td></tr>
 </table>
-<p>The fonts 1-6 are byte high(at text size 1) scale-able fonts, The large numerical Fonts, 7 &amp; 8 cannot be scaled.</p>
-<p><b>Bitmap</b></p>
+<ol type="1">
+<li>Fonts 1-6 are byte high(at text size 1) scale-able fonts,</li>
+<li>The large numerical fonts, 7 - 8 cannot be scaled.</li>
+<li>The large alphanumeric fonts, 9 - 10 cannot be scaled.</li>
+</ol>
+<h3><a class="anchor" id="autotoc_md11"></a>
+Bitmap</h3>
 <p>There are four functions to support drawing bitmaps</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -216,7 +240,7 @@ Software</h2>
 <li>Bitmap size in kiloBytes = (screenWidth * screenHeight * bitsPerPixel)/(1024 * 8)</li>
 <li>Pixel size column assumes 128 by 128 screen.</li>
 </ol>
-<h2><a class="anchor" id="autotoc_md6"></a>
+<h2><a class="anchor" id="autotoc_md12"></a>
 Hardware</h2>
 <p>Connections as setup in main.cpp test file.</p>
 <table class="markdownTable">
@@ -247,7 +271,7 @@ Hardware</h2>
 <li>User can select SPI_CE0 or SPI_CE1 for HW SPI <img src="https://github.com/gavinlyonsrepo/ST7735_TFT_RPI/blob/main/extra/images/wiring.jpg" alt=" wiring " class="inline"/></li>
 <li>Backlight control is left to user.</li>
 </ol>
-<h2><a class="anchor" id="autotoc_md7"></a>
+<h2><a class="anchor" id="autotoc_md13"></a>
 Output</h2>
 <p>Output of some of the test routine's. Left to right, top to bottom.</p>
 <ol type="1">
