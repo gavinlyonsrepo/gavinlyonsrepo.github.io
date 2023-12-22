@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SSD1306_OLED_RPI
-   &#160;<span id="projectnumber">1.4.0</span>
+   &#160;<span id="projectnumber">1.5.0</span>
    </div>
    <div id="projectbrief">Library I2C 128X64 OLED Display Module Raspberry PI C++ library</div>
   </td>
@@ -75,7 +75,7 @@ Include dependency graph for SPEED_TEST/main.cpp:</div>
 <area shape="rect" href="SSD1306__OLED__graphics_8hpp.html" title="OLED driven by SSD1306 controller. header file for the graphics based functions." alt="" coords="409,155,621,181"/>
 <area shape="rect" title=" " alt="" coords="861,229,923,256"/>
 <area shape="rect" href="SSD1306__OLED__Print_8hpp.html" title="Base class that provides print() and println() for SSD1306_OLED_RPI library." alt="" coords="649,229,836,256"/>
-<area shape="rect" href="SSD1306__OLED__font_8hpp.html" title="OLED driven by SSD1306 controller. font data file 8 fonts." alt="" coords="442,229,625,256"/>
+<area shape="rect" href="SSD1306__OLED__font_8hpp.html" title="OLED driven by SSD1306 controller. font data file 10 fonts." alt="" coords="442,229,625,256"/>
 <area shape="rect" title=" " alt="" coords="634,304,721,331"/>
 <area shape="rect" title=" " alt="" coords="745,304,804,331"/>
 </map>
@@ -92,9 +92,9 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae75527fa1a71b415d35c23a95f420204"><td class="memItemLeft" align="right" valign="top"><a id="ae75527fa1a71b415d35c23a95f420204"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>setup</b> (void)</td></tr>
-<tr class="separator:ae75527fa1a71b415d35c23a95f420204"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9451ac9c9b9312fd54d91b8c82fafbf"><td class="memItemLeft" align="right" valign="top"><a id="ad9451ac9c9b9312fd54d91b8c82fafbf"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>SetupTest</b> (void)</td></tr>
+<tr class="separator:ad9451ac9c9b9312fd54d91b8c82fafbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afafd6f949a158c8c9c957c54adf8764e"><td class="memItemLeft" align="right" valign="top"><a id="afafd6f949a158c8c9c957c54adf8764e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>myLoop</b> (void)</td></tr>
 <tr class="separator:afafd6f949a158c8c9c957c54adf8764e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -110,12 +110,6 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>main</b> (int argc, ch
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a711833a8198ac054c6b6a1e1981d9517"><td class="memItemLeft" align="right" valign="top"><a id="a711833a8198ac054c6b6a1e1981d9517"></a>
-const uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>I2C_Speed</b> = 626</td></tr>
-<tr class="separator:a711833a8198ac054c6b6a1e1981d9517"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8be5dfff6cb316694f4a8e77eab7e99"><td class="memItemLeft" align="right" valign="top"><a id="ab8be5dfff6cb316694f4a8e77eab7e99"></a>
-const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>I2C_Address</b> = 0x3C</td></tr>
-<tr class="separator:ab8be5dfff6cb316694f4a8e77eab7e99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cae8d4ea2e547992b445703c9a3bb94"><td class="memItemLeft" align="right" valign="top"><a id="a2cae8d4ea2e547992b445703c9a3bb94"></a>
 <a class="el" href="classSSD1306.html">SSD1306</a>&#160;</td><td class="memItemRight" valign="bottom"><b>myOLED</b> (myOLEDwidth, myOLEDheight)</td></tr>
 <tr class="separator:a2cae8d4ea2e547992b445703c9a3bb94"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -136,7 +130,7 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>screenBuffer</b> [
 <div class="textblock"><p>Test file for SSD1306_OLED library, showing fps frame rate per second. </p>
 <dl class="section author"><dt>Author</dt><dd>Gavin Lyons</dd></dl>
 <p>Project Name: SSD1306_OLED_RPI</p>
-<dl class="test"><dt><b><a class="el" href="test.html#_test000006">Test:</a></b></dt><dd><ol type="1">
+<dl class="test"><dt><b><a class="el" href="test.html#_test000005">Test:</a></b></dt><dd><ol type="1">
 <li>Test 601 FPS test frame rate per second</li>
 </ol>
 </dd></dl>

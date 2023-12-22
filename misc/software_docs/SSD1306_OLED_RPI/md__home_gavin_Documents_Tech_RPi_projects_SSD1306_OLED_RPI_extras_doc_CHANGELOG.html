@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SSD1306_OLED_RPI
-   &#160;<span id="projectnumber">1.4.0</span>
+   &#160;<span id="projectnumber">1.5.0</span>
    </div>
    <div id="projectbrief">Library I2C 128X64 OLED Display Module Raspberry PI C++ library</div>
   </td>
@@ -67,8 +67,16 @@ $(function() {
 </li>
 <li>version 1.4 Sep 2023<ul>
 <li>Some code optimisations.</li>
-<li>string class support added to print class.</li>
-<li>Added Doxygen style comments to create automated API. </li>
+<li>String object support added to print class.</li>
+<li>Added Doxygen style comments to create automated API.</li>
+</ul>
+</li>
+<li>version 1.5 Dec 2023<ul>
+<li>Added large alphaNumeric fonts(9-10), Arial bold and Arial round.</li>
+<li>Increased size of Numerical fonts (7&amp;8) from 11 to 14 characters.</li>
+<li>Refactored I2C bus control to give user more control and visibility.</li>
+<li>Changed CCFLAGS in root directory Makefile to allow for Compilation on 64-bit systems. See Pull request number 2 on github</li>
+<li>Fixed bug in "println" method for String objects. </li>
 </ul>
 </li>
 </ul>

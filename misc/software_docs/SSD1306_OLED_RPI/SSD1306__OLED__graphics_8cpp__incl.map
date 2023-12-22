@@ -5,7 +5,7 @@
 <area shape="rect" id="node4" title=" " alt="" coords="16,229,87,256"/>
 <area shape="rect" id="node5" title=" " alt="" coords="231,155,294,181"/>
 <area shape="rect" id="node6" href="$SSD1306__OLED__Print_8hpp.html" title="Base class that provides print() and println() for SSD1306_OLED_RPI library." alt="" coords="369,155,556,181"/>
-<area shape="rect" id="node10" href="$SSD1306__OLED__font_8hpp.html" title="OLED driven by SSD1306 controller. font data file 8 fonts." alt="" coords="24,155,207,181"/>
+<area shape="rect" id="node10" href="$SSD1306__OLED__font_8hpp.html" title="OLED driven by SSD1306 controller. font data file 10 fonts." alt="" coords="24,155,207,181"/>
 <area shape="rect" id="node7" title=" " alt="" coords="472,229,559,256"/>
 <area shape="rect" id="node8" title=" " alt="" coords="583,229,654,256"/>
 <area shape="rect" id="node9" title=" " alt="" coords="389,229,448,256"/>

@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SSD1306_OLED_RPI
-   &#160;<span id="projectnumber">1.4.0</span>
+   &#160;<span id="projectnumber">1.5.0</span>
    </div>
    <div id="projectbrief">Library I2C 128X64 OLED Display Module Raspberry PI C++ library</div>
   </td>
@@ -62,6 +62,7 @@ Table of contents</h2>
 </ul>
 </li>
 <li><a href="#output">Output</a></li>
+<li><a href="#notes">Notes</a></li>
 </ul>
 <h2><a class="anchor" id="autotoc_md3"></a>
 Overview</h2>
@@ -73,7 +74,7 @@ Overview</h2>
 <li>Dynamic install-able system level Raspberry Pi C++ library.</li>
 <li>Inverse color, rotate, sleep, scroll and contrast control.</li>
 <li>Default font is Extended ASCII, scalable font.</li>
-<li>8 fonts included.</li>
+<li>10 fonts included.</li>
 <li>Graphics class included.</li>
 <li>Bitmaps supported.</li>
 <li>Hardware I2C using bcm2835 library</li>
@@ -81,11 +82,12 @@ Overview</h2>
 <li>Dependency: bcm2835 Library</li>
 </ol>
 <ul>
-<li>Author: Gavin Lyons<ol type="1">
+<li>Author: Gavin Lyons</li>
+<li>Development toolchain.<ol type="1">
 <li>Raspberry PI 3 model b,</li>
 <li>C++ complier g++ (Raspbian 8.3.0-6)</li>
-<li>Raspbian 10 buster OS</li>
-<li>bcm2835 Library 1.68 (Dependency)</li>
+<li>Raspbian 10 buster OS, 32 bit.</li>
+<li>bcm2835 Library 1.73 (Dependency)</li>
 </ol>
 </li>
 </ul>
@@ -93,7 +95,7 @@ Overview</h2>
 Installation</h2>
 <ol type="1">
 <li>Make sure I2C bus is enabled on your raspberry PI</li>
-<li>Install the dependency bcm2835 Library if not installed (at time of writing latest version is 1.68.)<ul>
+<li>Install the dependency bcm2835 Library if not installed (at time of writing latest version is 1.73.)<ul>
 <li>The bcm2835 library is a dependency and provides I2C bus, delays and GPIO control.</li>
 <li>Install the C libraries of bcm2835, <a href="http://www.airspayce.com/mikem/bcm2835/">Installation instructions here</a></li>
 </ul>
@@ -104,11 +106,11 @@ Installation</h2>
 </ul>
 </li>
 </ol>
-<div class="fragment"><div class="line">curl -sL https://github.com/gavinlyonsrepo/SSD1306_OLED_RPI/archive/1.4.tar.gz | tar xz</div>
+<div class="fragment"><div class="line">curl -sL https://github.com/gavinlyonsrepo/SSD1306_OLED_RPI/archive/1.5.tar.gz | tar xz</div>
 </div><!-- fragment --><ol type="1">
 <li>Run "make" to run the makefile in repo base folder to install library, it will be installed to usr/lib and usr/include</li>
 </ol>
-<div class="fragment"><div class="line">cd SSD1306_OLED_RPI-1.4</div>
+<div class="fragment"><div class="line">cd SSD1306_OLED_RPI-1.5</div>
 <div class="line">make</div>
 <div class="line">sudo make install</div>
 </div><!-- fragment --><h2><a class="anchor" id="autotoc_md5"></a>
@@ -120,100 +122,125 @@ Test</h2>
 <div class="line">make</div>
 <div class="line">make run</div>
 </div><!-- fragment --><ol type="1">
-<li>There are seven examples files to try out. To decide which one the makefile builds simply edit "SRC" variable at top of the makefile in examples folder. in the "User SRC directory Option Section". Pick an example "SRC" directory path and ONE ONLY. Comment out the rest and repeat: make and make run.</li>
+<li>There are 6 examples files to try out. To decide which one the makefile builds simply edit "SRC" variable at top of the makefile in examples folder. in the "User SRC directory Option Section". Pick an example "SRC" directory path and ONE ONLY. Comment out the rest and repeat: make and make run.</li>
 </ol>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Filepath   </th><th class="markdownTableHeadNone">File Function   </th><th class="markdownTableHeadNone">Screen Size    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">src/HELLO_WORLD   </td><td class="markdownTableBodyNone">Basic use case   </td><td class="markdownTableBodyNone">128X64    </td></tr>
+<td class="markdownTableBodyNone">src/HELLO_WORLD   </td><td class="markdownTableBodyNone">Basic use case   </td><td class="markdownTableBodyNone">128x64    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">src/BITMAP   </td><td class="markdownTableBodyNone">Shows use of bitmaps   </td><td class="markdownTableBodyNone">128X64    </td></tr>
+<td class="markdownTableBodyNone">src/BITMAP   </td><td class="markdownTableBodyNone">Shows use of bitmaps   </td><td class="markdownTableBodyNone">128x64    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">src/CLOCK_DEMO   </td><td class="markdownTableBodyNone">A basic clock Demo   </td><td class="markdownTableBodyNone">128X64    </td></tr>
+<td class="markdownTableBodyNone">src/CLOCK_DEMO   </td><td class="markdownTableBodyNone">A basic clock Demo   </td><td class="markdownTableBodyNone">128x64    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">src/OLED_FUNCTIONS   </td><td class="markdownTableBodyNone">Test functions like scroll, rotate etc   </td><td class="markdownTableBodyNone">128X64    </td></tr>
+<td class="markdownTableBodyNone">src/OLED_FUNCTIONS   </td><td class="markdownTableBodyNone">Test functions like scroll, rotate etc   </td><td class="markdownTableBodyNone">128x64    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">src/SPEED_TEST   </td><td class="markdownTableBodyNone">Frame rate per second test   </td><td class="markdownTableBodyNone">128X64    </td></tr>
+<td class="markdownTableBodyNone">src/SPEED_TEST   </td><td class="markdownTableBodyNone">Frame rate per second test   </td><td class="markdownTableBodyNone">128x64    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">src/TEXT_GRAPHICS   </td><td class="markdownTableBodyNone">Tests Text , fonts and graphics   </td><td class="markdownTableBodyNone">128X64    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">src/HELLO_WORLD_128_32   </td><td class="markdownTableBodyNone">Basic use case   </td><td class="markdownTableBodyNone">128X32   </td></tr>
+<td class="markdownTableBodyNone">src/TEXT_GRAPHICS   </td><td class="markdownTableBodyNone">Tests Text , fonts and graphics   </td><td class="markdownTableBodyNone">128x64   </td></tr>
 </table>
 <h2><a class="anchor" id="autotoc_md6"></a>
 Hardware</h2>
-<p>Connections as per manufacturers diagram.</p>
+<p>Manufacturers diagram showing connections.</p>
 <p><img src="https://github.com/gavinlyonsrepo/SSD1306_OLED_RPI/blob/main/extras/image/wiring.jpg" alt=" wiring " class="inline"/></p>
 <h2><a class="anchor" id="autotoc_md7"></a>
 Software</h2>
 <h3><a class="anchor" id="autotoc_md8"></a>
 API</h3>
-<p>The API (application programming interface) documentation is at link hosted on github pages and generated by Doxygen.</p>
-<p><a href="https://gavinlyonsrepo.github.io/misc/software_docs/SSD1306_OLED_RPI/index.html">URL</a></p>
+<p>The API (application programming interface) documentation is at link hosted on github pages and generated by Doxygen software. Lots of information on the software.</p>
+<p><a href="https://gavinlyonsrepo.github.io/misc/software_docs/SSD1306_OLED_RPI/index.html">API URL Link</a></p>
 <h3><a class="anchor" id="autotoc_md9"></a>
 I2C</h3>
 <p>Hardware I2C.</p>
 <ol type="1">
 <li>I2C Address is set by default to 0x3C(your module could be different, user can change argument passed into "OLEDbegin" method).</li>
-<li>In the event of an error writing a byte debug info with error code will be written to screen. This error code is the bcm2835I2CReasonCodes enum.</li>
-<li>I2C Clock rate can be a passed into in the "OLEDbegin" method as a argument, five possible values :</li>
+<li>I2C Clock rate can be a passed into in the "OLEDbegin" method as a argument, five possible values : If you send 0 (the default) It sets it to 100KHz and uses bcm2835_i2c_set_baudrate to do so. Alternatively you can pass 1 of 4 BCM2835_I2C_CLOCK_DIVIDER values 2500, 626 150 or 148. See image below.</li>
+<li>In the event of an error writing a byte, debug info with error code will be written to console. This error code is the bcm2835I2CReasonCodes enum. Debug flag must be set to true to see this output. See image below for bcm2835I2CReasonCodes.</li>
 </ol>
-<table class="markdownTable">
-<tr class="markdownTableHead">
-<th class="markdownTableHeadNone">Value   </th><th class="markdownTableHeadNone">Method   </th><th class="markdownTableHeadNone">I2C speed    </th></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">0 (default)   </td><td class="markdownTableBodyNone">bcm2835_i2c_set_baudrate(100000)   </td><td class="markdownTableBodyNone">100Khz    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">2500   </td><td class="markdownTableBodyNone">bcm2835_i2c_setClockDivider(BCM2835_I2C_CLOCK_DIVIDER_2500)   </td><td class="markdownTableBodyNone">100Khz    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">626   </td><td class="markdownTableBodyNone">bcm2835_i2c_setClockDivider(BCM2835_I2C_CLOCK_DIVIDER_626)   </td><td class="markdownTableBodyNone">399.4 kHz    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">150   </td><td class="markdownTableBodyNone">bcm2835_i2c_setClockDivider(BCM2835_I2C_CLOCK_DIVIDER_150)   </td><td class="markdownTableBodyNone">1.666 MHz    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">148   </td><td class="markdownTableBodyNone">bcm2835_i2c_setClockDivider(BCM2835_I2C_CLOCK_DIVIDER_148)   </td><td class="markdownTableBodyNone">1.689 MHz   </td></tr>
-</table>
+<p><img src="https://github.com/gavinlyonsrepo/SSD1306_OLED_RPI/blob/main/extras/image/bcm.jpg" alt=" bcm " class="inline"/></p>
 <p>For more info on bcm2835I2CClockDivider &amp; bcm2835I2CReasonCodes see <a href="http://www.airspayce.com/mikem/bcm2835/group__constants.html">bcm2835 doc's for details</a></p>
 <h3><a class="anchor" id="autotoc_md10"></a>
 Fonts</h3>
-<p>There are Eight fonts. A print class is available to print out most passed data types. The fonts 1-6 are byte high(at text size 1) scale-able fonts, columns of padding added by SW. Font 7-8 are large numerical fonts and cannot be scaled(just one size). <br  />
- It is possible to use ':', '.' and '-' symbol's with these fonts, see example file for details</p>
-<p>Eight fonts available :</p>
 <p>Font data table:</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
-<th class="markdownTableHeadNone">Font num   </th><th class="markdownTableHeadNone">Font enum name   </th><th class="markdownTableHeadNone">Font size xbyy   </th><th class="markdownTableHeadNone">ASCII range   </th><th class="markdownTableHeadNone">Size in bytes    </th></tr>
+<th class="markdownTableHeadNone">num   </th><th class="markdownTableHeadNone">enum name   </th><th class="markdownTableHeadNone">Char size XbyY   </th><th class="markdownTableHeadNone">ASCII range   </th><th class="markdownTableHeadNone">Size bytes   </th><th class="markdownTableHeadNone">Scale-able    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">OLEDFontType_Default   </td><td class="markdownTableBodyNone">5x8   </td><td class="markdownTableBodyNone">ASCII 0 - 0xFF, Full Extended   </td><td class="markdownTableBodyNone">1275    </td></tr>
+<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">$_Default   </td><td class="markdownTableBodyNone">5x8   </td><td class="markdownTableBodyNone">0-0xFF, Full Extended   </td><td class="markdownTableBodyNone">1275   </td><td class="markdownTableBodyNone">Y    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">OLEDFontType_Thick   </td><td class="markdownTableBodyNone">7x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x5A, no lowercase letters   </td><td class="markdownTableBodyNone">406    </td></tr>
+<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">$_Thick   </td><td class="markdownTableBodyNone">7x8   </td><td class="markdownTableBodyNone">0x20-0x5A, no lowercase letters   </td><td class="markdownTableBodyNone">406   </td><td class="markdownTableBodyNone">Y    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">OLEDFontType_SevenSeg   </td><td class="markdownTableBodyNone">4x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x7A   </td><td class="markdownTableBodyNone">360    </td></tr>
+<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">$_SevenSeg   </td><td class="markdownTableBodyNone">4x8   </td><td class="markdownTableBodyNone">0x20-0x7A   </td><td class="markdownTableBodyNone">360   </td><td class="markdownTableBodyNone">Y    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">OLEDFontType_Wide   </td><td class="markdownTableBodyNone">8x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x5A, no lowercase letters   </td><td class="markdownTableBodyNone">464    </td></tr>
+<td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">$_Wide   </td><td class="markdownTableBodyNone">8x8   </td><td class="markdownTableBodyNone">0x20-0x5A, no lowercase letters   </td><td class="markdownTableBodyNone">464   </td><td class="markdownTableBodyNone">Y    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">OLEDFontType_Tiny   </td><td class="markdownTableBodyNone">3x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x7E   </td><td class="markdownTableBodyNone">285    </td></tr>
+<td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">$_Tiny   </td><td class="markdownTableBodyNone">3x8   </td><td class="markdownTableBodyNone">0x20-0x7E   </td><td class="markdownTableBodyNone">285   </td><td class="markdownTableBodyNone">Y    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">6   </td><td class="markdownTableBodyNone">OLEDFontType_Homespun   </td><td class="markdownTableBodyNone">7x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x7E   </td><td class="markdownTableBodyNone">658    </td></tr>
+<td class="markdownTableBodyNone">6   </td><td class="markdownTableBodyNone">$_Homespun   </td><td class="markdownTableBodyNone">7x8   </td><td class="markdownTableBodyNone">0x20-0x7E   </td><td class="markdownTableBodyNone">658   </td><td class="markdownTableBodyNone">Y    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">7   </td><td class="markdownTableBodyNone">OLEDFontType_Bignum   </td><td class="markdownTableBodyNone">16x32   </td><td class="markdownTableBodyNone">ASCII 0x30-0x3A ,Numbers + : only   </td><td class="markdownTableBodyNone">704    </td></tr>
+<td class="markdownTableBodyNone">7   </td><td class="markdownTableBodyNone">$_Bignum   </td><td class="markdownTableBodyNone">16x32   </td><td class="markdownTableBodyNone">0x2D-0x3A ,0-10 - . / :   </td><td class="markdownTableBodyNone">896   </td><td class="markdownTableBodyNone">N    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">8   </td><td class="markdownTableBodyNone">OLEDFontType_Mednum   </td><td class="markdownTableBodyNone">16x16   </td><td class="markdownTableBodyNone">ASCII 0x30-0x3A , Numbers + : only   </td><td class="markdownTableBodyNone">352   </td></tr>
+<td class="markdownTableBodyNone">8   </td><td class="markdownTableBodyNone">$_Mednum   </td><td class="markdownTableBodyNone">16x16   </td><td class="markdownTableBodyNone">0x2D-0x3A ,0-10 - . / :   </td><td class="markdownTableBodyNone">448   </td><td class="markdownTableBodyNone">N    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">9   </td><td class="markdownTableBodyNone">$_ArialRound   </td><td class="markdownTableBodyNone">16x24   </td><td class="markdownTableBodyNone">0x20-0x7E   </td><td class="markdownTableBodyNone">4608   </td><td class="markdownTableBodyNone">N    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">10   </td><td class="markdownTableBodyNone">$_ArialBold   </td><td class="markdownTableBodyNone">16x16   </td><td class="markdownTableBodyNone">0x20-0x7E   </td><td class="markdownTableBodyNone">3072   </td><td class="markdownTableBodyNone">N   </td></tr>
+</table>
+<ol type="1">
+<li>$ = OLEDFontType</li>
+<li>A print class is available to print out many data types.</li>
+<li>Fonts 1-6 are byte high(at text size 1) scale-able fonts, columns of padding added by SW.</li>
+<li>Font 7-8 are large numerical fonts and cannot be scaled(just one size).</li>
+<li>Fonts 9-10 large Alphanumeric fonts and cannot be scaled(just one size)</li>
+</ol>
+<p>Font Methods:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Font num   </th><th class="markdownTableHeadNone">Method   </th><th class="markdownTableHeadNone">Notes    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">1-6   </td><td class="markdownTableBodyNone">drawChar   </td><td class="markdownTableBodyNone">draws single character    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">1-6   </td><td class="markdownTableBodyNone">drawText   </td><td class="markdownTableBodyNone">draws character array    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">7-10   </td><td class="markdownTableBodyNone">drawCharBigFont   </td><td class="markdownTableBodyNone">draws single character    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">7-10   </td><td class="markdownTableBodyNone">drawTextBigFont   </td><td class="markdownTableBodyNone">draws character array    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">1-10   </td><td class="markdownTableBodyNone">print   </td><td class="markdownTableBodyNone">Polymorphic print class which will print out most data types   </td></tr>
 </table>
 <h3><a class="anchor" id="autotoc_md11"></a>
 Bitmaps</h3>
+<p>Two different bitmaps methods can be used.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">num   </th><th class="markdownTableHeadNone">Method name   </th><th class="markdownTableHeadNone">data addressing   </th><th class="markdownTableHeadNone">Notes    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">OLEDBitmap   </td><td class="markdownTableBodyNone">horizontal   </td><td class="markdownTableBodyNone">Draws bitmaps to the buffer    </td></tr>
+<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">OLEDBitmap()   </td><td class="markdownTableBodyNone">horizontal   </td><td class="markdownTableBodyNone">Draws bitmaps to the buffer    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">OLEDBuffer   </td><td class="markdownTableBodyNone">vertical   </td><td class="markdownTableBodyNone">Write a full screen bitmap direct to screen, used internally   </td></tr>
+<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">OLEDBuffer()   </td><td class="markdownTableBodyNone">vertical   </td><td class="markdownTableBodyNone">Write a full screen bitmap direct to screen, used internally   </td></tr>
 </table>
-<p>Two different bitmaps methods canbe used. Bitmaps can be turned to data <a href="https://javl.github.io/image2cpp/">here at link</a> See example file for more details</p>
+<p>Bitmaps can be turned to data <a href="https://javl.github.io/image2cpp/">here at link</a> See example file "BITMAP" for more details.</p>
 <h2><a class="anchor" id="autotoc_md12"></a>
 Output</h2>
-<p>Output of example file "CLOCK_DEMO"</p>
-<p><img src="https://github.com/gavinlyonsrepo/SSD1306_OLED_RPI/blob/main/extras/image/output.jpg" alt=" op " class="inline"/> </p>
+<p>Output of the example file "CLOCK_DEMO".</p>
+<p><img src="https://github.com/gavinlyonsrepo/SSD1306_OLED_RPI/blob/main/extras/image/output.jpg" alt=" op " class="inline"/></p>
+<h2><a class="anchor" id="autotoc_md13"></a>
+Notes</h2>
+<ol type="1">
+<li>Note the toolchain used in Overview section, If you have trouble compiling on other platforms or OS. For example 64-bit OS, user may need to remove or edit the CCFLAGS in root directory Makefile to allow for Compilation. See Pull request number 2 on github.</li>
+<li>To test on a different size of display edit the myOLEDwidth &amp; myOLEDheight variables in examples files.</li>
+</ol>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Display size   </th><th class="markdownTableHeadNone">Supported   </th><th class="markdownTableHeadNone">Tested    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">128x64   </td><td class="markdownTableBodyNone">Yes   </td><td class="markdownTableBodyNone">Yes    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">128x32   </td><td class="markdownTableBodyNone">Yes   </td><td class="markdownTableBodyNone">Yes    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">???x16   </td><td class="markdownTableBodyNone">Yes   </td><td class="markdownTableBodyNone">NO   </td></tr>
+</table>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 <!-- start footer part -->
