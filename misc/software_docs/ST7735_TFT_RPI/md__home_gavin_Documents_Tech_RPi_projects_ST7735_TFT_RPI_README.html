@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ST7735_TFT_RPI
-   &#160;<span id="projectnumber">1.7.0</span>
+   &#160;<span id="projectnumber">1.7.1</span>
    </div>
    <div id="projectbrief">ST7735 Driver, Raspberry PI C++ library</div>
   </td>
@@ -55,7 +55,7 @@ Table of contents</h2>
 <li><a href="#installation">Installation</a></li>
 <li><a href="#test">Test</a></li>
 <li><a href="#software">Software</a><ul>
-<li><a href="#api">API</a></li>
+<li><a href="#api-documentation">API documentation</a></li>
 <li><a href="#user-options">User Options</a></li>
 <li><a href="#file-system">File system</a></li>
 <li><a href="#fonts">Fonts</a></li>
@@ -65,6 +65,7 @@ Table of contents</h2>
 </li>
 <li><a href="#hardware">Hardware</a></li>
 <li><a href="#output">Output</a></li>
+<li><a href="#notes-and-issues">Notes and Issues</a></li>
 </ul>
 <h2><a class="anchor" id="autotoc_md3"></a>
 Overview</h2>
@@ -84,20 +85,19 @@ Overview</h2>
 <ul>
 <li>Author: Gavin Lyons</li>
 <li>Port of my PIC library at <a href="https://github.com/gavinlyonsrepo/pic_16F18346_projects">github link.</a></li>
-<li>Created: May 2021</li>
-<li>Developed on<ol type="1">
+<li>Development Tool chain.<ol type="1">
 <li>Raspberry PI 3 model b</li>
-<li>C++ g++ (Raspbian 8.3.0-6+rpi1) 8.3.0</li>
-<li>Raspbian 10 Buster OS , armv7l Linux 5.10.63-v7</li>
-<li>bcm2835 Library 1.68</li>
+<li>C++, g++ (Debian 12.2.0)</li>
+<li>Raspbian , Debian 12 bookworm OS, , 64 bit.</li>
+<li>kernel : aarch64 Linux 6.1.0-rpi7-rpi-v8</li>
+<li><a href="http://www.airspayce.com/mikem/bcm2835/">bcm2835 Library 1.73 dependency</a>. Provides low level SPI bus, delays and GPIO control.</li>
 </ol>
 </li>
 </ul>
 <h2><a class="anchor" id="autotoc_md4"></a>
 Installation</h2>
 <ol type="1">
-<li>Make sure SPI bus is enabled on your raspberry PI</li>
-<li>Install the dependency bcm2835 Library if not installed (at time of writing latest version is 1.68.)<ul>
+<li>Install the dependency bcm2835 Library if not installed (at time of writing latest version is 1.73)<ul>
 <li>The bcm2835 library provides SPI bus, delays and GPIO control.</li>
 <li>Install the C libraries of bcm2835, <a href="http://www.airspayce.com/mikem/bcm2835/">Installation instructions here</a></li>
 </ul>
@@ -108,11 +108,11 @@ Installation</h2>
 </ul>
 </li>
 </ol>
-<div class="fragment"><div class="line">curl -sL https://github.com/gavinlyonsrepo/ST7735_TFT_RPI/archive/1.7.tar.gz | tar xz</div>
+<div class="fragment"><div class="line">curl -sL https://github.com/gavinlyonsrepo/ST7735_TFT_RPI/archive/1.7.1.tar.gz | tar xz</div>
 </div><!-- fragment --><ol type="1">
 <li>Install library. Run "make" to run the makefile to install library, it will be installed to usr/lib and usr/include</li>
 </ol>
-<div class="fragment"><div class="line">cd ST7735_TFT_RPI-1.7</div>
+<div class="fragment"><div class="line">cd ST7735_TFT_RPI-1.7.1</div>
 <div class="line">make</div>
 <div class="line">sudo make install</div>
 </div><!-- fragment --><p>Note :: to uninstall library run sudo make uninstall</p>
@@ -125,7 +125,7 @@ Test</h2>
 <div class="line">make</div>
 <div class="line">make run</div>
 </div><!-- fragment --><ol type="1">
-<li>There are three examples files. The default example file is Hello World. To decide which one the makefile(In examples folder) builds simply edit "SRC" variable at top of the makefile. In the "User SRC directory Option Section" at top of file. Pick an example "SRC" directory path and ONE ONLY.</li>
+<li>There are 7 examples files. The default example file is Hello World. To decide which one the makefile(In examples folder) builds simply edit "SRC" variable at top of the makefile. In the "User SRC directory Option Section" at top of file. Pick an example "SRC" directory path and ONE ONLY.</li>
 </ol>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -133,14 +133,22 @@ Test</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">src/Hello_world   </td><td class="markdownTableBodyNone">Basic use case    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">src/Tests   </td><td class="markdownTableBodyNone">Tests graphics, text, fonts, bitmap's &amp; functions    </td></tr>
+<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">src/Hello_world_SWSPI   </td><td class="markdownTableBodyNone">Basic use case for software SPI    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">src/Frame_rate_test   </td><td class="markdownTableBodyNone">Frame rate per second (FPS) speed test   </td></tr>
+<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">src/Text_Tests   </td><td class="markdownTableBodyNone">Tests text &amp; fonts    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">src/Graphic_Tests   </td><td class="markdownTableBodyNone">graphics    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">src/Bitmap_Tests   </td><td class="markdownTableBodyNone">bitmap    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">6   </td><td class="markdownTableBodyNone">src/Function_Tests   </td><td class="markdownTableBodyNone">function testing (scroll rotate etc)    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">7   </td><td class="markdownTableBodyNone">src/Frame_rate_test   </td><td class="markdownTableBodyNone">Frame rate per second (FPS) speed tests   </td></tr>
 </table>
 <h2><a class="anchor" id="autotoc_md6"></a>
 Software</h2>
 <h3><a class="anchor" id="autotoc_md7"></a>
-API</h3>
+API documentation</h3>
 <p>The API (application programming interface) documentation is at link hosted on github pages and generated by Doxygen.</p>
 <p><a href="https://gavinlyonsrepo.github.io/misc/software_docs/ST7735_TFT_RPI/index.html">URL</a></p>
 <h3><a class="anchor" id="autotoc_md8"></a>
@@ -152,14 +160,12 @@ User options</h3>
 <li>USER OPTION 3 PCB_TYPE, SPI SPEED , SPI_CE_PIN</li>
 </ol>
 <p><em>USER OPTION 1 SPI TYPE / GPIO</em></p>
-<p>This library supports both Hardware SPI and software SPI. The parameters set for TFTSetupGPIO define which is used, by default its Hardware. to switch between the two: set SCLK, SDIN and CS to -1 for HW SPI set them to valid GPIO numbers for SW SPI. HW SPI is far faster and more reliable than SW SPI If user is having reliability issues with SW SPI in some setups. The user can adjust the TFT_HIGHFREQ_DELAY setting in ST7735_TFT.h file, this is a microsecond delay in SW SPI loop. It is set to 0 by default, Increasing it will slow down SW SPI further.</p>
+<p>This library supports both Hardware SPI and software SPI. The TFTSetupGPIO function is overloaded(2 off one for HW SPI the other for SW SPI). The parameters set for TFTSetupGPIO define which is used. HW SPI is far faster and more reliable than SW SPI</p>
 <p><em>USER OPTION 2 Screen size + Offsets</em></p>
 <p>User can adjust screen pixel height, screen pixel width and x &amp; y screen offsets. These offsets can be used in the event of screen damage or manufacturing errors around edge such as cropped data or defective pixels. The function TFTInitScreenSize sets them.</p>
 <p><em>USER OPTION 3 PCB Version, SPI SPEED , SPI_CE_PIN</em></p>
-<p>TFTInitPCBType method</p>
-<ol type="1">
-<li>Param1 PCB_TYPE</li>
-</ol>
+<p>TFTInitPCBType function is overloaded(2 off one for HW SPI the other for SW SPI).</p>
+<p>Param1 PCB_TYPE</p>
 <p>In the main.cpp in USER OPTION 3 PCB_TYPE select your display type. By passing an enum type to function TFTInitPCBType. Default is "TFT_ST7735R_Red". There are 4 types of the ST7735 TFT display supported. If your display works but RGB colors are inverted you may have chosen wrong display type.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -173,17 +179,14 @@ User options</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">ST7735S Black Tab   </td><td class="markdownTableBodyNone">TFT_ST7735S_Black   </td><td class="markdownTableBodyNone">RED PCB v1.2, 1.8, 128 x 160 pixels   </td></tr>
 </table>
-<ol type="1">
-<li>Param2 SPI_Speed (HW SPI Only)</li>
-</ol>
+<p>Param2A SPI_Speed (HW SPI Only)</p>
 <p>Here the user can pass the SPI Bus freq in Hertz, Maximum 125 Mhz , Minimum 30Khz, The default in file is 8Mhz If you set to 0 .Speed is set to bcm2835 constant BCM2835_SPI_CLOCK_DIVIDER_32. If using SW spi, ignore.</p>
-<ol type="1">
-<li>Param3 SPI_CE_PIN (HW SPI Only)</li>
-</ol>
-<p>Which Chip enable pin to use two choices. If using SW spi, ignore.</p><ul>
+<p>Param3 SPI_CE_PIN (HW SPI Onl Which Chip enable pin to use two choices. If using SW spi, ignore.</p><ul>
 <li>SPICE0 = 0</li>
 <li>SPICE1 = 1</li>
 </ul>
+<p>Param2B SPI_CommDelay (SW SPI Only)</p>
+<p>The user can adjust If user is having reliability issues with SW SPI in some setups. This is a microsecond delay in SW SPI GPIO loop. It is set to 0 by default, Increasing it will slow down SW SPI further.</p>
 <h3><a class="anchor" id="autotoc_md9"></a>
 File system</h3>
 <p>In example folder: The Main.cpp file contains tests showing library functions. A bitmap data file contains data for bi-color bitmaps and icons tests. The color bitmaps used in testing are in bitmap folder, 3 16-bit and 3 24-bit images.</p>
@@ -191,36 +194,58 @@ File system</h3>
 2. Example directory builds example file + installed library to an executable.
 </pre><h3><a class="anchor" id="autotoc_md10"></a>
 Fonts</h3>
-<p>10 fonts available :</p>
+<p>Font data table:</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
-<th class="markdownTableHeadNone">#   </th><th class="markdownTableHeadNone">name   </th><th class="markdownTableHeadNone">Char size WxH   </th><th class="markdownTableHeadNone">ASCII range   </th><th class="markdownTableHeadNone">Size in bytes    </th></tr>
+<th class="markdownTableHeadNone">num   </th><th class="markdownTableHeadNone">enum name   </th><th class="markdownTableHeadNone">Char size XbyY   </th><th class="markdownTableHeadNone">ASCII range   </th><th class="markdownTableHeadNone">Size bytes   </th><th class="markdownTableHeadNone">Size Scale-able    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">Default   </td><td class="markdownTableBodyNone">5x8   </td><td class="markdownTableBodyNone">Full Extended ASCII 0x00 - 0xFF   </td><td class="markdownTableBodyNone">1275    </td></tr>
+<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">$_Default   </td><td class="markdownTableBodyNone">5x8   </td><td class="markdownTableBodyNone">0-0xFF, Full Extended   </td><td class="markdownTableBodyNone">1275   </td><td class="markdownTableBodyNone">Y    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">Thick   </td><td class="markdownTableBodyNone">7x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x5A , no lowercase letters   </td><td class="markdownTableBodyNone">406    </td></tr>
+<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">$_Thick   </td><td class="markdownTableBodyNone">7x8   </td><td class="markdownTableBodyNone">0x20-0x5A, no lowercase letters   </td><td class="markdownTableBodyNone">406   </td><td class="markdownTableBodyNone">Y    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">Seven segment   </td><td class="markdownTableBodyNone">4x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x7A   </td><td class="markdownTableBodyNone">364    </td></tr>
+<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">$_SevenSeg   </td><td class="markdownTableBodyNone">4x8   </td><td class="markdownTableBodyNone">0x20-0x7A   </td><td class="markdownTableBodyNone">360   </td><td class="markdownTableBodyNone">Y    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">Wide   </td><td class="markdownTableBodyNone">8x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x5A , no lowercase letters   </td><td class="markdownTableBodyNone">464    </td></tr>
+<td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">$_Wide   </td><td class="markdownTableBodyNone">8x8   </td><td class="markdownTableBodyNone">0x20-0x5A, no lowercase letters   </td><td class="markdownTableBodyNone">464   </td><td class="markdownTableBodyNone">Y    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">Tiny   </td><td class="markdownTableBodyNone">3x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x7A   </td><td class="markdownTableBodyNone">285    </td></tr>
+<td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">$_Tiny   </td><td class="markdownTableBodyNone">3x8   </td><td class="markdownTableBodyNone">0x20-0x7E   </td><td class="markdownTableBodyNone">285   </td><td class="markdownTableBodyNone">Y    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">6   </td><td class="markdownTableBodyNone">Homespun   </td><td class="markdownTableBodyNone">7x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x7A   </td><td class="markdownTableBodyNone">658    </td></tr>
+<td class="markdownTableBodyNone">6   </td><td class="markdownTableBodyNone">$_Homespun   </td><td class="markdownTableBodyNone">7x8   </td><td class="markdownTableBodyNone">0x20-0x7E   </td><td class="markdownTableBodyNone">658   </td><td class="markdownTableBodyNone">Y    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">7   </td><td class="markdownTableBodyNone">Big Nums   </td><td class="markdownTableBodyNone">16x32   </td><td class="markdownTableBodyNone">ASCII 0x2E-0x3A , Numbers + : . only   </td><td class="markdownTableBodyNone">704    </td></tr>
+<td class="markdownTableBodyNone">7   </td><td class="markdownTableBodyNone">$_Bignum   </td><td class="markdownTableBodyNone">16x32   </td><td class="markdownTableBodyNone">0x2D-0x3A ,0-10 - . / :   </td><td class="markdownTableBodyNone">896   </td><td class="markdownTableBodyNone">N    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">8   </td><td class="markdownTableBodyNone">Med Nums   </td><td class="markdownTableBodyNone">16x16   </td><td class="markdownTableBodyNone">ASCII 0x2E-0x3A , Numbers + : . only   </td><td class="markdownTableBodyNone">352    </td></tr>
+<td class="markdownTableBodyNone">8   </td><td class="markdownTableBodyNone">$_Mednum   </td><td class="markdownTableBodyNone">16x16   </td><td class="markdownTableBodyNone">0x2D-0x3A ,0-10 - . / :   </td><td class="markdownTableBodyNone">448   </td><td class="markdownTableBodyNone">N    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">9   </td><td class="markdownTableBodyNone">Arial round   </td><td class="markdownTableBodyNone">16x24   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x7E   </td><td class="markdownTableBodyNone">4608    </td></tr>
+<td class="markdownTableBodyNone">9   </td><td class="markdownTableBodyNone">$_ArialRound   </td><td class="markdownTableBodyNone">16x24   </td><td class="markdownTableBodyNone">0x20-0x7E   </td><td class="markdownTableBodyNone">4608   </td><td class="markdownTableBodyNone">N    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">10   </td><td class="markdownTableBodyNone">Arial bold   </td><td class="markdownTableBodyNone">16x16   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x7E   </td><td class="markdownTableBodyNone">3072   </td></tr>
+<td class="markdownTableBodyNone">10   </td><td class="markdownTableBodyNone">$_ArialBold   </td><td class="markdownTableBodyNone">16x16   </td><td class="markdownTableBodyNone">0x20-0x7E   </td><td class="markdownTableBodyNone">3072   </td><td class="markdownTableBodyNone">N    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">11   </td><td class="markdownTableBodyNone">$_Mia   </td><td class="markdownTableBodyNone">8x16   </td><td class="markdownTableBodyNone">0x20-0x7E   </td><td class="markdownTableBodyNone">1520   </td><td class="markdownTableBodyNone">N    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">12   </td><td class="markdownTableBodyNone">$_Dedica   </td><td class="markdownTableBodyNone">6x12   </td><td class="markdownTableBodyNone">0x20-0x7E   </td><td class="markdownTableBodyNone">1152   </td><td class="markdownTableBodyNone">N   </td></tr>
 </table>
 <ol type="1">
-<li>Fonts 1-6 are byte high(at text size 1) scale-able fonts,</li>
-<li>The large numerical fonts, 7 - 8 cannot be scaled.</li>
-<li>The large alphanumeric fonts, 9 - 10 cannot be scaled.</li>
+<li>$ = TFTFont</li>
+<li>A print class is available to print out many data types.</li>
+<li>Fonts 1-6 are byte high(at text size 1) scale-able fonts, columns of padding added by SW.</li>
+<li>Font 7-8 are large numerical fonts and cannot be scaled(just one size).</li>
+<li>Fonts 9-12 Alphanumeric fonts and cannot be scaled(just one size)</li>
 </ol>
+<p>Font Methods:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Font num   </th><th class="markdownTableHeadNone">Method   </th><th class="markdownTableHeadNone">Size parameter   </th><th class="markdownTableHeadNone">Notes    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">1-6   </td><td class="markdownTableBodyNone">drawChar   </td><td class="markdownTableBodyNone">Y   </td><td class="markdownTableBodyNone">draws single character    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">1-6   </td><td class="markdownTableBodyNone">drawText   </td><td class="markdownTableBodyNone">Y   </td><td class="markdownTableBodyNone">draws character array    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">7-12   </td><td class="markdownTableBodyNone">drawChar   </td><td class="markdownTableBodyNone">N   </td><td class="markdownTableBodyNone">draws single character    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">7-12   </td><td class="markdownTableBodyNone">drawText   </td><td class="markdownTableBodyNone">N   </td><td class="markdownTableBodyNone">draws character array    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">1-12   </td><td class="markdownTableBodyNone">print   </td><td class="markdownTableBodyNone">~   </td><td class="markdownTableBodyNone">Polymorphic print class which will print out many data types   </td></tr>
+</table>
+<p>These functions return a number greater than zero in event of an error, such as wrong font chosen , ASCII character outside chosen fonts range, character out of screen bounds and invalid character array pointer object.</p>
 <h3><a class="anchor" id="autotoc_md11"></a>
 Bitmap</h3>
 <p>There are four functions to support drawing bitmaps</p>
@@ -240,6 +265,7 @@ Bitmap</h3>
 <li>Bitmap size in kiloBytes = (screenWidth * screenHeight * bitsPerPixel)/(1024 * 8)</li>
 <li>Pixel size column assumes 128 by 128 screen.</li>
 </ol>
+<p>The TFTdrawBitmap function will return an error if : The Bitmap is completely off screen or Invalid Bitmap pointer object. The TFTdrawBitmapXX functions will also return an error if memory be assigned. All 4 function's will return 0 for success.</p>
 <h2><a class="anchor" id="autotoc_md12"></a>
 Hardware</h2>
 <p>Connections as setup in main.cpp test file.</p>
@@ -284,8 +310,11 @@ Output</h2>
 <li>Clock Demo showing icons, small bitmaps and font 7 "BigNums"</li>
 <li>24-bit color bitmap test image</li>
 <li>16-bit color bitmap test image</li>
+<li>Fonts 7-12</li>
 </ol>
-<p><img src="https://github.com/gavinlyonsrepo/pic_16F18346_projects/blob/master/images/st7735/9.jpg" alt=" pic " class="inline"/> <img src="https://github.com/gavinlyonsrepo/ST7735_TFT_RPI/blob/main/extra/images/4.jpg" alt=" pic1 " class="inline"/> </p>
+<p><img src="https://github.com/gavinlyonsrepo/pic_16F18346_projects/blob/master/images/st7735/9.jpg" alt=" pic " class="inline"/> <img src="https://github.com/gavinlyonsrepo/ST7735_TFT_RPI/blob/main/extra/images/4.jpg" alt=" pic1 " class="inline"/> <img src="https://github.com/gavinlyonsrepo/ST7735_TFT_RPI/blob/main/extra/images/5.jpg" alt=" p2" class="inline"/></p>
+<h2><a class="anchor" id="autotoc_md14"></a>
+Notes and Issues</h2>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 <!-- start footer part -->

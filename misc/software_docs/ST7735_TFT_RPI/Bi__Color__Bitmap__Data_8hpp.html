@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ST7735_TFT_RPI
-   &#160;<span id="projectnumber">1.7.0</span>
+   &#160;<span id="projectnumber">1.7.1</span>
    </div>
    <div id="projectbrief">ST7735 Driver, Raspberry PI C++ library</div>
   </td>
@@ -53,7 +53,7 @@ $(function() {
 
 <p>Data file to hold bi-color bitmap's and icon data.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;cstdint&gt;</code><br />
 </div>
 <p><a href="Bi__Color__Bitmap__Data_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -61,8 +61,8 @@ $(function() {
 Variables</h2></td></tr>
 <tr class="memitem:afeb0cd8a55db39e14ef5ee0ce059303b"><td class="memItemLeft" align="right" valign="top">const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Bi__Color__Bitmap__Data_8hpp.html#afeb0cd8a55db39e14ef5ee0ce059303b">pBackupMenuBitmap</a></td></tr>
 <tr class="separator:afeb0cd8a55db39e14ef5ee0ce059303b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8177fd597be73b9da75a5880b3ebac36"><td class="memItemLeft" align="right" valign="top">const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Bi__Color__Bitmap__Data_8hpp.html#a8177fd597be73b9da75a5880b3ebac36">pSmallImage</a></td></tr>
-<tr class="separator:a8177fd597be73b9da75a5880b3ebac36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca841db89576217ee648f6beb3f2a5da"><td class="memItemLeft" align="right" valign="top">const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Bi__Color__Bitmap__Data_8hpp.html#aca841db89576217ee648f6beb3f2a5da">pSunText</a></td></tr>
+<tr class="separator:aca841db89576217ee648f6beb3f2a5da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6aabcee78c4dfe0a71765ee8eeed9d4c"><td class="memItemLeft" align="right" valign="top">const unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Bi__Color__Bitmap__Data_8hpp.html#a6aabcee78c4dfe0a71765ee8eeed9d4c">pPowerIcon</a></td></tr>
 <tr class="separator:a6aabcee78c4dfe0a71765ee8eeed9d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af78f889ad15af7274848d82ff64ea0b1"><td class="memItemLeft" align="right" valign="top">const unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Bi__Color__Bitmap__Data_8hpp.html#af78f889ad15af7274848d82ff64ea0b1">pSpeedIcon</a></td></tr>
@@ -218,29 +218,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a8177fd597be73b9da75a5880b3ebac36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8177fd597be73b9da75a5880b3ebac36">&#9670;&nbsp;</a></span>pSmallImage</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const uint8_t* pSmallImage</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Pointer to bitmap data small image 20X24 </p>
-
-</div>
-</div>
 <a id="af78f889ad15af7274848d82ff64ea0b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af78f889ad15af7274848d82ff64ea0b1">&#9670;&nbsp;</a></span>pSpeedIcon</h2>
 
@@ -261,6 +238,29 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Pointer to icon data </p>
+
+</div>
+</div>
+<a id="aca841db89576217ee648f6beb3f2a5da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca841db89576217ee648f6beb3f2a5da">&#9670;&nbsp;</a></span>pSunText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint8_t* pSunText</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Pointer to bitmap data small image 'SUN' 40x96 </p>
 
 </div>
 </div>

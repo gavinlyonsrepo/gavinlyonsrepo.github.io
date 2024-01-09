@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ST7735_TFT_RPI
-   &#160;<span id="projectnumber">1.7.0</span>
+   &#160;<span id="projectnumber">1.7.1</span>
    </div>
    <div id="projectbrief">ST7735 Driver, Raspberry PI C++ library</div>
   </td>
@@ -54,11 +54,11 @@ $(function() {
 
 <p>Library header file for ST7735_TFT_RPI library. Contains driver methods for <a class="el" href="classST7735__TFT.html" title="Class to control ST7735 TFT basic functionality.">ST7735_TFT</a> display.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;bcm2835.h&gt;</code><br />
-<code>#include &lt;iostream&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
-<code>#include &lt;stdbool.h&gt;</code><br />
-<code>#include &lt;string.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;cstdint&gt;</code><br />
+<code>#include &lt;cstdbool&gt;</code><br />
+<code>#include &lt;cstring&gt;</code><br />
+<code>#include &lt;bcm2835.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="ST7735__TFT__graphics_8hpp_source.html">ST7735_TFT_graphics.hpp</a>&quot;</code><br />
 </div>
 <p><a href="ST7735__TFT_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -257,13 +257,12 @@ Macros</h2></td></tr>
 <tr class="memitem:a0dd9f9c94bf686146eb387ce9136c53c"><td class="memItemLeft" align="right" valign="top"><a id="a0dd9f9c94bf686146eb387ce9136c53c"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>TFT_MICROSEC_DELAY</b>&#160;&#160;&#160;bcm2835_delayMicroseconds</td></tr>
 <tr class="separator:a0dd9f9c94bf686146eb387ce9136c53c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed5248b772977482b8d12e56d492afc2"><td class="memItemLeft" align="right" valign="top"><a id="aed5248b772977482b8d12e56d492afc2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TFT_HIGHFREQ_DELAY</b>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:aed5248b772977482b8d12e56d492afc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6d92523f8fa404b0b77f35991f84b63"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ST7735__TFT_8hpp.html#aa6d92523f8fa404b0b77f35991f84b63">TFT_RESET_DELAY</a>&#160;&#160;&#160;10</td></tr>
+<tr class="separator:aa6d92523f8fa404b0b77f35991f84b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Library header file for ST7735_TFT_RPI library. Contains driver methods for <a class="el" href="classST7735__TFT.html" title="Class to control ST7735 TFT basic functionality.">ST7735_TFT</a> display. </p>
-<dl class="section author"><dt>Author</dt><dd>Gavin Lyons</dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Gavin Lyons </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>See URL for full details.https://github.com/gavinlyonsrepo/ST7735_TFT_RPI </dd></dl>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a484d38defdf6303f4a8d19f994d0593d"></a>
@@ -986,6 +985,21 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Vertical Access Control </p>
+
+</div>
+</div>
+<a id="aa6d92523f8fa404b0b77f35991f84b63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6d92523f8fa404b0b77f35991f84b63">&#9670;&nbsp;</a></span>TFT_RESET_DELAY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TFT_RESET_DELAY&#160;&#160;&#160;10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reset delay in mS </p>
 
 </div>
 </div>

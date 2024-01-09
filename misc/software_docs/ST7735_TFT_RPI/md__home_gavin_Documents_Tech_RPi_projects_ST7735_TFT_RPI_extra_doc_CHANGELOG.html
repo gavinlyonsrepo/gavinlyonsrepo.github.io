@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ST7735_TFT_RPI
-   &#160;<span id="projectnumber">1.7.0</span>
+   &#160;<span id="projectnumber">1.7.1</span>
    </div>
    <div id="projectbrief">ST7735 Driver, Raspberry PI C++ library</div>
   </td>
@@ -96,7 +96,17 @@ $(function() {
 </li>
 <li>Version 1.7 December 2023<ul>
 <li>Added Fonts 9 &amp; 10 Arial Bold and Arial Round</li>
-<li>Added test for println String object. </li>
+<li>Added test for println String object.</li>
+</ul>
+</li>
+<li>Version 1.7.1 Jan 2023<ul>
+<li>Changed Makefile so library complies on 64-bit systems without error.</li>
+<li>Added Fonts 11 &amp; 12 Mia and Dedica</li>
+<li>Updated Fonts 7 &amp; 8 to 14 characters from 11</li>
+<li>Added Software SPI comm delay class member.</li>
+<li>Changed HW SPI settings function so it can be called outside of Init.</li>
+<li>Added return value to begin, bitmap and most text write functions.</li>
+<li>Improved Error handling , including check for ASCII character out of fonts range. </li>
 </ul>
 </li>
 </ul>
