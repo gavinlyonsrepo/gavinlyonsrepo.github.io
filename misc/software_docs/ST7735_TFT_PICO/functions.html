@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ST7735_TFT_PICO: Class Members</title>
+<title>SSD1306_OLED_PICO: Class Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,10 +18,10 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ST7735_TFT_PICO
-   &#160;<span id="projectnumber">1.7.0</span>
+   <div id="projectname">SSD1306_OLED_PICO
+   &#160;<span id="projectnumber">1.0.1</span>
    </div>
-   <div id="projectbrief">ST7735 Driver, Rpi PICO RP2040  library</div>
+   <div id="projectbrief">SSD1306 OLED I2C  Driver, Rpi PICO RP2040  library</div>
   </td>
  </tr>
  </tbody>
@@ -43,431 +43,320 @@ $(function() {
 <div class="textblock">Here is a list of all documented class members with links to the class documentation for each member:</div>
 
 <h3><a id="index__5F"></a>- _ -</h3><ul>
-<li>_colstart
-: <a class="el" href="classST7735__TFT__graphics.html#a14562dcc3ccd66778de37b880c37b855">ST7735_TFT_graphics</a>
+<li>_bIsConnected
+: <a class="el" href="classSSD1306.html#a389238c2b18dfd1b7ab37571edc93b56">SSD1306</a>
 </li>
-<li>_CurrentFontheight
-: <a class="el" href="classST7735__TFT__graphics.html#af5b0c173d5be9da65c5f4723b5a59a25">ST7735_TFT_graphics</a>
+<li>_bSerialDebugFlag
+: <a class="el" href="classSSD1306.html#a57faa2b50d30e530a647f335c8ede8a0">SSD1306</a>
 </li>
-<li>_CurrentFontoffset
-: <a class="el" href="classST7735__TFT__graphics.html#ab46ce309ebca3db69f9e18d9ab137d8d">ST7735_TFT_graphics</a>
+<li>_bufferHeight
+: <a class="el" href="classSSD1306.html#a20956aa0e1dcfccdf355b519f983ca0c">SSD1306</a>
 </li>
-<li>_CurrentFontWidth
-: <a class="el" href="classST7735__TFT__graphics.html#afba0082270166a7f74927cb081605088">ST7735_TFT_graphics</a>
+<li>_bufferWidth
+: <a class="el" href="classSSD1306.html#a56a9a40be72fc1ed40100acbda7b449b">SSD1306</a>
 </li>
-<li>_currentMode
-: <a class="el" href="classST7735__TFT__graphics.html#a191e6711a1fa85b4f17cc52c99179498">ST7735_TFT_graphics</a>
+<li>_CLKSpeed
+: <a class="el" href="classSSD1306.html#a9fafe54cddd02802804b238da23a664f">SSD1306</a>
 </li>
-<li>_cursorX
-: <a class="el" href="classST7735__TFT__graphics.html#a024f257c9ee49328a5484056b22081fa">ST7735_TFT_graphics</a>
+<li>_cursor_x
+: <a class="el" href="classSSD1306__graphics.html#a68604664937156468519127c445ed5cf">SSD1306_graphics</a>
 </li>
-<li>_cursorY
-: <a class="el" href="classST7735__TFT__graphics.html#a78bcd0f0ebee1dacdc9b7104c50e08fe">ST7735_TFT_graphics</a>
+<li>_cursor_y
+: <a class="el" href="classSSD1306__graphics.html#a1e8f131b515d8b9a1bcd9485752979ab">SSD1306_graphics</a>
 </li>
-<li>_FontNumber
-: <a class="el" href="classST7735__TFT__graphics.html#aeb622851a722653019e9385b8fc4663a">ST7735_TFT_graphics</a>
+<li>_Font_X_Size
+: <a class="el" href="classSSD1306__OLEDFonts.html#ad2599430efd550b071ce8940ebff1b7c">SSD1306_OLEDFonts</a>
 </li>
-<li>_hardwareSPI
-: <a class="el" href="classST7735__TFT__graphics.html#ac57d0232fc1754aa0911cce0e1338040">ST7735_TFT_graphics</a>
+<li>_Font_Y_Size
+: <a class="el" href="classSSD1306__OLEDFonts.html#acd81ebfefafc345a266cedd4ba4a9050">SSD1306_OLEDFonts</a>
 </li>
-<li>_heightStartTFT
-: <a class="el" href="classST7735__TFT__graphics.html#a4c629b5cc86336b33706694880a114f3">ST7735_TFT_graphics</a>
+<li>_FontInverted
+: <a class="el" href="classSSD1306__OLEDFonts.html#a998a5bf0df48423e80cdfe53afc74c74">SSD1306_OLEDFonts</a>
 </li>
-<li>_heightTFT
-: <a class="el" href="classST7735__TFT__graphics.html#a8fecdfc7e2ac933cf3ff8f2284c54573">ST7735_TFT_graphics</a>
+<li>_FontNumChars
+: <a class="el" href="classSSD1306__OLEDFonts.html#af5a5598e64d9b994e375a0b6428f9e78">SSD1306_OLEDFonts</a>
 </li>
-<li>_pspiInterface
-: <a class="el" href="classST7735__TFT__graphics.html#a522e11c0f5512eeeb1772d036c524f48">ST7735_TFT_graphics</a>
+<li>_FontOffset
+: <a class="el" href="classSSD1306__OLEDFonts.html#ad40f5c2551e17d8fa0ebf9b314339744">SSD1306_OLEDFonts</a>
+</li>
+<li>_FontSelect
+: <a class="el" href="classSSD1306__OLEDFonts.html#ab6d5b6ab7c0d1d265b881f51ba24e3c6">SSD1306_OLEDFonts</a>
+</li>
+<li>_height
+: <a class="el" href="classSSD1306__graphics.html#a52ae1b798f99d18212c05823c7dbecd4">SSD1306_graphics</a>
+</li>
+<li>_i2c
+: <a class="el" href="classSSD1306.html#a32729b702bce3b23f098d5bcbbf6746e">SSD1306</a>
+</li>
+<li>_I2CRetryAttempts
+: <a class="el" href="classSSD1306.html#a587121e883b97c908f34f7659cfaab3d">SSD1306</a>
+</li>
+<li>_I2CRetryDelay
+: <a class="el" href="classSSD1306.html#a812d32d4a652409166af2764f15a4ff8">SSD1306</a>
+</li>
+<li>_OLED_HEIGHT
+: <a class="el" href="classSSD1306.html#ab9acf0240009ab15c6e528b0eb2f0df1">SSD1306</a>
+</li>
+<li>_OLED_PAGE_NUM
+: <a class="el" href="classSSD1306.html#a79e81615eb269f6c9c4e2ed50ddc6a11">SSD1306</a>
+</li>
+<li>_OLED_WIDTH
+: <a class="el" href="classSSD1306.html#a0f414b7f66afd6754843a2d97c64b56e">SSD1306</a>
+</li>
+<li>_OLEDAddressI2C
+: <a class="el" href="classSSD1306.html#a71472e966f464facaa924fa0f216f5ae">SSD1306</a>
+</li>
+<li>_OLEDbuffer
+: <a class="el" href="classSSD1306.html#a74e54c12d2bda125ce91912d41229dec">SSD1306</a>
+</li>
+<li>_OLEDLibVerNum
+: <a class="el" href="classSSD1306.html#aec80a0cb43b2b73e2c79f2353a81be14">SSD1306</a>
 </li>
 <li>_rotation
-: <a class="el" href="classST7735__TFT.html#a3057d095e97bbc428ea387a35ebf4360">ST7735_TFT</a>
+: <a class="el" href="classSSD1306__graphics.html#a20f2b055365ccb684c6ec0c0ee5f105b">SSD1306_graphics</a>
 </li>
-<li>_rowstart
-: <a class="el" href="classST7735__TFT__graphics.html#a09ca9bfb579b6667588bd738a90dc17b">ST7735_TFT_graphics</a>
+<li>_SClkPin
+: <a class="el" href="classSSD1306.html#a5a89e8773a969282f16f91f8f2621c2f">SSD1306</a>
 </li>
-<li>_speedSPIKHz
-: <a class="el" href="classST7735__TFT__graphics.html#a69d7c2f70eee5ffbcc652253b952c621">ST7735_TFT_graphics</a>
+<li>_SDataPin
+: <a class="el" href="classSSD1306.html#a8e401c3526738ffd50d8375a103a9906">SSD1306</a>
 </li>
-<li>_textbgcolor
-: <a class="el" href="classST7735__TFT__graphics.html#a71278209f465238594cd7456cf9c4b4c">ST7735_TFT_graphics</a>
+<li>_textwrap
+: <a class="el" href="classSSD1306__graphics.html#ad8801f34cc491a8e0b6056e3ea293f7c">SSD1306_graphics</a>
 </li>
-<li>_textcolor
-: <a class="el" href="classST7735__TFT__graphics.html#a1849939cedf1a2816f7f5967daf167ba">ST7735_TFT_graphics</a>
+<li>_TimeoutDelayI2C
+: <a class="el" href="classSSD1306.html#a556f8e57547deb5b7ae6f1aec0d3d5f8">SSD1306</a>
 </li>
-<li>_textSize
-: <a class="el" href="classST7735__TFT__graphics.html#afdf6df3916c4d1b40f4e2d11d4fe1af2">ST7735_TFT_graphics</a>
-</li>
-<li>_widthStartTFT
-: <a class="el" href="classST7735__TFT__graphics.html#a37e6dd8d320e8ef9a3d3047150df9cbf">ST7735_TFT_graphics</a>
-</li>
-<li>_widthTFT
-: <a class="el" href="classST7735__TFT__graphics.html#a5aceef95947b577650d769944c493afc">ST7735_TFT_graphics</a>
-</li>
-<li>_wrap
-: <a class="el" href="classST7735__TFT__graphics.html#a5041af4e20ae36dea096be7c79491a7f">ST7735_TFT_graphics</a>
-</li>
-<li>_XStart
-: <a class="el" href="classST7735__TFT__graphics.html#a83c23ad1a0e88a5322c25dac95dc649f">ST7735_TFT_graphics</a>
-</li>
-<li>_YStart
-: <a class="el" href="classST7735__TFT__graphics.html#a2a8758cb67d2d0632634fcd4fab1a4ec">ST7735_TFT_graphics</a>
-</li>
-</ul>
-
-
-<h3><a id="index_b"></a>- b -</h3><ul>
-<li>Bcmd()
-: <a class="el" href="classST7735__TFT.html#a0aa89395ff0c7e0f38da658c22ec8c7f">ST7735_TFT</a>
+<li>_width
+: <a class="el" href="classSSD1306__graphics.html#adf46fcdab284018724a022772637fef0">SSD1306_graphics</a>
 </li>
 </ul>
 
 
 <h3><a id="index_c"></a>- c -</h3><ul>
-<li>Color565()
-: <a class="el" href="classST7735__TFT__graphics.html#af6a5dfe7ba2be3b0217e4e1eeb6d6344">ST7735_TFT_graphics</a>
+<li>CheckConnection()
+: <a class="el" href="classSSD1306.html#a37565ff4f9aa80fd09fb37731f6a5d65">SSD1306</a>
 </li>
 </ul>
 
 
 <h3><a id="index_d"></a>- d -</h3><ul>
+<li>drawCircle()
+: <a class="el" href="classSSD1306__graphics.html#aabf79e047ce6bffc529cefbc24cf735d">SSD1306_graphics</a>
+</li>
 <li>drawCircleHelper()
-: <a class="el" href="classST7735__TFT__graphics.html#aaf5e7898f7e9d2b247709d3ae87fb455">ST7735_TFT_graphics</a>
+: <a class="el" href="classSSD1306__graphics.html#a1f812d1e36c10554a6452da8120a905c">SSD1306_graphics</a>
+</li>
+<li>drawFastHLine()
+: <a class="el" href="classSSD1306__graphics.html#a4e1f381e2033ed67244505ff3eca5003">SSD1306_graphics</a>
+</li>
+<li>drawFastVLine()
+: <a class="el" href="classSSD1306__graphics.html#a14f758230b08d565d328beab827e9b8d">SSD1306_graphics</a>
+</li>
+<li>drawLine()
+: <a class="el" href="classSSD1306__graphics.html#af5b58dd0b5f0c602b0c8555f40b49242">SSD1306_graphics</a>
+</li>
+<li>drawPixel()
+: <a class="el" href="classSSD1306.html#a2a602688ffa4088e90f4d77f0ca325d7">SSD1306</a>
+</li>
+<li>drawRect()
+: <a class="el" href="classSSD1306__graphics.html#a85f7c846aae36dbe4c523a933f7e6013">SSD1306_graphics</a>
+</li>
+<li>drawRoundRect()
+: <a class="el" href="classSSD1306__graphics.html#a50b062351aba169fe45e5fc43235547c">SSD1306_graphics</a>
+</li>
+<li>drawTriangle()
+: <a class="el" href="classSSD1306__graphics.html#aa837156106492e60e4c606d092e622b4">SSD1306_graphics</a>
 </li>
 </ul>
 
 
 <h3><a id="index_f"></a>- f -</h3><ul>
+<li>fillCircle()
+: <a class="el" href="classSSD1306__graphics.html#affc78bf59460d6e1ca4c79bf09174e65">SSD1306_graphics</a>
+</li>
 <li>fillCircleHelper()
-: <a class="el" href="classST7735__TFT__graphics.html#a9006466e744ecf12b91f6b13e81ce8de">ST7735_TFT_graphics</a>
+: <a class="el" href="classSSD1306__graphics.html#a0ba8e229b0e38a6efd88fe305836f5f0">SSD1306_graphics</a>
+</li>
+<li>fillRect()
+: <a class="el" href="classSSD1306__graphics.html#aa7b40b634baa8b630758b37814441057">SSD1306_graphics</a>
+</li>
+<li>fillRoundRect()
+: <a class="el" href="classSSD1306__graphics.html#aaf40d0561ab78b7b9df026a9a74c02c7">SSD1306_graphics</a>
+</li>
+<li>fillScreen()
+: <a class="el" href="classSSD1306__graphics.html#aaf19159e42af1a5329c9d8bbc2ca34a6">SSD1306_graphics</a>
+</li>
+<li>fillTriangle()
+: <a class="el" href="classSSD1306__graphics.html#a322dcc7be01df8ed214cd57ab893bd96">SSD1306_graphics</a>
 </li>
 </ul>
 
 
-<h3><a id="index_p"></a>- p -</h3><ul>
-<li>pushColor()
-: <a class="el" href="classST7735__TFT__graphics.html#af73dcda0575e621cb6d9d68cee488ddd">ST7735_TFT_graphics</a>
+<h3><a id="index_g"></a>- g -</h3><ul>
+<li>GetDebugMode()
+: <a class="el" href="classSSD1306.html#a8d6e4dba05e7776dbfa7f69700c08693">SSD1306</a>
+</li>
+<li>GetI2CRetryAttemptsNo()
+: <a class="el" href="classSSD1306.html#a030836e6c9ee18c753148078a642adba">SSD1306</a>
+</li>
+<li>GetI2CRetryDelay()
+: <a class="el" href="classSSD1306.html#a8aa8ebee18018a4f4c956829071a3bcf">SSD1306</a>
+</li>
+<li>GetI2CTimeout()
+: <a class="el" href="classSSD1306.html#a16e0d6776c0f80e4f3c6d2b372aee934">SSD1306</a>
+</li>
+<li>getInvertFont()
+: <a class="el" href="classSSD1306__OLEDFonts.html#a5fb902a0236594b1f63a4d3c965b64a3">SSD1306_OLEDFonts</a>
+</li>
+<li>GetIsConnected()
+: <a class="el" href="classSSD1306.html#a77411dc4cf4b91c19d4798dd99255625">SSD1306</a>
+</li>
+<li>GetLibVerNum()
+: <a class="el" href="classSSD1306.html#a71a70011f4d169a3eb5f799a0030e24d">SSD1306</a>
+</li>
+<li>getRotation()
+: <a class="el" href="classSSD1306__graphics.html#a76ad5f98c2dbb1b8339d7350ef625109">SSD1306_graphics</a>
 </li>
 </ul>
 
 
-<h3><a id="index_r"></a>- r -</h3><ul>
-<li>Rcmd1()
-: <a class="el" href="classST7735__TFT.html#a0b0514b9b2685cb461e554e39d5d6463">ST7735_TFT</a>
+<h3><a id="index_h"></a>- h -</h3><ul>
+<li>height()
+: <a class="el" href="classSSD1306__graphics.html#acf1080c5f77cc145ea996b88bccca59e">SSD1306_graphics</a>
 </li>
-<li>Rcmd2green()
-: <a class="el" href="classST7735__TFT.html#a131a53cfd23e35a840550c526cbe7621">ST7735_TFT</a>
+<li>HEIGHT
+: <a class="el" href="classSSD1306__graphics.html#aeef4935bf29a1836e3f116c210e1389c">SSD1306_graphics</a>
 </li>
-<li>Rcmd2red()
-: <a class="el" href="classST7735__TFT.html#aa4128179a39c7996c609dbe78475d48a">ST7735_TFT</a>
+</ul>
+
+
+<h3><a id="index_i"></a>- i -</h3><ul>
+<li>I2C_Write_Byte()
+: <a class="el" href="classSSD1306.html#affcbe8ac82834428f764cbecf05626f7">SSD1306</a>
 </li>
-<li>Rcmd3()
-: <a class="el" href="classST7735__TFT.html#ac1f2d36d83f2f0007de9452f282c3a72">ST7735_TFT</a>
+</ul>
+
+
+<h3><a id="index_o"></a>- o -</h3><ul>
+<li>OLEDbegin()
+: <a class="el" href="classSSD1306.html#a6af39ddb2cb8d39d38aa1f7526952021">SSD1306</a>
+</li>
+<li>OLEDBitmap()
+: <a class="el" href="classSSD1306.html#a40d9ef30363af9c94636f95cc5e01f25">SSD1306</a>
+</li>
+<li>OLEDBuffer()
+: <a class="el" href="classSSD1306.html#ae58c9822662fccf1c980725cea9aa254">SSD1306</a>
+</li>
+<li>OLEDclearBuffer()
+: <a class="el" href="classSSD1306.html#a189659d8b170a64c20e17a0dc6d39afb">SSD1306</a>
+</li>
+<li>OLEDContrast()
+: <a class="el" href="classSSD1306.html#a2d30dcfab1e317750a8c5a5d7cb13332">SSD1306</a>
+</li>
+<li>OLEDdeI2CInit()
+: <a class="el" href="classSSD1306.html#a3050674f1fe86095be50827915434fbc">SSD1306</a>
+</li>
+<li>OLEDEnable()
+: <a class="el" href="classSSD1306.html#ad62b539dd0c43555adccf360ef07a8ac">SSD1306</a>
+</li>
+<li>OLEDFillPage()
+: <a class="el" href="classSSD1306.html#a11b5ea61fd4ab349ffa968b2ed61b59b">SSD1306</a>
+</li>
+<li>OLEDFillScreen()
+: <a class="el" href="classSSD1306.html#a1d9bc7ca2cb1865f4437d7884ec13039">SSD1306</a>
+</li>
+<li>OLEDinit()
+: <a class="el" href="classSSD1306.html#a860c00a1d1fda8d5dbb9f3c68a8adb2e">SSD1306</a>
+</li>
+<li>OLEDInvert()
+: <a class="el" href="classSSD1306.html#a02845d8b1d8e01d2cc6fd86211423c1e">SSD1306</a>
+</li>
+<li>OLEDPowerDown()
+: <a class="el" href="classSSD1306.html#ae3e02977b5c0e89bd8c2d7683935bf62">SSD1306</a>
+</li>
+<li>OLEDSetBufferPtr()
+: <a class="el" href="classSSD1306.html#a6bd027129c60b7f6a25db63f7573fb87">SSD1306</a>
+</li>
+<li>OLEDStartScrollDiagLeft()
+: <a class="el" href="classSSD1306.html#adce9815b67c85fee406ad08b38e69982">SSD1306</a>
+</li>
+<li>OLEDStartScrollDiagRight()
+: <a class="el" href="classSSD1306.html#ada62fa8dd2770b79c6e63a7ae8434227">SSD1306</a>
+</li>
+<li>OLEDStartScrollLeft()
+: <a class="el" href="classSSD1306.html#a62f1c3fa3c72ef0b90f3c35cd766e968">SSD1306</a>
+</li>
+<li>OLEDStartScrollRight()
+: <a class="el" href="classSSD1306.html#a6269912f571f9ea8398c53f10badba1f">SSD1306</a>
+</li>
+<li>OLEDStopScroll()
+: <a class="el" href="classSSD1306.html#a06adfe2a2d714ae739e63d0ecfdf9c7b">SSD1306</a>
+</li>
+<li>OLEDupdate()
+: <a class="el" href="classSSD1306.html#a90eabbdd99e9bb302f901dc713af9dbc">SSD1306</a>
 </li>
 </ul>
 
 
 <h3><a id="index_s"></a>- s -</h3><ul>
-<li>setTextColor()
-: <a class="el" href="classST7735__TFT__graphics.html#a7085b16d8bde7178df94750782090c63">ST7735_TFT_graphics</a>
+<li>setCursor()
+: <a class="el" href="classSSD1306__graphics.html#a45634c7c8e36025813939d1db1d0d3f8">SSD1306_graphics</a>
 </li>
-<li>setTextSize()
-: <a class="el" href="classST7735__TFT__graphics.html#a3677bdd61c4a95282f945902d3d2b545">ST7735_TFT_graphics</a>
+<li>SetDebugMode()
+: <a class="el" href="classSSD1306.html#a75d08d56e5abdef7cd5af59414daeb69">SSD1306</a>
 </li>
-<li>spiWrite()
-: <a class="el" href="classST7735__TFT__graphics.html#aa4cc17ab9ec0fa8e43be6f09bfd245ef">ST7735_TFT_graphics</a>
+<li>setFont()
+: <a class="el" href="classSSD1306__OLEDFonts.html#a05e896d347de82e5650c1eeab95b4954">SSD1306_OLEDFonts</a>
 </li>
-<li>spiWriteDataBuffer()
-: <a class="el" href="classST7735__TFT__graphics.html#a8f974ff17094eceb9bd48b4ae31a054d">ST7735_TFT_graphics</a>
+<li>SetI2CRetryAttemptsNo()
+: <a class="el" href="classSSD1306.html#a7e037cc14cdbce859137ba4622519d34">SSD1306</a>
 </li>
-<li>spiWriteSoftware()
-: <a class="el" href="classST7735__TFT__graphics.html#a62c59c2a04687c6b4ee153e49cb87258">ST7735_TFT_graphics</a>
+<li>SetI2CRetryDelay()
+: <a class="el" href="classSSD1306.html#a807e5dece19944daceaa4187d9999710">SSD1306</a>
 </li>
-<li>ST7735_TFT()
-: <a class="el" href="classST7735__TFT.html#a870ecef81034b3b5e4553b2c9ebcef31">ST7735_TFT</a>
+<li>SetI2CTimeout()
+: <a class="el" href="classSSD1306.html#a2d44b4f88c9c620cf57cdf13c89deb0b">SSD1306</a>
 </li>
-<li>ST7735_TFT_graphics()
-: <a class="el" href="classST7735__TFT__graphics.html#ad6d3577c270ed2ca97cbc8899f13cf40">ST7735_TFT_graphics</a>
+<li>setInvertFont()
+: <a class="el" href="classSSD1306__OLEDFonts.html#a8d23f488808f149c890ed82a2e725f40">SSD1306_OLEDFonts</a>
 </li>
-</ul>
-
-
-<h3><a id="index_t"></a>- t -</h3><ul>
-<li>TFT_Degrees_0
-: <a class="el" href="classST7735__TFT.html#a99ef50b2cf02acfc13d1a99a4e804defa3f863fac03a08cbf518ccaae82ca09fb">ST7735_TFT</a>
+<li>SetIsConnected()
+: <a class="el" href="classSSD1306.html#ac07a49e2f4d93c156336049469f26c94">SSD1306</a>
 </li>
-<li>TFT_Degrees_180
-: <a class="el" href="classST7735__TFT.html#a99ef50b2cf02acfc13d1a99a4e804defa722659e1fb305ef449db36e7d30e061f">ST7735_TFT</a>
+<li>setRotation()
+: <a class="el" href="classSSD1306__graphics.html#ac7af4aa9592cc15aa51004d2e459f264">SSD1306_graphics</a>
 </li>
-<li>TFT_Degrees_270
-: <a class="el" href="classST7735__TFT.html#a99ef50b2cf02acfc13d1a99a4e804defa090f7b83e4820c66f2c0a57847c5efb8">ST7735_TFT</a>
+<li>setTextWrap()
+: <a class="el" href="classSSD1306__graphics.html#ade3fabdd46feacf3c7b4ce2be13fe37e">SSD1306_graphics</a>
 </li>
-<li>TFT_Degrees_90
-: <a class="el" href="classST7735__TFT.html#a99ef50b2cf02acfc13d1a99a4e804defac0b303c9382c50560559dbae996f4e82">ST7735_TFT</a>
+<li>SSD1306()
+: <a class="el" href="classSSD1306.html#aaf748df6699030d8d851cb2df12c307d">SSD1306</a>
 </li>
-<li>TFT_Display_off_mode
-: <a class="el" href="classST7735__TFT.html#a09ec4c00dbd2e041b2f42623349d4647a99bd46786a9b5598fd55c7eff661533c">ST7735_TFT</a>
+<li>SSD1306_graphics()
+: <a class="el" href="classSSD1306__graphics.html#aa33ac9b6da0bb7a6cf226317338bb36e">SSD1306_graphics</a>
 </li>
-<li>TFT_Font_height_e
-: <a class="el" href="classST7735__TFT__graphics.html#a462612f07753c6cd7c5e376dc45a3e95">ST7735_TFT_graphics</a>
-</li>
-<li>TFT_Font_offset_e
-: <a class="el" href="classST7735__TFT__graphics.html#ab8bd2c685c870ff16d0ebe25b6783ad8">ST7735_TFT_graphics</a>
-</li>
-<li>TFT_Font_Type_e
-: <a class="el" href="classST7735__TFT__graphics.html#a1d432afbfe4242680433c194599102a5">ST7735_TFT_graphics</a>
-</li>
-<li>TFT_Font_width_e
-: <a class="el" href="classST7735__TFT__graphics.html#a90c1fb1c436d7440aedcd7958751aca5">ST7735_TFT_graphics</a>
-</li>
-<li>TFT_Idle_mode
-: <a class="el" href="classST7735__TFT.html#a09ec4c00dbd2e041b2f42623349d4647af9498d2ab9093a1d608dc37ace433c3a">ST7735_TFT</a>
-</li>
-<li>TFT_Invert_mode
-: <a class="el" href="classST7735__TFT.html#a09ec4c00dbd2e041b2f42623349d4647a613858204604cc19ac4b41c12b18e43b">ST7735_TFT</a>
-</li>
-<li>TFT_mode
-: <a class="el" href="classST7735__TFT.html#a7eba20a4789552711f94a9d115220dc6">ST7735_TFT</a>
-</li>
-<li>TFT_modes_e
-: <a class="el" href="classST7735__TFT.html#a09ec4c00dbd2e041b2f42623349d4647">ST7735_TFT</a>
-</li>
-<li>TFT_Normal_mode
-: <a class="el" href="classST7735__TFT.html#a09ec4c00dbd2e041b2f42623349d4647aee4396354c00c5e4cc6e265a5f6e1b13">ST7735_TFT</a>
-</li>
-<li>TFT_Partial_mode
-: <a class="el" href="classST7735__TFT.html#a09ec4c00dbd2e041b2f42623349d4647a22ced32022d1e12d6a1f500a66511051">ST7735_TFT</a>
-</li>
-<li>TFT_PCBtype
-: <a class="el" href="classST7735__TFT.html#a6538a279d97d94be9422d8e2fa14e122">ST7735_TFT</a>
-</li>
-<li>TFT_PCBtype_e
-: <a class="el" href="classST7735__TFT.html#a25e12505b778035ea78e5fe872fef392">ST7735_TFT</a>
-</li>
-<li>TFT_rotate_e
-: <a class="el" href="classST7735__TFT.html#a99ef50b2cf02acfc13d1a99a4e804def">ST7735_TFT</a>
-</li>
-<li>TFT_Sleep_mode
-: <a class="el" href="classST7735__TFT.html#a09ec4c00dbd2e041b2f42623349d4647a1d15a500ea99304368e0ea3cab98e619">ST7735_TFT</a>
-</li>
-<li>TFT_ST7735B
-: <a class="el" href="classST7735__TFT.html#a25e12505b778035ea78e5fe872fef392af5f1ce10ba09b20906ecc0352f5d2b21">ST7735_TFT</a>
-</li>
-<li>TFT_ST7735R_Green
-: <a class="el" href="classST7735__TFT.html#a25e12505b778035ea78e5fe872fef392a4953c93485205da4e6254d8ffb35c84e">ST7735_TFT</a>
-</li>
-<li>TFT_ST7735R_Red
-: <a class="el" href="classST7735__TFT.html#a25e12505b778035ea78e5fe872fef392a76bf864837edf553f76d38ab381a3403">ST7735_TFT</a>
-</li>
-<li>TFT_ST7735S_Black
-: <a class="el" href="classST7735__TFT.html#a25e12505b778035ea78e5fe872fef392ab50325587c7f63643673ee1d90503e11">ST7735_TFT</a>
-</li>
-<li>TFTBlackTabInitialize()
-: <a class="el" href="classST7735__TFT.html#a30330cdf76cba476b3c978d1398acc46">ST7735_TFT</a>
-</li>
-<li>TFTchangeInvertMode()
-: <a class="el" href="classST7735__TFT.html#a0b047cb576f6ff2cf3eefe04a10a2554">ST7735_TFT</a>
-</li>
-<li>TFTchangeMode()
-: <a class="el" href="classST7735__TFT.html#ab0d56249031d46739ea12de4b30ee6f3">ST7735_TFT</a>
-</li>
-<li>TFTdrawBitmap()
-: <a class="el" href="classST7735__TFT__graphics.html#acd718f4dc953311a73c7a3143763486c">ST7735_TFT_graphics</a>
-</li>
-<li>TFTdrawBitmap16Data()
-: <a class="el" href="classST7735__TFT__graphics.html#a79aa2612107f4ef3b4d85a278d55ef92">ST7735_TFT_graphics</a>
-</li>
-<li>TFTdrawBitmap24Data()
-: <a class="el" href="classST7735__TFT__graphics.html#a2cb7394de7c06651da3cd0dc23feda63">ST7735_TFT_graphics</a>
-</li>
-<li>TFTdrawChar()
-: <a class="el" href="classST7735__TFT__graphics.html#ab1698806f31039ee69a7c441d514587c">ST7735_TFT_graphics</a>
-</li>
-<li>TFTdrawCharNumFont()
-: <a class="el" href="classST7735__TFT__graphics.html#a7a439e6822bf5411fe42dbed20689ed8">ST7735_TFT_graphics</a>
-</li>
-<li>TFTdrawCircle()
-: <a class="el" href="classST7735__TFT__graphics.html#aa8423ee17d3839715d84c90b73dffdaa">ST7735_TFT_graphics</a>
-</li>
-<li>TFTdrawFastHLine()
-: <a class="el" href="classST7735__TFT__graphics.html#a738437150a57b8c0fcdbd17b39588584">ST7735_TFT_graphics</a>
-</li>
-<li>TFTdrawFastVLine()
-: <a class="el" href="classST7735__TFT__graphics.html#a24250ebe10a3241c9d68533300a55295">ST7735_TFT_graphics</a>
-</li>
-<li>TFTdrawIcon()
-: <a class="el" href="classST7735__TFT__graphics.html#a703ad2651e11620b50aeedf068bf5f47">ST7735_TFT_graphics</a>
-</li>
-<li>TFTdrawLine()
-: <a class="el" href="classST7735__TFT__graphics.html#a3e8f10536d3625e41c9f88a3e7569438">ST7735_TFT_graphics</a>
-</li>
-<li>TFTdrawPixel()
-: <a class="el" href="classST7735__TFT__graphics.html#aae2e8d5fa406e06fc159d363bf93db01">ST7735_TFT_graphics</a>
-</li>
-<li>TFTdrawRectWH()
-: <a class="el" href="classST7735__TFT__graphics.html#ae232e59dad952dc546aea7bb25ec53a0">ST7735_TFT_graphics</a>
-</li>
-<li>TFTdrawRoundRect()
-: <a class="el" href="classST7735__TFT__graphics.html#adeb815929455ee415af28635ae7f9a42">ST7735_TFT_graphics</a>
-</li>
-<li>TFTdrawText()
-: <a class="el" href="classST7735__TFT__graphics.html#a46ccb66c542e55e1e14da600069cae6c">ST7735_TFT_graphics</a>
-</li>
-<li>TFTdrawTextNumFont()
-: <a class="el" href="classST7735__TFT__graphics.html#a1871dd66670dd2b9d05cf91852e18de0">ST7735_TFT_graphics</a>
-</li>
-<li>TFTdrawTriangle()
-: <a class="el" href="classST7735__TFT__graphics.html#a66afe8c824f542070bb1c97ed4350e7d">ST7735_TFT_graphics</a>
-</li>
-<li>TFTfillCircle()
-: <a class="el" href="classST7735__TFT__graphics.html#afe2767fe33e083f3388b143f0f3a4342">ST7735_TFT_graphics</a>
-</li>
-<li>TFTfillRect()
-: <a class="el" href="classST7735__TFT__graphics.html#a0e8a9b010f61de434646ccd71863a3a4">ST7735_TFT_graphics</a>
-</li>
-<li>TFTfillRectangle()
-: <a class="el" href="classST7735__TFT__graphics.html#aa6c4b63402b52f217a22fecc91d1abad">ST7735_TFT_graphics</a>
-</li>
-<li>TFTfillRoundRect()
-: <a class="el" href="classST7735__TFT__graphics.html#abc226a42c2461e68bafcee686897c91c">ST7735_TFT_graphics</a>
-</li>
-<li>TFTfillScreen()
-: <a class="el" href="classST7735__TFT__graphics.html#ada4dc7105b53a89d3839f6ba5f54579c">ST7735_TFT_graphics</a>
-</li>
-<li>TFTfillTriangle()
-: <a class="el" href="classST7735__TFT__graphics.html#a023275c789e551dae2ef6dde8eb5a73f">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFont_ArialBold
-: <a class="el" href="classST7735__TFT__graphics.html#a1d432afbfe4242680433c194599102a5ae12024103f22dd95a84eedcebb127833">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFont_ArialRound
-: <a class="el" href="classST7735__TFT__graphics.html#a1d432afbfe4242680433c194599102a5a7bc58a945458eb2a002d9ea3e6bea6be">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFont_Bignum
-: <a class="el" href="classST7735__TFT__graphics.html#a1d432afbfe4242680433c194599102a5a9cce35d0cf97054c43d5e0e4b11e78e7">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFont_Default
-: <a class="el" href="classST7735__TFT__graphics.html#a1d432afbfe4242680433c194599102a5a95b8dedfdcb5070b753fa122fbec74dd">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFont_height_16
-: <a class="el" href="classST7735__TFT__graphics.html#a462612f07753c6cd7c5e376dc45a3e95aea81a4b132023e2fa02d97d2877c48c2">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFont_height_24
-: <a class="el" href="classST7735__TFT__graphics.html#a462612f07753c6cd7c5e376dc45a3e95a5b14d2ddecc3ef13969805323f49afad">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFont_height_32
-: <a class="el" href="classST7735__TFT__graphics.html#a462612f07753c6cd7c5e376dc45a3e95a8bc60b2fbc3e2a515f8a1c63b89c050d">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFont_height_8
-: <a class="el" href="classST7735__TFT__graphics.html#a462612f07753c6cd7c5e376dc45a3e95a0a32e4a1274dbaae7ffa7430fb55b4a8">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFont_HomeSpun
-: <a class="el" href="classST7735__TFT__graphics.html#a1d432afbfe4242680433c194599102a5aebc24f6588ff01a5b44450e25485a34d">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFont_Mednum
-: <a class="el" href="classST7735__TFT__graphics.html#a1d432afbfe4242680433c194599102a5ab55baac24d160c594acdca42c08cec01">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFont_offset_none
-: <a class="el" href="classST7735__TFT__graphics.html#ab8bd2c685c870ff16d0ebe25b6783ad8a84769beb65ab618404e702853caa2180">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFont_offset_space
-: <a class="el" href="classST7735__TFT__graphics.html#ab8bd2c685c870ff16d0ebe25b6783ad8a521f0ac6f2ce20069d4b1e5d2ca2f4a3">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFont_offset_zero
-: <a class="el" href="classST7735__TFT__graphics.html#ab8bd2c685c870ff16d0ebe25b6783ad8aa0d49c2311e47a0084bf9b1ee950f48e">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFont_Seven_Seg
-: <a class="el" href="classST7735__TFT__graphics.html#a1d432afbfe4242680433c194599102a5a4dfb5e1b193c70f6d63dba3c723e96b8">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFont_Thick
-: <a class="el" href="classST7735__TFT__graphics.html#a1d432afbfe4242680433c194599102a5a9a31416a15f9eba4559abbeb088cd0a8">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFont_Tiny
-: <a class="el" href="classST7735__TFT__graphics.html#a1d432afbfe4242680433c194599102a5a9d6acf74f9ff6d57bade928d0698d33e">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFont_Wide
-: <a class="el" href="classST7735__TFT__graphics.html#a1d432afbfe4242680433c194599102a5a75b33e9c7ecbdd99d54d3249507c631e">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFont_width_16
-: <a class="el" href="classST7735__TFT__graphics.html#a90c1fb1c436d7440aedcd7958751aca5ace8f8550ec72a26c551dfd16c8d9fcc0">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFont_width_3
-: <a class="el" href="classST7735__TFT__graphics.html#a90c1fb1c436d7440aedcd7958751aca5a8379f1146139817f8cd5951de8695cc6">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFont_width_4
-: <a class="el" href="classST7735__TFT__graphics.html#a90c1fb1c436d7440aedcd7958751aca5af10886ee5b992ee7a90ec613c69ac301">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFont_width_5
-: <a class="el" href="classST7735__TFT__graphics.html#a90c1fb1c436d7440aedcd7958751aca5a760673b1a3a5a7a1f3f0c530bb37beda">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFont_width_7
-: <a class="el" href="classST7735__TFT__graphics.html#a90c1fb1c436d7440aedcd7958751aca5a4610d3ed3ccf697108feebfe0e9f0871">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFont_width_8
-: <a class="el" href="classST7735__TFT__graphics.html#a90c1fb1c436d7440aedcd7958751aca5ad43193bd7359125ed931ba6e43ae9d6d">ST7735_TFT_graphics</a>
-</li>
-<li>TFTFontNum()
-: <a class="el" href="classST7735__TFT__graphics.html#aecd5af95f57007b5a1af3306dad5d747">ST7735_TFT_graphics</a>
-</li>
-<li>TFTGreenTabInitialize()
-: <a class="el" href="classST7735__TFT.html#a54e65cca5733851ef43fc8520e295c4e">ST7735_TFT</a>
-</li>
-<li>TFTInitPCBType()
-: <a class="el" href="classST7735__TFT.html#aef0a516d5fffd1d8ceaeb47175d68893">ST7735_TFT</a>
-</li>
-<li>TFTInitScreenSize()
-: <a class="el" href="classST7735__TFT.html#a4d77ea3bb29edcc711f3ec68f139031d">ST7735_TFT</a>
-</li>
-<li>TFTInitSPIType()
-: <a class="el" href="classST7735__TFT.html#ad20213db3d8571118a432f416cf6a855">ST7735_TFT</a>
-</li>
-<li>TFTPowerDown()
-: <a class="el" href="classST7735__TFT.html#a8a09f57cce8cf7394f0d910c05114173">ST7735_TFT</a>
-</li>
-<li>TFTRedTabInitialize()
-: <a class="el" href="classST7735__TFT.html#ae75a79d36d84c595f83b04c927fa8253">ST7735_TFT</a>
-</li>
-<li>TFTResetPIN()
-: <a class="el" href="classST7735__TFT.html#ad0b3ae845088adb9a7c04fe918b0978f">ST7735_TFT</a>
-</li>
-<li>TFTsetAddrWindow()
-: <a class="el" href="classST7735__TFT__graphics.html#acd125b3fe6d106a4fe6f531354c85ae3">ST7735_TFT_graphics</a>
-</li>
-<li>TFTsetCursor()
-: <a class="el" href="classST7735__TFT__graphics.html#a9b9d26043b5dc0ef3aa31fb6a54181c7">ST7735_TFT_graphics</a>
-</li>
-<li>TFTsetRotation()
-: <a class="el" href="classST7735__TFT.html#a2e64bf7ea179c6d7e6c7092ae1b47bbc">ST7735_TFT</a>
-</li>
-<li>TFTsetScrollDefinition()
-: <a class="el" href="classST7735__TFT.html#ae5f754a44216e686144a2021f73cc0cb">ST7735_TFT</a>
-</li>
-<li>TFTsetTextWrap()
-: <a class="el" href="classST7735__TFT__graphics.html#aab6f3fc08287f0d3a746ae28c29072dd">ST7735_TFT_graphics</a>
-</li>
-<li>TFTSetupGPIO()
-: <a class="el" href="classST7735__TFT.html#a6c41bdd0ab21757ce9629cdf5cfdf3ec">ST7735_TFT</a>
-</li>
-<li>TFTSPIInitialize()
-: <a class="el" href="classST7735__TFT.html#a8b7989dd329cbe4a0f2311545a8f7669">ST7735_TFT</a>
-</li>
-<li>TFTST7735BInitialize()
-: <a class="el" href="classST7735__TFT.html#ac6dba744de02c81ff20b8480b6056371">ST7735_TFT</a>
-</li>
-<li>TFTVerticalScroll()
-: <a class="el" href="classST7735__TFT.html#a984804cc588f1b30ec298c6cebba26bc">ST7735_TFT</a>
+<li>SSD1306_OLEDFonts()
+: <a class="el" href="classSSD1306__OLEDFonts.html#aef2c81e9c32e268985fb612db2b8700b">SSD1306_OLEDFonts</a>
 </li>
 </ul>
 
 
 <h3><a id="index_w"></a>- w -</h3><ul>
+<li>width()
+: <a class="el" href="classSSD1306__graphics.html#a12ff0794d0126120e35d76892199b6eb">SSD1306_graphics</a>
+</li>
+<li>WIDTH
+: <a class="el" href="classSSD1306__graphics.html#a80497b373cf22759c7cedc1c4441aa89">SSD1306_graphics</a>
+</li>
 <li>write()
-: <a class="el" href="classST7735__TFT__graphics.html#ada26d0d3ffcfda0a82b7fc2f3349494e">ST7735_TFT_graphics</a>
+: <a class="el" href="classSSD1306__graphics.html#af724bafba132466252b9c69a51ff4330">SSD1306_graphics</a>
 </li>
-<li>writeCommand()
-: <a class="el" href="classST7735__TFT__graphics.html#acff03a93f9af87457a95473d2848147e">ST7735_TFT_graphics</a>
+<li>writeChar()
+: <a class="el" href="classSSD1306__graphics.html#aa4decc22faaeae8afd583e85d44ff0d4">SSD1306_graphics</a>
 </li>
-<li>writeData()
-: <a class="el" href="classST7735__TFT__graphics.html#aba80e98b70290150b5643600b81cc986">ST7735_TFT_graphics</a>
+<li>writeCharString()
+: <a class="el" href="classSSD1306__graphics.html#ad76adcfaa60c5bea2af53d620cd7fd40">SSD1306_graphics</a>
 </li>
 </ul>
 </div><!-- contents -->

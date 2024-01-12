@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SSD1306_OLED_PICO
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">1.0.1</span>
    </div>
    <div id="projectbrief">SSD1306 OLED I2C  Driver, Rpi PICO RP2040  library</div>
   </td>
@@ -42,7 +42,6 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classSSD1306-members.html">List of all members</a>  </div>
@@ -83,6 +82,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaf748df6699030d8d851cb2df12c307d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#aaf748df6699030d8d851cb2df12c307d">SSD1306</a> (int16_t, int16_t)</td></tr>
 <tr class="memdesc:aaf748df6699030d8d851cb2df12c307d"><td class="mdescLeft">&#160;</td><td class="mdescRight">init the screen object  <a href="classSSD1306.html#aaf748df6699030d8d851cb2df12c307d">More...</a><br /></td></tr>
 <tr class="separator:aaf748df6699030d8d851cb2df12c307d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bd027129c60b7f6a25db63f7573fb87"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a6bd027129c60b7f6a25db63f7573fb87">OLEDSetBufferPtr</a> (uint8_t <a class="el" href="classSSD1306__graphics.html#a12ff0794d0126120e35d76892199b6eb">width</a>, uint8_t <a class="el" href="classSSD1306__graphics.html#acf1080c5f77cc145ea996b88bccca59e">height</a>, uint8_t *pBuffer, uint16_t sizeOfBuffer)</td></tr>
+<tr class="memdesc:a6bd027129c60b7f6a25db63f7573fb87"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the buffer pointer to the users screen data buffer  <a href="classSSD1306.html#a6bd027129c60b7f6a25db63f7573fb87">More...</a><br /></td></tr>
+<tr class="separator:a6bd027129c60b7f6a25db63f7573fb87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a602688ffa4088e90f4d77f0ca325d7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a2a602688ffa4088e90f4d77f0ca325d7">drawPixel</a> (int16_t x, int16_t y, uint8_t color) override</td></tr>
 <tr class="memdesc:a2a602688ffa4088e90f4d77f0ca325d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a Pixel to the screen overides the gfx lib if defined.  <a href="classSSD1306.html#a2a602688ffa4088e90f4d77f0ca325d7">More...</a><br /></td></tr>
 <tr class="separator:a2a602688ffa4088e90f4d77f0ca325d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -103,9 +105,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a11b5ea61fd4ab349ffa968b2ed61b59b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a11b5ea61fd4ab349ffa968b2ed61b59b">OLEDFillPage</a> (uint8_t page_num, uint8_t pixels, uint8_t delay)</td></tr>
 <tr class="memdesc:a11b5ea61fd4ab349ffa968b2ed61b59b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill the chosen page(1-8) with a datapattern.  <a href="classSSD1306.html#a11b5ea61fd4ab349ffa968b2ed61b59b">More...</a><br /></td></tr>
 <tr class="separator:a11b5ea61fd4ab349ffa968b2ed61b59b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b2187a152a02b87dda4ae2b9393771d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a1b2187a152a02b87dda4ae2b9393771d">OLEDBitmap</a> (int16_t x, int16_t y, int16_t w, int16_t h, const uint8_t *data, bool invert)</td></tr>
-<tr class="memdesc:a1b2187a152a02b87dda4ae2b9393771d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a bitmap to the buffer.  <a href="classSSD1306.html#a1b2187a152a02b87dda4ae2b9393771d">More...</a><br /></td></tr>
-<tr class="separator:a1b2187a152a02b87dda4ae2b9393771d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40d9ef30363af9c94636f95cc5e01f25"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a40d9ef30363af9c94636f95cc5e01f25">OLEDBitmap</a> (int16_t x, int16_t y, int16_t w, int16_t h, const uint8_t *data, bool invert, uint16_t sizeOfBitmap)</td></tr>
+<tr class="memdesc:a40d9ef30363af9c94636f95cc5e01f25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a bitmap to the buffer.  <a href="classSSD1306.html#a40d9ef30363af9c94636f95cc5e01f25">More...</a><br /></td></tr>
+<tr class="separator:a40d9ef30363af9c94636f95cc5e01f25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6af39ddb2cb8d39d38aa1f7526952021"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a6af39ddb2cb8d39d38aa1f7526952021">OLEDbegin</a> (uint8_t I2c_address=<a class="el" href="SSD1306__OLED_8hpp.html#ac8c3c38872b95c3a363ee10baabd87f3">SSD1306_ADDR</a>, i2c_inst_t *i2c_type=i2c1, uint16_t CLKspeed=100, uint8_t SDApin=18, uint8_t SCLKpin=19)</td></tr>
 <tr class="memdesc:a6af39ddb2cb8d39d38aa1f7526952021"><td class="mdescLeft">&#160;</td><td class="mdescRight">begin Method initialise OLED I2C communication  <a href="classSSD1306.html#a6af39ddb2cb8d39d38aa1f7526952021">More...</a><br /></td></tr>
 <tr class="separator:a6af39ddb2cb8d39d38aa1f7526952021"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,22 +133,25 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a02845d8b1d8e01d2cc6fd86211423c1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a02845d8b1d8e01d2cc6fd86211423c1e">OLEDInvert</a> (bool on)</td></tr>
 <tr class="memdesc:a02845d8b1d8e01d2cc6fd86211423c1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">invert the display  <a href="classSSD1306.html#a02845d8b1d8e01d2cc6fd86211423c1e">More...</a><br /></td></tr>
 <tr class="separator:a02845d8b1d8e01d2cc6fd86211423c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72736297f04e7b5286372d5bf1e4a65c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a72736297f04e7b5286372d5bf1e4a65c">OLED_StartScrollRight</a> (uint8_t start, uint8_t stop)</td></tr>
-<tr class="memdesc:a72736297f04e7b5286372d5bf1e4a65c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scroll OLED data to the right.  <a href="classSSD1306.html#a72736297f04e7b5286372d5bf1e4a65c">More...</a><br /></td></tr>
-<tr class="separator:a72736297f04e7b5286372d5bf1e4a65c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba30d1e772dac3f9e2d2339156e829d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#aba30d1e772dac3f9e2d2339156e829d6">OLED_StartScrollLeft</a> (uint8_t start, uint8_t stop)</td></tr>
-<tr class="memdesc:aba30d1e772dac3f9e2d2339156e829d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scroll OLED data to the left.  <a href="classSSD1306.html#aba30d1e772dac3f9e2d2339156e829d6">More...</a><br /></td></tr>
-<tr class="separator:aba30d1e772dac3f9e2d2339156e829d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0f442cfc9ec93dcfc5ea8a816b5b4d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#ac0f442cfc9ec93dcfc5ea8a816b5b4d0">OLED_StartScrollDiagRight</a> (uint8_t start, uint8_t stop)</td></tr>
-<tr class="memdesc:ac0f442cfc9ec93dcfc5ea8a816b5b4d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scroll OLED data diagonally to the right.  <a href="classSSD1306.html#ac0f442cfc9ec93dcfc5ea8a816b5b4d0">More...</a><br /></td></tr>
-<tr class="separator:ac0f442cfc9ec93dcfc5ea8a816b5b4d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af899cc5ab6a3616d34c9381f3d90bbc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#af899cc5ab6a3616d34c9381f3d90bbc5">OLED_StartScrollDiagLeft</a> (uint8_t start, uint8_t stop)</td></tr>
-<tr class="memdesc:af899cc5ab6a3616d34c9381f3d90bbc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scroll OLED data diagonally to the left.  <a href="classSSD1306.html#af899cc5ab6a3616d34c9381f3d90bbc5">More...</a><br /></td></tr>
-<tr class="separator:af899cc5ab6a3616d34c9381f3d90bbc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fd1428561b7c1fbe94641d18edcca9e"><td class="memItemLeft" align="right" valign="top"><a id="a9fd1428561b7c1fbe94641d18edcca9e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a9fd1428561b7c1fbe94641d18edcca9e">OLED_StopScroll</a> (void)</td></tr>
-<tr class="memdesc:a9fd1428561b7c1fbe94641d18edcca9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop scroll mode. <br /></td></tr>
-<tr class="separator:a9fd1428561b7c1fbe94641d18edcca9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6269912f571f9ea8398c53f10badba1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a6269912f571f9ea8398c53f10badba1f">OLEDStartScrollRight</a> (uint8_t start, uint8_t stop)</td></tr>
+<tr class="memdesc:a6269912f571f9ea8398c53f10badba1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scroll OLED data to the right.  <a href="classSSD1306.html#a6269912f571f9ea8398c53f10badba1f">More...</a><br /></td></tr>
+<tr class="separator:a6269912f571f9ea8398c53f10badba1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62f1c3fa3c72ef0b90f3c35cd766e968"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a62f1c3fa3c72ef0b90f3c35cd766e968">OLEDStartScrollLeft</a> (uint8_t start, uint8_t stop)</td></tr>
+<tr class="memdesc:a62f1c3fa3c72ef0b90f3c35cd766e968"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scroll OLED data to the left.  <a href="classSSD1306.html#a62f1c3fa3c72ef0b90f3c35cd766e968">More...</a><br /></td></tr>
+<tr class="separator:a62f1c3fa3c72ef0b90f3c35cd766e968"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada62fa8dd2770b79c6e63a7ae8434227"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#ada62fa8dd2770b79c6e63a7ae8434227">OLEDStartScrollDiagRight</a> (uint8_t start, uint8_t stop)</td></tr>
+<tr class="memdesc:ada62fa8dd2770b79c6e63a7ae8434227"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scroll OLED data diagonally to the right.  <a href="classSSD1306.html#ada62fa8dd2770b79c6e63a7ae8434227">More...</a><br /></td></tr>
+<tr class="separator:ada62fa8dd2770b79c6e63a7ae8434227"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adce9815b67c85fee406ad08b38e69982"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#adce9815b67c85fee406ad08b38e69982">OLEDStartScrollDiagLeft</a> (uint8_t start, uint8_t stop)</td></tr>
+<tr class="memdesc:adce9815b67c85fee406ad08b38e69982"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scroll OLED data diagonally to the left.  <a href="classSSD1306.html#adce9815b67c85fee406ad08b38e69982">More...</a><br /></td></tr>
+<tr class="separator:adce9815b67c85fee406ad08b38e69982"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06adfe2a2d714ae739e63d0ecfdf9c7b"><td class="memItemLeft" align="right" valign="top"><a id="a06adfe2a2d714ae739e63d0ecfdf9c7b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a06adfe2a2d714ae739e63d0ecfdf9c7b">OLEDStopScroll</a> (void)</td></tr>
+<tr class="memdesc:a06adfe2a2d714ae739e63d0ecfdf9c7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop scroll mode. <br /></td></tr>
+<tr class="separator:a06adfe2a2d714ae739e63d0ecfdf9c7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37565ff4f9aa80fd09fb37731f6a5d65"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a37565ff4f9aa80fd09fb37731f6a5d65">CheckConnection</a> (void)</td></tr>
+<tr class="memdesc:a37565ff4f9aa80fd09fb37731f6a5d65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check Connection Function Check if device is on the bus asks for one byte.  <a href="classSSD1306.html#a37565ff4f9aa80fd09fb37731f6a5d65">More...</a><br /></td></tr>
+<tr class="separator:a37565ff4f9aa80fd09fb37731f6a5d65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77411dc4cf4b91c19d4798dd99255625"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a77411dc4cf4b91c19d4798dd99255625">GetIsConnected</a> (void)</td></tr>
 <tr class="memdesc:a77411dc4cf4b91c19d4798dd99255625"><td class="mdescLeft">&#160;</td><td class="mdescRight">getter for is connected status  <a href="classSSD1306.html#a77411dc4cf4b91c19d4798dd99255625">More...</a><br /></td></tr>
 <tr class="separator:a77411dc4cf4b91c19d4798dd99255625"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,9 +164,27 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a75d08d56e5abdef7cd5af59414daeb69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a75d08d56e5abdef7cd5af59414daeb69">SetDebugMode</a> (bool)</td></tr>
 <tr class="memdesc:a75d08d56e5abdef7cd5af59414daeb69"><td class="mdescLeft">&#160;</td><td class="mdescRight">setter for debug status  <a href="classSSD1306.html#a75d08d56e5abdef7cd5af59414daeb69">More...</a><br /></td></tr>
 <tr class="separator:a75d08d56e5abdef7cd5af59414daeb69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37565ff4f9aa80fd09fb37731f6a5d65"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a37565ff4f9aa80fd09fb37731f6a5d65">CheckConnection</a> (void)</td></tr>
-<tr class="memdesc:a37565ff4f9aa80fd09fb37731f6a5d65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check Connection Function Check if device is on the bus asks for one byte.  <a href="classSSD1306.html#a37565ff4f9aa80fd09fb37731f6a5d65">More...</a><br /></td></tr>
-<tr class="separator:a37565ff4f9aa80fd09fb37731f6a5d65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a030836e6c9ee18c753148078a642adba"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a030836e6c9ee18c753148078a642adba">GetI2CRetryAttemptsNo</a> (void)</td></tr>
+<tr class="memdesc:a030836e6c9ee18c753148078a642adba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Number of I2C retry Attempts in event of I2C bus error Set to zero for NO retry attempts. default 3.  <a href="classSSD1306.html#a030836e6c9ee18c753148078a642adba">More...</a><br /></td></tr>
+<tr class="separator:a030836e6c9ee18c753148078a642adba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e037cc14cdbce859137ba4622519d34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a7e037cc14cdbce859137ba4622519d34">SetI2CRetryAttemptsNo</a> (uint8_t)</td></tr>
+<tr class="memdesc:a7e037cc14cdbce859137ba4622519d34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the Number of I2C retry Attempts in event of I2C bus error Set to zero for NO retry attempts.  <a href="classSSD1306.html#a7e037cc14cdbce859137ba4622519d34">More...</a><br /></td></tr>
+<tr class="separator:a7e037cc14cdbce859137ba4622519d34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8aa8ebee18018a4f4c956829071a3bcf"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a8aa8ebee18018a4f4c956829071a3bcf">GetI2CRetryDelay</a> (void)</td></tr>
+<tr class="memdesc:a8aa8ebee18018a4f4c956829071a3bcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets delay in mS between retry attempts in event of I2C error.  <a href="classSSD1306.html#a8aa8ebee18018a4f4c956829071a3bcf">More...</a><br /></td></tr>
+<tr class="separator:a8aa8ebee18018a4f4c956829071a3bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a807e5dece19944daceaa4187d9999710"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a807e5dece19944daceaa4187d9999710">SetI2CRetryDelay</a> (uint16_t)</td></tr>
+<tr class="memdesc:a807e5dece19944daceaa4187d9999710"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets delay in mS between retry attempts in event of I2C error.  <a href="classSSD1306.html#a807e5dece19944daceaa4187d9999710">More...</a><br /></td></tr>
+<tr class="separator:a807e5dece19944daceaa4187d9999710"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16e0d6776c0f80e4f3c6d2b372aee934"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a16e0d6776c0f80e4f3c6d2b372aee934">GetI2CTimeout</a> (void)</td></tr>
+<tr class="memdesc:a16e0d6776c0f80e4f3c6d2b372aee934"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets I2C timeout value used in I2C functions calls.  <a href="classSSD1306.html#a16e0d6776c0f80e4f3c6d2b372aee934">More...</a><br /></td></tr>
+<tr class="separator:a16e0d6776c0f80e4f3c6d2b372aee934"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d44b4f88c9c620cf57cdf13c89deb0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a2d44b4f88c9c620cf57cdf13c89deb0b">SetI2CTimeout</a> (uint32_t)</td></tr>
+<tr class="memdesc:a2d44b4f88c9c620cf57cdf13c89deb0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets delay the I2C timeout in uS.  <a href="classSSD1306.html#a2d44b4f88c9c620cf57cdf13c89deb0b">More...</a><br /></td></tr>
+<tr class="separator:a2d44b4f88c9c620cf57cdf13c89deb0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71a70011f4d169a3eb5f799a0030e24d"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a71a70011f4d169a3eb5f799a0030e24d">GetLibVerNum</a> (void)</td></tr>
+<tr class="memdesc:a71a70011f4d169a3eb5f799a0030e24d"><td class="mdescLeft">&#160;</td><td class="mdescRight">getter for Library version number  <a href="classSSD1306.html#a71a70011f4d169a3eb5f799a0030e24d">More...</a><br /></td></tr>
+<tr class="separator:a71a70011f4d169a3eb5f799a0030e24d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classSSD1306__graphics"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classSSD1306__graphics')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classSSD1306__graphics.html">SSD1306_graphics</a></td></tr>
 <tr class="memitem:aa33ac9b6da0bb7a6cf226317338bb36e inherit pub_methods_classSSD1306__graphics"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#aa33ac9b6da0bb7a6cf226317338bb36e">SSD1306_graphics</a> (int16_t w, int16_t h)</td></tr>
 <tr class="memdesc:aa33ac9b6da0bb7a6cf226317338bb36e inherit pub_methods_classSSD1306__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">init the OLED Graphics class object constructor  <a href="classSSD1306__graphics.html#aa33ac9b6da0bb7a6cf226317338bb36e">More...</a><br /></td></tr>
@@ -217,12 +240,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:af724bafba132466252b9c69a51ff4330 inherit pub_methods_classSSD1306__graphics"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#af724bafba132466252b9c69a51ff4330">write</a> (uint8_t)</td></tr>
 <tr class="memdesc:af724bafba132466252b9c69a51ff4330 inherit pub_methods_classSSD1306__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">write method used in the print class when user calls print  <a href="classSSD1306__graphics.html#af724bafba132466252b9c69a51ff4330">More...</a><br /></td></tr>
 <tr class="separator:af724bafba132466252b9c69a51ff4330 inherit pub_methods_classSSD1306__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2873103484c2df0dfc46b17dfd380f87 inherit pub_methods_classSSD1306__graphics"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a2873103484c2df0dfc46b17dfd380f87">writeChar</a> (int16_t x, int16_t y, char value)</td></tr>
-<tr class="memdesc:a2873103484c2df0dfc46b17dfd380f87 inherit pub_methods_classSSD1306__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write 1 character on OLED.  <a href="classSSD1306__graphics.html#a2873103484c2df0dfc46b17dfd380f87">More...</a><br /></td></tr>
-<tr class="separator:a2873103484c2df0dfc46b17dfd380f87 inherit pub_methods_classSSD1306__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af899114303c0532f394814da19aaaac1 inherit pub_methods_classSSD1306__graphics"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#af899114303c0532f394814da19aaaac1">writeCharString</a> (int16_t x, int16_t y, char *text)</td></tr>
-<tr class="memdesc:af899114303c0532f394814da19aaaac1 inherit pub_methods_classSSD1306__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write Text charactor array on OLED.  <a href="classSSD1306__graphics.html#af899114303c0532f394814da19aaaac1">More...</a><br /></td></tr>
-<tr class="separator:af899114303c0532f394814da19aaaac1 inherit pub_methods_classSSD1306__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4decc22faaeae8afd583e85d44ff0d4 inherit pub_methods_classSSD1306__graphics"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#aa4decc22faaeae8afd583e85d44ff0d4">writeChar</a> (int16_t x, int16_t y, char value)</td></tr>
+<tr class="memdesc:aa4decc22faaeae8afd583e85d44ff0d4 inherit pub_methods_classSSD1306__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write 1 character on OLED.  <a href="classSSD1306__graphics.html#aa4decc22faaeae8afd583e85d44ff0d4">More...</a><br /></td></tr>
+<tr class="separator:aa4decc22faaeae8afd583e85d44ff0d4 inherit pub_methods_classSSD1306__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad76adcfaa60c5bea2af53d620cd7fd40 inherit pub_methods_classSSD1306__graphics"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#ad76adcfaa60c5bea2af53d620cd7fd40">writeCharString</a> (int16_t x, int16_t y, char *text)</td></tr>
+<tr class="memdesc:ad76adcfaa60c5bea2af53d620cd7fd40 inherit pub_methods_classSSD1306__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write Text character array on OLED.  <a href="classSSD1306__graphics.html#ad76adcfaa60c5bea2af53d620cd7fd40">More...</a><br /></td></tr>
+<tr class="separator:ad76adcfaa60c5bea2af53d620cd7fd40 inherit pub_methods_classSSD1306__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade3fabdd46feacf3c7b4ce2be13fe37e inherit pub_methods_classSSD1306__graphics"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#ade3fabdd46feacf3c7b4ce2be13fe37e">setTextWrap</a> (bool w)</td></tr>
 <tr class="memdesc:ade3fabdd46feacf3c7b4ce2be13fe37e inherit pub_methods_classSSD1306__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">turn on or off screen _textwrap of the text (fonts 1-6)  <a href="classSSD1306__graphics.html#ade3fabdd46feacf3c7b4ce2be13fe37e">More...</a><br /></td></tr>
 <tr class="separator:ade3fabdd46feacf3c7b4ce2be13fe37e inherit pub_methods_classSSD1306__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -243,9 +266,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__OLEDFonts.html#aef2c81e9c32e268985fb612db2b8700b">SSD1306_OLEDFonts</a> ()</td></tr>
 <tr class="memdesc:aef2c81e9c32e268985fb612db2b8700b inherit pub_methods_classSSD1306__OLEDFonts"><td class="mdescLeft">&#160;</td><td class="mdescRight">init the OLED font class object constructor <br /></td></tr>
 <tr class="separator:aef2c81e9c32e268985fb612db2b8700b inherit pub_methods_classSSD1306__OLEDFonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac90d686c5dab51d1525713086b7de62e inherit pub_methods_classSSD1306__OLEDFonts"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__OLEDFonts.html#ac90d686c5dab51d1525713086b7de62e">setFont</a> (const uint8_t *font)</td></tr>
-<tr class="memdesc:ac90d686c5dab51d1525713086b7de62e inherit pub_methods_classSSD1306__OLEDFonts"><td class="mdescLeft">&#160;</td><td class="mdescRight">SSD1306_SetFont.  <a href="classSSD1306__OLEDFonts.html#ac90d686c5dab51d1525713086b7de62e">More...</a><br /></td></tr>
-<tr class="separator:ac90d686c5dab51d1525713086b7de62e inherit pub_methods_classSSD1306__OLEDFonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05e896d347de82e5650c1eeab95b4954 inherit pub_methods_classSSD1306__OLEDFonts"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__OLEDFonts.html#a05e896d347de82e5650c1eeab95b4954">setFont</a> (const uint8_t *font)</td></tr>
+<tr class="memdesc:a05e896d347de82e5650c1eeab95b4954 inherit pub_methods_classSSD1306__OLEDFonts"><td class="mdescLeft">&#160;</td><td class="mdescRight">SSD1306_SetFont.  <a href="classSSD1306__OLEDFonts.html#a05e896d347de82e5650c1eeab95b4954">More...</a><br /></td></tr>
+<tr class="separator:a05e896d347de82e5650c1eeab95b4954 inherit pub_methods_classSSD1306__OLEDFonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d23f488808f149c890ed82a2e725f40 inherit pub_methods_classSSD1306__OLEDFonts"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__OLEDFonts.html#a8d23f488808f149c890ed82a2e725f40">setInvertFont</a> (bool invertStatus)</td></tr>
 <tr class="memdesc:a8d23f488808f149c890ed82a2e725f40 inherit pub_methods_classSSD1306__OLEDFonts"><td class="mdescLeft">&#160;</td><td class="mdescRight">setInvertFont  <a href="classSSD1306__OLEDFonts.html#a8d23f488808f149c890ed82a2e725f40">More...</a><br /></td></tr>
 <tr class="separator:a8d23f488808f149c890ed82a2e725f40 inherit pub_methods_classSSD1306__OLEDFonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -323,14 +346,6 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>println</b> (void)<
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>println</b> (const std::string &amp;s)</td></tr>
 <tr class="separator:a9e65eed803938e026804a767a9f99336 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a9e6211eeb00c475d7a4520d70ac80f26"><td class="memItemLeft" align="right" valign="top">uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a9e6211eeb00c475d7a4520d70ac80f26">buffer</a> = nullptr</td></tr>
-<tr class="separator:a9e6211eeb00c475d7a4520d70ac80f26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_attribs_classSSD1306__OLEDFonts"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classSSD1306__OLEDFonts')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classSSD1306__OLEDFonts.html">SSD1306_OLEDFonts</a></td></tr>
-<tr class="memitem:ab6d5b6ab7c0d1d265b881f51ba24e3c6 inherit pub_attribs_classSSD1306__OLEDFonts"><td class="memItemLeft" align="right" valign="top">const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__OLEDFonts.html#ab6d5b6ab7c0d1d265b881f51ba24e3c6">_FontSelect</a> = nullptr</td></tr>
-<tr class="separator:ab6d5b6ab7c0d1d265b881f51ba24e3c6 inherit pub_attribs_classSSD1306__OLEDFonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:affcbe8ac82834428f764cbecf05626f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#affcbe8ac82834428f764cbecf05626f7">I2C_Write_Byte</a> (uint8_t value, uint8_t Cmd)</td></tr>
@@ -339,8 +354,12 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a0c00802690c785862abc422bcd5c80a9"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a0c00802690c785862abc422bcd5c80a9">_OLEDdelayI2C</a> = 50000</td></tr>
-<tr class="separator:a0c00802690c785862abc422bcd5c80a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a587121e883b97c908f34f7659cfaab3d"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a587121e883b97c908f34f7659cfaab3d">_I2CRetryAttempts</a> = 3</td></tr>
+<tr class="separator:a587121e883b97c908f34f7659cfaab3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a812d32d4a652409166af2764f15a4ff8"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a812d32d4a652409166af2764f15a4ff8">_I2CRetryDelay</a> = 100</td></tr>
+<tr class="separator:a812d32d4a652409166af2764f15a4ff8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a556f8e57547deb5b7ae6f1aec0d3d5f8"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a556f8e57547deb5b7ae6f1aec0d3d5f8">_TimeoutDelayI2C</a> = 50000</td></tr>
+<tr class="separator:a556f8e57547deb5b7ae6f1aec0d3d5f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71472e966f464facaa924fa0f216f5ae"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a71472e966f464facaa924fa0f216f5ae">_OLEDAddressI2C</a> = <a class="el" href="SSD1306__OLED_8hpp.html#ac8c3c38872b95c3a363ee10baabd87f3">SSD1306_ADDR</a></td></tr>
 <tr class="separator:a71472e966f464facaa924fa0f216f5ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e401c3526738ffd50d8375a103a9906"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a8e401c3526738ffd50d8375a103a9906">_SDataPin</a> = 18</td></tr>
@@ -355,19 +374,26 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a389238c2b18dfd1b7ab37571edc93b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57faa2b50d30e530a647f335c8ede8a0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a57faa2b50d30e530a647f335c8ede8a0">_bSerialDebugFlag</a> = false</td></tr>
 <tr class="separator:a57faa2b50d30e530a647f335c8ede8a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f414b7f66afd6754843a2d97c64b56e"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a0f414b7f66afd6754843a2d97c64b56e">_OLED_WIDTH</a></td></tr>
+<tr class="memitem:a0f414b7f66afd6754843a2d97c64b56e"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a0f414b7f66afd6754843a2d97c64b56e">_OLED_WIDTH</a> = 128</td></tr>
 <tr class="separator:a0f414b7f66afd6754843a2d97c64b56e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9acf0240009ab15c6e528b0eb2f0df1"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#ab9acf0240009ab15c6e528b0eb2f0df1">_OLED_HEIGHT</a></td></tr>
+<tr class="memitem:ab9acf0240009ab15c6e528b0eb2f0df1"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#ab9acf0240009ab15c6e528b0eb2f0df1">_OLED_HEIGHT</a> = 64</td></tr>
 <tr class="separator:ab9acf0240009ab15c6e528b0eb2f0df1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79e81615eb269f6c9c4e2ed50ddc6a11"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a79e81615eb269f6c9c4e2ed50ddc6a11">_OLED_PAGE_NUM</a></td></tr>
+<tr class="memitem:a79e81615eb269f6c9c4e2ed50ddc6a11"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a79e81615eb269f6c9c4e2ed50ddc6a11">_OLED_PAGE_NUM</a> = 8</td></tr>
 <tr class="separator:a79e81615eb269f6c9c4e2ed50ddc6a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a158eeb136f8731eedbf898c3b991e6df"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a158eeb136f8731eedbf898c3b991e6df">bufferWidth</a></td></tr>
-<tr class="separator:a158eeb136f8731eedbf898c3b991e6df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81edfceccfbc1a05d33f5ae315e0c6d1"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a81edfceccfbc1a05d33f5ae315e0c6d1">bufferHeight</a></td></tr>
-<tr class="separator:a81edfceccfbc1a05d33f5ae315e0c6d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56a9a40be72fc1ed40100acbda7b449b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a56a9a40be72fc1ed40100acbda7b449b">_bufferWidth</a> = 128</td></tr>
+<tr class="separator:a56a9a40be72fc1ed40100acbda7b449b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20956aa0e1dcfccdf355b519f983ca0c"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a20956aa0e1dcfccdf355b519f983ca0c">_bufferHeight</a> = 64</td></tr>
+<tr class="separator:a20956aa0e1dcfccdf355b519f983ca0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74e54c12d2bda125ce91912d41229dec"><td class="memItemLeft" align="right" valign="top">uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a74e54c12d2bda125ce91912d41229dec">_OLEDbuffer</a> = nullptr</td></tr>
+<tr class="separator:a74e54c12d2bda125ce91912d41229dec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec80a0cb43b2b73e2c79f2353a81be14"><td class="memItemLeft" align="right" valign="top">const uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#aec80a0cb43b2b73e2c79f2353a81be14">_OLEDLibVerNum</a> = 101</td></tr>
+<tr class="separator:aec80a0cb43b2b73e2c79f2353a81be14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_attribs_classSSD1306__OLEDFonts"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classSSD1306__OLEDFonts')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classSSD1306__OLEDFonts.html">SSD1306_OLEDFonts</a></td></tr>
+<tr class="memitem:ab6d5b6ab7c0d1d265b881f51ba24e3c6 inherit pub_attribs_classSSD1306__OLEDFonts"><td class="memItemLeft" align="right" valign="top">const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__OLEDFonts.html#ab6d5b6ab7c0d1d265b881f51ba24e3c6">_FontSelect</a> = pFontDefault</td></tr>
+<tr class="separator:ab6d5b6ab7c0d1d265b881f51ba24e3c6 inherit pub_attribs_classSSD1306__OLEDFonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classPrint"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classPrint')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classPrint.html">Print</a></td></tr>
 <tr class="memitem:a46656410e23c0ec14d7a01b38b3b6f00 inherit pro_methods_classPrint"><td class="memItemLeft" align="right" valign="top"><a id="a46656410e23c0ec14d7a01b38b3b6f00"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (int err=1)</td></tr>
@@ -457,7 +483,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 </div><div class="memdoc">
 
 <p>Check Connection Function Check if device is on the bus asks for one byte. </p>
-<dl class="section return"><dt>Returns</dt><dd>int16_t if less than zero = error </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>int16_t if less than 1 = error </dd></dl>
 
 </div>
 </div>
@@ -537,6 +563,69 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 
 </div>
 </div>
+<a id="a030836e6c9ee18c753148078a642adba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a030836e6c9ee18c753148078a642adba">&#9670;&nbsp;</a></span>GetI2CRetryAttemptsNo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t SSD1306::GetI2CRetryAttemptsNo </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the Number of I2C retry Attempts in event of I2C bus error Set to zero for NO retry attempts. default 3. </p>
+<dl class="section return"><dt>Returns</dt><dd>uint8_t Max number of I2C retry attempts </dd></dl>
+
+</div>
+</div>
+<a id="a8aa8ebee18018a4f4c956829071a3bcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8aa8ebee18018a4f4c956829071a3bcf">&#9670;&nbsp;</a></span>GetI2CRetryDelay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t SSD1306::GetI2CRetryDelay </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets delay in mS between retry attempts in event of I2C error. </p>
+<dl class="section return"><dt>Returns</dt><dd>Delay mS </dd></dl>
+
+</div>
+</div>
+<a id="a16e0d6776c0f80e4f3c6d2b372aee934"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16e0d6776c0f80e4f3c6d2b372aee934">&#9670;&nbsp;</a></span>GetI2CTimeout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SSD1306::GetI2CTimeout </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets I2C timeout value used in I2C functions calls. </p>
+<dl class="section return"><dt>Returns</dt><dd>Delay uS, default 50000 </dd></dl>
+
+</div>
+</div>
 <a id="a77411dc4cf4b91c19d4798dd99255625"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a77411dc4cf4b91c19d4798dd99255625">&#9670;&nbsp;</a></span>GetIsConnected()</h2>
 
@@ -555,6 +644,27 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 
 <p>getter for is connected status </p>
 <dl class="section return"><dt>Returns</dt><dd>is connected or disconnected </dd></dl>
+
+</div>
+</div>
+<a id="a71a70011f4d169a3eb5f799a0030e24d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71a70011f4d169a3eb5f799a0030e24d">&#9670;&nbsp;</a></span>GetLibVerNum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t SSD1306::GetLibVerNum </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getter for Library version number </p>
+<dl class="section return"><dt>Returns</dt><dd>the version number 101 is 1.0.1 </dd></dl>
 
 </div>
 </div>
@@ -601,154 +711,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>In the event of an error will loop 3 times each time. </dd></dl>
-
-</div>
-</div>
-<a id="af899cc5ab6a3616d34c9381f3d90bbc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af899cc5ab6a3616d34c9381f3d90bbc5">&#9670;&nbsp;</a></span>OLED_StartScrollDiagLeft()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SSD1306::OLED_StartScrollDiagLeft </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>start</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>stop</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Scroll OLED data diagonally to the left. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">start</td><td>start position </td></tr>
-    <tr><td class="paramname">stop</td><td>stop position </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ac0f442cfc9ec93dcfc5ea8a816b5b4d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0f442cfc9ec93dcfc5ea8a816b5b4d0">&#9670;&nbsp;</a></span>OLED_StartScrollDiagRight()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SSD1306::OLED_StartScrollDiagRight </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>start</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>stop</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Scroll OLED data diagonally to the right. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">start</td><td>start position </td></tr>
-    <tr><td class="paramname">stop</td><td>stop position </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="aba30d1e772dac3f9e2d2339156e829d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba30d1e772dac3f9e2d2339156e829d6">&#9670;&nbsp;</a></span>OLED_StartScrollLeft()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SSD1306::OLED_StartScrollLeft </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>start</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>stop</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Scroll OLED data to the left. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">start</td><td>start position </td></tr>
-    <tr><td class="paramname">stop</td><td>stop position </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a72736297f04e7b5286372d5bf1e4a65c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72736297f04e7b5286372d5bf1e4a65c">&#9670;&nbsp;</a></span>OLED_StartScrollRight()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SSD1306::OLED_StartScrollRight </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>start</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>stop</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Scroll OLED data to the right. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">start</td><td>start position </td></tr>
-    <tr><td class="paramname">stop</td><td>stop position </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -801,7 +763,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
   <table class="params">
     <tr><td class="paramname">I2Caddress</td><td>I2C Bus address by default 0x3C </td></tr>
     <tr><td class="paramname">i2c_type</td><td>The I2C interface i2c0 or ic21 interface </td></tr>
-    <tr><td class="paramname">CLKspeed</td><td>I2C Bus Clock speed in KHz. Set to 100 </td></tr>
+    <tr><td class="paramname">CLKspeed</td><td>I2C Bus Clock speed in KHz. </td></tr>
     <tr><td class="paramname">SDApin</td><td>I2C data GPIO pin <br  />
  </td></tr>
     <tr><td class="paramname">SCLKpin</td><td>I2C clock GPIO pin </td></tr>
@@ -812,14 +774,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 
 </div>
 </div>
-<a id="a1b2187a152a02b87dda4ae2b9393771d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b2187a152a02b87dda4ae2b9393771d">&#9670;&nbsp;</a></span>OLEDBitmap()</h2>
+<a id="a40d9ef30363af9c94636f95cc5e01f25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40d9ef30363af9c94636f95cc5e01f25">&#9670;&nbsp;</a></span>OLEDBitmap()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void SSD1306::OLEDBitmap </td>
+          <td class="memname">uint8_t SSD1306::OLEDBitmap </td>
           <td>(</td>
           <td class="paramtype">int16_t&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -846,13 +808,19 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const uint8_t *&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
+          <td class="paramname"><em>pBitmap</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>invert</em>&#160;</td>
+          <td class="paramname"><em>invert</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>sizeOfBitmap</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -869,12 +837,21 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
     <tr><td class="paramname">y</td><td>y axis offset 0-64 </td></tr>
     <tr><td class="paramname">w</td><td>width 0-128 </td></tr>
     <tr><td class="paramname">h</td><td>height 0-64 </td></tr>
-    <tr><td class="paramname">data</td><td>pointer to bitmap data </td></tr>
+    <tr><td class="paramname">pBitmap</td><td>pointer to bitmap data </td></tr>
     <tr><td class="paramname">invert</td><td>color </td></tr>
+    <tr><td class="paramname">sizeOfBitmap</td><td>size of bitmap </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>bitmap data must be horizontally addressed. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Will return<ol type="1">
+<li>0. success</li>
+<li>2. Bitmap co-ord out of bounds, check x and y</li>
+<li>3. Bitmap is larger than screen, check w and h</li>
+<li>4. Bitmap is is not valid pointer</li>
+<li>5. Check Horizontal bitmap size </li>
+</ol>
+</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>bitmap data must be horizontally addressed and height divisible by 8 </dd></dl>
 
 </div>
 </div>
@@ -1096,6 +1073,211 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 
 </div>
 </div>
+<a id="a6bd027129c60b7f6a25db63f7573fb87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bd027129c60b7f6a25db63f7573fb87">&#9670;&nbsp;</a></span>OLEDSetBufferPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t SSD1306::OLEDSetBufferPtr </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>sizeOfBuffer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>sets the buffer pointer to the users screen data buffer </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">width</td><td>width of buffer in pixels </td></tr>
+    <tr><td class="paramname">height</td><td>height of buffer in pixels </td></tr>
+    <tr><td class="paramname">pBuffer</td><td>the buffer array which decays to pointer </td></tr>
+    <tr><td class="paramname">sizeOfBuffer</td><td>size of buffer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Will return:<ol type="1">
+<li>0. Success</li>
+<li>2. Buffer size calculations are incorrect BufferSize = w * (h/8),</li>
+<li>3. Not a valid pointer object. </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<a id="adce9815b67c85fee406ad08b38e69982"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adce9815b67c85fee406ad08b38e69982">&#9670;&nbsp;</a></span>OLEDStartScrollDiagLeft()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SSD1306::OLEDStartScrollDiagLeft </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>stop</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Scroll OLED data diagonally to the left. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>start position </td></tr>
+    <tr><td class="paramname">stop</td><td>stop position </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ada62fa8dd2770b79c6e63a7ae8434227"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada62fa8dd2770b79c6e63a7ae8434227">&#9670;&nbsp;</a></span>OLEDStartScrollDiagRight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SSD1306::OLEDStartScrollDiagRight </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>stop</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Scroll OLED data diagonally to the right. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>start position </td></tr>
+    <tr><td class="paramname">stop</td><td>stop position </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a62f1c3fa3c72ef0b90f3c35cd766e968"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62f1c3fa3c72ef0b90f3c35cd766e968">&#9670;&nbsp;</a></span>OLEDStartScrollLeft()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SSD1306::OLEDStartScrollLeft </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>stop</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Scroll OLED data to the left. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>start position </td></tr>
+    <tr><td class="paramname">stop</td><td>stop position </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6269912f571f9ea8398c53f10badba1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6269912f571f9ea8398c53f10badba1f">&#9670;&nbsp;</a></span>OLEDStartScrollRight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SSD1306::OLEDStartScrollRight </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>stop</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Scroll OLED data to the right. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>start position </td></tr>
+    <tr><td class="paramname">stop</td><td>stop position </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a75d08d56e5abdef7cd5af59414daeb69"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a75d08d56e5abdef7cd5af59414daeb69">&#9670;&nbsp;</a></span>SetDebugMode()</h2>
 
@@ -1122,6 +1304,84 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 
 </div>
 </div>
+<a id="a7e037cc14cdbce859137ba4622519d34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e037cc14cdbce859137ba4622519d34">&#9670;&nbsp;</a></span>SetI2CRetryAttemptsNo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SSD1306::SetI2CRetryAttemptsNo </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>Attempts</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the Number of I2C retry Attempts in event of I2C bus error Set to zero for NO retry attempts. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Attempts</td><td>Max number of I2C retry attempts </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a807e5dece19944daceaa4187d9999710"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a807e5dece19944daceaa4187d9999710">&#9670;&nbsp;</a></span>SetI2CRetryDelay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SSD1306::SetI2CRetryDelay </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Delay</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets delay in mS between retry attempts in event of I2C error. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Delay</td><td>delay in mS between retry attempts in event of I2C error </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2d44b4f88c9c620cf57cdf13c89deb0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d44b4f88c9c620cf57cdf13c89deb0b">&#9670;&nbsp;</a></span>SetI2CTimeout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SSD1306::SetI2CTimeout </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>timeout</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets delay the I2C timeout in uS. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">timeout</td><td>delay in uS </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ac07a49e2f4d93c156336049469f26c94"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac07a49e2f4d93c156336049469f26c94">&#9670;&nbsp;</a></span>SetIsConnected()</h2>
 
@@ -1141,7 +1401,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 <p>setter for is connected status </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">connected</td><td>is device connected , true yes, false no </td></tr>
+    <tr><td class="paramname">connected</td><td>Set device connected , true yes, false no </td></tr>
   </table>
   </dd>
 </dl>
@@ -1168,7 +1428,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
   </tr>
 </table>
 </div><div class="memdoc">
-<p>is device connected flag </p>
+<p>is device connected/correct flag </p>
 
 </div>
 </div>
@@ -1195,6 +1455,52 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 
 </div>
 </div>
+<a id="a20956aa0e1dcfccdf355b519f983ca0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20956aa0e1dcfccdf355b519f983ca0c">&#9670;&nbsp;</a></span>_bufferHeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t SSD1306::_bufferHeight = 64</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Height of Screen Buffer </p>
+
+</div>
+</div>
+<a id="a56a9a40be72fc1ed40100acbda7b449b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56a9a40be72fc1ed40100acbda7b449b">&#9670;&nbsp;</a></span>_bufferWidth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t SSD1306::_bufferWidth = 128</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Width of Screen Buffer </p>
+
+</div>
+</div>
 <a id="a9fafe54cddd02802804b238da23a664f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9fafe54cddd02802804b238da23a664f">&#9670;&nbsp;</a></span>_CLKSpeed</h2>
 
@@ -1214,7 +1520,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
   </tr>
 </table>
 </div><div class="memdoc">
-<p>I2C bus speed in khz datasheet says 100 for PCF8574 </p>
+<p>I2C bus speed in khz datasheet </p>
 
 </div>
 </div>
@@ -1241,6 +1547,52 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 
 </div>
 </div>
+<a id="a587121e883b97c908f34f7659cfaab3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a587121e883b97c908f34f7659cfaab3d">&#9670;&nbsp;</a></span>_I2CRetryAttempts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t SSD1306::_I2CRetryAttempts = 3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Maximum number of Retry attempts in event of I2C write error </p>
+
+</div>
+</div>
+<a id="a812d32d4a652409166af2764f15a4ff8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a812d32d4a652409166af2764f15a4ff8">&#9670;&nbsp;</a></span>_I2CRetryDelay</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t SSD1306::_I2CRetryDelay = 100</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>mS Delay, in between Retry attempts in event of I2C error </p>
+
+</div>
+</div>
 <a id="ab9acf0240009ab15c6e528b0eb2f0df1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab9acf0240009ab15c6e528b0eb2f0df1">&#9670;&nbsp;</a></span>_OLED_HEIGHT</h2>
 
@@ -1251,7 +1603,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int16_t SSD1306::_OLED_HEIGHT</td>
+          <td class="memname">int16_t SSD1306::_OLED_HEIGHT = 64</td>
         </tr>
       </table>
   </td>
@@ -1274,7 +1626,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int8_t SSD1306::_OLED_PAGE_NUM</td>
+          <td class="memname">int8_t SSD1306::_OLED_PAGE_NUM = 8</td>
         </tr>
       </table>
   </td>
@@ -1297,7 +1649,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int16_t SSD1306::_OLED_WIDTH</td>
+          <td class="memname">int16_t SSD1306::_OLED_WIDTH = 128</td>
         </tr>
       </table>
   </td>
@@ -1333,8 +1685,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 
 </div>
 </div>
-<a id="a0c00802690c785862abc422bcd5c80a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c00802690c785862abc422bcd5c80a9">&#9670;&nbsp;</a></span>_OLEDdelayI2C</h2>
+<a id="a74e54c12d2bda125ce91912d41229dec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74e54c12d2bda125ce91912d41229dec">&#9670;&nbsp;</a></span>_OLEDbuffer</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1343,7 +1695,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const uint32_t SSD1306::_OLEDdelayI2C = 50000</td>
+          <td class="memname">uint8_t* SSD1306::_OLEDbuffer = nullptr</td>
         </tr>
       </table>
   </td>
@@ -1352,7 +1704,30 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
   </tr>
 </table>
 </div><div class="memdoc">
-<p>uS delay , I2C timeout </p>
+<p>Buffer to hold screen data </p>
+
+</div>
+</div>
+<a id="aec80a0cb43b2b73e2c79f2353a81be14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec80a0cb43b2b73e2c79f2353a81be14">&#9670;&nbsp;</a></span>_OLEDLibVerNum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint16_t SSD1306::_OLEDLibVerNum = 101</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Library version number 101 = 1.0.1 </p>
 
 </div>
 </div>
@@ -1404,23 +1779,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 
 </div>
 </div>
-<a id="a9e6211eeb00c475d7a4520d70ac80f26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e6211eeb00c475d7a4520d70ac80f26">&#9670;&nbsp;</a></span>buffer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t* SSD1306::buffer = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Buffer to hold screen data </p>
-
-</div>
-</div>
-<a id="a81edfceccfbc1a05d33f5ae315e0c6d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81edfceccfbc1a05d33f5ae315e0c6d1">&#9670;&nbsp;</a></span>bufferHeight</h2>
+<a id="a556f8e57547deb5b7ae6f1aec0d3d5f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a556f8e57547deb5b7ae6f1aec0d3d5f8">&#9670;&nbsp;</a></span>_TimeoutDelayI2C</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1429,7 +1789,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t SSD1306::bufferHeight</td>
+          <td class="memname">uint32_t SSD1306::_TimeoutDelayI2C = 50000</td>
         </tr>
       </table>
   </td>
@@ -1438,30 +1798,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Height of Screen Buffer </p>
-
-</div>
-</div>
-<a id="a158eeb136f8731eedbf898c3b991e6df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a158eeb136f8731eedbf898c3b991e6df">&#9670;&nbsp;</a></span>bufferWidth</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t SSD1306::bufferWidth</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Width of Screen Buffer </p>
+<p>uS delay , I2C timeout </p>
 
 </div>
 </div>

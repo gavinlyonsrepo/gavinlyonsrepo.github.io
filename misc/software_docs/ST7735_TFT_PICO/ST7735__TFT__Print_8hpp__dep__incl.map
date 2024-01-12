@@ -1,4 +1,0 @@
-<map id="ST7735_TFT_Print.hpp" name="ST7735_TFT_Print.hpp">
-<area shape="rect" id="node1" title="Base class that provides print() and println()" alt="" coords="18,5,183,32"/>
-<area shape="rect" id="node2" href="$ST7735__TFT__graphics_8hpp.html" title="Library header file for ST7735_TFT_PICO graphics library. This file handles the graphic methods" alt="" coords="5,80,196,107"/>
-</map>

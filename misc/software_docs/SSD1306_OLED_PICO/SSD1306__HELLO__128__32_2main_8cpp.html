@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SSD1306_OLED_PICO
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">1.0.1</span>
    </div>
    <div id="projectbrief">SSD1306 OLED I2C  Driver, Rpi PICO RP2040  library</div>
   </td>
@@ -55,7 +55,7 @@ $(function() {
 
 <p>Test file for SSD1306_OLED library, showing "hello world" basic use case for a 128X32 size screen.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;cstdio&gt;</code><br />
 <code>#include &quot;pico/stdlib.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="SSD1306__OLED_8hpp_source.html">ssd1306/SSD1306_OLED.hpp</a>&quot;</code><br />
 </div><table class="memberdecls">
@@ -67,6 +67,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a235e5322be72f815426197776409a6a1"><td class="memItemLeft" align="right" valign="top"><a id="a235e5322be72f815426197776409a6a1"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>myOLEDheight</b>&#160;&#160;&#160;32</td></tr>
 <tr class="separator:a235e5322be72f815426197776409a6a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e64316705a3bf98bab53ac845584176"><td class="memItemLeft" align="right" valign="top"><a id="a6e64316705a3bf98bab53ac845584176"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>myScreenSize</b>&#160;&#160;&#160;(myOLEDwidth * (myOLEDheight/8))</td></tr>
+<tr class="separator:a6e64316705a3bf98bab53ac845584176"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -85,6 +88,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>main</b> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:aed8160f3c3757028d8b019da7352e129"><td class="memItemLeft" align="right" valign="top"><a id="aed8160f3c3757028d8b019da7352e129"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>screenBuffer</b> [myScreenSize]</td></tr>
+<tr class="separator:aed8160f3c3757028d8b019da7352e129"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a711833a8198ac054c6b6a1e1981d9517"><td class="memItemLeft" align="right" valign="top"><a id="a711833a8198ac054c6b6a1e1981d9517"></a>
 const uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>I2C_Speed</b> = 100</td></tr>
 <tr class="separator:a711833a8198ac054c6b6a1e1981d9517"><td class="memSeparator" colspan="2">&#160;</td></tr>
