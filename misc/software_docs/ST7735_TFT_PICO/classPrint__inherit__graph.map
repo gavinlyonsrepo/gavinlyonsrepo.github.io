@@ -1,5 +1,5 @@
 <map id="Print" name="Print">
-<area shape="rect" id="node1" title="class that provides polymorphic print methods for printing data" alt="" coords="51,5,103,32"/>
-<area shape="rect" id="node2" href="$classSSD1306__graphics.html" title="Graphics class to hold graphic related functions." alt="" coords="5,80,148,107"/>
-<area shape="rect" id="node3" href="$classSSD1306.html" title="class to control OLED and define buffer" alt="" coords="37,155,117,181"/>
+<area shape="rect" id="node1" title="class that provides polymorphic print methods for printing data" alt="" coords="61,5,113,32"/>
+<area shape="rect" id="node2" href="$classST7735__TFT__graphics.html" title="Class to handle fonts and graphics of ST7735 display." alt="" coords="5,80,168,107"/>
+<area shape="rect" id="node3" href="$classST7735__TFT.html" title="Class to control ST7735 TFT basic functionality." alt="" coords="37,155,137,181"/>
 </map>

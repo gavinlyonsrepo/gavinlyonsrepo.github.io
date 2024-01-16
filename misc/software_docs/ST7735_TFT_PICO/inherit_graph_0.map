@@ -1,6 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classPrint.html" title="class that provides polymorphic print methods for printing data" alt="" coords="58,5,110,32"/>
-<area shape="rect" id="node2" href="$classSSD1306__graphics.html" title="Graphics class to hold graphic related functions." alt="" coords="211,31,353,57"/>
-<area shape="rect" id="node3" href="$classSSD1306.html" title="class to control OLED and define buffer" alt="" coords="401,31,481,57"/>
-<area shape="rect" id="node4" href="$classSSD1306__OLEDFonts.html" title="Font class to hold font data object" alt="" coords="5,56,163,83"/>
+<area shape="rect" id="node1" href="$classPrint.html" title="class that provides polymorphic print methods for printing data" alt="" coords="5,5,57,32"/>
+<area shape="rect" id="node2" href="$classST7735__TFT__graphics.html" title="Class to handle fonts and graphics of ST7735 display." alt="" coords="105,5,268,32"/>
+<area shape="rect" id="node3" href="$classST7735__TFT.html" title="Class to control ST7735 TFT basic functionality." alt="" coords="316,5,416,32"/>
 </map>

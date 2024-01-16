@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>SSD1306_OLED_PICO: Test List</title>
+<title>ST7735_TFT_PICO: Test List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,10 +18,10 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">SSD1306_OLED_PICO
-   &#160;<span id="projectnumber">1.0.1</span>
+   <div id="projectname">ST7735_TFT_PICO
+   &#160;<span id="projectnumber">1.7.1</span>
    </div>
-   <div id="projectbrief">SSD1306 OLED I2C  Driver, Rpi PICO RP2040  library</div>
+   <div id="projectbrief">ST7735 Driver, Rpi PICO RP2040  library</div>
   </td>
  </tr>
  </tbody>
@@ -45,71 +45,49 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt>File <a class="el" href="SSD1306__BITMAP_2main_8cpp.html">SSD1306_BITMAP/main.cpp</a>  </dt>
+<dt>File <a class="el" href="ST7735__TFT__BMP__DATA_2main_8cpp.html">ST7735_TFT_BMP_DATA/main.cpp</a>  </dt>
 <dd><a class="anchor" id="_test000001"></a><ol type="1">
-<li>Test 301 bigImage 64x64 pixels</li>
-<li>Test 302 Small icons 16x8 pixels</li>
-<li>Test 303 full screen image 128x64 pixels</li>
-<li>Test 304 image 40x16 pixels</li>
-<li>Test 305 image 88x48 pixels  </li>
+<li>Test 401 "clock demo" , icons, , font 7</li>
+<li>Test 402 bi-color small image</li>
+<li>Test 403 bi-color full screen image 128x128</li>
+<li>Test 404 16 bit color image from a data array</li>
+<li>Test 405 24 bit color image data from a data array</li>
+<li>Test 701 FPS bitmap results to serial port </li>
 </ol>
 </dd>
-<dt>File <a class="el" href="SSD1306__CLOCK__DEMO_2main_8cpp.html">SSD1306_CLOCK_DEMO/main.cpp</a>  </dt>
+<dt>File <a class="el" href="ST7735__TFT__FUNCTIONS__FPS_2main_8cpp.html">ST7735_TFT_FUNCTIONS_FPS/main.cpp</a>  </dt>
 <dd><a class="anchor" id="_test000002"></a><ol type="1">
-<li>Test 401 Clock Demo  </li>
+<li>Test301 Color</li>
+<li>Test302 scroll</li>
+<li>Test303 Rotate</li>
+<li>Test304 change modes test -&gt; Invert, display on/off and Sleep.</li>
+<li>Test702 FPS frame rate per second test  </li>
 </ol>
 </dd>
-<dt>File <a class="el" href="SSD1306__FUNCTIONS_2main_8cpp.html">SSD1306_FUNCTIONS/main.cpp</a>  </dt>
+<dt>File <a class="el" href="ST7735__TFT__GRAPHICS_2main_8cpp.html">ST7735_TFT_GRAPHICS/main.cpp</a>  </dt>
 <dd><a class="anchor" id="_test000003"></a><ol type="1">
-<li>Test 501 Enable and disable Screen (Sleep mode)</li>
-<li>Test 502 Invert screen color</li>
-<li>Test 503 Contrast screen</li>
-<li>Test 504 Scroll Screen</li>
-<li>Test 505 Rotate  </li>
+<li>Test201 pixels and lines</li>
+<li>Test202 rectangles</li>
+<li>Test203 Circle</li>
+<li>Test204 Triangles</li>
+<li>Test205 More shapes, media buttons graphic.  </li>
 </ol>
 </dd>
-<dt>File <a class="el" href="SSD1306__GRAPHICS_2main_8cpp.html">SSD1306_GRAPHICS/main.cpp</a>  </dt>
+<dt>File <a class="el" href="ST7735__TFT__HELLO_2main_8cpp.html">ST7735_TFT_HELLO/main.cpp</a>  </dt>
 <dd><a class="anchor" id="_test000004"></a><ol type="1">
-<li>Test 901 Graphics test  </li>
+<li>Test0 <a class="el" href="classPrint.html" title="class that provides polymorphic print methods for printing data">Print</a> out Hello world <br  />
+ </li>
 </ol>
 </dd>
-<dt>File <a class="el" href="SSD1306__HELLO_2main_8cpp.html">SSD1306_HELLO/main.cpp</a>  </dt>
+<dt>File <a class="el" href="ST7735__TFT__TESTS_2main_8cpp.html">ST7735_TFT_TESTS/main.cpp</a>  </dt>
 <dd><a class="anchor" id="_test000005"></a><ol type="1">
-<li>Test 101 Hello World 128X64 screen  </li>
-</ol>
-</dd>
-<dt>File <a class="el" href="SSD1306__HELLO__128__32_2main_8cpp.html">SSD1306_HELLO_128_32/main.cpp</a>  </dt>
-<dd><a class="anchor" id="_test000006"></a><ol type="1">
-<li>Test 102 Hello World 128X32 screen  </li>
-</ol>
-</dd>
-<dt>File <a class="el" href="SSD1306__I2C__TEST_2main_8cpp.html">SSD1306_I2C_TEST/main.cpp</a>  </dt>
-<dd><a class="anchor" id="_test000007"></a><ol type="1">
-<li>Test 000 I2C interface testing  </li>
-</ol>
-</dd>
-<dt>File <a class="el" href="SSD1306__SPEED__TEST_2main_8cpp.html">SSD1306_SPEED_TEST/main.cpp</a>  </dt>
-<dd><a class="anchor" id="_test000008"></a><ol type="1">
-<li>Test 601 FPS test frame rate per second  </li>
-</ol>
-</dd>
-<dt>File <a class="el" href="SSD1306__TEXT_2main_8cpp.html">SSD1306_TEXT/main.cpp</a>  </dt>
-<dd><a class="anchor" id="_test000009"></a><ol type="1">
-<li>Test 701 Default font</li>
-<li>Test 702 Wide font</li>
-<li>Test 703 Pico font</li>
-<li>Test 704 Sinclair font</li>
-<li>Test 705 Mega font</li>
-<li>Test 706 Arial bold font</li>
-<li>Test 707 hallFetica font</li>
-<li>Test 708 Arial round font</li>
-<li>Test 709 GroTesk font</li>
-<li>Test 710 Sixteen Segment font</li>
-<li>Test 711 Display ASCII font 0-255 default font</li>
-<li>Test 712 Base number systems using print method</li>
-<li>Test 713 println + print &amp; textwrap</li>
-<li>Test 714 print method String object</li>
-<li>Test 715 print method numbers </li>
+<li>Test 101 print out fonts 1-12</li>
+<li>Test 102 defined 16-bit Colors, text</li>
+<li>Test 103 print entire ASCII font 0 to 254, default font</li>
+<li>Test 104 font sizes + character draw using draw functions</li>
+<li>Test 105 print method all fonts</li>
+<li>Test 106 Misc print class tests (string object, println invert, wrap, base nums etc)</li>
+<li>Test 107 Misc draw functions (Invert, wrap, Error checks etc) </li>
 </ol>
 </dd>
 </dl>

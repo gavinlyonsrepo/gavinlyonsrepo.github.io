@@ -1,5 +1,0 @@
-<map id="SSD1306_graphics" name="SSD1306_graphics">
-<area shape="rect" id="node1" title="Graphics class to hold graphic related functions." alt="" coords="77,80,219,107"/>
-<area shape="rect" id="node2" href="$classSSD1306__OLEDFonts.html" title="Font class to hold font data object" alt="" coords="5,5,163,32"/>
-<area shape="rect" id="node3" href="$classPrint.html" title="class that provides polymorphic print methods for printing data" alt="" coords="187,5,239,32"/>
-</map>
