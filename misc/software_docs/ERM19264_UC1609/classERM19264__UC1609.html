@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ERM19264_UC1609
-   &#160;<span id="projectnumber">1.7.0</span>
+   &#160;<span id="projectnumber">1.8.0</span>
    </div>
    <div id="projectbrief">Arduino Eco-system Library for ERM19264 LCD driven by  UC1609 controller.</div>
   </td>
@@ -73,18 +73,18 @@ Collaboration diagram for ERM19264_UC1609:</div>
 <area shape="rect" title="class to drive the ERM19264_UC1609 LCD" alt="" coords="107,171,257,197"/>
 <area shape="rect" href="classERM19264__graphics.html" title="Graphics class to hold graphic related functions." alt="" coords="5,81,159,108"/>
 <area shape="rect" title=" " alt="" coords="56,5,108,32"/>
-<area shape="rect" href="classERM19264__UC1609__Screen.html" title="class to hold screen data to define buffer , multiple screens can be made for the shared buffer...." alt="" coords="183,81,383,108"/>
+<area shape="rect" href="classERM19264__UC1609__Screen.html" title="class to hold screen data , multiple screens can be made for the shared buffer. Buffer must be same s..." alt="" coords="183,81,383,108"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abb4f008e421d3710dce023b17fc97619"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#abb4f008e421d3710dce023b17fc97619">ERM19264_UC1609</a> (int8_t cd, int8_t rst, int8_t cs, int8_t sclk, int8_t din)</td></tr>
-<tr class="memdesc:abb4f008e421d3710dce023b17fc97619"><td class="mdescLeft">&#160;</td><td class="mdescRight">init the LCD class object  <a href="classERM19264__UC1609.html#abb4f008e421d3710dce023b17fc97619">More...</a><br /></td></tr>
-<tr class="separator:abb4f008e421d3710dce023b17fc97619"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3368ec0955fe12274274756d6a4f2550"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a3368ec0955fe12274274756d6a4f2550">ERM19264_UC1609</a> (int8_t cd, int8_t rst, int8_t cs)</td></tr>
-<tr class="memdesc:a3368ec0955fe12274274756d6a4f2550"><td class="mdescLeft">&#160;</td><td class="mdescRight">init the LCD class object  <a href="classERM19264__UC1609.html#a3368ec0955fe12274274756d6a4f2550">More...</a><br /></td></tr>
-<tr class="separator:a3368ec0955fe12274274756d6a4f2550"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c929bff516d56ca913758a5512f90a0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a8c929bff516d56ca913758a5512f90a0">ERM19264_UC1609</a> (int16_t lcdwidth, int16_t lcdheight, int8_t cd, int8_t rst, int8_t cs, int8_t sclk, int8_t din)</td></tr>
+<tr class="memdesc:a8c929bff516d56ca913758a5512f90a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">init the LCD class object  <a href="classERM19264__UC1609.html#a8c929bff516d56ca913758a5512f90a0">More...</a><br /></td></tr>
+<tr class="separator:a8c929bff516d56ca913758a5512f90a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3373d041208f3eaecb96671c91b9f53"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#ac3373d041208f3eaecb96671c91b9f53">ERM19264_UC1609</a> (int16_t lcdwidth, int16_t lcdheight, int8_t cd, int8_t rst, int8_t cs)</td></tr>
+<tr class="memdesc:ac3373d041208f3eaecb96671c91b9f53"><td class="mdescLeft">&#160;</td><td class="mdescRight">init the LCD class object  <a href="classERM19264__UC1609.html#ac3373d041208f3eaecb96671c91b9f53">More...</a><br /></td></tr>
+<tr class="separator:ac3373d041208f3eaecb96671c91b9f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1191dc5d509df6e204860896f91ccce"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#aa1191dc5d509df6e204860896f91ccce">drawPixel</a> (int16_t x, int16_t y, uint8_t colour) override</td></tr>
 <tr class="memdesc:aa1191dc5d509df6e204860896f91ccce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a Pixel to the screen , overrides the graphics library.  <a href="classERM19264__UC1609.html#aa1191dc5d509df6e204860896f91ccce">More...</a><br /></td></tr>
 <tr class="separator:aa1191dc5d509df6e204860896f91ccce"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,9 +120,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a606adc2573ee098f7a8bcb769d08ffa3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a606adc2573ee098f7a8bcb769d08ffa3">LCDrotate</a> (uint8_t rotatevalue)</td></tr>
 <tr class="memdesc:a606adc2573ee098f7a8bcb769d08ffa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotates the display.  <a href="classERM19264__UC1609.html#a606adc2573ee098f7a8bcb769d08ffa3">More...</a><br /></td></tr>
 <tr class="separator:a606adc2573ee098f7a8bcb769d08ffa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed8528a4b656919d8d4b1ac9e22084a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#aed8528a4b656919d8d4b1ac9e22084a7">invertDisplay</a> (uint8_t on)</td></tr>
-<tr class="memdesc:aed8528a4b656919d8d4b1ac9e22084a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">invert the display  <a href="classERM19264__UC1609.html#aed8528a4b656919d8d4b1ac9e22084a7">More...</a><br /></td></tr>
-<tr class="separator:aed8528a4b656919d8d4b1ac9e22084a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a58f0d4a5920e60e735e23b5f8d5e9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a2a58f0d4a5920e60e735e23b5f8d5e9c">LCDInvertDisplay</a> (uint8_t on)</td></tr>
+<tr class="memdesc:a2a58f0d4a5920e60e735e23b5f8d5e9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">invert the display  <a href="classERM19264__UC1609.html#a2a58f0d4a5920e60e735e23b5f8d5e9c">More...</a><br /></td></tr>
+<tr class="separator:a2a58f0d4a5920e60e735e23b5f8d5e9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77d6d89eb7aa2132791dc0e235c401c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a77d6d89eb7aa2132791dc0e235c401c7">LCDallpixelsOn</a> (uint8_t bits)</td></tr>
 <tr class="memdesc:a77d6d89eb7aa2132791dc0e235c401c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">turns on all Pixels  <a href="classERM19264__UC1609.html#a77d6d89eb7aa2132791dc0e235c401c7">More...</a><br /></td></tr>
 <tr class="separator:a77d6d89eb7aa2132791dc0e235c401c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,13 +133,22 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a12e9f5c12ab9d7c07de07ef5ae32acf7">LCDReset</a> (void)</td></tr>
 <tr class="memdesc:a12e9f5c12ab9d7c07de07ef5ae32acf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets LCD in a four wire setup called at start and should also be called in a controlled power down setting. <br /></td></tr>
 <tr class="separator:a12e9f5c12ab9d7c07de07ef5ae32acf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3446de754a2431deb3568c28ff7ca987"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a3446de754a2431deb3568c28ff7ca987">LCDBitmap</a> (int16_t x, int16_t y, uint8_t w, uint8_t h, const uint8_t *data)</td></tr>
-<tr class="memdesc:a3446de754a2431deb3568c28ff7ca987"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a bitmap in PROGMEM to the screen.  <a href="classERM19264__UC1609.html#a3446de754a2431deb3568c28ff7ca987">More...</a><br /></td></tr>
-<tr class="separator:a3446de754a2431deb3568c28ff7ca987"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad86261b4f86d1cfead9fe432b7865a77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ERM19264__graphics_8h.html#af51f10401c0458f7e587b4619015ef86">LCD_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#ad86261b4f86d1cfead9fe432b7865a77">LCDBitmap</a> (int16_t x, int16_t y, uint8_t w, uint8_t h, const uint8_t *data)</td></tr>
+<tr class="memdesc:ad86261b4f86d1cfead9fe432b7865a77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a bitmap in PROGMEM to the screen.  <a href="classERM19264__UC1609.html#ad86261b4f86d1cfead9fe432b7865a77">More...</a><br /></td></tr>
+<tr class="separator:ad86261b4f86d1cfead9fe432b7865a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0993682db481154bb0e12d8c43f11ba7"><td class="memItemLeft" align="right" valign="top"><a id="a0993682db481154bb0e12d8c43f11ba7"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a0993682db481154bb0e12d8c43f11ba7">LCDPowerDown</a> (void)</td></tr>
 <tr class="memdesc:a0993682db481154bb0e12d8c43f11ba7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Powerdown procedure for LCD see datasheet P40. <br /></td></tr>
 <tr class="separator:a0993682db481154bb0e12d8c43f11ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88a43c813abaad2ffb76729b842feaa8"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a88a43c813abaad2ffb76729b842feaa8">LCDLibVerNumGet</a> (void)</td></tr>
+<tr class="memdesc:a88a43c813abaad2ffb76729b842feaa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Library version number getter.  <a href="classERM19264__UC1609.html#a88a43c813abaad2ffb76729b842feaa8">More...</a><br /></td></tr>
+<tr class="separator:a88a43c813abaad2ffb76729b842feaa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71ba2e02e005235408bade3ae045c316"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a71ba2e02e005235408bade3ae045c316">LCDHighFreqDelayGet</a> (void)</td></tr>
+<tr class="memdesc:a71ba2e02e005235408bade3ae045c316"><td class="mdescLeft">&#160;</td><td class="mdescRight">Freq delay used in SW SPI getter, uS delay used in SW SPI method.  <a href="classERM19264__UC1609.html#a71ba2e02e005235408bade3ae045c316">More...</a><br /></td></tr>
+<tr class="separator:a71ba2e02e005235408bade3ae045c316"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb06e0d4af896e5412ace2b9bc3d1e2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#acb06e0d4af896e5412ace2b9bc3d1e2e">LCDHighFreqDelaySet</a> (uint16_t)</td></tr>
+<tr class="memdesc:acb06e0d4af896e5412ace2b9bc3d1e2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Freq delay used in SW SPI setter, uS delay used in SW SPI method.  <a href="classERM19264__UC1609.html#acb06e0d4af896e5412ace2b9bc3d1e2e">More...</a><br /></td></tr>
+<tr class="separator:acb06e0d4af896e5412ace2b9bc3d1e2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecd4d5203c231c4caed54d56f7507d98"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#aecd4d5203c231c4caed54d56f7507d98">LCDGetConstrast</a> (void)</td></tr>
 <tr class="memdesc:aecd4d5203c231c4caed54d56f7507d98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for _VbiasPOT contrast member.  <a href="classERM19264__UC1609.html#aecd4d5203c231c4caed54d56f7507d98">More...</a><br /></td></tr>
 <tr class="separator:aecd4d5203c231c4caed54d56f7507d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,22 +159,22 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a0c3b66623001c43fdde40545038d5a88 inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a0c3b66623001c43fdde40545038d5a88">ERM19264_graphics</a> (int16_t w, int16_t h)</td></tr>
 <tr class="memdesc:a0c3b66623001c43fdde40545038d5a88 inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">init the LCD Graphics class object  <a href="classERM19264__graphics.html#a0c3b66623001c43fdde40545038d5a88">More...</a><br /></td></tr>
 <tr class="separator:a0c3b66623001c43fdde40545038d5a88 inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32778dad6a0d3a18ba492fa896b29451 inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a32778dad6a0d3a18ba492fa896b29451">drawLine</a> (int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint8_t color)</td></tr>
+<tr class="memitem:a32778dad6a0d3a18ba492fa896b29451 inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a32778dad6a0d3a18ba492fa896b29451">drawLine</a> (int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint8_t color)</td></tr>
 <tr class="memdesc:a32778dad6a0d3a18ba492fa896b29451 inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws a line from (x0,y0) to (x1,y1).  <a href="classERM19264__graphics.html#a32778dad6a0d3a18ba492fa896b29451">More...</a><br /></td></tr>
 <tr class="separator:a32778dad6a0d3a18ba492fa896b29451 inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1762b1334341f8ec5cae53e4ff436643 inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a1762b1334341f8ec5cae53e4ff436643">drawFastVLine</a> (int16_t x, int16_t y, int16_t h, uint8_t color)</td></tr>
+<tr class="memitem:a1762b1334341f8ec5cae53e4ff436643 inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a1762b1334341f8ec5cae53e4ff436643">drawFastVLine</a> (int16_t x, int16_t y, int16_t h, uint8_t color)</td></tr>
 <tr class="memdesc:a1762b1334341f8ec5cae53e4ff436643 inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a vertical line starting at (x,y) with height h.  <a href="classERM19264__graphics.html#a1762b1334341f8ec5cae53e4ff436643">More...</a><br /></td></tr>
 <tr class="separator:a1762b1334341f8ec5cae53e4ff436643 inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c1838bd1c6c86a842ea7a0103bc35e6 inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a6c1838bd1c6c86a842ea7a0103bc35e6">drawFastHLine</a> (int16_t x, int16_t y, int16_t w, uint8_t color)</td></tr>
+<tr class="memitem:a6c1838bd1c6c86a842ea7a0103bc35e6 inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a6c1838bd1c6c86a842ea7a0103bc35e6">drawFastHLine</a> (int16_t x, int16_t y, int16_t w, uint8_t color)</td></tr>
 <tr class="memdesc:a6c1838bd1c6c86a842ea7a0103bc35e6 inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a horizontal line starting at (x,y) with width w.  <a href="classERM19264__graphics.html#a6c1838bd1c6c86a842ea7a0103bc35e6">More...</a><br /></td></tr>
 <tr class="separator:a6c1838bd1c6c86a842ea7a0103bc35e6 inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75f15167f9a55d65201f19149de5d21f inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a75f15167f9a55d65201f19149de5d21f">drawRect</a> (int16_t x, int16_t y, int16_t w, int16_t h, uint8_t color)</td></tr>
+<tr class="memitem:a75f15167f9a55d65201f19149de5d21f inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a75f15167f9a55d65201f19149de5d21f">drawRect</a> (int16_t x, int16_t y, int16_t w, int16_t h, uint8_t color)</td></tr>
 <tr class="memdesc:a75f15167f9a55d65201f19149de5d21f inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws rectangle at (x,y) where h is height and w is width of the rectangle.  <a href="classERM19264__graphics.html#a75f15167f9a55d65201f19149de5d21f">More...</a><br /></td></tr>
 <tr class="separator:a75f15167f9a55d65201f19149de5d21f inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade4db9a357d702a02f208ad52f7d431e inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#ade4db9a357d702a02f208ad52f7d431e">fillRect</a> (int16_t x, int16_t y, int16_t w, int16_t h, uint8_t color)</td></tr>
+<tr class="memitem:ade4db9a357d702a02f208ad52f7d431e inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#ade4db9a357d702a02f208ad52f7d431e">fillRect</a> (int16_t x, int16_t y, int16_t w, int16_t h, uint8_t color)</td></tr>
 <tr class="memdesc:ade4db9a357d702a02f208ad52f7d431e inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">fills a rectangle starting from coordinates (x,y) with width of w and height of h.  <a href="classERM19264__graphics.html#ade4db9a357d702a02f208ad52f7d431e">More...</a><br /></td></tr>
 <tr class="separator:ade4db9a357d702a02f208ad52f7d431e inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add970f00f614e9475e2c13b7300fb54e inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#add970f00f614e9475e2c13b7300fb54e">fillScreen</a> (uint8_t color)</td></tr>
+<tr class="memitem:add970f00f614e9475e2c13b7300fb54e inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#add970f00f614e9475e2c13b7300fb54e">fillScreen</a> (uint8_t color)</td></tr>
 <tr class="memdesc:add970f00f614e9475e2c13b7300fb54e inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills the whole screen with a given color.  <a href="classERM19264__graphics.html#add970f00f614e9475e2c13b7300fb54e">More...</a><br /></td></tr>
 <tr class="separator:add970f00f614e9475e2c13b7300fb54e inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2335ab2d74eb11bf9e329a4b615b1125 inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a2335ab2d74eb11bf9e329a4b615b1125">drawCircle</a> (int16_t x0, int16_t y0, int16_t r, uint8_t color)</td></tr>
@@ -194,9 +203,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a8344d36a9f3872373abf22a1a8900116 inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a8344d36a9f3872373abf22a1a8900116">fillRoundRect</a> (int16_t x0, int16_t y0, int16_t w, int16_t h, int16_t radius, uint8_t color)</td></tr>
 <tr class="memdesc:a8344d36a9f3872373abf22a1a8900116 inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills a rectangle with rounded edges.  <a href="classERM19264__graphics.html#a8344d36a9f3872373abf22a1a8900116">More...</a><br /></td></tr>
 <tr class="separator:a8344d36a9f3872373abf22a1a8900116 inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad15774383260592f66054cf28e0baa42 inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#ad15774383260592f66054cf28e0baa42">drawBitmap</a> (int16_t x, int16_t y, const uint8_t *bitmap, int16_t w, int16_t h, uint8_t color, uint8_t bg)</td></tr>
-<tr class="memdesc:ad15774383260592f66054cf28e0baa42 inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a 1-bit color bitmap.  <a href="classERM19264__graphics.html#ad15774383260592f66054cf28e0baa42">More...</a><br /></td></tr>
-<tr class="separator:ad15774383260592f66054cf28e0baa42 inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fcb3ad3b8eebd6d5bf877214d11227f inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ERM19264__graphics_8h.html#af51f10401c0458f7e587b4619015ef86">LCD_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a3fcb3ad3b8eebd6d5bf877214d11227f">drawBitmap</a> (int16_t x, int16_t y, const uint8_t *bitmap, int16_t w, int16_t h, uint8_t color, uint8_t bg)</td></tr>
+<tr class="memdesc:a3fcb3ad3b8eebd6d5bf877214d11227f inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a 1-bit color bitmap.  <a href="classERM19264__graphics.html#a3fcb3ad3b8eebd6d5bf877214d11227f">More...</a><br /></td></tr>
+<tr class="separator:a3fcb3ad3b8eebd6d5bf877214d11227f inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c36389f93a81aee49822455fb3564fa inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a1c36389f93a81aee49822455fb3564fa">setDrawBitmapAddr</a> (boolean mode)</td></tr>
 <tr class="memdesc:a1c36389f93a81aee49822455fb3564fa inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the data addressing mode in drawBitmap function.  <a href="classERM19264__graphics.html#a1c36389f93a81aee49822455fb3564fa">More...</a><br /></td></tr>
 <tr class="separator:a1c36389f93a81aee49822455fb3564fa inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -216,23 +225,23 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memdesc:a88ec1b0e5d601bc37ab103b4d57a19da inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the text size , starts at 1  <a href="classERM19264__graphics.html#a88ec1b0e5d601bc37ab103b4d57a19da">More...</a><br /></td></tr>
 <tr class="separator:a88ec1b0e5d601bc37ab103b4d57a19da inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a569828a51a4be8078f6a7a32efefb7f2 inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a569828a51a4be8078f6a7a32efefb7f2">setTextWrap</a> (boolean w)</td></tr>
-<tr class="memdesc:a569828a51a4be8078f6a7a32efefb7f2 inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">turn on or off screen wrap of the text (fonts 1-6)  <a href="classERM19264__graphics.html#a569828a51a4be8078f6a7a32efefb7f2">More...</a><br /></td></tr>
+<tr class="memdesc:a569828a51a4be8078f6a7a32efefb7f2 inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">turn on or off screen _textWrap of the text (fonts 1-6)  <a href="classERM19264__graphics.html#a569828a51a4be8078f6a7a32efefb7f2">More...</a><br /></td></tr>
 <tr class="separator:a569828a51a4be8078f6a7a32efefb7f2 inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad441d3351f79e5c7487a0c2eea98b82b inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#ad441d3351f79e5c7487a0c2eea98b82b">setFontNum</a> (<a class="el" href="ERM19264__graphics_8h.html#a7a9fc2e1aea1e147e1bf08fb6f3f28a4">LCD_FONT_TYPE_e</a> FontNumber)</td></tr>
-<tr class="memdesc:ad441d3351f79e5c7487a0c2eea98b82b inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current font type.  <a href="classERM19264__graphics.html#ad441d3351f79e5c7487a0c2eea98b82b">More...</a><br /></td></tr>
-<tr class="separator:ad441d3351f79e5c7487a0c2eea98b82b inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a212d2340d69100a74315387a24cdaf15 inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a212d2340d69100a74315387a24cdaf15">drawCharNumFont</a> (uint8_t x, uint8_t y, uint8_t c, uint8_t color, uint8_t bg)</td></tr>
-<tr class="memdesc:a212d2340d69100a74315387a24cdaf15 inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes a char (c) on the LCD  <a href="classERM19264__graphics.html#a212d2340d69100a74315387a24cdaf15">More...</a><br /></td></tr>
-<tr class="separator:a212d2340d69100a74315387a24cdaf15 inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0edb728dc3ec26297f231b0466ed3dee inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a0edb728dc3ec26297f231b0466ed3dee">drawTextNumFont</a> (uint8_t x, uint8_t y, char *pText, uint8_t color, uint8_t bg)</td></tr>
-<tr class="memdesc:a0edb728dc3ec26297f231b0466ed3dee inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes text string (*ptext) on the LCD.  <a href="classERM19264__graphics.html#a0edb728dc3ec26297f231b0466ed3dee">More...</a><br /></td></tr>
-<tr class="separator:a0edb728dc3ec26297f231b0466ed3dee inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab716268d18ff9d54bb978e9a14caddcf inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#ab716268d18ff9d54bb978e9a14caddcf">drawChar</a> (int16_t x, int16_t y, unsigned char c, uint8_t color, uint8_t bg, uint8_t size)</td></tr>
-<tr class="memdesc:ab716268d18ff9d54bb978e9a14caddcf inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes a char (c) on the LCD  <a href="classERM19264__graphics.html#ab716268d18ff9d54bb978e9a14caddcf">More...</a><br /></td></tr>
-<tr class="separator:ab716268d18ff9d54bb978e9a14caddcf inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26a60e5db13c2804be3e81994c2fab36 inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a26a60e5db13c2804be3e81994c2fab36">drawText</a> (uint8_t x, uint8_t y, char *pText, uint8_t color, uint8_t bg, uint8_t size)</td></tr>
-<tr class="memdesc:a26a60e5db13c2804be3e81994c2fab36 inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes text string on the LCD.  <a href="classERM19264__graphics.html#a26a60e5db13c2804be3e81994c2fab36">More...</a><br /></td></tr>
-<tr class="separator:a26a60e5db13c2804be3e81994c2fab36 inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c0f08f317cf5f3688f352719ac7dfec inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a9c0f08f317cf5f3688f352719ac7dfec">setFontNum</a> (<a class="el" href="ERM19264__graphics_8h.html#aa0a192a0016af7d6fcfea1ee63a10da2">LCD_Font_Type_e</a> FontNumber)</td></tr>
+<tr class="memdesc:a9c0f08f317cf5f3688f352719ac7dfec inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the font type.  <a href="classERM19264__graphics.html#a9c0f08f317cf5f3688f352719ac7dfec">More...</a><br /></td></tr>
+<tr class="separator:a9c0f08f317cf5f3688f352719ac7dfec inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5208372f777c6bf2fce39c8f84feff47 inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ERM19264__graphics_8h.html#af51f10401c0458f7e587b4619015ef86">LCD_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a5208372f777c6bf2fce39c8f84feff47">drawChar</a> (uint8_t x, uint8_t y, uint8_t c, uint8_t color, uint8_t bg)</td></tr>
+<tr class="memdesc:a5208372f777c6bf2fce39c8f84feff47 inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes a char (c) on the LCD  <a href="classERM19264__graphics.html#a5208372f777c6bf2fce39c8f84feff47">More...</a><br /></td></tr>
+<tr class="separator:a5208372f777c6bf2fce39c8f84feff47 inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9b9ce10f1bc65db6b702e9c89fb2371 inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ERM19264__graphics_8h.html#af51f10401c0458f7e587b4619015ef86">LCD_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#ac9b9ce10f1bc65db6b702e9c89fb2371">drawText</a> (uint8_t x, uint8_t y, char *pText, uint8_t color, uint8_t bg)</td></tr>
+<tr class="memdesc:ac9b9ce10f1bc65db6b702e9c89fb2371 inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes text string (*ptext) on the LCD.  <a href="classERM19264__graphics.html#ac9b9ce10f1bc65db6b702e9c89fb2371">More...</a><br /></td></tr>
+<tr class="separator:ac9b9ce10f1bc65db6b702e9c89fb2371 inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a559a72e27e6611553d81f9afc89b4523 inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ERM19264__graphics_8h.html#af51f10401c0458f7e587b4619015ef86">LCD_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a559a72e27e6611553d81f9afc89b4523">drawChar</a> (int16_t x, int16_t y, unsigned char c, uint8_t color, uint8_t bg, uint8_t s)</td></tr>
+<tr class="memdesc:a559a72e27e6611553d81f9afc89b4523 inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes a char (c) on the LCD  <a href="classERM19264__graphics.html#a559a72e27e6611553d81f9afc89b4523">More...</a><br /></td></tr>
+<tr class="separator:a559a72e27e6611553d81f9afc89b4523 inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af64f5a33bd7922d0473bfb23c9ddae8d inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ERM19264__graphics_8h.html#af51f10401c0458f7e587b4619015ef86">LCD_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#af64f5a33bd7922d0473bfb23c9ddae8d">drawText</a> (uint8_t x, uint8_t y, char *pTxt, uint8_t c, uint8_t bg, uint8_t s)</td></tr>
+<tr class="memdesc:af64f5a33bd7922d0473bfb23c9ddae8d inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes text string on the LCD.  <a href="classERM19264__graphics.html#af64f5a33bd7922d0473bfb23c9ddae8d">More...</a><br /></td></tr>
+<tr class="separator:af64f5a33bd7922d0473bfb23c9ddae8d inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a074e26a27cb5f796c5b22348707c8733 inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a074e26a27cb5f796c5b22348707c8733">write</a> (uint8_t)</td></tr>
 <tr class="memdesc:a074e26a27cb5f796c5b22348707c8733 inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">: called by the print class after it converts the data to a character  <a href="classERM19264__graphics.html#a074e26a27cb5f796c5b22348707c8733">More...</a><br /></td></tr>
 <tr class="separator:a074e26a27cb5f796c5b22348707c8733 inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -242,6 +251,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:ababab9914ec3b1842d53a097702affea inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#ababab9914ec3b1842d53a097702affea">width</a> (void) const</td></tr>
 <tr class="memdesc:ababab9914ec3b1842d53a097702affea inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the width of the display (per current rotation)  <a href="classERM19264__graphics.html#ababab9914ec3b1842d53a097702affea">More...</a><br /></td></tr>
 <tr class="separator:ababab9914ec3b1842d53a097702affea inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ce2f90361280e7bb6e67917a9ac6e7b inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a0ce2f90361280e7bb6e67917a9ac6e7b">setRotation</a> (<a class="el" href="ERM19264__graphics_8h.html#a2204871b7d7ceaec179ecf088492860d">LCD_rotate_e</a>)</td></tr>
+<tr class="memdesc:a0ce2f90361280e7bb6e67917a9ac6e7b inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the rotation of the display.  <a href="classERM19264__graphics.html#a0ce2f90361280e7bb6e67917a9ac6e7b">More...</a><br /></td></tr>
+<tr class="separator:a0ce2f90361280e7bb6e67917a9ac6e7b inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51da27a1b1380e0cf4691841bc6930d4 inherit pub_methods_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ERM19264__graphics_8h.html#a2204871b7d7ceaec179ecf088492860d">LCD_rotate_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a51da27a1b1380e0cf4691841bc6930d4">getRotation</a> (void)</td></tr>
+<tr class="memdesc:a51da27a1b1380e0cf4691841bc6930d4 inherit pub_methods_classERM19264__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the _rotation of the display.  <a href="classERM19264__graphics.html#a51da27a1b1380e0cf4691841bc6930d4">More...</a><br /></td></tr>
+<tr class="separator:a51da27a1b1380e0cf4691841bc6930d4 inherit pub_methods_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -275,10 +290,18 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a6eb375d06253d18af962bc1421d97629"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b4ff673e77e675ff01d823b80b3e09f"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a7b4ff673e77e675ff01d823b80b3e09f">_LCD_DIN</a></td></tr>
 <tr class="separator:a7b4ff673e77e675ff01d823b80b3e09f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05e4451fa8a10da6a01708ff18a07a84"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a05e4451fa8a10da6a01708ff18a07a84">_VbiasPOT</a></td></tr>
+<tr class="memitem:a05e4451fa8a10da6a01708ff18a07a84"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a05e4451fa8a10da6a01708ff18a07a84">_VbiasPOT</a> = 0x49</td></tr>
 <tr class="separator:a05e4451fa8a10da6a01708ff18a07a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b550446e14a247c51c1d0bf9e05c273"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a8b550446e14a247c51c1d0bf9e05c273">_AddressCtrl</a></td></tr>
+<tr class="memitem:a8b550446e14a247c51c1d0bf9e05c273"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a8b550446e14a247c51c1d0bf9e05c273">_AddressCtrl</a> = 0x02</td></tr>
 <tr class="separator:a8b550446e14a247c51c1d0bf9e05c273"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eb07fcb777bdce223936e615380a189"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a2eb07fcb777bdce223936e615380a189">_HighFreqDelay</a> = <a class="el" href="ERM19264__UC1609_8h.html#af19c02803be43df2feb4c1c5a0cbeeee">UC1609_HIGHFREQ_DELAY</a></td></tr>
+<tr class="separator:a2eb07fcb777bdce223936e615380a189"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0337ed73db03a45720364bcd870d0c7"><td class="memItemLeft" align="right" valign="top">const uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#ad0337ed73db03a45720364bcd870d0c7">_LibVersionNum</a> = 180</td></tr>
+<tr class="separator:ad0337ed73db03a45720364bcd870d0c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a640cc5cd99a9fe7d2bd82564c802de72"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a640cc5cd99a9fe7d2bd82564c802de72">_widthScreen</a> = 192</td></tr>
+<tr class="separator:a640cc5cd99a9fe7d2bd82564c802de72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9172d5aef48a8a4ffed1e7db618f96b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#ab9172d5aef48a8a4ffed1e7db618f96b">_heightScreen</a> = 64</td></tr>
+<tr class="separator:ab9172d5aef48a8a4ffed1e7db618f96b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -291,34 +314,28 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a7cd68219281aefb7370aed1f40a60dfd inherit pro_attribs_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a430370e4bea5b53a6a2ab13565f324f0 inherit pro_attribs_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a430370e4bea5b53a6a2ab13565f324f0">_height</a></td></tr>
 <tr class="separator:a430370e4bea5b53a6a2ab13565f324f0 inherit pro_attribs_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a242b1cd78a2db557b1aadbc547eff6b3 inherit pro_attribs_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a242b1cd78a2db557b1aadbc547eff6b3">cursor_x</a></td></tr>
-<tr class="separator:a242b1cd78a2db557b1aadbc547eff6b3 inherit pro_attribs_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab22302a8acf327b4f2b88d041ee10c30 inherit pro_attribs_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#ab22302a8acf327b4f2b88d041ee10c30">cursor_y</a></td></tr>
-<tr class="separator:ab22302a8acf327b4f2b88d041ee10c30 inherit pro_attribs_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c8c8cb15c2c490eefebd4880c2c342b inherit pro_attribs_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a3c8c8cb15c2c490eefebd4880c2c342b">textcolor</a></td></tr>
-<tr class="separator:a3c8c8cb15c2c490eefebd4880c2c342b inherit pro_attribs_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04d33b528126b762eaa427144eda4280 inherit pro_attribs_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a04d33b528126b762eaa427144eda4280">textbgcolor</a></td></tr>
-<tr class="separator:a04d33b528126b762eaa427144eda4280 inherit pro_attribs_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5937de291636e7e7f807b460dae91bb inherit pro_attribs_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#ab5937de291636e7e7f807b460dae91bb">textsize</a> = 1</td></tr>
-<tr class="separator:ab5937de291636e7e7f807b460dae91bb inherit pro_attribs_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2ce30a757bd23d011008333889324f6 inherit pro_attribs_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#ab2ce30a757bd23d011008333889324f6">wrap</a></td></tr>
-<tr class="separator:ab2ce30a757bd23d011008333889324f6 inherit pro_attribs_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae874eed07998afc63fb37d22e14d62f4 inherit pro_attribs_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#ae874eed07998afc63fb37d22e14d62f4">_cursorX</a></td></tr>
+<tr class="separator:ae874eed07998afc63fb37d22e14d62f4 inherit pro_attribs_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6aee40be4054332dc8072b616badf2c inherit pro_attribs_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#af6aee40be4054332dc8072b616badf2c">_cursorY</a></td></tr>
+<tr class="separator:af6aee40be4054332dc8072b616badf2c inherit pro_attribs_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ab249bdedc72b815de49e0db5ec5930 inherit pro_attribs_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ERM19264__graphics_8h.html#a2204871b7d7ceaec179ecf088492860d">LCD_rotate_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a5ab249bdedc72b815de49e0db5ec5930">LCD_rotate</a> = <a class="el" href="ERM19264__graphics_8h.html#a2204871b7d7ceaec179ecf088492860dae5e24119ee5c86bdd61742b0fb6b49ac">LCD_Degrees_0</a></td></tr>
+<tr class="separator:a5ab249bdedc72b815de49e0db5ec5930 inherit pro_attribs_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea6b98c313c21988ac296bfb5670f292 inherit pro_attribs_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#aea6b98c313c21988ac296bfb5670f292">_textColor</a> = 0x00</td></tr>
+<tr class="separator:aea6b98c313c21988ac296bfb5670f292 inherit pro_attribs_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8862c665f90f1647fe728afd085d3057 inherit pro_attribs_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a8862c665f90f1647fe728afd085d3057">_textBgColor</a> = 0x01</td></tr>
+<tr class="separator:a8862c665f90f1647fe728afd085d3057 inherit pro_attribs_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add8dfedc07be4d26635072466d8e6832 inherit pro_attribs_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#add8dfedc07be4d26635072466d8e6832">_textSize</a> = 1</td></tr>
+<tr class="separator:add8dfedc07be4d26635072466d8e6832 inherit pro_attribs_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3159041eda849d1481304ec67bf46c2c inherit pro_attribs_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a3159041eda849d1481304ec67bf46c2c">_textWrap</a></td></tr>
+<tr class="separator:a3159041eda849d1481304ec67bf46c2c inherit pro_attribs_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f793159501f2c514fb4e5deb670f921 inherit pro_attribs_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a1f793159501f2c514fb4e5deb670f921">drawBitmapAddr</a></td></tr>
 <tr class="separator:a1f793159501f2c514fb4e5deb670f921 inherit pro_attribs_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0312b3553eabd18251975b67f8d573d6 inherit pro_attribs_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a0312b3553eabd18251975b67f8d573d6">_FontNumber</a> = 1</td></tr>
-<tr class="separator:a0312b3553eabd18251975b67f8d573d6 inherit pro_attribs_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e4fc75b62a1c1b7a5d12fd29dd335cf inherit pro_attribs_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a8e4fc75b62a1c1b7a5d12fd29dd335cf">_CurrentFontWidth</a> = 5</td></tr>
-<tr class="separator:a8e4fc75b62a1c1b7a5d12fd29dd335cf inherit pro_attribs_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c60e81fd4cf21b93ed519a88aaca196 inherit pro_attribs_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a6c60e81fd4cf21b93ed519a88aaca196">_CurrentFontoffset</a> = 0x00</td></tr>
-<tr class="separator:a6c60e81fd4cf21b93ed519a88aaca196 inherit pro_attribs_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97690b9dde3d49fed67461f8d92aa2d5 inherit pro_attribs_classERM19264__graphics"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__graphics.html#a97690b9dde3d49fed67461f8d92aa2d5">_CurrentFontheight</a> = 8</td></tr>
-<tr class="separator:a97690b9dde3d49fed67461f8d92aa2d5 inherit pro_attribs_classERM19264__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>class to drive the <a class="el" href="classERM19264__UC1609.html" title="class to drive the ERM19264_UC1609 LCD">ERM19264_UC1609</a> LCD </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="abb4f008e421d3710dce023b17fc97619"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb4f008e421d3710dce023b17fc97619">&#9670;&nbsp;</a></span>ERM19264_UC1609() <span class="overload">[1/2]</span></h2>
+<a id="a8c929bff516d56ca913758a5512f90a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c929bff516d56ca913758a5512f90a0">&#9670;&nbsp;</a></span>ERM19264_UC1609() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -326,6 +343,18 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">ERM19264_UC1609::ERM19264_UC1609 </td>
           <td>(</td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>lcdwidth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>lcdheight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">int8_t&#160;</td>
           <td class="paramname"><em>cd</em>, </td>
         </tr>
@@ -364,6 +393,8 @@ Additional Inherited Members</h2></td></tr>
 <p>init the LCD class object </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">lcdwidth</td><td>width of LCD in pixels </td></tr>
+    <tr><td class="paramname">lcdheight</td><td>height of LCD in pixels </td></tr>
     <tr><td class="paramname">cd</td><td>GPIO data or command </td></tr>
     <tr><td class="paramname">rst</td><td>GPIO reset </td></tr>
     <tr><td class="paramname">cs</td><td>GPIO Chip select </td></tr>
@@ -376,8 +407,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a3368ec0955fe12274274756d6a4f2550"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3368ec0955fe12274274756d6a4f2550">&#9670;&nbsp;</a></span>ERM19264_UC1609() <span class="overload">[2/2]</span></h2>
+<a id="ac3373d041208f3eaecb96671c91b9f53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3373d041208f3eaecb96671c91b9f53">&#9670;&nbsp;</a></span>ERM19264_UC1609() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -385,6 +416,18 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">ERM19264_UC1609::ERM19264_UC1609 </td>
           <td>(</td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>lcdwidth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>lcdheight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">int8_t&#160;</td>
           <td class="paramname"><em>cd</em>, </td>
         </tr>
@@ -411,6 +454,8 @@ Additional Inherited Members</h2></td></tr>
 <p>init the LCD class object </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">lcdwidth</td><td>width of LCD in pixels </td></tr>
+    <tr><td class="paramname">lcdheight</td><td>height of LCD in pixels </td></tr>
     <tr><td class="paramname">cd</td><td>GPIO data or command </td></tr>
     <tr><td class="paramname">rst</td><td>GPIO reset </td></tr>
     <tr><td class="paramname">cs</td><td>GPIO Chip select </td></tr>
@@ -460,11 +505,11 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">bitOrder</td><td>LSB or MSB set to MSBFIRST for UC1609C </td></tr>
-    <tr><td class="paramname">value</td><td>the byte to go out </td></tr>
+    <tr><td class="paramname">value</td><td>the byte to go out</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>if using high freq MCU the delay define can be changed UC1609_HIGHFREQ_DELAY </dd></dl>
+<p>if using high freq MCU the delay define can be changed by LCDHighFreqDelaySet function . Default is at UC1609_HIGHFREQ_DELAY </p>
 
 </div>
 </div>
@@ -519,32 +564,6 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 
 <p>Implements <a class="el" href="classERM19264__graphics.html">ERM19264_graphics</a>.</p>
-
-</div>
-</div>
-<a id="aed8528a4b656919d8d4b1ac9e22084a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed8528a4b656919d8d4b1ac9e22084a7">&#9670;&nbsp;</a></span>invertDisplay()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ERM19264_UC1609::invertDisplay </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>bits</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>invert the display </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">bits</td><td>1 invert , 0 normal </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -640,14 +659,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a3446de754a2431deb3568c28ff7ca987"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3446de754a2431deb3568c28ff7ca987">&#9670;&nbsp;</a></span>LCDBitmap()</h2>
+<a id="ad86261b4f86d1cfead9fe432b7865a77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad86261b4f86d1cfead9fe432b7865a77">&#9670;&nbsp;</a></span>LCDBitmap()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ERM19264_UC1609::LCDBitmap </td>
+          <td class="memname"><a class="el" href="ERM19264__graphics_8h.html#af51f10401c0458f7e587b4619015ef86">LCD_Return_Codes_e</a> ERM19264_UC1609::LCDBitmap </td>
           <td>(</td>
           <td class="paramtype">int16_t&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -695,6 +714,7 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>LCD_Return_Codes_e enum. </dd></dl>
 
 </div>
 </div>
@@ -946,6 +966,100 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a71ba2e02e005235408bade3ae045c316"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71ba2e02e005235408bade3ae045c316">&#9670;&nbsp;</a></span>LCDHighFreqDelayGet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t ERM19264_UC1609::LCDHighFreqDelayGet </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Freq delay used in SW SPI getter, uS delay used in SW SPI method. </p>
+<dl class="section return"><dt>Returns</dt><dd>The GPIO communications delay in uS </dd></dl>
+
+</div>
+</div>
+<a id="acb06e0d4af896e5412ace2b9bc3d1e2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb06e0d4af896e5412ace2b9bc3d1e2e">&#9670;&nbsp;</a></span>LCDHighFreqDelaySet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ERM19264_UC1609::LCDHighFreqDelaySet </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>CommDelay</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Freq delay used in SW SPI setter, uS delay used in SW SPI method. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">CommDelay</td><td>The GPIO communications delay in uS </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2a58f0d4a5920e60e735e23b5f8d5e9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a58f0d4a5920e60e735e23b5f8d5e9c">&#9670;&nbsp;</a></span>LCDInvertDisplay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ERM19264_UC1609::LCDInvertDisplay </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>bits</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>invert the display </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bits</td><td>1 invert , 0 normal </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a88a43c813abaad2ffb76729b842feaa8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88a43c813abaad2ffb76729b842feaa8">&#9670;&nbsp;</a></span>LCDLibVerNumGet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t ERM19264_UC1609::LCDLibVerNumGet </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Library version number getter. </p>
+<dl class="section return"><dt>Returns</dt><dd>The lib version number eg 180 = 1.8.0 </dd></dl>
+
+</div>
+</div>
 <a id="a606adc2573ee098f7a8bcb769d08ffa3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a606adc2573ee098f7a8bcb769d08ffa3">&#9670;&nbsp;</a></span>LCDrotate()</h2>
 
@@ -1084,7 +1198,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t ERM19264_UC1609::_AddressCtrl</td>
+          <td class="memname">uint8_t ERM19264_UC1609::_AddressCtrl = 0x02</td>
         </tr>
       </table>
   </td>
@@ -1094,6 +1208,52 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Set AC [2:0] Program registers for RAM address control. 0x00 to 0x07 </p>
+
+</div>
+</div>
+<a id="ab9172d5aef48a8a4ffed1e7db618f96b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9172d5aef48a8a4ffed1e7db618f96b">&#9670;&nbsp;</a></span>_heightScreen</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t ERM19264_UC1609::_heightScreen = 64</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Height of screen in pixels </p>
+
+</div>
+</div>
+<a id="a2eb07fcb777bdce223936e615380a189"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eb07fcb777bdce223936e615380a189">&#9670;&nbsp;</a></span>_HighFreqDelay</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t ERM19264_UC1609::_HighFreqDelay = <a class="el" href="ERM19264__UC1609_8h.html#af19c02803be43df2feb4c1c5a0cbeeee">UC1609_HIGHFREQ_DELAY</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>uS GPIO Communications delay, SW SPI ONLY </p>
 
 </div>
 </div>
@@ -1212,6 +1372,29 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ad0337ed73db03a45720364bcd870d0c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0337ed73db03a45720364bcd870d0c7">&#9670;&nbsp;</a></span>_LibVersionNum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint16_t ERM19264_UC1609::_LibVersionNum = 180</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Library version number 180 = 1.8.0 </p>
+
+</div>
+</div>
 <a id="a05e4451fa8a10da6a01708ff18a07a84"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a05e4451fa8a10da6a01708ff18a07a84">&#9670;&nbsp;</a></span>_VbiasPOT</h2>
 
@@ -1222,7 +1405,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t ERM19264_UC1609::_VbiasPOT</td>
+          <td class="memname">uint8_t ERM19264_UC1609::_VbiasPOT = 0x49</td>
         </tr>
       </table>
   </td>
@@ -1232,6 +1415,29 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Contrast default 0x49 datasheet 00-FE </p>
+
+</div>
+</div>
+<a id="a640cc5cd99a9fe7d2bd82564c802de72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a640cc5cd99a9fe7d2bd82564c802de72">&#9670;&nbsp;</a></span>_widthScreen</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t ERM19264_UC1609::_widthScreen = 192</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Width of screen in pixels </p>
 
 </div>
 </div>

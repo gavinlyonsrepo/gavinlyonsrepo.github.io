@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ERM19264_UC1609
-   &#160;<span id="projectnumber">1.7.0</span>
+   &#160;<span id="projectnumber">1.8.0</span>
    </div>
    <div id="projectbrief">Arduino Eco-system Library for ERM19264 LCD driven by  UC1609 controller.</div>
   </td>
@@ -46,8 +46,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">ERM19264_UC1609.h File Reference</div>  </div>
 </div><!--header-->
@@ -64,7 +63,7 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609__Screen.html">ERM19264_UC1609_Screen</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">class to hold screen data to define buffer , multiple screens can be made for the shared buffer. Buffer must be same size and offsets to if saving Data memory is goal  <a href="classERM19264__UC1609__Screen.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">class to hold screen data , multiple screens can be made for the shared buffer. Buffer must be same size and offsets to if saving Data memory is goal  <a href="classERM19264__UC1609__Screen.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html">ERM19264_UC1609</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">class to drive the <a class="el" href="classERM19264__UC1609.html" title="class to drive the ERM19264_UC1609 LCD">ERM19264_UC1609</a> LCD  <a href="classERM19264__UC1609.html#details">More...</a><br /></td></tr>
@@ -121,17 +120,13 @@ Macros</h2></td></tr>
 <tr class="separator:aa58612ab3e883dc70acd0ab495ed2e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0905c185edb3a15d54663f8dc569f509"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ERM19264__UC1609_8h.html#a0905c185edb3a15d54663f8dc569f509">UC1609_SCROLL</a>&#160;&#160;&#160;0x40</td></tr>
 <tr class="separator:a0905c185edb3a15d54663f8dc569f509"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57006320131f224be341c91e6c3a6f0d"><td class="memItemLeft" align="right" valign="top"><a id="a57006320131f224be341c91e6c3a6f0d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>UC1609_ROTATION_FLIP_TWO</b>&#160;&#160;&#160;0x06</td></tr>
+<tr class="memitem:a57006320131f224be341c91e6c3a6f0d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ERM19264__UC1609_8h.html#a57006320131f224be341c91e6c3a6f0d">UC1609_ROTATION_FLIP_TWO</a>&#160;&#160;&#160;0x06</td></tr>
 <tr class="separator:a57006320131f224be341c91e6c3a6f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae972ffcf2832c80a4e13c92968edd4a8"><td class="memItemLeft" align="right" valign="top"><a id="ae972ffcf2832c80a4e13c92968edd4a8"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>UC1609_ROTATION_NORMAL</b>&#160;&#160;&#160;0x04</td></tr>
+<tr class="memitem:ae972ffcf2832c80a4e13c92968edd4a8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ERM19264__UC1609_8h.html#ae972ffcf2832c80a4e13c92968edd4a8">UC1609_ROTATION_NORMAL</a>&#160;&#160;&#160;0x04</td></tr>
 <tr class="separator:ae972ffcf2832c80a4e13c92968edd4a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3f777f04b2e98564a3e77ebc572d970"><td class="memItemLeft" align="right" valign="top"><a id="ae3f777f04b2e98564a3e77ebc572d970"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>UC1609_ROTATION_FLIP_ONE</b>&#160;&#160;&#160;0x02</td></tr>
+<tr class="memitem:ae3f777f04b2e98564a3e77ebc572d970"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ERM19264__UC1609_8h.html#ae3f777f04b2e98564a3e77ebc572d970">UC1609_ROTATION_FLIP_ONE</a>&#160;&#160;&#160;0x02</td></tr>
 <tr class="separator:ae3f777f04b2e98564a3e77ebc572d970"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fdb05a30464817a423ca1c5f6a5e6c1"><td class="memItemLeft" align="right" valign="top"><a id="a9fdb05a30464817a423ca1c5f6a5e6c1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>UC1609_ROTATION_FLIP_THREE</b>&#160;&#160;&#160;0x00</td></tr>
+<tr class="memitem:a9fdb05a30464817a423ca1c5f6a5e6c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ERM19264__UC1609_8h.html#a9fdb05a30464817a423ca1c5f6a5e6c1">UC1609_ROTATION_FLIP_THREE</a>&#160;&#160;&#160;0x00</td></tr>
 <tr class="separator:a9fdb05a30464817a423ca1c5f6a5e6c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1bf1403e1786956c6d6bf04d3782563"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ERM19264__UC1609_8h.html#af1bf1403e1786956c6d6bf04d3782563">UC1609_RESET_DELAY</a>&#160;&#160;&#160;3</td></tr>
 <tr class="separator:af1bf1403e1786956c6d6bf04d3782563"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -187,13 +182,6 @@ Macros</h2></td></tr>
 <tr class="memitem:a3788fd4afc41778664c8c4f49b6ee7ca"><td class="memItemLeft" align="right" valign="top"><a id="a3788fd4afc41778664c8c4f49b6ee7ca"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>UC_SPI_TRANSACTION_END</b></td></tr>
 <tr class="separator:a3788fd4afc41778664c8c4f49b6ee7ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a7100702fcd700fee2aaffaae32ab20ed"><td class="memItemLeft" align="right" valign="top">const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ERM19264__UC1609_8h.html#a7100702fcd700fee2aaffaae32ab20ed">UC1609_WIDTH</a> = 192</td></tr>
-<tr class="separator:a7100702fcd700fee2aaffaae32ab20ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8daed21d193108969b916abd8bb26ca8"><td class="memItemLeft" align="right" valign="top">const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ERM19264__UC1609_8h.html#a8daed21d193108969b916abd8bb26ca8">UC1609_HEIGHT</a> = 64</td></tr>
-<tr class="separator:a8daed21d193108969b916abd8bb26ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>ERM19264 LCD driven by UC1609C controller, header file. </p>
@@ -533,6 +521,66 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ae3f777f04b2e98564a3e77ebc572d970"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3f777f04b2e98564a3e77ebc572d970">&#9670;&nbsp;</a></span>UC1609_ROTATION_FLIP_ONE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define UC1609_ROTATION_FLIP_ONE&#160;&#160;&#160;0x02</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>180 degree Rotation LCD command </p>
+
+</div>
+</div>
+<a id="a9fdb05a30464817a423ca1c5f6a5e6c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fdb05a30464817a423ca1c5f6a5e6c1">&#9670;&nbsp;</a></span>UC1609_ROTATION_FLIP_THREE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define UC1609_ROTATION_FLIP_THREE&#160;&#160;&#160;0x00</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>mirror image Rotation LCD command </p>
+
+</div>
+</div>
+<a id="a57006320131f224be341c91e6c3a6f0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57006320131f224be341c91e6c3a6f0d">&#9670;&nbsp;</a></span>UC1609_ROTATION_FLIP_TWO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define UC1609_ROTATION_FLIP_TWO&#160;&#160;&#160;0x06</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>mirror image Rotation LCD command </p>
+
+</div>
+</div>
+<a id="ae972ffcf2832c80a4e13c92968edd4a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae972ffcf2832c80a4e13c92968edd4a8">&#9670;&nbsp;</a></span>UC1609_ROTATION_NORMAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define UC1609_ROTATION_NORMAL&#160;&#160;&#160;0x04</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Normal Rotation LCD command </p>
+
+</div>
+</div>
 <a id="a0905c185edb3a15d54663f8dc569f509"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0905c185edb3a15d54663f8dc569f509">&#9670;&nbsp;</a></span>UC1609_SCROLL</h2>
 
@@ -697,37 +745,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>SPI Mode 0-3 </p>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a8daed21d193108969b916abd8bb26ca8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8daed21d193108969b916abd8bb26ca8">&#9670;&nbsp;</a></span>UC1609_HEIGHT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const uint8_t UC1609_HEIGHT = 64</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Height of screen in pixels </p>
-
-</div>
-</div>
-<a id="a7100702fcd700fee2aaffaae32ab20ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7100702fcd700fee2aaffaae32ab20ed">&#9670;&nbsp;</a></span>UC1609_WIDTH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const uint8_t UC1609_WIDTH = 192</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Width of screen in pixels </p>
 
 </div>
 </div>

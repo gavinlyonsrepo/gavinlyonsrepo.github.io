@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ERM19264_UC1609
-   &#160;<span id="projectnumber">1.7.0</span>
+   &#160;<span id="projectnumber">1.8.0</span>
    </div>
    <div id="projectbrief">Arduino Eco-system Library for ERM19264 LCD driven by  UC1609 controller.</div>
   </td>
@@ -59,18 +59,6 @@ $(function() {
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a47607724d8d9e4a1493aff9fffa64a2a"><td class="memItemLeft" align="right" valign="top"><a id="a47607724d8d9e4a1493aff9fffa64a2a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>MYLCDHEIGHT</b>&#160;&#160;&#160;64</td></tr>
-<tr class="separator:a47607724d8d9e4a1493aff9fffa64a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a677954ac302d6587657860c6407b0d8a"><td class="memItemLeft" align="right" valign="top"><a id="a677954ac302d6587657860c6407b0d8a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>MYLCDWIDTH</b>&#160;&#160;&#160;192</td></tr>
-<tr class="separator:a677954ac302d6587657860c6407b0d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a133400d2d61d65082d9165952f1989dd"><td class="memItemLeft" align="right" valign="top"><a id="a133400d2d61d65082d9165952f1989dd"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCDCONTRAST</b>&#160;&#160;&#160;0x49</td></tr>
-<tr class="separator:a133400d2d61d65082d9165952f1989dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a292a2799d1fa63130cc89248a483aa7f"><td class="memItemLeft" align="right" valign="top"><a id="a292a2799d1fa63130cc89248a483aa7f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCDRAMADDRCTRL</b>&#160;&#160;&#160;0x02</td></tr>
-<tr class="separator:a292a2799d1fa63130cc89248a483aa7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1050140a3d78b059f809a424e0d9e1c7"><td class="memItemLeft" align="right" valign="top"><a id="a1050140a3d78b059f809a424e0d9e1c7"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>CD</b>&#160;&#160;&#160;10</td></tr>
 <tr class="separator:a1050140a3d78b059f809a424e0d9e1c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -80,6 +68,21 @@ Macros</h2></td></tr>
 <tr class="memitem:a3780e2fe762dc532df7d0f030b55caa0"><td class="memItemLeft" align="right" valign="top"><a id="a3780e2fe762dc532df7d0f030b55caa0"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>CS</b>&#160;&#160;&#160;8</td></tr>
 <tr class="separator:a3780e2fe762dc532df7d0f030b55caa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a133400d2d61d65082d9165952f1989dd"><td class="memItemLeft" align="right" valign="top"><a id="a133400d2d61d65082d9165952f1989dd"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCDCONTRAST</b>&#160;&#160;&#160;0x49</td></tr>
+<tr class="separator:a133400d2d61d65082d9165952f1989dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a292a2799d1fa63130cc89248a483aa7f"><td class="memItemLeft" align="right" valign="top"><a id="a292a2799d1fa63130cc89248a483aa7f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCDRAMADDRCTRL</b>&#160;&#160;&#160;0x02</td></tr>
+<tr class="separator:a292a2799d1fa63130cc89248a483aa7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47607724d8d9e4a1493aff9fffa64a2a"><td class="memItemLeft" align="right" valign="top"><a id="a47607724d8d9e4a1493aff9fffa64a2a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>MYLCDHEIGHT</b>&#160;&#160;&#160;64</td></tr>
+<tr class="separator:a47607724d8d9e4a1493aff9fffa64a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a677954ac302d6587657860c6407b0d8a"><td class="memItemLeft" align="right" valign="top"><a id="a677954ac302d6587657860c6407b0d8a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>MYLCDWIDTH</b>&#160;&#160;&#160;192</td></tr>
+<tr class="separator:a677954ac302d6587657860c6407b0d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcbb01dd1bbe5cb2371eb08cb198b587"><td class="memItemLeft" align="right" valign="top"><a id="afcbb01dd1bbe5cb2371eb08cb198b587"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>QUARTERSCREEN</b>&#160;&#160;&#160;((MYLCDWIDTH * (MYLCDHEIGHT/8))/4)</td></tr>
+<tr class="separator:afcbb01dd1bbe5cb2371eb08cb198b587"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -92,12 +95,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>loop</b> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a7842f5dc9b8470fb9e4bc5ba3ce81b5a"><td class="memItemLeft" align="right" valign="top"><a id="a7842f5dc9b8470fb9e4bc5ba3ce81b5a"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>fourthScreenBuffer</b> [(MYLCDWIDTH *(MYLCDHEIGHT/8))/4]</td></tr>
-<tr class="separator:a7842f5dc9b8470fb9e4bc5ba3ce81b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a320071b884eaad3c3c33fb595a71f11c"><td class="memItemLeft" align="right" valign="top"><a id="a320071b884eaad3c3c33fb595a71f11c"></a>
-<a class="el" href="classERM19264__UC1609.html">ERM19264_UC1609</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mylcd</b> (CD, RST, CS)</td></tr>
-<tr class="separator:a320071b884eaad3c3c33fb595a71f11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a29634d8dd82642ee67f7d6705f0b79"><td class="memItemLeft" align="right" valign="top"><a id="a4a29634d8dd82642ee67f7d6705f0b79"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>fourthScreenBuffer</b> [QUARTERSCREEN]</td></tr>
+<tr class="separator:a4a29634d8dd82642ee67f7d6705f0b79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fc72c86f73ad40b88255ac77ffcc191"><td class="memItemLeft" align="right" valign="top"><a id="a3fc72c86f73ad40b88255ac77ffcc191"></a>
+<a class="el" href="classERM19264__UC1609.html">ERM19264_UC1609</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mylcd</b> (MYLCDWIDTH, MYLCDHEIGHT, CD, RST, CS)</td></tr>
+<tr class="separator:a3fc72c86f73ad40b88255ac77ffcc191"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2c13de2f32da2b4f67a03259c245e64"><td class="memItemLeft" align="right" valign="top"><a id="ad2c13de2f32da2b4f67a03259c245e64"></a>
 <a class="el" href="classERM19264__UC1609__Screen.html">ERM19264_UC1609_Screen</a>&#160;</td><td class="memItemRight" valign="bottom"><b>topLeftSideScreen</b> (fourthScreenBuffer, MYLCDWIDTH/2, MYLCDHEIGHT/2, 0, 0)</td></tr>
 <tr class="separator:ad2c13de2f32da2b4f67a03259c245e64"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,8 +122,8 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>fourthScreenBuffer
 <li>This is for hardware SPI for software SPI see <a class="el" href="ERM19264__UC1609__SWSPI_8ino.html" title="Example file for ERM19264_UC1609 library, showing use of software SPI mode only difference for user i...">ERM19264_UC1609_SWSPI.ino</a> example. <a href="https://github.com/gavinlyonsrepo/ERM19264_UC1609">https://github.com/gavinlyonsrepo/ERM19264_UC1609</a> </li>
 </ol>
 </dd></dl>
-<dl class="test"><dt><b><a class="el" href="test.html#_test000005">Test:</a></b></dt><dd><ol type="1">
-<li>Shared buffer two , Multiple screens (4 off) spilt into top left, top right, bottom left, bottom right, sharing one buffer </li>
+<dl class="test"><dt><b><a class="el" href="test.html#_test000006">Test:</a></b></dt><dd><ol type="1">
+<li>503 Shared buffer two , Multiple screens (4 off) spilt into top left, top right, bottom left, bottom right, sharing one buffer </li>
 </ol>
 </dd></dl>
 </div></div><!-- contents -->

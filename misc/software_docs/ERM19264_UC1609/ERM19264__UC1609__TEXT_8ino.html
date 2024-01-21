@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ERM19264_UC1609
-   &#160;<span id="projectnumber">1.7.0</span>
+   &#160;<span id="projectnumber">1.8.0</span>
    </div>
    <div id="projectbrief">Arduino Eco-system Library for ERM19264 LCD driven by  UC1609 controller.</div>
   </td>
@@ -80,6 +80,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a677954ac302d6587657860c6407b0d8a"><td class="memItemLeft" align="right" valign="top"><a id="a677954ac302d6587657860c6407b0d8a"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>MYLCDWIDTH</b>&#160;&#160;&#160;192</td></tr>
 <tr class="separator:a677954ac302d6587657860c6407b0d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab21210f7b05e8e5616b6155ebd777161"><td class="memItemLeft" align="right" valign="top"><a id="ab21210f7b05e8e5616b6155ebd777161"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>FULLSCREEN</b>&#160;&#160;&#160;(MYLCDWIDTH * (MYLCDHEIGHT / 8))</td></tr>
+<tr class="separator:ab21210f7b05e8e5616b6155ebd777161"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9eeff488f00fee072e8e03aec085c0a"><td class="memItemLeft" align="right" valign="top"><a id="ab9eeff488f00fee072e8e03aec085c0a"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_DELAY_ONE</b>&#160;&#160;&#160;5000</td></tr>
 <tr class="separator:ab9eeff488f00fee072e8e03aec085c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -87,7 +90,7 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_DELAY_TWO</b>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:acc859685924cddf0a72f728a7d976239"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f480fe661556f3529b0062a8d45e240"><td class="memItemLeft" align="right" valign="top"><a id="a7f480fe661556f3529b0062a8d45e240"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>MYCOUNT_UPTIME</b>&#160;&#160;&#160;1000</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>MYCOUNT_UPTIME</b>&#160;&#160;&#160;250</td></tr>
 <tr class="separator:a7f480fe661556f3529b0062a8d45e240"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -104,18 +107,24 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>DisplayText</b> ()</t
 <tr class="memitem:a7cd24e509854b338fd5309c556b7cd48"><td class="memItemLeft" align="right" valign="top"><a id="a7cd24e509854b338fd5309c556b7cd48"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DisplayFonts</b> ()</td></tr>
 <tr class="separator:a7cd24e509854b338fd5309c556b7cd48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed71fcfd35b7e0733a3dd5cad63a7da2"><td class="memItemLeft" align="right" valign="top"><a id="aed71fcfd35b7e0733a3dd5cad63a7da2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>DisplayFontsTwo</b> (void)</td></tr>
+<tr class="separator:aed71fcfd35b7e0733a3dd5cad63a7da2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa03a9be2f80155976b0795a7c73144d6"><td class="memItemLeft" align="right" valign="top"><a id="aa03a9be2f80155976b0795a7c73144d6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ErrorChecking</b> (void)</td></tr>
+<tr class="separator:aa03a9be2f80155976b0795a7c73144d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a829328f55980cd906cea4ee3777af5eb"><td class="memItemLeft" align="right" valign="top"><a id="a829328f55980cd906cea4ee3777af5eb"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>TestReset</b> (void)</td></tr>
 <tr class="separator:a829328f55980cd906cea4ee3777af5eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ae168193ffcbc6ccbed9eefbf3c243c11"><td class="memItemLeft" align="right" valign="top"><a id="ae168193ffcbc6ccbed9eefbf3c243c11"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>screenBuffer</b> [MYLCDWIDTH *(MYLCDHEIGHT/8)]</td></tr>
-<tr class="separator:ae168193ffcbc6ccbed9eefbf3c243c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a320071b884eaad3c3c33fb595a71f11c"><td class="memItemLeft" align="right" valign="top"><a id="a320071b884eaad3c3c33fb595a71f11c"></a>
-<a class="el" href="classERM19264__UC1609.html">ERM19264_UC1609</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mylcd</b> (CD, RST, CS)</td></tr>
-<tr class="separator:a320071b884eaad3c3c33fb595a71f11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a9c83c7a0184e344899c1aa55f7070e"><td class="memItemLeft" align="right" valign="top"><a id="a3a9c83c7a0184e344899c1aa55f7070e"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>screenBuffer</b> [FULLSCREEN]</td></tr>
+<tr class="separator:a3a9c83c7a0184e344899c1aa55f7070e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fc72c86f73ad40b88255ac77ffcc191"><td class="memItemLeft" align="right" valign="top"><a id="a3fc72c86f73ad40b88255ac77ffcc191"></a>
+<a class="el" href="classERM19264__UC1609.html">ERM19264_UC1609</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mylcd</b> (MYLCDWIDTH, MYLCDHEIGHT, CD, RST, CS)</td></tr>
+<tr class="separator:a3fc72c86f73ad40b88255ac77ffcc191"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c5cdd11d2a4de0d2f370e8dd2bb8914"><td class="memItemLeft" align="right" valign="top"><a id="a4c5cdd11d2a4de0d2f370e8dd2bb8914"></a>
 <a class="el" href="classERM19264__UC1609__Screen.html">ERM19264_UC1609_Screen</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fullScreen</b> (screenBuffer, MYLCDWIDTH, MYLCDHEIGHT, 0, 0)</td></tr>
 <tr class="separator:a4c5cdd11d2a4de0d2f370e8dd2bb8914"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,30 +134,33 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>screenBuffer</b> [
 <dl class="section author"><dt>Author</dt><dd>Gavin Lyons</dd></dl>
 <ol type="1">
 <li>GPIO is for arduino UNO for other tested MCU see readme.</li>
-<li>This is for hardware SPI for software SPI see <a class="el" href="ERM19264__UC1609__SWSPI_8ino.html" title="Example file for ERM19264_UC1609 library, showing use of software SPI mode only difference for user i...">ERM19264_UC1609_SWSPI.ino</a> example.</li>
-<li>Test 6 In order to use extended ASCII font &gt; 127 #define UC_FONT_MOD_TWO in the file &lt;ERM19264_UC1609_graphics_font&gt; must be commented in. It is by default.<ol type="a">
-<li>In order for tests 9-15 to work fully: the respective font must be enabled, see USER FONT OPTION ONE in file &lt;<a class="el" href="ERM19264__graphics__font_8h.html" title="ERM19264_UC1609 , ERM19264 LCD driven by UC1609C controller, font data file 8 fonts.">ERM19264_graphics_font.h</a>&gt;. If font NOT enabled NOTHING will appear during test on LCD screen.</li>
+<li>This is for hardware SPI for software SPI see <a class="el" href="ERM19264__UC1609__SWSPI_8ino.html" title="Example file for ERM19264_UC1609 library, showing use of software SPI mode only difference for user i...">ERM19264_UC1609_SWSPI.ino</a> example.<ol type="a">
+<li>In order for tests 9-15 to work fully: the respective font must be enabled, see USER FONT OPTION ONE in file &lt;<a class="el" href="ERM19264__graphics__font_8h.html" title="ERM19264_UC1609 , ERM19264 LCD driven by UC1609C controller, font data file 12 fonts.">ERM19264_graphics_font.h</a>&gt;. If font NOT enabled NOTHING will appear during test on LCD screen.</li>
 </ol>
 </li>
 <li>URL = <a href="https://github.com/gavinlyonsrepo/ERM19264_UC1609">https://github.com/gavinlyonsrepo/ERM19264_UC1609</a></li>
 </ol>
-<dl class="test"><dt><b><a class="el" href="test.html#_test000007">Test:</a></b></dt><dd><ol type="1">
-<li>Test 1 font size 3 string</li>
-<li>Test2 font size 2 string</li>
-<li>Test3 font size 1 string inverted</li>
-<li>Test4 draw a single character font size 4</li>
-<li>Test4b drawtext method</li>
-<li>Test5 print ASCII font 0-127</li>
-<li>Test6 print ASCII font 128-255, see notes 4 at top of file</li>
-<li>Test7 print function integer</li>
-<li>Test8 print function float + numerical types (HEX BIN etc)</li>
-<li>Test9 "thick" font 2</li>
-<li>Test10 "seven segment" font 3</li>
-<li>Test11 "wide " font 4</li>
-<li>Test12 "tiny" font 5</li>
-<li>Test13 "homespun" font 6</li>
-<li>Test14 "bignum" font 7</li>
-<li>Test15 "mednums" font 8 </li>
+<dl class="test"><dt><b><a class="el" href="test.html#_test000008">Test:</a></b></dt><dd><ol type="1">
+<li>1 Test1 font size 3 string</li>
+<li>2 Test2 font size 2 string</li>
+<li>3 Test3 font size 1 string inverted</li>
+<li>4 Test4 draw a single character font size 4, 4B drawtext method</li>
+<li>5 Test5 print ASCII font 0-127</li>
+<li>6 Test6 text wrap print and drawtext</li>
+<li>7 Test7 print function integer</li>
+<li>8 Test8 print function float + numerical types (HEX BIN etc)</li>
+<li>9 Test9 "thick" font 2</li>
+<li>10 Test10 "seven segment" font 3</li>
+<li>11 Test11 "wide " font 4</li>
+<li>12 Test12 "tiny" font 5</li>
+<li>13 Test13 "homespun" font 6</li>
+<li>14 Test14 "bignum" font 7</li>
+<li>15 Test15 "mednums" font 8</li>
+<li>16 Test16 "Arial Round" font 9</li>
+<li>17 Test17 "Arial bold" font 10</li>
+<li>18 Test18 "Mia" font 11</li>
+<li>19 Test19 "dedica" font 12</li>
+<li>20 Test20 Error checking </li>
 </ol>
 </dd></dl>
 </div></div><!-- contents -->

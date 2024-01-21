@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ERM19264_UC1609
-   &#160;<span id="projectnumber">1.7.0</span>
+   &#160;<span id="projectnumber">1.8.0</span>
    </div>
    <div id="projectbrief">Arduino Eco-system Library for ERM19264 LCD driven by  UC1609 controller.</div>
   </td>
@@ -59,6 +59,15 @@ $(function() {
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:a1050140a3d78b059f809a424e0d9e1c7"><td class="memItemLeft" align="right" valign="top"><a id="a1050140a3d78b059f809a424e0d9e1c7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>CD</b>&#160;&#160;&#160;10</td></tr>
+<tr class="separator:a1050140a3d78b059f809a424e0d9e1c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5d957e4fd3dc11cd97a54cf9ca057a4"><td class="memItemLeft" align="right" valign="top"><a id="ac5d957e4fd3dc11cd97a54cf9ca057a4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RST</b>&#160;&#160;&#160;9</td></tr>
+<tr class="separator:ac5d957e4fd3dc11cd97a54cf9ca057a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3780e2fe762dc532df7d0f030b55caa0"><td class="memItemLeft" align="right" valign="top"><a id="a3780e2fe762dc532df7d0f030b55caa0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>CS</b>&#160;&#160;&#160;8</td></tr>
+<tr class="separator:a3780e2fe762dc532df7d0f030b55caa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a133400d2d61d65082d9165952f1989dd"><td class="memItemLeft" align="right" valign="top"><a id="a133400d2d61d65082d9165952f1989dd"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>LCDCONTRAST</b>&#160;&#160;&#160;0x49</td></tr>
 <tr class="separator:a133400d2d61d65082d9165952f1989dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -71,15 +80,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a677954ac302d6587657860c6407b0d8a"><td class="memItemLeft" align="right" valign="top"><a id="a677954ac302d6587657860c6407b0d8a"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>MYLCDWIDTH</b>&#160;&#160;&#160;192</td></tr>
 <tr class="separator:a677954ac302d6587657860c6407b0d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1050140a3d78b059f809a424e0d9e1c7"><td class="memItemLeft" align="right" valign="top"><a id="a1050140a3d78b059f809a424e0d9e1c7"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CD</b>&#160;&#160;&#160;10</td></tr>
-<tr class="separator:a1050140a3d78b059f809a424e0d9e1c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5d957e4fd3dc11cd97a54cf9ca057a4"><td class="memItemLeft" align="right" valign="top"><a id="ac5d957e4fd3dc11cd97a54cf9ca057a4"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>RST</b>&#160;&#160;&#160;9</td></tr>
-<tr class="separator:ac5d957e4fd3dc11cd97a54cf9ca057a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3780e2fe762dc532df7d0f030b55caa0"><td class="memItemLeft" align="right" valign="top"><a id="a3780e2fe762dc532df7d0f030b55caa0"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>CS</b>&#160;&#160;&#160;8</td></tr>
-<tr class="separator:a3780e2fe762dc532df7d0f030b55caa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab21210f7b05e8e5616b6155ebd777161"><td class="memItemLeft" align="right" valign="top"><a id="ab21210f7b05e8e5616b6155ebd777161"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>FULLSCREEN</b>&#160;&#160;&#160;(MYLCDWIDTH * (MYLCDHEIGHT/8))</td></tr>
+<tr class="separator:ab21210f7b05e8e5616b6155ebd777161"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -95,12 +98,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>DisplayGraphics</b> (
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ae168193ffcbc6ccbed9eefbf3c243c11"><td class="memItemLeft" align="right" valign="top"><a id="ae168193ffcbc6ccbed9eefbf3c243c11"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>screenBuffer</b> [MYLCDWIDTH *(MYLCDHEIGHT/8)]</td></tr>
-<tr class="separator:ae168193ffcbc6ccbed9eefbf3c243c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a320071b884eaad3c3c33fb595a71f11c"><td class="memItemLeft" align="right" valign="top"><a id="a320071b884eaad3c3c33fb595a71f11c"></a>
-<a class="el" href="classERM19264__UC1609.html">ERM19264_UC1609</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mylcd</b> (CD, RST, CS)</td></tr>
-<tr class="separator:a320071b884eaad3c3c33fb595a71f11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a9c83c7a0184e344899c1aa55f7070e"><td class="memItemLeft" align="right" valign="top"><a id="a3a9c83c7a0184e344899c1aa55f7070e"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>screenBuffer</b> [FULLSCREEN]</td></tr>
+<tr class="separator:a3a9c83c7a0184e344899c1aa55f7070e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fc72c86f73ad40b88255ac77ffcc191"><td class="memItemLeft" align="right" valign="top"><a id="a3fc72c86f73ad40b88255ac77ffcc191"></a>
+<a class="el" href="classERM19264__UC1609.html">ERM19264_UC1609</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mylcd</b> (MYLCDWIDTH, MYLCDHEIGHT, CD, RST, CS)</td></tr>
+<tr class="separator:a3fc72c86f73ad40b88255ac77ffcc191"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c5cdd11d2a4de0d2f370e8dd2bb8914"><td class="memItemLeft" align="right" valign="top"><a id="a4c5cdd11d2a4de0d2f370e8dd2bb8914"></a>
 <a class="el" href="classERM19264__UC1609__Screen.html">ERM19264_UC1609_Screen</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fullScreen</b> (screenBuffer, MYLCDWIDTH, MYLCDHEIGHT, 0, 0)</td></tr>
 <tr class="separator:a4c5cdd11d2a4de0d2f370e8dd2bb8914"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -112,7 +115,7 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>screenBuffer</b> [
 <ol type="1">
 <li>(1) GPIO is for arduino UNO for other tested MCU see readme.</li>
 <li>(2) This is for hardware SPI for software SPI see <a class="el" href="ERM19264__UC1609__SWSPI_8ino.html" title="Example file for ERM19264_UC1609 library, showing use of software SPI mode only difference for user i...">ERM19264_UC1609_SWSPI.ino</a> example. <dl class="test"><dt><b><a class="el" href="test.html#_test000002">Test:</a></b></dt><dd><ol type="a">
-<li>Test graphics </li>
+<li>Test graphics 201 </li>
 </ol>
 </dd></dl>
 </li>

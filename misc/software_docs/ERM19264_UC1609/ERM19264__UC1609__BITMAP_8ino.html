@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ERM19264_UC1609
-   &#160;<span id="projectnumber">1.7.0</span>
+   &#160;<span id="projectnumber">1.8.0</span>
    </div>
    <div id="projectbrief">Arduino Eco-system Library for ERM19264 LCD driven by  UC1609 controller.</div>
   </td>
@@ -80,6 +80,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a677954ac302d6587657860c6407b0d8a"><td class="memItemLeft" align="right" valign="top"><a id="a677954ac302d6587657860c6407b0d8a"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>MYLCDWIDTH</b>&#160;&#160;&#160;192</td></tr>
 <tr class="separator:a677954ac302d6587657860c6407b0d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab21210f7b05e8e5616b6155ebd777161"><td class="memItemLeft" align="right" valign="top"><a id="ab21210f7b05e8e5616b6155ebd777161"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>FULLSCREEN</b>&#160;&#160;&#160;(MYLCDWIDTH * (MYLCDHEIGHT/8))</td></tr>
+<tr class="separator:ab21210f7b05e8e5616b6155ebd777161"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -89,23 +92,26 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setup</b> ()</td></tr
 <tr class="memitem:afe461d27b9c48d5921c00d521181f12f"><td class="memItemLeft" align="right" valign="top"><a id="afe461d27b9c48d5921c00d521181f12f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>loop</b> ()</td></tr>
 <tr class="separator:afe461d27b9c48d5921c00d521181f12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa03a9be2f80155976b0795a7c73144d6"><td class="memItemLeft" align="right" valign="top"><a id="aa03a9be2f80155976b0795a7c73144d6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ErrorChecking</b> (void)</td></tr>
+<tr class="separator:aa03a9be2f80155976b0795a7c73144d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ad662b23f195dda492678084b6ca1ec27"><td class="memItemLeft" align="right" valign="top"><a id="ad662b23f195dda492678084b6ca1ec27"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>fullScreenBuffer</b> [MYLCDWIDTH *(MYLCDHEIGHT/8)+1]</td></tr>
-<tr class="separator:ad662b23f195dda492678084b6ca1ec27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a367856e5dfd649b7142d6b9ae2a8ef90"><td class="memItemLeft" align="right" valign="top"><a id="a367856e5dfd649b7142d6b9ae2a8ef90"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>fullScreenBuffer</b> [FULLSCREEN]</td></tr>
+<tr class="separator:a367856e5dfd649b7142d6b9ae2a8ef90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b14b9d51a3c09bfa07081164cc67b2c"><td class="memItemLeft" align="right" valign="top">const PROGMEM uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>Bat816</b> [16]</td></tr>
 <tr class="separator:a7b14b9d51a3c09bfa07081164cc67b2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84624ca5c30a4d195e3ea6fdd5ddf9ee"><td class="memItemLeft" align="right" valign="top">const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>SignalIcon</b> [16]</td></tr>
 <tr class="separator:a84624ca5c30a4d195e3ea6fdd5ddf9ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93c113bf91c1dc8ac74d420129addad9"><td class="memItemLeft" align="right" valign="top">const PROGMEM uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>SignalIconVa</b> [16]</td></tr>
-<tr class="separator:a93c113bf91c1dc8ac74d420129addad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af376ec647a96abf79afa685e69ca3bbe"><td class="memItemLeft" align="right" valign="top">const PROGMEM uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>SignalIconHa</b> [16]</td></tr>
-<tr class="separator:af376ec647a96abf79afa685e69ca3bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a320071b884eaad3c3c33fb595a71f11c"><td class="memItemLeft" align="right" valign="top"><a id="a320071b884eaad3c3c33fb595a71f11c"></a>
-<a class="el" href="classERM19264__UC1609.html">ERM19264_UC1609</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mylcd</b> (CD, RST, CS)</td></tr>
-<tr class="separator:a320071b884eaad3c3c33fb595a71f11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd5f076e2d61c16a25521f097ada5521"><td class="memItemLeft" align="right" valign="top">const PROGMEM uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>lightingImage</b> [252]</td></tr>
+<tr class="separator:afd5f076e2d61c16a25521f097ada5521"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59f1519e77ab8bdb99bd16f21ecae885"><td class="memItemLeft" align="right" valign="top">const PROGMEM uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>SunTextImage</b> [80]</td></tr>
+<tr class="separator:a59f1519e77ab8bdb99bd16f21ecae885"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fc72c86f73ad40b88255ac77ffcc191"><td class="memItemLeft" align="right" valign="top"><a id="a3fc72c86f73ad40b88255ac77ffcc191"></a>
+<a class="el" href="classERM19264__UC1609.html">ERM19264_UC1609</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mylcd</b> (MYLCDWIDTH, MYLCDHEIGHT, CD, RST, CS)</td></tr>
+<tr class="separator:a3fc72c86f73ad40b88255ac77ffcc191"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b24047d9d5704db452a55942c5af341"><td class="memItemLeft" align="right" valign="top"><a id="a0b24047d9d5704db452a55942c5af341"></a>
 <a class="el" href="classERM19264__UC1609__Screen.html">ERM19264_UC1609_Screen</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fullScreen</b> (fullScreenBuffer, MYLCDWIDTH, MYLCDHEIGHT, 0, 0)</td></tr>
 <tr class="separator:a0b24047d9d5704db452a55942c5af341"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,11 +140,12 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>fullScreenBuffer</
 </ol>
 </dd></dl>
 <dl class="test"><dt><b><a class="el" href="test.html#_test000001">Test:</a></b></dt><dd><ol type="1">
-<li>Test 1 LCDBitmap method</li>
-<li>Test 2 Bitmap splashscreen technique</li>
-<li>Test 3 LCDBuffer Method</li>
-<li>Test 4a drawBitmap() method, Vertical addressing</li>
-<li>Test 4b drawBitmap() method, Horizontal addressing </li>
+<li>Test 401 LCDBitmap method</li>
+<li>Test 402 Bitmap splashscreen technique</li>
+<li>Test 403 LCDBuffer Method</li>
+<li>Test 404 drawBitmap() method, Vertical addressing</li>
+<li>Test 405 drawBitmap() method, Horizontal addressing</li>
+<li>Test 406 Error checking </li>
 </ol>
 </dd></dl>
 </div><h2 class="groupheader">Variable Documentation</h2>
@@ -160,6 +167,37 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>fullScreenBuffer</
 </div><!-- fragment -->
 </div>
 </div>
+<a id="afd5f076e2d61c16a25521f097ada5521"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd5f076e2d61c16a25521f097ada5521">&#9670;&nbsp;</a></span>lightingImage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const PROGMEM uint8_t lightingImage[252]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">            0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff,</div>
+<div class="line">            0x7f, 0x7f, 0x3f, 0x3f, 0x1f, 0x0f, 0x0f, 0x07, 0x87, 0xc3, 0xe3, 0xf9, 0xfd, 0xff, 0xff, 0xff,</div>
+<div class="line">            0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff,</div>
+<div class="line">            0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0x7f, 0x7f, 0x3f, 0x3f, 0x1f, 0x0f,</div>
+<div class="line">            0x0f, 0x07, 0x87, 0xc3, 0xe3, 0xf9, 0xfd, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff,</div>
+<div class="line">            0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xfb, 0xfb,</div>
+<div class="line">            0xf1, 0xf1, 0xf0, 0xf0, 0xe0, 0xe0, 0x60, 0x20, 0x00, 0x00, 0x04, 0x06, 0x07, 0x07, 0x0f, 0x0f,</div>
+<div class="line">            0x8f, 0x8f, 0xdf, 0xdf, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff,</div>
+<div class="line">            0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xfb, 0xfb, 0xf1, 0xf1, 0xf0, 0xf0, 0xe0, 0xe0,</div>
+<div class="line">            0x60, 0x20, 0x00, 0x00, 0x04, 0x06, 0x07, 0x07, 0x0f, 0x0f, 0x8f, 0x8f, 0xdf, 0xdf, 0xff, 0xff,</div>
+<div class="line">            0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff,</div>
+<div class="line">            0xff, 0xff, 0xff, 0xff, 0xff, 0xbf, 0x9f, 0xc7, 0xc3, 0xe1, 0xe0, 0xf0, 0xf0, 0xf8, 0xfc, 0xfc,</div>
+<div class="line">            0xfe, 0xfe, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff,</div>
+<div class="line">            0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xbf,</div>
+<div class="line">            0x9f, 0xc7, 0xc3, 0xe1, 0xe0, 0xf0, 0xf0, 0xf8, 0xfc, 0xfc, 0xfe, 0xfe, 0xff, 0xff, 0xff, 0xff,</div>
+<div class="line">            0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff}</div>
+</div><!-- fragment -->
+</div>
+</div>
 <a id="a84624ca5c30a4d195e3ea6fdd5ddf9ee"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a84624ca5c30a4d195e3ea6fdd5ddf9ee">&#9670;&nbsp;</a></span>SignalIcon</h2>
 
@@ -177,37 +215,23 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>fullScreenBuffer</
 </div><!-- fragment -->
 </div>
 </div>
-<a id="af376ec647a96abf79afa685e69ca3bbe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af376ec647a96abf79afa685e69ca3bbe">&#9670;&nbsp;</a></span>SignalIconHa</h2>
+<a id="a59f1519e77ab8bdb99bd16f21ecae885"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59f1519e77ab8bdb99bd16f21ecae885">&#9670;&nbsp;</a></span>SunTextImage</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const PROGMEM uint8_t SignalIconHa[16]</td>
+          <td class="memname">const PROGMEM uint8_t SunTextImage[80]</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">  0xfe, 0x02, 0x92, 0x0a, 0x54, 0x2a, 0x38, 0xaa, 0x12, 0xaa, 0x12, 0xaa, 0x12, 0xaa, 0x12, 0xaa</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a93c113bf91c1dc8ac74d420129addad9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93c113bf91c1dc8ac74d420129addad9">&#9670;&nbsp;</a></span>SignalIconVa</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const PROGMEM uint8_t SignalIconVa[16]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">  0x03, 0x05, 0x09, 0xff, 0x09, 0x05, 0xf3, 0x00, 0xf8, 0x00, 0xfc, 0x00, 0xfe, 0x00, 0xff, 0x00</div>
-<div class="line">}</div>
+<b>Initial value:</b><div class="fragment"><div class="line">={</div>
+<div class="line">      0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x3F, 0xF1, 0x81, 0x8F, 0xFC, 0x3F,</div>
+<div class="line">      0xF1, 0x81, 0x8F, 0xFC, 0x30, 0x31, 0x81, 0x8C, 0x0C, 0x30, 0x01, 0x81, 0x8C, 0x0C, 0x30, 0x01,</div>
+<div class="line">      0x81, 0x8C, 0x0C, 0x3F, 0xF1, 0x81, 0x8C, 0x0C, 0x3F, 0xF1, 0x81, 0x8C, 0x0C, 0x00, 0x31, 0x81,</div>
+<div class="line">      0x8C, 0x0C, 0x00, 0x31, 0x81, 0x8C, 0x0C, 0x30, 0x31, 0x81, 0x8C, 0x0C, 0x3F, 0xF1, 0xFF, 0x8C,</div>
+<div class="line">      0x0C, 0x3F, 0xF1, 0xFF, 0x8C, 0x0C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}</div>
 </div><!-- fragment -->
 </div>
 </div>
