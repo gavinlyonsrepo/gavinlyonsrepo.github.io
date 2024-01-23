@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ER_OLEDM1_CH1115
-   &#160;<span id="projectnumber">1.3.3</span>
+   &#160;<span id="projectnumber">1.4.0</span>
    </div>
    <div id="projectbrief">Ch1115 OLED Driver,Arduino  library</div>
   </td>
@@ -46,28 +46,39 @@ $(function() {
 <div class="contents">
 <div class="textblock"><p><a href="https://gavinlyonsrepo.github.io/"><img src="https://img.shields.io/badge/Website-Link-blue.svg" alt="Website" style="pointer-events: none;" class="inline"/></a> <a href="https://gavinlyonsrepo.github.io//feed.xml"><img src="https://img.shields.io/badge/Subscribe-RSS-yellow.svg" alt="Rss" style="pointer-events: none;" class="inline"/></a> <a href="https://www.paypal.com/paypalme/whitelight976"><img src="https://img.shields.io/badge/Donate-PayPal-green.svg" alt="Donate" style="pointer-events: none;" class="inline"/></a></p>
 <p><img src="https://github.com/gavinlyonsrepo/ER_OLEDM1_CH1115/blob/main/extras/image/oled.jpg" alt="url OLED image " class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md1"></a>
+<h1><a class="anchor" id="autotoc_md1"></a>
+ER_OLEDM1_CH1115</h1>
+<h2><a class="anchor" id="autotoc_md2"></a>
 Table of contents</h2>
 <ul>
 <li><a href="#overview">Overview</a></li>
 <li><a href="#output">Output</a></li>
 <li><a href="#installation">Installation</a></li>
 <li><a href="#hardware">Hardware</a></li>
-<li><a href="#software">Software</a></li>
+<li><a href="#software">Software</a><ul>
+<li><a href="#api-documentation">API documentation</a></li>
+<li><a href="#spi">SPI</a></li>
+<li><a href="#buffer">Buffer</a></li>
+<li><a href="#fonts">Fonts</a></li>
+<li><a href="#bitmaps">Bitmaps</a></li>
+<li><a href="#user-adjustments">User adjustments</a></li>
+<li><a href="#files">Files</a></li>
+</ul>
+</li>
 <li><a href="#tested_MCU">Tested_MCU</a></li>
 </ul>
-<h2><a class="anchor" id="autotoc_md2"></a>
+<h2><a class="anchor" id="autotoc_md3"></a>
 Overview</h2>
 <ul>
 <li>Name : ER_OLEDM1_CH1115</li>
-<li>Title : Library to support the ER-OLEDM1.09-1 128X64 OLED Display Module driven by the CH1115 controller for the Arduino eco-system.</li>
+<li>Title : Library to support the ER-OLEDM1.09-1 OLED Display Module driven by the CH1115 controller for the Arduino eco-system.</li>
 <li>Description :</li>
 </ul>
 <ol type="1">
 <li>Arduino eco-system library. <br  />
 </li>
 <li>Invert colour, vertical rotate, sleep, fade effect, horizontal scroll and contrast control functions supported.</li>
-<li>8 ASCII fonts included.</li>
+<li>12 ASCII fonts included.</li>
 <li>Graphics support included.</li>
 <li>Multi Screen, single shared buffer mode.</li>
 <li>Bitmaps supported.</li>
@@ -75,15 +86,15 @@ Overview</h2>
 </ol>
 <ul>
 <li>Author: Gavin Lyons</li>
-<li>Arduino IDE: 1.8.10</li>
+<li>Light weight basic text version <a href="https://github.com/gavinlyonsrepo/ER_OLEDM1_CH1115_TEXT">here at link.</a>.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md3"></a>
+<h2><a class="anchor" id="autotoc_md4"></a>
 Output</h2>
 <p>Output Screenshots, From left to right, top to bottom.</p>
 <ol type="1">
 <li>Full screen bitmap displayed</li>
-<li>Shared Screen mode screen divided into two horizontal Screens with one buffer</li>
-<li>Shared Screen mode screen divided into vertical Screens with one buffer, clock demo.</li>
+<li>Shared Screen mode, screen divided into two Screens with one buffer, Frame rate per second demo.</li>
+<li>Shared Screen mode, screen divided into two Screens with one buffer, clock demo.</li>
 <li>Different size and type of fonts</li>
 <li>Available ASCII font printed out 0-127</li>
 <li>Extended ASCII font printed out 128-255 <br  />
@@ -92,10 +103,10 @@ Output</h2>
 <li>Font 7</li>
 </ol>
 <p><img src="https://github.com/gavinlyonsrepo/ER_OLEDM1_CH1115/blob/main/extras/image/output.jpg" alt=" url output image " class="inline"/> <img src="https://github.com/gavinlyonsrepo/ER_OLEDM1_CH1115_RPI/blob/main/extras/image/fontpic.jpg" alt=" url output image 2 " class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md4"></a>
+<h2><a class="anchor" id="autotoc_md5"></a>
 Installation</h2>
 <p>The library is included in the official Arduino library manger and the optimum way to install it is using the library manager which can be opened by the <em>manage libraries</em> option in Arduino IDE.</p>
-<h2><a class="anchor" id="autotoc_md5"></a>
+<h2><a class="anchor" id="autotoc_md6"></a>
 Hardware</h2>
 <p>CH1115 is a single-chip CMOS OLED driver with controller for organic light emitting diode dot-matrix graphic display system. CH1115 consists of 128 segments, 64 commons that can support a maximum display resolution of 128 X 64. It is designed for Common Cathode type OLED panel. ER-OLEDM1.09-1W-SPI is a White 1.09" OLED Display Panel with Breakout Board. This module is a combination of the two.(controller and OLED)</p>
 <table class="markdownTable">
@@ -120,53 +131,74 @@ Hardware</h2>
 <p><b>Logic lines</b> The logic lines where always connected to 3.3 Volts logic during all testing of library. The system can also run at 5 volts logic, the manufacture has instructional videos connected to an Arduino Mega.</p>
 <p>This wiring Diagram from the manufacturer datasheet showing hardware setup connected to a 3.3 volt system MCU.</p>
 <p><img src="https://github.com/gavinlyonsrepo/ER_OLEDM1_CH1115/blob/main/extras/image/wiring.jpg" alt=" url wiring  image " class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md6"></a>
+<h2><a class="anchor" id="autotoc_md7"></a>
 Software</h2>
-<p><b>API</b></p>
+<h3><a class="anchor" id="autotoc_md8"></a>
+API documentation</h3>
 <p>The API (application programming interface) documentation is at link hosted on github pages and generated by Doxygen.</p>
-<p><a href="https://gavinlyonsrepo.github.io/misc/software_docs/ER_OLEDM1_CH1115/index.html">URL</a></p>
-<p><b>SPI</b></p>
+<p><a href="https://gavinlyonsrepo.github.io/misc/software_docs/ER_OLEDM1_CH1115/index.html">API URL</a></p>
+<h3><a class="anchor" id="autotoc_md9"></a>
+SPI</h3>
 <p>Hardware and software SPI. Two different class constructors. User can pick the relevant constructor, see examples files. Hardware SPI is recommended, far faster and more reliable but Software SPI allows for more flexible GPIO selection. When running Software SPI it may be necessary on very fast high frequency MCU's to change the ERMCH1115_HIGHFREQ_DELAY define, It is a microsecond delay by default it is at 0. All the hardware SPI settings are defined in the header file and can be easily changed if necessary.</p>
-<p><b>buffers</b></p>
+<h3><a class="anchor" id="autotoc_md10"></a>
+Buffer</h3>
 <p>The library features a multi-screen shared buffer mode, In order to save data memory.</p>
-<p>For example if user defines a buffer to cover the whole screen it takes 1024 bytes of data memory. Instead a user can create a buffer that covers half the screen 512 bytes then define two screens each pointing to the same buffer. The user uses the <a class="el" href="classERMCH1115__SharedBuffer.html" title="class to hold screen data to define buffer , multiple screens can be made for the shared buffer Buffe...">ERMCH1115_SharedBuffer</a> Class objects to define each screen and the ActiveBufferPtr to switch between each screen. Multiple screens of same size can be created so OLED screen can be divided into thirds or quarters saving even more memory. The disadvantage of this is the code is slightly more complicated and user can only write to one Screen at a time. If user does not want to use multi screen mode they can just define a screen to cover entire OLED screen. See example files for more detail.</p>
-<p><b>fonts</b></p>
-<p>There are eight fonts. A print class is available to print out most passed data types. The fonts 1-6 are a byte high(at text size 1) scale-able fonts, columns of padding added by SW. Font 7-8 are special large numerical font and cannot be scaled(just one size). <br  />
- Font 7-8 will print just numbers + semi-colons , if you print a float using print command it will place a space and use a circle for a decimal point.</p>
+<p>For example if user defines a buffer to cover the whole screen it takes 1024 bytes of data memory. Instead a user can create a buffer that covers half the screen for just 512 bytes then define two screens each pointing to the same buffer. The user uses the <a class="el" href="classERMCH1115__SharedBuffer.html" title="class to hold screen data to define buffer , multiple screens can be made for the shared buffer Buffe...">ERMCH1115_SharedBuffer</a> Class objects to define each screen and the ActiveBufferPtr pointer to switch between each screen. Multiple screens of same size can be created so OLED screen can be divided into thirds or quarters saving even more memory. The disadvantage of this is the code is slightly more complicated and user can only write to one screen at a time. If user does not want to use multi screen mode they can simply just define ONE screen to cover entire OLED screen. See example files for more detail.</p>
+<h3><a class="anchor" id="autotoc_md11"></a>
+Fonts</h3>
 <p>Font data table:</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
-<th class="markdownTableHeadNone">Font num   </th><th class="markdownTableHeadNone">Font enum name   </th><th class="markdownTableHeadNone">Font size xbyy   </th><th class="markdownTableHeadNone">ASCII range   </th><th class="markdownTableHeadNone">Size in bytes    </th></tr>
+<th class="markdownTableHeadNone">num   </th><th class="markdownTableHeadNone">enum name   </th><th class="markdownTableHeadNone">Char size XbyY   </th><th class="markdownTableHeadNone">ASCII range   </th><th class="markdownTableHeadNone">Size bytes   </th><th class="markdownTableHeadNone">Size Scale-able    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">OLEDFontType_Default   </td><td class="markdownTableBodyNone">5x8   </td><td class="markdownTableBodyNone">ASCII 0 - 0xFF, Full Extended   </td><td class="markdownTableBodyNone">1275    </td></tr>
+<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">$_Default   </td><td class="markdownTableBodyNone">5x8   </td><td class="markdownTableBodyNone">0-0x7F   </td><td class="markdownTableBodyNone">635   </td><td class="markdownTableBodyNone">Y    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">OLEDFontType_Thick   </td><td class="markdownTableBodyNone">7x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x5A, no lowercase letters   </td><td class="markdownTableBodyNone">406    </td></tr>
+<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">$_Thick   </td><td class="markdownTableBodyNone">7x8   </td><td class="markdownTableBodyNone">0x20-0x5A, no lowercase letters   </td><td class="markdownTableBodyNone">406   </td><td class="markdownTableBodyNone">Y    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">OLEDFontType_SevenSeg   </td><td class="markdownTableBodyNone">4x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x7A   </td><td class="markdownTableBodyNone">360    </td></tr>
+<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">$_SevenSeg   </td><td class="markdownTableBodyNone">4x8   </td><td class="markdownTableBodyNone">0x20-0x7A   </td><td class="markdownTableBodyNone">360   </td><td class="markdownTableBodyNone">Y    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">OLEDFontType_Wide   </td><td class="markdownTableBodyNone">8x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x5A, no lowercase letters   </td><td class="markdownTableBodyNone">464    </td></tr>
+<td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">$_Wide   </td><td class="markdownTableBodyNone">8x8   </td><td class="markdownTableBodyNone">0x20-0x5A, no lowercase letters   </td><td class="markdownTableBodyNone">464   </td><td class="markdownTableBodyNone">Y    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">OLEDFontType_Tiny   </td><td class="markdownTableBodyNone">3x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x7E   </td><td class="markdownTableBodyNone">285    </td></tr>
+<td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">$_Tiny   </td><td class="markdownTableBodyNone">3x8   </td><td class="markdownTableBodyNone">0x20-0x7E   </td><td class="markdownTableBodyNone">285   </td><td class="markdownTableBodyNone">Y    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">6   </td><td class="markdownTableBodyNone">OLEDFontType_Homespun   </td><td class="markdownTableBodyNone">7x8   </td><td class="markdownTableBodyNone">ASCII 0x20 - 0x7E   </td><td class="markdownTableBodyNone">658    </td></tr>
+<td class="markdownTableBodyNone">6   </td><td class="markdownTableBodyNone">$_Homespun   </td><td class="markdownTableBodyNone">7x8   </td><td class="markdownTableBodyNone">0x20-0x7E   </td><td class="markdownTableBodyNone">658   </td><td class="markdownTableBodyNone">Y    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">7   </td><td class="markdownTableBodyNone">OLEDFontType_Bignum   </td><td class="markdownTableBodyNone">16x32   </td><td class="markdownTableBodyNone">ASCII 0x30-0x3A ,Numbers + : . only   </td><td class="markdownTableBodyNone">704    </td></tr>
+<td class="markdownTableBodyNone">7   </td><td class="markdownTableBodyNone">$_Bignum   </td><td class="markdownTableBodyNone">16x32   </td><td class="markdownTableBodyNone">0x2D-0x3A ,0-10 - . / :   </td><td class="markdownTableBodyNone">896   </td><td class="markdownTableBodyNone">N    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">8   </td><td class="markdownTableBodyNone">OLEDFontType_Mednum   </td><td class="markdownTableBodyNone">16x16   </td><td class="markdownTableBodyNone">ASCII 0x30-0x3A , Numbers + : . only   </td><td class="markdownTableBodyNone">352   </td></tr>
+<td class="markdownTableBodyNone">8   </td><td class="markdownTableBodyNone">$_Mednum   </td><td class="markdownTableBodyNone">16x16   </td><td class="markdownTableBodyNone">0x2D-0x3A ,0-10 - . / :   </td><td class="markdownTableBodyNone">448   </td><td class="markdownTableBodyNone">N    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">9   </td><td class="markdownTableBodyNone">$_ArialRound   </td><td class="markdownTableBodyNone">16x24   </td><td class="markdownTableBodyNone">0x20-0x7E   </td><td class="markdownTableBodyNone">4608   </td><td class="markdownTableBodyNone">N    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">10   </td><td class="markdownTableBodyNone">$_ArialBold   </td><td class="markdownTableBodyNone">16x16   </td><td class="markdownTableBodyNone">0x20-0x7E   </td><td class="markdownTableBodyNone">3072   </td><td class="markdownTableBodyNone">N    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">11   </td><td class="markdownTableBodyNone">$_Mia   </td><td class="markdownTableBodyNone">8x16   </td><td class="markdownTableBodyNone">0x20-0x7E   </td><td class="markdownTableBodyNone">1520   </td><td class="markdownTableBodyNone">N    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">12   </td><td class="markdownTableBodyNone">$_Dedica   </td><td class="markdownTableBodyNone">6x12   </td><td class="markdownTableBodyNone">0x20-0x7E   </td><td class="markdownTableBodyNone">1152   </td><td class="markdownTableBodyNone">N   </td></tr>
 </table>
-<p>By default only Font 1 is commented in and ready to go to save memory. So to use a non-default Font (2-8), two steps.</p>
 <ol type="1">
-<li>Comment in the respective define at top of library header file <a class="el" href="ER__OLEDM1__CH1115__font_8hpp.html" title="ER_OLEDM1 OLED driven by CH1115 controller font header file , Project Name: ER_OLEDM1_CH1115 ,...">ER_OLEDM1_CH1115_font.hpp</a> in the USER FONT OPTION ONE section.</li>
-<li>Call SetFontNum function and pass it enum label of respective font. <br  />
-</li>
+<li>$ = CH1115Font</li>
+<li>Fonts 1-6 are byte high(at text size 1) scale-able fonts, columns of padding added by SW.</li>
+<li>Font 7-8 are large numerical fonts and cannot be scaled(just one size).</li>
+<li>Fonts 9-12 Alphanumeric fonts and cannot be scaled(just one size)</li>
 </ol>
-<p><em>font mods</em></p>
-<p>The default ASCII font (font 1) is an extended font, 0-255 characters. If you do not need characters 127-255 and wish to save memory space: In file <a class="el" href="ER__OLEDM1__CH1115__font_8cpp.html" title="ER_OLEDM1 OLED driven by CH1115 controller font data file , Project Name: ER_OLEDM1_CH1115 ,...">ER_OLEDM1_CH1115_font.cpp</a> in the USER FONT OPTION TWO section Simply comment this define out.</p>
-<ol type="1">
-<li>UC_FONT_MOD_TWO (save 640 bytes) extended ASCII 127-255</li>
-</ol>
-<p>You can also remove the first 30 characters of default font if not needed but user will need to change ASCII offset also. This will save a further 150 bytes.</p>
-<p><em>bitmaps</em></p>
+<p>Font Methods:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Font num   </th><th class="markdownTableHeadNone">Method   </th><th class="markdownTableHeadNone">Size parameter   </th><th class="markdownTableHeadNone">Notes    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">1-6   </td><td class="markdownTableBodyNone">drawChar   </td><td class="markdownTableBodyNone">Y   </td><td class="markdownTableBodyNone">draws single character    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">1-6   </td><td class="markdownTableBodyNone">drawText   </td><td class="markdownTableBodyNone">Y   </td><td class="markdownTableBodyNone">draws character array    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">7-12   </td><td class="markdownTableBodyNone">drawChar   </td><td class="markdownTableBodyNone">N   </td><td class="markdownTableBodyNone">draws single character    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">7-12   </td><td class="markdownTableBodyNone">drawText   </td><td class="markdownTableBodyNone">N   </td><td class="markdownTableBodyNone">draws character array    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">1-12   </td><td class="markdownTableBodyNone">print   </td><td class="markdownTableBodyNone">~   </td><td class="markdownTableBodyNone">Polymorphic print class which will print out many data types(arduino built in)   </td></tr>
+</table>
+<p>These functions return a enum( CH1115_Return_Codes_e), non-zero in event of an error, see API doc. By default only Font 1 is commented in and ready to go to save memory. So to use a non-default Font (2-12), two steps. Comment in the respective define at top of library header file ERM19264_UC1609_graphics_font.h in the USER FONT OPTION ONE section Call SetFontNum method and pass it name of respective font. eg SetFontNum(CH1115Font_Wide).</p>
+<h3><a class="anchor" id="autotoc_md12"></a>
+Bitmaps</h3>
 <p>There is a few different ways of displaying bitmaps,</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -176,19 +208,20 @@ Software</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">OLEDBuffer()   </td><td class="markdownTableBodyNone">Vertical   </td><td class="markdownTableBodyNone">Mostly for internal use ... mostly    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">Multi buffer init   </td><td class="markdownTableBodyNone">Vertical   </td><td class="markdownTableBodyNone">Can be used when initialising a MB    </td></tr>
+<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">buffer init technique   </td><td class="markdownTableBodyNone">Vertical   </td><td class="markdownTableBodyNone">Can be used when initialising a buffer, splash screen    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">drawBitmap()   </td><td class="markdownTableBodyNone">Vertical   </td><td class="markdownTableBodyNone">default, setDrawBitmapAddr(true)    </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">drawBitmap()   </td><td class="markdownTableBodyNone">Horizontal   </td><td class="markdownTableBodyNone">setDrawBitmapAddr(false)   </td></tr>
 </table>
-<p>See the bitmap example file for more details on each method. Bitmaps can be turned to data <a href="https://javl.github.io/image2cpp/">here at link</a> , Bitmaps should be defined in the program memory and buffers in the data memory, for methods 3 &amp; 4 buffers can be initialised with bitmap data.</p>
-<p><em>User adjustments</em></p>
+<p>The drawBitmap function will return an enum with an error code if an error occurs see API docs. See the bitmap example file for more details on each method. Bitmaps can be turned to data <a href="https://javl.github.io/image2cpp/">here at link</a> .</p>
+<h3><a class="anchor" id="autotoc_md13"></a>
+User adjustments</h3>
 <p>When the user calls OLEDbegin() to start OLED they can specify a contrast setting from 0x00 to 0xFF. Datasheet says 0x80 is default. User can also change contrast on the fly. Screen can be disabled to enter a sleep type mode where OLED draws 500uA. Screen pixel colour can be inverted and also screen can be vertically rotated.</p>
-<p>There is a "fade or breath display effect". Whose parameters(time brightness) can be adjusted by passing data to function see "OLEDfadeEffect" function header in .cpp and datasheet for details. default is 0x81.</p>
-<p>There is a Horizontal scroll effect. Whose parameters: Time-interval , direction , mode, can be adjusted by passing data to function see "OLEDscrollSetup" function header in .cpp and datasheet for details. defaults are : 6 frames , right , continuous mode.</p>
-<h2><a class="anchor" id="autotoc_md7"></a>
-Files</h2>
+<p>There is a "fade or breath display effect". Whose parameters(time brightness) can be adjusted by passing data to function see "OLEDfadeEffect" in API and datasheet for more details. default is 0x81.</p>
+<p>There is a Horizontal scroll effect. Whose parameters: Time-interval , direction , mode, can be adjusted by passing data to function see "OLEDscrollSetup" in API and datasheet for details. defaults are : 6 frames , right , continuous mode.</p>
+<h3><a class="anchor" id="autotoc_md14"></a>
+Files</h3>
 <p>X = ER_OLEDM1_CH1115 in tables below</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -211,23 +244,28 @@ Files</h2>
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Examples files ino   </th><th class="markdownTableHeadNone">Description    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">X_HELLO   </td><td class="markdownTableBodyNone">Basic usage    </td></tr>
+<td class="markdownTableBodyNone">X_BITMAPS   </td><td class="markdownTableBodyNone">Shows use of bitmaps    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">X_MBUF   </td><td class="markdownTableBodyNone">Shows use of shared buffer mode + FPS    </td></tr>
+<td class="markdownTableBodyNone">X_GRAPHICS   </td><td class="markdownTableBodyNone">Tests use of graphics    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">X_FUNCTIONS   </td><td class="markdownTableBodyNone">Shows misc functions: flip, scroll , rotate, invert etc    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">X_MBUF   </td><td class="markdownTableBodyNone">Shows use of shared buffer mode    </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">X_CLOCK   </td><td class="markdownTableBodyNone">Shows use of shared buffer mode + clock demo    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">X_MISC   </td><td class="markdownTableBodyNone">Fonts + graphics &amp; misc functions, rotate , scroll, etc    </td></tr>
+<td class="markdownTableBodyNone">X_TEXT   </td><td class="markdownTableBodyNone">Shows use of text and fonts, All Fonts must be enabled to work fully    </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">X_SWSPI   </td><td class="markdownTableBodyNone">Shows use of software SPI    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">X_BITMAP   </td><td class="markdownTableBodyNone">Shows use of bitmaps   </td></tr>
+<td class="markdownTableBodyNone">X_HELLO   </td><td class="markdownTableBodyNone">Hello world, basic use case   </td></tr>
 </table>
-<h2><a class="anchor" id="autotoc_md8"></a>
+<h2><a class="anchor" id="autotoc_md15"></a>
 Tested_MCU</h2>
 <p>Tested on following MCUs. for the pin connections used during testing see extras folder, GPIO_MCU_used.txt file.</p>
 <ol type="1">
-<li>Arduino UNO &amp; NANO v3 <a href="https://github.com/gavinlyonsrepo/RF_DATA_LINK">Example</a></li>
+<li>Arduino UNO &amp; NANO v3 <br  />
+</li>
 <li>ESP8266</li>
 <li>ESP32</li>
 <li>STM32 "blue pill"</li>

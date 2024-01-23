@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ER_OLEDM1_CH1115
-   &#160;<span id="projectnumber">1.3.3</span>
+   &#160;<span id="projectnumber">1.4.0</span>
    </div>
    <div id="projectbrief">Ch1115 OLED Driver,Arduino  library</div>
   </td>
@@ -67,54 +67,72 @@ $(function() {
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">// **********************************************</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">// ****** USER FONT OPTION ONE *************</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">// ****** FONT DEFINE SECTION *************** </span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">// Comment in the fonts YOU want, One is default. </span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="ER__OLEDM1__CH1115__font_8hpp.html#a3ffa20cc565ca18aa331e836687d4013">   31</a></span>&#160;<span class="preprocessor">#define CH1115_Font_One       </span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">//#define CH1115_Font_Two       /**&lt;  (2) thick (NO LOWERCASE) */</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">//#define CH1115_Font_Three    /**&lt;  (3) seven segment  */</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">//#define CH1115_Font_Four     /**&lt;  (4) wide (NO LOWERCASE) */</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">//#define CH1115_Font_Five      /**&lt;  (5) tiny */</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">//#define CH1115_Font_Six       /**&lt;  (6) HomeSpun */</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">//#define CH1115_Font_Seven  /**&lt; (7) big numbers (NUMBERS ONLY ) */</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">//#define CH1115_Font_Eight   /**&lt; (8) Med numbers (NUMBERS ONLY ) */</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">// ****** END OF FONT DEFINE SECTION ******  </span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">// **********************************************</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">// Font data is in the cpp file accessed thru extern pointers.</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#ifdef CH1115_Font_One </span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * <a class="code" href="ER__OLEDM1__CH1115__font_8hpp.html#a0f9c05ae25dd10a465535a189e96ab76">pFontDefaultptr</a>;   </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#ifdef CH1115_Font_Two </span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * pFontThickptr;  </div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#ifdef CH1115_Font_Three</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * pFontSevenSegptr; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#ifdef CH1115_Font_Four</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * pFontWideptr; </div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#ifdef CH1115_Font_Five</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * pFontTinyptr;  </div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#ifdef CH1115_Font_Six</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * pFontHomeSpunptr;   </div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">#ifdef CH1115_Font_Seven</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span> uint8_t (* pFontBigNumptr)[64];  </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#ifdef CH1115_Font_Eight</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span> uint8_t (* pFontMedNumptr)[32];  </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// guard header</span></div>
-<div class="ttc" id="aER__OLEDM1__CH1115__font_8hpp_html_a0f9c05ae25dd10a465535a189e96ab76"><div class="ttname"><a href="ER__OLEDM1__CH1115__font_8hpp.html#a0f9c05ae25dd10a465535a189e96ab76">pFontDefaultptr</a></div><div class="ttdeci">const unsigned char * pFontDefaultptr</div><div class="ttdef"><b>Definition:</b> ER_OLEDM1_CH1115_font.cpp:279</div></div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="ER__OLEDM1__CH1115__font_8hpp.html#a3ffa20cc565ca18aa331e836687d4013">   43</a></span>&#160;<span class="preprocessor">#define CH1115_Font_One         </span></div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="ER__OLEDM1__CH1115__font_8hpp.html#a9e201fa1c015a24eb9a989d628c95cd3">   44</a></span>&#160;<span class="preprocessor">#define CH1115_Font_Two       </span></div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="ER__OLEDM1__CH1115__font_8hpp.html#a5f82d44d1a0c2aa284a64cdb862d23f9">   45</a></span>&#160;<span class="preprocessor">#define CH1115_Font_Three    </span></div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="ER__OLEDM1__CH1115__font_8hpp.html#ac2e31a46dedeaaa1ccabe5f513fffb69">   46</a></span>&#160;<span class="preprocessor">#define CH1115_Font_Four      </span></div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="ER__OLEDM1__CH1115__font_8hpp.html#a40f412d8f0235a6ef2d188ddc846c474">   47</a></span>&#160;<span class="preprocessor">#define CH1115_Font_Five      </span></div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="ER__OLEDM1__CH1115__font_8hpp.html#aebbb7c9b4e70b653fc0f3f31e939c4fd">   48</a></span>&#160;<span class="preprocessor">#define CH1115_Font_Six       </span></div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="ER__OLEDM1__CH1115__font_8hpp.html#a5dbf225fdce602062b5b022b1095bac0">   49</a></span>&#160;<span class="preprocessor">#define CH1115_Font_Seven </span></div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="ER__OLEDM1__CH1115__font_8hpp.html#af90dc47e1c5f8842252c24ec40586dcd">   50</a></span>&#160;<span class="preprocessor">#define CH1115_Font_Eight </span></div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="ER__OLEDM1__CH1115__font_8hpp.html#a9569a65b0300300859ecda04339e78bf">   51</a></span>&#160;<span class="preprocessor">#define CH1115_Font_Nine </span></div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="ER__OLEDM1__CH1115__font_8hpp.html#ae1eec5bb2262a2c03683e0906eb48c66">   52</a></span>&#160;<span class="preprocessor">#define CH1115_Font_Ten  </span></div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="ER__OLEDM1__CH1115__font_8hpp.html#a49ec25406bd631b71ff6be58d5e64bb8">   53</a></span>&#160;<span class="preprocessor">#define CH1115_Font_Eleven </span></div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="ER__OLEDM1__CH1115__font_8hpp.html#a96b3b3e6c191a3aab1caae22c0904057">   54</a></span>&#160;<span class="preprocessor">#define CH1115_Font_Twelve  </span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">// Font data is in the cpp file accessed thru extern pointers.</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">// Font data is in the cpp file accessed thru extern pointers.</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#ifdef CH1115_Font_One </span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * <a class="code" href="ER__OLEDM1__CH1115__font_8hpp.html#a0f9c05ae25dd10a465535a189e96ab76">pFontDefaultptr</a>; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#ifdef CH1115_Font_Two </span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * <a class="code" href="ER__OLEDM1__CH1115__font_8hpp.html#a205317559fc1bcafc4397ead00b7f668">pFontThickptr</a>; </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">#ifdef CH1115_Font_Three</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * <a class="code" href="ER__OLEDM1__CH1115__font_8hpp.html#a2dbc06989800597dd23b2cbdf6be2708">pFontSevenSegptr</a>; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#ifdef CH1115_Font_Four</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * <a class="code" href="ER__OLEDM1__CH1115__font_8hpp.html#ae906dcee6dcce84d3bd081f7c5bd4ad7">pFontWideptr</a>; </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#ifdef CH1115_Font_Five</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * <a class="code" href="ER__OLEDM1__CH1115__font_8hpp.html#a43e17c5226a88174a08347f311879119">pFontTinyptr</a>; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#ifdef CH1115_Font_Six</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * <a class="code" href="ER__OLEDM1__CH1115__font_8hpp.html#abfea84d0d983d76822f1d2d539680d15">pFontHomeSpunptr</a>; </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">#ifdef CH1115_Font_Seven</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span> uint8_t (* <a class="code" href="ER__OLEDM1__CH1115__font_8hpp.html#aa7d1a1be01566c1031cde2330f72744f">pFontBigNum16x32ptr</a>)[64]; </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#ifdef CH1115_Font_Eight</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span> uint8_t (* <a class="code" href="ER__OLEDM1__CH1115__font_8hpp.html#a3563d4726e595b1ce5d79a7af123717f">pFontMedNum16x16ptr</a>)[32];  </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">#ifdef CH1115_Font_Nine</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span> uint8_t (* <a class="code" href="ER__OLEDM1__CH1115__font_8hpp.html#ab10eea49bfaa44b16f05e21356761cb2">pFontArial16x24ptr</a>)[48]; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor">#ifdef CH1115_Font_Ten</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span> uint8_t (* <a class="code" href="ER__OLEDM1__CH1115__font_8hpp.html#a4672646c12ccaf1eeb5b43bd22b4d9a7">pFontArial16x16ptr</a>)[32]; </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor">#ifdef CH1115_Font_Eleven</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span> uint8_t (* <a class="code" href="ER__OLEDM1__CH1115__font_8hpp.html#af794606c31e56d4c16590f00680e4e42">pFontMia8x16ptr</a>)[16]; </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">#ifdef CH1115_Font_Twelve</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span> uint8_t (* <a class="code" href="ER__OLEDM1__CH1115__font_8hpp.html#a7d1f5819ec9e63dd4ada3708a49b0fa3">pFontDedica8x12ptr</a>)[12]; </div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; </div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// guard header</span></div>
+<div class="ttc" id="aER__OLEDM1__CH1115__font_8hpp_html_a0f9c05ae25dd10a465535a189e96ab76"><div class="ttname"><a href="ER__OLEDM1__CH1115__font_8hpp.html#a0f9c05ae25dd10a465535a189e96ab76">pFontDefaultptr</a></div><div class="ttdeci">const unsigned char * pFontDefaultptr</div><div class="ttdef"><b>Definition:</b> ER_OLEDM1_CH1115_font.cpp:281</div></div>
+<div class="ttc" id="aER__OLEDM1__CH1115__font_8hpp_html_a205317559fc1bcafc4397ead00b7f668"><div class="ttname"><a href="ER__OLEDM1__CH1115__font_8hpp.html#a205317559fc1bcafc4397ead00b7f668">pFontThickptr</a></div><div class="ttdeci">const unsigned char * pFontThickptr</div><div class="ttdef"><b>Definition:</b> ER_OLEDM1_CH1115_font.cpp:354</div></div>
+<div class="ttc" id="aER__OLEDM1__CH1115__font_8hpp_html_a2dbc06989800597dd23b2cbdf6be2708"><div class="ttname"><a href="ER__OLEDM1__CH1115__font_8hpp.html#a2dbc06989800597dd23b2cbdf6be2708">pFontSevenSegptr</a></div><div class="ttdeci">const unsigned char * pFontSevenSegptr</div><div class="ttdef"><b>Definition:</b> ER_OLEDM1_CH1115_font.cpp:461</div></div>
+<div class="ttc" id="aER__OLEDM1__CH1115__font_8hpp_html_a3563d4726e595b1ce5d79a7af123717f"><div class="ttname"><a href="ER__OLEDM1__CH1115__font_8hpp.html#a3563d4726e595b1ce5d79a7af123717f">pFontMedNum16x16ptr</a></div><div class="ttdeci">const uint8_t(* pFontMedNum16x16ptr)[32]</div><div class="ttdef"><b>Definition:</b> ER_OLEDM1_CH1115_font.cpp:793</div></div>
+<div class="ttc" id="aER__OLEDM1__CH1115__font_8hpp_html_a43e17c5226a88174a08347f311879119"><div class="ttname"><a href="ER__OLEDM1__CH1115__font_8hpp.html#a43e17c5226a88174a08347f311879119">pFontTinyptr</a></div><div class="ttdeci">const unsigned char * pFontTinyptr</div><div class="ttdef"><b>Definition:</b> ER_OLEDM1_CH1115_font.cpp:634</div></div>
+<div class="ttc" id="aER__OLEDM1__CH1115__font_8hpp_html_a4672646c12ccaf1eeb5b43bd22b4d9a7"><div class="ttname"><a href="ER__OLEDM1__CH1115__font_8hpp.html#a4672646c12ccaf1eeb5b43bd22b4d9a7">pFontArial16x16ptr</a></div><div class="ttdeci">const uint8_t(* pFontArial16x16ptr)[32]</div><div class="ttdef"><b>Definition:</b> ER_OLEDM1_CH1115_font.cpp:1007</div></div>
+<div class="ttc" id="aER__OLEDM1__CH1115__font_8hpp_html_a7d1f5819ec9e63dd4ada3708a49b0fa3"><div class="ttname"><a href="ER__OLEDM1__CH1115__font_8hpp.html#a7d1f5819ec9e63dd4ada3708a49b0fa3">pFontDedica8x12ptr</a></div><div class="ttdeci">const uint8_t(* pFontDedica8x12ptr)[12]</div><div class="ttdef"><b>Definition:</b> ER_OLEDM1_CH1115_font.cpp:1215</div></div>
+<div class="ttc" id="aER__OLEDM1__CH1115__font_8hpp_html_aa7d1a1be01566c1031cde2330f72744f"><div class="ttname"><a href="ER__OLEDM1__CH1115__font_8hpp.html#aa7d1a1be01566c1031cde2330f72744f">pFontBigNum16x32ptr</a></div><div class="ttdeci">const uint8_t(* pFontBigNum16x32ptr)[64]</div><div class="ttdef"><b>Definition:</b> ER_OLEDM1_CH1115_font.cpp:765</div></div>
+<div class="ttc" id="aER__OLEDM1__CH1115__font_8hpp_html_ab10eea49bfaa44b16f05e21356761cb2"><div class="ttname"><a href="ER__OLEDM1__CH1115__font_8hpp.html#ab10eea49bfaa44b16f05e21356761cb2">pFontArial16x24ptr</a></div><div class="ttdeci">const uint8_t(* pFontArial16x24ptr)[48]</div><div class="ttdef"><b>Definition:</b> ER_OLEDM1_CH1115_font.cpp:900</div></div>
+<div class="ttc" id="aER__OLEDM1__CH1115__font_8hpp_html_abfea84d0d983d76822f1d2d539680d15"><div class="ttname"><a href="ER__OLEDM1__CH1115__font_8hpp.html#abfea84d0d983d76822f1d2d539680d15">pFontHomeSpunptr</a></div><div class="ttdeci">const unsigned char * pFontHomeSpunptr</div><div class="ttdef"><b>Definition:</b> ER_OLEDM1_CH1115_font.cpp:738</div></div>
+<div class="ttc" id="aER__OLEDM1__CH1115__font_8hpp_html_ae906dcee6dcce84d3bd081f7c5bd4ad7"><div class="ttname"><a href="ER__OLEDM1__CH1115__font_8hpp.html#ae906dcee6dcce84d3bd081f7c5bd4ad7">pFontWideptr</a></div><div class="ttdeci">const unsigned char * pFontWideptr</div><div class="ttdef"><b>Definition:</b> ER_OLEDM1_CH1115_font.cpp:529</div></div>
+<div class="ttc" id="aER__OLEDM1__CH1115__font_8hpp_html_af794606c31e56d4c16590f00680e4e42"><div class="ttname"><a href="ER__OLEDM1__CH1115__font_8hpp.html#af794606c31e56d4c16590f00680e4e42">pFontMia8x16ptr</a></div><div class="ttdeci">const uint8_t(* pFontMia8x16ptr)[16]</div><div class="ttdef"><b>Definition:</b> ER_OLEDM1_CH1115_font.cpp:1110</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

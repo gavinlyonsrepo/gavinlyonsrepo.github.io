@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ER_OLEDM1_CH1115
-   &#160;<span id="projectnumber">1.3.3</span>
+   &#160;<span id="projectnumber">1.4.0</span>
    </div>
    <div id="projectbrief">Ch1115 OLED Driver,Arduino  library</div>
   </td>
@@ -46,7 +46,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
 <div class="title">ER_OLEDM1_CH1115_graphics.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -69,16 +70,18 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="ER__OLEDM1__CH1115__graphics_8hpp__dep__incl.png" border="0" usemap="#aER__OLEDM1__CH1115__graphics_8hppdep" alt=""/></div>
 <map name="aER__OLEDM1__CH1115__graphics_8hppdep" id="aER__OLEDM1__CH1115__graphics_8hppdep">
-<area shape="rect" title="ER_OLEDM1 OLED driven by CH1115 controller header file for the graphics based functions...." alt="" coords="1087,5,1336,32"/>
-<area shape="rect" href="ER__OLEDM1__CH1115_8hpp.html" title="ER_OLEDM1 OLED driven by CH1115 controller header file Project Name: ER_OLEDM1_CH1115 ,..." alt="" coords="1053,80,1239,107"/>
-<area shape="rect" href="ER__OLEDM1__CH1115__graphics_8cpp.html" title="ER_OLEDM1 OLED driven by CH1115 controller source file for the graphics based functions...." alt="" coords="1747,155,1995,181"/>
+<area shape="rect" title="ER_OLEDM1 OLED driven by CH1115 controller header file for the graphics based functions...." alt="" coords="1411,5,1660,32"/>
+<area shape="rect" href="ER__OLEDM1__CH1115_8hpp.html" title="ER_OLEDM1 OLED driven by CH1115 controller header file Project Name: ER_OLEDM1_CH1115 ,..." alt="" coords="1377,80,1563,107"/>
+<area shape="rect" href="ER__OLEDM1__CH1115__graphics_8cpp.html" title="ER_OLEDM1 OLED driven by CH1115 controller source file for the graphics based functions...." alt="" coords="2321,155,2569,181"/>
 <area shape="rect" href="ER__OLEDM1__CH1115__BITMAP_8ino.html" title="Example file for ER_OLEDM1_CH1115 library, showing how to display bitmaps." alt="" coords="5,155,244,181"/>
 <area shape="rect" href="ER__OLEDM1__CH1115__CLOCK_8ino.html" title="Example file for ER_OLEDM1_CH1115 library, showing example of a clock. just a simple demo...." alt="" coords="269,155,503,181"/>
-<area shape="rect" href="ER__OLEDM1__CH1115__HELLO_8ino.html" title="Example file for ER_OLEDM1_CH1115 library, showing use of hello world URL: https://github...." alt="" coords="527,155,759,181"/>
-<area shape="rect" href="ER__OLEDM1__CH1115__MBUF_8ino.html" title="Example file for ER_OLEDM1_CH1115 library, showing use of shared buffer multiple screen In this case:..." alt="" coords="783,155,1010,181"/>
-<area shape="rect" href="ER__OLEDM1__CH1115__MISC_8ino.html" title="Example file for ER_OLEDM1_CH1115 library, showing use of Text, graphic methods, and various function..." alt="" coords="1035,155,1257,181"/>
-<area shape="rect" href="ER__OLEDM1__CH1115__SWSPI_8ino.html" title="Example file for ER_OLEDM1_CH1115 library, showing use of software SPI mode only difference for user ..." alt="" coords="1281,155,1512,181"/>
-<area shape="rect" href="ER__OLEDM1__CH1115_8cpp.html" title="ER_OLEDM1 OLED driven by CH1115 controller Source file Project Name: ER_OLEDM1_CH1115 ,..." alt="" coords="1537,155,1723,181"/>
+<area shape="rect" href="ER__OLEDM1__CH1115__FUNCTIONS_8ino.html" title="Example file for ER_OLEDM1_CH1115 library, showing use of various function tests." alt="" coords="527,155,794,181"/>
+<area shape="rect" href="ER__OLEDM1__CH1115__GRAPHICS_8ino.html" title="Example file for ER_OLEDM1_CH1115 library, showing use graphic functions." alt="" coords="819,155,1076,181"/>
+<area shape="rect" href="ER__OLEDM1__CH1115__HELLO_8ino.html" title="Example file for ER_OLEDM1_CH1115 library, showing use of hello world URL: https://github...." alt="" coords="1101,155,1333,181"/>
+<area shape="rect" href="ER__OLEDM1__CH1115__MBUF_8ino.html" title="Example file for ER_OLEDM1_CH1115 library, showing use of shared buffer multiple screen In this case:..." alt="" coords="1357,155,1583,181"/>
+<area shape="rect" href="ER__OLEDM1__CH1115__SWSPI_8ino.html" title="Example file for ER_OLEDM1_CH1115 library, showing use of software SPI mode only difference for user ..." alt="" coords="1608,155,1839,181"/>
+<area shape="rect" href="ER__OLEDM1__CH1115__TEXT_8ino.html" title="Example file for ER_OLEDM1_CH1115 library, showing use of Text, graphic methods, and various function..." alt="" coords="1863,155,2085,181"/>
+<area shape="rect" href="ER__OLEDM1__CH1115_8cpp.html" title="ER_OLEDM1 OLED driven by CH1115 controller Source file Project Name: ER_OLEDM1_CH1115 ,..." alt="" coords="2110,155,2297,181"/>
 </map>
 </div>
 </div>
@@ -95,11 +98,161 @@ Macros</h2></td></tr>
 <tr class="memitem:a606849f19edd2c0bac8242c77f24d94f"><td class="memItemLeft" align="right" valign="top"><a id="a606849f19edd2c0bac8242c77f24d94f"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>CH1115_Swap</b>(a,  b)&#160;&#160;&#160;{ int16_t t = a; a = b; b = t; }</td></tr>
 <tr class="separator:a606849f19edd2c0bac8242c77f24d94f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a1611653fa2e84acad48eff5f12da8632"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a1611653fa2e84acad48eff5f12da8632">CH1115_Return_Codes_e</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a1611653fa2e84acad48eff5f12da8632af335011437bb70463522360a051c0d74">CH1115_Success</a> = 0
+, <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a1611653fa2e84acad48eff5f12da8632acf774c1a4e3537e59b57597966f234f4">CH1115_WrongFont</a> = 2
+, <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a1611653fa2e84acad48eff5f12da8632af58c9683664e9a6b4cf8799ad87bb5a3">CH1115_CharScreenBounds</a> = 3
+, <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a1611653fa2e84acad48eff5f12da8632a029d7a14fd2450e07c033408883081b8">CH1115_CharFontASCIIRange</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a1611653fa2e84acad48eff5f12da8632a6e6adb254219abb7dbb28272071c2d03">CH1115_CharArrayNullptr</a> = 5
+, <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a1611653fa2e84acad48eff5f12da8632aa5785a98eb5f5c4dc04cc14d887a6a11">CH1115_BitmapNullptr</a> = 7
+, <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a1611653fa2e84acad48eff5f12da8632a4f92466c52997d075617de987b191e39">CH1115_BitmapScreenBounds</a> = 8
+, <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a1611653fa2e84acad48eff5f12da8632ab3c0a31fa0dfd9e458e4107cd0f98d6e">CH1115_BitmapLargerThanScreen</a> = 9
+, <br />
+&#160;&#160;<a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a1611653fa2e84acad48eff5f12da8632ab6ec080b2a1dca55d723edece5fbeaa0">CH1115_BitmapVerticalSize</a> = 10
+, <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a1611653fa2e84acad48eff5f12da8632af94a2b081e7dd6840c2720674ae57727">CH1115_BitmapHorizontalSize</a> = 11
+<br />
+ }</td></tr>
+<tr class="separator:a1611653fa2e84acad48eff5f12da8632"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e588f69b87c452e995948db74554b91"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a3e588f69b87c452e995948db74554b91">CH1115_rotate_e</a> : uint8_t { <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a3e588f69b87c452e995948db74554b91a0ea3c5f4d34d652f57bd4ab0ef4a3a90">CH1115_Degrees_0</a> = 0
+, <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a3e588f69b87c452e995948db74554b91afae80b3c887ccc452897301a122205f1">CH1115_Degrees_90</a>
+, <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a3e588f69b87c452e995948db74554b91a2e84b0c471bcc9a57249b67570ee33b2">CH1115_Degrees_180</a>
+, <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a3e588f69b87c452e995948db74554b91a8b25d8e5589f4eb3536243ca8a552f14">CH1115_Degrees_270</a>
+ }</td></tr>
+<tr class="separator:a3e588f69b87c452e995948db74554b91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fc1c90a41445434f188b6f886df8733"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a9fc1c90a41445434f188b6f886df8733">CH1115_Font_Type_e</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a9fc1c90a41445434f188b6f886df8733ae18b38a6c993b26021533e66e6961481">CH1115Font_Default</a> = 1
+, <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a9fc1c90a41445434f188b6f886df8733a6006510ffb7083aefad202fc0a0df0e9">CH1115Font_Thick</a> = 2
+, <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a9fc1c90a41445434f188b6f886df8733a8b02f41d2066d3a39ee3d91e24971915">CH1115Font_Seven_Seg</a> = 3
+, <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a9fc1c90a41445434f188b6f886df8733a1d98bd4f41616727163d9615907a3eb8">CH1115Font_Wide</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a9fc1c90a41445434f188b6f886df8733a25ad78822891067174be66fce8ab838d">CH1115Font_Tiny</a> = 5
+, <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a9fc1c90a41445434f188b6f886df8733a1b72dedb2fc33aa109b2415aab45ba9d">CH1115Font_Homespun</a> = 6
+, <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a9fc1c90a41445434f188b6f886df8733a668abdc32ae5845aa5467c2be2e3dfac">CH1115Font_Bignum</a> = 7
+, <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a9fc1c90a41445434f188b6f886df8733a1421d9a99f445fa38f895380e994479e">CH1115Font_Mednum</a> = 8
+, <br />
+&#160;&#160;<a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a9fc1c90a41445434f188b6f886df8733ad5703b548cd8b3da056a7541991063c9">CH1115Font_ArialRound</a> = 9
+, <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a9fc1c90a41445434f188b6f886df8733a2735e6b70a50b4b20c620f8da1b2eaac">CH1115Font_ArialBold</a> = 10
+, <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a9fc1c90a41445434f188b6f886df8733a6c01a244fedcf2a9c4965914b4b5f476">CH1115Font_Mia</a> = 11
+, <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a9fc1c90a41445434f188b6f886df8733a64d8a09389a524d1b177b032c1c102d5">CH1115Font_Dedica</a> = 12
+<br />
+ }</td></tr>
+<tr class="separator:a9fc1c90a41445434f188b6f886df8733"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>ER_OLEDM1 OLED driven by CH1115 controller header file for the graphics based functions. Project Name: ER_OLEDM1_CH1115 URL: <a href="https://github.com/gavinlyonsrepo/ER_OLEDM1_CH1115">https://github.com/gavinlyonsrepo/ER_OLEDM1_CH1115</a>. </p>
 <dl class="section author"><dt>Author</dt><dd>Gavin Lyons </dd></dl>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a9fc1c90a41445434f188b6f886df8733"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fc1c90a41445434f188b6f886df8733">&#9670;&nbsp;</a></span>CH1115_Font_Type_e</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a9fc1c90a41445434f188b6f886df8733">CH1115_Font_Type_e</a> : uint8_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Oled fonts enum types </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9fc1c90a41445434f188b6f886df8733ae18b38a6c993b26021533e66e6961481"></a>CH1115Font_Default&#160;</td><td class="fielddoc"><p>Default Font, Full extended ASCII </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9fc1c90a41445434f188b6f886df8733a6006510ffb7083aefad202fc0a0df0e9"></a>CH1115Font_Thick&#160;</td><td class="fielddoc"><p>Thick font , no lower case letters </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9fc1c90a41445434f188b6f886df8733a8b02f41d2066d3a39ee3d91e24971915"></a>CH1115Font_Seven_Seg&#160;</td><td class="fielddoc"><p>Seven Segment Font </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9fc1c90a41445434f188b6f886df8733a1d98bd4f41616727163d9615907a3eb8"></a>CH1115Font_Wide&#160;</td><td class="fielddoc"><p>Wide font no lowercase letters </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9fc1c90a41445434f188b6f886df8733a25ad78822891067174be66fce8ab838d"></a>CH1115Font_Tiny&#160;</td><td class="fielddoc"><p>Tiny font </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9fc1c90a41445434f188b6f886df8733a1b72dedb2fc33aa109b2415aab45ba9d"></a>CH1115Font_Homespun&#160;</td><td class="fielddoc"><p>Homespun Font </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9fc1c90a41445434f188b6f886df8733a668abdc32ae5845aa5467c2be2e3dfac"></a>CH1115Font_Bignum&#160;</td><td class="fielddoc"><p>Bignum numbers only </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9fc1c90a41445434f188b6f886df8733a1421d9a99f445fa38f895380e994479e"></a>CH1115Font_Mednum&#160;</td><td class="fielddoc"><p>Mednum number only </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9fc1c90a41445434f188b6f886df8733ad5703b548cd8b3da056a7541991063c9"></a>CH1115Font_ArialRound&#160;</td><td class="fielddoc"><p>Arial round font </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9fc1c90a41445434f188b6f886df8733a2735e6b70a50b4b20c620f8da1b2eaac"></a>CH1115Font_ArialBold&#160;</td><td class="fielddoc"><p>Arial bold font </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9fc1c90a41445434f188b6f886df8733a6c01a244fedcf2a9c4965914b4b5f476"></a>CH1115Font_Mia&#160;</td><td class="fielddoc"><p>Mia font </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9fc1c90a41445434f188b6f886df8733a64d8a09389a524d1b177b032c1c102d5"></a>CH1115Font_Dedica&#160;</td><td class="fielddoc"><p>dedica font </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a1611653fa2e84acad48eff5f12da8632"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1611653fa2e84acad48eff5f12da8632">&#9670;&nbsp;</a></span>CH1115_Return_Codes_e</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a1611653fa2e84acad48eff5f12da8632">CH1115_Return_Codes_e</a> : uint8_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>CH1115 Enum to define return codes from some text and bitmap functions <br  />
+ </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1611653fa2e84acad48eff5f12da8632af335011437bb70463522360a051c0d74"></a>CH1115_Success&#160;</td><td class="fielddoc"><p>Success! <br  />
+ </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1611653fa2e84acad48eff5f12da8632acf774c1a4e3537e59b57597966f234f4"></a>CH1115_WrongFont&#160;</td><td class="fielddoc"><p>Wrong Font selected for this method , There are two families of font included with different overloaded functions </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1611653fa2e84acad48eff5f12da8632af58c9683664e9a6b4cf8799ad87bb5a3"></a>CH1115_CharScreenBounds&#160;</td><td class="fielddoc"><p>Text Character is out of Screen bounds, Check x and y </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1611653fa2e84acad48eff5f12da8632a029d7a14fd2450e07c033408883081b8"></a>CH1115_CharFontASCIIRange&#160;</td><td class="fielddoc"><p>Text Character is outside of chosen Fonts ASCII range, Check the selected Fonts ASCII range. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1611653fa2e84acad48eff5f12da8632a6e6adb254219abb7dbb28272071c2d03"></a>CH1115_CharArrayNullptr&#160;</td><td class="fielddoc"><p>Text Character Array is an invalid pointer object </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1611653fa2e84acad48eff5f12da8632aa5785a98eb5f5c4dc04cc14d887a6a11"></a>CH1115_BitmapNullptr&#160;</td><td class="fielddoc"><p>The Bitmap data array is an invalid pointer object </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1611653fa2e84acad48eff5f12da8632a4f92466c52997d075617de987b191e39"></a>CH1115_BitmapScreenBounds&#160;</td><td class="fielddoc"><p>The bitmap starting point is outside screen bounds check x and y </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1611653fa2e84acad48eff5f12da8632ab3c0a31fa0dfd9e458e4107cd0f98d6e"></a>CH1115_BitmapLargerThanScreen&#160;</td><td class="fielddoc"><p>The Bitmap is larger than screen , check w and h </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1611653fa2e84acad48eff5f12da8632ab6ec080b2a1dca55d723edece5fbeaa0"></a>CH1115_BitmapVerticalSize&#160;</td><td class="fielddoc"><p>A vertical Bitmap's height must be divisible by 8. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1611653fa2e84acad48eff5f12da8632af94a2b081e7dd6840c2720674ae57727"></a>CH1115_BitmapHorizontalSize&#160;</td><td class="fielddoc"><p>A horizontal Bitmap's width must be divisible by 8 <br  />
+ </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a3e588f69b87c452e995948db74554b91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e588f69b87c452e995948db74554b91">&#9670;&nbsp;</a></span>CH1115_rotate_e</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a3e588f69b87c452e995948db74554b91">CH1115_rotate_e</a> : uint8_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>OLED rotate modes in degrees, Note this is separate from OLED command method for rotation. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3e588f69b87c452e995948db74554b91a0ea3c5f4d34d652f57bd4ab0ef4a3a90"></a>CH1115_Degrees_0&#160;</td><td class="fielddoc"><p>No rotation 0 degrees </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3e588f69b87c452e995948db74554b91afae80b3c887ccc452897301a122205f1"></a>CH1115_Degrees_90&#160;</td><td class="fielddoc"><p>Rotation 90 degrees </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3e588f69b87c452e995948db74554b91a2e84b0c471bcc9a57249b67570ee33b2"></a>CH1115_Degrees_180&#160;</td><td class="fielddoc"><p>Rotation 180 degrees </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3e588f69b87c452e995948db74554b91a8b25d8e5589f4eb3536243ca8a552f14"></a>CH1115_Degrees_270&#160;</td><td class="fielddoc"><p>Rotation 270 degrees </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1

@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ER_OLEDM1_CH1115
-   &#160;<span id="projectnumber">1.3.3</span>
+   &#160;<span id="projectnumber">1.4.0</span>
    </div>
    <div id="projectbrief">Ch1115 OLED Driver,Arduino  library</div>
   </td>
@@ -89,6 +89,9 @@ Macros</h2></td></tr>
 <tr class="memitem:afa8f507271366919596459393239ddd7"><td class="memItemLeft" align="right" valign="top"><a id="afa8f507271366919596459393239ddd7"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>MYOLEDWIDTH</b>&#160;&#160;&#160;128</td></tr>
 <tr class="separator:afa8f507271366919596459393239ddd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a476d71c7d68afd29446506f5fcbea69b"><td class="memItemLeft" align="right" valign="top"><a id="a476d71c7d68afd29446506f5fcbea69b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HALFSCREEN</b>&#160;&#160;&#160;((MYOLEDWIDTH * (MYOLEDHEIGHT / 8)) / 2)</td></tr>
+<tr class="separator:a476d71c7d68afd29446506f5fcbea69b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -107,12 +110,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>DisplayText</b> ()</t
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a5de3733374a35f0764d3773468f0eead"><td class="memItemLeft" align="right" valign="top"><a id="a5de3733374a35f0764d3773468f0eead"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>halfScreenBuffer</b> [(MYOLEDWIDTH *(MYOLEDHEIGHT/8))/2]</td></tr>
-<tr class="separator:a5de3733374a35f0764d3773468f0eead"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fe4850da5f24ccf3090aeadbbbf9d00"><td class="memItemLeft" align="right" valign="top"><a id="a9fe4850da5f24ccf3090aeadbbbf9d00"></a>
-<a class="el" href="classERMCH1115.html">ERMCH1115</a>&#160;</td><td class="memItemRight" valign="bottom"><b>myOLED</b> (DC, RES, CS)</td></tr>
-<tr class="separator:a9fe4850da5f24ccf3090aeadbbbf9d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26d5caf9f9d09775db9ddb23f2c7e8f6"><td class="memItemLeft" align="right" valign="top"><a id="a26d5caf9f9d09775db9ddb23f2c7e8f6"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>halfScreenBuffer</b> [HALFSCREEN]</td></tr>
+<tr class="separator:a26d5caf9f9d09775db9ddb23f2c7e8f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc130bbd3d34ce452e177769636454e9"><td class="memItemLeft" align="right" valign="top"><a id="adc130bbd3d34ce452e177769636454e9"></a>
+<a class="el" href="classERMCH1115.html">ERMCH1115</a>&#160;</td><td class="memItemRight" valign="bottom"><b>myOLED</b> (MYOLEDWIDTH, MYOLEDHEIGHT, DC, RES, CS)</td></tr>
+<tr class="separator:adc130bbd3d34ce452e177769636454e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9004004a1634604228678811ad203632"><td class="memItemLeft" align="right" valign="top"><a id="a9004004a1634604228678811ad203632"></a>
 <a class="el" href="classERMCH1115__SharedBuffer.html">ERMCH1115_SharedBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>topHalf</b> (halfScreenBuffer, MYOLEDWIDTH, MYOLEDHEIGHT/2, 0, 0)</td></tr>
 <tr class="separator:a9004004a1634604228678811ad203632"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -147,8 +150,8 @@ const long&#160;</td><td class="memItemRight" valign="bottom"><b>interval</b> = 
 </ol>
 </dd></dl>
 <dl class="test"><dt><b><a class="el" href="test.html#_test000002">Test:</a></b></dt><dd><ol type="1">
-<li>Clock Demo</li>
-<li>Shared buffer, Multiple screens (2 off) spilt into top and bottom </li>
+<li>901 Clock Demo</li>
+<li>902 Shared buffer, Multiple screens (2 off) spilt into top and bottom </li>
 </ol>
 </dd></dl>
 </div><h2 class="groupheader">Variable Documentation</h2>

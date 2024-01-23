@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ER_OLEDM1_CH1115
-   &#160;<span id="projectnumber">1.3.3</span>
+   &#160;<span id="projectnumber">1.4.0</span>
    </div>
    <div id="projectbrief">Ch1115 OLED Driver,Arduino  library</div>
   </td>
@@ -41,10 +41,10 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pri-types">Private Types</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classERMCH1115__graphics-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ERMCH1115_graphics Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -75,49 +75,30 @@ Collaboration diagram for ERMCH1115_graphics:</div>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a86cca6f4a534f0f6da8a1c4ef3a8f232"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a86cca6f4a534f0f6da8a1c4ef3a8f232">OLEDFontType_e</a> : uint8_t { <br />
-&#160;&#160;<a class="el" href="classERMCH1115__graphics.html#a86cca6f4a534f0f6da8a1c4ef3a8f232ac8f2b1f78bdf36ec4a7d29aefcdb7282">OLEDFontType_Default</a> = 1
-, <a class="el" href="classERMCH1115__graphics.html#a86cca6f4a534f0f6da8a1c4ef3a8f232a8fb84cf77bc19aecac6e9bb3eda33cdd">OLEDFontType_Thick</a> = 2
-, <a class="el" href="classERMCH1115__graphics.html#a86cca6f4a534f0f6da8a1c4ef3a8f232a1cf6d33ccb1e4985c9df9879b7e040c2">OLEDFontType_SevenSeg</a> = 3
-, <a class="el" href="classERMCH1115__graphics.html#a86cca6f4a534f0f6da8a1c4ef3a8f232a8fe4bb5217750497b8654934fedd2e2d">OLEDFontType_Wide</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="classERMCH1115__graphics.html#a86cca6f4a534f0f6da8a1c4ef3a8f232abb58228b4ba08726549d3fa194f9e50a">OLEDFontType_Tiny</a> = 5
-, <a class="el" href="classERMCH1115__graphics.html#a86cca6f4a534f0f6da8a1c4ef3a8f232a49c8652c352c8b09289a386ad0beaf21">OLEDFontType_Homespun</a> = 6
-, <a class="el" href="classERMCH1115__graphics.html#a86cca6f4a534f0f6da8a1c4ef3a8f232a2d381ed1a03035fe3e27330b3394898d">OLEDFontType_Bignum</a> = 7
-, <a class="el" href="classERMCH1115__graphics.html#a86cca6f4a534f0f6da8a1c4ef3a8f232ad044763c8f751bd9b9864e8223aad127">OLEDFontType_Mednum</a> = 8
-<br />
- }</td></tr>
-<tr class="separator:a86cca6f4a534f0f6da8a1c4ef3a8f232"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:adb7cc22e2b4ca30e68d18b0c26c6eb86"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#adb7cc22e2b4ca30e68d18b0c26c6eb86">ERMCH1115_graphics</a> (int16_t w, int16_t h)</td></tr>
 <tr class="memdesc:adb7cc22e2b4ca30e68d18b0c26c6eb86"><td class="mdescLeft">&#160;</td><td class="mdescRight">init the OLED Graphics class object  <a href="classERMCH1115__graphics.html#adb7cc22e2b4ca30e68d18b0c26c6eb86">More...</a><br /></td></tr>
 <tr class="separator:adb7cc22e2b4ca30e68d18b0c26c6eb86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0494ef159ea6da0f1834f519664f5b8e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a0494ef159ea6da0f1834f519664f5b8e">write</a> (uint8_t)</td></tr>
-<tr class="memdesc:a0494ef159ea6da0f1834f519664f5b8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">: called by the print class after it converts the data to a character  <a href="classERMCH1115__graphics.html#a0494ef159ea6da0f1834f519664f5b8e">More...</a><br /></td></tr>
-<tr class="separator:a0494ef159ea6da0f1834f519664f5b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fbb2b3c24cba76c9b0eaa481b5178f1"><td class="memItemLeft" align="right" valign="top"><a id="a8fbb2b3c24cba76c9b0eaa481b5178f1"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>drawPixel</b> (int16_t x, int16_t y, uint8_t color)=0</td></tr>
 <tr class="separator:a8fbb2b3c24cba76c9b0eaa481b5178f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef36044ff2227d2fdbfa6fec4283c998"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#aef36044ff2227d2fdbfa6fec4283c998">drawLine</a> (int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint8_t color)</td></tr>
+<tr class="memitem:aef36044ff2227d2fdbfa6fec4283c998"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#aef36044ff2227d2fdbfa6fec4283c998">drawLine</a> (int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint8_t color)</td></tr>
 <tr class="memdesc:aef36044ff2227d2fdbfa6fec4283c998"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws a line from (x0,y0) to (x1,y1).  <a href="classERMCH1115__graphics.html#aef36044ff2227d2fdbfa6fec4283c998">More...</a><br /></td></tr>
 <tr class="separator:aef36044ff2227d2fdbfa6fec4283c998"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a081dcc5008d11e5064b6a98f84bb1f28"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a081dcc5008d11e5064b6a98f84bb1f28">drawFastVLine</a> (int16_t x, int16_t y, int16_t h, uint8_t color)</td></tr>
+<tr class="memitem:a081dcc5008d11e5064b6a98f84bb1f28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a081dcc5008d11e5064b6a98f84bb1f28">drawFastVLine</a> (int16_t x, int16_t y, int16_t h, uint8_t color)</td></tr>
 <tr class="memdesc:a081dcc5008d11e5064b6a98f84bb1f28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a vertical line starting at (x,y) with height h.  <a href="classERMCH1115__graphics.html#a081dcc5008d11e5064b6a98f84bb1f28">More...</a><br /></td></tr>
 <tr class="separator:a081dcc5008d11e5064b6a98f84bb1f28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5c68c195ff22f3651b9ee78848cbafd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#af5c68c195ff22f3651b9ee78848cbafd">drawFastHLine</a> (int16_t x, int16_t y, int16_t w, uint8_t color)</td></tr>
+<tr class="memitem:af5c68c195ff22f3651b9ee78848cbafd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#af5c68c195ff22f3651b9ee78848cbafd">drawFastHLine</a> (int16_t x, int16_t y, int16_t w, uint8_t color)</td></tr>
 <tr class="memdesc:af5c68c195ff22f3651b9ee78848cbafd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a horizontal line starting at (x,y) with width w.  <a href="classERMCH1115__graphics.html#af5c68c195ff22f3651b9ee78848cbafd">More...</a><br /></td></tr>
 <tr class="separator:af5c68c195ff22f3651b9ee78848cbafd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ebd837444616a0e98e017833f9f0f07"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a5ebd837444616a0e98e017833f9f0f07">drawRect</a> (int16_t x, int16_t y, int16_t w, int16_t h, uint8_t color)</td></tr>
+<tr class="memitem:a5ebd837444616a0e98e017833f9f0f07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a5ebd837444616a0e98e017833f9f0f07">drawRect</a> (int16_t x, int16_t y, int16_t w, int16_t h, uint8_t color)</td></tr>
 <tr class="memdesc:a5ebd837444616a0e98e017833f9f0f07"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws rectangle at (x,y) where h is height and w is width of the rectangle.  <a href="classERMCH1115__graphics.html#a5ebd837444616a0e98e017833f9f0f07">More...</a><br /></td></tr>
 <tr class="separator:a5ebd837444616a0e98e017833f9f0f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a503f3fe26b6a8f9e7aa450a2e353c62a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a503f3fe26b6a8f9e7aa450a2e353c62a">fillRect</a> (int16_t x, int16_t y, int16_t w, int16_t h, uint8_t color)</td></tr>
+<tr class="memitem:a503f3fe26b6a8f9e7aa450a2e353c62a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a503f3fe26b6a8f9e7aa450a2e353c62a">fillRect</a> (int16_t x, int16_t y, int16_t w, int16_t h, uint8_t color)</td></tr>
 <tr class="memdesc:a503f3fe26b6a8f9e7aa450a2e353c62a"><td class="mdescLeft">&#160;</td><td class="mdescRight">fills a rectangle starting from coordinates (x,y) with width of w and height of h.  <a href="classERMCH1115__graphics.html#a503f3fe26b6a8f9e7aa450a2e353c62a">More...</a><br /></td></tr>
 <tr class="separator:a503f3fe26b6a8f9e7aa450a2e353c62a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af648e979300387e172071390bd33fa4a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#af648e979300387e172071390bd33fa4a">fillScreen</a> (uint8_t color)</td></tr>
+<tr class="memitem:af648e979300387e172071390bd33fa4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#af648e979300387e172071390bd33fa4a">fillScreen</a> (uint8_t color)</td></tr>
 <tr class="memdesc:af648e979300387e172071390bd33fa4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills the whole screen with a given color.  <a href="classERMCH1115__graphics.html#af648e979300387e172071390bd33fa4a">More...</a><br /></td></tr>
 <tr class="separator:af648e979300387e172071390bd33fa4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43646210609e0bca10f9dae7dd0db7e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a43646210609e0bca10f9dae7dd0db7e7">drawCircle</a> (int16_t x0, int16_t y0, int16_t r, uint8_t color)</td></tr>
@@ -146,9 +127,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a8c656814d68b9ec9ae5e5bf4e475ebd3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a8c656814d68b9ec9ae5e5bf4e475ebd3">fillRoundRect</a> (int16_t x0, int16_t y0, int16_t w, int16_t h, int16_t radius, uint8_t color)</td></tr>
 <tr class="memdesc:a8c656814d68b9ec9ae5e5bf4e475ebd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills a rectangle with rounded edges.  <a href="classERMCH1115__graphics.html#a8c656814d68b9ec9ae5e5bf4e475ebd3">More...</a><br /></td></tr>
 <tr class="separator:a8c656814d68b9ec9ae5e5bf4e475ebd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefe89068ecc6e7b479b57c0ffa7f46de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#aefe89068ecc6e7b479b57c0ffa7f46de">drawBitmap</a> (int16_t x, int16_t y, const uint8_t *bitmap, int16_t w, int16_t h, uint8_t color, uint8_t bg)</td></tr>
-<tr class="memdesc:aefe89068ecc6e7b479b57c0ffa7f46de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a 1-bit color bitmap.  <a href="classERMCH1115__graphics.html#aefe89068ecc6e7b479b57c0ffa7f46de">More...</a><br /></td></tr>
-<tr class="separator:aefe89068ecc6e7b479b57c0ffa7f46de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2db747e7648834df1b3d45129c6916dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a1611653fa2e84acad48eff5f12da8632">CH1115_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a2db747e7648834df1b3d45129c6916dd">drawBitmap</a> (int16_t x, int16_t y, const uint8_t *bitmap, int16_t w, int16_t h, uint8_t color, uint8_t bg)</td></tr>
+<tr class="memdesc:a2db747e7648834df1b3d45129c6916dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a 1-bit color bitmap.  <a href="classERMCH1115__graphics.html#a2db747e7648834df1b3d45129c6916dd">More...</a><br /></td></tr>
+<tr class="separator:a2db747e7648834df1b3d45129c6916dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8ebe59e77adafbdf642f953b356f6c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#ab8ebe59e77adafbdf642f953b356f6c4">setDrawBitmapAddr</a> (boolean mode)</td></tr>
+<tr class="memdesc:ab8ebe59e77adafbdf642f953b356f6c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the data addressing mode in drawBitmap function.  <a href="classERMCH1115__graphics.html#ab8ebe59e77adafbdf642f953b356f6c4">More...</a><br /></td></tr>
+<tr class="separator:ab8ebe59e77adafbdf642f953b356f6c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a51fced633be3a4dcb1870f6bcff1dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a0a51fced633be3a4dcb1870f6bcff1dd">setCursor</a> (int16_t x, int16_t y)</td></tr>
 <tr class="memdesc:a0a51fced633be3a4dcb1870f6bcff1dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the cursor position <br  />
   <a href="classERMCH1115__graphics.html#a0a51fced633be3a4dcb1870f6bcff1dd">More...</a><br /></td></tr>
@@ -165,38 +149,38 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memdesc:afe895df6ec0ff9e4c4178fdb66eb35a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the text size , starts at 1  <a href="classERMCH1115__graphics.html#afe895df6ec0ff9e4c4178fdb66eb35a5">More...</a><br /></td></tr>
 <tr class="separator:afe895df6ec0ff9e4c4178fdb66eb35a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af85f3053287b591d90a0fbc688bac45e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#af85f3053287b591d90a0fbc688bac45e">setTextWrap</a> (boolean w)</td></tr>
-<tr class="memdesc:af85f3053287b591d90a0fbc688bac45e"><td class="mdescLeft">&#160;</td><td class="mdescRight">turn on or off screen wrap of the text (fonts 1-6)  <a href="classERMCH1115__graphics.html#af85f3053287b591d90a0fbc688bac45e">More...</a><br /></td></tr>
+<tr class="memdesc:af85f3053287b591d90a0fbc688bac45e"><td class="mdescLeft">&#160;</td><td class="mdescRight">turn on or off screen _textWrap of the text (fonts 1-6)  <a href="classERMCH1115__graphics.html#af85f3053287b591d90a0fbc688bac45e">More...</a><br /></td></tr>
 <tr class="separator:af85f3053287b591d90a0fbc688bac45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3cdc15d540bee832397621297cf3843"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#ae3cdc15d540bee832397621297cf3843">setRotation</a> (uint8_t r)</td></tr>
-<tr class="memdesc:ae3cdc15d540bee832397621297cf3843"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets rotation value 0-3.  <a href="classERMCH1115__graphics.html#ae3cdc15d540bee832397621297cf3843">More...</a><br /></td></tr>
-<tr class="separator:ae3cdc15d540bee832397621297cf3843"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8ebe59e77adafbdf642f953b356f6c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#ab8ebe59e77adafbdf642f953b356f6c4">setDrawBitmapAddr</a> (boolean mode)</td></tr>
-<tr class="memdesc:ab8ebe59e77adafbdf642f953b356f6c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the data addressing mode in drawBitmap function.  <a href="classERMCH1115__graphics.html#ab8ebe59e77adafbdf642f953b356f6c4">More...</a><br /></td></tr>
-<tr class="separator:ab8ebe59e77adafbdf642f953b356f6c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a059effba92116ca8161c126218afb977"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a059effba92116ca8161c126218afb977">getRotation</a> (void) const</td></tr>
-<tr class="memdesc:a059effba92116ca8161c126218afb977"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets rotation value 0-3.  <a href="classERMCH1115__graphics.html#a059effba92116ca8161c126218afb977">More...</a><br /></td></tr>
-<tr class="separator:a059effba92116ca8161c126218afb977"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8be5264e85557c7a4f617939cad7e656"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a8be5264e85557c7a4f617939cad7e656">setFontNum</a> (<a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a9fc1c90a41445434f188b6f886df8733">CH1115_Font_Type_e</a> FontNumber)</td></tr>
+<tr class="memdesc:a8be5264e85557c7a4f617939cad7e656"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the font type.  <a href="classERMCH1115__graphics.html#a8be5264e85557c7a4f617939cad7e656">More...</a><br /></td></tr>
+<tr class="separator:a8be5264e85557c7a4f617939cad7e656"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e8fc0e3d4a5fc95490e3ebec76e7ace"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a1611653fa2e84acad48eff5f12da8632">CH1115_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a5e8fc0e3d4a5fc95490e3ebec76e7ace">drawChar</a> (uint8_t x, uint8_t y, uint8_t c, uint8_t color, uint8_t bg)</td></tr>
+<tr class="memdesc:a5e8fc0e3d4a5fc95490e3ebec76e7ace"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes a character on display.  <a href="classERMCH1115__graphics.html#a5e8fc0e3d4a5fc95490e3ebec76e7ace">More...</a><br /></td></tr>
+<tr class="separator:a5e8fc0e3d4a5fc95490e3ebec76e7ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5126f69a9fe06d8b36a440351b71ce1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a1611653fa2e84acad48eff5f12da8632">CH1115_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a5126f69a9fe06d8b36a440351b71ce1f">drawText</a> (uint8_t x, uint8_t y, char *pText, uint8_t color, uint8_t bg)</td></tr>
+<tr class="memdesc:a5126f69a9fe06d8b36a440351b71ce1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes text string (*ptext) on the display.  <a href="classERMCH1115__graphics.html#a5126f69a9fe06d8b36a440351b71ce1f">More...</a><br /></td></tr>
+<tr class="separator:a5126f69a9fe06d8b36a440351b71ce1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c7b71600292bfb9b81b3b54e5babf91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a1611653fa2e84acad48eff5f12da8632">CH1115_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a2c7b71600292bfb9b81b3b54e5babf91">drawChar</a> (int16_t x, int16_t y, unsigned char c, uint8_t color, uint8_t bg, uint8_t s)</td></tr>
+<tr class="memdesc:a2c7b71600292bfb9b81b3b54e5babf91"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes a character on the OLED  <a href="classERMCH1115__graphics.html#a2c7b71600292bfb9b81b3b54e5babf91">More...</a><br /></td></tr>
+<tr class="separator:a2c7b71600292bfb9b81b3b54e5babf91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a207c3c98f3192fa862d076753f64ea98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a1611653fa2e84acad48eff5f12da8632">CH1115_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a207c3c98f3192fa862d076753f64ea98">drawText</a> (uint8_t x, uint8_t y, char *pTxt, uint8_t c, uint8_t bg, uint8_t s)</td></tr>
+<tr class="memdesc:a207c3c98f3192fa862d076753f64ea98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes text string on the Display.  <a href="classERMCH1115__graphics.html#a207c3c98f3192fa862d076753f64ea98">More...</a><br /></td></tr>
+<tr class="separator:a207c3c98f3192fa862d076753f64ea98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0494ef159ea6da0f1834f519664f5b8e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a0494ef159ea6da0f1834f519664f5b8e">write</a> (uint8_t)</td></tr>
+<tr class="memdesc:a0494ef159ea6da0f1834f519664f5b8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">: called by the print class after it converts the data to a character  <a href="classERMCH1115__graphics.html#a0494ef159ea6da0f1834f519664f5b8e">More...</a><br /></td></tr>
+<tr class="separator:a0494ef159ea6da0f1834f519664f5b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae83ebe023ad8d1465dac72d801c4e1c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#ae83ebe023ad8d1465dac72d801c4e1c6">setRotation</a> (<a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a3e588f69b87c452e995948db74554b91">CH1115_rotate_e</a>)</td></tr>
+<tr class="memdesc:ae83ebe023ad8d1465dac72d801c4e1c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the rotation of the display.  <a href="classERMCH1115__graphics.html#ae83ebe023ad8d1465dac72d801c4e1c6">More...</a><br /></td></tr>
+<tr class="separator:ae83ebe023ad8d1465dac72d801c4e1c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6106e197859f6854ee20d948b7eae68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a3e588f69b87c452e995948db74554b91">CH1115_rotate_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#aa6106e197859f6854ee20d948b7eae68">getRotation</a> (void)</td></tr>
+<tr class="memdesc:aa6106e197859f6854ee20d948b7eae68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the _rotation of the display.  <a href="classERMCH1115__graphics.html#aa6106e197859f6854ee20d948b7eae68">More...</a><br /></td></tr>
+<tr class="separator:aa6106e197859f6854ee20d948b7eae68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe2772474f8348023bba5642414aca9e"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#abe2772474f8348023bba5642414aca9e">height</a> (void) const</td></tr>
 <tr class="memdesc:abe2772474f8348023bba5642414aca9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the height of the display (per current rotation)  <a href="classERMCH1115__graphics.html#abe2772474f8348023bba5642414aca9e">More...</a><br /></td></tr>
 <tr class="separator:abe2772474f8348023bba5642414aca9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a559928ae424c740cc6012b3f7e5e0204"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a559928ae424c740cc6012b3f7e5e0204">width</a> (void) const</td></tr>
 <tr class="memdesc:a559928ae424c740cc6012b3f7e5e0204"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the width of the display (per current rotation)  <a href="classERMCH1115__graphics.html#a559928ae424c740cc6012b3f7e5e0204">More...</a><br /></td></tr>
 <tr class="separator:a559928ae424c740cc6012b3f7e5e0204"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81294d00838e3ce3fc2b826051b84833"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a81294d00838e3ce3fc2b826051b84833">setFontNum</a> (<a class="el" href="classERMCH1115__graphics.html#a86cca6f4a534f0f6da8a1c4ef3a8f232">OLEDFontType_e</a> FontNumber)</td></tr>
-<tr class="memdesc:a81294d00838e3ce3fc2b826051b84833"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current font type.  <a href="classERMCH1115__graphics.html#a81294d00838e3ce3fc2b826051b84833">More...</a><br /></td></tr>
-<tr class="separator:a81294d00838e3ce3fc2b826051b84833"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa80b3e3fc9915c4448d957e7d43b72b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#aaa80b3e3fc9915c4448d957e7d43b72b">drawChar</a> (int16_t x, int16_t y, unsigned char c, uint8_t color, uint8_t bg, uint8_t size)</td></tr>
-<tr class="memdesc:aaa80b3e3fc9915c4448d957e7d43b72b"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes a char (c) on the OLED  <a href="classERMCH1115__graphics.html#aaa80b3e3fc9915c4448d957e7d43b72b">More...</a><br /></td></tr>
-<tr class="separator:aaa80b3e3fc9915c4448d957e7d43b72b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabd3ee6677d2f0d914b702f5f2f169cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#aabd3ee6677d2f0d914b702f5f2f169cb">drawText</a> (uint8_t x, uint8_t y, char *pText, uint8_t color, uint8_t bg, uint8_t size)</td></tr>
-<tr class="memdesc:aabd3ee6677d2f0d914b702f5f2f169cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes text string on the OLED.  <a href="classERMCH1115__graphics.html#aabd3ee6677d2f0d914b702f5f2f169cb">More...</a><br /></td></tr>
-<tr class="separator:aabd3ee6677d2f0d914b702f5f2f169cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90bf1e209ef58bccaa7191a9a27d6cd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a90bf1e209ef58bccaa7191a9a27d6cd4">drawCharNum</a> (uint8_t x, uint8_t y, uint8_t c, uint8_t color, uint8_t bg)</td></tr>
-<tr class="memdesc:a90bf1e209ef58bccaa7191a9a27d6cd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes a char (c) on the OLED  <a href="classERMCH1115__graphics.html#a90bf1e209ef58bccaa7191a9a27d6cd4">More...</a><br /></td></tr>
-<tr class="separator:a90bf1e209ef58bccaa7191a9a27d6cd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19eb9b7ca63295930efe9b7f789a2ace"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a19eb9b7ca63295930efe9b7f789a2ace">drawTextNum</a> (uint8_t x, uint8_t y, char *pText, uint8_t color, uint8_t bg)</td></tr>
-<tr class="memdesc:a19eb9b7ca63295930efe9b7f789a2ace"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes text string (*ptext) on the OLED.  <a href="classERMCH1115__graphics.html#a19eb9b7ca63295930efe9b7f789a2ace">More...</a><br /></td></tr>
-<tr class="separator:a19eb9b7ca63295930efe9b7f789a2ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -208,60 +192,82 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ab0c72559e400e29950748f93d6d44b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25d4c6da3130487caeb21964c8e54e0c"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a25d4c6da3130487caeb21964c8e54e0c">_height</a></td></tr>
 <tr class="separator:a25d4c6da3130487caeb21964c8e54e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37e5ca35f8bf8ee1518d577c46106741"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a37e5ca35f8bf8ee1518d577c46106741">cursor_x</a></td></tr>
-<tr class="separator:a37e5ca35f8bf8ee1518d577c46106741"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95b32d8bb75bf275fb12938707b51f50"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a95b32d8bb75bf275fb12938707b51f50">cursor_y</a></td></tr>
-<tr class="separator:a95b32d8bb75bf275fb12938707b51f50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3aac61e440d70242bf9492349669e8af"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a3aac61e440d70242bf9492349669e8af">textcolor</a></td></tr>
-<tr class="separator:a3aac61e440d70242bf9492349669e8af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03ae0f8eabf9baea38dfa1074ed1dc5f"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a03ae0f8eabf9baea38dfa1074ed1dc5f">textbgcolor</a></td></tr>
-<tr class="separator:a03ae0f8eabf9baea38dfa1074ed1dc5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66205156394ba95407bfad08a5f221ce"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a66205156394ba95407bfad08a5f221ce">textsize</a></td></tr>
-<tr class="separator:a66205156394ba95407bfad08a5f221ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fd66f0c1652aaa6e87f89bba4d6bfb1"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a5fd66f0c1652aaa6e87f89bba4d6bfb1">rotation</a></td></tr>
-<tr class="separator:a5fd66f0c1652aaa6e87f89bba4d6bfb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05bb79433ebe2524e4d81f4d20f3c62d"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a05bb79433ebe2524e4d81f4d20f3c62d">wrap</a></td></tr>
-<tr class="separator:a05bb79433ebe2524e4d81f4d20f3c62d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5786ad29bc121d9060bc4b8976ed23ae"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a5786ad29bc121d9060bc4b8976ed23ae">drawBitmapAddr</a></td></tr>
-<tr class="separator:a5786ad29bc121d9060bc4b8976ed23ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf03aac346310c890e98dfed031e435e"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#aaf03aac346310c890e98dfed031e435e">_FontNumber</a> = 1</td></tr>
-<tr class="separator:aaf03aac346310c890e98dfed031e435e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29043a1228e29684b549e3999d7ad007"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a29043a1228e29684b549e3999d7ad007">_CurrentFontWidth</a> = 5</td></tr>
-<tr class="separator:a29043a1228e29684b549e3999d7ad007"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab94a19ccf89f6e14cb1a912b4b59b288"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#ab94a19ccf89f6e14cb1a912b4b59b288">_CurrentFontoffset</a> = 0x00</td></tr>
-<tr class="separator:ab94a19ccf89f6e14cb1a912b4b59b288"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acadd0710b4cc5adde73b24514f712725"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#acadd0710b4cc5adde73b24514f712725">_CurrentFontheight</a> = 8</td></tr>
-<tr class="separator:acadd0710b4cc5adde73b24514f712725"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bc95e60690213385cf26c8e6a3acbea"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a2bc95e60690213385cf26c8e6a3acbea">_cursorX</a> =0</td></tr>
+<tr class="separator:a2bc95e60690213385cf26c8e6a3acbea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa724e747320266f07f6d8e4c55020d4b"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#aa724e747320266f07f6d8e4c55020d4b">_cursorY</a> =0</td></tr>
+<tr class="separator:aa724e747320266f07f6d8e4c55020d4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a345290e04b020e251fd081500c08c807"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a3e588f69b87c452e995948db74554b91">CH1115_rotate_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a345290e04b020e251fd081500c08c807">_OLED_rotate</a> = <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a3e588f69b87c452e995948db74554b91a0ea3c5f4d34d652f57bd4ab0ef4a3a90">CH1115_Degrees_0</a></td></tr>
+<tr class="separator:a345290e04b020e251fd081500c08c807"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86e26e15d4bbb3f6c8a0ca2d50db0c09"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a86e26e15d4bbb3f6c8a0ca2d50db0c09">_textColor</a> = 0x00</td></tr>
+<tr class="separator:a86e26e15d4bbb3f6c8a0ca2d50db0c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4136cca941a80fc3ec834e444011728"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#ab4136cca941a80fc3ec834e444011728">_textBgColor</a> = 0x01</td></tr>
+<tr class="separator:ab4136cca941a80fc3ec834e444011728"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae01dffe902bc3f65bd11011aea350cfe"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#ae01dffe902bc3f65bd11011aea350cfe">_textSize</a> =1</td></tr>
+<tr class="separator:ae01dffe902bc3f65bd11011aea350cfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0d2d81216a53e544668c2aba89ef3da"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#aa0d2d81216a53e544668c2aba89ef3da">_textWrap</a> =true</td></tr>
+<tr class="separator:aa0d2d81216a53e544668c2aba89ef3da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb8ca869b4d00442844ffb01aad4d588"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#aeb8ca869b4d00442844ffb01aad4d588">_drawBitmapAddr</a> = true</td></tr>
+<tr class="separator:aeb8ca869b4d00442844ffb01aad4d588"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
-<tr class="memitem:a54f7765afe8edef1d7f371eee8a1d69f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a54f7765afe8edef1d7f371eee8a1d69f">OLEDFontWidth_e</a> : uint8_t { <br />
-&#160;&#160;<a class="el" href="classERMCH1115__graphics.html#a54f7765afe8edef1d7f371eee8a1d69fa47cdfb3002caed982c9d557855c2f1c1">OLEDFontWidth_3</a> = 3
-, <a class="el" href="classERMCH1115__graphics.html#a54f7765afe8edef1d7f371eee8a1d69fa74264623d633b378e431332d099cf362">OLEDFontWidth_4</a> = 4
-, <a class="el" href="classERMCH1115__graphics.html#a54f7765afe8edef1d7f371eee8a1d69faf6a2956255810ad1f000233ec4b0f4b1">OLEDFontWidth_5</a> = 5
-, <a class="el" href="classERMCH1115__graphics.html#a54f7765afe8edef1d7f371eee8a1d69fa94fc949ab6cbd8bc1e7eadfba1ab6b09">OLEDFontWidth_7</a> = 7
+<tr class="memitem:a288483f5a6bf0bc9200f9c8087a8d8b4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a288483f5a6bf0bc9200f9c8087a8d8b4">OLED_Font_width_e</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="classERMCH1115__graphics.html#a288483f5a6bf0bc9200f9c8087a8d8b4a207d8aa0c71f57fd0ead1291f5230994">CH1115Font_width_3</a> = 3
+, <a class="el" href="classERMCH1115__graphics.html#a288483f5a6bf0bc9200f9c8087a8d8b4aaacb9d0e681011c2e169051d5b578c75">CH1115Font_width_4</a> = 4
+, <a class="el" href="classERMCH1115__graphics.html#a288483f5a6bf0bc9200f9c8087a8d8b4ab2a29e366ac2545c80de1cf141db6e7d">CH1115Font_width_5</a> = 5
+, <a class="el" href="classERMCH1115__graphics.html#a288483f5a6bf0bc9200f9c8087a8d8b4afd137371245683bd09233037f2861dd4">CH1115Font_width_6</a> = 6
 , <br />
-&#160;&#160;<a class="el" href="classERMCH1115__graphics.html#a54f7765afe8edef1d7f371eee8a1d69fa1713bcff739a7c94386c54d0ace54c89">OLEDFontWidth_8</a> = 8
-, <a class="el" href="classERMCH1115__graphics.html#a54f7765afe8edef1d7f371eee8a1d69fa3b4994562640b734c2705fb2d56c27c6">OLEDFontWidth_16</a> = 16
+&#160;&#160;<a class="el" href="classERMCH1115__graphics.html#a288483f5a6bf0bc9200f9c8087a8d8b4acdc30115a7517dd297557e7637beb9d5">CH1115Font_width_7</a> = 7
+, <a class="el" href="classERMCH1115__graphics.html#a288483f5a6bf0bc9200f9c8087a8d8b4afcd221528ce7afdcefb2d0ecb04c2072">CH1115Font_width_8</a> = 8
+, <a class="el" href="classERMCH1115__graphics.html#a288483f5a6bf0bc9200f9c8087a8d8b4a5aa8a260fec8462d247192727b6dd29a">CH1115Font_width_16</a> = 16
 <br />
  }</td></tr>
-<tr class="separator:a54f7765afe8edef1d7f371eee8a1d69f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd3b63a933d1e69363a33bdb67e9da65"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#acd3b63a933d1e69363a33bdb67e9da65">OLEDFontOffset_e</a> { <a class="el" href="classERMCH1115__graphics.html#acd3b63a933d1e69363a33bdb67e9da65a906dfa843376fce59352c977b9999c11">OLEDFontOffset_Extend</a> = 0x00
-, <a class="el" href="classERMCH1115__graphics.html#acd3b63a933d1e69363a33bdb67e9da65a8cbb2e1e60db695740a2792df2659573">OLEDFontOffset_Space</a> = 0x20
-, <a class="el" href="classERMCH1115__graphics.html#acd3b63a933d1e69363a33bdb67e9da65a8ba4ebd89ec1ee77df089876ea7439fd">OLEDFontOffset_Number</a> = 0x30
+<tr class="separator:a288483f5a6bf0bc9200f9c8087a8d8b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aba6a8b3c9a87fc4cef7f5f46e5e79c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a2aba6a8b3c9a87fc4cef7f5f46e5e79c">OLED_Font_offset_e</a> : uint8_t { <a class="el" href="classERMCH1115__graphics.html#a2aba6a8b3c9a87fc4cef7f5f46e5e79ca32ef7eb468e23d2169305706089ccde5">CH1115Font_offset_none</a> = 0x00
+, <a class="el" href="classERMCH1115__graphics.html#a2aba6a8b3c9a87fc4cef7f5f46e5e79cadcb3f1ded0695981e8913108719edc36">CH1115Font_offset_space</a> = 0x20
+, <a class="el" href="classERMCH1115__graphics.html#a2aba6a8b3c9a87fc4cef7f5f46e5e79cafe72b12e8c640275c3b830466ae554cf">CH1115Font_offset_minus</a> = 0x2D
+, <a class="el" href="classERMCH1115__graphics.html#a2aba6a8b3c9a87fc4cef7f5f46e5e79ca60afc480ad470d53800c6f3defa7bc85">CH1115Font_offset_zero</a> = 0x30
  }</td></tr>
-<tr class="separator:acd3b63a933d1e69363a33bdb67e9da65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a399472e8c4b60b10f6fea1218da6fa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a6a399472e8c4b60b10f6fea1218da6fa">OLEDFontHeight_e</a> : uint8_t { <a class="el" href="classERMCH1115__graphics.html#a6a399472e8c4b60b10f6fea1218da6faa069ebab0d3d940ddc9f3ebf5feb39b6c">OLEDFontHeight_8</a> = 8
-, <a class="el" href="classERMCH1115__graphics.html#a6a399472e8c4b60b10f6fea1218da6faaaf6fec92bfba3451bfb9f737dad474fc">OLEDFontHeight_16</a> = 16
-, <a class="el" href="classERMCH1115__graphics.html#a6a399472e8c4b60b10f6fea1218da6faa8e7611e91d14116a8b803cf492fb87e0">OLEDFontHeight_32</a> = 32
+<tr class="separator:a2aba6a8b3c9a87fc4cef7f5f46e5e79c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31159aff8c34aee1f5d8666ae94042fb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a31159aff8c34aee1f5d8666ae94042fb">OLED_Font_height_e</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="classERMCH1115__graphics.html#a31159aff8c34aee1f5d8666ae94042fbac3161e803b9baffb24183f7a35d85bf1">CH1115Font_height_8</a> = 8
+, <a class="el" href="classERMCH1115__graphics.html#a31159aff8c34aee1f5d8666ae94042fbada83e3739598a321e91df357af9fbdcf">CH1115Font_height_12</a> = 12
+, <a class="el" href="classERMCH1115__graphics.html#a31159aff8c34aee1f5d8666ae94042fba35d7ba8be133d72393ad9859a366277c">CH1115Font_height_16</a> = 16
+, <a class="el" href="classERMCH1115__graphics.html#a31159aff8c34aee1f5d8666ae94042fba29eb80e5d195c710bda3ebb216b773d1">CH1115Font_height_24</a> = 24
+, <br />
+&#160;&#160;<a class="el" href="classERMCH1115__graphics.html#a31159aff8c34aee1f5d8666ae94042fba842bd423256958a435abdc14044c95f6">CH1115Font_height_32</a> = 32
+<br />
  }</td></tr>
-<tr class="separator:a6a399472e8c4b60b10f6fea1218da6fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a31159aff8c34aee1f5d8666ae94042fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32f01caf696dbf0c122a7b6f66457065"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a32f01caf696dbf0c122a7b6f66457065">OLED_Font_Length_e</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="classERMCH1115__graphics.html#a32f01caf696dbf0c122a7b6f66457065aecaf0ff500394e56af2baac250d07b72">CH1115FontLenNumeric</a> = 14
+, <a class="el" href="classERMCH1115__graphics.html#a32f01caf696dbf0c122a7b6f66457065a6aacc62a6bebbb029451a445035cf75f">CH1115FontLenAlphaNumNoLCase</a> = 59
+, <a class="el" href="classERMCH1115__graphics.html#a32f01caf696dbf0c122a7b6f66457065ae4df4e36fad2bda390fff692966fdb73">CH1115FontLenAlphaNum</a> = 95
+, <a class="el" href="classERMCH1115__graphics.html#a32f01caf696dbf0c122a7b6f66457065af9bbc73cb1fae3330da95d20bc728403">CH1115FontLenHalf</a> = 128
+, <br />
+&#160;&#160;<a class="el" href="classERMCH1115__graphics.html#a32f01caf696dbf0c122a7b6f66457065a280fb581b1219b20bd75a70948cba2eb">CH1115FontLenAll</a> = 255
+<br />
+ }</td></tr>
+<tr class="separator:a32f01caf696dbf0c122a7b6f66457065"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aaf03aac346310c890e98dfed031e435e"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#aaf03aac346310c890e98dfed031e435e">_FontNumber</a> = 1</td></tr>
+<tr class="separator:aaf03aac346310c890e98dfed031e435e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29043a1228e29684b549e3999d7ad007"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a29043a1228e29684b549e3999d7ad007">_CurrentFontWidth</a> =5</td></tr>
+<tr class="separator:a29043a1228e29684b549e3999d7ad007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab94a19ccf89f6e14cb1a912b4b59b288"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#ab94a19ccf89f6e14cb1a912b4b59b288">_CurrentFontoffset</a> = 0</td></tr>
+<tr class="separator:ab94a19ccf89f6e14cb1a912b4b59b288"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acadd0710b4cc5adde73b24514f712725"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#acadd0710b4cc5adde73b24514f712725">_CurrentFontheight</a> = 8</td></tr>
+<tr class="separator:acadd0710b4cc5adde73b24514f712725"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a930b0596ca16b527850c44b4b1474db1"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115__graphics.html#a930b0596ca16b527850c44b4b1474db1">_CurrentFontLength</a> = 128</td></tr>
+<tr class="separator:a930b0596ca16b527850c44b4b1474db1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Graphics class to hold graphic related functions. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="a6a399472e8c4b60b10f6fea1218da6fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a399472e8c4b60b10f6fea1218da6fa">&#9670;&nbsp;</a></span>OLEDFontHeight_e</h2>
+<a id="a31159aff8c34aee1f5d8666ae94042fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31159aff8c34aee1f5d8666ae94042fb">&#9670;&nbsp;</a></span>OLED_Font_height_e</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -270,7 +276,7 @@ Private Types</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="classERMCH1115__graphics.html#a6a399472e8c4b60b10f6fea1218da6fa">ERMCH1115_graphics::OLEDFontHeight_e</a> : uint8_t</td>
+          <td class="memname">enum <a class="el" href="classERMCH1115__graphics.html#a31159aff8c34aee1f5d8666ae94042fb">ERMCH1115_graphics::OLED_Font_height_e</a> : uint8_t</td>
         </tr>
       </table>
   </td>
@@ -279,20 +285,24 @@ Private Types</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>height of the font in bits </p>
+<p>Height of the font in bits </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6a399472e8c4b60b10f6fea1218da6faa069ebab0d3d940ddc9f3ebf5feb39b6c"></a>OLEDFontHeight_8&#160;</td><td class="fielddoc"><p>8 font 1-6 at size 1 </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a31159aff8c34aee1f5d8666ae94042fbac3161e803b9baffb24183f7a35d85bf1"></a>CH1115Font_height_8&#160;</td><td class="fielddoc"><p>8 bit font 1-6 at size 1 </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a6a399472e8c4b60b10f6fea1218da6faaaf6fec92bfba3451bfb9f737dad474fc"></a>OLEDFontHeight_16&#160;</td><td class="fielddoc"><p>16 font 8 </p>
+<tr><td class="fieldname"><a id="a31159aff8c34aee1f5d8666ae94042fbada83e3739598a321e91df357af9fbdcf"></a>CH1115Font_height_12&#160;</td><td class="fielddoc"><p>12 bit font 12 </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a6a399472e8c4b60b10f6fea1218da6faa8e7611e91d14116a8b803cf492fb87e0"></a>OLEDFontHeight_32&#160;</td><td class="fielddoc"><p>32 font 7 </p>
+<tr><td class="fieldname"><a id="a31159aff8c34aee1f5d8666ae94042fba35d7ba8be133d72393ad9859a366277c"></a>CH1115Font_height_16&#160;</td><td class="fielddoc"><p>16 bit font 8, 10 11 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a31159aff8c34aee1f5d8666ae94042fba29eb80e5d195c710bda3ebb216b773d1"></a>CH1115Font_height_24&#160;</td><td class="fielddoc"><p>24 bit font 9 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a31159aff8c34aee1f5d8666ae94042fba842bd423256958a435abdc14044c95f6"></a>CH1115Font_height_32&#160;</td><td class="fielddoc"><p>32 bit font 7 </p>
 </td></tr>
 </table>
 
 </div>
 </div>
-<a id="acd3b63a933d1e69363a33bdb67e9da65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd3b63a933d1e69363a33bdb67e9da65">&#9670;&nbsp;</a></span>OLEDFontOffset_e</h2>
+<a id="a32f01caf696dbf0c122a7b6f66457065"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32f01caf696dbf0c122a7b6f66457065">&#9670;&nbsp;</a></span>OLED_Font_Length_e</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -301,7 +311,42 @@ Private Types</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="classERMCH1115__graphics.html#acd3b63a933d1e69363a33bdb67e9da65">ERMCH1115_graphics::OLEDFontOffset_e</a></td>
+          <td class="memname">enum <a class="el" href="classERMCH1115__graphics.html#a32f01caf696dbf0c122a7b6f66457065">ERMCH1115_graphics::OLED_Font_Length_e</a> : uint8_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Number of ASCII characters in Font </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a32f01caf696dbf0c122a7b6f66457065aecaf0ff500394e56af2baac250d07b72"></a>CH1115FontLenNumeric&#160;</td><td class="fielddoc"><p>extended Numeric 0x2D - 0x3A </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a32f01caf696dbf0c122a7b6f66457065a6aacc62a6bebbb029451a445035cf75f"></a>CH1115FontLenAlphaNumNoLCase&#160;</td><td class="fielddoc"><p>reduced Alphanumeric 0x20-0x5A </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a32f01caf696dbf0c122a7b6f66457065ae4df4e36fad2bda390fff692966fdb73"></a>CH1115FontLenAlphaNum&#160;</td><td class="fielddoc"><p>Full Alphanumeric 0x20-0x7E </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a32f01caf696dbf0c122a7b6f66457065af9bbc73cb1fae3330da95d20bc728403"></a>CH1115FontLenHalf&#160;</td><td class="fielddoc"><p>half Range 0-127 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a32f01caf696dbf0c122a7b6f66457065a280fb581b1219b20bd75a70948cba2eb"></a>CH1115FontLenAll&#160;</td><td class="fielddoc"><p>Full Range 0-0xFF </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a2aba6a8b3c9a87fc4cef7f5f46e5e79c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2aba6a8b3c9a87fc4cef7f5f46e5e79c">&#9670;&nbsp;</a></span>OLED_Font_offset_e</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classERMCH1115__graphics.html#a2aba6a8b3c9a87fc4cef7f5f46e5e79c">ERMCH1115_graphics::OLED_Font_offset_e</a> : uint8_t</td>
         </tr>
       </table>
   </td>
@@ -312,54 +357,20 @@ Private Types</h2></td></tr>
 </div><div class="memdoc">
 <p>font offset in the ASCII table </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="acd3b63a933d1e69363a33bdb67e9da65a906dfa843376fce59352c977b9999c11"></a>OLEDFontOffset_Extend&#160;</td><td class="fielddoc"><p>extends ASCII </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2aba6a8b3c9a87fc4cef7f5f46e5e79ca32ef7eb468e23d2169305706089ccde5"></a>CH1115Font_offset_none&#160;</td><td class="fielddoc"><p>Full extended ASCII </p>
 </td></tr>
-<tr><td class="fieldname"><a id="acd3b63a933d1e69363a33bdb67e9da65a8cbb2e1e60db695740a2792df2659573"></a>OLEDFontOffset_Space&#160;</td><td class="fielddoc"><p>Starts at Space <br  />
- </p>
+<tr><td class="fieldname"><a id="a2aba6a8b3c9a87fc4cef7f5f46e5e79cadcb3f1ded0695981e8913108719edc36"></a>CH1115Font_offset_space&#160;</td><td class="fielddoc"><p>Starts at Space, alphanumeric </p>
 </td></tr>
-<tr><td class="fieldname"><a id="acd3b63a933d1e69363a33bdb67e9da65a8ba4ebd89ec1ee77df089876ea7439fd"></a>OLEDFontOffset_Number&#160;</td><td class="fielddoc"><p>Starts at number '0' </p>
+<tr><td class="fieldname"><a id="a2aba6a8b3c9a87fc4cef7f5f46e5e79cafe72b12e8c640275c3b830466ae554cf"></a>CH1115Font_offset_minus&#160;</td><td class="fielddoc"><p>Starts at Minus, extended numeric </p>
 </td></tr>
-</table>
-
-</div>
-</div>
-<a id="a86cca6f4a534f0f6da8a1c4ef3a8f232"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86cca6f4a534f0f6da8a1c4ef3a8f232">&#9670;&nbsp;</a></span>OLEDFontType_e</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="classERMCH1115__graphics.html#a86cca6f4a534f0f6da8a1c4ef3a8f232">ERMCH1115_graphics::OLEDFontType_e</a> : uint8_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Enum to define current font type selected <br  />
- </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a86cca6f4a534f0f6da8a1c4ef3a8f232ac8f2b1f78bdf36ec4a7d29aefcdb7282"></a>OLEDFontType_Default&#160;</td><td class="fielddoc"><p>(1) default (FUll ASCII with mods) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a86cca6f4a534f0f6da8a1c4ef3a8f232a8fb84cf77bc19aecac6e9bb3eda33cdd"></a>OLEDFontType_Thick&#160;</td><td class="fielddoc"><p>(2) thick (NO LOWERCASE) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a86cca6f4a534f0f6da8a1c4ef3a8f232a1cf6d33ccb1e4985c9df9879b7e040c2"></a>OLEDFontType_SevenSeg&#160;</td><td class="fielddoc"><p>(3) seven segment <br  />
- </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a86cca6f4a534f0f6da8a1c4ef3a8f232a8fe4bb5217750497b8654934fedd2e2d"></a>OLEDFontType_Wide&#160;</td><td class="fielddoc"><p>(4) wide (NO LOWERCASE) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a86cca6f4a534f0f6da8a1c4ef3a8f232abb58228b4ba08726549d3fa194f9e50a"></a>OLEDFontType_Tiny&#160;</td><td class="fielddoc"><p>(5) tiny </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a86cca6f4a534f0f6da8a1c4ef3a8f232a49c8652c352c8b09289a386ad0beaf21"></a>OLEDFontType_Homespun&#160;</td><td class="fielddoc"><p>(6) HomeSpun </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a86cca6f4a534f0f6da8a1c4ef3a8f232a2d381ed1a03035fe3e27330b3394898d"></a>OLEDFontType_Bignum&#160;</td><td class="fielddoc"><p>(7) big numbers NUMBERS only + : . ,fixed size </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a86cca6f4a534f0f6da8a1c4ef3a8f232ad044763c8f751bd9b9864e8223aad127"></a>OLEDFontType_Mednum&#160;</td><td class="fielddoc"><p>(8) Med numbers NUMBERS + : . , fixed size </p>
+<tr><td class="fieldname"><a id="a2aba6a8b3c9a87fc4cef7f5f46e5e79ca60afc480ad470d53800c6f3defa7bc85"></a>CH1115Font_offset_zero&#160;</td><td class="fielddoc"><p>Starts at zero, numeric </p>
 </td></tr>
 </table>
 
 </div>
 </div>
-<a id="a54f7765afe8edef1d7f371eee8a1d69f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54f7765afe8edef1d7f371eee8a1d69f">&#9670;&nbsp;</a></span>OLEDFontWidth_e</h2>
+<a id="a288483f5a6bf0bc9200f9c8087a8d8b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a288483f5a6bf0bc9200f9c8087a8d8b4">&#9670;&nbsp;</a></span>OLED_Font_width_e</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -368,7 +379,7 @@ Private Types</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="classERMCH1115__graphics.html#a54f7765afe8edef1d7f371eee8a1d69f">ERMCH1115_graphics::OLEDFontWidth_e</a> : uint8_t</td>
+          <td class="memname">enum <a class="el" href="classERMCH1115__graphics.html#a288483f5a6bf0bc9200f9c8087a8d8b4">ERMCH1115_graphics::OLED_Font_width_e</a> : uint8_t</td>
         </tr>
       </table>
   </td>
@@ -377,19 +388,22 @@ Private Types</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Width of the font in bits . </p>
+<p>Width of the font in bits each representing a bytes sized column </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a54f7765afe8edef1d7f371eee8a1d69fa47cdfb3002caed982c9d557855c2f1c1"></a>OLEDFontWidth_3&#160;</td><td class="fielddoc"><p>3 tiny font </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a288483f5a6bf0bc9200f9c8087a8d8b4a207d8aa0c71f57fd0ead1291f5230994"></a>CH1115Font_width_3&#160;</td><td class="fielddoc"><p>3 tiny font </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a54f7765afe8edef1d7f371eee8a1d69fa74264623d633b378e431332d099cf362"></a>OLEDFontWidth_4&#160;</td><td class="fielddoc"><p>4 seven segment font </p>
+<tr><td class="fieldname"><a id="a288483f5a6bf0bc9200f9c8087a8d8b4aaacb9d0e681011c2e169051d5b578c75"></a>CH1115Font_width_4&#160;</td><td class="fielddoc"><p>4 seven segment font </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a54f7765afe8edef1d7f371eee8a1d69faf6a2956255810ad1f000233ec4b0f4b1"></a>OLEDFontWidth_5&#160;</td><td class="fielddoc"><p>5 default font </p>
+<tr><td class="fieldname"><a id="a288483f5a6bf0bc9200f9c8087a8d8b4ab2a29e366ac2545c80de1cf141db6e7d"></a>CH1115Font_width_5&#160;</td><td class="fielddoc"><p>5 default font </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a54f7765afe8edef1d7f371eee8a1d69fa94fc949ab6cbd8bc1e7eadfba1ab6b09"></a>OLEDFontWidth_7&#160;</td><td class="fielddoc"><p>7 homespun &amp; thick font </p>
+<tr><td class="fieldname"><a id="a288483f5a6bf0bc9200f9c8087a8d8b4afd137371245683bd09233037f2861dd4"></a>CH1115Font_width_6&#160;</td><td class="fielddoc"><p>12 dedica font <br  />
+ </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a54f7765afe8edef1d7f371eee8a1d69fa1713bcff739a7c94386c54d0ace54c89"></a>OLEDFontWidth_8&#160;</td><td class="fielddoc"><p>8 wide font </p>
+<tr><td class="fieldname"><a id="a288483f5a6bf0bc9200f9c8087a8d8b4acdc30115a7517dd297557e7637beb9d5"></a>CH1115Font_width_7&#160;</td><td class="fielddoc"><p>6 homespun &amp; 2 thick font </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a54f7765afe8edef1d7f371eee8a1d69fa3b4994562640b734c2705fb2d56c27c6"></a>OLEDFontWidth_16&#160;</td><td class="fielddoc"><p>Big and Medium number font </p>
+<tr><td class="fieldname"><a id="a288483f5a6bf0bc9200f9c8087a8d8b4afcd221528ce7afdcefb2d0ecb04c2072"></a>CH1115Font_width_8&#160;</td><td class="fielddoc"><p>8 wide &amp; mia font </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a288483f5a6bf0bc9200f9c8087a8d8b4a5aa8a260fec8462d247192727b6dd29a"></a>CH1115Font_width_16&#160;</td><td class="fielddoc"><p>16 font 7-10 </p>
 </td></tr>
 </table>
 
@@ -423,6 +437,8 @@ Private Types</h2></td></tr>
 </div><div class="memdoc">
 
 <p>init the OLED Graphics class object </p>
+<p>CH1115 Enum to define current font type selected <br  />
+</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">w</td><td>width defined in sub-class </td></tr>
@@ -434,14 +450,14 @@ Private Types</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aefe89068ecc6e7b479b57c0ffa7f46de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefe89068ecc6e7b479b57c0ffa7f46de">&#9670;&nbsp;</a></span>drawBitmap()</h2>
+<a id="a2db747e7648834df1b3d45129c6916dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2db747e7648834df1b3d45129c6916dd">&#9670;&nbsp;</a></span>drawBitmap()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ERMCH1115_graphics::drawBitmap </td>
+          <td class="memname"><a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a1611653fa2e84acad48eff5f12da8632">CH1115_Return_Codes_e</a> ERMCH1115_graphics::drawBitmap </td>
           <td>(</td>
           <td class="paramtype">int16_t&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -503,22 +519,27 @@ Private Types</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>CH1115_Return_Codes_e enum. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Variable drawBitmapAddr controls data addressing<ol type="1">
 <li>drawBitmapAddr = true Vertical data addressing</li>
-<li>drawBitmapAddr = false Horizontal data addressing </li>
+<li>drawBitmapAddr = false Horizontal data addressing</li>
+<li>A vertical Bitmap's h must be divisible by 8.for a bitmap with h=128 &amp; h=64.</li>
+<li>Bitmap excepted size = 128 * (64/8) = 1024 bytes.</li>
+<li>A horizontal Bitmap's w must be divisible by 8. For a bitmap with w=88 &amp; h=48.</li>
+<li>Bitmap excepted size = (88/8) * 48 = 528 bytes. </li>
 </ol>
 </dd></dl>
 
 </div>
 </div>
-<a id="aaa80b3e3fc9915c4448d957e7d43b72b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa80b3e3fc9915c4448d957e7d43b72b">&#9670;&nbsp;</a></span>drawChar()</h2>
+<a id="a2c7b71600292bfb9b81b3b54e5babf91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c7b71600292bfb9b81b3b54e5babf91">&#9670;&nbsp;</a></span>drawChar() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ERMCH1115_graphics::drawChar </td>
+          <td class="memname"><a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a1611653fa2e84acad48eff5f12da8632">CH1115_Return_Codes_e</a> ERMCH1115_graphics::drawChar </td>
           <td>(</td>
           <td class="paramtype">int16_t&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -533,7 +554,7 @@ Private Types</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned char&#160;</td>
-          <td class="paramname"><em>c</em>, </td>
+          <td class="paramname"><em>character</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -561,30 +582,31 @@ Private Types</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>writes a char (c) on the OLED </p>
+<p>writes a character on the OLED </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">x</td><td>X coordinate </td></tr>
     <tr><td class="paramname">y</td><td>Y coordinate </td></tr>
-    <tr><td class="paramname">c</td><td>The ASCII character </td></tr>
+    <tr><td class="paramname">character</td><td>The ASCII character </td></tr>
     <tr><td class="paramname">color</td><td>color </td></tr>
     <tr><td class="paramname">bg</td><td>background color </td></tr>
     <tr><td class="paramname">size</td><td>1-x </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>CH1115_Return_Codes_e enum. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>for font #1-6 only </dd></dl>
 
 </div>
 </div>
-<a id="a90bf1e209ef58bccaa7191a9a27d6cd4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90bf1e209ef58bccaa7191a9a27d6cd4">&#9670;&nbsp;</a></span>drawCharNum()</h2>
+<a id="a5e8fc0e3d4a5fc95490e3ebec76e7ace"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e8fc0e3d4a5fc95490e3ebec76e7ace">&#9670;&nbsp;</a></span>drawChar() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ERMCH1115_graphics::drawCharNum </td>
+          <td class="memname"><a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a1611653fa2e84acad48eff5f12da8632">CH1115_Return_Codes_e</a> ERMCH1115_graphics::drawChar </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -599,7 +621,7 @@ Private Types</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>c</em>, </td>
+          <td class="paramname"><em>character</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -621,18 +643,19 @@ Private Types</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>writes a char (c) on the OLED </p>
+<p>writes a character on display. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">x</td><td>X coordinate </td></tr>
     <tr><td class="paramname">y</td><td>Y coordinate </td></tr>
-    <tr><td class="paramname">c</td><td>The ASCII character </td></tr>
+    <tr><td class="paramname">character</td><td>The ASCII character </td></tr>
     <tr><td class="paramname">color</td><td></td></tr>
     <tr><td class="paramname">bg</td><td>background color </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>for font 7,8 only </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>CH1115_Return_Codes_e enum. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>for font 7-12 only </dd></dl>
 
 </div>
 </div>
@@ -692,9 +715,6 @@ Private Types</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ERMCH1115_graphics::drawFastHLine </td>
@@ -726,11 +746,6 @@ Private Types</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Draws a horizontal line starting at (x,y) with width w. </p>
@@ -751,9 +766,6 @@ Private Types</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ERMCH1115_graphics::drawFastVLine </td>
@@ -785,11 +797,6 @@ Private Types</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Draws a vertical line starting at (x,y) with height h. </p>
@@ -810,9 +817,6 @@ Private Types</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ERMCH1115_graphics::drawLine </td>
@@ -850,11 +854,6 @@ Private Types</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>draws a line from (x0,y0) to (x1,y1). </p>
@@ -876,9 +875,6 @@ Private Types</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ERMCH1115_graphics::drawRect </td>
@@ -916,11 +912,6 @@ Private Types</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>draws rectangle at (x,y) where h is height and w is width of the rectangle. </p>
@@ -1002,14 +993,74 @@ Private Types</h2></td></tr>
 
 </div>
 </div>
-<a id="aabd3ee6677d2f0d914b702f5f2f169cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabd3ee6677d2f0d914b702f5f2f169cb">&#9670;&nbsp;</a></span>drawText()</h2>
+<a id="a5126f69a9fe06d8b36a440351b71ce1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5126f69a9fe06d8b36a440351b71ce1f">&#9670;&nbsp;</a></span>drawText() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ERMCH1115_graphics::drawText </td>
+          <td class="memname"><a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a1611653fa2e84acad48eff5f12da8632">CH1115_Return_Codes_e</a> ERMCH1115_graphics::drawText </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>pText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>bg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes text string (*ptext) on the display. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>X coordinate </td></tr>
+    <tr><td class="paramname">y</td><td>Y coordinate </td></tr>
+    <tr><td class="paramname">pText</td><td>pointer to string of ASCII character's </td></tr>
+    <tr><td class="paramname">color</td><td>text color </td></tr>
+    <tr><td class="paramname">bg</td><td>background color </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>CH1115_Return_Codes_e enum. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>for font 7-12 only </dd></dl>
+
+</div>
+</div>
+<a id="a207c3c98f3192fa862d076753f64ea98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a207c3c98f3192fa862d076753f64ea98">&#9670;&nbsp;</a></span>drawText() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a1611653fa2e84acad48eff5f12da8632">CH1115_Return_Codes_e</a> ERMCH1115_graphics::drawText </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -1052,7 +1103,7 @@ Private Types</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Writes text string on the OLED. </p>
+<p>Writes text string on the Display. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">x</td><td>X coordinate </td></tr>
@@ -1064,66 +1115,8 @@ Private Types</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>CH1115_Return_Codes_e enum. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>for font #1-6 only </dd></dl>
-
-</div>
-</div>
-<a id="a19eb9b7ca63295930efe9b7f789a2ace"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19eb9b7ca63295930efe9b7f789a2ace">&#9670;&nbsp;</a></span>drawTextNum()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ERMCH1115_graphics::drawTextNum </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>pText</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>color</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>bg</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Writes text string (*ptext) on the OLED. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">x</td><td>X coordinate </td></tr>
-    <tr><td class="paramname">y</td><td>Y coordinate </td></tr>
-    <tr><td class="paramname">pText</td><td>pointer to string of ASCII character's </td></tr>
-    <tr><td class="paramname">color</td><td>text color </td></tr>
-    <tr><td class="paramname">bg</td><td>background color </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>for font 7,8 only </dd></dl>
 
 </div>
 </div>
@@ -1255,9 +1248,6 @@ Private Types</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ERMCH1115_graphics::fillRect </td>
@@ -1295,11 +1285,6 @@ Private Types</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>fills a rectangle starting from coordinates (x,y) with width of w and height of h. </p>
@@ -1386,9 +1371,6 @@ Private Types</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ERMCH1115_graphics::fillScreen </td>
@@ -1398,11 +1380,6 @@ Private Types</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Fills the whole screen with a given color. </p>
@@ -1487,24 +1464,24 @@ Private Types</h2></td></tr>
 
 </div>
 </div>
-<a id="a059effba92116ca8161c126218afb977"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a059effba92116ca8161c126218afb977">&#9670;&nbsp;</a></span>getRotation()</h2>
+<a id="aa6106e197859f6854ee20d948b7eae68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6106e197859f6854ee20d948b7eae68">&#9670;&nbsp;</a></span>getRotation()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t ERMCH1115_graphics::getRotation </td>
+          <td class="memname"><a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a3e588f69b87c452e995948db74554b91">CH1115_rotate_e</a> ERMCH1115_graphics::getRotation </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Gets rotation value 0-3. </p>
-<dl class="section return"><dt>Returns</dt><dd>value 0-3 for rotation 0-3 is mapped to 0 90 180 270 degrees </dd></dl>
+<p>Gets the _rotation of the display. </p>
+<dl class="section return"><dt>Returns</dt><dd>rotation enum value 0-3 </dd></dl>
 
 </div>
 </div>
@@ -1597,8 +1574,8 @@ Private Types</h2></td></tr>
 
 </div>
 </div>
-<a id="a81294d00838e3ce3fc2b826051b84833"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81294d00838e3ce3fc2b826051b84833">&#9670;&nbsp;</a></span>setFontNum()</h2>
+<a id="a8be5264e85557c7a4f617939cad7e656"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8be5264e85557c7a4f617939cad7e656">&#9670;&nbsp;</a></span>setFontNum()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1606,26 +1583,25 @@ Private Types</h2></td></tr>
         <tr>
           <td class="memname">void ERMCH1115_graphics::setFontNum </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classERMCH1115__graphics.html#a86cca6f4a534f0f6da8a1c4ef3a8f232">OLEDFontType_e</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a9fc1c90a41445434f188b6f886df8733">CH1115_Font_Type_e</a>&#160;</td>
           <td class="paramname"><em>FontNumber</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set the current font type. </p>
+<p>Set the font type. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">FontNumber</td><td>1-8 enum OLED_FONT_TYPE_e </td></tr>
+    <tr><td class="paramname">FontNumber</td><td>enum CH1115_FONT_TYPE_e </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>1=default 2=thick 3=seven segment 4=wide 5=tiny 6=homespun 7=bignums 8=mednums </dd></dl>
 
 </div>
 </div>
-<a id="ae3cdc15d540bee832397621297cf3843"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3cdc15d540bee832397621297cf3843">&#9670;&nbsp;</a></span>setRotation()</h2>
+<a id="ae83ebe023ad8d1465dac72d801c4e1c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae83ebe023ad8d1465dac72d801c4e1c6">&#9670;&nbsp;</a></span>setRotation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1633,20 +1609,21 @@ Private Types</h2></td></tr>
         <tr>
           <td class="memname">void ERMCH1115_graphics::setRotation </td>
           <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>x</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a3e588f69b87c452e995948db74554b91">CH1115_rotate_e</a>&#160;</td>
+          <td class="paramname"><em>CurrentRotation</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sets rotation value 0-3. </p>
+<p>Sets the rotation of the display. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">x</td><td>value 0-3 for rotation 0-3 is mapped to 0 90 180 270 degrees </td></tr>
+    <tr><td class="paramname">CurrentRotation</td><td>rotation enum value 0-3</td></tr>
   </table>
   </dd>
 </dl>
+<p>Note this is separate from OLED flip command method for rotation. This rotates the Software buffer. </p>
 
 </div>
 </div>
@@ -1757,7 +1734,7 @@ Private Types</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>turn on or off screen wrap of the text (fonts 1-6) </p>
+<p>turn on or off screen _textWrap of the text (fonts 1-6) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">w</td><td>TRUE on </td></tr>
@@ -1801,7 +1778,7 @@ Private Types</h2></td></tr>
           <td class="memname">void ERMCH1115_graphics::write </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>c</em></td><td>)</td>
+          <td class="paramname"><em>character</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1815,7 +1792,7 @@ Private Types</h2></td></tr>
 <p>: called by the print class after it converts the data to a character </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">c</td><td>character </td></tr>
+    <tr><td class="paramname">character</td><td>The character to write </td></tr>
   </table>
   </dd>
 </dl>
@@ -1838,11 +1815,34 @@ Private Types</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Holds current font height in bits </p>
+<p>Store current offset height </p>
+
+</div>
+</div>
+<a id="a930b0596ca16b527850c44b4b1474db1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a930b0596ca16b527850c44b4b1474db1">&#9670;&nbsp;</a></span>_CurrentFontLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t ERMCH1115_graphics::_CurrentFontLength = 128</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Store current font number of characters </p>
 
 </div>
 </div>
@@ -1856,16 +1856,16 @@ Private Types</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t ERMCH1115_graphics::_CurrentFontoffset = 0x00</td>
+          <td class="memname">uint8_t ERMCH1115_graphics::_CurrentFontoffset = 0</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Holds current font ASCII table offset </p>
+<p>Store current offset width </p>
 
 </div>
 </div>
@@ -1879,7 +1879,30 @@ Private Types</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t ERMCH1115_graphics::_CurrentFontWidth = 5</td>
+          <td class="memname">uint8_t ERMCH1115_graphics::_CurrentFontWidth =5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Store current font width </p>
+
+</div>
+</div>
+<a id="a2bc95e60690213385cf26c8e6a3acbea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bc95e60690213385cf26c8e6a3acbea">&#9670;&nbsp;</a></span>_cursorX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t ERMCH1115_graphics::_cursorX =0</td>
         </tr>
       </table>
   </td>
@@ -1888,7 +1911,53 @@ Private Types</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Holds current font width in bits </p>
+<p>Current X co-ord cursor position </p>
+
+</div>
+</div>
+<a id="aa724e747320266f07f6d8e4c55020d4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa724e747320266f07f6d8e4c55020d4b">&#9670;&nbsp;</a></span>_cursorY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t ERMCH1115_graphics::_cursorY =0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Current Y co-ord cursor position </p>
+
+</div>
+</div>
+<a id="aeb8ca869b4d00442844ffb01aad4d588"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb8ca869b4d00442844ffb01aad4d588">&#9670;&nbsp;</a></span>_drawBitmapAddr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean ERMCH1115_graphics::_drawBitmapAddr = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>data addressing mode for method drawBitmap, True-vertical , false-horizontal </p>
 
 </div>
 </div>
@@ -1907,11 +1976,11 @@ Private Types</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Holds current font number </p>
+<p>Store current font </p>
 
 </div>
 </div>
@@ -1938,6 +2007,121 @@ Private Types</h2></td></tr>
 
 </div>
 </div>
+<a id="a345290e04b020e251fd081500c08c807"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a345290e04b020e251fd081500c08c807">&#9670;&nbsp;</a></span>_OLED_rotate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a3e588f69b87c452e995948db74554b91">CH1115_rotate_e</a> ERMCH1115_graphics::_OLED_rotate = <a class="el" href="ER__OLEDM1__CH1115__graphics_8hpp.html#a3e588f69b87c452e995948db74554b91a0ea3c5f4d34d652f57bd4ab0ef4a3a90">CH1115_Degrees_0</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Enum to hold rotation </p>
+
+</div>
+</div>
+<a id="ab4136cca941a80fc3ec834e444011728"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4136cca941a80fc3ec834e444011728">&#9670;&nbsp;</a></span>_textBgColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t ERMCH1115_graphics::_textBgColor = 0x01</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Text background color </p>
+
+</div>
+</div>
+<a id="a86e26e15d4bbb3f6c8a0ca2d50db0c09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86e26e15d4bbb3f6c8a0ca2d50db0c09">&#9670;&nbsp;</a></span>_textColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t ERMCH1115_graphics::_textColor = 0x00</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Text foreground color </p>
+
+</div>
+</div>
+<a id="ae01dffe902bc3f65bd11011aea350cfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae01dffe902bc3f65bd11011aea350cfe">&#9670;&nbsp;</a></span>_textSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t ERMCH1115_graphics::_textSize =1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Size of text ,fonts 1-6 </p>
+
+</div>
+</div>
+<a id="aa0d2d81216a53e544668c2aba89ef3da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0d2d81216a53e544668c2aba89ef3da">&#9670;&nbsp;</a></span>_textWrap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean ERMCH1115_graphics::_textWrap =true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>If set, Wrap text at right edge of display </p>
+
+</div>
+</div>
 <a id="ab0c72559e400e29950748f93d6d44b8e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab0c72559e400e29950748f93d6d44b8e">&#9670;&nbsp;</a></span>_width</h2>
 
@@ -1958,75 +2142,6 @@ Private Types</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Display w as modified by current rotation </p>
-
-</div>
-</div>
-<a id="a37e5ca35f8bf8ee1518d577c46106741"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37e5ca35f8bf8ee1518d577c46106741">&#9670;&nbsp;</a></span>cursor_x</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int16_t ERMCH1115_graphics::cursor_x</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Current X co-ord cursor position </p>
-
-</div>
-</div>
-<a id="a95b32d8bb75bf275fb12938707b51f50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95b32d8bb75bf275fb12938707b51f50">&#9670;&nbsp;</a></span>cursor_y</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int16_t ERMCH1115_graphics::cursor_y</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Current Y co-ord cursor position </p>
-
-</div>
-</div>
-<a id="a5786ad29bc121d9060bc4b8976ed23ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5786ad29bc121d9060bc4b8976ed23ae">&#9670;&nbsp;</a></span>drawBitmapAddr</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">boolean ERMCH1115_graphics::drawBitmapAddr</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>data addressing mode for method drawBitmap, True-vertical , false-horizontal </p>
 
 </div>
 </div>
@@ -2053,98 +2168,6 @@ Private Types</h2></td></tr>
 
 </div>
 </div>
-<a id="a5fd66f0c1652aaa6e87f89bba4d6bfb1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5fd66f0c1652aaa6e87f89bba4d6bfb1">&#9670;&nbsp;</a></span>rotation</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t ERMCH1115_graphics::rotation</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Rotation of screen 0-3 </p>
-
-</div>
-</div>
-<a id="a03ae0f8eabf9baea38dfa1074ed1dc5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03ae0f8eabf9baea38dfa1074ed1dc5f">&#9670;&nbsp;</a></span>textbgcolor</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t ERMCH1115_graphics::textbgcolor</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Text background color </p>
-
-</div>
-</div>
-<a id="a3aac61e440d70242bf9492349669e8af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3aac61e440d70242bf9492349669e8af">&#9670;&nbsp;</a></span>textcolor</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t ERMCH1115_graphics::textcolor</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Text foreground color </p>
-
-</div>
-</div>
-<a id="a66205156394ba95407bfad08a5f221ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66205156394ba95407bfad08a5f221ce">&#9670;&nbsp;</a></span>textsize</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t ERMCH1115_graphics::textsize</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Size of text ,fonts 1-6 </p>
-
-</div>
-</div>
 <a id="ab821c6bc4ed1984f6311c6281741b5e3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab821c6bc4ed1984f6311c6281741b5e3">&#9670;&nbsp;</a></span>WIDTH</h2>
 
@@ -2165,29 +2188,6 @@ Private Types</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>This is the 'raw' display w - never changes </p>
-
-</div>
-</div>
-<a id="a05bb79433ebe2524e4d81f4d20f3c62d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05bb79433ebe2524e4d81f4d20f3c62d">&#9670;&nbsp;</a></span>wrap</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">boolean ERMCH1115_graphics::wrap</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>If set, 'wrap' text at right edge of display </p>
 
 </div>
 </div>
