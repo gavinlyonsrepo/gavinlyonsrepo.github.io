@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SSD1306_OLED_RPI
-   &#160;<span id="projectnumber">1.5.0</span>
+   &#160;<span id="projectnumber">1.6.0</span>
    </div>
    <div id="projectbrief">Library I2C 128X64 OLED Display Module Raspberry PI C++ library</div>
   </td>
@@ -46,6 +46,9 @@ $(function() {
 <li>_CurrentFontheight
 : <a class="el" href="classSSD1306__graphics.html#aee0f40f9fe730b62217256e8d24bd517">SSD1306_graphics</a>
 </li>
+<li>_CurrentFontLength
+: <a class="el" href="classSSD1306__graphics.html#a033dca3fae0849dbe2b8ce36e0fea4ef">SSD1306_graphics</a>
+</li>
 <li>_CurrentFontoffset
 : <a class="el" href="classSSD1306__graphics.html#a0b05360d431f1d351072f73569978612">SSD1306_graphics</a>
 </li>
@@ -70,6 +73,15 @@ $(function() {
 <li>_I2C_DebugFlag
 : <a class="el" href="classSSD1306.html#a05c9d71a1633ab215e08506033ac60ba">SSD1306</a>
 </li>
+<li>_I2C_ErrorDelay
+: <a class="el" href="classSSD1306.html#ab7dbd6cbb3fb8b7ef67e07d726324359">SSD1306</a>
+</li>
+<li>_I2C_ErrorFlag
+: <a class="el" href="classSSD1306.html#a6ca41567a438b10b72ecfd43285191b2">SSD1306</a>
+</li>
+<li>_I2C_ErrorRetryNum
+: <a class="el" href="classSSD1306.html#a0eb5863706b99873d48d5c140b718746">SSD1306</a>
+</li>
 <li>_I2C_speed
 : <a class="el" href="classSSD1306.html#a22a351e5ab4a5404c5c5bca437368780">SSD1306</a>
 </li>
@@ -82,20 +94,20 @@ $(function() {
 <li>_OLED_PAGE_NUM
 : <a class="el" href="classSSD1306.html#a79e81615eb269f6c9c4e2ed50ddc6a11">SSD1306</a>
 </li>
+<li>_OLED_rotate
+: <a class="el" href="classSSD1306__graphics.html#a48871d4d56c68a491abc6510b8423a0e">SSD1306_graphics</a>
+</li>
 <li>_OLED_WIDTH
 : <a class="el" href="classSSD1306.html#a0f414b7f66afd6754843a2d97c64b56e">SSD1306</a>
 </li>
-<li>_rotation
-: <a class="el" href="classSSD1306__graphics.html#a20f2b055365ccb684c6ec0c0ee5f105b">SSD1306_graphics</a>
+<li>_textBgColor
+: <a class="el" href="classSSD1306__graphics.html#a775a8c8a0046f5866c47e01de5af9f93">SSD1306_graphics</a>
 </li>
-<li>_textbgcolor
-: <a class="el" href="classSSD1306__graphics.html#abf22c8fc79af99786dbb600a74db68c8">SSD1306_graphics</a>
+<li>_textColor
+: <a class="el" href="classSSD1306__graphics.html#a116068d77cc0010a3d85b15416855bc9">SSD1306_graphics</a>
 </li>
-<li>_textcolor
-: <a class="el" href="classSSD1306__graphics.html#a9f2984a816da0d882729324e5b7d59d5">SSD1306_graphics</a>
-</li>
-<li>_textsize
-: <a class="el" href="classSSD1306__graphics.html#ac91ccf5002e2c6ceb7cda95e70e9aed7">SSD1306_graphics</a>
+<li>_textSize
+: <a class="el" href="classSSD1306__graphics.html#aca415cf15c452e4a2ef32e1f74458c44">SSD1306_graphics</a>
 </li>
 <li>_textwrap
 : <a class="el" href="classSSD1306__graphics.html#ad8801f34cc491a8e0b6056e3ea293f7c">SSD1306_graphics</a>
@@ -107,9 +119,6 @@ $(function() {
 
 
 <h3><a id="index_b"></a>- b -</h3><ul>
-<li>buffer
-: <a class="el" href="classSSD1306.html#a9e6211eeb00c475d7a4520d70ac80f26">SSD1306</a>
-</li>
 <li>bufferHeight
 : <a class="el" href="classSSD1306.html#a81edfceccfbc1a05d33f5ae315e0c6d1">SSD1306</a>
 </li>
@@ -121,10 +130,7 @@ $(function() {
 
 <h3><a id="index_d"></a>- d -</h3><ul>
 <li>drawChar()
-: <a class="el" href="classSSD1306__graphics.html#aa7d782e11623e2476ec1f68d3a02e035">SSD1306_graphics</a>
-</li>
-<li>drawCharBigFont()
-: <a class="el" href="classSSD1306__graphics.html#af7c86f565a3b6593e9a34f0a983880d1">SSD1306_graphics</a>
+: <a class="el" href="classSSD1306__graphics.html#a2e511f5d9d43cc9352d5a464685f0d09">SSD1306_graphics</a>
 </li>
 <li>drawCircle()
 : <a class="el" href="classSSD1306__graphics.html#aabf79e047ce6bffc529cefbc24cf735d">SSD1306_graphics</a>
@@ -151,10 +157,7 @@ $(function() {
 : <a class="el" href="classSSD1306__graphics.html#a50b062351aba169fe45e5fc43235547c">SSD1306_graphics</a>
 </li>
 <li>drawText()
-: <a class="el" href="classSSD1306__graphics.html#abaa68ff39258c251f0e10bc7a065319f">SSD1306_graphics</a>
-</li>
-<li>drawTextBigFont()
-: <a class="el" href="classSSD1306__graphics.html#a8246429ff1ddd4a2c718304d1a428f74">SSD1306_graphics</a>
+: <a class="el" href="classSSD1306__graphics.html#a6caf4bd7473537f56f82d3fea60f30ce">SSD1306_graphics</a>
 </li>
 <li>drawTriangle()
 : <a class="el" href="classSSD1306__graphics.html#aa837156106492e60e4c606d092e622b4">SSD1306_graphics</a>
@@ -192,7 +195,7 @@ $(function() {
 : <a class="el" href="classSSD1306.html#af542e2ec979de9f8ccdaf68b14e5fbd9">SSD1306</a>
 </li>
 <li>getRotation()
-: <a class="el" href="classSSD1306__graphics.html#a76ad5f98c2dbb1b8339d7350ef625109">SSD1306_graphics</a>
+: <a class="el" href="classSSD1306__graphics.html#a9bd4b714e6f109c0c5e96257184d507f">SSD1306_graphics</a>
 </li>
 </ul>
 
@@ -228,16 +231,28 @@ $(function() {
 : <a class="el" href="classSSD1306.html#a247cce75976dae7c1f00c7c50e2e15de">SSD1306</a>
 </li>
 <li>OLEDBitmap()
-: <a class="el" href="classSSD1306.html#a1b2187a152a02b87dda4ae2b9393771d">SSD1306</a>
+: <a class="el" href="classSSD1306.html#aa438ffc05ae68446e9b0286160f0f6c9">SSD1306</a>
 </li>
-<li>OLEDBuffer()
-: <a class="el" href="classSSD1306.html#ae58c9822662fccf1c980725cea9aa254">SSD1306</a>
+<li>OLEDbuffer
+: <a class="el" href="classSSD1306.html#ae5dd3fe55dfb3fbe10fa76095a1922bf">SSD1306</a>
+</li>
+<li>OLEDBufferScreen()
+: <a class="el" href="classSSD1306.html#a83334bdd85470d791d0a48057191c0e3">SSD1306</a>
+</li>
+<li>OLEDCheckConnection()
+: <a class="el" href="classSSD1306.html#a28f8807e68cdfc55dfee198a3bbd8469">SSD1306</a>
 </li>
 <li>OLEDclearBuffer()
 : <a class="el" href="classSSD1306.html#a189659d8b170a64c20e17a0dc6d39afb">SSD1306</a>
 </li>
 <li>OLEDContrast()
 : <a class="el" href="classSSD1306.html#a2d30dcfab1e317750a8c5a5d7cb13332">SSD1306</a>
+</li>
+<li>OLEDDebugGet()
+: <a class="el" href="classSSD1306.html#aeb9f55fb217e93d8046c639c950c1f80">SSD1306</a>
+</li>
+<li>OLEDDebugSet()
+: <a class="el" href="classSSD1306.html#ab26f532afbf4b20827f9c5339ff5a2ac">SSD1306</a>
 </li>
 <li>OLEDEnable()
 : <a class="el" href="classSSD1306.html#ad62b539dd0c43555adccf360ef07a8ac">SSD1306</a>
@@ -248,6 +263,81 @@ $(function() {
 <li>OLEDFillScreen()
 : <a class="el" href="classSSD1306.html#a1d9bc7ca2cb1865f4437d7884ec13039">SSD1306</a>
 </li>
+<li>OLEDFontHeight_12
+: <a class="el" href="classSSD1306__graphics.html#a801231d0302fcb55bca4a4fa9791a2a6a554e4868e5824a7e23e1dfbf68a2236a">SSD1306_graphics</a>
+</li>
+<li>OLEDFontHeight_16
+: <a class="el" href="classSSD1306__graphics.html#a801231d0302fcb55bca4a4fa9791a2a6ac2f7c8bd694cb4e7a2c307baa1f3a145">SSD1306_graphics</a>
+</li>
+<li>OLEDFontHeight_24
+: <a class="el" href="classSSD1306__graphics.html#a801231d0302fcb55bca4a4fa9791a2a6a9c2f39849bb2b731ea26a34c4cca297c">SSD1306_graphics</a>
+</li>
+<li>OLEDFontHeight_32
+: <a class="el" href="classSSD1306__graphics.html#a801231d0302fcb55bca4a4fa9791a2a6a2c60054632fd3447e09305b6b7e2fea0">SSD1306_graphics</a>
+</li>
+<li>OLEDFontHeight_8
+: <a class="el" href="classSSD1306__graphics.html#a801231d0302fcb55bca4a4fa9791a2a6a2cb50e71c01f7ecc493049348fe783e1">SSD1306_graphics</a>
+</li>
+<li>OLEDFontHeight_e
+: <a class="el" href="classSSD1306__graphics.html#a801231d0302fcb55bca4a4fa9791a2a6">SSD1306_graphics</a>
+</li>
+<li>OLEDFontLength_e
+: <a class="el" href="classSSD1306__graphics.html#a0e3a12729710d9aa3a36e2b29123d605">SSD1306_graphics</a>
+</li>
+<li>OLEDFontOffset_e
+: <a class="el" href="classSSD1306__graphics.html#a2743f5e9f22a347b35789b780a2f6733">SSD1306_graphics</a>
+</li>
+<li>OLEDFontOffset_Extend
+: <a class="el" href="classSSD1306__graphics.html#a2743f5e9f22a347b35789b780a2f6733a7e50b9055941f8091a61e1c9dee30f84">SSD1306_graphics</a>
+</li>
+<li>OLEDFontOffset_Minus
+: <a class="el" href="classSSD1306__graphics.html#a2743f5e9f22a347b35789b780a2f6733a72b41b7f4f240ec345abc6ce6a729e6c">SSD1306_graphics</a>
+</li>
+<li>OLEDFontOffset_Number
+: <a class="el" href="classSSD1306__graphics.html#a2743f5e9f22a347b35789b780a2f6733a8c6cc22d17681594462b6249f343629e">SSD1306_graphics</a>
+</li>
+<li>OLEDFontOffset_Space
+: <a class="el" href="classSSD1306__graphics.html#a2743f5e9f22a347b35789b780a2f6733a1b18ff3a0bf492a5e004e8e9f3291523">SSD1306_graphics</a>
+</li>
+<li>OLEDFontWidth_16
+: <a class="el" href="classSSD1306__graphics.html#a1c0de2c4da502e0b5264bde07c9a3e3da3824a39184c0dd6d5260fad5ad65f865">SSD1306_graphics</a>
+</li>
+<li>OLEDFontWidth_3
+: <a class="el" href="classSSD1306__graphics.html#a1c0de2c4da502e0b5264bde07c9a3e3da5d8cadfe3caaa4e26572e28ff4744bf2">SSD1306_graphics</a>
+</li>
+<li>OLEDFontWidth_4
+: <a class="el" href="classSSD1306__graphics.html#a1c0de2c4da502e0b5264bde07c9a3e3daca6cc962fb78833ea615ee6aec9f03f3">SSD1306_graphics</a>
+</li>
+<li>OLEDFontWidth_5
+: <a class="el" href="classSSD1306__graphics.html#a1c0de2c4da502e0b5264bde07c9a3e3da97c1ea2f113daaacbf25962ffa40251e">SSD1306_graphics</a>
+</li>
+<li>OLEDFontWidth_6
+: <a class="el" href="classSSD1306__graphics.html#a1c0de2c4da502e0b5264bde07c9a3e3da119c65aeb7b10ad18ef1fc1d1ac267d1">SSD1306_graphics</a>
+</li>
+<li>OLEDFontWidth_7
+: <a class="el" href="classSSD1306__graphics.html#a1c0de2c4da502e0b5264bde07c9a3e3daaf66c34faa9303b9029ad4dd504a3679">SSD1306_graphics</a>
+</li>
+<li>OLEDFontWidth_8
+: <a class="el" href="classSSD1306__graphics.html#a1c0de2c4da502e0b5264bde07c9a3e3daa7cddb4724c998e0133198b05c654447">SSD1306_graphics</a>
+</li>
+<li>OLEDFontWidth_e
+: <a class="el" href="classSSD1306__graphics.html#a1c0de2c4da502e0b5264bde07c9a3e3d">SSD1306_graphics</a>
+</li>
+<li>OLEDI2CErrorGet()
+: <a class="el" href="classSSD1306.html#a18d964c2b9ceec4f3c9a239124220232">SSD1306</a>
+</li>
+<li>OLEDI2CErrorRetryNumGet()
+: <a class="el" href="classSSD1306.html#ae7b260f7a839d63fd036ff0c8e88dbb1">SSD1306</a>
+</li>
+<li>OLEDI2CErrorRetryNumSet()
+: <a class="el" href="classSSD1306.html#a04f83841ccf61f44b2cf01305ae61f4c">SSD1306</a>
+</li>
+<li>OLEDI2CErrorTimeoutGet()
+: <a class="el" href="classSSD1306.html#abde5e38ef38534aae75f23faab10608c">SSD1306</a>
+</li>
+<li>OLEDI2CErrorTimeoutSet()
+: <a class="el" href="classSSD1306.html#a90175d0046938df9362e6c9e950ad0d4">SSD1306</a>
+</li>
 <li>OLEDinit()
 : <a class="el" href="classSSD1306.html#a2a7c1d3fbd9bd631fd0c47b425a6d74e">SSD1306</a>
 </li>
@@ -256,6 +346,9 @@ $(function() {
 </li>
 <li>OLEDPowerDown()
 : <a class="el" href="classSSD1306.html#ae3e02977b5c0e89bd8c2d7683935bf62">SSD1306</a>
+</li>
+<li>OLEDSetBufferPtr()
+: <a class="el" href="classSSD1306.html#a4f4753b3558815b3196d15b811ced7e6">SSD1306</a>
 </li>
 <li>OLEDStartScrollDiagLeft()
 : <a class="el" href="classSSD1306.html#adce9815b67c85fee406ad08b38e69982">SSD1306</a>
@@ -289,7 +382,7 @@ $(function() {
 : <a class="el" href="classSSD1306.html#a55029e46704f6979463c301090732f47">SSD1306</a>
 </li>
 <li>setRotation()
-: <a class="el" href="classSSD1306__graphics.html#ac7af4aa9592cc15aa51004d2e459f264">SSD1306_graphics</a>
+: <a class="el" href="classSSD1306__graphics.html#ad348c52445c6f5d067d460a796cfd47a">SSD1306_graphics</a>
 </li>
 <li>setTextColor()
 : <a class="el" href="classSSD1306__graphics.html#af67a5dc5db7136481d5731fefdd0c62e">SSD1306_graphics</a>

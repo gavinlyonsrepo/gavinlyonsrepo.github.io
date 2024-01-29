@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SSD1306_OLED_RPI
-   &#160;<span id="projectnumber">1.5.0</span>
+   &#160;<span id="projectnumber">1.6.0</span>
    </div>
    <div id="projectbrief">Library I2C 128X64 OLED Display Module Raspberry PI C++ library</div>
   </td>
@@ -43,6 +43,8 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classSSD1306__graphics-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">SSD1306_graphics Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -120,33 +122,33 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memdesc:a45634c7c8e36025813939d1db1d0d3f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the cursor position <br  />
   <a href="classSSD1306__graphics.html#a45634c7c8e36025813939d1db1d0d3f8">More...</a><br /></td></tr>
 <tr class="separator:a45634c7c8e36025813939d1db1d0d3f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7af4aa9592cc15aa51004d2e459f264"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#ac7af4aa9592cc15aa51004d2e459f264">setRotation</a> (uint8_t r)</td></tr>
-<tr class="memdesc:ac7af4aa9592cc15aa51004d2e459f264"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the _rotation of the display.  <a href="classSSD1306__graphics.html#ac7af4aa9592cc15aa51004d2e459f264">More...</a><br /></td></tr>
-<tr class="separator:ac7af4aa9592cc15aa51004d2e459f264"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad348c52445c6f5d067d460a796cfd47a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#ad348c52445c6f5d067d460a796cfd47a">setRotation</a> (<a class="el" href="SSD1306__OLED__graphics_8hpp.html#a00775dc7754a62f087e4c598c09d2b6e">OLED_rotate_e</a> m)</td></tr>
+<tr class="memdesc:ad348c52445c6f5d067d460a796cfd47a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the _rotation of the display.  <a href="classSSD1306__graphics.html#ad348c52445c6f5d067d460a796cfd47a">More...</a><br /></td></tr>
+<tr class="separator:ad348c52445c6f5d067d460a796cfd47a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bd4b714e6f109c0c5e96257184d507f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="SSD1306__OLED__graphics_8hpp.html#a00775dc7754a62f087e4c598c09d2b6e">OLED_rotate_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a9bd4b714e6f109c0c5e96257184d507f">getRotation</a> ()</td></tr>
+<tr class="memdesc:a9bd4b714e6f109c0c5e96257184d507f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the _rotation of the display.  <a href="classSSD1306__graphics.html#a9bd4b714e6f109c0c5e96257184d507f">More...</a><br /></td></tr>
+<tr class="separator:a9bd4b714e6f109c0c5e96257184d507f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf1080c5f77cc145ea996b88bccca59e"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#acf1080c5f77cc145ea996b88bccca59e">height</a> (void) const</td></tr>
 <tr class="memdesc:acf1080c5f77cc145ea996b88bccca59e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the height of the display (per current _rotation)  <a href="classSSD1306__graphics.html#acf1080c5f77cc145ea996b88bccca59e">More...</a><br /></td></tr>
 <tr class="separator:acf1080c5f77cc145ea996b88bccca59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12ff0794d0126120e35d76892199b6eb"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a12ff0794d0126120e35d76892199b6eb">width</a> (void) const</td></tr>
 <tr class="memdesc:a12ff0794d0126120e35d76892199b6eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the width of the display (per current _rotation)  <a href="classSSD1306__graphics.html#a12ff0794d0126120e35d76892199b6eb">More...</a><br /></td></tr>
 <tr class="separator:a12ff0794d0126120e35d76892199b6eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76ad5f98c2dbb1b8339d7350ef625109"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a76ad5f98c2dbb1b8339d7350ef625109">getRotation</a> (void) const</td></tr>
-<tr class="memdesc:a76ad5f98c2dbb1b8339d7350ef625109"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the _rotation of the display.  <a href="classSSD1306__graphics.html#a76ad5f98c2dbb1b8339d7350ef625109">More...</a><br /></td></tr>
-<tr class="separator:a76ad5f98c2dbb1b8339d7350ef625109"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af724bafba132466252b9c69a51ff4330"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#af724bafba132466252b9c69a51ff4330">write</a> (uint8_t)</td></tr>
 <tr class="memdesc:af724bafba132466252b9c69a51ff4330"><td class="mdescLeft">&#160;</td><td class="mdescRight">called by the print class after it converts the data to a character  <a href="classSSD1306__graphics.html#af724bafba132466252b9c69a51ff4330">More...</a><br /></td></tr>
 <tr class="separator:af724bafba132466252b9c69a51ff4330"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7c86f565a3b6593e9a34f0a983880d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#af7c86f565a3b6593e9a34f0a983880d1">drawCharBigFont</a> (uint8_t x, uint8_t y, uint8_t c, uint8_t color, uint8_t bg)</td></tr>
-<tr class="memdesc:af7c86f565a3b6593e9a34f0a983880d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes a char (c) on the OLED  <a href="classSSD1306__graphics.html#af7c86f565a3b6593e9a34f0a983880d1">More...</a><br /></td></tr>
-<tr class="separator:af7c86f565a3b6593e9a34f0a983880d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8246429ff1ddd4a2c718304d1a428f74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a8246429ff1ddd4a2c718304d1a428f74">drawTextBigFont</a> (uint8_t x, uint8_t y, char *pText, uint8_t color, uint8_t bg)</td></tr>
-<tr class="memdesc:a8246429ff1ddd4a2c718304d1a428f74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes text string (*ptext) on the OLED.  <a href="classSSD1306__graphics.html#a8246429ff1ddd4a2c718304d1a428f74">More...</a><br /></td></tr>
-<tr class="separator:a8246429ff1ddd4a2c718304d1a428f74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abaa68ff39258c251f0e10bc7a065319f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#abaa68ff39258c251f0e10bc7a065319f">drawText</a> (uint8_t x, uint8_t y, char *pText, uint8_t color, uint8_t bg, uint8_t size)</td></tr>
-<tr class="memdesc:abaa68ff39258c251f0e10bc7a065319f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes text string on the OLED.  <a href="classSSD1306__graphics.html#abaa68ff39258c251f0e10bc7a065319f">More...</a><br /></td></tr>
-<tr class="separator:abaa68ff39258c251f0e10bc7a065319f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7d782e11623e2476ec1f68d3a02e035"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#aa7d782e11623e2476ec1f68d3a02e035">drawChar</a> (int16_t x, int16_t y, unsigned char c, uint8_t color, uint8_t bg, uint8_t size)</td></tr>
-<tr class="memdesc:aa7d782e11623e2476ec1f68d3a02e035"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes a char (c) on the OLED  <a href="classSSD1306__graphics.html#aa7d782e11623e2476ec1f68d3a02e035">More...</a><br /></td></tr>
-<tr class="separator:aa7d782e11623e2476ec1f68d3a02e035"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e511f5d9d43cc9352d5a464685f0d09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="SSD1306__OLED__graphics_8hpp.html#ab60186b143d7024bb920c880de19fb57">OLED_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a2e511f5d9d43cc9352d5a464685f0d09">drawChar</a> (uint8_t x, uint8_t y, uint8_t c, uint8_t color, uint8_t bg)</td></tr>
+<tr class="memdesc:a2e511f5d9d43cc9352d5a464685f0d09"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes a character on the OLED  <a href="classSSD1306__graphics.html#a2e511f5d9d43cc9352d5a464685f0d09">More...</a><br /></td></tr>
+<tr class="separator:a2e511f5d9d43cc9352d5a464685f0d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6caf4bd7473537f56f82d3fea60f30ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="SSD1306__OLED__graphics_8hpp.html#ab60186b143d7024bb920c880de19fb57">OLED_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a6caf4bd7473537f56f82d3fea60f30ce">drawText</a> (uint8_t x, uint8_t y, char *pText, uint8_t color, uint8_t bg)</td></tr>
+<tr class="memdesc:a6caf4bd7473537f56f82d3fea60f30ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes text string (*ptext) on the OLED.  <a href="classSSD1306__graphics.html#a6caf4bd7473537f56f82d3fea60f30ce">More...</a><br /></td></tr>
+<tr class="separator:a6caf4bd7473537f56f82d3fea60f30ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60b44732eb471e8a6f2f575772ca9d5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="SSD1306__OLED__graphics_8hpp.html#ab60186b143d7024bb920c880de19fb57">OLED_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a60b44732eb471e8a6f2f575772ca9d5a">drawText</a> (uint8_t x, uint8_t y, char *pText, uint8_t color, uint8_t bg, uint8_t size)</td></tr>
+<tr class="memdesc:a60b44732eb471e8a6f2f575772ca9d5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes text string on the OLED.  <a href="classSSD1306__graphics.html#a60b44732eb471e8a6f2f575772ca9d5a">More...</a><br /></td></tr>
+<tr class="separator:a60b44732eb471e8a6f2f575772ca9d5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e35c42cce404808b938ef276861aa2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="SSD1306__OLED__graphics_8hpp.html#ab60186b143d7024bb920c880de19fb57">OLED_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a0e35c42cce404808b938ef276861aa2e">drawChar</a> (int16_t x, int16_t y, unsigned char c, uint8_t color, uint8_t bg, uint8_t size)</td></tr>
+<tr class="memdesc:a0e35c42cce404808b938ef276861aa2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes a character on the OLED  <a href="classSSD1306__graphics.html#a0e35c42cce404808b938ef276861aa2e">More...</a><br /></td></tr>
+<tr class="separator:a0e35c42cce404808b938ef276861aa2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af67a5dc5db7136481d5731fefdd0c62e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#af67a5dc5db7136481d5731fefdd0c62e">setTextColor</a> (uint8_t c)</td></tr>
 <tr class="memdesc:af67a5dc5db7136481d5731fefdd0c62e"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the text color <br  />
   <a href="classSSD1306__graphics.html#af67a5dc5db7136481d5731fefdd0c62e">More...</a><br /></td></tr>
@@ -161,7 +163,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:ade3fabdd46feacf3c7b4ce2be13fe37e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#ade3fabdd46feacf3c7b4ce2be13fe37e">setTextWrap</a> (bool w)</td></tr>
 <tr class="memdesc:ade3fabdd46feacf3c7b4ce2be13fe37e"><td class="mdescLeft">&#160;</td><td class="mdescRight">turn on or off screen _textwrap of the text (fonts 1-6)  <a href="classSSD1306__graphics.html#ade3fabdd46feacf3c7b4ce2be13fe37e">More...</a><br /></td></tr>
 <tr class="separator:ade3fabdd46feacf3c7b4ce2be13fe37e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4540910db3da3c8cf3753517dbf1a847"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a4540910db3da3c8cf3753517dbf1a847">setFontNum</a> (<a class="el" href="SSD1306__OLED__font_8hpp.html#a6224746ba9b3de58355eb788233770a0">OLEDFontType_e</a> FontNumber)</td></tr>
+<tr class="memitem:a4540910db3da3c8cf3753517dbf1a847"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a4540910db3da3c8cf3753517dbf1a847">setFontNum</a> (<a class="el" href="SSD1306__OLED__graphics_8hpp.html#a6224746ba9b3de58355eb788233770a0">OLEDFontType_e</a> FontNumber)</td></tr>
 <tr class="memdesc:a4540910db3da3c8cf3753517dbf1a847"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current font type.  <a href="classSSD1306__graphics.html#a4540910db3da3c8cf3753517dbf1a847">More...</a><br /></td></tr>
 <tr class="separator:a4540910db3da3c8cf3753517dbf1a847"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classPrint"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classPrint')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classPrint.html">Print</a></td></tr>
@@ -237,6 +239,8 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>println</b> (const 
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr class="memitem:a48871d4d56c68a491abc6510b8423a0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="SSD1306__OLED__graphics_8hpp.html#a00775dc7754a62f087e4c598c09d2b6e">OLED_rotate_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a48871d4d56c68a491abc6510b8423a0e">_OLED_rotate</a> = <a class="el" href="SSD1306__OLED__graphics_8hpp.html#a00775dc7754a62f087e4c598c09d2b6ea5e15eb98521019516ce68e28b724308e">OLED_Degrees_0</a></td></tr>
+<tr class="separator:a48871d4d56c68a491abc6510b8423a0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80497b373cf22759c7cedc1c4441aa89"><td class="memItemLeft" align="right" valign="top">const int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a80497b373cf22759c7cedc1c4441aa89">WIDTH</a></td></tr>
 <tr class="separator:a80497b373cf22759c7cedc1c4441aa89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeef4935bf29a1836e3f116c210e1389c"><td class="memItemLeft" align="right" valign="top">const int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#aeef4935bf29a1836e3f116c210e1389c">HEIGHT</a></td></tr>
@@ -249,16 +253,54 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a68604664937156468519127c445ed5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e8f131b515d8b9a1bcd9485752979ab"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a1e8f131b515d8b9a1bcd9485752979ab">_cursor_y</a></td></tr>
 <tr class="separator:a1e8f131b515d8b9a1bcd9485752979ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20f2b055365ccb684c6ec0c0ee5f105b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a20f2b055365ccb684c6ec0c0ee5f105b">_rotation</a></td></tr>
-<tr class="separator:a20f2b055365ccb684c6ec0c0ee5f105b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f2984a816da0d882729324e5b7d59d5"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a9f2984a816da0d882729324e5b7d59d5">_textcolor</a></td></tr>
-<tr class="separator:a9f2984a816da0d882729324e5b7d59d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf22c8fc79af99786dbb600a74db68c8"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#abf22c8fc79af99786dbb600a74db68c8">_textbgcolor</a></td></tr>
-<tr class="separator:abf22c8fc79af99786dbb600a74db68c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac91ccf5002e2c6ceb7cda95e70e9aed7"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#ac91ccf5002e2c6ceb7cda95e70e9aed7">_textsize</a> = 1</td></tr>
-<tr class="separator:ac91ccf5002e2c6ceb7cda95e70e9aed7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a116068d77cc0010a3d85b15416855bc9"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a116068d77cc0010a3d85b15416855bc9">_textColor</a></td></tr>
+<tr class="separator:a116068d77cc0010a3d85b15416855bc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a775a8c8a0046f5866c47e01de5af9f93"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a775a8c8a0046f5866c47e01de5af9f93">_textBgColor</a></td></tr>
+<tr class="separator:a775a8c8a0046f5866c47e01de5af9f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca415cf15c452e4a2ef32e1f74458c44"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#aca415cf15c452e4a2ef32e1f74458c44">_textSize</a> = 1</td></tr>
+<tr class="separator:aca415cf15c452e4a2ef32e1f74458c44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8801f34cc491a8e0b6056e3ea293f7c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#ad8801f34cc491a8e0b6056e3ea293f7c">_textwrap</a></td></tr>
 <tr class="separator:ad8801f34cc491a8e0b6056e3ea293f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:a1c0de2c4da502e0b5264bde07c9a3e3d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a1c0de2c4da502e0b5264bde07c9a3e3d">OLEDFontWidth_e</a> { <br />
+&#160;&#160;<a class="el" href="classSSD1306__graphics.html#a1c0de2c4da502e0b5264bde07c9a3e3da5d8cadfe3caaa4e26572e28ff4744bf2">OLEDFontWidth_3</a> = 3
+, <a class="el" href="classSSD1306__graphics.html#a1c0de2c4da502e0b5264bde07c9a3e3daca6cc962fb78833ea615ee6aec9f03f3">OLEDFontWidth_4</a> = 4
+, <a class="el" href="classSSD1306__graphics.html#a1c0de2c4da502e0b5264bde07c9a3e3da97c1ea2f113daaacbf25962ffa40251e">OLEDFontWidth_5</a> = 5
+, <a class="el" href="classSSD1306__graphics.html#a1c0de2c4da502e0b5264bde07c9a3e3da119c65aeb7b10ad18ef1fc1d1ac267d1">OLEDFontWidth_6</a> = 6
+, <br />
+&#160;&#160;<a class="el" href="classSSD1306__graphics.html#a1c0de2c4da502e0b5264bde07c9a3e3daaf66c34faa9303b9029ad4dd504a3679">OLEDFontWidth_7</a> = 7
+, <a class="el" href="classSSD1306__graphics.html#a1c0de2c4da502e0b5264bde07c9a3e3daa7cddb4724c998e0133198b05c654447">OLEDFontWidth_8</a> = 8
+, <a class="el" href="classSSD1306__graphics.html#a1c0de2c4da502e0b5264bde07c9a3e3da3824a39184c0dd6d5260fad5ad65f865">OLEDFontWidth_16</a> = 16
+<br />
+ }</td></tr>
+<tr class="separator:a1c0de2c4da502e0b5264bde07c9a3e3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2743f5e9f22a347b35789b780a2f6733"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a2743f5e9f22a347b35789b780a2f6733">OLEDFontOffset_e</a> : uint8_t { <a class="el" href="classSSD1306__graphics.html#a2743f5e9f22a347b35789b780a2f6733a7e50b9055941f8091a61e1c9dee30f84">OLEDFontOffset_Extend</a> = 0x00
+, <a class="el" href="classSSD1306__graphics.html#a2743f5e9f22a347b35789b780a2f6733a1b18ff3a0bf492a5e004e8e9f3291523">OLEDFontOffset_Space</a> = 0x20
+, <a class="el" href="classSSD1306__graphics.html#a2743f5e9f22a347b35789b780a2f6733a72b41b7f4f240ec345abc6ce6a729e6c">OLEDFontOffset_Minus</a> = 0x2D
+, <a class="el" href="classSSD1306__graphics.html#a2743f5e9f22a347b35789b780a2f6733a8c6cc22d17681594462b6249f343629e">OLEDFontOffset_Number</a> = 0x30
+ }</td></tr>
+<tr class="separator:a2743f5e9f22a347b35789b780a2f6733"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a801231d0302fcb55bca4a4fa9791a2a6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a801231d0302fcb55bca4a4fa9791a2a6">OLEDFontHeight_e</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="classSSD1306__graphics.html#a801231d0302fcb55bca4a4fa9791a2a6a2cb50e71c01f7ecc493049348fe783e1">OLEDFontHeight_8</a> = 8
+, <a class="el" href="classSSD1306__graphics.html#a801231d0302fcb55bca4a4fa9791a2a6a554e4868e5824a7e23e1dfbf68a2236a">OLEDFontHeight_12</a> = 12
+, <a class="el" href="classSSD1306__graphics.html#a801231d0302fcb55bca4a4fa9791a2a6ac2f7c8bd694cb4e7a2c307baa1f3a145">OLEDFontHeight_16</a> = 16
+, <a class="el" href="classSSD1306__graphics.html#a801231d0302fcb55bca4a4fa9791a2a6a9c2f39849bb2b731ea26a34c4cca297c">OLEDFontHeight_24</a> = 24
+, <br />
+&#160;&#160;<a class="el" href="classSSD1306__graphics.html#a801231d0302fcb55bca4a4fa9791a2a6a2c60054632fd3447e09305b6b7e2fea0">OLEDFontHeight_32</a> = 32
+<br />
+ }</td></tr>
+<tr class="separator:a801231d0302fcb55bca4a4fa9791a2a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e3a12729710d9aa3a36e2b29123d605"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a0e3a12729710d9aa3a36e2b29123d605">OLEDFontLength_e</a> : uint8_t { <b>OLEDFontLenNumeric</b> = 14
+, <b>OLEDFontLenAlphaNumNoLCase</b> = 59
+, <b>OLEDFontLenAlphaNum</b> = 95
+, <b>OLEDFontLenAll</b> = 255
+ }</td></tr>
+<tr class="separator:a0e3a12729710d9aa3a36e2b29123d605"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
 <tr class="memitem:a7b865bcc2d79cbc26d66db1badb12319"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a7b865bcc2d79cbc26d66db1badb12319">_FontNumber</a> = 1</td></tr>
 <tr class="separator:a7b865bcc2d79cbc26d66db1badb12319"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24514fab81b8ac4e3be5cd9640530ad3"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a24514fab81b8ac4e3be5cd9640530ad3">_CurrentFontWidth</a> = 5</td></tr>
@@ -267,6 +309,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a0b05360d431f1d351072f73569978612"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee0f40f9fe730b62217256e8d24bd517"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#aee0f40f9fe730b62217256e8d24bd517">_CurrentFontheight</a> = 8</td></tr>
 <tr class="separator:aee0f40f9fe730b62217256e8d24bd517"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a033dca3fae0849dbe2b8ce36e0fea4ef"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#a033dca3fae0849dbe2b8ce36e0fea4ef">_CurrentFontLength</a> = 255</td></tr>
+<tr class="separator:a033dca3fae0849dbe2b8ce36e0fea4ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -277,7 +321,141 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Graphics class to hold graphic related functions. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a801231d0302fcb55bca4a4fa9791a2a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a801231d0302fcb55bca4a4fa9791a2a6">&#9670;&nbsp;</a></span>OLEDFontHeight_e</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classSSD1306__graphics.html#a801231d0302fcb55bca4a4fa9791a2a6">SSD1306_graphics::OLEDFontHeight_e</a> : uint8_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>height of the font in bits or pixels </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a801231d0302fcb55bca4a4fa9791a2a6a2cb50e71c01f7ecc493049348fe783e1"></a>OLEDFontHeight_8&#160;</td><td class="fielddoc"><p>8 font 1-6 at size 1 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a801231d0302fcb55bca4a4fa9791a2a6a554e4868e5824a7e23e1dfbf68a2236a"></a>OLEDFontHeight_12&#160;</td><td class="fielddoc"><p>12 bit font 12 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a801231d0302fcb55bca4a4fa9791a2a6ac2f7c8bd694cb4e7a2c307baa1f3a145"></a>OLEDFontHeight_16&#160;</td><td class="fielddoc"><p>16 bit high font 8 &amp; 10 <br  />
+ </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a801231d0302fcb55bca4a4fa9791a2a6a9c2f39849bb2b731ea26a34c4cca297c"></a>OLEDFontHeight_24&#160;</td><td class="fielddoc"><p>24 bit font 9 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a801231d0302fcb55bca4a4fa9791a2a6a2c60054632fd3447e09305b6b7e2fea0"></a>OLEDFontHeight_32&#160;</td><td class="fielddoc"><p>32 bit font 7 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a0e3a12729710d9aa3a36e2b29123d605"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e3a12729710d9aa3a36e2b29123d605">&#9670;&nbsp;</a></span>OLEDFontLength_e</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classSSD1306__graphics.html#a0e3a12729710d9aa3a36e2b29123d605">SSD1306_graphics::OLEDFontLength_e</a> : uint8_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Number of ASCII characters in Font </p>
+
+</div>
+</div>
+<a id="a2743f5e9f22a347b35789b780a2f6733"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2743f5e9f22a347b35789b780a2f6733">&#9670;&nbsp;</a></span>OLEDFontOffset_e</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classSSD1306__graphics.html#a2743f5e9f22a347b35789b780a2f6733">SSD1306_graphics::OLEDFontOffset_e</a> : uint8_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>font offset in the ASCII table </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2743f5e9f22a347b35789b780a2f6733a7e50b9055941f8091a61e1c9dee30f84"></a>OLEDFontOffset_Extend&#160;</td><td class="fielddoc"><p>Full ASCII </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a2743f5e9f22a347b35789b780a2f6733a1b18ff3a0bf492a5e004e8e9f3291523"></a>OLEDFontOffset_Space&#160;</td><td class="fielddoc"><p>Starts at Space <br  />
+ </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a2743f5e9f22a347b35789b780a2f6733a72b41b7f4f240ec345abc6ce6a729e6c"></a>OLEDFontOffset_Minus&#160;</td><td class="fielddoc"><p>Starts at '-' </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a2743f5e9f22a347b35789b780a2f6733a8c6cc22d17681594462b6249f343629e"></a>OLEDFontOffset_Number&#160;</td><td class="fielddoc"><p>Starts at number '0' </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a1c0de2c4da502e0b5264bde07c9a3e3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c0de2c4da502e0b5264bde07c9a3e3d">&#9670;&nbsp;</a></span>OLEDFontWidth_e</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classSSD1306__graphics.html#a1c0de2c4da502e0b5264bde07c9a3e3d">SSD1306_graphics::OLEDFontWidth_e</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Width of the font in bits(pixels) * (N bytes cols) </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1c0de2c4da502e0b5264bde07c9a3e3da5d8cadfe3caaa4e26572e28ff4744bf2"></a>OLEDFontWidth_3&#160;</td><td class="fielddoc"><p>3 tiny font </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1c0de2c4da502e0b5264bde07c9a3e3daca6cc962fb78833ea615ee6aec9f03f3"></a>OLEDFontWidth_4&#160;</td><td class="fielddoc"><p>4 seven segment font </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1c0de2c4da502e0b5264bde07c9a3e3da97c1ea2f113daaacbf25962ffa40251e"></a>OLEDFontWidth_5&#160;</td><td class="fielddoc"><p>5 default font </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1c0de2c4da502e0b5264bde07c9a3e3da119c65aeb7b10ad18ef1fc1d1ac267d1"></a>OLEDFontWidth_6&#160;</td><td class="fielddoc"><p>12 dedica font <br  />
+ </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1c0de2c4da502e0b5264bde07c9a3e3daaf66c34faa9303b9029ad4dd504a3679"></a>OLEDFontWidth_7&#160;</td><td class="fielddoc"><p>7 homespun &amp; thick font </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1c0de2c4da502e0b5264bde07c9a3e3daa7cddb4724c998e0133198b05c654447"></a>OLEDFontWidth_8&#160;</td><td class="fielddoc"><p>8 wide + mia font </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1c0de2c4da502e0b5264bde07c9a3e3da3824a39184c0dd6d5260fad5ad65f865"></a>OLEDFontWidth_16&#160;</td><td class="fielddoc"><p>16 font 7-10 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa33ac9b6da0bb7a6cf226317338bb36e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa33ac9b6da0bb7a6cf226317338bb36e">&#9670;&nbsp;</a></span>SSD1306_graphics()</h2>
 
@@ -316,14 +494,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa7d782e11623e2476ec1f68d3a02e035"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7d782e11623e2476ec1f68d3a02e035">&#9670;&nbsp;</a></span>drawChar()</h2>
+<a id="a0e35c42cce404808b938ef276861aa2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e35c42cce404808b938ef276861aa2e">&#9670;&nbsp;</a></span>drawChar() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void SSD1306_graphics::drawChar </td>
+          <td class="memname"><a class="el" href="SSD1306__OLED__graphics_8hpp.html#ab60186b143d7024bb920c880de19fb57">OLED_Return_Codes_e</a> SSD1306_graphics::drawChar </td>
           <td>(</td>
           <td class="paramtype">int16_t&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -338,7 +516,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned char&#160;</td>
-          <td class="paramname"><em>c</em>, </td>
+          <td class="paramname"><em>character</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -366,30 +544,31 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
       </table>
 </div><div class="memdoc">
 
-<p>writes a char (c) on the OLED </p>
+<p>writes a character on the OLED </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">x</td><td>X coordinate </td></tr>
     <tr><td class="paramname">y</td><td>Y coordinate </td></tr>
-    <tr><td class="paramname">c</td><td>The ASCII character </td></tr>
+    <tr><td class="paramname">character</td><td>The ASCII character </td></tr>
     <tr><td class="paramname">color</td><td>color </td></tr>
     <tr><td class="paramname">bg</td><td>background color </td></tr>
     <tr><td class="paramname">size</td><td>1-x </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>OLED_Return_Codes_e enum </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>for font #1-6 only </dd></dl>
 
 </div>
 </div>
-<a id="af7c86f565a3b6593e9a34f0a983880d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7c86f565a3b6593e9a34f0a983880d1">&#9670;&nbsp;</a></span>drawCharBigFont()</h2>
+<a id="a2e511f5d9d43cc9352d5a464685f0d09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e511f5d9d43cc9352d5a464685f0d09">&#9670;&nbsp;</a></span>drawChar() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void SSD1306_graphics::drawCharBigFont </td>
+          <td class="memname"><a class="el" href="SSD1306__OLED__graphics_8hpp.html#ab60186b143d7024bb920c880de19fb57">OLED_Return_Codes_e</a> SSD1306_graphics::drawChar </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -404,7 +583,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>c</em>, </td>
+          <td class="paramname"><em>character</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -426,18 +605,19 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
       </table>
 </div><div class="memdoc">
 
-<p>writes a char (c) on the OLED </p>
+<p>writes a character on the OLED </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">x</td><td>X coordinate </td></tr>
     <tr><td class="paramname">y</td><td>Y coordinate </td></tr>
-    <tr><td class="paramname">c</td><td>The ASCII character </td></tr>
+    <tr><td class="paramname">character</td><td>The ASCII character </td></tr>
     <tr><td class="paramname">color</td><td></td></tr>
     <tr><td class="paramname">bg</td><td>background color </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>for font 7-10 only </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>OLED_Return_Codes_e </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>for font 7-12 only </dd></dl>
 
 </div>
 </div>
@@ -775,14 +955,74 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 
 </div>
 </div>
-<a id="abaa68ff39258c251f0e10bc7a065319f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abaa68ff39258c251f0e10bc7a065319f">&#9670;&nbsp;</a></span>drawText()</h2>
+<a id="a6caf4bd7473537f56f82d3fea60f30ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6caf4bd7473537f56f82d3fea60f30ce">&#9670;&nbsp;</a></span>drawText() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void SSD1306_graphics::drawText </td>
+          <td class="memname"><a class="el" href="SSD1306__OLED__graphics_8hpp.html#ab60186b143d7024bb920c880de19fb57">OLED_Return_Codes_e</a> SSD1306_graphics::drawText </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>pText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>bg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes text string (*ptext) on the OLED. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>X coordinate </td></tr>
+    <tr><td class="paramname">y</td><td>Y coordinate </td></tr>
+    <tr><td class="paramname">pText</td><td>pointer to string of ASCII character's </td></tr>
+    <tr><td class="paramname">color</td><td>text color </td></tr>
+    <tr><td class="paramname">bg</td><td>background color </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>OLED_Return_Codes_e enum </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>for font 7-12 only </dd></dl>
+
+</div>
+</div>
+<a id="a60b44732eb471e8a6f2f575772ca9d5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60b44732eb471e8a6f2f575772ca9d5a">&#9670;&nbsp;</a></span>drawText() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="SSD1306__OLED__graphics_8hpp.html#ab60186b143d7024bb920c880de19fb57">OLED_Return_Codes_e</a> SSD1306_graphics::drawText </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -837,66 +1077,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>OLED_Return_Codes_e enum </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>for font #1-6 only </dd></dl>
-
-</div>
-</div>
-<a id="a8246429ff1ddd4a2c718304d1a428f74"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8246429ff1ddd4a2c718304d1a428f74">&#9670;&nbsp;</a></span>drawTextBigFont()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SSD1306_graphics::drawTextBigFont </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>pText</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>color</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>bg</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Writes text string (*ptext) on the OLED. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">x</td><td>X coordinate </td></tr>
-    <tr><td class="paramname">y</td><td>Y coordinate </td></tr>
-    <tr><td class="paramname">pText</td><td>pointer to string of ASCII character's </td></tr>
-    <tr><td class="paramname">color</td><td>text color </td></tr>
-    <tr><td class="paramname">bg</td><td>background color </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>for font 7-10 only </dd></dl>
 
 </div>
 </div>
@@ -1244,18 +1426,18 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 
 </div>
 </div>
-<a id="a76ad5f98c2dbb1b8339d7350ef625109"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76ad5f98c2dbb1b8339d7350ef625109">&#9670;&nbsp;</a></span>getRotation()</h2>
+<a id="a9bd4b714e6f109c0c5e96257184d507f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bd4b714e6f109c0c5e96257184d507f">&#9670;&nbsp;</a></span>getRotation()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t SSD1306_graphics::getRotation </td>
+          <td class="memname"><a class="el" href="SSD1306__OLED__graphics_8hpp.html#a00775dc7754a62f087e4c598c09d2b6e">OLED_rotate_e</a> SSD1306_graphics::getRotation </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1333,7 +1515,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
         <tr>
           <td class="memname">void SSD1306_graphics::setFontNum </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="SSD1306__OLED__font_8hpp.html#a6224746ba9b3de58355eb788233770a0">OLEDFontType_e</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="SSD1306__OLED__graphics_8hpp.html#a6224746ba9b3de58355eb788233770a0">OLEDFontType_e</a>&#160;</td>
           <td class="paramname"><em>FontNumber</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1343,15 +1525,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 <p>Set the current font type. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">FontNumber</td><td>1-10 enum OLEDFontType_e </td></tr>
+    <tr><td class="paramname">FontNumber</td><td>enum OLEDFontType_e </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="ac7af4aa9592cc15aa51004d2e459f264"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7af4aa9592cc15aa51004d2e459f264">&#9670;&nbsp;</a></span>setRotation()</h2>
+<a id="ad348c52445c6f5d067d460a796cfd47a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad348c52445c6f5d067d460a796cfd47a">&#9670;&nbsp;</a></span>setRotation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1359,8 +1541,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
         <tr>
           <td class="memname">void SSD1306_graphics::setRotation </td>
           <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>x</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="SSD1306__OLED__graphics_8hpp.html#a00775dc7754a62f087e4c598c09d2b6e">OLED_rotate_e</a>&#160;</td>
+          <td class="paramname"><em>CurrentRotation</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1369,7 +1551,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 <p>Sets the _rotation of the display. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">x</td><td>_rotation value 0-3 </td></tr>
+    <tr><td class="paramname">CurrentRotation</td><td>value 0-3 </td></tr>
   </table>
   </dd>
 </dl>
@@ -1567,11 +1749,34 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <p>Holds current font height in bits </p>
+
+</div>
+</div>
+<a id="a033dca3fae0849dbe2b8ce36e0fea4ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a033dca3fae0849dbe2b8ce36e0fea4ef">&#9670;&nbsp;</a></span>_CurrentFontLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t SSD1306_graphics::_CurrentFontLength = 255</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Holds current font number of characters </p>
 
 </div>
 </div>
@@ -1590,7 +1795,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1613,7 +1818,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1682,7 +1887,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1713,8 +1918,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 
 </div>
 </div>
-<a id="a20f2b055365ccb684c6ec0c0ee5f105b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20f2b055365ccb684c6ec0c0ee5f105b">&#9670;&nbsp;</a></span>_rotation</h2>
+<a id="a48871d4d56c68a491abc6510b8423a0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48871d4d56c68a491abc6510b8423a0e">&#9670;&nbsp;</a></span>_OLED_rotate</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1723,7 +1928,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t SSD1306_graphics::_rotation</td>
+          <td class="memname"><a class="el" href="SSD1306__OLED__graphics_8hpp.html#a00775dc7754a62f087e4c598c09d2b6e">OLED_rotate_e</a> SSD1306_graphics::_OLED_rotate = <a class="el" href="SSD1306__OLED__graphics_8hpp.html#a00775dc7754a62f087e4c598c09d2b6ea5e15eb98521019516ce68e28b724308e">OLED_Degrees_0</a></td>
         </tr>
       </table>
   </td>
@@ -1732,12 +1937,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Current rotation 0-3 </p>
+<p>Enum to hold rotation </p>
 
 </div>
 </div>
-<a id="abf22c8fc79af99786dbb600a74db68c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf22c8fc79af99786dbb600a74db68c8">&#9670;&nbsp;</a></span>_textbgcolor</h2>
+<a id="a775a8c8a0046f5866c47e01de5af9f93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a775a8c8a0046f5866c47e01de5af9f93">&#9670;&nbsp;</a></span>_textBgColor</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1746,7 +1951,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t SSD1306_graphics::_textbgcolor</td>
+          <td class="memname">uint8_t SSD1306_graphics::_textBgColor</td>
         </tr>
       </table>
   </td>
@@ -1759,8 +1964,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 
 </div>
 </div>
-<a id="a9f2984a816da0d882729324e5b7d59d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f2984a816da0d882729324e5b7d59d5">&#9670;&nbsp;</a></span>_textcolor</h2>
+<a id="a116068d77cc0010a3d85b15416855bc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a116068d77cc0010a3d85b15416855bc9">&#9670;&nbsp;</a></span>_textColor</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1769,7 +1974,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t SSD1306_graphics::_textcolor</td>
+          <td class="memname">uint8_t SSD1306_graphics::_textColor</td>
         </tr>
       </table>
   </td>
@@ -1782,8 +1987,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 
 </div>
 </div>
-<a id="ac91ccf5002e2c6ceb7cda95e70e9aed7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac91ccf5002e2c6ceb7cda95e70e9aed7">&#9670;&nbsp;</a></span>_textsize</h2>
+<a id="aca415cf15c452e4a2ef32e1f74458c44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca415cf15c452e4a2ef32e1f74458c44">&#9670;&nbsp;</a></span>_textSize</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1792,7 +1997,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t SSD1306_graphics::_textsize = 1</td>
+          <td class="memname">uint8_t SSD1306_graphics::_textSize = 1</td>
         </tr>
       </table>
   </td>

@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SSD1306_OLED_RPI
-   &#160;<span id="projectnumber">1.5.0</span>
+   &#160;<span id="projectnumber">1.6.0</span>
    </div>
    <div id="projectbrief">Library I2C 128X64 OLED Display Module Raspberry PI C++ library</div>
   </td>
@@ -56,28 +56,25 @@ $(function() {
 <p>Test file for SSD1306_OLED library, showing use of TEXT mode &amp; graphics.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;bcm2835.h&gt;</code><br />
-<code>#include &lt;time.h&gt;</code><br />
-<code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;cstdio&gt;</code><br />
 <code>#include &quot;<a class="el" href="SSD1306__OLED_8hpp_source.html">SSD1306_OLED.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for TEXT_GRAPHICS/main.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="TEXT__GRAPHICS_2main_8cpp__incl.png" border="0" usemap="#amain_8cpp" alt=""/></div>
 <map name="amain_8cpp" id="amain_8cpp">
-<area shape="rect" title="Test file for SSD1306_OLED library, showing use of TEXT mode &amp; graphics." alt="" coords="153,5,235,32"/>
+<area shape="rect" title="Test file for SSD1306_OLED library, showing use of TEXT mode &amp; graphics." alt="" coords="198,5,281,32"/>
 <area shape="rect" title=" " alt="" coords="5,155,100,181"/>
-<area shape="rect" title=" " alt="" coords="370,80,434,107"/>
-<area shape="rect" title=" " alt="" coords="181,304,247,331"/>
-<area shape="rect" href="SSD1306__OLED_8hpp.html" title="OLED driven by SSD1306 controller." alt="" coords="195,80,345,107"/>
-<area shape="rect" title=" " alt="" coords="305,304,376,331"/>
-<area shape="rect" title=" " alt="" coords="935,155,1018,181"/>
-<area shape="rect" title=" " alt="" coords="829,304,900,331"/>
-<area shape="rect" href="SSD1306__OLED__graphics_8hpp.html" title="OLED driven by SSD1306 controller. header file for the graphics based functions." alt="" coords="345,155,557,181"/>
-<area shape="rect" title=" " alt="" coords="797,229,860,256"/>
+<area shape="rect" title=" " alt="" coords="801,304,862,331"/>
+<area shape="rect" href="SSD1306__OLED_8hpp.html" title="OLED driven by SSD1306 controller." alt="" coords="164,80,315,107"/>
+<area shape="rect" title=" " alt="" coords="322,304,389,331"/>
+<area shape="rect" title=" " alt="" coords="125,155,202,181"/>
+<area shape="rect" href="SSD1306__OLED__graphics_8hpp.html" title="OLED driven by SSD1306 controller. header file for the graphics based functions." alt="" coords="379,155,591,181"/>
+<area shape="rect" title=" " alt="" coords="528,304,591,331"/>
 <area shape="rect" href="SSD1306__OLED__Print_8hpp.html" title="Base class that provides print() and println() for SSD1306_OLED_RPI library." alt="" coords="586,229,773,256"/>
-<area shape="rect" href="SSD1306__OLED__font_8hpp.html" title="OLED driven by SSD1306 controller. font data file 10 fonts." alt="" coords="379,229,561,256"/>
-<area shape="rect" title=" " alt="" coords="571,304,657,331"/>
-<area shape="rect" title=" " alt="" coords="682,304,741,331"/>
+<area shape="rect" href="SSD1306__OLED__font_8hpp.html" title="OLED driven by SSD1306 controller. font data file 12 fonts." alt="" coords="328,229,511,256"/>
+<area shape="rect" title=" " alt="" coords="710,304,777,331"/>
+<area shape="rect" title=" " alt="" coords="627,304,686,331"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -89,6 +86,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a235e5322be72f815426197776409a6a1"><td class="memItemLeft" align="right" valign="top"><a id="a235e5322be72f815426197776409a6a1"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>myOLEDheight</b>&#160;&#160;&#160;64</td></tr>
 <tr class="separator:a235e5322be72f815426197776409a6a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab21210f7b05e8e5616b6155ebd777161"><td class="memItemLeft" align="right" valign="top"><a id="ab21210f7b05e8e5616b6155ebd777161"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>FULLSCREEN</b>&#160;&#160;&#160;(myOLEDwidth * (myOLEDheight/8))</td></tr>
+<tr class="separator:ab21210f7b05e8e5616b6155ebd777161"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbbf063551280cef931c6a167ebcae9d"><td class="memItemLeft" align="right" valign="top"><a id="adbbf063551280cef931c6a167ebcae9d"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>DisplayDelay1</b>&#160;&#160;&#160;4000</td></tr>
 <tr class="separator:adbbf063551280cef931c6a167ebcae9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,24 +119,30 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>DisplayTextTests2</b>
 <tr class="memitem:aafa4c88d4cef040657f2c1c46c0d04fd"><td class="memItemLeft" align="right" valign="top"><a id="aafa4c88d4cef040657f2c1c46c0d04fd"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DisplayTextTests3</b> (void)</td></tr>
 <tr class="separator:aafa4c88d4cef040657f2c1c46c0d04fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc3b243d9c191e97a29288f04671a69f"><td class="memItemLeft" align="right" valign="top"><a id="acc3b243d9c191e97a29288f04671a69f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>testErrorCheck</b> (void)</td></tr>
+<tr class="separator:acc3b243d9c191e97a29288f04671a69f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a608f259b9ac3924e0926245398b960"><td class="memItemLeft" align="right" valign="top"><a id="a7a608f259b9ac3924e0926245398b960"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DisplayGraphics</b> (void)</td></tr>
 <tr class="separator:a7a608f259b9ac3924e0926245398b960"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memItemLeft" align="right" valign="top"><a id="a3c04138a5bfe5d72780bb7e82a18e627"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>main</b> (int argc, char **argv)</td></tr>
-<tr class="separator:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a840291bc02cba5474a4cb46a9b9566fe"><td class="memItemLeft" align="right" valign="top"><a id="a840291bc02cba5474a4cb46a9b9566fe"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>main</b> (void)</td></tr>
+<tr class="separator:a840291bc02cba5474a4cb46a9b9566fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a2cae8d4ea2e547992b445703c9a3bb94"><td class="memItemLeft" align="right" valign="top"><a id="a2cae8d4ea2e547992b445703c9a3bb94"></a>
 <a class="el" href="classSSD1306.html">SSD1306</a>&#160;</td><td class="memItemRight" valign="bottom"><b>myOLED</b> (myOLEDwidth, myOLEDheight)</td></tr>
 <tr class="separator:a2cae8d4ea2e547992b445703c9a3bb94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1db9951323fd54e7293dfc728ba17b19"><td class="memItemLeft" align="right" valign="top"><a id="a1db9951323fd54e7293dfc728ba17b19"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>graphicsCountLimit</b> = 25</td></tr>
+<tr class="separator:a1db9951323fd54e7293dfc728ba17b19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Test file for SSD1306_OLED library, showing use of TEXT mode &amp; graphics. </p>
 <dl class="section author"><dt>Author</dt><dd>Gavin Lyons</dd></dl>
 <p>Project Name: SSD1306_OLED_RPI</p>
-<dl class="test"><dt><b><a class="el" href="test.html#_test000006">Test:</a></b></dt><dd><ol type="1">
+<dl class="test"><dt><b><a class="el" href="test.html#_test000007">Test:</a></b></dt><dd><ol type="1">
 <li>Test 701 Font size 3 float</li>
 <li>Test 702 font size 2 integer</li>
 <li>Test 703 font size 1 string inverted</li>
@@ -152,8 +158,11 @@ Variables</h2></td></tr>
 <li>Test 713 medNums font 8 (numeric font 0-10 + : . / -)</li>
 <li>Test 714 Arial round font 9</li>
 <li>Test 715 Arial bold font 10</li>
-<li>Test 716 various print method tests</li>
-<li>Test 717 drawtext method text screen wrap</li>
+<li>Test 716 Mia font 11</li>
+<li>Test 717 Dedica font 12</li>
+<li>Test 718 various print method tests</li>
+<li>Test 719 drawtext method text screen wrap</li>
+<li>Test 720 Text methods error Checking</li>
 <li>Test 901 Graphics test </li>
 </ol>
 </dd></dl>

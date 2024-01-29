@@ -1,10 +1,9 @@
 <map id="SSD1306_OLED_Print.cpp" name="SSD1306_OLED_Print.cpp">
-<area shape="rect" id="node1" title="Base class that provides print() and println() for SSD1306_OLEDRPI library." alt="" coords="71,5,258,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,80,76,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="73,155,139,181"/>
-<area shape="rect" id="node4" title=" " alt="" coords="164,155,235,181"/>
-<area shape="rect" id="node5" title=" " alt="" coords="413,80,481,107"/>
-<area shape="rect" id="node6" href="$SSD1306__OLED__Print_8hpp.html" title="Base class that provides print() and println() for SSD1306_OLED_RPI library." alt="" coords="202,80,389,107"/>
-<area shape="rect" id="node7" title=" " alt="" coords="259,155,345,181"/>
-<area shape="rect" id="node8" title=" " alt="" coords="370,155,429,181"/>
+<area shape="rect" id="node1" title="Base class that provides print() and println() for SSD1306_OLEDRPI library." alt="" coords="121,5,308,32"/>
+<area shape="rect" id="node2" href="$SSD1306__OLED__Print_8hpp.html" title="Base class that provides print() and println() for SSD1306_OLED_RPI library." alt="" coords="121,80,308,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,155,72,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="96,155,157,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="181,155,248,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="273,155,335,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="360,155,419,181"/>
 </map>

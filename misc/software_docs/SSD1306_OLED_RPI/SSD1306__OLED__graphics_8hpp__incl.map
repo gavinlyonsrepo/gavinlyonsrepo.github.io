@@ -1,11 +1,10 @@
 <map id="SSD1306_OLED_graphics.hpp" name="SSD1306_OLED_graphics.hpp">
-<area shape="rect" id="node1" title="OLED driven by SSD1306 controller. header file for the graphics based functions." alt="" coords="156,5,368,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="298,155,365,181"/>
-<area shape="rect" id="node3" title=" " alt="" coords="16,155,87,181"/>
-<area shape="rect" id="node4" title=" " alt="" coords="231,80,294,107"/>
-<area shape="rect" id="node5" href="$SSD1306__OLED__Print_8hpp.html" title="Base class that provides print() and println() for SSD1306_OLED_RPI library." alt="" coords="369,80,556,107"/>
-<area shape="rect" id="node9" href="$SSD1306__OLED__font_8hpp.html" title="OLED driven by SSD1306 controller. font data file 10 fonts." alt="" coords="24,80,207,107"/>
-<area shape="rect" id="node6" title=" " alt="" coords="472,155,559,181"/>
-<area shape="rect" id="node7" title=" " alt="" coords="583,155,654,181"/>
-<area shape="rect" id="node8" title=" " alt="" coords="389,155,448,181"/>
+<area shape="rect" id="node1" title="OLED driven by SSD1306 controller. header file for the graphics based functions." alt="" coords="171,5,383,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="247,155,309,181"/>
+<area shape="rect" id="node3" title=" " alt="" coords="157,155,223,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="507,155,569,181"/>
+<area shape="rect" id="node5" href="$SSD1306__OLED__Print_8hpp.html" title="Base class that provides print() and println() for SSD1306_OLED_RPI library." alt="" coords="314,80,501,107"/>
+<area shape="rect" id="node8" href="$SSD1306__OLED__font_8hpp.html" title="OLED driven by SSD1306 controller. font data file 12 fonts." alt="" coords="5,80,188,107"/>
+<area shape="rect" id="node6" title=" " alt="" coords="415,155,482,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="333,155,391,181"/>
 </map>
