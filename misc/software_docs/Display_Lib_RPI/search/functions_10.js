@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['testfps_993',['TestFPS',['../color16__displays_2st7735_2Frame__rate__test__bmp_2main_8cpp.html#aa0016e4eff446be0c13239bc3b6e05b9',1,'main.cpp']]],
+  ['tftblacktabinitialize_994',['TFTBlackTabInitialize',['../classST7735__TFT.html#aedfacb79fd0340ba45b822980cfd2820',1,'ST7735_TFT']]],
+  ['tftchangeinvertmode_995',['TFTchangeInvertMode',['../classST7735__TFT.html#a0b047cb576f6ff2cf3eefe04a10a2554',1,'ST7735_TFT']]],
+  ['tftchangemode_996',['TFTchangeMode',['../classST7735__TFT.html#ab0d56249031d46739ea12de4b30ee6f3',1,'ST7735_TFT']]],
+  ['tftgreentabinitialize_997',['TFTGreenTabInitialize',['../classST7735__TFT.html#abaa8f28c0b44216bd480c9f69e81ac7f',1,'ST7735_TFT']]],
+  ['tftinitpcbtype_998',['TFTInitPCBType',['../classST7735__TFT.html#a2d5f3ca644cc3004ec64f173f846e178',1,'ST7735_TFT::TFTInitPCBType(TFT_PCBtype_e pcbType, uint16_t CommDelay)'],['../classST7735__TFT.html#afbaec3c08af02de46785c305405eac61',1,'ST7735_TFT::TFTInitPCBType(TFT_PCBtype_e pcbType, uint32_t hertz=0, uint8_t SPICE_Pin=0)']]],
+  ['tftinitscreensize_999',['TFTInitScreenSize',['../classST7735__TFT.html#a4d77ea3bb29edcc711f3ec68f139031d',1,'ST7735_TFT']]],
+  ['tftpowerdown_1000',['TFTPowerDown',['../classST7735__TFT.html#a8a09f57cce8cf7394f0d910c05114173',1,'ST7735_TFT']]],
+  ['tftredtabinitialize_1001',['TFTRedTabInitialize',['../classST7735__TFT.html#adfb57a0349c584df8bc3cdd4b207245d',1,'ST7735_TFT']]],
+  ['tftresetpin_1002',['TFTResetPIN',['../classST7735__TFT.html#ad0b3ae845088adb9a7c04fe918b0978f',1,'ST7735_TFT']]],
+  ['tftsetrotation_1003',['TFTsetRotation',['../classST7735__TFT.html#a2e64bf7ea179c6d7e6c7092ae1b47bbc',1,'ST7735_TFT']]],
+  ['tftsetscrolldefinition_1004',['TFTsetScrollDefinition',['../classST7735__TFT.html#ae5f754a44216e686144a2021f73cc0cb',1,'ST7735_TFT']]],
+  ['tftsetupgpio_1005',['TFTSetupGPIO',['../classST7735__TFT.html#a6c41bdd0ab21757ce9629cdf5cfdf3ec',1,'ST7735_TFT::TFTSetupGPIO(int8_t, int8_t, int8_t, int8_t, int8_t)'],['../classST7735__TFT.html#a2893f498b6dc061ae5c95ed12b659b75',1,'ST7735_TFT::TFTSetupGPIO(int8_t, int8_t)']]],
+  ['tftspihwsettings_1006',['TFTSPIHWSettings',['../classST7735__TFT.html#a4555178c604e62235de2c0e99e79cca3',1,'ST7735_TFT']]],
+  ['tftst7735binitialize_1007',['TFTST7735BInitialize',['../classST7735__TFT.html#a21a252bfd22f210868935b2d1151bd0c',1,'ST7735_TFT']]],
+  ['tftverticalscroll_1008',['TFTVerticalScroll',['../classST7735__TFT.html#a984804cc588f1b30ec298c6cebba26bc',1,'ST7735_TFT']]],
+  ['tm1638plus_5fcommon_1009',['TM1638plus_common',['../classTM1638plus__common.html#acfe709079ee3c94c9ddda359b0b9e342',1,'TM1638plus_common']]],
+  ['tm1638plus_5fmodel1_1010',['TM1638plus_Model1',['../classTM1638plus__Model1.html#a6ecf76684e39f8418fb45ee22a44d209',1,'TM1638plus_Model1']]],
+  ['tm1638plus_5fmodel2_1011',['TM1638plus_Model2',['../classTM1638plus__Model2.html#aac65b8d433b7df8dedcfb48bc9d20b04',1,'TM1638plus_Model2']]],
+  ['tm1638plus_5fmodel3_1012',['TM1638plus_Model3',['../classTM1638plus__Model3.html#ab7b09a8af19da4ced29406f3ab598ac6',1,'TM1638plus_Model3']]],
+  ['tmcommdelayget_1013',['TMCommDelayGet',['../classTM1638plus__common.html#a9d11424b9bc51f5775924d08073f6cc8',1,'TM1638plus_common']]],
+  ['tmcommdelayset_1014',['TMCommDelayset',['../classTM1638plus__common.html#a28a25c24b952a94c577313b7bc8fbacd',1,'TM1638plus_common']]]
+];

@@ -1,5 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classPrint.html" title="class that provides polymorphic print methods for printing data" alt="" coords="5,5,57,32"/>
-<area shape="rect" id="node2" href="$classST7735__TFT__graphics.html" title="Class to handle fonts and graphics of ST7735 display." alt="" coords="105,5,268,32"/>
-<area shape="rect" id="node3" href="$classST7735__TFT.html" title="Class to control ST7735 TFT basic functionality." alt="" coords="316,5,416,32"/>
-</map>

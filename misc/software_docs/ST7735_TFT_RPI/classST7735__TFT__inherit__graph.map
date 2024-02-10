@@ -1,5 +1,0 @@
-<map id="ST7735_TFT" name="ST7735_TFT">
-<area shape="rect" id="node1" title="Class to control ST7735 TFT basic functionality." alt="" coords="37,155,137,181"/>
-<area shape="rect" id="node2" href="$classST7735__TFT__graphics.html" title="Class to handle fonts and graphics of ST7735 display." alt="" coords="5,80,168,107"/>
-<area shape="rect" id="node3" href="$classPrint.html" title="class that provides polymorphic print methods for printing data" alt="" coords="61,5,113,32"/>
-</map>
