@@ -20,9 +20,8 @@ body{
 /* id myicon , icon display in header.html */
 #myicon{
 	background-image:url('../images/myicon.png');
-	width:48px;
-	height:48px;
-	border:2px solid #000;
+	width:64px;
+	height:64px;
 	position:relative;
 	float: left;
 	margin-left: 20px;
