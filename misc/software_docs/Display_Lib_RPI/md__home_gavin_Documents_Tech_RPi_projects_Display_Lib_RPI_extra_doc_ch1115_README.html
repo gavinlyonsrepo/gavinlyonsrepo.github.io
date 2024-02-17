@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Display_Lib_RPI: ER_OLEDM1_CH1115</title>
+<title>Display_Lib_RPI: CH1115 OLED Readme</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -20,6 +20,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Display_Lib_RPI
    &#160;<span id="projectnumber">1.0.1</span>
@@ -64,10 +65,10 @@ $(function() {
 </div><!-- top -->
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">ER_OLEDM1_CH1115 </div>  </div>
+<div class="title">CH1115 OLED Readme </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><img src="https://github.com/gavinlyonsrepo/ER_OLEDM1_CH1115/blob/main/extras/image/oled.jpg" alt=" OLED " class="inline"/></p>
+<div class="textblock"><p><a href="https://github.com/gavinlyonsrepo/ER_OLEDM1_CH1115/blob/main/extras/image/oled.jpg"><img src="https://github.com/gavinlyonsrepo/ER_OLEDM1_CH1115/blob/main/extras/image/oled.jpg" alt=" OLED image" class="inline"/></a></p>
 <h1><a class="anchor" id="autotoc_md1"></a>
 Table of contents</h1>
 <ul>
@@ -94,20 +95,12 @@ Overview</h1>
 <li>Hardware and Software SPI</li>
 </ol>
 <ul>
-<li>Development Tool chain.<ol type="1">
-<li>Raspberry PI 3 model b</li>
-<li>C++, g++ (Debian 12.2.0)</li>
-<li>Raspbian , Debian 12 bookworm OS, , 64 bit.</li>
-<li>kernel : aarch64 Linux 6.1.0-rpi7-rpi-v8</li>
-<li><a href="http://www.airspayce.com/mikem/bcm2835/">bcm2835 Library 1.73 dependency</a>. Provides low level SPI bus, delays and GPIO control.</li>
-</ol>
-</li>
 <li>Author: Gavin Lyons</li>
 <li>Port of my Arduino <a href="https://github.com/gavinlyonsrepo/ER_OLEDM1_CH1115">library link</a>.</li>
 </ul>
 <h1><a class="anchor" id="autotoc_md3"></a>
 Output</h1>
-<p><img src="https://github.com/gavinlyonsrepo/ER_OLEDM1_CH1115_PICO/blob/main/extra/image/all.jpg" alt=" output " class="inline"/></p>
+<p><a href="https://github.com/gavinlyonsrepo/ER_OLEDM1_CH1115_PICO/blob/main/extra/image/all.jpg"><img src="https://github.com/gavinlyonsrepo/ER_OLEDM1_CH1115_PICO/blob/main/extra/image/all.jpg" alt=" output image " class="inline"/></a></p>
 <h1><a class="anchor" id="autotoc_md4"></a>
 Hardware</h1>
 <p>CH1115 is a single-chip CMOS OLED driver with controller for organic light emitting diode dot-matrix graphic display system. CH1115 consists of 128 segments, 64 commons that can support a maximum display resolution of 128 X 64. It is designed for Common Cathode type OLED panel. ER-OLEDM1.09-1W-SPI is a White 1.09" OLED Display Panel with Breakout Board. This module is a combination of the two.(controller and OLED)</p>
@@ -130,7 +123,7 @@ Hardware</h1>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">7   </td><td class="markdownTableBodyNone">SPICEO GPIO 8   </td><td class="markdownTableBodyNone">CS   </td><td class="markdownTableBodyNone">This pin is the chip select input.   </td></tr>
 </table>
-<p><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/wiring.png" alt=" wiring " class="inline"/></p>
+<p><a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ch1115.png"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ch1115.png" alt=" wiring " class="inline"/></a></p>
 <h1><a class="anchor" id="autotoc_md5"></a>
 Software</h1>
 <p>Example files :</p>
@@ -151,9 +144,9 @@ Software</h1>
 <h2><a class="anchor" id="autotoc_md6"></a>
 SPI</h2>
 <p>This library supports both Hardware SPI and software SPI. The constructor of the main class is overloaded. Which SPI is started depends on which constructor called by user. Hardware SPI uses bcm2835 library spi module. The SPI settings are in OLEDSPIHWSettings function. If there are multiple SPI devices on Bus(with different settings) the user can call this method to refresh settings before a tranche of OLED commands. Default Speed is BCM2835_SPI_CLOCK_DIVIDER_64, 6.25MHz on RPI3. This can be adjusted in code or you can pass the divider value in the begin method as an argument. These values are defined by enum bcm2835SPIClockDivider. For full list see</p>
-<p><img src="https://github.com/gavinlyonsrepo/NOKIA_5110_RPI/blob/main/extra/images/bcm2.png" alt="bcm2" class="inline"/></p>
+<p><a href="https://github.com/gavinlyonsrepo/NOKIA_5110_RPI/blob/main/extra/images/bcm2.png"><img src="https://github.com/gavinlyonsrepo/NOKIA_5110_RPI/blob/main/extra/images/bcm2.png" alt="bcm2" class="inline"/></a></p>
 <p>User can also adjust which HW SPI chip enable pin they use(CE0 or CE1). in begin method arguments. This device uses bit order MSB First and SPI Mode 0.</p>
-<p>Measured SPI speed results Version 1.3 are in the FPS test example file header comment block. The member OLEDHighFreqDelay is a GPIO uS delay that can be used to slow down or speed up Software SPI. By default it is set to 0uS. It may have to be increased depending on device/CPU used.</p>
+<p>The member OLEDHighFreqDelay is a GPIO uS delay that can be used to slow down or speed up Software SPI. By default it is set to 0uS. It may have to be increased depending on device/CPU used.</p>
 <h2><a class="anchor" id="autotoc_md7"></a>
 Bitmaps</h2>
 <p>There is a few different ways of displaying bitmaps,</p>
@@ -180,7 +173,7 @@ User adjustments</h2>
 </div><!-- PageDoc -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sat Feb 17 2024 15:43:48 for Display_Lib_RPI by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

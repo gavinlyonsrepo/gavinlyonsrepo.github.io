@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['rcmd1_957',['Rcmd1',['../classST7735__TFT.html#a0b0514b9b2685cb461e554e39d5d6463',1,'ST7735_TFT']]],
-  ['rcmd2green_958',['Rcmd2green',['../classST7735__TFT.html#a131a53cfd23e35a840550c526cbe7621',1,'ST7735_TFT']]],
-  ['rcmd2red_959',['Rcmd2red',['../classST7735__TFT.html#aa4128179a39c7996c609dbe78475d48a',1,'ST7735_TFT']]],
-  ['rcmd3_960',['Rcmd3',['../classST7735__TFT.html#ac1f2d36d83f2f0007de9452f282c3a72',1,'ST7735_TFT']]],
-  ['readbuttons_961',['readButtons',['../classTM1638plus__Model1.html#a4a9e37d8d6dc8764c711dcc4c3768008',1,'TM1638plus_Model1']]],
-  ['readkey16_962',['ReadKey16',['../classTM1638plus__Model2.html#a408f81481670ab3aae346f41aa494559',1,'TM1638plus_Model2']]],
-  ['readkey16two_963',['ReadKey16Two',['../classTM1638plus__Model2.html#af8686814f4ea89080b74694546cb5e8b',1,'TM1638plus_Model2']]],
-  ['reset_964',['reset',['../classTM1638plus__common.html#ad6cfc82e91a68bbddf0abafabc35e0e5',1,'TM1638plus_common']]]
+  ['rcmd1_958',['Rcmd1',['../classST7735__TFT.html#a0b0514b9b2685cb461e554e39d5d6463',1,'ST7735_TFT']]],
+  ['rcmd2green_959',['Rcmd2green',['../classST7735__TFT.html#a131a53cfd23e35a840550c526cbe7621',1,'ST7735_TFT']]],
+  ['rcmd2red_960',['Rcmd2red',['../classST7735__TFT.html#aa4128179a39c7996c609dbe78475d48a',1,'ST7735_TFT']]],
+  ['rcmd3_961',['Rcmd3',['../classST7735__TFT.html#ac1f2d36d83f2f0007de9452f282c3a72',1,'ST7735_TFT']]],
+  ['readbuttons_962',['readButtons',['../classTM1638plus__Model1.html#a4a9e37d8d6dc8764c711dcc4c3768008',1,'TM1638plus_Model1']]],
+  ['readkey16_963',['ReadKey16',['../classTM1638plus__Model2.html#a408f81481670ab3aae346f41aa494559',1,'TM1638plus_Model2']]],
+  ['readkey16two_964',['ReadKey16Two',['../classTM1638plus__Model2.html#af8686814f4ea89080b74694546cb5e8b',1,'TM1638plus_Model2']]],
+  ['reset_965',['reset',['../classTM1638plus__common.html#ad6cfc82e91a68bbddf0abafabc35e0e5',1,'TM1638plus_common']]]
 ];
