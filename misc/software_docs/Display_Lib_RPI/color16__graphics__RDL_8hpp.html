@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Display_Lib_RPI
-   &#160;<span id="projectnumber">1.0.1</span>
+   &#160;<span id="projectnumber">1.2.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Raspberry Pi single board computers.</div>
   </td>
@@ -130,6 +130,9 @@ Macros</h2></td></tr>
 <tr class="memitem:ae47d93e5e39c0f7ea00bfd4523ac1794"><td class="memItemLeft" align="right" valign="top"><a id="ae47d93e5e39c0f7ea00bfd4523ac1794"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_SDATA_SetLow</b>&#160;&#160;&#160;bcm2835_gpio_write(_Display_SDATA,LOW)</td></tr>
 <tr class="separator:ae47d93e5e39c0f7ea00bfd4523ac1794"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad73b2267a229672378146adb5c2b4208"><td class="memItemLeft" align="right" valign="top"><a id="ad73b2267a229672378146adb5c2b4208"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_MISO_Read</b>&#160;&#160;&#160;bcm2835_gpio_lev(_Display_MISO)</td></tr>
+<tr class="separator:ad73b2267a229672378146adb5c2b4208"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5aad5c62d7f6185752e5820f3da1eb66"><td class="memItemLeft" align="right" valign="top"><a id="a5aad5c62d7f6185752e5820f3da1eb66"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_DC_SetDigitalOutput</b>&#160;&#160;&#160;bcm2835_gpio_fsel(_Display_DC, BCM2835_GPIO_FSEL_OUTP)</td></tr>
 <tr class="separator:a5aad5c62d7f6185752e5820f3da1eb66"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,6 +148,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a453a14b7a033083e0a0493b2069f1787"><td class="memItemLeft" align="right" valign="top"><a id="a453a14b7a033083e0a0493b2069f1787"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_CS_SetDigitalOutput</b>&#160;&#160;&#160;bcm2835_gpio_fsel(_Display_CS, BCM2835_GPIO_FSEL_OUTP)</td></tr>
 <tr class="separator:a453a14b7a033083e0a0493b2069f1787"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3785b897efc2d5c708c7b62b6031d7c6"><td class="memItemLeft" align="right" valign="top"><a id="a3785b897efc2d5c708c7b62b6031d7c6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_MISO_SetDigitalInput</b>&#160;&#160;&#160;bcm2835_gpio_fsel(_Display_MISO, BCM2835_GPIO_FSEL_INPT)</td></tr>
+<tr class="separator:a3785b897efc2d5c708c7b62b6031d7c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acea730ffb5ab2de1efa705bd18d20e22"><td class="memItemLeft" align="right" valign="top"><a id="acea730ffb5ab2de1efa705bd18d20e22"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>RDLC_BLACK</b>&#160;&#160;&#160;0x0000</td></tr>
 <tr class="separator:acea730ffb5ab2de1efa705bd18d20e22"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -179,11 +185,38 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>RDLC_BROWN</b>&#160;&#160;&#160;0x6201</td></tr>
 <tr class="separator:a4550e72b3f3ec6d85a26e5795ce25b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d94170844cc1b180b5c4699c84e51a5"><td class="memItemLeft" align="right" valign="top"><a id="a5d94170844cc1b180b5c4699c84e51a5"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>RDLC_DGREEN</b>&#160;&#160;&#160;0x01c0</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RDLC_DGREEN</b>&#160;&#160;&#160;0x01C0</td></tr>
 <tr class="separator:a5d94170844cc1b180b5c4699c84e51a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba0abd4c3e58fc347ab81ddf3e99b332"><td class="memItemLeft" align="right" valign="top"><a id="aba0abd4c3e58fc347ab81ddf3e99b332"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>RDLC_ORANGE</b>&#160;&#160;&#160;0xFC00</td></tr>
 <tr class="separator:aba0abd4c3e58fc347ab81ddf3e99b332"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad699871a986c5b170d716e11b15428fe"><td class="memItemLeft" align="right" valign="top"><a id="ad699871a986c5b170d716e11b15428fe"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RDLC_NAVY</b>&#160;&#160;&#160;0x000F</td></tr>
+<tr class="separator:ad699871a986c5b170d716e11b15428fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e401e8e058bb72ab6621bb8968c4d19"><td class="memItemLeft" align="right" valign="top"><a id="a6e401e8e058bb72ab6621bb8968c4d19"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RDLC_DCYAN</b>&#160;&#160;&#160;0x03EF</td></tr>
+<tr class="separator:a6e401e8e058bb72ab6621bb8968c4d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e15c2f2301756ee888f5a3a4378daa2"><td class="memItemLeft" align="right" valign="top"><a id="a3e15c2f2301756ee888f5a3a4378daa2"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RDLC_MAROON</b>&#160;&#160;&#160;0x7800</td></tr>
+<tr class="separator:a3e15c2f2301756ee888f5a3a4378daa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fcff899deb2c678995e7917a27ec8a5"><td class="memItemLeft" align="right" valign="top"><a id="a9fcff899deb2c678995e7917a27ec8a5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RDLC_PURPLE</b>&#160;&#160;&#160;0x780F</td></tr>
+<tr class="separator:a9fcff899deb2c678995e7917a27ec8a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62fcbb96eeff5c9156d8b0cbfb6e91b7"><td class="memItemLeft" align="right" valign="top"><a id="a62fcbb96eeff5c9156d8b0cbfb6e91b7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RDLC_OLIVE</b>&#160;&#160;&#160;0x7BE0</td></tr>
+<tr class="separator:a62fcbb96eeff5c9156d8b0cbfb6e91b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8e81c055dd6fca02e54b0d794e17248"><td class="memItemLeft" align="right" valign="top"><a id="ae8e81c055dd6fca02e54b0d794e17248"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RDLC_LGREY</b>&#160;&#160;&#160;0xC618</td></tr>
+<tr class="separator:ae8e81c055dd6fca02e54b0d794e17248"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfbdfd438517bc4914fb0ab32d89a599"><td class="memItemLeft" align="right" valign="top"><a id="adfbdfd438517bc4914fb0ab32d89a599"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RDLC_DGREY</b>&#160;&#160;&#160;0x7BEF</td></tr>
+<tr class="separator:adfbdfd438517bc4914fb0ab32d89a599"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71c71c82e6814f4a4a010b0b89d04552"><td class="memItemLeft" align="right" valign="top"><a id="a71c71c82e6814f4a4a010b0b89d04552"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RDLC_GYELLOW</b>&#160;&#160;&#160;0xAFE5</td></tr>
+<tr class="separator:a71c71c82e6814f4a4a010b0b89d04552"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94609bcb852490eaf7c4471cb62fb2ff"><td class="memItemLeft" align="right" valign="top"><a id="a94609bcb852490eaf7c4471cb62fb2ff"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RDLC_PINK</b>&#160;&#160;&#160;0xFC18</td></tr>
+<tr class="separator:a94609bcb852490eaf7c4471cb62fb2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Library header file for 16 bit (565) color graphics library. This file handles the graphic methods. </p>
@@ -191,7 +224,7 @@ Macros</h2></td></tr>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Feb 17 2024 15:43:48 for Display_Lib_RPI by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sat Mar 2 2024 22:29:56 for Display_Lib_RPI by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

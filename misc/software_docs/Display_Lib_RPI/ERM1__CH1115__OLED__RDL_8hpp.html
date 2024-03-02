@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Display_Lib_RPI
-   &#160;<span id="projectnumber">1.0.1</span>
+   &#160;<span id="projectnumber">1.2.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Raspberry Pi single board computers.</div>
   </td>
@@ -211,6 +211,21 @@ Macros</h2></td></tr>
 <tr class="memitem:a4815e7843ad34763be29c0e03e031174"><td class="memItemLeft" align="right" valign="top"><a id="a4815e7843ad34763be29c0e03e031174"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_SDA_SetLow</b>&#160;&#160;&#160;bcm2835_gpio_write(_OLED_DIN,LOW)</td></tr>
 <tr class="separator:a4815e7843ad34763be29c0e03e031174"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acea4df346b83f77c17255c7ac4eb46a2"><td class="memItemLeft" align="right" valign="top"><a id="acea4df346b83f77c17255c7ac4eb46a2"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_RST_SetDigitalOutput</b>&#160;&#160;&#160;bcm2835_gpio_fsel(_OLED_RST, BCM2835_GPIO_FSEL_OUTP);</td></tr>
+<tr class="separator:acea4df346b83f77c17255c7ac4eb46a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dedce873166c225e08c221970bff54d"><td class="memItemLeft" align="right" valign="top"><a id="a4dedce873166c225e08c221970bff54d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_CD_SetDigitalOutput</b>&#160;&#160;&#160;bcm2835_gpio_fsel(_OLED_CD, BCM2835_GPIO_FSEL_OUTP);</td></tr>
+<tr class="separator:a4dedce873166c225e08c221970bff54d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ea81afecd4a3f8be0559f0693a2ae90"><td class="memItemLeft" align="right" valign="top"><a id="a2ea81afecd4a3f8be0559f0693a2ae90"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_CS_SetDigitalOutput</b>&#160;&#160;&#160;bcm2835_gpio_fsel( _OLED_CS, BCM2835_GPIO_FSEL_OUTP);</td></tr>
+<tr class="separator:a2ea81afecd4a3f8be0559f0693a2ae90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcf1c4b05bfbda1accc5bb017b7c4fc1"><td class="memItemLeft" align="right" valign="top"><a id="abcf1c4b05bfbda1accc5bb017b7c4fc1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_SCLK_SetDigitalOutput</b>&#160;&#160;&#160;bcm2835_gpio_fsel(_OLED_SCLK, BCM2835_GPIO_FSEL_OUTP);</td></tr>
+<tr class="separator:abcf1c4b05bfbda1accc5bb017b7c4fc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f07b8866bf9f554533d8c4298e7de5d"><td class="memItemLeft" align="right" valign="top"><a id="a4f07b8866bf9f554533d8c4298e7de5d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_DIN_SetDigitalOutput</b>&#160;&#160;&#160;bcm2835_gpio_fsel(_OLED_DIN, BCM2835_GPIO_FSEL_OUTP);</td></tr>
+<tr class="separator:a4f07b8866bf9f554533d8c4298e7de5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6dbc18e4838b2d8bbc6eb47e0a4a699"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ERM1__CH1115__OLED__RDL_8hpp.html#ae6dbc18e4838b2d8bbc6eb47e0a4a699">ERMCH1115_INITDELAY</a>&#160;&#160;&#160;100</td></tr>
 <tr class="separator:ae6dbc18e4838b2d8bbc6eb47e0a4a699"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a237921a2c53b8c4f4f69b6adaa68cad8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ERM1__CH1115__OLED__RDL_8hpp.html#a237921a2c53b8c4f4f69b6adaa68cad8">ERMCH1115_HIGHFREQ_DELAY</a>&#160;&#160;&#160;0</td></tr>
@@ -935,7 +950,7 @@ Macros</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Feb 17 2024 15:43:48 for Display_Lib_RPI by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sat Mar 2 2024 22:29:56 for Display_Lib_RPI by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

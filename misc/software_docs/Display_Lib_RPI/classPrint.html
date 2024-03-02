@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Display_Lib_RPI
-   &#160;<span id="projectnumber">1.0.1</span>
+   &#160;<span id="projectnumber">1.2.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Raspberry Pi single board computers.</div>
   </td>
@@ -87,12 +87,14 @@ Inheritance diagram for Print:</div>
 <area shape="rect" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s." alt="" coords="346,5,398,32"/>
 <area shape="rect" href="classHD44780PCF8574LCD.html" title=" " alt="" coords="119,80,284,107"/>
 <area shape="rect" href="classbicolor__graphics.html" title="Graphics class to hold graphic related functions." alt="" coords="308,80,436,107"/>
-<area shape="rect" href="classcolor16__graphics.html" title="Class to handle fonts and graphics of color 16 bit display." alt="" coords="505,80,637,107"/>
+<area shape="rect" href="classcolor16__graphics.html" title="Class to handle fonts and graphics of color 16 bit display." alt="" coords="610,80,742,107"/>
 <area shape="rect" href="classERM19264__UC1609.html" title="class to drive the ERM19264_UC1609 LCD" alt="" coords="5,155,155,181"/>
 <area shape="rect" href="classERMCH1115.html" title="class to drive the ERMCh1115 OLED" alt="" coords="179,155,282,181"/>
 <area shape="rect" href="classNOKIA__5110__RPI.html" title="Class Controls SPI comms and LCD functionality." alt="" coords="307,155,437,181"/>
 <area shape="rect" href="classSSD1306.html" title="class to control OLED and define buffer" alt="" coords="461,155,541,181"/>
-<area shape="rect" href="classST7735__TFT.html" title="Class to control ST7735 TFT basic functionality." alt="" coords="566,155,666,181"/>
+<area shape="rect" href="classILI9341__TFT.html" title="Class to interface with ILI9341 LCD display." alt="" coords="565,155,664,181"/>
+<area shape="rect" href="classST7735__TFT.html" title="Class to control ST7735 TFT basic functionality." alt="" coords="689,155,789,181"/>
+<area shape="rect" href="classST7789__TFT.html" title="Class to control ST7789 TFT basic functionality." alt="" coords="813,155,913,181"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -125,18 +127,18 @@ virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>availableForWr
 <tr class="memitem:a1e411d07a8ffec5faf7ce485bac0f029"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a1e411d07a8ffec5faf7ce485bac0f029">print</a> (char)</td></tr>
 <tr class="memdesc:a1e411d07a8ffec5faf7ce485bac0f029"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an character  <a href="classPrint.html#a1e411d07a8ffec5faf7ce485bac0f029">More...</a><br /></td></tr>
 <tr class="separator:a1e411d07a8ffec5faf7ce485bac0f029"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32cb3cf32d701c797b2b2d1080052dfe"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a32cb3cf32d701c797b2b2d1080052dfe">print</a> (int, int=DEC)</td></tr>
-<tr class="memdesc:a32cb3cf32d701c797b2b2d1080052dfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an integer of base number system  <a href="classPrint.html#a32cb3cf32d701c797b2b2d1080052dfe">More...</a><br /></td></tr>
-<tr class="separator:a32cb3cf32d701c797b2b2d1080052dfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87275de35583868a370f43ce1c887750"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a87275de35583868a370f43ce1c887750">print</a> (unsigned int, int=DEC)</td></tr>
-<tr class="memdesc:a87275de35583868a370f43ce1c887750"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned integer of base number system  <a href="classPrint.html#a87275de35583868a370f43ce1c887750">More...</a><br /></td></tr>
-<tr class="separator:a87275de35583868a370f43ce1c887750"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1fb2a2384c7b9f628943f5046e7d1c1"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ab1fb2a2384c7b9f628943f5046e7d1c1">print</a> (long, int=DEC)</td></tr>
-<tr class="memdesc:ab1fb2a2384c7b9f628943f5046e7d1c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an long integer of base number system  <a href="classPrint.html#ab1fb2a2384c7b9f628943f5046e7d1c1">More...</a><br /></td></tr>
-<tr class="separator:ab1fb2a2384c7b9f628943f5046e7d1c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26a40be7a557c0bc391a15dce9f06954"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a26a40be7a557c0bc391a15dce9f06954">print</a> (unsigned long, int=DEC)</td></tr>
-<tr class="memdesc:a26a40be7a557c0bc391a15dce9f06954"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned long integer of base number system  <a href="classPrint.html#a26a40be7a557c0bc391a15dce9f06954">More...</a><br /></td></tr>
-<tr class="separator:a26a40be7a557c0bc391a15dce9f06954"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67acb421606e3a0915372d3472db9bd3"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a67acb421606e3a0915372d3472db9bd3">print</a> (int, int=RDL_DEC)</td></tr>
+<tr class="memdesc:a67acb421606e3a0915372d3472db9bd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an integer of base number system  <a href="classPrint.html#a67acb421606e3a0915372d3472db9bd3">More...</a><br /></td></tr>
+<tr class="separator:a67acb421606e3a0915372d3472db9bd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5b352ebfdb3c2c7adda4c354c74c5db"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ab5b352ebfdb3c2c7adda4c354c74c5db">print</a> (unsigned int, int=RDL_DEC)</td></tr>
+<tr class="memdesc:ab5b352ebfdb3c2c7adda4c354c74c5db"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned integer of base number system  <a href="classPrint.html#ab5b352ebfdb3c2c7adda4c354c74c5db">More...</a><br /></td></tr>
+<tr class="separator:ab5b352ebfdb3c2c7adda4c354c74c5db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaef5d39e88bb6460fc239c642790b655"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#aaef5d39e88bb6460fc239c642790b655">print</a> (long, int=RDL_DEC)</td></tr>
+<tr class="memdesc:aaef5d39e88bb6460fc239c642790b655"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an long integer of base number system  <a href="classPrint.html#aaef5d39e88bb6460fc239c642790b655">More...</a><br /></td></tr>
+<tr class="separator:aaef5d39e88bb6460fc239c642790b655"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2fba632d40c18f847fc14510f9003fe"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ac2fba632d40c18f847fc14510f9003fe">print</a> (unsigned long, int=RDL_DEC)</td></tr>
+<tr class="memdesc:ac2fba632d40c18f847fc14510f9003fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned long integer of base number system  <a href="classPrint.html#ac2fba632d40c18f847fc14510f9003fe">More...</a><br /></td></tr>
+<tr class="separator:ac2fba632d40c18f847fc14510f9003fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8b4c025786c820afe0a90aeea01c9c5"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ae8b4c025786c820afe0a90aeea01c9c5">print</a> (double, int=2)</td></tr>
 <tr class="memdesc:ae8b4c025786c820afe0a90aeea01c9c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an double  <a href="classPrint.html#ae8b4c025786c820afe0a90aeea01c9c5">More...</a><br /></td></tr>
 <tr class="separator:ae8b4c025786c820afe0a90aeea01c9c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,18 +151,18 @@ virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>availableForWr
 <tr class="memitem:a554896a71162f967b5794401239d7a01"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a554896a71162f967b5794401239d7a01">println</a> (char)</td></tr>
 <tr class="memdesc:a554896a71162f967b5794401239d7a01"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an character followed by new line  <a href="classPrint.html#a554896a71162f967b5794401239d7a01">More...</a><br /></td></tr>
 <tr class="separator:a554896a71162f967b5794401239d7a01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a738c88471cfb8eac7c8a804699971413"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a738c88471cfb8eac7c8a804699971413">println</a> (int, int=DEC)</td></tr>
-<tr class="memdesc:a738c88471cfb8eac7c8a804699971413"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an integer of base number system followed by new line  <a href="classPrint.html#a738c88471cfb8eac7c8a804699971413">More...</a><br /></td></tr>
-<tr class="separator:a738c88471cfb8eac7c8a804699971413"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac87eed1fcb78641169ba2244278c899e"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ac87eed1fcb78641169ba2244278c899e">println</a> (unsigned int, int=DEC)</td></tr>
-<tr class="memdesc:ac87eed1fcb78641169ba2244278c899e"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned integer of base number system followed by new line  <a href="classPrint.html#ac87eed1fcb78641169ba2244278c899e">More...</a><br /></td></tr>
-<tr class="separator:ac87eed1fcb78641169ba2244278c899e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a833fbec3ceba92e3ec95f51e026e4569"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a833fbec3ceba92e3ec95f51e026e4569">println</a> (long, int=DEC)</td></tr>
-<tr class="memdesc:a833fbec3ceba92e3ec95f51e026e4569"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an long integer of base number system followed by new line  <a href="classPrint.html#a833fbec3ceba92e3ec95f51e026e4569">More...</a><br /></td></tr>
-<tr class="separator:a833fbec3ceba92e3ec95f51e026e4569"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebee3c33ee5d8f10b6f378d5273742d0"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#aebee3c33ee5d8f10b6f378d5273742d0">println</a> (unsigned long, int=DEC)</td></tr>
-<tr class="memdesc:aebee3c33ee5d8f10b6f378d5273742d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned long integer of base number system followed by new line  <a href="classPrint.html#aebee3c33ee5d8f10b6f378d5273742d0">More...</a><br /></td></tr>
-<tr class="separator:aebee3c33ee5d8f10b6f378d5273742d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3978528ddee1a7c701e69eaea2b9dd0c"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a3978528ddee1a7c701e69eaea2b9dd0c">println</a> (int, int=RDL_DEC)</td></tr>
+<tr class="memdesc:a3978528ddee1a7c701e69eaea2b9dd0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an integer of base number system followed by new line  <a href="classPrint.html#a3978528ddee1a7c701e69eaea2b9dd0c">More...</a><br /></td></tr>
+<tr class="separator:a3978528ddee1a7c701e69eaea2b9dd0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1324d4bb773895c8e34bbf81575536a"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ae1324d4bb773895c8e34bbf81575536a">println</a> (unsigned int, int=RDL_DEC)</td></tr>
+<tr class="memdesc:ae1324d4bb773895c8e34bbf81575536a"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned integer of base number system followed by new line  <a href="classPrint.html#ae1324d4bb773895c8e34bbf81575536a">More...</a><br /></td></tr>
+<tr class="separator:ae1324d4bb773895c8e34bbf81575536a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb52163d87b2401c87e40e9df60a57d6"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#adb52163d87b2401c87e40e9df60a57d6">println</a> (long, int=RDL_DEC)</td></tr>
+<tr class="memdesc:adb52163d87b2401c87e40e9df60a57d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an long integer of base number system followed by new line  <a href="classPrint.html#adb52163d87b2401c87e40e9df60a57d6">More...</a><br /></td></tr>
+<tr class="separator:adb52163d87b2401c87e40e9df60a57d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2e98cda15e864fbd6a6d85edb4b315d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ac2e98cda15e864fbd6a6d85edb4b315d">println</a> (unsigned long, int=RDL_DEC)</td></tr>
+<tr class="memdesc:ac2e98cda15e864fbd6a6d85edb4b315d"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned long integer of base number system followed by new line  <a href="classPrint.html#ac2e98cda15e864fbd6a6d85edb4b315d">More...</a><br /></td></tr>
+<tr class="separator:ac2e98cda15e864fbd6a6d85edb4b315d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56e976b079361b6021ef7c2bedb397a2"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a56e976b079361b6021ef7c2bedb397a2">println</a> (double, int=2)</td></tr>
 <tr class="memdesc:a56e976b079361b6021ef7c2bedb397a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an double  <a href="classPrint.html#a56e976b079361b6021ef7c2bedb397a2">More...</a><br /></td></tr>
 <tr class="separator:a56e976b079361b6021ef7c2bedb397a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -312,8 +314,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>write_error</b></td></
 
 </div>
 </div>
-<a id="a32cb3cf32d701c797b2b2d1080052dfe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32cb3cf32d701c797b2b2d1080052dfe">&#9670;&nbsp;</a></span>print() <span class="overload">[5/8]</span></h2>
+<a id="a67acb421606e3a0915372d3472db9bd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67acb421606e3a0915372d3472db9bd3">&#9670;&nbsp;</a></span>print() <span class="overload">[5/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -328,7 +330,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>write_error</b></td></
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>base</em> = <code>DEC</code>&#160;</td>
+          <td class="paramname"><em>base</em> = <code>RDL_DEC</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -342,15 +344,15 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>write_error</b></td></
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">n</td><td>integer to print </td></tr>
-    <tr><td class="paramname">base</td><td>the base number system to use (BIN HEX OCT DEC) </td></tr>
+    <tr><td class="paramname">base</td><td>the base number system to use (BIN HEX OCT RDL_DEC) </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="ab1fb2a2384c7b9f628943f5046e7d1c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1fb2a2384c7b9f628943f5046e7d1c1">&#9670;&nbsp;</a></span>print() <span class="overload">[6/8]</span></h2>
+<a id="aaef5d39e88bb6460fc239c642790b655"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaef5d39e88bb6460fc239c642790b655">&#9670;&nbsp;</a></span>print() <span class="overload">[6/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -365,7 +367,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>write_error</b></td></
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>base</em> = <code>DEC</code>&#160;</td>
+          <td class="paramname"><em>base</em> = <code>RDL_DEC</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -379,15 +381,15 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>write_error</b></td></
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">n</td><td>integer to print </td></tr>
-    <tr><td class="paramname">base</td><td>the base number system to use (BIN HEX OCT DEC) </td></tr>
+    <tr><td class="paramname">base</td><td>the base number system to use (BIN HEX OCT RDL_DEC) </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a87275de35583868a370f43ce1c887750"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87275de35583868a370f43ce1c887750">&#9670;&nbsp;</a></span>print() <span class="overload">[7/8]</span></h2>
+<a id="ab5b352ebfdb3c2c7adda4c354c74c5db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5b352ebfdb3c2c7adda4c354c74c5db">&#9670;&nbsp;</a></span>print() <span class="overload">[7/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -402,7 +404,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>write_error</b></td></
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>base</em> = <code>DEC</code>&#160;</td>
+          <td class="paramname"><em>base</em> = <code>RDL_DEC</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -416,15 +418,15 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>write_error</b></td></
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">n</td><td>integer to print </td></tr>
-    <tr><td class="paramname">base</td><td>the base number system to use (BIN HEX OCT DEC) </td></tr>
+    <tr><td class="paramname">base</td><td>the base number system to use (BIN HEX OCT RDL_DEC) </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a26a40be7a557c0bc391a15dce9f06954"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26a40be7a557c0bc391a15dce9f06954">&#9670;&nbsp;</a></span>print() <span class="overload">[8/8]</span></h2>
+<a id="ac2fba632d40c18f847fc14510f9003fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2fba632d40c18f847fc14510f9003fe">&#9670;&nbsp;</a></span>print() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -439,7 +441,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>write_error</b></td></
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>base</em> = <code>DEC</code>&#160;</td>
+          <td class="paramname"><em>base</em> = <code>RDL_DEC</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -453,7 +455,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>write_error</b></td></
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">n</td><td>integer to print </td></tr>
-    <tr><td class="paramname">base</td><td>the base number system to use (BIN HEX OCT DEC) </td></tr>
+    <tr><td class="paramname">base</td><td>the base number system to use (BIN HEX OCT RDL_DEC) </td></tr>
   </table>
   </dd>
 </dl>
@@ -621,8 +623,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>write_error</b></td></
 
 </div>
 </div>
-<a id="a738c88471cfb8eac7c8a804699971413"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a738c88471cfb8eac7c8a804699971413">&#9670;&nbsp;</a></span>println() <span class="overload">[5/8]</span></h2>
+<a id="a3978528ddee1a7c701e69eaea2b9dd0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3978528ddee1a7c701e69eaea2b9dd0c">&#9670;&nbsp;</a></span>println() <span class="overload">[5/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -637,7 +639,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>write_error</b></td></
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>base</em> = <code>DEC</code>&#160;</td>
+          <td class="paramname"><em>base</em> = <code>RDL_DEC</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -651,15 +653,15 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>write_error</b></td></
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">num</td><td>integer to print </td></tr>
-    <tr><td class="paramname">base</td><td>the base number system to use (BIN HEX OCT DEC) </td></tr>
+    <tr><td class="paramname">base</td><td>the base number system to use (BIN HEX OCT RDL_DEC) </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a833fbec3ceba92e3ec95f51e026e4569"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a833fbec3ceba92e3ec95f51e026e4569">&#9670;&nbsp;</a></span>println() <span class="overload">[6/8]</span></h2>
+<a id="adb52163d87b2401c87e40e9df60a57d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb52163d87b2401c87e40e9df60a57d6">&#9670;&nbsp;</a></span>println() <span class="overload">[6/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -674,7 +676,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>write_error</b></td></
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>base</em> = <code>DEC</code>&#160;</td>
+          <td class="paramname"><em>base</em> = <code>RDL_DEC</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -688,15 +690,15 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>write_error</b></td></
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">num</td><td>integer to print </td></tr>
-    <tr><td class="paramname">base</td><td>the base number system to use (BIN HEX OCT DEC) </td></tr>
+    <tr><td class="paramname">base</td><td>the base number system to use (BIN HEX OCT RDL_DEC) </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="ac87eed1fcb78641169ba2244278c899e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac87eed1fcb78641169ba2244278c899e">&#9670;&nbsp;</a></span>println() <span class="overload">[7/8]</span></h2>
+<a id="ae1324d4bb773895c8e34bbf81575536a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1324d4bb773895c8e34bbf81575536a">&#9670;&nbsp;</a></span>println() <span class="overload">[7/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -711,7 +713,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>write_error</b></td></
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>base</em> = <code>DEC</code>&#160;</td>
+          <td class="paramname"><em>base</em> = <code>RDL_DEC</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -725,15 +727,15 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>write_error</b></td></
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">num</td><td>integer to print </td></tr>
-    <tr><td class="paramname">base</td><td>the base number system to use (BIN HEX OCT DEC) </td></tr>
+    <tr><td class="paramname">base</td><td>the base number system to use (BIN HEX OCT RDL_DEC) </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="aebee3c33ee5d8f10b6f378d5273742d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebee3c33ee5d8f10b6f378d5273742d0">&#9670;&nbsp;</a></span>println() <span class="overload">[8/8]</span></h2>
+<a id="ac2e98cda15e864fbd6a6d85edb4b315d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2e98cda15e864fbd6a6d85edb4b315d">&#9670;&nbsp;</a></span>println() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -748,7 +750,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>write_error</b></td></
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>base</em> = <code>DEC</code>&#160;</td>
+          <td class="paramname"><em>base</em> = <code>RDL_DEC</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -762,7 +764,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>write_error</b></td></
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">num</td><td>integer to print </td></tr>
-    <tr><td class="paramname">base</td><td>the base number system to use (BIN HEX OCT DEC) </td></tr>
+    <tr><td class="paramname">base</td><td>the base number system to use (BIN HEX OCT RDL_DEC) </td></tr>
   </table>
   </dd>
 </dl>
@@ -867,7 +869,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>write_error</b></td></
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Feb 17 2024 15:43:48 for Display_Lib_RPI by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sat Mar 2 2024 22:29:57 for Display_Lib_RPI by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Display_Lib_RPI
-   &#160;<span id="projectnumber">1.0.1</span>
+   &#160;<span id="projectnumber">1.2.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Raspberry Pi single board computers.</div>
   </td>
@@ -69,6 +69,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -82,6 +83,13 @@ $(function() {
 </div>
 <p><a href="common__data__RDL_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a2493fb2a6af472af981f729c947599bb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__data__RDL_8hpp.html#a2493fb2a6af472af981f729c947599bb">delayMicroSecRDL</a>&#160;&#160;&#160;bcm2835_delayMicroseconds</td></tr>
+<tr class="separator:a2493fb2a6af472af981f729c947599bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61328e2d573b31ede5a96d30d5030efa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__data__RDL_8hpp.html#a61328e2d573b31ede5a96d30d5030efa">delayMilliSecRDL</a>&#160;&#160;&#160;bcm2835_delay</td></tr>
+<tr class="separator:a61328e2d573b31ede5a96d30d5030efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:a638e2b542fd45f9cf769398b800a7514"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> : uint8_t { <br />
@@ -125,7 +133,38 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>file to hold common data used by all Displays Project Name: Display_Lib_RPI </p>
 <dl class="section author"><dt>Author</dt><dd>Gavin Lyons </dd></dl>
-</div><h2 class="groupheader">Enumeration Type Documentation</h2>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a2493fb2a6af472af981f729c947599bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2493fb2a6af472af981f729c947599bb">&#9670;&nbsp;</a></span>delayMicroSecRDL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define delayMicroSecRDL&#160;&#160;&#160;bcm2835_delayMicroseconds</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>bcm2835 library Micro second delay abstraction </p>
+
+</div>
+</div>
+<a id="a61328e2d573b31ede5a96d30d5030efa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61328e2d573b31ede5a96d30d5030efa">&#9670;&nbsp;</a></span>delayMilliSecRDL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define delayMilliSecRDL&#160;&#160;&#160;bcm2835_delay</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>bcm2835 library Milli second delay abstraction </p>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a638e2b542fd45f9cf769398b800a7514"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a638e2b542fd45f9cf769398b800a7514">&#9670;&nbsp;</a></span>rpiDisplay_Return_Codes_e</h2>
 
@@ -205,14 +244,14 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get the library version number </p>
-<dl class="section return"><dt>Returns</dt><dd>the library version number eg 101 = 1.0.1 </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the library version number eg 120 = 1.2.0 </dd></dl>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Feb 17 2024 15:43:48 for Display_Lib_RPI by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sat Mar 2 2024 22:29:56 for Display_Lib_RPI by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

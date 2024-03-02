@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Display_Lib_RPI
-   &#160;<span id="projectnumber">1.0.1</span>
+   &#160;<span id="projectnumber">1.2.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Raspberry Pi single board computers.</div>
   </td>
@@ -84,12 +84,18 @@ Variables</h2></td></tr>
 <tr class="memitem:a57a669f2ebc6f3f65d4acff96d5618ff"><td class="memItemLeft" align="right" valign="top"><a id="a57a669f2ebc6f3f65d4acff96d5618ff"></a>
 const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontDefault</b> = FontDefault</td></tr>
 <tr class="separator:a57a669f2ebc6f3f65d4acff96d5618ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a397fafa894c99d2749ee20b5f0acaeee"><td class="memItemLeft" align="right" valign="top"><a id="a397fafa894c99d2749ee20b5f0acaeee"></a>
-const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontWide</b> = FontWide</td></tr>
-<tr class="separator:a397fafa894c99d2749ee20b5f0acaeee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4288d374dbf5980cc267e7637aa15204"><td class="memItemLeft" align="right" valign="top"><a id="a4288d374dbf5980cc267e7637aa15204"></a>
 const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontPico</b> = FontPICO</td></tr>
 <tr class="separator:a4288d374dbf5980cc267e7637aa15204"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6789320773aa20950a085df55980871a"><td class="memItemLeft" align="right" valign="top"><a id="a6789320773aa20950a085df55980871a"></a>
+const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontSevenSeg</b> = FontSevenSeg</td></tr>
+<tr class="separator:a6789320773aa20950a085df55980871a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa1ce29d053738a9fd8982de7956ccec"><td class="memItemLeft" align="right" valign="top"><a id="aaa1ce29d053738a9fd8982de7956ccec"></a>
+const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontThick</b> = FontThick</td></tr>
+<tr class="separator:aaa1ce29d053738a9fd8982de7956ccec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a397fafa894c99d2749ee20b5f0acaeee"><td class="memItemLeft" align="right" valign="top"><a id="a397fafa894c99d2749ee20b5f0acaeee"></a>
+const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontWide</b> = FontWide</td></tr>
+<tr class="separator:a397fafa894c99d2749ee20b5f0acaeee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6b72d252ee9e20f38d2e5f6f37356ec"><td class="memItemLeft" align="right" valign="top"><a id="ae6b72d252ee9e20f38d2e5f6f37356ec"></a>
 const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontSinclairS</b> = FontSinclairS</td></tr>
 <tr class="separator:ae6b72d252ee9e20f38d2e5f6f37356ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -114,6 +120,9 @@ const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontArial
 <tr class="memitem:a6e17d5b10487d1b35770010ad965af44"><td class="memItemLeft" align="right" valign="top"><a id="a6e17d5b10487d1b35770010ad965af44"></a>
 const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontGroTesk</b> = FontGrotesk</td></tr>
 <tr class="separator:a6e17d5b10487d1b35770010ad965af44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a867e89ae7538d9c554cdde45b8840970"><td class="memItemLeft" align="right" valign="top"><a id="a867e89ae7538d9c554cdde45b8840970"></a>
+const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontMint</b> = FontMint</td></tr>
+<tr class="separator:a867e89ae7538d9c554cdde45b8840970"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac112bd94173943f2adbeb70529c2e11c"><td class="memItemLeft" align="right" valign="top"><a id="ac112bd94173943f2adbeb70529c2e11c"></a>
 const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontSixteenSeg</b> = FontSixteenSeg</td></tr>
 <tr class="separator:ac112bd94173943f2adbeb70529c2e11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -121,10 +130,11 @@ const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontSixte
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>font data file fonts. Project Name :: Display_Lib_RPI </p>
 <dl class="section author"><dt>Author</dt><dd>Gavin Lyons. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>For font , total characters = (ASCII offset - ASCII last character) </dd></dl>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Feb 17 2024 15:43:48 for Display_Lib_RPI by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sat Mar 2 2024 22:29:56 for Display_Lib_RPI by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

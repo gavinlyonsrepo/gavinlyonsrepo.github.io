@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Display_Lib_RPI
-   &#160;<span id="projectnumber">1.0.1</span>
+   &#160;<span id="projectnumber">1.2.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Raspberry Pi single board computers.</div>
   </td>
@@ -68,7 +68,7 @@ $(function() {
 <div class="title">NOKIA 5110 Readme </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md42"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md50"></a>
 Table of contents</h1>
 <ul>
 <li><a href="#overview">Overview</a></li>
@@ -80,7 +80,7 @@ Table of contents</h1>
 </li>
 <li><a href="#output">Output</a></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md43"></a>
+<h1><a class="anchor" id="autotoc_md51"></a>
 Overview</h1>
 <ul>
 <li>Name: NOKIA_5110</li>
@@ -100,7 +100,7 @@ Overview</h1>
 <li>Author: Gavin Lyons</li>
 <li>Port of my PIC library at <a href="https://github.com/gavinlyonsrepo/pic_18F47K42_projects">github link.</a></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md44"></a>
+<h1><a class="anchor" id="autotoc_md52"></a>
 Hardware</h1>
 <p>The Nokia 5110 is a basic graphic LCD screen for lots of applications. GPIO function on RPI, 5 Nokia 5110 LCD lines SPI bus. Use any GPIO user likes for Software SPI. For Hardware the user can use any GPIO for reset and data/command line</p>
 <p>Example file set up :</p>
@@ -121,15 +121,15 @@ Hardware</h1>
 <p>Connect Nokia 5110 VCC(pin 6)to 3.3V. The user may have to adjust LCD contrast and bias settings, to the screen at hand for optimal display. A resistor or potentiometer can be connected between (Nokia LCD) GND(pin8) and LIGHT(pin7) to switch on /off backlight and adjust brightness.</p>
 <p><a href="https://www.sparkfun.com/datasheets/LCD/Monochrome/Nokia5110.pdf">Nokia 5110 LCD dataSheet</a></p>
 <p><a href="https://github.com/gavinlyonsrepo/pic_16F1619_projects/blob/master/images/NOKIA2.jpg"><img src="https://github.com/gavinlyonsrepo/pic_16F1619_projects/blob/master/images/NOKIA2.jpg" alt=" image nokia " class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md45"></a>
+<h1><a class="anchor" id="autotoc_md53"></a>
 Software</h1>
-<h2><a class="anchor" id="autotoc_md46"></a>
+<h2><a class="anchor" id="autotoc_md54"></a>
 SPI</h2>
 <p>This library supports both Hardware SPI and software SPI. The constructor of the main class is overloaded. Which SPI is started depends on which constructor called by user. Hardware SPI uses bcm2835 library spi module. The SPI settings are in LCDSPIHWSettings function. If there are multiple SPI devices on Bus(with different settings) the user can call this method to refresh settings before a tranche of LCD commands. Default Speed is BCM2835_SPI_CLOCK_DIVIDER_64, 6.25MHz on RPI3. This can be adjusted in code or you can pass the divider value in the contructor as an argument. These values are defined by enum bcm2835SPIClockDivider. For full list see</p>
 <p><a href="https://github.com/gavinlyonsrepo/NOKIA_5110_RPI/blob/main/extra/images/bcm2.png">https://github.com/gavinlyonsrepo/NOKIA_5110_RPI/blob/main/extra/images/bcm2.png</a></p>
 <p>User can also adjust which HW SPI chip enable pin they use(CE0 or CE1). in constructor arguments. This device uses bit order MSB First and SPI Mode 0.</p>
 <p>Measured SPI speed results Version 1.3 are in the SpeedTest example file header comment block. The parameter LCDHardwareSPI is a GPIO uS delay that can be used to slow down or speed up Software SPI. By default it is set to 2uS. It may have to be adjusted depending on device/CPU used.</p>
-<h2><a class="anchor" id="autotoc_md47"></a>
+<h2><a class="anchor" id="autotoc_md55"></a>
 File system</h2>
 <p>Example files</p>
 <table class="markdownTable">
@@ -146,7 +146,7 @@ File system</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">SPEEDTEST   </td><td class="markdownTableBodyNone">Frame rate per second test   </td><td class="markdownTableBodyNone">HW   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md48"></a>
+<h1><a class="anchor" id="autotoc_md56"></a>
 Output</h1>
 <p>Example output.</p>
 <p><a href="https://github.com/gavinlyonsrepo/pic_18F47K42_projects/blob/master/images/nokiagraph1.jpg"><img src="https://github.com/gavinlyonsrepo/pic_18F47K42_projects/blob/master/images/nokiagraph1.jpg" alt="output image" class="inline"/></a> </p>
@@ -154,7 +154,7 @@ Output</h1>
 </div><!-- PageDoc -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Feb 17 2024 15:43:48 for Display_Lib_RPI by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Sat Mar 2 2024 22:29:56 for Display_Lib_RPI by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
