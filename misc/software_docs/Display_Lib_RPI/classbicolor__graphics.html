@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Display_Lib_RPI
-   &#160;<span id="projectnumber">1.2.0</span>
+   &#160;<span id="projectnumber">1.3.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Raspberry Pi single board computers.</div>
   </td>
@@ -74,7 +74,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Graphics class to hold graphic related functions.  
+<p>Graphics class to hold graphic related functions for 1-bit displays.  
  <a href="classbicolor__graphics.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="bicolor__graphics__RDL_8hpp_source.html">bicolor_graphics_RDL.hpp</a>&gt;</code></p>
@@ -83,13 +83,14 @@ Inheritance diagram for bicolor_graphics:</div>
 <div class="dyncontent">
 <div class="center"><img src="classbicolor__graphics__inherit__graph.png" border="0" usemap="#abicolor__graphics_inherit__map" alt="Inheritance graph"/></div>
 <map name="abicolor__graphics_inherit__map" id="abicolor__graphics_inherit__map">
-<area shape="rect" title="Graphics class to hold graphic related functions." alt="" coords="237,80,365,107"/>
-<area shape="rect" href="classERM19264__UC1609.html" title="class to drive the ERM19264_UC1609 LCD" alt="" coords="5,155,155,181"/>
+<area shape="rect" title="Graphics class to hold graphic related functions for 1&#45;bit displays." alt="" coords="308,80,436,107"/>
+<area shape="rect" href="classERM19264__UC1609.html" title="class to drive the ERM19264 UC1609 LCD" alt="" coords="5,155,155,181"/>
 <area shape="rect" href="classERMCH1115.html" title="class to drive the ERMCh1115 OLED" alt="" coords="179,155,282,181"/>
 <area shape="rect" href="classNOKIA__5110__RPI.html" title="Class Controls SPI comms and LCD functionality." alt="" coords="307,155,437,181"/>
-<area shape="rect" href="classSSD1306.html" title="class to control OLED and define buffer" alt="" coords="461,155,541,181"/>
-<area shape="rect" href="classdisplay__Fonts.html" title="Font class to hold font data object" alt="" coords="194,5,305,32"/>
-<area shape="rect" href="classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s." alt="" coords="329,5,381,32"/>
+<area shape="rect" href="classSH110X__RDL.html" title="class to control OLED and define buffer" alt="" coords="461,155,568,181"/>
+<area shape="rect" href="classSSD1306.html" title="class to control OLED and define buffer" alt="" coords="592,155,672,181"/>
+<area shape="rect" href="classdisplay__Fonts.html" title="Font class to hold font data object" alt="" coords="265,5,375,32"/>
+<area shape="rect" href="classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s." alt="" coords="399,5,451,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -170,7 +171,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memdesc:a9a146acbdcb2696e61b7c3cb360dbc7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write Text character array on OLED.  <a href="classbicolor__graphics.html#a9a146acbdcb2696e61b7c3cb360dbc7e">More...</a><br /></td></tr>
 <tr class="separator:a9a146acbdcb2696e61b7c3cb360dbc7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab541ef87aaaa3fdbf1ee04040acb101c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ab541ef87aaaa3fdbf1ee04040acb101c">setTextWrap</a> (bool w)</td></tr>
-<tr class="memdesc:ab541ef87aaaa3fdbf1ee04040acb101c"><td class="mdescLeft">&#160;</td><td class="mdescRight">turn on or off screen wrap of the text (fonts 1-6)  <a href="classbicolor__graphics.html#ab541ef87aaaa3fdbf1ee04040acb101c">More...</a><br /></td></tr>
+<tr class="memdesc:ab541ef87aaaa3fdbf1ee04040acb101c"><td class="mdescLeft">&#160;</td><td class="mdescRight">turn on or off screen wrap of the text  <a href="classbicolor__graphics.html#ab541ef87aaaa3fdbf1ee04040acb101c">More...</a><br /></td></tr>
 <tr class="separator:ab541ef87aaaa3fdbf1ee04040acb101c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae315f54165346d4470a9fba192979891"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ae315f54165346d4470a9fba192979891">setDrawBitmapAddr</a> (bool mode)</td></tr>
 <tr class="memdesc:ae315f54165346d4470a9fba192979891"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the data addressing mode in drawBitmap function.  <a href="classbicolor__graphics.html#ae315f54165346d4470a9fba192979891">More...</a><br /></td></tr>
@@ -307,7 +308,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 <tr class="separator:a46656410e23c0ec14d7a01b38b3b6f00 inherit pro_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Graphics class to hold graphic related functions. </p>
+<div class="textblock"><p>Graphics class to hold graphic related functions for 1-bit displays. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9fb0bc74b698471d3e42baceffef3b3a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9fb0bc74b698471d3e42baceffef3b3a">&#9670;&nbsp;</a></span>bicolor_graphics()</h2>
@@ -1265,7 +1266,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
       </table>
 </div><div class="memdoc">
 
-<p>turn on or off screen wrap of the text (fonts 1-6) </p>
+<p>turn on or off screen wrap of the text </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">w</td><td>TRUE on </td></tr>
@@ -1652,7 +1653,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Mar 2 2024 22:29:56 for Display_Lib_RPI by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Wed Mar 20 2024 11:25:58 for Display_Lib_RPI by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

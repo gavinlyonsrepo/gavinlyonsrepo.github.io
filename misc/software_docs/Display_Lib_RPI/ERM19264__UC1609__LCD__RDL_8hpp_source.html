@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Display_Lib_RPI
-   &#160;<span id="projectnumber">1.2.0</span>
+   &#160;<span id="projectnumber">1.3.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Raspberry Pi single board computers.</div>
   </td>
@@ -193,7 +193,7 @@ $(function() {
 <div class="ttc" id="aERM19264__UC1609__LCD__RDL_8hpp_html_a17ba7a879e2feffd7cac2cc579fdc971"><div class="ttname"><a href="ERM19264__UC1609__LCD__RDL_8hpp.html#a17ba7a879e2feffd7cac2cc579fdc971">UC1609_DEFAULT_GN_PM</a></div><div class="ttdeci">#define UC1609_DEFAULT_GN_PM</div><div class="ttdef"><b>Definition:</b> ERM19264_UC1609_LCD_RDL.hpp:50</div></div>
 <div class="ttc" id="aERM19264__UC1609__LCD__RDL_8hpp_html_aaf66f91cfed65119cb8aecc46a16a4f8"><div class="ttname"><a href="ERM19264__UC1609__LCD__RDL_8hpp.html#aaf66f91cfed65119cb8aecc46a16a4f8">UC1609_ADDRESS_SET</a></div><div class="ttdeci">#define UC1609_ADDRESS_SET</div><div class="ttdef"><b>Definition:</b> ERM19264_UC1609_LCD_RDL.hpp:34</div></div>
 <div class="ttc" id="abicolor__graphics__RDL_8hpp_html"><div class="ttname"><a href="bicolor__graphics__RDL_8hpp.html">bicolor_graphics_RDL.hpp</a></div><div class="ttdoc">Graphics based functions for bicolor display.</div></div>
-<div class="ttc" id="aclassERM19264__UC1609_html"><div class="ttname"><a href="classERM19264__UC1609.html">ERM19264_UC1609</a></div><div class="ttdoc">class to drive the ERM19264_UC1609 LCD</div><div class="ttdef"><b>Definition:</b> ERM19264_UC1609_LCD_RDL.hpp:91</div></div>
+<div class="ttc" id="aclassERM19264__UC1609_html"><div class="ttname"><a href="classERM19264__UC1609.html">ERM19264_UC1609</a></div><div class="ttdoc">class to drive the ERM19264 UC1609 LCD</div><div class="ttdef"><b>Definition:</b> ERM19264_UC1609_LCD_RDL.hpp:91</div></div>
 <div class="ttc" id="aclassERM19264__UC1609_html_a0319980795a4302f78a97f17d13413a8"><div class="ttname"><a href="classERM19264__UC1609.html#a0319980795a4302f78a97f17d13413a8">ERM19264_UC1609::_LCD_CD</a></div><div class="ttdeci">int8_t _LCD_CD</div><div class="ttdef"><b>Definition:</b> ERM19264_UC1609_LCD_RDL.hpp:132</div></div>
 <div class="ttc" id="aclassERM19264__UC1609_html_a032f767730f666cb79a4cc0715a09c71"><div class="ttname"><a href="classERM19264__UC1609.html#a032f767730f666cb79a4cc0715a09c71">ERM19264_UC1609::ERM19264_UC1609</a></div><div class="ttdeci">ERM19264_UC1609(int16_t lcdwidth, int16_t lcdheight, int8_t rst, int8_t cd, int8_t cs, int8_t sclk, int8_t din)</div><div class="ttdoc">init the LCD class object</div><div class="ttdef"><b>Definition:</b> ERM19264_UC1609_LCD_RDL.cpp:43</div></div>
 <div class="ttc" id="aclassERM19264__UC1609_html_a05e4451fa8a10da6a01708ff18a07a84"><div class="ttname"><a href="classERM19264__UC1609.html#a05e4451fa8a10da6a01708ff18a07a84">ERM19264_UC1609::_VbiasPOT</a></div><div class="ttdeci">uint8_t _VbiasPOT</div><div class="ttdef"><b>Definition:</b> ERM19264_UC1609_LCD_RDL.hpp:137</div></div>
@@ -237,14 +237,14 @@ $(function() {
 <div class="ttc" id="aclassERM19264__UC1609_html_ae4bf95662ec9a49c496d50bce66454c4"><div class="ttname"><a href="classERM19264__UC1609.html#ae4bf95662ec9a49c496d50bce66454c4">ERM19264_UC1609::LCDscroll</a></div><div class="ttdeci">void LCDscroll(uint8_t bits)</div><div class="ttdoc">Scroll the displayed image up by SL rows.</div><div class="ttdef"><b>Definition:</b> ERM19264_UC1609_LCD_RDL.cpp:251</div></div>
 <div class="ttc" id="aclassERM19264__UC1609_html_af73dfeac9ce66b76bab5c7275367bcff"><div class="ttname"><a href="classERM19264__UC1609.html#af73dfeac9ce66b76bab5c7275367bcff">ERM19264_UC1609::send_data</a></div><div class="ttdeci">void send_data(uint8_t data)</div><div class="ttdoc">Send data byte with SPI to UC1609.</div><div class="ttdef"><b>Definition:</b> ERM19264_UC1609_LCD_RDL.cpp:465</div></div>
 <div class="ttc" id="aclassERM19264__UC1609_html_afc9a41c14661421548277a6f07c28b71"><div class="ttname"><a href="classERM19264__UC1609.html#afc9a41c14661421548277a6f07c28b71">ERM19264_UC1609::LCDinit</a></div><div class="ttdeci">void LCDinit(void)</div><div class="ttdoc">Called from LCDbegin carries out Power on sequence and register init Can be used to reset LCD to defa...</div><div class="ttdef"><b>Definition:</b> ERM19264_UC1609_LCD_RDL.cpp:156</div></div>
-<div class="ttc" id="aclassbicolor__graphics_html"><div class="ttname"><a href="classbicolor__graphics.html">bicolor_graphics</a></div><div class="ttdoc">Graphics class to hold graphic related functions.</div><div class="ttdef"><b>Definition:</b> bicolor_graphics_RDL.hpp:36</div></div>
+<div class="ttc" id="aclassbicolor__graphics_html"><div class="ttname"><a href="classbicolor__graphics.html">bicolor_graphics</a></div><div class="ttdoc">Graphics class to hold graphic related functions for 1-bit displays.</div><div class="ttdef"><b>Definition:</b> bicolor_graphics_RDL.hpp:36</div></div>
 <div class="ttc" id="aclassbicolor__graphics_html_a07962ad272aa95287f47e6d86f9838cb"><div class="ttname"><a href="classbicolor__graphics.html#a07962ad272aa95287f47e6d86f9838cb">bicolor_graphics::width</a></div><div class="ttdeci">int16_t width(void) const</div><div class="ttdoc">Gets the width of the display (per current _rotation)</div><div class="ttdef"><b>Definition:</b> bicolor_graphics_RDL.cpp:563</div></div>
 <div class="ttc" id="aclassbicolor__graphics_html_a9d5ff76b0e168914229824009f568288"><div class="ttname"><a href="classbicolor__graphics.html#a9d5ff76b0e168914229824009f568288">bicolor_graphics::height</a></div><div class="ttdeci">int16_t height(void) const</div><div class="ttdoc">Gets the height of the display (per current _rotation)</div><div class="ttdef"><b>Definition:</b> bicolor_graphics_RDL.cpp:569</div></div>
 <div class="ttc" id="acommon__data__RDL_8hpp_html_a638e2b542fd45f9cf769398b800a7514"><div class="ttname"><a href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a></div><div class="ttdeci">rpiDisplay_Return_Codes_e</div><div class="ttdef"><b>Definition:</b> common_data_RDL.hpp:19</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Mar 2 2024 22:29:56 for Display_Lib_RPI by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Wed Mar 20 2024 11:25:58 for Display_Lib_RPI by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Display_Lib_RPI
-   &#160;<span id="projectnumber">1.2.0</span>
+   &#160;<span id="projectnumber">1.3.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Raspberry Pi single board computers.</div>
   </td>
@@ -84,7 +84,7 @@ Inheritance diagram for SSD1306:</div>
 <div class="center"><img src="classSSD1306__inherit__graph.png" border="0" usemap="#aSSD1306_inherit__map" alt="Inheritance graph"/></div>
 <map name="aSSD1306_inherit__map" id="aSSD1306_inherit__map">
 <area shape="rect" title="class to control OLED and define buffer" alt="" coords="73,155,153,181"/>
-<area shape="rect" href="classbicolor__graphics.html" title="Graphics class to hold graphic related functions." alt="" coords="49,80,177,107"/>
+<area shape="rect" href="classbicolor__graphics.html" title="Graphics class to hold graphic related functions for 1&#45;bit displays." alt="" coords="49,80,177,107"/>
 <area shape="rect" href="classdisplay__Fonts.html" title="Font class to hold font data object" alt="" coords="5,5,116,32"/>
 <area shape="rect" href="classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s." alt="" coords="140,5,192,32"/>
 </map>
@@ -107,7 +107,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memdesc:a189659d8b170a64c20e17a0dc6d39afb"><td class="mdescLeft">&#160;</td><td class="mdescRight">clears the buffer memory i.e. does NOT write to the screen <br /></td></tr>
 <tr class="separator:a189659d8b170a64c20e17a0dc6d39afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83334bdd85470d791d0a48057191c0e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a83334bdd85470d791d0a48057191c0e3">OLEDBufferScreen</a> (int16_t x, int16_t y, uint8_t w, uint8_t h, uint8_t *data)</td></tr>
-<tr class="memdesc:a83334bdd85470d791d0a48057191c0e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a bitmap directly to the screen.  <a href="classSSD1306.html#a83334bdd85470d791d0a48057191c0e3">More...</a><br /></td></tr>
+<tr class="memdesc:a83334bdd85470d791d0a48057191c0e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the buffer directly to the screen.  <a href="classSSD1306.html#a83334bdd85470d791d0a48057191c0e3">More...</a><br /></td></tr>
 <tr class="separator:a83334bdd85470d791d0a48057191c0e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d9bc7ca2cb1865f4437d7884ec13039"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306.html#a1d9bc7ca2cb1865f4437d7884ec13039">OLEDFillScreen</a> (uint8_t pixel, uint8_t mircodelay)</td></tr>
 <tr class="memdesc:a1d9bc7ca2cb1865f4437d7884ec13039"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill the screen NOT the buffer with a datapattern.  <a href="classSSD1306.html#a1d9bc7ca2cb1865f4437d7884ec13039">More...</a><br /></td></tr>
@@ -269,7 +269,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memdesc:a9a146acbdcb2696e61b7c3cb360dbc7e inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write Text character array on OLED.  <a href="classbicolor__graphics.html#a9a146acbdcb2696e61b7c3cb360dbc7e">More...</a><br /></td></tr>
 <tr class="separator:a9a146acbdcb2696e61b7c3cb360dbc7e inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab541ef87aaaa3fdbf1ee04040acb101c inherit pub_methods_classbicolor__graphics"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ab541ef87aaaa3fdbf1ee04040acb101c">setTextWrap</a> (bool w)</td></tr>
-<tr class="memdesc:ab541ef87aaaa3fdbf1ee04040acb101c inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">turn on or off screen wrap of the text (fonts 1-6)  <a href="classbicolor__graphics.html#ab541ef87aaaa3fdbf1ee04040acb101c">More...</a><br /></td></tr>
+<tr class="memdesc:ab541ef87aaaa3fdbf1ee04040acb101c inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">turn on or off screen wrap of the text  <a href="classbicolor__graphics.html#ab541ef87aaaa3fdbf1ee04040acb101c">More...</a><br /></td></tr>
 <tr class="separator:ab541ef87aaaa3fdbf1ee04040acb101c inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae315f54165346d4470a9fba192979891 inherit pub_methods_classbicolor__graphics"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ae315f54165346d4470a9fba192979891">setDrawBitmapAddr</a> (bool mode)</td></tr>
 <tr class="memdesc:ae315f54165346d4470a9fba192979891 inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the data addressing mode in drawBitmap function.  <a href="classbicolor__graphics.html#ae315f54165346d4470a9fba192979891">More...</a><br /></td></tr>
@@ -699,7 +699,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
       </table>
 </div><div class="memdoc">
 
-<p>Draw a bitmap directly to the screen. </p>
+<p>Draw the buffer directly to the screen. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">x</td><td>x axis offset 0-128 </td></tr>
@@ -1535,7 +1535,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Mar 2 2024 22:29:57 for Display_Lib_RPI by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Wed Mar 20 2024 11:25:58 for Display_Lib_RPI by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

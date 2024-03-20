@@ -1,6 +1,6 @@
 <map id="ERM19264_UC1609" name="ERM19264_UC1609">
-<area shape="rect" id="node1" title="class to drive the ERM19264_UC1609 LCD" alt="" coords="38,155,187,181"/>
-<area shape="rect" id="node2" href="$classbicolor__graphics.html" title="Graphics class to hold graphic related functions." alt="" coords="49,80,177,107"/>
+<area shape="rect" id="node1" title="class to drive the ERM19264 UC1609 LCD" alt="" coords="38,155,187,181"/>
+<area shape="rect" id="node2" href="$classbicolor__graphics.html" title="Graphics class to hold graphic related functions for 1&#45;bit displays." alt="" coords="49,80,177,107"/>
 <area shape="rect" id="node3" href="$classdisplay__Fonts.html" title="Font class to hold font data object" alt="" coords="5,5,116,32"/>
 <area shape="rect" id="node4" href="$classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s." alt="" coords="140,5,192,32"/>
 </map>

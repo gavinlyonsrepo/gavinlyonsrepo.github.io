@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Display_Lib_RPI
-   &#160;<span id="projectnumber">1.2.0</span>
+   &#160;<span id="projectnumber">1.3.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Raspberry Pi single board computers.</div>
   </td>
@@ -69,10 +69,10 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md__home_gavin_Documents_Tech_RPi_projects_Display_Lib_RPI_README"></a> <a href="https://gavinlyonsrepo.github.io/"><img src="https://img.shields.io/badge/Website-Link-blue.svg" alt="Website" style="pointer-events: none;" class="inline"/></a> <a href="https://gavinlyonsrepo.github.io//feed.xml"><img src="https://img.shields.io/badge/Subscribe-RSS-yellow.svg" alt="Rss" style="pointer-events: none;" class="inline"/></a> <a href="https://www.paypal.com/paypalme/whitelight976"><img src="https://img.shields.io/badge/Donate-PayPal-green.svg" alt="Donate" style="pointer-events: none;" class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md90"></a>
+<h1><a class="anchor" id="autotoc_md99"></a>
 Raspberry PI Display Library</h1>
 <p><a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/logo.png"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/logo.png" alt="logo image" class="inline"/></a></p>
-<h2><a class="anchor" id="autotoc_md91"></a>
+<h2><a class="anchor" id="autotoc_md100"></a>
 Table of contents</h2>
 <ul>
 <li><a href="#overview">Overview</a></li>
@@ -91,7 +91,7 @@ Table of contents</h2>
 </li>
 <li><a href="#notes-and-issues">Notes and issues</a></li>
 </ul>
-<h2><a class="anchor" id="autotoc_md92"></a>
+<h2><a class="anchor" id="autotoc_md101"></a>
 Overview</h2>
 <ul>
 <li>Project Name: Display_Lib_RPI</li>
@@ -105,7 +105,7 @@ Overview</h2>
 <li>Dependency: <a href="http://www.airspayce.com/mikem/bcm2835/">bcm2835 Library</a>, Provides SPI,I2C, system timer and GPIO control.</li>
 <li>Mutiple displays supported, see supported-devices, new components can be added.</li>
 </ol>
-<h2><a class="anchor" id="autotoc_md93"></a>
+<h2><a class="anchor" id="autotoc_md102"></a>
 Installation</h2>
 <ol type="1">
 <li>Install the dependency bcm2835 Library if not installed<ul>
@@ -118,7 +118,7 @@ Installation</h2>
 </ul>
 </li>
 </ol>
-<div class="fragment"><div class="line">curl -sL https://github.com/gavinlyonsrepo/Display_Lib_RPI/archive/1.2.0.tar.gz | tar xz</div>
+<div class="fragment"><div class="line">curl -sL https://github.com/gavinlyonsrepo/Display_Lib_RPI/archive/1.3.0.tar.gz | tar xz</div>
 </div><!-- fragment --><ol type="1">
 <li>Run 'make' and 'sudo make install' to run the makefile to build and then install library.<ul>
 <li>It will be installed to usr/local/lib and usr/local/include by default.</li>
@@ -126,10 +126,10 @@ Installation</h2>
 </ul>
 </li>
 </ol>
-<div class="fragment"><div class="line">cd Display_Lib_RPI-1.2.0</div>
+<div class="fragment"><div class="line">cd Display_Lib_RPI-1.3.0</div>
 <div class="line">make</div>
 <div class="line">sudo make install</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md94"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md103"></a>
 Test</h2>
 <ol type="1">
 <li>Next step is to test your display and installed library with the included test example files, connect display.</li>
@@ -157,9 +157,9 @@ Test</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">character_displays   </td><td class="markdownTableBodyNone">Character Displays   </td></tr>
 </table>
-<h2><a class="anchor" id="autotoc_md95"></a>
+<h2><a class="anchor" id="autotoc_md104"></a>
 Documentation</h2>
-<h3><a class="anchor" id="autotoc_md96"></a>
+<h3><a class="anchor" id="autotoc_md105"></a>
 Supported devices</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -179,21 +179,23 @@ Supported devices</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><a class="el" href="classSSD1306.html" title="class to control OLED and define buffer">SSD1306</a>   </td><td class="markdownTableBodyNone">Bi colour Graphic OLED   </td><td class="markdownTableBodyNone">I2C   </td><td class="markdownTableBodyNone"><a class="el" href="md__home_gavin_Documents_Tech_RPi_projects_Display_Lib_RPI_extra_doc_ssd1306_README.html">Readme</a>    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">HD44780 PCF8574   </td><td class="markdownTableBodyNone">Character LCD   </td><td class="markdownTableBodyNone">I2C   </td><td class="markdownTableBodyNone"><a class="el" href="md__home_gavin_Documents_Tech_RPi_projects_Display_Lib_RPI_extra_doc_hd44780_README.html">Readme</a>    </td></tr>
+<td class="markdownTableBodyNone">SH1106 SH1107   </td><td class="markdownTableBodyNone">Bi colour Graphic OLED   </td><td class="markdownTableBodyNone">I2C   </td><td class="markdownTableBodyNone"><a class="el" href="md__home_gavin_Documents_Tech_RPi_projects_Display_Lib_RPI_extra_doc_sh110x_README.html">Readme</a>    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">TM1638   </td><td class="markdownTableBodyNone">LED 7 segment display   </td><td class="markdownTableBodyNone">~SPI SW   </td><td class="markdownTableBodyNone"><a class="el" href="md__home_gavin_Documents_Tech_RPi_projects_Display_Lib_RPI_extra_doc_tm1638_README.html">Readme</a>    </td></tr>
+<td class="markdownTableBodyNone">HD44780_PCF8574   </td><td class="markdownTableBodyNone">Character LCD   </td><td class="markdownTableBodyNone">I2C   </td><td class="markdownTableBodyNone"><a class="el" href="md__home_gavin_Documents_Tech_RPi_projects_Display_Lib_RPI_extra_doc_hd44780_README.html">Readme</a>    </td></tr>
 <tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">TM1638   </td><td class="markdownTableBodyNone">LED 7 segment display   </td><td class="markdownTableBodyNone">~SPI SW   </td><td class="markdownTableBodyNone"><a class="el" href="md__home_gavin_Documents_Tech_RPi_projects_Display_Lib_RPI_extra_doc_tm1638_README.html">Readme</a>    </td></tr>
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">MAX7219   </td><td class="markdownTableBodyNone">LED 7 segment display   </td><td class="markdownTableBodyNone">SPI HW &amp; SW   </td><td class="markdownTableBodyNone"><a class="el" href="md__home_gavin_Documents_Tech_RPi_projects_Display_Lib_RPI_extra_doc_max7219_README.html">Readme</a>   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md97"></a>
+<h3><a class="anchor" id="autotoc_md106"></a>
 API Documentation</h3>
 <p><a href="https://gavinlyonsrepo.github.io/misc/software_docs/Display_Lib_RPI/index.html">The application programming interface documentation is at link</a> hosted on github pages and generated by Doxygen.</p>
-<h3><a class="anchor" id="autotoc_md98"></a>
+<h3><a class="anchor" id="autotoc_md107"></a>
 Fonts</h3>
 <p>The font system readme for the graphic displays <a class="el" href="md__home_gavin_Documents_Tech_RPi_projects_Display_Lib_RPI_extra_doc_fonts_README.html">is here at link.</a></p>
-<h2><a class="anchor" id="autotoc_md99"></a>
+<h2><a class="anchor" id="autotoc_md108"></a>
 Software</h2>
-<h3><a class="anchor" id="autotoc_md100"></a>
+<h3><a class="anchor" id="autotoc_md109"></a>
 File system</h3>
 <p>There are 5 makefiles.</p>
 <ol type="1">
@@ -207,7 +209,9 @@ File system</h3>
 <li>Library File suffix = RDL</li>
 <li>Project name = Display_Lib_RPI</li>
 </ol>
-<h3><a class="anchor" id="autotoc_md101"></a>
+<p>Basic project overview, see API documentation for more detailed diagrams :</p>
+<p><a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/diagram.png"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/diagram.png" alt="Overview image" class="inline"/></a></p>
+<h3><a class="anchor" id="autotoc_md110"></a>
 Tool chain</h3>
 <ul>
 <li>Development Tool chain.<ol type="1">
@@ -219,7 +223,7 @@ Tool chain</h3>
 </ol>
 </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md102"></a>
+<h2><a class="anchor" id="autotoc_md111"></a>
 Notes and issues</h2>
 <ol type="1">
 <li>Will not work on Raspberry 5 at present as the bcm2835 Library dependency is not updated to work yet on Rpi5. Hopefully it will be updated soon , If it is not going to be updated, another path forward will be found. </li>
@@ -228,7 +232,7 @@ Notes and issues</h2>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Mar 2 2024 22:29:57 for Display_Lib_RPI by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Wed Mar 20 2024 11:25:58 for Display_Lib_RPI by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
