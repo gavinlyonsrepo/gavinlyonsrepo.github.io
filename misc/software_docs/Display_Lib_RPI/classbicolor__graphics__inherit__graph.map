@@ -1,10 +1,17 @@
 <map id="bicolor_graphics" name="bicolor_graphics">
-<area shape="rect" id="node1" title="Graphics class to hold graphic related functions for 1&#45;bit displays." alt="" coords="308,80,436,107"/>
-<area shape="rect" id="node4" href="$classERM19264__UC1609.html" title="class to drive the ERM19264 UC1609 LCD" alt="" coords="5,155,155,181"/>
-<area shape="rect" id="node5" href="$classERMCH1115.html" title="class to drive the ERMCh1115 OLED" alt="" coords="179,155,282,181"/>
-<area shape="rect" id="node6" href="$classNOKIA__5110__RPI.html" title="Class Controls SPI comms and LCD functionality." alt="" coords="307,155,437,181"/>
-<area shape="rect" id="node7" href="$classSH110X__RDL.html" title="class to control OLED and define buffer" alt="" coords="461,155,568,181"/>
-<area shape="rect" id="node8" href="$classSSD1306.html" title="class to control OLED and define buffer" alt="" coords="592,155,672,181"/>
-<area shape="rect" id="node2" href="$classdisplay__Fonts.html" title="Font class to hold font data object" alt="" coords="265,5,375,32"/>
-<area shape="rect" id="node3" href="$classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s." alt="" coords="399,5,451,32"/>
+<area shape="rect" id="Node000001" title="Graphics class to hold graphic related functions for 1&#45;bit displays." alt="" coords="308,79,436,104"/>
+<area shape="rect" id="Node000004" href="$classERM19264__UC1609.html" title="class to drive the ERM19264 UC1609 LCD" alt="" coords="5,152,155,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="313,110,128,154,127,149,311,105"/>
+<area shape="rect" id="Node000005" href="$classERMCH1115.html" title="class to drive the ERMCh1115 OLED" alt="" coords="179,152,282,177"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="339,112,255,154,253,149,336,108"/>
+<area shape="rect" id="Node000006" href="$classNOKIA__5110__RPI.html" title="Class Controls SPI comms and LCD functionality." alt="" coords="307,152,437,177"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="375,118,375,152,369,152,369,118"/>
+<area shape="rect" id="Node000007" href="$classSH110X__RDL.html" title="class to control OLED and define buffer" alt="" coords="461,152,568,177"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="408,108,493,149,490,154,406,112"/>
+<area shape="rect" id="Node000008" href="$classSSD1306__RDL.html" title="class to control OLED and define buffer" alt="" coords="593,152,706,177"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="431,105,605,149,604,154,429,110"/>
+<area shape="rect" id="Node000002" href="$classdisplay__Fonts.html" title="Font class to hold font data object" alt="" coords="265,5,375,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="339,40,366,77,361,80,334,43"/>
+<area shape="rect" id="Node000003" href="$classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s." alt="" coords="399,5,451,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="411,43,383,80,379,77,406,40"/>
 </map>

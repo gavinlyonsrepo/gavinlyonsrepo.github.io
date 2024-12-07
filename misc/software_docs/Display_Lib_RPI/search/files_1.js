@@ -1,8 +1,12 @@
 var searchData=
 [
-  ['color16_5fgraphics_5frdl_2ecpp_941',['color16_graphics_RDL.cpp',['../color16__graphics__RDL_8cpp.html',1,'']]],
-  ['color16_5fgraphics_5frdl_2ehpp_942',['color16_graphics_RDL.hpp',['../color16__graphics__RDL_8hpp.html',1,'']]],
-  ['common_5fdata_5frdl_2ecpp_943',['common_data_RDL.cpp',['../common__data__RDL_8cpp.html',1,'']]],
-  ['common_5fdata_5frdl_2ehpp_944',['common_data_RDL.hpp',['../common__data__RDL_8hpp.html',1,'']]],
-  ['main_2ecpp_945',['main.cpp',['../character__displays_2hd44780_2CLOCK__16x02_2main_8cpp.html',1,'(Global Namespace)'],['../character__displays_2hd44780_2TEST__16x02_2main_8cpp.html',1,'(Global Namespace)'],['../character__displays_2hd44780_2TEST__20x04_2main_8cpp.html',1,'(Global Namespace)'],['../character__displays_2hd44780_2TEST__I2C__16x02_2main_8cpp.html',1,'(Global Namespace)'],['../color16__displays_2ili9341_2Bitmap__Tests_2main_8cpp.html',1,'(Global Namespace)'],['../color16__displays_2ili9341_2Hello__world_2main_8cpp.html',1,'(Global Namespace)'],['../color16__displays_2ili9341_2Mandelbrot__set_2main_8cpp.html',1,'(Global Namespace)'],['../color16__displays_2ili9341_2Text__Graphics__Functions_2main_8cpp.html',1,'(Global Namespace)'],['../color16__displays_2ili9341_2Touch__Screen_2main_8cpp.html',1,'(Global Namespace)'],['../color16__displays_2st7735_2Bitmap__Tests_2main_8cpp.html',1,'(Global Namespace)'],['../color16__displays_2st7735_2Frame__rate__test__bmp_2main_8cpp.html',1,'(Global Namespace)'],['../color16__displays_2st7735_2Frame__rate__test__two_2main_8cpp.html',1,'(Global Namespace)'],['../color16__displays_2st7735_2Hello__world_2main_8cpp.html',1,'(Global Namespace)'],['../color16__displays_2st7735_2Text__Graphics__Functions_2main_8cpp.html',1,'(Global Namespace)'],['../color16__displays_2st7789_2Bitmap__Tests_2main_8cpp.html',1,'(Global Namespace)'],['../color16__displays_2st7789_2Frame__rate__test__bmp_2main_8cpp.html',1,'(Global Namespace)'],['../color16__displays_2st7789_2Hello__world_2main_8cpp.html',1,'(Global Namespace)'],['../color16__displays_2st7789_2Text__Graphics__Functions_2main_8cpp.html',1,'(Global Namespace)'],['../color16__displays_2xpt2046_2xpt__Test_2main_8cpp.html',1,'(Global Namespace)']]]
+  ['ch1115_2fbitmap_2fmain_2ecpp_0',['main.cpp',['../ch1115_2BITMAP_2main_8cpp.html',1,'']]],
+  ['ch1115_2ffps_5ftest_2fmain_2ecpp_1',['main.cpp',['../ch1115_2FPS__TEST_2main_8cpp.html',1,'']]],
+  ['ch1115_2ffps_5ftest_5fsw_5fspi_2fmain_2ecpp_2',['main.cpp',['../ch1115_2FPS__TEST__SW__SPI_2main_8cpp.html',1,'']]],
+  ['ch1115_2fhello_5fworld_2fmain_2ecpp_3',['main.cpp',['../ch1115_2HELLO__WORLD_2main_8cpp.html',1,'']]],
+  ['ch1115_2ftext_5fgraphics_5ffunctions_2fmain_2ecpp_4',['main.cpp',['../ch1115_2TEXT__GRAPHICS__FUNCTIONS_2main_8cpp.html',1,'']]],
+  ['color16_5fgraphics_5frdl_2ecpp_5',['color16_graphics_RDL.cpp',['../color16__graphics__RDL_8cpp.html',1,'']]],
+  ['color16_5fgraphics_5frdl_2ehpp_6',['color16_graphics_RDL.hpp',['../color16__graphics__RDL_8hpp.html',1,'']]],
+  ['common_5fdata_5frdl_2ecpp_7',['common_data_RDL.cpp',['../common__data__RDL_8cpp.html',1,'']]],
+  ['common_5fdata_5frdl_2ehpp_8',['common_data_RDL.hpp',['../common__data__RDL_8hpp.html',1,'']]]
 ];

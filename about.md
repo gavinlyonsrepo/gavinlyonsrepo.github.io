@@ -8,7 +8,7 @@ permalink: /about/
 	<div class="bgimage">
 		 <div class="container">
 			<p> 
-			This website documents open source development projects in the linked github repository maintained by {{site.name}}.
+			This blog documents open source development projects in the linked github repository maintained by {{site.name}}.
 			Mainly focused on embedded systems.
 			If you used these libraries and projects and found them useful you can donate below.
 			For business inquiries or ideas for new open source projects please contact by email below.

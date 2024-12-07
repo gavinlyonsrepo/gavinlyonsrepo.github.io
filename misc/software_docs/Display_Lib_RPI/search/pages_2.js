@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['hd44780_20lcd_20readme_1839',['HD44780 LCD Readme',['../md__home_gavin_Documents_Tech_RPi_projects_Display_Lib_RPI_extra_doc_hd44780_README.html',1,'']]]
+  ['ch1115_20oled_20readme_0',['ERM CH1115 OLED Readme',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html',1,'']]],
+  ['control_20history_1',['Version control history',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2CHANGELOG.html',1,'']]]
 ];

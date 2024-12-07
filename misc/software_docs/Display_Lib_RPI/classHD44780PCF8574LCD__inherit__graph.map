@@ -1,4 +1,5 @@
 <map id="HD44780PCF8574LCD" name="HD44780PCF8574LCD">
-<area shape="rect" id="node1" title="class to drive the HD44780 LCD with PCF8574 I2C interface" alt="" coords="5,80,171,107"/>
-<area shape="rect" id="node2" href="$classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s." alt="" coords="62,5,114,32"/>
+<area shape="rect" id="Node000001" title="class to drive the HD44780 LCD with PCF8574 I2C interface" alt="" coords="5,79,171,104"/>
+<area shape="rect" id="Node000002" href="$classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s." alt="" coords="62,5,114,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,44,91,79,85,79,85,44"/>
 </map>

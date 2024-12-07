@@ -1,5 +1,7 @@
 <map id="TM1638plus_Model3" name="TM1638plus_Model3">
-<area shape="rect" id="node1" title="Class for Model 3." alt="" coords="10,155,166,181"/>
-<area shape="rect" id="node2" href="$classTM1638plus__Model1.html" title="Class for Model 1." alt="" coords="10,80,166,107"/>
-<area shape="rect" id="node3" href="$classTM1638plus__common.html" title="The base Class , used to store common data &amp; functions for all models types." alt="" coords="5,5,171,32"/>
+<area shape="rect" id="Node000001" title="Class for Model 3." alt="" coords="10,152,166,177"/>
+<area shape="rect" id="Node000002" href="$classTM1638plus__Model1.html" title="Class for Model 1." alt="" coords="10,79,166,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,118,91,152,85,152,85,118"/>
+<area shape="rect" id="Node000003" href="$classTM1638plus__common.html" title="The base Class , used to store common data &amp; functions for all models types." alt="" coords="5,5,171,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,44,91,79,85,79,85,44"/>
 </map>

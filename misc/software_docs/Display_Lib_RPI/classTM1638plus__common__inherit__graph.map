@@ -1,6 +1,9 @@
 <map id="TM1638plus_common" name="TM1638plus_common">
-<area shape="rect" id="node1" title="The base Class , used to store common data &amp; functions for all models types." alt="" coords="90,5,255,32"/>
-<area shape="rect" id="node2" href="$classTM1638plus__Model1.html" title="Class for Model 1." alt="" coords="5,80,161,107"/>
-<area shape="rect" id="node4" href="$classTM1638plus__Model2.html" title="Class for Model 2." alt="" coords="185,80,341,107"/>
-<area shape="rect" id="node3" href="$classTM1638plus__Model3.html" title="Class for Model 3." alt="" coords="5,155,161,181"/>
+<area shape="rect" id="Node000001" title="The base Class , used to store common data &amp; functions for all models types." alt="" coords="90,5,255,31"/>
+<area shape="rect" id="Node000002" href="$classTM1638plus__Model1.html" title="Class for Model 1." alt="" coords="5,79,161,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,41,100,81,96,76,146,37"/>
+<area shape="rect" id="Node000004" href="$classTM1638plus__Model2.html" title="Class for Model 2." alt="" coords="185,79,341,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="200,37,250,76,247,81,197,41"/>
+<area shape="rect" id="Node000003" href="$classTM1638plus__Model3.html" title="Class for Model 3." alt="" coords="5,152,161,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="86,118,86,152,81,152,81,118"/>
 </map>

@@ -1,14 +1,25 @@
 <map id="Print" name="Print">
-<area shape="rect" id="node1" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s." alt="" coords="5,132,57,159"/>
-<area shape="rect" id="node2" href="$classHD44780PCF8574LCD.html" title="class to drive the HD44780 LCD with PCF8574 I2C interface" alt="" coords="105,81,271,108"/>
-<area shape="rect" id="node3" href="$classbicolor__graphics.html" title="Graphics class to hold graphic related functions for 1&#45;bit displays." alt="" coords="124,132,252,159"/>
-<area shape="rect" id="node9" href="$classcolor16__graphics.html" title="Class to handle fonts and graphics of color 16 bit display." alt="" coords="122,284,254,311"/>
-<area shape="rect" id="node4" href="$classERM19264__UC1609.html" title="class to drive the ERM19264 UC1609 LCD" alt="" coords="319,5,468,32"/>
-<area shape="rect" id="node5" href="$classERMCH1115.html" title="class to drive the ERMCh1115 OLED" alt="" coords="342,56,445,83"/>
-<area shape="rect" id="node6" href="$classNOKIA__5110__RPI.html" title="Class Controls SPI comms and LCD functionality." alt="" coords="328,107,459,133"/>
-<area shape="rect" id="node7" href="$classSH110X__RDL.html" title="class to control OLED and define buffer" alt="" coords="340,157,447,184"/>
-<area shape="rect" id="node8" href="$classSSD1306.html" title="class to control OLED and define buffer" alt="" coords="353,208,433,235"/>
-<area shape="rect" id="node10" href="$classILI9341__TFT.html" title="Class to interface with ILI9341 LCD display." alt="" coords="344,259,443,285"/>
-<area shape="rect" id="node11" href="$classST7735__TFT.html" title="Class to control ST7735 TFT basic functionality." alt="" coords="343,309,443,336"/>
-<area shape="rect" id="node12" href="$classST7789__TFT.html" title="Class to control ST7789 TFT basic functionality." alt="" coords="343,360,443,387"/>
+<area shape="rect" id="Node000001" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s." alt="" coords="5,129,57,155"/>
+<area shape="rect" id="Node000002" href="$classHD44780PCF8574LCD.html" title="class to drive the HD44780 LCD with PCF8574 I2C interface" alt="" coords="105,80,271,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,126,105,114,141,103,143,108,106,119,71,131"/>
+<area shape="rect" id="Node000003" href="$classbicolor__graphics.html" title="Graphics class to hold graphic related functions for 1&#45;bit displays." alt="" coords="124,129,252,155"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="71,139,123,139,123,145,71,145"/>
+<area shape="rect" id="Node000009" href="$classcolor16__graphics.html" title="Class to handle fonts and graphics of color 16 bit display." alt="" coords="122,276,254,301"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="58,163,175,274,171,278,55,167"/>
+<area shape="rect" id="Node000004" href="$classERM19264__UC1609.html" title="class to drive the ERM19264 UC1609 LCD" alt="" coords="319,5,468,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="259,121,269,115,285,97,292,78,300,59,317,40,337,29,339,33,320,44,305,62,297,80,289,100,272,119,262,126"/>
+<area shape="rect" id="Node000005" href="$classERMCH1115.html" title="class to drive the ERMCh1115 OLED" alt="" coords="342,55,445,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="247,123,270,114,318,89,348,78,350,83,320,94,272,119,249,128"/>
+<area shape="rect" id="Node000006" href="$classNOKIA__5110__RPI.html" title="Class Controls SPI comms and LCD functionality." alt="" coords="328,104,459,129"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="265,130,328,122,328,127,266,135"/>
+<area shape="rect" id="Node000007" href="$classSH110X__RDL.html" title="class to control OLED and define buffer" alt="" coords="340,153,447,179"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="266,148,340,157,340,162,266,154"/>
+<area shape="rect" id="Node000008" href="$classSSD1306__RDL.html" title="class to control OLED and define buffer" alt="" coords="337,203,450,228"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="237,157,320,187,356,200,354,205,318,193,235,162"/>
+<area shape="rect" id="Node000010" href="$classILI9341__TFT.html" title="Class to interface with ILI9341 LCD display." alt="" coords="344,252,443,277"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="267,277,344,268,344,273,268,282"/>
+<area shape="rect" id="Node000011" href="$classST7735__TFT.html" title="Class to control ST7735 TFT basic functionality." alt="" coords="343,301,443,327"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="268,296,343,305,342,310,267,301"/>
+<area shape="rect" id="Node000012" href="$classST7789__TFT.html" title="Class to control ST7789 TFT basic functionality." alt="" coords="343,351,443,376"/>
+<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="236,304,320,335,355,348,353,353,318,341,234,309"/>
 </map>

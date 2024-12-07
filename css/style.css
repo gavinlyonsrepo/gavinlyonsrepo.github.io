@@ -33,7 +33,7 @@ body{
 
 /* class site-title(non-custom class from minima), style for title in header.html */
 .site-title{
-	font-size:35px;
+	font-size:22px;
 	color: #black;
 	position:relative;
 	font-family: Verdana, Geneva, sans-serif;
