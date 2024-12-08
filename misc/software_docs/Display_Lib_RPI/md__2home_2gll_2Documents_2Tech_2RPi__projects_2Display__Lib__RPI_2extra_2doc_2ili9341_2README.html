@@ -74,25 +74,25 @@ $(function() {
   <div class="headertitle"><div class="title">ILI9341 LCD TFT Readme</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md33"></a> <a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ili9341.jpg"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ili9341.jpg" alt="Image TFT" class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md34"></a>
+<div class="textblock"><p><a class="anchor" id="ili9341-lcd-tft-readme"></a> <a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ili9341.jpg"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ili9341.jpg" alt="Image TFT" class="inline"/></a></p>
+<h1><a class="anchor" id="table-of-contents-3"></a>
 Table of contents</h1>
 <ul>
-<li>Overview</li>
-<li>Software<ul>
-<li>User Options</li>
-<li>File system</li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#overview">Overview</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#software">Software</a><ul>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ili9341_2README.html#user-options">User Options</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ili9341_2README.html#file-system">File system</a></li>
 </ul>
 </li>
-<li>Hardware</li>
-<li>Output</li>
-<li>Touchscreen</li>
-<li>Notes<ul>
-<li>spidev buf size</li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#hardware">Hardware</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#output">Output</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ili9341_2README.html#touchscreen">Touchscreen</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ili9341_2README.html#notes">Notes</a><ul>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ili9341_2README.html#spidev-buf-size">spidev buf size</a></li>
 </ul>
 </li>
 </ul>
-<h1><a class="anchor" id="autotoc_md35"></a>
+<h1><a class="anchor" id="overview-3"></a>
 Overview</h1>
 <ul>
 <li>Name: <a class="el" href="classILI9341__TFT.html" title="Class to interface with ILI9341 LCD display.">ILI9341_TFT</a></li>
@@ -111,9 +111,9 @@ Overview</h1>
 <ul>
 <li>Author: Gavin Lyons</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md36"></a>
+<h1><a class="anchor" id="software-3"></a>
 Software</h1>
-<h2><a class="anchor" id="autotoc_md37"></a>
+<h2><a class="anchor" id="user-options"></a>
 User options</h2>
 <p>In the example files. There are 3 sections in "Setup()" function where user can make adjustments to select for SPI type used, and screen size.</p>
 <ol type="1">
@@ -144,7 +144,7 @@ User options</h2>
 <td class="markdownTableBodyNone">SWSPI_CommDelay   </td><td class="markdownTableBodyNone">0   </td><td class="markdownTableBodyNone">uS delay for GPIO   </td><td class="markdownTableBodyNone">software   </td></tr>
 </table>
 <p>The user can adjust if having reliability issues with SW SPI in some setups. This is a microsecond delay in SW SPI GPIO loop. It is set to 0 by default, Increasing it will slow down SW SPI further.</p>
-<h2><a class="anchor" id="autotoc_md38"></a>
+<h2><a class="anchor" id="file-system"></a>
 File system</h2>
 <p>In example folder: The Main.cpp file contains tests showing library functions. A bitmap data file contains data for bi-color bitmaps and icons tests. The color bitmaps used in testing are in bitmap folder, 3 16-bit and 5 24-bit images.</p>
 <table class="markdownTable">
@@ -165,87 +165,62 @@ File system</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">7   </td><td class="markdownTableBodyNone">Hello_world_SWSPI   </td><td class="markdownTableBodyNone">Basic use case software SPI   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md39"></a>
+<h1><a class="anchor" id="hardware-3"></a>
 Hardware</h1>
 <p>Tested and developed on:</p>
 <ul>
-<li>Size 2.4" SPI Serial  IPS color TFT LCD
-* Resolution: 240 (H) RGB x 320 (V)
-* Color Depth: 262K/65K (65K used)
-* Control chip:ILI9341
-* Display area 27.972 (H) x 32.634 (V)
-* Panel size 36.72(W)X48.96(H)mm
-* Logic voltage 3.3V
-* Touch panel with XPT2046 IC
-
-
-Connections as setup in main.cpp test file.
-
-&lt;table class="markdownTable"&gt;
-  &lt;tr class="markdownTableHead"&gt;    &lt;th class="markdownTableHeadNone"&gt; PinNum   </li>
+<li>Size 2.4 inch SPI Serial IPS color TFT LCD</li>
+<li>Resolution: 240 (H) RGB x 320 (V)</li>
+<li>Color Depth: 262K/65K (65K used)</li>
+<li>Control chip:ILI9341</li>
+<li>Display area 27.972 (H) x 32.634 (V)</li>
+<li>Panel size 36.72(W)X48.96(H)mm</li>
+<li>Logic voltage 3.3V</li>
+<li>Touch panel with XPT2046 IC</li>
 </ul>
-<p>Pin description   </p>
-<p>RPI   </p>
-<p>note    </p>
-<p>1   </p>
-<p>VCC   </p>
-<p>VCC   </p>
-<p>3.3 or 5V ,CAUTION your display must have 3.3V regulator on back to connect to 5V    </p>
-<p>2   </p>
-<p>GND   </p>
-<p>GND   </p>
-<p>3   </p>
-<p>CS   </p>
-<p>SPICE0   </p>
-<p>TFT Chip select    </p>
-<p>4   </p>
-<p>RESET   </p>
-<p>GPIO25   </p>
-<p>Reset, Use any GPIO for this, If no reset pin, pass -1 in here &amp; display will use software rst    </p>
-<p>5   </p>
-<p>DC   </p>
-<p>GPIO24   </p>
-<p>Data or command, Use any GPIO for this line    </p>
-<p>6   </p>
-<p>SDI(MOSI)   </p>
-<p>SPIMOSI   </p>
-<p>7   </p>
-<p>SCLK   </p>
-<p>SPICLK   </p>
-<p>8   </p>
-<p>LED   </p>
-<p>VCC   </p>
-<p>CAUTION Your display may need current limit resistor    </p>
-<p>9   </p>
-<p>SDO(MISO)   </p>
-<p>nc   </p>
-<p>Only needed to read diagnostics from TFT (not implemented yet)    </p>
-<p>10   </p>
-<p>T_CLK   </p>
-<p>SPICLK   </p>
-<p>11   </p>
-<p>T_CS   </p>
-<p>SPICE1   </p>
-<p>XPT2046 Chip select    </p>
-<p>12   </p>
-<p>T_DIN   </p>
-<p>SPIMOSI   </p>
-<p>13   </p>
-<p>T_DO   </p>
-<p>SPIMISO   </p>
-<p>14   </p>
-<p>T_IRQ   </p>
-<p>GPIO22   </p>
+<p>Connections as setup in main.cpp test file.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">PinNum   </th><th class="markdownTableHeadNone">Pin description   </th><th class="markdownTableHeadNone">RPI   </th><th class="markdownTableHeadNone">note    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">VCC   </td><td class="markdownTableBodyNone">VCC   </td><td class="markdownTableBodyNone">3.3 or 5V ,CAUTION your display must have 3.3V regulator on back to connect to 5V    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">GND   </td><td class="markdownTableBodyNone">GND   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">CS   </td><td class="markdownTableBodyNone">SPICE0   </td><td class="markdownTableBodyNone">TFT Chip select    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">RESET   </td><td class="markdownTableBodyNone">GPIO25   </td><td class="markdownTableBodyNone">Reset, Use any GPIO for this, If no reset pin, pass -1 in here &amp; display will use software rst    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">DC   </td><td class="markdownTableBodyNone">GPIO24   </td><td class="markdownTableBodyNone">Data or command, Use any GPIO for this line    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">6   </td><td class="markdownTableBodyNone">SDI(MOSI)   </td><td class="markdownTableBodyNone">SPIMOSI   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">7   </td><td class="markdownTableBodyNone">SCLK   </td><td class="markdownTableBodyNone">SPICLK   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">8   </td><td class="markdownTableBodyNone">LED   </td><td class="markdownTableBodyNone">VCC   </td><td class="markdownTableBodyNone">CAUTION Your display may need current limit resistor    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">9   </td><td class="markdownTableBodyNone">SDO(MISO)   </td><td class="markdownTableBodyNone">nc   </td><td class="markdownTableBodyNone">Only needed to read diagnostics from TFT (not implemented yet)    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">10   </td><td class="markdownTableBodyNone">T_CLK   </td><td class="markdownTableBodyNone">SPICLK   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">11   </td><td class="markdownTableBodyNone">T_CS   </td><td class="markdownTableBodyNone">SPICE1   </td><td class="markdownTableBodyNone">XPT2046 Chip select    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">12   </td><td class="markdownTableBodyNone">T_DIN   </td><td class="markdownTableBodyNone">SPIMOSI   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">13   </td><td class="markdownTableBodyNone">T_DO   </td><td class="markdownTableBodyNone">SPIMISO   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">14   </td><td class="markdownTableBodyNone">T_IRQ   </td><td class="markdownTableBodyNone">GPIO22   </td><td class="markdownTableBodyNone"></td></tr>
+</table>
 <ol type="1">
 <li>This is a 3.3V logic device do NOT connect the I/O logic lines to 5V logic device.</li>
 <li>LED Backlight control is left to user.</li>
 <li>Pins marked with T_ prefix are related to the touchscreen IC XP2046 if user is not using the touch screen do not connect these. The touch screen and TFT share the SPI bus but have different chip select lines. TFT SPI settings(Speed, active chip select) should be refreshed after ever read cycle of XPT2046 sensor, see example.</li>
 </ol>
-<h1><a class="anchor" id="autotoc_md40"></a>
+<h1><a class="anchor" id="output-3"></a>
 Output</h1>
 <p>Four-Byte Burger 240x320 16-bit bitmap test image, Credits <a href="https://www.youtube.com/watch?v=i4EFkspO5p4">Ahoy</a></p>
 <p><a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ili9341output2.jpg"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ili9341output2.jpg" alt="output pic" class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md41"></a>
+<h1><a class="anchor" id="touchscreen"></a>
 Touchscreen</h1>
 <p>If the users display has a touchscreen controller IC on the back (XPT2046). A simple class to interface with the XPT2046 touchscreen controller IC has been included. Note :It may not be populated on your display or there may be a different model of IC there.</p>
 <p>The T_IRQ line goes low when the touchscreen is touched and the data can be read from sensor.</p>
@@ -260,9 +235,9 @@ Touchscreen</h1>
 </ol>
 <p>Output of the basic touch screen example included.</p>
 <p><a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ili9341output.jpg"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ili9341output.jpg" alt="output pic" class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md42"></a>
+<h1><a class="anchor" id="notes"></a>
 Notes</h1>
-<h2><a class="anchor" id="autotoc_md43"></a>
+<h2><a class="anchor" id="spidev-buf-size"></a>
 spidev buf size</h2>
 <p>The maximum transaction size that 'lgpio' can handle by default is 65536 bytes. So this is also the maximum transaction size of Display_lib_RPI, if more than that needs to be sent it is sent in blocks of 65536 bytes. Certain 'Display_lib_RPI' functions use buffered writes, the ones that draw bitmaps, write fonts, fill rectangles, clear screen, etc. In order for this to work the spidev.buf size must be at least 65536. To check the setting on your device run command:</p>
 <div class="fragment"><div class="line">cat /sys/module/spidev/parameters/bufsiz</div>

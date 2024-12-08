@@ -74,33 +74,33 @@ $(function() {
   <div class="headertitle"><div class="title">ST7735 TFT Readme</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md82"></a> <a href="https://github.com/gavinlyonsrepo/pic_16F18346_projects/blob/master/images/st7735/pcb.jpg"><img src="https://github.com/gavinlyonsrepo/pic_16F18346_projects/blob/master/images/st7735/pcb.jpg" alt=" Image TFT " class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md83"></a>
+<div class="textblock"><p><a class="anchor" id="st7735-tft-readme"></a> <a href="https://github.com/gavinlyonsrepo/pic_16F18346_projects/blob/master/images/st7735/pcb.jpg"><img src="https://github.com/gavinlyonsrepo/pic_16F18346_projects/blob/master/images/st7735/pcb.jpg" alt=" Image TFT " class="inline"/></a></p>
+<h1><a class="anchor" id="table-of-contents-8"></a>
 Table of contents</h1>
 <ul>
-<li>Overview</li>
-<li>Software<ul>
-<li>User Options</li>
-<li>File system</li>
-<li>Bitmap <br  />
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#overview">Overview</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#software">Software</a><ul>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ili9341_2README.html#user-options">User Options</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ili9341_2README.html#file-system">File system</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2st7735_2README.html#bitmap">Bitmap</a> <br  />
 </li>
 </ul>
 </li>
-<li>Hardware</li>
-<li>Output</li>
-<li>Notes<ul>
-<li>spidev buf size</li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#hardware">Hardware</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#output">Output</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ili9341_2README.html#notes">Notes</a><ul>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ili9341_2README.html#spidev-buf-size">spidev buf size</a></li>
 </ul>
 </li>
 </ul>
-<h1><a class="anchor" id="autotoc_md84"></a>
+<h1><a class="anchor" id="overview-8"></a>
 Overview</h1>
 <ul>
 <li>Name: <a class="el" href="classST7735__TFT.html" title="Class to control ST7735 TFT basic functionality.">ST7735_TFT</a></li>
 <li>Description:</li>
 </ul>
 <p>0. C++ Library for a TFT SPI LCD, ST7735 Driver</p><ol type="1">
-<li>Dynamic install-able Raspberry Pi C++ library.</li>
+<li>Dynamic install-able Linux based Single Board ComputersC++ library.</li>
 <li>Inverse colour, rotate, sleep, idle &amp; vertical scroll modes supported.</li>
 <li>Graphics + print class included.</li>
 <li>24 bit colour , 16 bit color &amp; bi-color Bitmaps supported.</li>
@@ -112,9 +112,9 @@ Overview</h1>
 <li>Author: Gavin Lyons</li>
 <li>Port of my PIC library at <a href="https://github.com/gavinlyonsrepo/pic_16F18346_projects">github link.</a></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md85"></a>
+<h1><a class="anchor" id="software-8"></a>
 Software</h1>
-<h2><a class="anchor" id="autotoc_md86"></a>
+<h2><a class="anchor" id="user-options-1"></a>
 User options</h2>
 <p>In the example files. There are 3 sections in "Setup()" function where user can make adjustments to select for SPI type used, PCB type used and screen size.</p>
 <ol type="1">
@@ -159,7 +159,7 @@ User options</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">ST7735S Black Tab   </td><td class="markdownTableBodyNone">TFT_ST7735S_Black   </td><td class="markdownTableBodyNone">RED PCB v1.2, 1.8, 128 x 160 pixels   </td></tr>
 </table>
-<h2><a class="anchor" id="autotoc_md87"></a>
+<h2><a class="anchor" id="file-system-5"></a>
 File system</h2>
 <p>In example folder: The Main.cpp file contains tests showing library functions. A bitmap data file contains data for bi-color bitmaps and icons tests. The color bitmaps used in testing are in bitmap folder, 3 16-bit and 5 24-bit images.</p>
 <table class="markdownTable">
@@ -180,7 +180,7 @@ File system</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">7   </td><td class="markdownTableBodyNone">Multiple_displays   </td><td class="markdownTableBodyNone">shows use of two displays on same spi bus(OLED AND LCD)   </td></tr>
 </table>
-<h2><a class="anchor" id="autotoc_md88"></a>
+<h2><a class="anchor" id="bitmap"></a>
 Bitmap</h2>
 <p>There are four class functions to support drawing bitmaps</p>
 <table class="markdownTable">
@@ -200,7 +200,7 @@ Bitmap</h2>
 <li>Pixel size column assumes 128 by 128 screen.</li>
 </ol>
 <p>These class functions will return an error code in event of error see API for more details.</p>
-<h1><a class="anchor" id="autotoc_md89"></a>
+<h1><a class="anchor" id="hardware-8"></a>
 Hardware</h1>
 <p>Connections as setup in main.cpp test file.</p>
 <table class="markdownTable">
@@ -232,7 +232,7 @@ Hardware</h1>
 <li>Backlight control is left to user.</li>
 </ol>
 <p><a href="https://github.com/gavinlyonsrepo/ST7735_TFT_RPI/blob/main/extra/images/wiring.jpg"><img src="https://github.com/gavinlyonsrepo/ST7735_TFT_RPI/blob/main/extra/images/wiring.jpg" alt=" Wiring pic " class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md90"></a>
+<h1><a class="anchor" id="output-6"></a>
 Output</h1>
 <ol type="1">
 <li>Clock Demo showing icons, small bitmaps</li>
@@ -240,9 +240,9 @@ Output</h1>
 <li>16-bit color bitmap test image</li>
 </ol>
 <p><a href="https://github.com/gavinlyonsrepo/ST7735_TFT_RPI/blob/main/extra/images/4.jpg"><img src="https://github.com/gavinlyonsrepo/ST7735_TFT_RPI/blob/main/extra/images/4.jpg" alt=" Demo pic " class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md91"></a>
+<h1><a class="anchor" id="notes-1"></a>
 Notes</h1>
-<h2><a class="anchor" id="autotoc_md92"></a>
+<h2><a class="anchor" id="spidev-buf-size-1"></a>
 spidev buf size</h2>
 <p>The maximum transaction size that 'lgpio' can handle by default is 65536 bytes. So this is also the maximum transaction size of Display_lib_RPI, if more than that needs to be sent it is sent in blocks of 65536 bytes. Certain 'Display_lib_RPI' functions use buffered writes, the ones that draw bitmaps, write fonts, fill rectangles, clear screen, etc. In order for this to work the spidev.buf size must be at least 65536. To check the setting on your device run command:</p>
 <div class="fragment"><div class="line">cat /sys/module/spidev/parameters/bufsiz</div>

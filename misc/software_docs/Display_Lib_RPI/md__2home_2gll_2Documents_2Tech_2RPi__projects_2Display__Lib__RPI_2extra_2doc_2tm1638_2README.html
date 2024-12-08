@@ -74,22 +74,22 @@ $(function() {
   <div class="headertitle"><div class="title">TM1638 Readme</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md104"></a> </p>
-<h1><a class="anchor" id="autotoc_md105"></a>
+<div class="textblock"><p><a class="anchor" id="tm1638-readme"></a> </p>
+<h1><a class="anchor" id="table-of-contents-10"></a>
 Table of contents</h1>
 <ul>
-<li>Overview</li>
-<li>Hardware</li>
-<li>Software</li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#overview">Overview</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#hardware">Hardware</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#software">Software</a></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md106"></a>
+<h1><a class="anchor" id="overview-10"></a>
 Overview</h1>
 <ul>
 <li>Display Name: TM1638</li>
 <li>Author: Gavin Lyons.</li>
 <li>Description: A Raspberry pi library to display data on 8-digit TM1638 seven segment modules.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md107"></a>
+<h1><a class="anchor" id="hardware-10"></a>
 Hardware</h1>
 <p>Connections to RPI:</p>
 <ol type="1">
@@ -113,15 +113,15 @@ Hardware</h1>
 </table>
 <p><a href="https://github.com/gavinlyonsrepo/TM1638plus/blob/master/extra/images/tm16383.jpg"><img src="https://github.com/gavinlyonsrepo/TM1638plus/blob/master/extra/images/tm16383.jpg" alt=" module pics " class="inline"/></a></p>
 <p>Library uses a type of software SPI like bus.</p>
-<h1><a class="anchor" id="autotoc_md108"></a>
+<h1><a class="anchor" id="software-10"></a>
 Software</h1>
 <p>This library section is a port of my Arduino Library.</p>
 <p><a href="https://github.com/gavinlyonsrepo/TM1638plus">Arduino library github Link</a></p>
 <p>There are two test example files, One does model 1 and model 3 , the other model 2. In the former file: at top of file there is a 'User selection section' which lets user swap between model 1 &amp; 3.</p>
-<h2><a class="anchor" id="autotoc_md109"></a>
+<h2><a class="anchor" id="gpio_chip_device"></a>
 GPIO_CHIP_DEVICE</h2>
 <p>To get the number for GPIO_CHIP_DEVICE parameter you can check ls /dev/gpiochip* At time of testing it was found that Raspberry pi 5 = 4 and raspberry pi 3 = zero But now it look like both are zero after software update, although 4 should still work for RPi5 if a symlink is in /dev/ folder.</p>
-<h2><a class="anchor" id="autotoc_md110"></a>
+<h2><a class="anchor" id="comms-delay"></a>
 Comms delay</h2>
 <p>Communications optional delay. It may be necessary to adjust the constant TMCommDelay in the TM1638plus_common.h file. It is Microsecond delay used in communications clocking, it is currently set to 1, It can be set to 0 or higher. On a different CPU Frequency to one tested, it may be necessary to increase/decrease this. The user can do this with the Getter method provided. TMCommDelayGet. </p>
 </div></div><!-- contents -->

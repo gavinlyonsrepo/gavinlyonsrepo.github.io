@@ -107,7 +107,8 @@ var searchData=
   ['lcdupdate_104',['LCDupdate',['../classERM19264__UC1609.html#abdab96ee0e657b082530c2aca2ec0be5',1,'ERM19264_UC1609']]],
   ['lcdwritecommand_105',['LCDWriteCommand',['../classNOKIA__5110__RPI.html#a8e1d488831979926002c8674fb2b5cbd',1,'NOKIA_5110_RPI']]],
   ['lcdwritedata_106',['LCDWriteData',['../classNOKIA__5110__RPI.html#a8453f39023ab09f94423b01a75d30506',1,'NOKIA_5110_RPI']]],
-  ['library_107',['Raspberry PI Display Library',['../index.html#autotoc_md111',1,'']]],
-  ['list_108',['Test List',['../test.html',1,'']]],
-  ['loadimage_109',['loadImage',['../ili9341_2Bitmap__Tests_2main_8cpp.html#a4844f60ea97dfbc3585bca46051d912b',1,'main.cpp']]]
+  ['library_20for_20linux_20based_20single_20board_20computers_107',['Display Library for Linux based Single Board Computers',['../index.html#display-library-for-linux-based-single-board-computers',1,'']]],
+  ['linux_20based_20single_20board_20computers_108',['Display Library for Linux based Single Board Computers',['../index.html#display-library-for-linux-based-single-board-computers',1,'']]],
+  ['list_109',['Test List',['../test.html',1,'']]],
+  ['loadimage_110',['loadImage',['../ili9341_2Bitmap__Tests_2main_8cpp.html#a4844f60ea97dfbc3585bca46051d912b',1,'main.cpp']]]
 ];

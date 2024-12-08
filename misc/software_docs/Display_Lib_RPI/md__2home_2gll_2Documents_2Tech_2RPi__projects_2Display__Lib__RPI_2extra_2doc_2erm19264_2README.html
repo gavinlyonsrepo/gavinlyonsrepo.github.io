@@ -74,21 +74,21 @@ $(function() {
   <div class="headertitle"><div class="title">ERM19264 UC1609 Readme</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md9"></a> <a href="https://github.com/gavinlyonsrepo/ERM19264_UC1609/blob/main/extras/image/color.jpg"><img src="https://github.com/gavinlyonsrepo/ERM19264_UC1609/blob/main/extras/image/color.jpg" alt=" ERM19264 image" class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md10"></a>
+<div class="textblock"><p><a class="anchor" id="erm19264-uc1609-readme"></a> <a href="https://github.com/gavinlyonsrepo/ERM19264_UC1609/blob/main/extras/image/color.jpg"><img src="https://github.com/gavinlyonsrepo/ERM19264_UC1609/blob/main/extras/image/color.jpg" alt=" ERM19264 image" class="inline"/></a></p>
+<h1><a class="anchor" id="table-of-contents-1"></a>
 Table of contents</h1>
 <ul>
-<li>Overview</li>
-<li>Output</li>
-<li>Hardware</li>
-<li>Software<ul>
-<li>SPI</li>
-<li>Bitmaps</li>
-<li>User Adjustments</li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#overview">Overview</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#output">Output</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#hardware">Hardware</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#software">Software</a><ul>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#spi">SPI</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#bitmaps">Bitmaps</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#user-adjustments">User Adjustments</a></li>
 </ul>
 </li>
 </ul>
-<h1><a class="anchor" id="autotoc_md11"></a>
+<h1><a class="anchor" id="overview-1"></a>
 Overview</h1>
 <ul>
 <li>Name : <a class="el" href="classERM19264__UC1609.html" title="class to drive the ERM19264 UC1609 LCD">ERM19264_UC1609</a></li>
@@ -96,7 +96,7 @@ Overview</h1>
 <li>Description :</li>
 </ul>
 <ol type="1">
-<li>Dynamic install-able system level Raspberry Pi C++ library.</li>
+<li>Dynamic install-able system level Linux based Single Board Computers C++ library.</li>
 <li>Inverse, Scroll, rotate and contrast control.</li>
 <li>Sleep mode.</li>
 <li>Bitmaps supported.</li>
@@ -106,10 +106,10 @@ Overview</h1>
 <li>Author: Gavin Lyons</li>
 <li>This is a port of my <a href="https://github.com/gavinlyonsrepo/ERM19264_UC1609">Arduino library</a></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md12"></a>
+<h1><a class="anchor" id="output-1"></a>
 Output</h1>
 <p><a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/erm19264.jpg"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/erm19264.jpg" alt=" output image " class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md13"></a>
+<h1><a class="anchor" id="hardware-1"></a>
 Hardware</h1>
 <p>9 pins , Vcc and GND, anode and cathode for the backlight LED and an SPI interface. The backlight control is left up to user , connect to 3.3V thru a resistor. If using Hardware SPI 3 pins will be tied to the SPI CEO, CLK and MOSI lines. if using software SPI you should be able use any GPIO you want for all five pins. Datasheets URLS are in the extras folder.</p>
 <p>There are 3 different colours in range, Parts used purchased from <a href="https://www.ebay.ie/itm/2-inch-White-192x64-Graphic-LCD-Display-Module-UC1609-SPI-for-Arduino/293617684779?hash=item445cfa512b:g:10MAAOSwYV9e6xsi">ebay</a></p>
@@ -122,9 +122,9 @@ Hardware</h1>
 <p><a href="https://github.com/gavinlyonsrepo/ERM19264_UC1609_RPI/blob/main/extras/image/wiring.png"><img src="https://github.com/gavinlyonsrepo/ERM19264_UC1609_RPI/blob/main/extras/image/wiring.png" alt=" Wiring image" class="inline"/></a></p>
 <p>This wiring Diagram from the manufacturer showing hardware setup connected to an ~8051 MCU, showing both 3.3 volt and 5 volt systems. Note status of J1 PCB jumper.</p>
 <p><a href="https://github.com/gavinlyonsrepo/ERM19264_UC1609/blob/main/extras/image/connect.jpg"><img src="https://github.com/gavinlyonsrepo/ERM19264_UC1609/blob/main/extras/image/connect.jpg" alt=" Connection image " class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md14"></a>
+<h1><a class="anchor" id="software-1"></a>
 Software</h1>
-<h2><a class="anchor" id="autotoc_md15"></a>
+<h2><a class="anchor" id="spi-1"></a>
 SPI</h2>
 <p>This library supports both Hardware SPI and software SPI. The constructor of the main class is overloaded. Which SPI is started depends on which constructor called by user.</p>
 <p><em>Software SPI</em></p>
@@ -143,9 +143,9 @@ SPI</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">HWSPI_FLAGS   </td><td class="markdownTableBodyNone">0   </td><td class="markdownTableBodyNone">mode 0 for this device    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">GPIO_CHIP_DEVICE   </td><td class="markdownTableBodyNone">0   </td><td class="markdownTableBodyNone">gpio chip device &gt;= 0, check ls/dev/gpiochip   </td></tr>
+<td class="markdownTableBodyNone">GPIO_CHIP_DEVICE   </td><td class="markdownTableBodyNone">0   </td><td class="markdownTableBodyNone">gpio chip device &gt;= 0, check ls /dev/gpiochip   </td></tr>
 </table>
-<h2><a class="anchor" id="autotoc_md16"></a>
+<h2><a class="anchor" id="bitmaps-1"></a>
 Bitmaps</h2>
 <p>There is a few different ways of displaying bitmaps,</p>
 <table class="markdownTable">
@@ -163,7 +163,7 @@ Bitmaps</h2>
 <td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">drawBitmap()   </td><td class="markdownTableBodyNone">Horizontal   </td><td class="markdownTableBodyNone">setDrawBitmapAddr(false)   </td></tr>
 </table>
 <p>See the bitmap example file for more details on each method. Bitmaps can be turned to data <a href="https://javl.github.io/image2cpp/">here at link</a> , Bitmaps should be defined as const buffers non-const, for methods 3 buffer can be initialised with bitmap data.</p>
-<h2><a class="anchor" id="autotoc_md17"></a>
+<h2><a class="anchor" id="user-adjustments-1"></a>
 User Adjustments</h2>
 <p>If the LCD does not initialize correctly. Try adjusting the RAM address control setting from 0x02 to 0x01. It can be set in LCDbegin() argument list. See github issue 4 at the Arduino source port github repository for more details, link in overview.</p>
 <p>When the user calls LCDbegin() to start LCD they can specify a contrast setting from 0x00 to 0xFF. Datasheet says 0x49 is default. (VbiasPOT). Lower contrast works better on the blue color version.</p>

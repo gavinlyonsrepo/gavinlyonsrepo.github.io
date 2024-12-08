@@ -1,0 +1,38 @@
+---
+layout: page
+---
+<html>
+<body>
+<h3>Project API index list : </h3>
+<div class="bgimage">
+	<div class="container">
+
+		<ul>
+			{% assign doc_folder = "software_docs" %}
+
+			{% for folder in site.static_files %}
+			{% if folder.path contains doc_folder and folder.name == "index.html" %}
+				{% assign folder_parts = folder.path | split: '/' %}
+
+				<!-- Get the second-to-last part as the subfolder name -->
+				{% assign folder_name = folder_parts | slice: -2, 1 %}
+
+				<li><a href="/misc/{{ doc_folder }}/{{ folder_name[0] }}/">{{ folder_name[0] }}</a></li>
+			{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

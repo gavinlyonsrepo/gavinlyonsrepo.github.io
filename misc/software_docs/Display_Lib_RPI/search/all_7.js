@@ -61,5 +61,7 @@ var searchData=
   ['ermch1115_5fset_5fscroll_5fmode_58',['ERMCH1115_SET_SCROLL_MODE',['../ERM1__CH1115__OLED__RDL_8hpp.html#adaff7fc8db14e4b97ea4d6fb39e773af',1,'ERM1_CH1115_OLED_RDL.hpp']]],
   ['ermch1115_5fspage_5fadr_5fset_59',['ERMCH1115_SPAGE_ADR_SET',['../ERM1__CH1115__OLED__RDL_8hpp.html#a502767ae241b00ef2c0fc25cc381ad30',1,'ERM1_CH1115_OLED_RDL.hpp']]],
   ['ermch1115_5ftime_5fset_60',['ERMCH1115_TIME_SET',['../ERM1__CH1115__OLED__RDL_8hpp.html#a46e5b93dd9c6b0cf782d6f32863716ae',1,'ERM1_CH1115_OLED_RDL.hpp']]],
-  ['example_20files_61',['Example files',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2hd44780_2README.html#autotoc_md30',1,'']]]
+  ['error_20codes_61',['Error Codes',['../index.html#error-codes',1,'']]],
+  ['error_20codes_20readme_62',['Error codes Readme',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2errors_2README.html',1,'']]],
+  ['example_20files_63',['Example files',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2hd44780_2README.html#example-files',1,'']]]
 ];

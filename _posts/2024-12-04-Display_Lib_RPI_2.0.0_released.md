@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Display_Lib_RPI Version 2.0.0 released"
-categories: [cpp, rpi]
+categories: [cpp, rpi, sbc]
 ---
 
 * Version 2.0.0 05-12-2024

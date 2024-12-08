@@ -74,28 +74,28 @@ $(function() {
   <div class="headertitle"><div class="title">MAX7219 7 Segment Readme</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md44"></a> <a href="https://github.com/gavinlyonsrepo/MAX7219_7SEG_RPI/blob/main/extra/image/max.jpg"><img src="https://github.com/gavinlyonsrepo/MAX7219_7SEG_RPI/blob/main/extra/image/max.jpg" alt=" max image " class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md45"></a>
+<div class="textblock"><p><a class="anchor" id="max7219-7-segment-readme"></a> <a href="https://github.com/gavinlyonsrepo/MAX7219_7SEG_RPI/blob/main/extra/image/max.jpg"><img src="https://github.com/gavinlyonsrepo/MAX7219_7SEG_RPI/blob/main/extra/image/max.jpg" alt=" max image " class="inline"/></a></p>
+<h1><a class="anchor" id="table-of-contents-4"></a>
 Table of contents</h1>
 <ul>
-<li>Overview</li>
-<li>Software</li>
-<li>Hardware</li>
-<li>Notes and Issues<ul>
-<li>Cascaded Displays</li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#overview">Overview</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#software">Software</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#hardware">Hardware</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2hd44780_2README.html#notes-and-issues">Notes and Issues</a><ul>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2max7219_2README.html#cascaded-displays">Cascaded Displays</a></li>
 </ul>
 </li>
 </ul>
-<h1><a class="anchor" id="autotoc_md46"></a>
+<h1><a class="anchor" id="overview-4"></a>
 Overview</h1>
 <ul>
 <li>Name: MAX7219</li>
 <li>Author: Gavin Lyons.</li>
 <li>Description: A Raspberry pi library to display data on a 8-digit MAX7219 seven segment module. Dynamic install-able system level Raspberry Pi C++ library. Hardware or software SPI, Shutdown mode, test mode and Brightness control supported.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md47"></a>
+<h1><a class="anchor" id="software-4"></a>
 Software</h1>
-<h2><a class="anchor" id="autotoc_md48"></a>
+<h2><a class="anchor" id="file-system-1"></a>
 File system</h2>
 <p>Example files list:</p>
 <table class="markdownTable">
@@ -112,12 +112,12 @@ File system</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">src/CASCADE_DEMO/main.cpp   </td><td class="markdownTableBodyNone">simple Demo showing use of cascaded displays   </td><td class="markdownTableBodyNone">hardware   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md49"></a>
+<h1><a class="anchor" id="hardware-4"></a>
 Hardware</h1>
-<h2><a class="anchor" id="autotoc_md50"></a>
+<h2><a class="anchor" id="software-spi"></a>
 Software SPI</h2>
 <p>For Software SPI Pick any GPIO you want. To get the number for GPIO_CHIP_DEVICE parameter you can check ls /dev/gpiochip* At time of testing it was found that Raspberry pi 5 = 4 and raspberry pi 3 = zero But now it look like both are zero after software update, although 4 should still work for RPi5 if a symlink is in /dev/ folder. In software SPI user may need to increase or decrease CommDelay variable (uS Communication delay) depending on speed of CPU on system.</p>
-<h2><a class="anchor" id="autotoc_md51"></a>
+<h2><a class="anchor" id="hardware-spi"></a>
 Hardware SPI</h2>
 <p>For Hardware SPI the User must use fixed SPI pins SPIMOSI and SPISCLK, user can choice between SPICE0 and SPICE1 for chip select. The Datasheet says it's a 10MHZ device, In hardware SPI user can pick SPI bus speed.</p>
 <table class="markdownTable">
@@ -132,7 +132,7 @@ Hardware SPI</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">HWSPI_FLAGS   </td><td class="markdownTableBodyNone">0   </td><td class="markdownTableBodyNone">mode 0 for this device   </td></tr>
 </table>
-<h2><a class="anchor" id="autotoc_md52"></a>
+<h2><a class="anchor" id="connections-to-rpi"></a>
 Connections to RPI:</h2>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -145,9 +145,9 @@ Connections to RPI:</h2>
 <td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">any GPIO output   </td><td class="markdownTableBodyNone">SPIMOSI   </td><td class="markdownTableBodyNone">DIN = Data in   </td></tr>
 </table>
 <p>VCC 5V in theory but works at 3.3V in testing, albeit with a dimmer display. Logic seems to work fine at 3.3V , It safe as it is all one way communications From RPI to MAX. User can adjust brightness from 0x00 to 0x0f by default it is 0x08. 0x0f being brightest</p>
-<h1><a class="anchor" id="autotoc_md53"></a>
+<h1><a class="anchor" id="notes-and-issues-1"></a>
 Notes and Issues</h1>
-<h2><a class="anchor" id="autotoc_md54"></a>
+<h2><a class="anchor" id="cascaded-displays"></a>
 Cascaded Displays</h2>
 <p>Support for Cascaded Displays added is untested as only one display available. Casacded Displays are displays connected together. Din-&gt; Dout and CS lines tied together. </p>
 </div></div><!-- contents -->

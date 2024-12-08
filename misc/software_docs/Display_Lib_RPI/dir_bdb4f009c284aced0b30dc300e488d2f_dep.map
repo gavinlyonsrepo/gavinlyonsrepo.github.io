@@ -1,7 +1,7 @@
 <map id="TEST_I2C_16x02" name="TEST_I2C_16x02">
 <area shape="rect" id="node1" href="dir_bdb4f009c284aced0b30dc300e488d2f.html" title="TEST_I2C_16x02" alt="" coords="26,52,155,77"/>
 <area shape="rect" id="node2" href="dir_d44c64559bbebec7f509842c48db8b23.html" title="include" alt="" coords="56,125,125,151"/>
-<area shape="poly" id="edge1" href="dir_000087_000052.html" alt="" coords="93,78,93,112,88,112,88,78"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000087_000052.html" title="1" alt="" coords="94,100,104,114"/>
+<area shape="poly" id="edge1" href="dir_000089_000054.html" alt="" coords="93,78,93,112,88,112,88,78"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000089_000054.html" title="1" alt="" coords="94,100,104,114"/>
 <area shape="rect" id="clust1" href="dir_fbf20a8647c262c88cdf52fea6d55073.html" title="hd44780" alt="" coords="16,16,165,88"/>
 </map>

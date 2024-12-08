@@ -74,41 +74,41 @@ $(function() {
   <div class="headertitle"><div class="title">SSD1306 OLED Readme</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md72"></a> <a href="https://github.com/gavinlyonsrepo/SSD1306_OLED_RPI/blob/main/extras/image/device.jpg"><img src="https://github.com/gavinlyonsrepo/SSD1306_OLED_RPI/blob/main/extras/image/device.jpg" alt=" OLED image " class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md73"></a>
+<div class="textblock"><p><a class="anchor" id="ssd1306-oled-readme"></a> <a href="https://github.com/gavinlyonsrepo/SSD1306_OLED_RPI/blob/main/extras/image/device.jpg"><img src="https://github.com/gavinlyonsrepo/SSD1306_OLED_RPI/blob/main/extras/image/device.jpg" alt=" OLED image " class="inline"/></a></p>
+<h1><a class="anchor" id="table-of-contents-7"></a>
 Table of contents</h1>
 <ul>
-<li>Overview</li>
-<li>Hardware</li>
-<li>Software<ul>
-<li>File system</li>
-<li>I2C</li>
-<li>Bitmaps</li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#overview">Overview</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#hardware">Hardware</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#software">Software</a><ul>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ili9341_2README.html#file-system">File system</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2hd44780_2README.html#i2c">I2C</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#bitmaps">Bitmaps</a></li>
 </ul>
 </li>
-<li>Output</li>
-<li>Notes and issues</li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#output">Output</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2hd44780_2README.html#notes-and-issues">Notes and issues</a></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md74"></a>
+<h1><a class="anchor" id="overview-7"></a>
 Overview</h1>
 <ul>
 <li>Name : SSD1306_OLED</li>
 <li>Description :</li>
 </ul>
-<p>0. Library to support the I2C 128X64 OLED Display Module driven by the SSD1306 controller for the Raspberry PI.</p><ol type="1">
-<li>Dynamic install-able system level Raspberry Pi C++ library.</li>
+<p>0. Library to support the I2C 128X64 OLED Display Module driven by the SSD1306 controller for Linux based SBC.</p><ol type="1">
+<li>Dynamic install-able system level C++ library.</li>
 <li>Inverse color, rotate, sleep, scroll and contrast control.</li>
 <li>Bitmaps supported.</li>
 <li>Hardware I2C</li>
 <li>Also tested on 128X32 display size. Should work for 96X16 display size.</li>
 </ol>
-<h1><a class="anchor" id="autotoc_md75"></a>
+<h1><a class="anchor" id="hardware-7"></a>
 Hardware</h1>
 <p>Manufacturers diagram showing connections.</p>
 <p><a href="https://github.com/gavinlyonsrepo/SSD1306_OLED_RPI/blob/main/extras/image/wiring.jpg"><img src="https://github.com/gavinlyonsrepo/SSD1306_OLED_RPI/blob/main/extras/image/wiring.jpg" alt=" Wiring Image" class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md76"></a>
+<h1><a class="anchor" id="software-7"></a>
 Software</h1>
-<h2><a class="anchor" id="autotoc_md77"></a>
+<h2><a class="anchor" id="file-system-4"></a>
 File system</h2>
 <p>Example files</p>
 <table class="markdownTable">
@@ -125,7 +125,7 @@ File system</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">TEXT_GRAPHICS_FUNCTIONS   </td><td class="markdownTableBodyNone">Tests Text,graphics and functions   </td><td class="markdownTableBodyNone">128x64   </td></tr>
 </table>
-<h2><a class="anchor" id="autotoc_md78"></a>
+<h2><a class="anchor" id="i2c-2"></a>
 I2C</h2>
 <p>Hardware I2C.</p>
 <ol type="1">
@@ -137,11 +137,10 @@ user can change argument passed into OLED class constructor). OLED_I2C_FLAGS No 
 <li>I2C Clock rate is set by device installed on. During development and testing on raspberry pi 5 it was found that by default the baudrate was set to 100,000 baud. By modifying the file /boot/firmware/config.txt baud can be increased</li>
 </ol>
 <div class="fragment"><div class="line">param=i2c_arm=on,i2c_arm_baudrate=400000</div>
-<div class="line">#dtparam=i2s=on</div>
 </div><!-- fragment --><ol type="1">
 <li>In the event of an error writing a byte, debug info with error code will be written to console. Debug flag must be set to true to see this output. User can set error timeout between retry attempts and number of retry attempts and can monitor the Error flag.</li>
 </ol>
-<h2><a class="anchor" id="autotoc_md79"></a>
+<h2><a class="anchor" id="bitmaps-3"></a>
 Bitmaps</h2>
 <p>Different bitmaps methods can be used.</p>
 <table class="markdownTable">
@@ -153,11 +152,11 @@ Bitmaps</h2>
 <td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">drawBitmap()   </td><td class="markdownTableBodyNone">Horizontal   </td><td class="markdownTableBodyNone">setDrawBitmapAddr(false)   </td></tr>
 </table>
 <p>Bitmaps can be turned to data <a href="https://javl.github.io/image2cpp/">here at link</a> See example file "BITMAP" for more details.</p>
-<h1><a class="anchor" id="autotoc_md80"></a>
+<h1><a class="anchor" id="output-5"></a>
 Output</h1>
 <p><a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ssd1306.jpg"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ssd1306.jpg" alt=" Output image " class="inline"/></a></p>
 <p><a href="https://github.com/gavinlyonsrepo/SSD1306_OLED_PICO/blob/main/extra/image/3.jpg"><img src="https://github.com/gavinlyonsrepo/SSD1306_OLED_PICO/blob/main/extra/image/3.jpg" alt=" Output image 2 " class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md81"></a>
+<h1><a class="anchor" id="notes-and-issues-2"></a>
 Notes and issues</h1>
 <ol type="1">
 <li>To test on a different size of display edit the my_OLED_width &amp; my_OLED_height variables in examples files.</li>

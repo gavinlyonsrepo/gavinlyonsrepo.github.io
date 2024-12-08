@@ -74,27 +74,27 @@ $(function() {
   <div class="headertitle"><div class="title">NOKIA 5110 Readme</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md55"></a> </p>
-<h1><a class="anchor" id="autotoc_md56"></a>
+<div class="textblock"><p><a class="anchor" id="nokia-5110-readme"></a> </p>
+<h1><a class="anchor" id="table-of-contents-5"></a>
 Table of contents</h1>
 <ul>
-<li>Overview</li>
-<li>Hardware</li>
-<li>Software<ul>
-<li>SPI</li>
-<li>File system</li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#overview">Overview</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#hardware">Hardware</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#software">Software</a><ul>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#spi">SPI</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ili9341_2README.html#file-system">File system</a></li>
 </ul>
 </li>
-<li>Output</li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#output">Output</a></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md57"></a>
+<h1><a class="anchor" id="overview-5"></a>
 Overview</h1>
 <ul>
 <li>Name: NOKIA_5110</li>
 <li>Description:</li>
 </ul>
 <p>0. C++ Library for Nokia 5110 LCD, PCD8544 Driver. 84 x 48 pixels.</p><ol type="1">
-<li>Dynamic install-able Raspberry Pi C++ library.</li>
+<li>Dynamic install-able Linux based Single Board Computers C++ library.</li>
 <li>Invert colour, rotate, sleep, contrast bias control supported.</li>
 <li>Bitmaps supported.</li>
 <li>Hardware and Software SPI</li>
@@ -103,7 +103,7 @@ Overview</h1>
 <li>Author: Gavin Lyons</li>
 <li>Port of my PIC library at <a href="https://github.com/gavinlyonsrepo/pic_18F47K42_projects">github link.</a></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md58"></a>
+<h1><a class="anchor" id="hardware-5"></a>
 Hardware</h1>
 <p>The Nokia 5110 is a basic graphic LCD screen for lots of applications. GPIO function on RPI, 5 Nokia 5110 LCD lines SPI bus. Use any GPIO user likes for Software SPI. For Hardware the user can use any GPIO for reset and data/command line</p>
 <p>Example file set up :</p>
@@ -124,9 +124,9 @@ Hardware</h1>
 <p>Connect Nokia 5110 VCC(pin 6)to 3.3V. The user may have to adjust LCD contrast and bias settings, to the screen at hand for optimal display. A resistor or potentiometer can be connected between (Nokia LCD) GND(pin8) and LIGHT(pin7) to switch on /off backlight and adjust brightness.</p>
 <p><a href="https://www.sparkfun.com/datasheets/LCD/Monochrome/Nokia5110.pdf">Nokia 5110 LCD dataSheet</a></p>
 <p><a href="https://github.com/gavinlyonsrepo/pic_16F1619_projects/blob/master/images/NOKIA2.jpg"><img src="https://github.com/gavinlyonsrepo/pic_16F1619_projects/blob/master/images/NOKIA2.jpg" alt=" image nokia " class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md59"></a>
+<h1><a class="anchor" id="software-5"></a>
 Software</h1>
-<h2><a class="anchor" id="autotoc_md60"></a>
+<h2><a class="anchor" id="spi-2"></a>
 SPI</h2>
 <p>This library supports both Hardware SPI and software SPI. The constructor of the main class is overloaded. Which SPI is started depends on which constructor called by user.</p>
 <p><em>Software SPI</em></p>
@@ -145,9 +145,9 @@ SPI</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">HWSPI_FLAGS   </td><td class="markdownTableBodyNone">0   </td><td class="markdownTableBodyNone">mode 0 for this device    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">GPIO_CHIP_DEVICE   </td><td class="markdownTableBodyNone">0   </td><td class="markdownTableBodyNone">gpio chip device &gt;= 0, check ls/dev/gpiochip   </td></tr>
+<td class="markdownTableBodyNone">GPIO_CHIP_DEVICE   </td><td class="markdownTableBodyNone">0   </td><td class="markdownTableBodyNone">gpio chip device &gt;= 0, check ls /dev/gpiochip   </td></tr>
 </table>
-<h2><a class="anchor" id="autotoc_md61"></a>
+<h2><a class="anchor" id="file-system-2"></a>
 File system</h2>
 <p>Example files</p>
 <table class="markdownTable">
@@ -164,7 +164,7 @@ File system</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">SPEEDTEST   </td><td class="markdownTableBodyNone">Frame rate per second test   </td><td class="markdownTableBodyNone">HW   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md62"></a>
+<h1><a class="anchor" id="output-4"></a>
 Output</h1>
 <p>Example output.</p>
 <p><a href="https://github.com/gavinlyonsrepo/pic_18F47K42_projects/blob/master/images/nokiagraph1.jpg"><img src="https://github.com/gavinlyonsrepo/pic_18F47K42_projects/blob/master/images/nokiagraph1.jpg" alt="output image" class="inline"/></a> </p>

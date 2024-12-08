@@ -74,38 +74,38 @@ $(function() {
   <div class="headertitle"><div class="title">SH110X OLED Readme</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md63"></a> </p>
-<h1><a class="anchor" id="autotoc_md64"></a>
+<div class="textblock"><p><a class="anchor" id="sh110x-oled-readme"></a> </p>
+<h1><a class="anchor" id="table-of-contents-6"></a>
 Table of contents</h1>
 <ul>
-<li>Overview</li>
-<li>Hardware</li>
-<li>Software<ul>
-<li>File system</li>
-<li>I2C</li>
-<li>Bitmaps</li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#overview">Overview</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#hardware">Hardware</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#software">Software</a><ul>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ili9341_2README.html#file-system">File system</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2hd44780_2README.html#i2c">I2C</a></li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#bitmaps">Bitmaps</a></li>
 </ul>
 </li>
 </ul>
-<h1><a class="anchor" id="autotoc_md65"></a>
+<h1><a class="anchor" id="overview-6"></a>
 Overview</h1>
 <ul>
 <li>Name : SH110X</li>
 <li>Description :</li>
 </ul>
-<p>0. Library to support the I2C 128X64 OLED Display Module driven by the Sh1106 or Sh1107 controller for the Raspberry PI.</p><ol type="1">
+<p>0. Library to support the I2C 128X64 OLED Display Module driven by the Sh1106 or Sh1107 controller for Linux SBC's</p><ol type="1">
 <li>Dynamic install-able system level Raspberry Pi C++ library.</li>
 <li>Inverse color, rotate, sleep, scroll and contrast control.</li>
 <li>Bitmaps supported.</li>
 <li>Hardware I2C</li>
 </ol>
-<h1><a class="anchor" id="autotoc_md66"></a>
+<h1><a class="anchor" id="hardware-6"></a>
 Hardware</h1>
 <p>Manufacturers diagram showing connections.</p>
 <p><a href="https://github.com/gavinlyonsrepo/SSD1306_OLED_RPI/blob/main/extras/image/wiring.jpg"><img src="https://github.com/gavinlyonsrepo/SSD1306_OLED_RPI/blob/main/extras/image/wiring.jpg" alt=" Wiring Image" class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md67"></a>
+<h1><a class="anchor" id="software-6"></a>
 Software</h1>
-<h2><a class="anchor" id="autotoc_md68"></a>
+<h2><a class="anchor" id="file-system-3"></a>
 File system</h2>
 <p>Not many examples files as I did not have device for test. These where tested by a third party.</p>
 <p>Example files</p>
@@ -117,10 +117,7 @@ File system</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">Sh1107   </td><td class="markdownTableBodyNone">HELLO_WORLD   </td><td class="markdownTableBodyNone">Basic use case   </td><td class="markdownTableBodyNone">128x64   </td></tr>
 </table>
-<h2><a class="anchor" id="autotoc_md69"></a>
-I2C</h2>
-<p>Hardware I2C.</p>
-<h2><a class="anchor" id="autotoc_md70"></a>
+<h2><a class="anchor" id="i2c-1"></a>
 I2C</h2>
 <p>Hardware I2C.</p>
 <ol type="1">
@@ -132,11 +129,10 @@ user can change argument passed into OLED class constructor). OLED_I2C_FLAGS No 
 <li>I2C Clock rate is set by device installed on. During development and testing on raspberry pi 5 it was found that by default the baudrate was set to 100,000 baud. By modifying the file /boot/firmware/config.txt baud can be increased</li>
 </ol>
 <div class="fragment"><div class="line">param=i2c_arm=on,i2c_arm_baudrate=400000</div>
-<div class="line">#dtparam=i2s=on</div>
 </div><!-- fragment --><ol type="1">
 <li>In the event of an error writing a byte, debug info with error code will be written to console. Debug flag must be set to true to see this output. User can set error timeout between retry attempts and number of retry attempts and can monitor the Error flag.</li>
 </ol>
-<h2><a class="anchor" id="autotoc_md71"></a>
+<h2><a class="anchor" id="bitmaps-2"></a>
 Bitmaps</h2>
 <p>Different bitmaps methods can be used.</p>
 <table class="markdownTable">
