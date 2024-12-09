@@ -1,8 +1,8 @@
 var searchData=
 [
   ['enabledisplay_0',['EnableDisplay',['../classILI9341__TFT.html#a1596ca7f95cf848c1f16a4d2793f1b01',1,'ILI9341_TFT']]],
-  ['erm_20ch1115_20oled_20readme_1',['ERM CH1115 OLED Readme',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html',1,'']]],
-  ['erm19264_20uc1609_20readme_2',['ERM19264 UC1609 Readme',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2erm19264_2README.html',1,'']]],
+  ['erm_20ch1115_20oled_20readme_1',['ERM CH1115 OLED Readme',['../md__2home_2gll_2Desktop_2TEMP_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html',1,'']]],
+  ['erm19264_20uc1609_20readme_2',['ERM19264 UC1609 Readme',['../md__2home_2gll_2Desktop_2TEMP_2Display__Lib__RPI_2extra_2doc_2erm19264_2README.html',1,'']]],
   ['erm19264_2fbitmap_2fmain_2ecpp_3',['main.cpp',['../erm19264_2BITMAP_2main_8cpp.html',1,'']]],
   ['erm19264_2fframerate_5fper_5fsec_2fmain_2ecpp_4',['main.cpp',['../erm19264_2FRAMERATE__PER__SEC_2main_8cpp.html',1,'']]],
   ['erm19264_2fhello_5fworld_2fmain_2ecpp_5',['main.cpp',['../erm19264_2HELLO__WORLD_2main_8cpp.html',1,'']]],
@@ -62,6 +62,6 @@ var searchData=
   ['ermch1115_5fspage_5fadr_5fset_59',['ERMCH1115_SPAGE_ADR_SET',['../ERM1__CH1115__OLED__RDL_8hpp.html#a502767ae241b00ef2c0fc25cc381ad30',1,'ERM1_CH1115_OLED_RDL.hpp']]],
   ['ermch1115_5ftime_5fset_60',['ERMCH1115_TIME_SET',['../ERM1__CH1115__OLED__RDL_8hpp.html#a46e5b93dd9c6b0cf782d6f32863716ae',1,'ERM1_CH1115_OLED_RDL.hpp']]],
   ['error_20codes_61',['Error Codes',['../index.html#error-codes',1,'']]],
-  ['error_20codes_20readme_62',['Error codes Readme',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2errors_2README.html',1,'']]],
-  ['example_20files_63',['Example files',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2hd44780_2README.html#example-files',1,'']]]
+  ['error_20codes_20readme_62',['Error codes Readme',['../md__2home_2gll_2Desktop_2TEMP_2Display__Lib__RPI_2extra_2doc_2errors_2README.html',1,'']]],
+  ['example_20files_63',['Example files',['../md__2home_2gll_2Desktop_2TEMP_2Display__Lib__RPI_2extra_2doc_2hd44780_2README.html#example-files',1,'']]]
 ];

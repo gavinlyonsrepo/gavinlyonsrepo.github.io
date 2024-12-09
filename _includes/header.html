@@ -22,14 +22,17 @@
           </span>
         </label>
         
-        <div class="trigger">
-           {% for path in page_paths %}
-				{% assign my_page = site.pages | where: "path", path |  first %}
-				{% if my_page.title == "Home" or my_page.title == "About"  or my_page.title == "Posts"  or my_page.title == "Categories"%}
-							<a  class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }} </a>            
-				{% endif %}
-          {% endfor %}
-        </div>
+		<div class="trigger">
+		  {% assign allowed_titles = "Home,About,Posts,Categories,Docs" | split: "," %}
+		  
+		  {% for path in page_paths %}
+			{% assign my_page = site.pages | where: "path", path | first %}
+			
+			{% if allowed_titles contains my_page.title %}
+			  <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+			{% endif %}
+		  {% endfor %}
+		</div>
         
       </nav>
     {% endif %}

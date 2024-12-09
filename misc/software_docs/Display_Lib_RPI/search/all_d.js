@@ -7,7 +7,7 @@ var searchData=
   ['madctl_5fmx_4',['MADCTL_MX',['../ILI9341__TFT__LCD__RDL_8cpp.html#a6d18ed48efb3186877a07d0e81155453',1,'ILI9341_TFT_LCD_RDL.cpp']]],
   ['madctl_5fmy_5',['MADCTL_MY',['../ILI9341__TFT__LCD__RDL_8cpp.html#ab30e6bd24448245df1d60a3e1c4ddbdf',1,'ILI9341_TFT_LCD_RDL.cpp']]],
   ['madctl_5frgb_6',['MADCTL_RGB',['../ILI9341__TFT__LCD__RDL_8cpp.html#acc1e55b52f8a56b7719ab147308a1668',1,'ILI9341_TFT_LCD_RDL.cpp']]],
-  ['max7219_207_20segment_20readme_7',['MAX7219 7 Segment Readme',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2max7219_2README.html',1,'']]],
+  ['max7219_207_20segment_20readme_7',['MAX7219 7 Segment Readme',['../md__2home_2gll_2Desktop_2TEMP_2Display__Lib__RPI_2extra_2doc_2max7219_2README.html',1,'']]],
   ['max7219_2fbcdmode_2fmain_2ecpp_8',['main.cpp',['../max7219_2BCDMODE_2main_8cpp.html',1,'']]],
   ['max7219_2fcascade_5fdemo_2fmain_2ecpp_9',['main.cpp',['../max7219_2CASCADE__DEMO_2main_8cpp.html',1,'']]],
   ['max7219_2fclock_5fdemo_2fmain_2ecpp_10',['main.cpp',['../max7219_2CLOCK__DEMO_2main_8cpp.html',1,'']]],
