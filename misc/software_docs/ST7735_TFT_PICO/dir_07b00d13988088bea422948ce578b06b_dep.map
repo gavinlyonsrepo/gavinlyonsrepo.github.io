@@ -1,6 +1,7 @@
 <map id="ST7735_TFT_GRAPHICS" name="ST7735_TFT_GRAPHICS">
-<area shape="rect" id="node1" href="dir_07b00d13988088bea422948ce578b06b.html" title="ST7735_TFT_GRAPHICS" alt="" coords="27,52,202,100"/>
-<area shape="rect" id="node2" href="dir_d44c64559bbebec7f509842c48db8b23.html" title="include" alt="" coords="79,148,151,196"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000006_000012.html" title="1" alt="" coords="118,122,128,137"/>
-<area shape="rect" id="clust1" href="dir_d28a4824dc47e487b107a5db32ef43c4.html" title="examples" alt="" coords="16,16,213,111"/>
+<area shape="rect" id="node1" href="dir_07b00d13988088bea422948ce578b06b.html" title="ST7735_TFT_GRAPHICS" alt="" coords="27,52,202,77"/>
+<area shape="rect" id="node2" href="dir_d44c64559bbebec7f509842c48db8b23.html" title="include" alt="" coords="80,125,149,151"/>
+<area shape="poly" id="edge1" href="dir_000011_000004.html" alt="" coords="117,78,117,112,112,112,112,78"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000011_000004.html" title="1" alt="" coords="118,100,128,114"/>
+<area shape="rect" id="clust1" href="dir_d28a4824dc47e487b107a5db32ef43c4.html" title="examples" alt="" coords="16,16,213,88"/>
 </map>

@@ -1,4 +1,7 @@
 <map id="ST7735_TFT_Bitmap_Data.hpp" name="ST7735_TFT_Bitmap_Data.hpp">
-<area shape="rect" id="node1" title="Library header file for ST7735_TFT_PICO bitmap data Data file to hold bitmap data...." alt="" coords="5,5,225,32"/>
-<area shape="rect" id="node2" href="$ST7735__TFT__BMP__DATA_2main_8cpp.html" title="Example cpp file for ST7735_TFT_PICO library. bitmap tests + FPS bitmap test." alt="" coords="74,80,157,107"/>
+<area shape="rect" id="Node000001" title="Library header file for ST7735_TFT_PICO bitmap data Data file to hold bitmap data." alt="" coords="91,5,311,31"/>
+<area shape="rect" id="Node000002" href="$ST7735__TFT__Bitmap__Data_8cpp.html" title="Source file for ST7735_TFT_PICO bitmap data Data file to hold bitmap data." alt="" coords="5,79,224,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,41,131,81,127,76,175,37"/>
+<area shape="rect" id="Node000003" href="$ST7735__TFT__BMP__DATA_2main_8cpp.html" title="Example cpp file for ST7735_TFT_PICO library. bitmap tests + FPS bitmap test." alt="" coords="248,79,331,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="228,37,277,76,273,81,224,41"/>
 </map>

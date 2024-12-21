@@ -1,6 +1,31 @@
 <map id="ST7735_TFT_graphics.cpp" name="ST7735_TFT_graphics.cpp">
-<area shape="rect" id="node1" title="Source file for ST7735_TFT_PICO graphics library. This file handles the graphic methods." alt="" coords="207,5,396,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,80,187,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="211,80,392,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="416,80,597,121"/>
+<area shape="rect" id="Node000001" title="Source file for ST7735_TFT_PICO graphics library. This file handles the graphic methods." alt="" coords="236,5,425,31"/>
+<area shape="rect" id="Node000002" href="$ST7735__TFT__graphics_8hpp.html" title="Library header file for ST7735_TFT_PICO graphics library. This file handles the graphic methods." alt="" coords="125,167,320,207"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="308,33,277,52,250,80,234,116,227,153,222,152,229,115,246,77,274,48,305,28"/>
+<area shape="rect" id="Node000011" href="$ST7735__TFT_8hpp.html" title="Library header file for ST7735_TFT_PICO library. Contains driver methods for ST7735_TFT display." alt="" coords="260,79,401,119"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="333,31,333,65,328,65,328,31"/>
+<area shape="rect" id="Node000013" href="$ST7735__TFT__Font_8hpp.html" title="Library header file for ST7735_TFT_PICO font data This file contains the font definitions and data...." alt="" coords="426,79,593,119"/>
+<area shape="poly" id="edge15_Node000001_Node000013" title=" " alt="" coords="358,28,455,71,453,76,356,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,328,72,353"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="126,199,97,207,70,219,45,235,25,256,19,270,19,285,28,315,23,317,13,285,14,269,20,253,42,231,67,214,95,202,124,194"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="35,255,96,280"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="186,209,102,251,100,246,184,204"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="121,255,186,280"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="208,209,175,246,171,242,204,205"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="401,255,519,280"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="280,204,413,248,412,253,279,209"/>
+<area shape="rect" id="Node000007" href="$ST7735__TFT__Print_8hpp.html" title="Base class that provides print() and println()" alt="" coords="211,255,376,280"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="242,205,276,243,272,246,238,209"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="253,283,86,329,85,324,252,277"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="138,328,235,353"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="278,282,217,323,214,318,275,278"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="259,328,327,353"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="296,280,296,314,291,314,291,280"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="352,328,411,353"/>
+<area shape="poly" id="edge10_Node000007_Node000010" title=" " alt="" coords="309,278,358,317,355,321,306,282"/>
+<area shape="poly" id="edge14_Node000011_Node000002" title=" " alt="" coords="308,121,259,160,256,156,305,117"/>
+<area shape="poly" id="edge13_Node000011_Node000006" title=" " alt="" coords="348,117,445,242,441,246,343,121"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="443,174,544,199"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="368,116,461,165,458,170,365,121"/>
+<area shape="poly" id="edge16_Node000013_Node000012" title=" " alt="" coords="508,119,501,161,495,160,503,118"/>
 </map>

@@ -1,11 +1,20 @@
 <map id="ST7735_TFT_graphics.hpp" name="ST7735_TFT_graphics.hpp">
-<area shape="rect" id="node1" title="Library header file for ST7735_TFT_PICO graphics library. This file handles the graphic methods." alt="" coords="46,5,236,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="64,155,130,181"/>
-<area shape="rect" id="node3" title=" " alt="" coords="22,80,84,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="108,80,174,107"/>
-<area shape="rect" id="node5" title=" " alt="" coords="198,80,316,107"/>
-<area shape="rect" id="node6" href="$ST7735__TFT__Print_8hpp.html" title="Base class that provides print() and println()" alt="" coords="340,80,505,107"/>
-<area shape="rect" id="node7" title=" " alt="" coords="267,155,364,181"/>
-<area shape="rect" id="node8" title=" " alt="" coords="388,155,456,181"/>
-<area shape="rect" id="node9" title=" " alt="" coords="481,155,540,181"/>
+<area shape="rect" id="Node000001" title="Library header file for ST7735_TFT_PICO graphics library. This file handles the graphic methods." alt="" coords="46,5,236,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="64,152,130,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,33,44,51,26,64,12,80,9,89,9,98,18,115,36,130,58,144,55,148,33,135,13,118,3,99,3,88,8,77,23,60,41,46,81,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="22,79,84,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="128,33,80,72,76,68,125,29"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="108,79,174,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="144,31,144,65,138,65,138,31"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="198,79,316,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="161,28,228,69,225,74,158,33"/>
+<area shape="rect" id="Node000006" href="$ST7735__TFT__Print_8hpp.html" title="Base class that provides print() and println()" alt="" coords="340,79,505,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="187,28,364,73,363,78,185,33"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="370,107,144,156,143,151,369,101"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="267,152,364,177"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="407,106,346,147,343,142,404,102"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="388,152,456,177"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="425,104,425,138,420,138,420,104"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="481,152,540,177"/>
+<area shape="poly" id="edge9_Node000006_Node000009" title=" " alt="" coords="438,102,487,141,483,145,435,106"/>
 </map>
