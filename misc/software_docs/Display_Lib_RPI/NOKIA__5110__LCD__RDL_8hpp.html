@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -132,81 +132,6 @@ Macros</h2></td></tr>
 <tr class="separator:a2fccda530baf3b213f677249fd7ce6e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1657870ab8957a89094f479d96060c13" id="r_a1657870ab8957a89094f479d96060c13"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="NOKIA__5110__LCD__RDL_8hpp.html#a1657870ab8957a89094f479d96060c13">LCD_BIAS</a>&#160;&#160;&#160;0x13</td></tr>
 <tr class="separator:a1657870ab8957a89094f479d96060c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a200fbee83587be980f4d54d24ecb1a8a" id="r_a200fbee83587be980f4d54d24ecb1a8a"><td class="memItemLeft" align="right" valign="top"><a id="a200fbee83587be980f4d54d24ecb1a8a" name="a200fbee83587be980f4d54d24ecb1a8a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_DC_SetHigh</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _LCD_DC, 1)</td></tr>
-<tr class="separator:a200fbee83587be980f4d54d24ecb1a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff95664a5c11f0a63ea830df420ccbf7" id="r_aff95664a5c11f0a63ea830df420ccbf7"><td class="memItemLeft" align="right" valign="top"><a id="aff95664a5c11f0a63ea830df420ccbf7" name="aff95664a5c11f0a63ea830df420ccbf7"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_DC_SetLow</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle ,_LCD_DC, 0)</td></tr>
-<tr class="separator:aff95664a5c11f0a63ea830df420ccbf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6618d8b5461c6635e8445027d5a5e09" id="r_ab6618d8b5461c6635e8445027d5a5e09"><td class="memItemLeft" align="right" valign="top"><a id="ab6618d8b5461c6635e8445027d5a5e09" name="ab6618d8b5461c6635e8445027d5a5e09"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_RST_SetHigh</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _LCD_RST, 1)</td></tr>
-<tr class="separator:ab6618d8b5461c6635e8445027d5a5e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25e4c0d34417f040e5f46eacb6705ce3" id="r_a25e4c0d34417f040e5f46eacb6705ce3"><td class="memItemLeft" align="right" valign="top"><a id="a25e4c0d34417f040e5f46eacb6705ce3" name="a25e4c0d34417f040e5f46eacb6705ce3"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_RST_SetLow</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _LCD_RST, 0)</td></tr>
-<tr class="separator:a25e4c0d34417f040e5f46eacb6705ce3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeea141b0fd533149e548bcbbc30f98ef" id="r_aeea141b0fd533149e548bcbbc30f98ef"><td class="memItemLeft" align="right" valign="top"><a id="aeea141b0fd533149e548bcbbc30f98ef" name="aeea141b0fd533149e548bcbbc30f98ef"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_CE_SetHigh</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle ,_LCD_CE, 1)</td></tr>
-<tr class="separator:aeea141b0fd533149e548bcbbc30f98ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a58d0de70a818dc87915182e3a90f4f" id="r_a0a58d0de70a818dc87915182e3a90f4f"><td class="memItemLeft" align="right" valign="top"><a id="a0a58d0de70a818dc87915182e3a90f4f" name="a0a58d0de70a818dc87915182e3a90f4f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_CE_SetLow</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _LCD_CE, 0)</td></tr>
-<tr class="separator:a0a58d0de70a818dc87915182e3a90f4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b9420bdff2226fe3fa595dbe95b87a2" id="r_a0b9420bdff2226fe3fa595dbe95b87a2"><td class="memItemLeft" align="right" valign="top"><a id="a0b9420bdff2226fe3fa595dbe95b87a2" name="a0b9420bdff2226fe3fa595dbe95b87a2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_CLK_SetHigh</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _LCD_CLK, 1)</td></tr>
-<tr class="separator:a0b9420bdff2226fe3fa595dbe95b87a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5142eaa8fa59184cf4dcff44f3ac688d" id="r_a5142eaa8fa59184cf4dcff44f3ac688d"><td class="memItemLeft" align="right" valign="top"><a id="a5142eaa8fa59184cf4dcff44f3ac688d" name="a5142eaa8fa59184cf4dcff44f3ac688d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_CLK_SetLow</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _LCD_CLK, 0)</td></tr>
-<tr class="separator:a5142eaa8fa59184cf4dcff44f3ac688d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b013229d1a35c100182cc5e1fdd9dd1" id="r_a6b013229d1a35c100182cc5e1fdd9dd1"><td class="memItemLeft" align="right" valign="top"><a id="a6b013229d1a35c100182cc5e1fdd9dd1" name="a6b013229d1a35c100182cc5e1fdd9dd1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_DIN_SetHigh</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _LCD_DIN, 1)</td></tr>
-<tr class="separator:a6b013229d1a35c100182cc5e1fdd9dd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae50fb103fda7ebcf5844c51552d0cc79" id="r_ae50fb103fda7ebcf5844c51552d0cc79"><td class="memItemLeft" align="right" valign="top"><a id="ae50fb103fda7ebcf5844c51552d0cc79" name="ae50fb103fda7ebcf5844c51552d0cc79"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_DIN_SetLow</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _LCD_DIN,0)</td></tr>
-<tr class="separator:ae50fb103fda7ebcf5844c51552d0cc79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4aa19e4ed17cba99bc51603ec2115b6" id="r_ae4aa19e4ed17cba99bc51603ec2115b6"><td class="memItemLeft" align="right" valign="top"><a id="ae4aa19e4ed17cba99bc51603ec2115b6" name="ae4aa19e4ed17cba99bc51603ec2115b6"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_RST_SetDigitalOutput</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0, _LCD_RST,  0);</td></tr>
-<tr class="separator:ae4aa19e4ed17cba99bc51603ec2115b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9bbb92937746db676c3396ea369a566" id="r_ab9bbb92937746db676c3396ea369a566"><td class="memItemLeft" align="right" valign="top"><a id="ab9bbb92937746db676c3396ea369a566" name="ab9bbb92937746db676c3396ea369a566"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_DC_SetDigitalOutput</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0, _LCD_DC,  0);</td></tr>
-<tr class="separator:ab9bbb92937746db676c3396ea369a566"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ac616d9528bf61096de522d4be3bf64" id="r_a2ac616d9528bf61096de522d4be3bf64"><td class="memItemLeft" align="right" valign="top"><a id="a2ac616d9528bf61096de522d4be3bf64" name="a2ac616d9528bf61096de522d4be3bf64"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_CE_SetDigitalOutput</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0, _LCD_CE,  0);</td></tr>
-<tr class="separator:a2ac616d9528bf61096de522d4be3bf64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a852abdbe47b37c5ab0b1c6c4513313f3" id="r_a852abdbe47b37c5ab0b1c6c4513313f3"><td class="memItemLeft" align="right" valign="top"><a id="a852abdbe47b37c5ab0b1c6c4513313f3" name="a852abdbe47b37c5ab0b1c6c4513313f3"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_CLK_SetDigitalOutput</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0, _LCD_CLK,  0);</td></tr>
-<tr class="separator:a852abdbe47b37c5ab0b1c6c4513313f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9e1a84ed4ec7f4133717319b7b351bc" id="r_ad9e1a84ed4ec7f4133717319b7b351bc"><td class="memItemLeft" align="right" valign="top"><a id="ad9e1a84ed4ec7f4133717319b7b351bc" name="ad9e1a84ed4ec7f4133717319b7b351bc"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_DIN_SetDigitalOutput</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0, _LCD_DIN,  0);</td></tr>
-<tr class="separator:ad9e1a84ed4ec7f4133717319b7b351bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a837744745488314ea9d2244fabae8d26" id="r_a837744745488314ea9d2244fabae8d26"><td class="memItemLeft" align="right" valign="top"><a id="a837744745488314ea9d2244fabae8d26" name="a837744745488314ea9d2244fabae8d26"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_OPEN_GPIO_CHIP</b>&#160;&#160;&#160;lgGpiochipOpen(_DeviceNumGpioChip)</td></tr>
-<tr class="separator:a837744745488314ea9d2244fabae8d26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54630bb5e4e6ea56c97af9f0bb718d58" id="r_a54630bb5e4e6ea56c97af9f0bb718d58"><td class="memItemLeft" align="right" valign="top"><a id="a54630bb5e4e6ea56c97af9f0bb718d58" name="a54630bb5e4e6ea56c97af9f0bb718d58"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_CLOSE_GPIO_HANDLE</b>&#160;&#160;&#160;lgGpiochipClose(_GpioHandle)</td></tr>
-<tr class="separator:a54630bb5e4e6ea56c97af9f0bb718d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba2ff5a08af52d078c64942368b1bd45" id="r_aba2ff5a08af52d078c64942368b1bd45"><td class="memItemLeft" align="right" valign="top"><a id="aba2ff5a08af52d078c64942368b1bd45" name="aba2ff5a08af52d078c64942368b1bd45"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_GPIO_FREE_DC</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _LCD_DC)</td></tr>
-<tr class="separator:aba2ff5a08af52d078c64942368b1bd45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a508dbbe88538a711036b6941482c3878" id="r_a508dbbe88538a711036b6941482c3878"><td class="memItemLeft" align="right" valign="top"><a id="a508dbbe88538a711036b6941482c3878" name="a508dbbe88538a711036b6941482c3878"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_GPIO_FREE_RST</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _LCD_RST)</td></tr>
-<tr class="separator:a508dbbe88538a711036b6941482c3878"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55bcb81cfbb7b0705ec4cefcac569d0c" id="r_a55bcb81cfbb7b0705ec4cefcac569d0c"><td class="memItemLeft" align="right" valign="top"><a id="a55bcb81cfbb7b0705ec4cefcac569d0c" name="a55bcb81cfbb7b0705ec4cefcac569d0c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_GPIO_FREE_CE</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _LCD_CE)</td></tr>
-<tr class="separator:a55bcb81cfbb7b0705ec4cefcac569d0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a224efd2600b4e847f5bcb6bcd3a8ae6b" id="r_a224efd2600b4e847f5bcb6bcd3a8ae6b"><td class="memItemLeft" align="right" valign="top"><a id="a224efd2600b4e847f5bcb6bcd3a8ae6b" name="a224efd2600b4e847f5bcb6bcd3a8ae6b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_GPIO_FREE_CLK</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _LCD_CLK)</td></tr>
-<tr class="separator:a224efd2600b4e847f5bcb6bcd3a8ae6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bbd4b7812ce39883cb9d4a6c5ae2139" id="r_a5bbd4b7812ce39883cb9d4a6c5ae2139"><td class="memItemLeft" align="right" valign="top"><a id="a5bbd4b7812ce39883cb9d4a6c5ae2139" name="a5bbd4b7812ce39883cb9d4a6c5ae2139"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_GPIO_FREE_DIN</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _LCD_DIN)</td></tr>
-<tr class="separator:a5bbd4b7812ce39883cb9d4a6c5ae2139"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b593fa8fcb6cd33fdc6f03c47eaa793" id="r_a9b593fa8fcb6cd33fdc6f03c47eaa793"><td class="memItemLeft" align="right" valign="top"><a id="a9b593fa8fcb6cd33fdc6f03c47eaa793" name="a9b593fa8fcb6cd33fdc6f03c47eaa793"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_OPEN_SPI</b>&#160;&#160;&#160;lgSpiOpen(_spiDev, _spiChan, _spiBaud, _spiFlags)</td></tr>
-<tr class="separator:a9b593fa8fcb6cd33fdc6f03c47eaa793"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40a6d00981ae8543492b5ac7dd8ca70c" id="r_a40a6d00981ae8543492b5ac7dd8ca70c"><td class="memItemLeft" align="right" valign="top"><a id="a40a6d00981ae8543492b5ac7dd8ca70c" name="a40a6d00981ae8543492b5ac7dd8ca70c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_CLOSE_SPI</b>&#160;&#160;&#160;lgSpiClose(_spiHandle)</td></tr>
-<tr class="separator:a40a6d00981ae8543492b5ac7dd8ca70c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6e94e2c733eb7b621046e088c553d8f" id="r_ad6e94e2c733eb7b621046e088c553d8f"><td class="memItemLeft" align="right" valign="top"><a id="ad6e94e2c733eb7b621046e088c553d8f" name="ad6e94e2c733eb7b621046e088c553d8f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_WRITE_SPI</b>&#160;&#160;&#160;lgSpiWrite( _spiHandle, (const char*)TransmitBuffer, sizeof(TransmitBuffer))</td></tr>
-<tr class="separator:ad6e94e2c733eb7b621046e088c553d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9079d0e449ef7a314e0b9b59d48f756" id="r_ab9079d0e449ef7a314e0b9b59d48f756"><td class="memItemLeft" align="right" valign="top"><a id="ab9079d0e449ef7a314e0b9b59d48f756" name="ab9079d0e449ef7a314e0b9b59d48f756"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_Rotate_swap_int16_t</b>(a,  b)&#160;&#160;&#160;{ int16_t t = a; a = b; b = t; }</td></tr>
 <tr class="separator:ab9079d0e449ef7a314e0b9b59d48f756"><td class="memSeparator" colspan="2">&#160;</td></tr>

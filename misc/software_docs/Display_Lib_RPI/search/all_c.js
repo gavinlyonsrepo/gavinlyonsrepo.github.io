@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['lcd_20readme_0',['HD44780 LCD Readme',['../md__2home_2gll_2Desktop_2TEMP_2Display__Lib__RPI_2extra_2doc_2hd44780_2README.html',1,'']]],
-  ['lcd_20tft_20readme_1',['ILI9341 LCD TFT Readme',['../md__2home_2gll_2Desktop_2TEMP_2Display__Lib__RPI_2extra_2doc_2ili9341_2README.html',1,'']]],
+  ['lcd_20readme_0',['HD44780 LCD Readme',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2hd44780_2README.html',1,'']]],
+  ['lcd_20tft_20readme_1',['ILI9341 LCD TFT Readme',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ili9341_2README.html',1,'']]],
   ['lcd_5fbias_2',['LCD_BIAS',['../NOKIA__5110__LCD__RDL_8hpp.html#a1657870ab8957a89094f479d96060c13',1,'NOKIA_5110_LCD_RDL.hpp']]],
   ['lcd_5fcontrast_3',['LCD_CONTRAST',['../NOKIA__5110__LCD__RDL_8hpp.html#a2fccda530baf3b213f677249fd7ce6e7',1,'NOKIA_5110_LCD_RDL.hpp']]],
   ['lcd_5fdisplayallon_4',['LCD_DISPLAYALLON',['../NOKIA__5110__LCD__RDL_8hpp.html#a037ec2df97a2b5e06f7e9b8c5bc4579e',1,'NOKIA_5110_LCD_RDL.hpp']]],
@@ -24,7 +24,7 @@ var searchData=
   ['lcdbacklightoffmask_21',['LCDBackLightOffMask',['../classHD44780PCF8574LCD.html#a71af49290cd56bbce8e4abda42f76870a2fbb7756aeb6184f7d5eced71d419dc0',1,'HD44780PCF8574LCD']]],
   ['lcdbacklightonmask_22',['LCDBackLightOnMask',['../classHD44780PCF8574LCD.html#a71af49290cd56bbce8e4abda42f76870a1ea252ed593a39aae0e644a8499b60ce',1,'HD44780PCF8574LCD']]],
   ['lcdbacklightset_23',['LCDBackLightSet',['../classHD44780PCF8574LCD.html#a7ae3d3b4a7a3e89bd34939df925e256e',1,'HD44780PCF8574LCD']]],
-  ['lcdbegin_24',['lcdbegin',['../classERM19264__UC1609.html#ace8f01d363e77add11a29c5da32cc629',1,'ERM19264_UC1609::LCDbegin()'],['../classNOKIA__5110__RPI.html#acff5afc5a234dc3f47f90f17f334c898',1,'NOKIA_5110_RPI::LCDBegin(bool Inverse, uint8_t Contrast, uint8_t Bias, int device, int channel, int speed, int flags, int gpioDev)'],['../classNOKIA__5110__RPI.html#ae94c196e815a9cda11aa22b66f672852',1,'NOKIA_5110_RPI::LCDBegin(bool Inverse, uint8_t Contrast, uint8_t Bias, int gpioDev)'],['../classERM19264__UC1609.html#adfed8150581619a6d631ad20792301dc',1,'ERM19264_UC1609::LCDbegin(uint8_t AddressSet, uint8_t VbiasPot, int device, int channel, int speed, int flags, int gpioDev)']]],
+  ['lcdbegin_24',['lcdbegin',['../classNOKIA__5110__RPI.html#acff5afc5a234dc3f47f90f17f334c898',1,'NOKIA_5110_RPI::LCDBegin()'],['../classERM19264__UC1609.html#ace8f01d363e77add11a29c5da32cc629',1,'ERM19264_UC1609::LCDbegin(uint8_t AddressSet, uint8_t VbiasPot, int gpioDev)'],['../classERM19264__UC1609.html#adfed8150581619a6d631ad20792301dc',1,'ERM19264_UC1609::LCDbegin(uint8_t AddressSet, uint8_t VbiasPot, int device, int channel, int speed, int flags, int gpioDev)'],['../classNOKIA__5110__RPI.html#ae94c196e815a9cda11aa22b66f672852',1,'NOKIA_5110_RPI::LCDBegin()']]],
   ['lcdbitmap_25',['LCDBitmap',['../classERM19264__UC1609.html#a3446de754a2431deb3568c28ff7ca987',1,'ERM19264_UC1609']]],
   ['lcdbuffer_26',['LCDBuffer',['../classERM19264__UC1609.html#a208f6e0dc9ce457e3fc728e492c98c2c',1,'ERM19264_UC1609']]],
   ['lcdbufferscreen_27',['LCDbufferScreen',['../classERM19264__UC1609.html#ad47dcf5fd7c89ac40470fff1dc38a0f2',1,'ERM19264_UC1609']]],
@@ -62,7 +62,7 @@ var searchData=
   ['lcdentrymodethree_59',['LCDEntryModeThree',['../classHD44780PCF8574LCD.html#ab97edf269f093650ce0862b24a4a12eea29beeb1ef3e889f7bb03a78e836a0b4b',1,'HD44780PCF8574LCD']]],
   ['lcdentrymodetwo_60',['LCDEntryModeTwo',['../classHD44780PCF8574LCD.html#ab97edf269f093650ce0862b24a4a12eea34961778a55676adc0e606c37ed95fc4',1,'HD44780PCF8574LCD']]],
   ['lcdfillpage_61',['LCDFillPage',['../classERM19264__UC1609.html#a0fdd3ece8e3222c2dd24a4826cb57193',1,'ERM19264_UC1609']]],
-  ['lcdfillscreen_62',['lcdfillscreen',['../classERM19264__UC1609.html#a20dc4104f0456fee7549d981163c209b',1,'ERM19264_UC1609::LCDFillScreen()'],['../classNOKIA__5110__RPI.html#ab0127617fd0ea0904679988eb5758f72',1,'NOKIA_5110_RPI::LCDfillScreen(void)']]],
+  ['lcdfillscreen_62',['lcdfillscreen',['../classNOKIA__5110__RPI.html#ab0127617fd0ea0904679988eb5758f72',1,'NOKIA_5110_RPI::LCDfillScreen()'],['../classERM19264__UC1609.html#a20dc4104f0456fee7549d981163c209b',1,'ERM19264_UC1609::LCDFillScreen()']]],
   ['lcdfillscreenpattern_63',['LCDfillScreenPattern',['../classNOKIA__5110__RPI.html#a688b2ce7e1c180d98e70551bc82a750a',1,'NOKIA_5110_RPI']]],
   ['lcdgoto_64',['LCDGOTO',['../classHD44780PCF8574LCD.html#abf2b10944ae71ec86c4c55b1c788623c',1,'HD44780PCF8574LCD']]],
   ['lcdhighfreqdelayget_65',['LCDHighFreqDelayGet',['../classNOKIA__5110__RPI.html#ae59268cc99b2c41dbd8c690373edb468',1,'NOKIA_5110_RPI']]],
@@ -73,10 +73,10 @@ var searchData=
   ['lcdi2cerrorretrynumset_70',['LCDI2CErrorRetryNumSet',['../classHD44780PCF8574LCD.html#a3d5b2fbf54ad9948a0898744051cd9d6',1,'HD44780PCF8574LCD']]],
   ['lcdi2cerrortimeoutget_71',['LCDI2CErrorTimeoutGet',['../classHD44780PCF8574LCD.html#ab13c114844423d69ab8b534e75a95d35',1,'HD44780PCF8574LCD']]],
   ['lcdi2cerrortimeoutset_72',['LCDI2CErrorTimeoutSet',['../classHD44780PCF8574LCD.html#a436c8df432324e55425d7cb7505d809c',1,'HD44780PCF8574LCD']]],
-  ['lcdinit_73',['lcdinit',['../classERM19264__UC1609.html#afc9a41c14661421548277a6f07c28b71',1,'ERM19264_UC1609::LCDinit()'],['../classNOKIA__5110__RPI.html#a986a9b1a0955e5c6973f29860478b4ad',1,'NOKIA_5110_RPI::LCDInit()'],['../classHD44780PCF8574LCD.html#a03d36707a7646ef6c6e724059e721c2a',1,'HD44780PCF8574LCD::LCDInit()']]],
+  ['lcdinit_73',['lcdinit',['../classNOKIA__5110__RPI.html#a986a9b1a0955e5c6973f29860478b4ad',1,'NOKIA_5110_RPI::LCDInit()'],['../classHD44780PCF8574LCD.html#a03d36707a7646ef6c6e724059e721c2a',1,'HD44780PCF8574LCD::LCDInit()'],['../classERM19264__UC1609.html#afc9a41c14661421548277a6f07c28b71',1,'ERM19264_UC1609::LCDinit(void)']]],
   ['lcdinvert_74',['LCDinvert',['../classERM19264__UC1609.html#a734e46cfb4fe714bbb1d28c42fd1a363',1,'ERM19264_UC1609']]],
   ['lcdinvertdisplay_75',['LCDinvertDisplay',['../classNOKIA__5110__RPI.html#a0c300bb75f3473185e2e2871aa563b8d',1,'NOKIA_5110_RPI']]],
-  ['lcdissleeping_76',['lcdissleeping',['../classNOKIA__5110__RPI.html#ae2bb349c27bfe08a97e6eab02446c464',1,'NOKIA_5110_RPI::LCDIsSleeping()'],['../classERM19264__UC1609.html#a44968dae16d3ace1d0a2e73e737a7388',1,'ERM19264_UC1609::LCDIssleeping()']]],
+  ['lcdissleeping_76',['lcdissleeping',['../classERM19264__UC1609.html#a44968dae16d3ace1d0a2e73e737a7388',1,'ERM19264_UC1609::LCDIssleeping()'],['../classNOKIA__5110__RPI.html#ae2bb349c27bfe08a97e6eab02446c464',1,'NOKIA_5110_RPI::LCDIsSleeping()']]],
   ['lcdlineaddress3col16_77',['LCDLineAddress3Col16',['../classHD44780PCF8574LCD.html#a29b970243aa64c56115373af0c8d932fad032fe376874cc084ddbcd6008207f62',1,'HD44780PCF8574LCD']]],
   ['lcdlineaddress3col20_78',['LCDLineAddress3Col20',['../classHD44780PCF8574LCD.html#a29b970243aa64c56115373af0c8d932fadcfbf180c1e1f546a3a87c521f50d109',1,'HD44780PCF8574LCD']]],
   ['lcdlineaddress4col16_79',['LCDLineAddress4Col16',['../classHD44780PCF8574LCD.html#a29b970243aa64c56115373af0c8d932faa11292111f8f97f321b715b5b2730855',1,'HD44780PCF8574LCD']]],
@@ -96,7 +96,7 @@ var searchData=
   ['lcdreset_93',['LCDReset',['../classERM19264__UC1609.html#a12e9f5c12ab9d7c07de07ef5ae32acf7',1,'ERM19264_UC1609']]],
   ['lcdresetscreen_94',['LCDResetScreen',['../classHD44780PCF8574LCD.html#a04fd112ccf29e902a14b53e64d2f06c2',1,'HD44780PCF8574LCD']]],
   ['lcdrotate_95',['LCDrotate',['../classERM19264__UC1609.html#a606adc2573ee098f7a8bcb769d08ffa3',1,'ERM19264_UC1609']]],
-  ['lcdscroll_96',['lcdscroll',['../classERM19264__UC1609.html#ae4bf95662ec9a49c496d50bce66454c4',1,'ERM19264_UC1609::LCDscroll()'],['../classHD44780PCF8574LCD.html#ae9884ebd411b4dc859d45c2cdb36b13c',1,'HD44780PCF8574LCD::LCDScroll(LCDDirectionType_e, uint8_t ScrollSize)']]],
+  ['lcdscroll_96',['lcdscroll',['../classHD44780PCF8574LCD.html#ae9884ebd411b4dc859d45c2cdb36b13c',1,'HD44780PCF8574LCD::LCDScroll()'],['../classERM19264__UC1609.html#ae4bf95662ec9a49c496d50bce66454c4',1,'ERM19264_UC1609::LCDscroll()']]],
   ['lcdsendchar_97',['LCDSendChar',['../classHD44780PCF8574LCD.html#aecf6934eb450152238d486df247e40f4',1,'HD44780PCF8574LCD']]],
   ['lcdsendcmd_98',['LCDSendCmd',['../classHD44780PCF8574LCD.html#a228a4970eb9ec0fb3f167a7e5ca0d849',1,'HD44780PCF8574LCD']]],
   ['lcdsenddata_99',['LCDSendData',['../classHD44780PCF8574LCD.html#a04345a060bba88ae1806b649336b0e1f',1,'HD44780PCF8574LCD']]],
@@ -109,6 +109,5 @@ var searchData=
   ['lcdwritedata_106',['LCDWriteData',['../classNOKIA__5110__RPI.html#a8453f39023ab09f94423b01a75d30506',1,'NOKIA_5110_RPI']]],
   ['library_20for_20linux_20based_20single_20board_20computers_107',['Display Library for Linux based Single Board Computers',['../index.html#display-library-for-linux-based-single-board-computers',1,'']]],
   ['linux_20based_20single_20board_20computers_108',['Display Library for Linux based Single Board Computers',['../index.html#display-library-for-linux-based-single-board-computers',1,'']]],
-  ['list_109',['Test List',['../test.html',1,'']]],
-  ['loadimage_110',['loadImage',['../ili9341_2Bitmap__Tests_2main_8cpp.html#a4844f60ea97dfbc3585bca46051d912b',1,'main.cpp']]]
+  ['list_109',['list',['../test.html',1,'Test List'],['../todo.html',1,'Todo List']]]
 ];

@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -120,7 +120,7 @@ $(function() {
 <li>Test 710 Arial round font</li>
 <li>Test 711 GroTesk font</li>
 <li>Test 712 Sixteen Segment font</li>
-<li>Test 713 Display ASCII font 0-255 default font</li>
+<li>Test 713 Display ASCII font 32-127 default font</li>
 <li>Test 714 Base number systems using print method</li>
 <li>Test 715 println + print &amp; textwrap</li>
 <li>Test 716 print method String object</li>
@@ -132,10 +132,11 @@ $(function() {
 </dd>
 <dt>File <a class="el" href="erm19264_2BITMAP_2main_8cpp.html">erm19264/BITMAP/main.cpp</a>  </dt>
 <dd><a class="anchor" id="_test000006"></a><ol type="1">
-<li>301 LCD bitmap method</li>
-<li>303 LCD update init method</li>
-<li>304 Drawbitmap to buffer method, vertical addressing</li>
-<li>305 Drawbitmap to buffer method, horizontal addressing  </li>
+<li>Test 301 LCD bitmap method</li>
+<li>Test 303 LCD update init method</li>
+<li>Test 304 Drawbitmap to buffer method, vertical addressing</li>
+<li>Test 305 Drawbitmap to buffer method, horizontal addressing</li>
+<li>Test 803 Bitmap error checking  </li>
 </ol>
 </dd>
 <dt>File <a class="el" href="erm19264_2FRAMERATE__PER__SEC_2main_8cpp.html">erm19264/FRAMERATE_PER_SEC/main.cpp</a>  </dt>
@@ -179,12 +180,12 @@ $(function() {
 <li>Test 716 print method String object</li>
 <li>Test 717 print method numbers</li>
 <li>Test 718 Fonts grotesk big , inconsola, mint and seven segment</li>
-<li>Test 720 Text methods error Checking  </li>
+<li>Test 808 Text methods error Checking  </li>
 </ol>
 </dd>
 <dt>File <a class="el" href="hd44780_2CLOCK__16x02_2main_8cpp.html">hd44780/CLOCK_16x02/main.cpp</a>  </dt>
 <dd><a class="anchor" id="_test000011"></a><ol type="1">
-<li>2000 Clock Demo  </li>
+<li>Test 409 Clock Demo  </li>
 </ol>
 </dd>
 <dt>File <a class="el" href="hd44780_2TEST__16x02_2main_8cpp.html">hd44780/TEST_16x02/main.cpp</a>  </dt>
@@ -198,7 +199,8 @@ $(function() {
 <li>Test 7 :: Text entry mode (4 off) if screen is reset the entry mode will be reset to default</li>
 <li>Test 8 :: <a class="el" href="classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s.">Print</a> numerical data using print() method</li>
 <li>Test 9 :: Custom character's from the CGRAM test</li>
-<li>Test 10 :: Backlight test.  </li>
+<li>Test 10 :: Test vectors using print() method</li>
+<li>Test 11 :: Backlight test.  </li>
 </ol>
 </dd>
 <dt>File <a class="el" href="hd44780_2TEST__20x04_2main_8cpp.html">hd44780/TEST_20x04/main.cpp</a>  </dt>
@@ -222,13 +224,15 @@ $(function() {
 </dd>
 <dt>File <a class="el" href="ili9341_2Bitmap__Tests_2main_8cpp.html">ili9341/Bitmap_Tests/main.cpp</a>  </dt>
 <dd><a class="anchor" id="_test000015"></a><ol type="1">
+<li>Test 300 Sprites demo, small bitmap</li>
 <li>Test 301 "clock demo" , icons, small bitmap</li>
 <li>Test 302 bi-color image 128x128</li>
 <li>Test 303A 24 bit 240by280 color image bitmap from the file system</li>
 <li>Test 303B 24 bit 128by128 color image bitmaps from the file system</li>
 <li>Test 304A 16 bit 128by128 color image bitmaps from the file system</li>
 <li>Test 304B 16 bit 240by320 color image bitmap from the file system</li>
-<li>Test 601 Frame rate per second (FPS) test. 24 bit bitmaps.  </li>
+<li>Test 601 Frame rate per second (FPS) test. 24 bit bitmaps.</li>
+<li>Test 802 Error checking bitmap functions, results to console  </li>
 </ol>
 </dd>
 <dt>File <a class="el" href="ili9341_2Hello__world_2main_8cpp.html">ili9341/Hello_world/main.cpp</a>  </dt>
@@ -243,7 +247,7 @@ $(function() {
 </dd>
 <dt>File <a class="el" href="ili9341_2Mandelbrot__set_2main_8cpp.html">ili9341/Mandelbrot_set/main.cpp</a>  </dt>
 <dd><a class="anchor" id="_test000018"></a><ol type="1">
-<li>2000 Mandelbro set test  </li>
+<li>400 Mandelbro set test  </li>
 </ol>
 </dd>
 <dt>File <a class="el" href="ili9341_2Text__Graphics__Functions_2main_8cpp.html">ili9341/Text_Graphics_Functions/main.cpp</a>  </dt>
@@ -258,6 +262,8 @@ $(function() {
 <li>Test 705 print method all fonts</li>
 <li>Test 706 Misc print class tests (string object, println invert, wrap, base nums etc)</li>
 <li>Test 707 Misc draw functions (Invert, wrap)s</li>
+<li>Test 708 Vectors with print class</li>
+<li>Test 808 Error checking text functions</li>
 <li>Test 902 rectangles</li>
 <li>Test 903 Circle</li>
 <li>Test 904 Triangles  </li>
@@ -270,18 +276,18 @@ $(function() {
 </dd>
 <dt>File <a class="el" href="max7219_2BCDMODE_2main_8cpp.html">max7219/BCDMODE/main.cpp</a>  </dt>
 <dd><a class="anchor" id="_test000021"></a><ol type="1">
-<li>Test 30 BCD character</li>
-<li>Test 31 BCD string  </li>
+<li>Test 1000 BCD character</li>
+<li>Test 1001 BCD string  </li>
 </ol>
 </dd>
 <dt>File <a class="el" href="max7219_2CASCADE__DEMO_2main_8cpp.html">max7219/CASCADE_DEMO/main.cpp</a>  </dt>
 <dd><a class="anchor" id="_test000022"></a><ol type="1">
-<li>Test 33 Cascade demonstration  </li>
+<li>Test 410 Cascade demonstration  </li>
 </ol>
 </dd>
 <dt>File <a class="el" href="max7219_2CLOCK__DEMO_2main_8cpp.html">max7219/CLOCK_DEMO/main.cpp</a>  </dt>
 <dd><a class="anchor" id="_test000023"></a><ol type="1">
-<li>Test 34 Clock demonstration  </li>
+<li>Test 403 Clock demonstration  </li>
 </ol>
 </dd>
 <dt>File <a class="el" href="max7219_2TESTS__HWSPI_2main_8cpp.html">max7219/TESTS_HWSPI/main.cpp</a>  </dt>
@@ -317,8 +323,9 @@ $(function() {
 <dt>File <a class="el" href="nokia5110_2BITMAP_2main_8cpp.html">nokia5110/BITMAP/main.cpp</a>  </dt>
 <dd><a class="anchor" id="_test000026"></a><ol type="1">
 <li>Test 301 Bitmap full screen</li>
-<li>Test 302 Small bitmaps</li>
-<li>Test 303 horizontal addressed data bitmaps </li>
+<li>Test 302 Vertically addressed data small bitmaps</li>
+<li>Test 303 horizontal addressed data small bitmaps</li>
+<li>Test 803 Bitmap error checking </li>
 </ol>
 </dd>
 <dt>File <a class="el" href="nokia5110_2HELLOWORLD_2main_8cpp.html">nokia5110/HELLOWORLD/main.cpp</a>  </dt>
@@ -359,7 +366,7 @@ $(function() {
 <li>Test 715 println + print &amp; textwrap</li>
 <li>Test 716 print method String object</li>
 <li>Test 717 print method numbers</li>
-<li>Test 720 Text methods error Checking</li>
+<li>Test 808 Text methods error Checking</li>
 <li>Test 902 Draw pixel</li>
 <li>Test 903 Draw lines</li>
 <li>Test 904 Draw shapes  </li>
@@ -399,39 +406,15 @@ $(function() {
 </ol>
 </dd>
 <dt>File <a class="el" href="ssd1306_2TEXT__GRAPHICS__FUNCTIONS_2main_8cpp.html">ssd1306/TEXT_GRAPHICS_FUNCTIONS/main.cpp</a>  </dt>
-<dd><a class="anchor" id="_test000037"></a><ol type="1">
-<li>Test 901 Graphics test</li>
-<li>Test 701 Default font</li>
-<li>Test 702 gll font</li>
-<li>Test 703 Pico font</li>
-<li>Test 704 Sinclair font</li>
-<li>Test 705 Orla Font</li>
-<li>Test 706 Retro Font</li>
-<li>Test 707 Mega font</li>
-<li>Test 708 Arial bold font</li>
-<li>Test 709 hallFetica font</li>
-<li>Test 710 Arial round font</li>
-<li>Test 711 GroTesk font</li>
-<li>Test 712 Sixteen Segment font</li>
-<li>Test 713 Display ASCII font 32-127 default font</li>
-<li>Test 714 Base number systems using print method</li>
-<li>Test 715 println + print &amp; textwrap</li>
-<li>Test 716 print method String object</li>
-<li>Test 717 print method numbers</li>
-<li>Test 720 Text methods error Checking</li>
-<li>Test 501 Enable and disable Screen (Sleep mode)</li>
-<li>Test 502 Invert screen color</li>
-<li>Test 503 Contrast screen</li>
-<li>Test 504 Scroll Screen</li>
-<li>Test 505 Rotate  </li>
-</ol>
-</dd>
+<dd><a class="anchor" id="_test000037"></a>  </dd>
 <dt>File <a class="el" href="st7735_2Bitmap__Tests_2main_8cpp.html">st7735/Bitmap_Tests/main.cpp</a>  </dt>
 <dd><a class="anchor" id="_test000038"></a><ol type="1">
+<li>Test 300 Sprites demo, small bitmap</li>
 <li>Test 301 "clock demo" , icons, small bitmap</li>
 <li>Test 302 bi-color full screen image 128x128</li>
 <li>Test 303 24 bit color image bitmaps from the file system</li>
-<li>Test 304 16 bit colorimage bitmaps from the file system </li>
+<li>Test 304 16 bit colorimage bitmaps from the file system</li>
+<li>Test 802 Error checking bitmap functions, results to console  </li>
 </ol>
 </dd>
 <dt>File <a class="el" href="st7735_2Frame__rate__test__bmp_2main_8cpp.html">st7735/Frame_rate_test_bmp/main.cpp</a>  </dt>
@@ -456,7 +439,7 @@ $(function() {
 </dd>
 <dt>File <a class="el" href="st7735_2Multiple__displays_2main_8cpp.html">st7735/Multiple_displays/main.cpp</a>  </dt>
 <dd><a class="anchor" id="_test000043"></a><ol type="1">
-<li>2001 multiple displays Hardware SPI  </li>
+<li>1050 multiple displays Hardware SPI  </li>
 </ol>
 </dd>
 <dt>File <a class="el" href="st7735_2Text__Graphics__Functions_2main_8cpp.html">st7735/Text_Graphics_Functions/main.cpp</a>  </dt>
@@ -472,7 +455,8 @@ $(function() {
 <li>Test 705 print method all fonts</li>
 <li>Test 706 Misc print class tests (string object, println invert, wrap, base nums etc)</li>
 <li>Test 707 Misc draw functions (Invert, wrap)</li>
-<li>Test 708 Error checks</li>
+<li>Test 708 Vectors with print class</li>
+<li>Test 808 Error checks</li>
 <li>Test 901 pixels and lines</li>
 <li>Test 902 rectangles</li>
 <li>Test 903 Circle</li>
@@ -481,10 +465,13 @@ $(function() {
 </dd>
 <dt>File <a class="el" href="st7789_2Bitmap__Tests_2main_8cpp.html">st7789/Bitmap_Tests/main.cpp</a>  </dt>
 <dd><a class="anchor" id="_test000045"></a><ol type="1">
+<li>Test 300 Sprites demo, small bitmap</li>
 <li>Test 301 "clock demo" , icons, small bitmap</li>
 <li>Test 302 bi-color image 128x128</li>
 <li>Test 303 24 bit color image bitmaps from the file system</li>
-<li>Test 304 16 bit colorimage bitmaps from the file system </li>
+<li>Test 304 16 bit color image bitmaps from the file system</li>
+<li>Test 305 16 bit color image bitmap from data</li>
+<li>Test 802 Error checking bitmap functions, results to console </li>
 </ol>
 </dd>
 <dt>File <a class="el" href="st7789_2Frame__rate__test__bmp_2main_8cpp.html">st7789/Frame_rate_test_bmp/main.cpp</a>  </dt>
@@ -513,14 +500,24 @@ $(function() {
 <li>Test 502 Rotate</li>
 <li>Test 503 change modes test -&gt; Invert, display on/off and Sleep.</li>
 <li>Test 705 print method all fonts</li>
-<li>Test 706 Misc print class tests (string object, println invert, wrap, base nums etc)</li>
+<li>Test 706 Misc print class tests (string object, println invert, wrap, base nums)</li>
+<li>Test 707 Vectors with print class</li>
+<li>Test 808 Error Checking text</li>
 <li>Test 902 rectangles</li>
 <li>Test 903 Circle</li>
 <li>Test 904 Triangles  </li>
 </ol>
 </dd>
-<dt>File <a class="el" href="tm1638_2TEST__Model2_2main_8cpp.html">tm1638/TEST_Model2/main.cpp</a>  </dt>
+<dt>File <a class="el" href="tm1637_2TEST__Model4_2main_8cpp.html">tm1637/TEST_Model4/main.cpp</a>  </dt>
 <dd><a class="anchor" id="_test000051"></a><ol type="1">
+<li>Test 1 setSegments and encode digit functions</li>
+<li>Test 2 decimal number testing</li>
+<li>Test 3 string display</li>
+<li>Test 4 Brightness &amp; on/off </li>
+</ol>
+</dd>
+<dt>File <a class="el" href="tm1638_2TEST__Model2_2main_8cpp.html">tm1638/TEST_Model2/main.cpp</a>  </dt>
+<dd><a class="anchor" id="_test000052"></a><ol type="1">
 <li>Test 0 reset test</li>
 <li>Test 1 decimal and float numbers</li>
 <li>Test 2 Hexadecimal number</li>
@@ -534,7 +531,7 @@ $(function() {
 </ol>
 </dd>
 <dt>File <a class="el" href="tm1638_2TEST__Model__1__3_2main_8cpp.html">tm1638/TEST_Model_1_3/main.cpp</a>  </dt>
-<dd><a class="anchor" id="_test000052"></a><ol type="1">
+<dd><a class="anchor" id="_test000053"></a><ol type="1">
 <li>Test0 = reset</li>
 <li>Test1 = Brightness</li>
 <li>Test2 = ASCII display</li>
@@ -553,7 +550,7 @@ $(function() {
 </ol>
 </dd>
 <dt>File <a class="el" href="xpt2046_2xpt__Test_2main_8cpp.html">xpt2046/xpt_Test/main.cpp</a>  </dt>
-<dd><a class="anchor" id="_test000053"></a><ol type="1">
+<dd><a class="anchor" id="_test000054"></a><ol type="1">
 <li>1001 Touch screen example XPT2046 </li>
 </ol>
 </dd>

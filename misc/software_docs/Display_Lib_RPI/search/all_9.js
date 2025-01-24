@@ -7,6 +7,6 @@ var searchData=
   ['getinvertfont_4',['getInvertFont',['../classdisplay__Fonts.html#a080ad53acb42493bc9599096c11a2f86',1,'display_Fonts']]],
   ['getrdlibversionnum_5',['getrdlibversionnum',['../common__data__RDL_8hpp.html#a60da09de30f94d417f7d07e95b5397cb',1,'GetRDLibVersionNum(void):&#160;common_data_RDL.cpp'],['../common__data__RDL_8cpp.html#a60da09de30f94d417f7d07e95b5397cb',1,'GetRDLibVersionNum(void):&#160;common_data_RDL.cpp']]],
   ['getrotation_6',['getRotation',['../classbicolor__graphics.html#a56f599fcecd6accc8dca4486e1656bb5',1,'bicolor_graphics']]],
-  ['gettime_7',['getTime',['../ili9341_2Bitmap__Tests_2main_8cpp.html#afc187b3bf763fadd67e67d1c5536c69d',1,'main.cpp']]],
-  ['gpio_5fchip_5fdevice_8',['GPIO_CHIP_DEVICE',['../md__2home_2gll_2Desktop_2TEMP_2Display__Lib__RPI_2extra_2doc_2tm1638_2README.html#gpio_chip_device',1,'']]]
+  ['getwriteerror_7',['getWriteError',['../classPrint.html#a88a4a829fb5d589efb43955ad0cbddcc',1,'Print']]],
+  ['gpio_5fchip_5fdevice_8',['gpio_chip_device',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2tm1637_2README.html#gpio_chip_device',1,'GPIO_CHIP_DEVICE'],['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2tm1638_2README.html#gpio_chip_device-1',1,'GPIO_CHIP_DEVICE']]]
 ];

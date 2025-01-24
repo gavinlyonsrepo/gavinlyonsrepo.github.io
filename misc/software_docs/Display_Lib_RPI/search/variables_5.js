@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['pfontsevensegptr_0',['pFontSevenSegptr',['../classTM1638plus__common.html#a3f375e032ac6f740185a71a962c8ce52',1,'TM1638plus_common']]],
-  ['psevensegasciifont_1',['psevensegasciifont',['../MAX7219__7SEG__Font__RDL_8hpp.html#af521bf908af97c53afcdab7566cc9764',1,'pSevenSegASCIIFont:&#160;MAX7219_7SEG_Font_RDL.cpp'],['../MAX7219__7SEG__Font__RDL_8cpp.html#af521bf908af97c53afcdab7566cc9764',1,'pSevenSegASCIIFont:&#160;MAX7219_7SEG_Font_RDL.cpp']]]
+  ['pfontsevensegptr_0',['pfontsevensegptr',['../tm163X__font__data__RDL_8hpp.html#a2dbc06989800597dd23b2cbdf6be2708',1,'pFontSevenSegptr:&#160;tm163X_font_data_RDL.cpp'],['../tm163X__font__data__RDL_8cpp.html#a2dbc06989800597dd23b2cbdf6be2708',1,'pFontSevenSegptr:&#160;tm163X_font_data_RDL.cpp']]]
 ];

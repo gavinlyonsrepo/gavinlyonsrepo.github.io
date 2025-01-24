@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -180,8 +180,6 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a7a210bc7cc70aa1e2aad3f76dc716c6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a154102967a519d5808cf7c429aa2ac11" id="r_a154102967a519d5808cf7c429aa2ac11"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1638plus__common.html#a154102967a519d5808cf7c429aa2ac11">_GpioHandle</a> = 0</td></tr>
 <tr class="separator:a154102967a519d5808cf7c429aa2ac11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f375e032ac6f740185a71a962c8ce52" id="r_a3f375e032ac6f740185a71a962c8ce52"><td class="memItemLeft" align="right" valign="top">const unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1638plus__common.html#a3f375e032ac6f740185a71a962c8ce52">pFontSevenSegptr</a> = <a class="el" href="classTM1638plus__common.html#a924d7e51c0b99f0e192cc16582947ee8">SevenSeg</a></td></tr>
-<tr class="separator:a3f375e032ac6f740185a71a962c8ce52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -189,8 +187,6 @@ Private Attributes</h2></td></tr>
 <tr class="separator:abd3a712891c704bfc7c6e811dbf44974"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3fba4bcbaaa2ff5e6c5e5053043453f" id="r_ad3fba4bcbaaa2ff5e6c5e5053043453f"><td class="memItemLeft" align="right" valign="top">const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1638plus__common.html#ad3fba4bcbaaa2ff5e6c5e5053043453f">_TMDefaultBrightness</a> = 0x02</td></tr>
 <tr class="separator:ad3fba4bcbaaa2ff5e6c5e5053043453f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a924d7e51c0b99f0e192cc16582947ee8" id="r_a924d7e51c0b99f0e192cc16582947ee8"><td class="memItemLeft" align="right" valign="top">const unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1638plus__common.html#a924d7e51c0b99f0e192cc16582947ee8">SevenSeg</a> [96]</td></tr>
-<tr class="separator:a924d7e51c0b99f0e192cc16582947ee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The base Class , used to store common data &amp; functions for all models types. </p>
@@ -372,7 +368,7 @@ Private Attributes</h2></td></tr>
 <p>Begin method , sets pin modes and activate display. </p>
 <dl class="section return"><dt>Returns</dt><dd><ol type="1">
 <li>rpiDisplay_Success</li>
-<li>rpiDisplay_GpioPinOpen</li>
+<li>rpiDisplay_GpioChipDevice;</li>
 <li>rpiDisplay_GpioPinClaim </li>
 </ol>
 </dd></dl>
@@ -399,7 +395,7 @@ Private Attributes</h2></td></tr>
 <p>Close method , frees GPIO and deactivate display. </p>
 <dl class="section return"><dt>Returns</dt><dd><ol type="1">
 <li>rpiDisplay_Success</li>
-<li>rpiDisplay_GpioPinClaim</li>
+<li>rpiDisplay_GpioChipDevice</li>
 <li>rpiDisplay_GpioPinFree </li>
 </ol>
 </dd></dl>
@@ -793,53 +789,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>size of display in digts </p>
-
-</div>
-</div>
-<a id="a3f375e032ac6f740185a71a962c8ce52" name="a3f375e032ac6f740185a71a962c8ce52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f375e032ac6f740185a71a962c8ce52">&#9670;&#160;</a></span>pFontSevenSegptr</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const unsigned char* TM1638plus_common::pFontSevenSegptr = <a class="el" href="classTM1638plus__common.html#a924d7e51c0b99f0e192cc16582947ee8">SevenSeg</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Pointer to the seven segment font data table </p>
-
-</div>
-</div>
-<a id="a924d7e51c0b99f0e192cc16582947ee8" name="a924d7e51c0b99f0e192cc16582947ee8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a924d7e51c0b99f0e192cc16582947ee8">&#9670;&#160;</a></span>SevenSeg</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const unsigned char TM1638plus_common::SevenSeg[96]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>font , map of ASCII values/table to 7-segment, offset to position 32. <br  />
- </p>
 
 </div>
 </div>

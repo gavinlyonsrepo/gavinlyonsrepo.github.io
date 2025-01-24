@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -76,8 +76,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle"><div class="title">MAX7219_7SEG_RDL.hpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -87,7 +86,7 @@ $(function() {
 <div class="textblock"><code>#include &lt;cstring&gt;</code><br />
 <code>#include &lt;cstdio&gt;</code><br />
 <code>#include &lt;lgpio.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="MAX7219__7SEG__Font__RDL_8hpp_source.html">MAX7219_7SEG_Font_RDL.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="tm163X__font__data__RDL_8hpp_source.html">tm163X_font_data_RDL.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="common__data__RDL_8hpp_source.html">common_data_RDL.hpp</a>&quot;</code><br />
 </div>
 <p><a href="MAX7219__7SEG__RDL_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -97,51 +96,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html">MAX7219_SS_RPI</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drive MAX7219 seven segment displays.  <a href="classMAX7219__SS__RPI.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:aba14cd546566a93cbb1c070a55486b78" id="r_aba14cd546566a93cbb1c070a55486b78"><td class="memItemLeft" align="right" valign="top"><a id="aba14cd546566a93cbb1c070a55486b78" name="aba14cd546566a93cbb1c070a55486b78"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>MAX7219_CS_SetHigh</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _MAX7219_CS_IO, 1)</td></tr>
-<tr class="separator:aba14cd546566a93cbb1c070a55486b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad331403baceade9788cc844eb83f2bf3" id="r_ad331403baceade9788cc844eb83f2bf3"><td class="memItemLeft" align="right" valign="top"><a id="ad331403baceade9788cc844eb83f2bf3" name="ad331403baceade9788cc844eb83f2bf3"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>MAX7219_CS_SetLow</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _MAX7219_CS_IO, 0)</td></tr>
-<tr class="separator:ad331403baceade9788cc844eb83f2bf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ddaacc7c0b170fabd612f122fd465f2" id="r_a2ddaacc7c0b170fabd612f122fd465f2"><td class="memItemLeft" align="right" valign="top"><a id="a2ddaacc7c0b170fabd612f122fd465f2" name="a2ddaacc7c0b170fabd612f122fd465f2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>MAX7219_CLK_SetHigh</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _MAX7219_CLK_IO, 1)</td></tr>
-<tr class="separator:a2ddaacc7c0b170fabd612f122fd465f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8afead5294e848287f2cdc1eaabf277" id="r_aa8afead5294e848287f2cdc1eaabf277"><td class="memItemLeft" align="right" valign="top"><a id="aa8afead5294e848287f2cdc1eaabf277" name="aa8afead5294e848287f2cdc1eaabf277"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>MAX7219_CLK_SetLow</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _MAX7219_CLK_IO, 0)</td></tr>
-<tr class="separator:aa8afead5294e848287f2cdc1eaabf277"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5995b53a51c0ec4c379aebad8405623" id="r_ab5995b53a51c0ec4c379aebad8405623"><td class="memItemLeft" align="right" valign="top"><a id="ab5995b53a51c0ec4c379aebad8405623" name="ab5995b53a51c0ec4c379aebad8405623"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>MAX7219_DIN_SetHigh</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle,_MAX7219_DIN_IO, 1)</td></tr>
-<tr class="separator:ab5995b53a51c0ec4c379aebad8405623"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0bd67486b14f225b694c71db9590ceb" id="r_ae0bd67486b14f225b694c71db9590ceb"><td class="memItemLeft" align="right" valign="top"><a id="ae0bd67486b14f225b694c71db9590ceb" name="ae0bd67486b14f225b694c71db9590ceb"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>MAX7219_DIN_SetLow</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _MAX7219_DIN_IO, 0)</td></tr>
-<tr class="separator:ae0bd67486b14f225b694c71db9590ceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6dcdc8d2dd15727001f1204d97ac68f" id="r_aa6dcdc8d2dd15727001f1204d97ac68f"><td class="memItemLeft" align="right" valign="top"><a id="aa6dcdc8d2dd15727001f1204d97ac68f" name="aa6dcdc8d2dd15727001f1204d97ac68f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>MAX7219_CS_SetDigitalOutput</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0, _MAX7219_CS_IO, 0)</td></tr>
-<tr class="separator:aa6dcdc8d2dd15727001f1204d97ac68f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa416b4f6c5a00668066916eebbf1e4d0" id="r_aa416b4f6c5a00668066916eebbf1e4d0"><td class="memItemLeft" align="right" valign="top"><a id="aa416b4f6c5a00668066916eebbf1e4d0" name="aa416b4f6c5a00668066916eebbf1e4d0"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>MAX7219_CLK_SetDigitalOutput</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0, _MAX7219_CLK_IO, 0)</td></tr>
-<tr class="separator:aa416b4f6c5a00668066916eebbf1e4d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae579828f1c543b16dc29a4e0c53d8293" id="r_ae579828f1c543b16dc29a4e0c53d8293"><td class="memItemLeft" align="right" valign="top"><a id="ae579828f1c543b16dc29a4e0c53d8293" name="ae579828f1c543b16dc29a4e0c53d8293"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>MAX7219_DIN_SetDigitalOutput</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0, _MAX7219_DIN_IO, 0)</td></tr>
-<tr class="separator:ae579828f1c543b16dc29a4e0c53d8293"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62fbca07dfbdc190fc00e0983a5791e1" id="r_a62fbca07dfbdc190fc00e0983a5791e1"><td class="memItemLeft" align="right" valign="top"><a id="a62fbca07dfbdc190fc00e0983a5791e1" name="a62fbca07dfbdc190fc00e0983a5791e1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>MAX7219_OPEN_GPIO_CHIP</b>&#160;&#160;&#160;lgGpiochipOpen(_DeviceNumGpioChip)</td></tr>
-<tr class="separator:a62fbca07dfbdc190fc00e0983a5791e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74f94bd554e34c7532c46d7060cabda5" id="r_a74f94bd554e34c7532c46d7060cabda5"><td class="memItemLeft" align="right" valign="top"><a id="a74f94bd554e34c7532c46d7060cabda5" name="a74f94bd554e34c7532c46d7060cabda5"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>MAX7219_CLOSE_GPIO_HANDLE</b>&#160;&#160;&#160;lgGpiochipClose(_GpioHandle)</td></tr>
-<tr class="separator:a74f94bd554e34c7532c46d7060cabda5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65fc635ff405c5a1b60a95c2db8772ff" id="r_a65fc635ff405c5a1b60a95c2db8772ff"><td class="memItemLeft" align="right" valign="top"><a id="a65fc635ff405c5a1b60a95c2db8772ff" name="a65fc635ff405c5a1b60a95c2db8772ff"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>MAX7219_GPIO_FREE_CS</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _MAX7219_CS_IO)</td></tr>
-<tr class="separator:a65fc635ff405c5a1b60a95c2db8772ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad574c331f51879bf929645b367e18561" id="r_ad574c331f51879bf929645b367e18561"><td class="memItemLeft" align="right" valign="top"><a id="ad574c331f51879bf929645b367e18561" name="ad574c331f51879bf929645b367e18561"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>MAX7219_GPIO_FREE_CLOCK</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _MAX7219_CLK_IO)</td></tr>
-<tr class="separator:ad574c331f51879bf929645b367e18561"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab72f0e98db5ad48d04dbee5e2c8e8116" id="r_ab72f0e98db5ad48d04dbee5e2c8e8116"><td class="memItemLeft" align="right" valign="top"><a id="ab72f0e98db5ad48d04dbee5e2c8e8116" name="ab72f0e98db5ad48d04dbee5e2c8e8116"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>MAX7219_GPIO_FREE_DATA</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _MAX7219_DIN_IO)</td></tr>
-<tr class="separator:ab72f0e98db5ad48d04dbee5e2c8e8116"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>library header file to drive MAX7219 displays Project Name: Display_Lib_RPI </p>

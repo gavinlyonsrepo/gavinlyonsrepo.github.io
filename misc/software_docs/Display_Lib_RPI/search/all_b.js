@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['i2c_0',['i2c',['../md__2home_2gll_2Desktop_2TEMP_2Display__Lib__RPI_2extra_2doc_2hd44780_2README.html#i2c',1,'I2C'],['../md__2home_2gll_2Desktop_2TEMP_2Display__Lib__RPI_2extra_2doc_2sh110x_2README.html#i2c-1',1,'I2C'],['../md__2home_2gll_2Desktop_2TEMP_2Display__Lib__RPI_2extra_2doc_2ssd1306_2README.html#i2c-2',1,'I2C']]],
+  ['i2c_0',['i2c',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2hd44780_2README.html#i2c',1,'I2C'],['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2sh110x_2README.html#i2c-1',1,'I2C'],['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ssd1306_2README.html#i2c-2',1,'I2C']]],
   ['i2c_5fwrite_5fbyte_1',['i2c_write_byte',['../classSSD1306__RDL.html#adce601daaac78326b878fbd2cddadf52',1,'SSD1306_RDL::I2C_Write_Byte()'],['../classSH110X__RDL.html#ad819dfa282dd7dff7a8818e4a252f31d',1,'SH110X_RDL::I2C_Write_Byte()']]],
-  ['ili9341_20lcd_20tft_20readme_2',['ILI9341 LCD TFT Readme',['../md__2home_2gll_2Desktop_2TEMP_2Display__Lib__RPI_2extra_2doc_2ili9341_2README.html',1,'']]],
+  ['ili9341_20lcd_20tft_20readme_2',['ILI9341 LCD TFT Readme',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ili9341_2README.html',1,'']]],
   ['ili9341_2fbitmap_5ftests_2fmain_2ecpp_3',['main.cpp',['../ili9341_2Bitmap__Tests_2main_8cpp.html',1,'']]],
   ['ili9341_2fhello_5fworld_2fmain_2ecpp_4',['main.cpp',['../ili9341_2Hello__world_2main_8cpp.html',1,'']]],
   ['ili9341_2fhello_5fworld_5fswspi_2fmain_2ecpp_5',['main.cpp',['../ili9341_2Hello__world__SWSPI_2main_8cpp.html',1,'']]],
@@ -65,7 +65,7 @@ var searchData=
   ['ili9341_5fvscrdef_62',['ILI9341_VSCRDEF',['../ILI9341__TFT__LCD__RDL_8cpp.html#aba45bf6c8278bf5210bab2607e993cf3',1,'ILI9341_TFT_LCD_RDL.cpp']]],
   ['ili9341_5fvscrsadd_63',['ILI9341_VSCRSADD',['../ILI9341__TFT__LCD__RDL_8cpp.html#aed59201f8eb2291e618d3b3151adc497',1,'ILI9341_TFT_LCD_RDL.cpp']]],
   ['ili9341initialize_64',['ILI9341Initialize',['../classILI9341__TFT.html#aef3c33f41b8f67f67e19efd046aa3460',1,'ILI9341_TFT']]],
-  ['images_65',['Font Images',['../md__2home_2gll_2Desktop_2TEMP_2Display__Lib__RPI_2extra_2doc_2fonts_2README.html#font-images',1,'']]],
+  ['images_65',['Font Images',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2fonts_2README.html#font-images',1,'']]],
   ['initdisplay_66',['InitDisplay',['../classMAX7219__SS__RPI.html#a566fca2980d4af0182ad41f22222b7b5',1,'MAX7219_SS_RPI']]],
   ['initscreensize_67',['InitScreenSize',['../classILI9341__TFT.html#a457a29f1c990f4876a4a5e82dd22445b',1,'ILI9341_TFT']]],
   ['initspi_68',['initspi',['../classILI9341__TFT.html#aa827a5a1319e7ffa1e525210f6a8e634',1,'ILI9341_TFT::InitSPI(uint16_t CommDelay, int gpioDev)'],['../classILI9341__TFT.html#a06fdc331706f2445532d8680d6d8f62d',1,'ILI9341_TFT::InitSPI(int device, int channel, int speed, int flags, int gpioDev)']]],
@@ -76,5 +76,5 @@ var searchData=
   ['intensitymin_73',['IntensityMin',['../classMAX7219__SS__RPI.html#a5b9b5d28ece169dea457918a75ec0fd0a47fe6956fcedc2047de3f92a3397baca',1,'MAX7219_SS_RPI']]],
   ['invertdisplay_74',['invertDisplay',['../classILI9341__TFT.html#a28288d03ba49f7d5373068a04f2061c2',1,'ILI9341_TFT']]],
   ['ishardwarespi_75',['isHardwareSPI',['../classNOKIA__5110__RPI.html#a5f3d43709a37b533a24da25f81bbb099',1,'NOKIA_5110_RPI']]],
-  ['issues_76',['issues',['../md__2home_2gll_2Desktop_2TEMP_2Display__Lib__RPI_2extra_2doc_2hd44780_2README.html#notes-and-issues',1,'Notes and issues'],['../md__2home_2gll_2Desktop_2TEMP_2Display__Lib__RPI_2extra_2doc_2max7219_2README.html#notes-and-issues-1',1,'Notes and Issues'],['../md__2home_2gll_2Desktop_2TEMP_2Display__Lib__RPI_2extra_2doc_2ssd1306_2README.html#notes-and-issues-2',1,'Notes and issues']]]
+  ['issues_76',['issues',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2hd44780_2README.html#notes-and-issues',1,'Notes and issues'],['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2max7219_2README.html#notes-and-issues-1',1,'Notes and Issues'],['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ssd1306_2README.html#notes-and-issues-2',1,'Notes and issues']]]
 ];

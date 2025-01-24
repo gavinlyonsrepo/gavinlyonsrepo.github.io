@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -170,24 +170,6 @@ Macros</h2></td></tr>
 <tr class="separator:a0a5fe7c2e58bf2e98a20204ca9545b8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab9b50be68d237e7936669c6b5f9fa2f" id="r_aab9b50be68d237e7936669c6b5f9fa2f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SH110X__OLED__RDL_8hpp.html#aab9b50be68d237e7936669c6b5f9fa2f">SH110X_RDL_ADDR</a>&#160;&#160;&#160;0x3C</td></tr>
 <tr class="separator:aab9b50be68d237e7936669c6b5f9fa2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f98edd121c0c96868060b4ac3c94031" id="r_a5f98edd121c0c96868060b4ac3c94031"><td class="memItemLeft" align="right" valign="top"><a id="a5f98edd121c0c96868060b4ac3c94031" name="a5f98edd121c0c96868060b4ac3c94031"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SH110X_RST_SetHigh</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _Display_RST, 1)</td></tr>
-<tr class="separator:a5f98edd121c0c96868060b4ac3c94031"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade604fb130234a83ab0aae7719267192" id="r_ade604fb130234a83ab0aae7719267192"><td class="memItemLeft" align="right" valign="top"><a id="ade604fb130234a83ab0aae7719267192" name="ade604fb130234a83ab0aae7719267192"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SH110X_RST_SetLow</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle,_Display_RST, 0)</td></tr>
-<tr class="separator:ade604fb130234a83ab0aae7719267192"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba83988bcb26385f2de5258fed549001" id="r_aba83988bcb26385f2de5258fed549001"><td class="memItemLeft" align="right" valign="top"><a id="aba83988bcb26385f2de5258fed549001" name="aba83988bcb26385f2de5258fed549001"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SH110X_RST_SetDigitalOutput</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0, _Display_RST, 0)</td></tr>
-<tr class="separator:aba83988bcb26385f2de5258fed549001"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1baa94a258f0552acca897abd885f69" id="r_ad1baa94a258f0552acca897abd885f69"><td class="memItemLeft" align="right" valign="top"><a id="ad1baa94a258f0552acca897abd885f69" name="ad1baa94a258f0552acca897abd885f69"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SH110X_OPEN_GPIO_CHIP</b>&#160;&#160;&#160;lgGpiochipOpen(_DeviceNumGpioChip)</td></tr>
-<tr class="separator:ad1baa94a258f0552acca897abd885f69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab52b7c15c83cfef2704864ffaf828d33" id="r_ab52b7c15c83cfef2704864ffaf828d33"><td class="memItemLeft" align="right" valign="top"><a id="ab52b7c15c83cfef2704864ffaf828d33" name="ab52b7c15c83cfef2704864ffaf828d33"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SH110X_CLOSE_GPIO_HANDLE</b>&#160;&#160;&#160;lgGpiochipClose(_GpioHandle)</td></tr>
-<tr class="separator:ab52b7c15c83cfef2704864ffaf828d33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3edfcd7e30a09d1eca170e1dd3d909fc" id="r_a3edfcd7e30a09d1eca170e1dd3d909fc"><td class="memItemLeft" align="right" valign="top"><a id="a3edfcd7e30a09d1eca170e1dd3d909fc" name="a3edfcd7e30a09d1eca170e1dd3d909fc"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SH110X_GPIO_FREE_RST</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _Display_RST)</td></tr>
-<tr class="separator:a3edfcd7e30a09d1eca170e1dd3d909fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>OLED driven by <a class="el" href="classSH110X__RDL.html" title="class to control OLED and define buffer">SH110X_RDL</a> controller. Sh1106 and Sh1107. </p>

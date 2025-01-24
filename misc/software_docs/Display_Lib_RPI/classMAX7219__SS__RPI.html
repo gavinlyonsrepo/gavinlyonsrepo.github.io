@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -240,15 +240,18 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:abd702bcf511c99f62bf3e0f9a4693b7b" id="r_abd702bcf511c99f62bf3e0f9a4693b7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#abd702bcf511c99f62bf3e0f9a4693b7b">SetScanLimit</a> (<a class="el" href="classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253">ScanLimit_e</a> numDigits)</td></tr>
 <tr class="memdesc:abd702bcf511c99f62bf3e0f9a4693b7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the decode mode of the MAX7219 decode mode register.  <br /></td></tr>
 <tr class="separator:abd702bcf511c99f62bf3e0f9a4693b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa411ddcece51aa84b55ae32d9a4f024f" id="r_aa411ddcece51aa84b55ae32d9a4f024f"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#aa411ddcece51aa84b55ae32d9a4f024f">flipBitsPreserveMSB</a> (uint8_t byte)</td></tr>
+<tr class="memdesc:aa411ddcece51aa84b55ae32d9a4f024f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flips the positions of bits in a byte while preserving the MSB bit.  <br /></td></tr>
+<tr class="separator:aa411ddcece51aa84b55ae32d9a4f024f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a27fa0eff8cccc2e970f66689ce6992cf" id="r_a27fa0eff8cccc2e970f66689ce6992cf"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a27fa0eff8cccc2e970f66689ce6992cf">_MAX7219_CS_IO</a></td></tr>
-<tr class="separator:a27fa0eff8cccc2e970f66689ce6992cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc432f9b5d296b8c606449d67008a295" id="r_abc432f9b5d296b8c606449d67008a295"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#abc432f9b5d296b8c606449d67008a295">_MAX7219_DIN_IO</a></td></tr>
-<tr class="separator:abc432f9b5d296b8c606449d67008a295"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ce697a559d59ae885549198d063fcd6" id="r_a1ce697a559d59ae885549198d063fcd6"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a1ce697a559d59ae885549198d063fcd6">_MAX7219_CLK_IO</a></td></tr>
-<tr class="separator:a1ce697a559d59ae885549198d063fcd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a036109905334d88a37e9fe25c135183e" id="r_a036109905334d88a37e9fe25c135183e"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a036109905334d88a37e9fe25c135183e">_Display_CS</a></td></tr>
+<tr class="separator:a036109905334d88a37e9fe25c135183e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3a9209e8fb98a05cabbb231ebfa0854" id="r_ad3a9209e8fb98a05cabbb231ebfa0854"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#ad3a9209e8fb98a05cabbb231ebfa0854">_Display_SDATA</a></td></tr>
+<tr class="separator:ad3a9209e8fb98a05cabbb231ebfa0854"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2ae6cc8538442c7fd20be37650d8c4f" id="r_ab2ae6cc8538442c7fd20be37650d8c4f"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#ab2ae6cc8538442c7fd20be37650d8c4f">_Display_SCLK</a></td></tr>
+<tr class="separator:ab2ae6cc8538442c7fd20be37650d8c4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ad5c6c2920d2260c6eccb7a6d528efb" id="r_a2ad5c6c2920d2260c6eccb7a6d528efb"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a2ad5c6c2920d2260c6eccb7a6d528efb">_CommDelay</a> = 0</td></tr>
 <tr class="separator:a2ad5c6c2920d2260c6eccb7a6d528efb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a345d53696d850798eee85b24359544d5" id="r_a345d53696d850798eee85b24359544d5"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a345d53696d850798eee85b24359544d5">_NoDigits</a> = 8</td></tr>
@@ -257,6 +260,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a374f2eca9c47d379f8c6ec59e03b3721"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2bb969ecd9abcf8fb496c71328ee821" id="r_ac2bb969ecd9abcf8fb496c71328ee821"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#ac2bb969ecd9abcf8fb496c71328ee821">_GpioHandle</a> = 0</td></tr>
 <tr class="separator:ac2bb969ecd9abcf8fb496c71328ee821"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9125dedac0e986f90946d7e07797f0b4" id="r_a9125dedac0e986f90946d7e07797f0b4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a9125dedac0e986f90946d7e07797f0b4">_spiHandle</a> = 0</td></tr>
+<tr class="separator:a9125dedac0e986f90946d7e07797f0b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba3c2a30acf031e3269f600167e6538a" id="r_aba3c2a30acf031e3269f600167e6538a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#aba3c2a30acf031e3269f600167e6538a">_spiDev</a> = 0</td></tr>
 <tr class="separator:aba3c2a30acf031e3269f600167e6538a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a707a77cf1dc3005e9100fd29c97a27db" id="r_a707a77cf1dc3005e9100fd29c97a27db"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMAX7219__SS__RPI.html#a707a77cf1dc3005e9100fd29c97a27db">_spiChan</a> = 0</td></tr>
@@ -941,6 +946,42 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aa411ddcece51aa84b55ae32d9a4f024f" name="aa411ddcece51aa84b55ae32d9a4f024f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa411ddcece51aa84b55ae32d9a4f024f">&#9670;&#160;</a></span>flipBitsPreserveMSB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t MAX7219_SS_RPI::flipBitsPreserveMSB </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>byte</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flips the positions of bits in a byte while preserving the MSB bit. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">byte</td><td>A byte of data, ASCII character </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A byte from font representing LED segment data with bits positions flipped and MSB bit value preserved</dd></dl>
+<p>The reason for this function is that the MAX7219 requires ASCII segment data in following order : dp-abcdefg but the font we use is dp-gfedcba where letters represent seven segment LEDS, and dp represents decimal point.. We flip the bits in the code rather than change the font data in font file because the font data is used by other modules(TM1638 + TM1637) and they use dp-gfedcba order. Thus we can share same font file between all seven segment modules. </p>
+
+</div>
+</div>
 <a id="a3075e50b777791ab50b7328138292386" name="a3075e50b777791ab50b7328138292386"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3075e50b777791ab50b7328138292386">&#9670;&#160;</a></span>GetCommDelay()</h2>
 
@@ -1410,6 +1451,75 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a036109905334d88a37e9fe25c135183e" name="a036109905334d88a37e9fe25c135183e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a036109905334d88a37e9fe25c135183e">&#9670;&#160;</a></span>_Display_CS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t MAX7219_SS_RPI::_Display_CS</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>GPIO connected to CS on MAX7219, SW SPI only </p>
+
+</div>
+</div>
+<a id="ab2ae6cc8538442c7fd20be37650d8c4f" name="ab2ae6cc8538442c7fd20be37650d8c4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2ae6cc8538442c7fd20be37650d8c4f">&#9670;&#160;</a></span>_Display_SCLK</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t MAX7219_SS_RPI::_Display_SCLK</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>GPIO connected to CLK on MAX7219, SW SPI only </p>
+
+</div>
+</div>
+<a id="ad3a9209e8fb98a05cabbb231ebfa0854" name="ad3a9209e8fb98a05cabbb231ebfa0854"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3a9209e8fb98a05cabbb231ebfa0854">&#9670;&#160;</a></span>_Display_SDATA</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t MAX7219_SS_RPI::_Display_SDATA</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>GPIO connected to DIO on MAX7219, SW SPI only </p>
+
+</div>
+</div>
 <a id="ac2bb969ecd9abcf8fb496c71328ee821" name="ac2bb969ecd9abcf8fb496c71328ee821"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac2bb969ecd9abcf8fb496c71328ee821">&#9670;&#160;</a></span>_GpioHandle</h2>
 
@@ -1429,7 +1539,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This holds a handle to a device opened by lgGpiochipOpen or lgSpiOpen( </p>
+<p>This holds a handle to a device opened by lgGpiochipOpen </p>
 
 </div>
 </div>
@@ -1453,75 +1563,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Is the Hardware SPI on , true yes , false SW SPI </p>
-
-</div>
-</div>
-<a id="a1ce697a559d59ae885549198d063fcd6" name="a1ce697a559d59ae885549198d063fcd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ce697a559d59ae885549198d063fcd6">&#9670;&#160;</a></span>_MAX7219_CLK_IO</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t MAX7219_SS_RPI::_MAX7219_CLK_IO</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>GPIO connected to CLK on MAX7219, SW SPI only </p>
-
-</div>
-</div>
-<a id="a27fa0eff8cccc2e970f66689ce6992cf" name="a27fa0eff8cccc2e970f66689ce6992cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27fa0eff8cccc2e970f66689ce6992cf">&#9670;&#160;</a></span>_MAX7219_CS_IO</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t MAX7219_SS_RPI::_MAX7219_CS_IO</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>GPIO connected to CS on MAX7219, SW SPI only </p>
-
-</div>
-</div>
-<a id="abc432f9b5d296b8c606449d67008a295" name="abc432f9b5d296b8c606449d67008a295"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc432f9b5d296b8c606449d67008a295">&#9670;&#160;</a></span>_MAX7219_DIN_IO</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t MAX7219_SS_RPI::_MAX7219_DIN_IO</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>GPIO connected to DIO on MAX7219, SW SPI only </p>
 
 </div>
 </div>
@@ -1637,6 +1678,29 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>The flags 2 LSB defines SPI mode See <a class="el" href="classMAX7219__SS__RPI.html" title="Drive MAX7219 seven segment displays.">MAX7219_SS_RPI</a> constructor notes </p>
+
+</div>
+</div>
+<a id="a9125dedac0e986f90946d7e07797f0b4" name="a9125dedac0e986f90946d7e07797f0b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9125dedac0e986f90946d7e07797f0b4">&#9670;&#160;</a></span>_spiHandle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MAX7219_SS_RPI::_spiHandle = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Hold a handle for the SPI device on the channel lgSpiOpen( </p>
 
 </div>
 </div>

@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -187,81 +187,6 @@ Macros</h2></td></tr>
 <tr class="separator:a98e0c6759d59574477a04250209b4a33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad346fbf2631c07102a9b842b8daf2f1b" id="r_ad346fbf2631c07102a9b842b8daf2f1b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ERM1__CH1115__OLED__RDL_8hpp.html#ad346fbf2631c07102a9b842b8daf2f1b">ERMCH1115_ACTIVATE_SCROLL</a>&#160;&#160;&#160;0x2F</td></tr>
 <tr class="separator:ad346fbf2631c07102a9b842b8daf2f1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8ddcfc295a951d3cc56b7c713dae377" id="r_aa8ddcfc295a951d3cc56b7c713dae377"><td class="memItemLeft" align="right" valign="top"><a id="aa8ddcfc295a951d3cc56b7c713dae377" name="aa8ddcfc295a951d3cc56b7c713dae377"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_DC_SetHigh</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _OLED_DC, 1)</td></tr>
-<tr class="separator:aa8ddcfc295a951d3cc56b7c713dae377"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acaec3ba870beaaa20df711075509c36f" id="r_acaec3ba870beaaa20df711075509c36f"><td class="memItemLeft" align="right" valign="top"><a id="acaec3ba870beaaa20df711075509c36f" name="acaec3ba870beaaa20df711075509c36f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_DC_SetLow</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle ,_OLED_DC, 0)</td></tr>
-<tr class="separator:acaec3ba870beaaa20df711075509c36f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42f92fce35162c04799d454232744ce0" id="r_a42f92fce35162c04799d454232744ce0"><td class="memItemLeft" align="right" valign="top"><a id="a42f92fce35162c04799d454232744ce0" name="a42f92fce35162c04799d454232744ce0"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_RST_SetHigh</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _OLED_RST, 1)</td></tr>
-<tr class="separator:a42f92fce35162c04799d454232744ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9847d9650a985feddedce18b75860ce" id="r_aa9847d9650a985feddedce18b75860ce"><td class="memItemLeft" align="right" valign="top"><a id="aa9847d9650a985feddedce18b75860ce" name="aa9847d9650a985feddedce18b75860ce"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_RST_SetLow</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _OLED_RST, 0)</td></tr>
-<tr class="separator:aa9847d9650a985feddedce18b75860ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f318e93f7b3b3de28852809a84c8064" id="r_a3f318e93f7b3b3de28852809a84c8064"><td class="memItemLeft" align="right" valign="top"><a id="a3f318e93f7b3b3de28852809a84c8064" name="a3f318e93f7b3b3de28852809a84c8064"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_CS_SetHigh</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle ,_OLED_CS, 1)</td></tr>
-<tr class="separator:a3f318e93f7b3b3de28852809a84c8064"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1e54590b6f54f855070ac2ea8e06428" id="r_af1e54590b6f54f855070ac2ea8e06428"><td class="memItemLeft" align="right" valign="top"><a id="af1e54590b6f54f855070ac2ea8e06428" name="af1e54590b6f54f855070ac2ea8e06428"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_CS_SetLow</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _OLED_CS, 0)</td></tr>
-<tr class="separator:af1e54590b6f54f855070ac2ea8e06428"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa28ee7dc6c1040be272c6b723d0e07e8" id="r_aa28ee7dc6c1040be272c6b723d0e07e8"><td class="memItemLeft" align="right" valign="top"><a id="aa28ee7dc6c1040be272c6b723d0e07e8" name="aa28ee7dc6c1040be272c6b723d0e07e8"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_SCLK_SetHigh</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _OLED_SCLK, 1)</td></tr>
-<tr class="separator:aa28ee7dc6c1040be272c6b723d0e07e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4cb05114288bc7a4d2137848fd87300" id="r_ac4cb05114288bc7a4d2137848fd87300"><td class="memItemLeft" align="right" valign="top"><a id="ac4cb05114288bc7a4d2137848fd87300" name="ac4cb05114288bc7a4d2137848fd87300"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_SCLK_SetLow</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _OLED_SCLK, 0)</td></tr>
-<tr class="separator:ac4cb05114288bc7a4d2137848fd87300"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c99dfe58f2a1fcbd04ff55e3a30073b" id="r_a3c99dfe58f2a1fcbd04ff55e3a30073b"><td class="memItemLeft" align="right" valign="top"><a id="a3c99dfe58f2a1fcbd04ff55e3a30073b" name="a3c99dfe58f2a1fcbd04ff55e3a30073b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_DIN_SetHigh</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _OLED_DIN, 1)</td></tr>
-<tr class="separator:a3c99dfe58f2a1fcbd04ff55e3a30073b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a923505231cbfb80968188542606a1d64" id="r_a923505231cbfb80968188542606a1d64"><td class="memItemLeft" align="right" valign="top"><a id="a923505231cbfb80968188542606a1d64" name="a923505231cbfb80968188542606a1d64"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_DIN_SetLow</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _OLED_DIN,0)</td></tr>
-<tr class="separator:a923505231cbfb80968188542606a1d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acea4df346b83f77c17255c7ac4eb46a2" id="r_acea4df346b83f77c17255c7ac4eb46a2"><td class="memItemLeft" align="right" valign="top"><a id="acea4df346b83f77c17255c7ac4eb46a2" name="acea4df346b83f77c17255c7ac4eb46a2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_RST_SetDigitalOutput</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0, _OLED_RST,  0);</td></tr>
-<tr class="separator:acea4df346b83f77c17255c7ac4eb46a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff56698c99ca2068fedce5dc3ca8466f" id="r_aff56698c99ca2068fedce5dc3ca8466f"><td class="memItemLeft" align="right" valign="top"><a id="aff56698c99ca2068fedce5dc3ca8466f" name="aff56698c99ca2068fedce5dc3ca8466f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_DC_SetDigitalOutput</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0, _OLED_DC,  0);</td></tr>
-<tr class="separator:aff56698c99ca2068fedce5dc3ca8466f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ea81afecd4a3f8be0559f0693a2ae90" id="r_a2ea81afecd4a3f8be0559f0693a2ae90"><td class="memItemLeft" align="right" valign="top"><a id="a2ea81afecd4a3f8be0559f0693a2ae90" name="a2ea81afecd4a3f8be0559f0693a2ae90"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_CS_SetDigitalOutput</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0, _OLED_CS,  0);</td></tr>
-<tr class="separator:a2ea81afecd4a3f8be0559f0693a2ae90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcf1c4b05bfbda1accc5bb017b7c4fc1" id="r_abcf1c4b05bfbda1accc5bb017b7c4fc1"><td class="memItemLeft" align="right" valign="top"><a id="abcf1c4b05bfbda1accc5bb017b7c4fc1" name="abcf1c4b05bfbda1accc5bb017b7c4fc1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_SCLK_SetDigitalOutput</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0, _OLED_SCLK,  0);</td></tr>
-<tr class="separator:abcf1c4b05bfbda1accc5bb017b7c4fc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f07b8866bf9f554533d8c4298e7de5d" id="r_a4f07b8866bf9f554533d8c4298e7de5d"><td class="memItemLeft" align="right" valign="top"><a id="a4f07b8866bf9f554533d8c4298e7de5d" name="a4f07b8866bf9f554533d8c4298e7de5d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_DIN_SetDigitalOutput</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0, _OLED_DIN,  0);</td></tr>
-<tr class="separator:a4f07b8866bf9f554533d8c4298e7de5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ea18ec9d1fc102838f989cd3113f0a4" id="r_a2ea18ec9d1fc102838f989cd3113f0a4"><td class="memItemLeft" align="right" valign="top"><a id="a2ea18ec9d1fc102838f989cd3113f0a4" name="a2ea18ec9d1fc102838f989cd3113f0a4"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_OPEN_GPIO_CHIP</b>&#160;&#160;&#160;lgGpiochipOpen(_DeviceNumGpioChip)</td></tr>
-<tr class="separator:a2ea18ec9d1fc102838f989cd3113f0a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa885d9bdb82040c2be97d783288fa48a" id="r_aa885d9bdb82040c2be97d783288fa48a"><td class="memItemLeft" align="right" valign="top"><a id="aa885d9bdb82040c2be97d783288fa48a" name="aa885d9bdb82040c2be97d783288fa48a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_CLOSE_GPIO_HANDLE</b>&#160;&#160;&#160;lgGpiochipClose(_GpioHandle)</td></tr>
-<tr class="separator:aa885d9bdb82040c2be97d783288fa48a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac91b6575f2a59a9b8fb858283a1dc6d9" id="r_ac91b6575f2a59a9b8fb858283a1dc6d9"><td class="memItemLeft" align="right" valign="top"><a id="ac91b6575f2a59a9b8fb858283a1dc6d9" name="ac91b6575f2a59a9b8fb858283a1dc6d9"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_GPIO_FREE_DC</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _OLED_DC)</td></tr>
-<tr class="separator:ac91b6575f2a59a9b8fb858283a1dc6d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad03a14d3371231c915db53be1991e272" id="r_ad03a14d3371231c915db53be1991e272"><td class="memItemLeft" align="right" valign="top"><a id="ad03a14d3371231c915db53be1991e272" name="ad03a14d3371231c915db53be1991e272"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_GPIO_FREE_RST</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _OLED_RST)</td></tr>
-<tr class="separator:ad03a14d3371231c915db53be1991e272"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb36f9673b2683cc1640f7ae4afa3747" id="r_adb36f9673b2683cc1640f7ae4afa3747"><td class="memItemLeft" align="right" valign="top"><a id="adb36f9673b2683cc1640f7ae4afa3747" name="adb36f9673b2683cc1640f7ae4afa3747"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_GPIO_FREE_CS</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _OLED_CS)</td></tr>
-<tr class="separator:adb36f9673b2683cc1640f7ae4afa3747"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6dc9559f3e25ad8b2a0b7b10f97667b" id="r_ac6dc9559f3e25ad8b2a0b7b10f97667b"><td class="memItemLeft" align="right" valign="top"><a id="ac6dc9559f3e25ad8b2a0b7b10f97667b" name="ac6dc9559f3e25ad8b2a0b7b10f97667b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_GPIO_FREE_CLK</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _OLED_SCLK)</td></tr>
-<tr class="separator:ac6dc9559f3e25ad8b2a0b7b10f97667b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9e8782da8765796fc6394cc14a4d22f" id="r_af9e8782da8765796fc6394cc14a4d22f"><td class="memItemLeft" align="right" valign="top"><a id="af9e8782da8765796fc6394cc14a4d22f" name="af9e8782da8765796fc6394cc14a4d22f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_GPIO_FREE_DATA</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _OLED_DIN)</td></tr>
-<tr class="separator:af9e8782da8765796fc6394cc14a4d22f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17fd49bc4d841870ed7bc762d4ca99e6" id="r_a17fd49bc4d841870ed7bc762d4ca99e6"><td class="memItemLeft" align="right" valign="top"><a id="a17fd49bc4d841870ed7bc762d4ca99e6" name="a17fd49bc4d841870ed7bc762d4ca99e6"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_OPEN_SPI</b>&#160;&#160;&#160;lgSpiOpen(_spiDev, _spiChan, _spiBaud, _spiFlags)</td></tr>
-<tr class="separator:a17fd49bc4d841870ed7bc762d4ca99e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a604ee72af826f56619dcb1387a8263e3" id="r_a604ee72af826f56619dcb1387a8263e3"><td class="memItemLeft" align="right" valign="top"><a id="a604ee72af826f56619dcb1387a8263e3" name="a604ee72af826f56619dcb1387a8263e3"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_CLOSE_SPI</b>&#160;&#160;&#160;lgSpiClose(_spiHandle)</td></tr>
-<tr class="separator:a604ee72af826f56619dcb1387a8263e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c05d94e2faa98659e1dd0e664570a4c" id="r_a5c05d94e2faa98659e1dd0e664570a4c"><td class="memItemLeft" align="right" valign="top"><a id="a5c05d94e2faa98659e1dd0e664570a4c" name="a5c05d94e2faa98659e1dd0e664570a4c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ERMCH1115_WRITE_SPI</b>&#160;&#160;&#160;lgSpiWrite( _spiHandle, (const char*)TransmitBuffer, sizeof(TransmitBuffer))</td></tr>
-<tr class="separator:a5c05d94e2faa98659e1dd0e664570a4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6dbc18e4838b2d8bbc6eb47e0a4a699" id="r_ae6dbc18e4838b2d8bbc6eb47e0a4a699"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ERM1__CH1115__OLED__RDL_8hpp.html#ae6dbc18e4838b2d8bbc6eb47e0a4a699">ERMCH1115_INITDELAY</a>&#160;&#160;&#160;100</td></tr>
 <tr class="separator:ae6dbc18e4838b2d8bbc6eb47e0a4a699"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a237921a2c53b8c4f4f69b6adaa68cad8" id="r_a237921a2c53b8c4f4f69b6adaa68cad8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ERM1__CH1115__OLED__RDL_8hpp.html#a237921a2c53b8c4f4f69b6adaa68cad8">ERMCH1115_HIGHFREQ_DELAY</a>&#160;&#160;&#160;0</td></tr>

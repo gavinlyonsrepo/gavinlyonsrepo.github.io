@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -76,8 +76,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle"><div class="title">TM1638plus_common_RDL.hpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -90,6 +89,7 @@ $(function() {
 <code>#include &lt;cstring&gt;</code><br />
 <code>#include &lt;lgpio.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="common__data__RDL_8hpp_source.html">common_data_RDL.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="tm163X__font__data__RDL_8hpp_source.html">tm163X_font_data_RDL.hpp</a>&quot;</code><br />
 </div>
 <p><a href="TM1638plus__common__RDL_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -98,57 +98,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1638plus__common.html">TM1638plus_common</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The base Class , used to store common data &amp; functions for all models types.  <a href="classTM1638plus__common.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a9d558a893d96c0d13c8de799e5a40ad0" id="r_a9d558a893d96c0d13c8de799e5a40ad0"><td class="memItemLeft" align="right" valign="top"><a id="a9d558a893d96c0d13c8de799e5a40ad0" name="a9d558a893d96c0d13c8de799e5a40ad0"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM1638_STROBE_SetHigh</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _STROBE_IO, 1)</td></tr>
-<tr class="separator:a9d558a893d96c0d13c8de799e5a40ad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8890d471edcf2caef680e237f1a3d650" id="r_a8890d471edcf2caef680e237f1a3d650"><td class="memItemLeft" align="right" valign="top"><a id="a8890d471edcf2caef680e237f1a3d650" name="a8890d471edcf2caef680e237f1a3d650"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM1638_STROBE_SetLow</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _STROBE_IO, 0)</td></tr>
-<tr class="separator:a8890d471edcf2caef680e237f1a3d650"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada8e0ff2544f7b9fce15f4b448415a99" id="r_ada8e0ff2544f7b9fce15f4b448415a99"><td class="memItemLeft" align="right" valign="top"><a id="ada8e0ff2544f7b9fce15f4b448415a99" name="ada8e0ff2544f7b9fce15f4b448415a99"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM1638_DATA_SetHigh</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _DATA_IO, 1)</td></tr>
-<tr class="separator:ada8e0ff2544f7b9fce15f4b448415a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a9a17dfa24923450b203846b28fd315" id="r_a7a9a17dfa24923450b203846b28fd315"><td class="memItemLeft" align="right" valign="top"><a id="a7a9a17dfa24923450b203846b28fd315" name="a7a9a17dfa24923450b203846b28fd315"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM1638_DATA_SetLow</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _DATA_IO, 0)</td></tr>
-<tr class="separator:a7a9a17dfa24923450b203846b28fd315"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9a7ea97e6fa0078cf6641801e607524" id="r_ac9a7ea97e6fa0078cf6641801e607524"><td class="memItemLeft" align="right" valign="top"><a id="ac9a7ea97e6fa0078cf6641801e607524" name="ac9a7ea97e6fa0078cf6641801e607524"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM1638_CLOCK_SetHigh</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _CLOCK_IO, 1)</td></tr>
-<tr class="separator:ac9a7ea97e6fa0078cf6641801e607524"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73f530fa980b79260d784dc71bb2e2c7" id="r_a73f530fa980b79260d784dc71bb2e2c7"><td class="memItemLeft" align="right" valign="top"><a id="a73f530fa980b79260d784dc71bb2e2c7" name="a73f530fa980b79260d784dc71bb2e2c7"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM1638_CLOCK_SetLow</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _CLOCK_IO, 0)</td></tr>
-<tr class="separator:a73f530fa980b79260d784dc71bb2e2c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92903ce64431f588fc60487ee1a33256" id="r_a92903ce64431f588fc60487ee1a33256"><td class="memItemLeft" align="right" valign="top"><a id="a92903ce64431f588fc60487ee1a33256" name="a92903ce64431f588fc60487ee1a33256"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM1638_DATA_READ</b>&#160;&#160;&#160;lgGpioRead(_GpioHandle, _DATA_IO)</td></tr>
-<tr class="separator:a92903ce64431f588fc60487ee1a33256"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78f2d37f3f4750584108fc75e9ecc93a" id="r_a78f2d37f3f4750584108fc75e9ecc93a"><td class="memItemLeft" align="right" valign="top"><a id="a78f2d37f3f4750584108fc75e9ecc93a" name="a78f2d37f3f4750584108fc75e9ecc93a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM1638_SET_OUTPUT_STROBE</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0, _STROBE_IO, 0)</td></tr>
-<tr class="separator:a78f2d37f3f4750584108fc75e9ecc93a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3dd8b85a2087292262edd1ebb383959e" id="r_a3dd8b85a2087292262edd1ebb383959e"><td class="memItemLeft" align="right" valign="top"><a id="a3dd8b85a2087292262edd1ebb383959e" name="a3dd8b85a2087292262edd1ebb383959e"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM1638_SET_OUTPUT_DATA</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0, _DATA_IO, 0)</td></tr>
-<tr class="separator:a3dd8b85a2087292262edd1ebb383959e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23515b8ed0693232d34bac5d220872fa" id="r_a23515b8ed0693232d34bac5d220872fa"><td class="memItemLeft" align="right" valign="top"><a id="a23515b8ed0693232d34bac5d220872fa" name="a23515b8ed0693232d34bac5d220872fa"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM1638_SET_INPUT_DATA</b>&#160;&#160;&#160;lgGpioClaimInput(_GpioHandle,  0, _DATA_IO)</td></tr>
-<tr class="separator:a23515b8ed0693232d34bac5d220872fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d270106177961904162cc7fd3208646" id="r_a5d270106177961904162cc7fd3208646"><td class="memItemLeft" align="right" valign="top"><a id="a5d270106177961904162cc7fd3208646" name="a5d270106177961904162cc7fd3208646"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM1638_SET_OUTPUT_CLOCK</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0, _CLOCK_IO, 0)</td></tr>
-<tr class="separator:a5d270106177961904162cc7fd3208646"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a6b27c7d748ded3104e56184dcfcb8f" id="r_a3a6b27c7d748ded3104e56184dcfcb8f"><td class="memItemLeft" align="right" valign="top"><a id="a3a6b27c7d748ded3104e56184dcfcb8f" name="a3a6b27c7d748ded3104e56184dcfcb8f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM1638_OPEN_GPIO_CHIP</b>&#160;&#160;&#160;lgGpiochipOpen(_DeviceNumGpioChip)</td></tr>
-<tr class="separator:a3a6b27c7d748ded3104e56184dcfcb8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af435e3f2b9ae0204a65ad853bec08c62" id="r_af435e3f2b9ae0204a65ad853bec08c62"><td class="memItemLeft" align="right" valign="top"><a id="af435e3f2b9ae0204a65ad853bec08c62" name="af435e3f2b9ae0204a65ad853bec08c62"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM1638_CLOSE_GPIO_HANDLE</b>&#160;&#160;&#160;lgGpiochipClose(_GpioHandle)</td></tr>
-<tr class="separator:af435e3f2b9ae0204a65ad853bec08c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d140604445f04bafb7042885fce5d10" id="r_a4d140604445f04bafb7042885fce5d10"><td class="memItemLeft" align="right" valign="top"><a id="a4d140604445f04bafb7042885fce5d10" name="a4d140604445f04bafb7042885fce5d10"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM1638_GPIO_FREE_STROBE</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _STROBE_IO)</td></tr>
-<tr class="separator:a4d140604445f04bafb7042885fce5d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1a1d8cd132a01eb822fb1012ba549fc" id="r_aa1a1d8cd132a01eb822fb1012ba549fc"><td class="memItemLeft" align="right" valign="top"><a id="aa1a1d8cd132a01eb822fb1012ba549fc" name="aa1a1d8cd132a01eb822fb1012ba549fc"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM1638_GPIO_FREE_CLOCK</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _CLOCK_IO)</td></tr>
-<tr class="separator:aa1a1d8cd132a01eb822fb1012ba549fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fb5ad5ddf9632dbefaf219c9804d550" id="r_a4fb5ad5ddf9632dbefaf219c9804d550"><td class="memItemLeft" align="right" valign="top"><a id="a4fb5ad5ddf9632dbefaf219c9804d550" name="a4fb5ad5ddf9632dbefaf219c9804d550"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM1638_GPIO_FREE_DATA</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _DATA_IO)</td></tr>
-<tr class="separator:a4fb5ad5ddf9632dbefaf219c9804d550"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>RPI library Tm1638plus, Header file for common data and functions between model classes. </p>

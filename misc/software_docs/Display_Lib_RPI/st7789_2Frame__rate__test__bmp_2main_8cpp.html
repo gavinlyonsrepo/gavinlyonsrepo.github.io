@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -114,7 +114,6 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><b>Setup</b> (void)</t
 <tr class="separator:a0f854a7a913be4243caf7d8ba3c69075"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0016e4eff446be0c13239bc3b6e05b9" id="r_aa0016e4eff446be0c13239bc3b6e05b9"><td class="memItemLeft" align="right" valign="top"><a id="aa0016e4eff446be0c13239bc3b6e05b9" name="aa0016e4eff446be0c13239bc3b6e05b9"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>TestFPS</b> (void)</td></tr>
-<tr class="memdesc:aa0016e4eff446be0c13239bc3b6e05b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frames per second test , 24 color bitmap test,. <br /></td></tr>
 <tr class="separator:aa0016e4eff446be0c13239bc3b6e05b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5356937194a4324f695fa6773de24f65" id="r_a5356937194a4324f695fa6773de24f65"><td class="memItemLeft" align="right" valign="top"><a id="a5356937194a4324f695fa6773de24f65" name="a5356937194a4324f695fa6773de24f65"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>EndTests</b> (void)</td></tr>
@@ -122,9 +121,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>EndTests</b> (void)</
 <tr class="memitem:afc187b3bf763fadd67e67d1c5536c69d" id="r_afc187b3bf763fadd67e67d1c5536c69d"><td class="memItemLeft" align="right" valign="top"><a id="afc187b3bf763fadd67e67d1c5536c69d" name="afc187b3bf763fadd67e67d1c5536c69d"></a>
 int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>getTime</b> ()</td></tr>
 <tr class="separator:afc187b3bf763fadd67e67d1c5536c69d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4844f60ea97dfbc3585bca46051d912b" id="r_a4844f60ea97dfbc3585bca46051d912b"><td class="memItemLeft" align="right" valign="top"><a id="a4844f60ea97dfbc3585bca46051d912b" name="a4844f60ea97dfbc3585bca46051d912b"></a>
-uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>loadImage</b> (char *name)</td></tr>
-<tr class="separator:a4844f60ea97dfbc3585bca46051d912b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa85b6d8b645be0bf81c517dab257d1e1" id="r_aa85b6d8b645be0bf81c517dab257d1e1"><td class="memItemLeft" align="right" valign="top"><a id="aa85b6d8b645be0bf81c517dab257d1e1" name="aa85b6d8b645be0bf81c517dab257d1e1"></a>
+std::unique_ptr&lt; uint8_t[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>loadImage</b> (const char *)</td></tr>
+<tr class="separator:aa85b6d8b645be0bf81c517dab257d1e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a840291bc02cba5474a4cb46a9b9566fe" id="r_a840291bc02cba5474a4cb46a9b9566fe"><td class="memItemLeft" align="right" valign="top"><a id="a840291bc02cba5474a4cb46a9b9566fe" name="a840291bc02cba5474a4cb46a9b9566fe"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>main</b> (void)</td></tr>
 <tr class="separator:a840291bc02cba5474a4cb46a9b9566fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,9 +142,9 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><b>RST_TFT</b> = 25</t
 <tr class="memitem:a223864d4f5c5a09cc4414a14016dc82e" id="r_a223864d4f5c5a09cc4414a14016dc82e"><td class="memItemLeft" align="right" valign="top"><a id="a223864d4f5c5a09cc4414a14016dc82e" name="a223864d4f5c5a09cc4414a14016dc82e"></a>
 int8_t&#160;</td><td class="memItemRight" valign="bottom"><b>DC_TFT</b> = 24</td></tr>
 <tr class="separator:a223864d4f5c5a09cc4414a14016dc82e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89b0b3fe18b34870341fa4eac4270e5c" id="r_a89b0b3fe18b34870341fa4eac4270e5c"><td class="memItemLeft" align="right" valign="top"><a id="a89b0b3fe18b34870341fa4eac4270e5c" name="a89b0b3fe18b34870341fa4eac4270e5c"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>GPIO_CHIP_DEVICE</b> = 4</td></tr>
-<tr class="separator:a89b0b3fe18b34870341fa4eac4270e5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa078b24d1847af1ba4b6ab2049fbbf13" id="r_aa078b24d1847af1ba4b6ab2049fbbf13"><td class="memItemLeft" align="right" valign="top"><a id="aa078b24d1847af1ba4b6ab2049fbbf13" name="aa078b24d1847af1ba4b6ab2049fbbf13"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>GPIO_CHIP_DEV</b> = 0</td></tr>
+<tr class="separator:aa078b24d1847af1ba4b6ab2049fbbf13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7af64d68709947e3654a725db814dbc6" id="r_a7af64d68709947e3654a725db814dbc6"><td class="memItemLeft" align="right" valign="top"><a id="a7af64d68709947e3654a725db814dbc6" name="a7af64d68709947e3654a725db814dbc6"></a>
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>OFFSET_COL</b> = 0</td></tr>
 <tr class="separator:a7af64d68709947e3654a725db814dbc6"><td class="memSeparator" colspan="2">&#160;</td></tr>

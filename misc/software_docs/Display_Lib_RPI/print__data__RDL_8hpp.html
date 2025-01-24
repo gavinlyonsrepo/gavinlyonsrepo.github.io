@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -89,6 +89,10 @@ $(function() {
 <code>#include &lt;cstring&gt;</code><br />
 <code>#include &lt;cmath&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;bitset&gt;</code><br />
+<code>#include &lt;iomanip&gt;</code><br />
+<code>#include &lt;sstream&gt;</code><br />
 </div>
 <p><a href="print__data__RDL_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -100,23 +104,83 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a4437b93039136120854a193ec320a780" id="r_a4437b93039136120854a193ec320a780"><td class="memItemLeft" align="right" valign="top"><a id="a4437b93039136120854a193ec320a780" name="a4437b93039136120854a193ec320a780"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>RDL_DEC</b>&#160;&#160;&#160;10</td></tr>
+<tr class="memitem:a4437b93039136120854a193ec320a780" id="r_a4437b93039136120854a193ec320a780"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>&#160;&#160;&#160;10</td></tr>
 <tr class="separator:a4437b93039136120854a193ec320a780"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b801662b7d94e27feb986215ecd5816" id="r_a2b801662b7d94e27feb986215ecd5816"><td class="memItemLeft" align="right" valign="top"><a id="a2b801662b7d94e27feb986215ecd5816" name="a2b801662b7d94e27feb986215ecd5816"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>RDL_HEX</b>&#160;&#160;&#160;16</td></tr>
+<tr class="memitem:a2b801662b7d94e27feb986215ecd5816" id="r_a2b801662b7d94e27feb986215ecd5816"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="print__data__RDL_8hpp.html#a2b801662b7d94e27feb986215ecd5816">RDL_HEX</a>&#160;&#160;&#160;16</td></tr>
 <tr class="separator:a2b801662b7d94e27feb986215ecd5816"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a418bbcca56e2f1b71e69f7207b6c145b" id="r_a418bbcca56e2f1b71e69f7207b6c145b"><td class="memItemLeft" align="right" valign="top"><a id="a418bbcca56e2f1b71e69f7207b6c145b" name="a418bbcca56e2f1b71e69f7207b6c145b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>RDL_OCT</b>&#160;&#160;&#160;8</td></tr>
+<tr class="memitem:a418bbcca56e2f1b71e69f7207b6c145b" id="r_a418bbcca56e2f1b71e69f7207b6c145b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="print__data__RDL_8hpp.html#a418bbcca56e2f1b71e69f7207b6c145b">RDL_OCT</a>&#160;&#160;&#160;8</td></tr>
 <tr class="separator:a418bbcca56e2f1b71e69f7207b6c145b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b362e29d79569fdb6dbd1ee9b015f5d" id="r_a2b362e29d79569fdb6dbd1ee9b015f5d"><td class="memItemLeft" align="right" valign="top"><a id="a2b362e29d79569fdb6dbd1ee9b015f5d" name="a2b362e29d79569fdb6dbd1ee9b015f5d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>RDL_BIN</b>&#160;&#160;&#160;2</td></tr>
+<tr class="memitem:a2b362e29d79569fdb6dbd1ee9b015f5d" id="r_a2b362e29d79569fdb6dbd1ee9b015f5d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="print__data__RDL_8hpp.html#a2b362e29d79569fdb6dbd1ee9b015f5d">RDL_BIN</a>&#160;&#160;&#160;2</td></tr>
 <tr class="separator:a2b362e29d79569fdb6dbd1ee9b015f5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class that provides print() and println() for for the display library Project Name :: Display_Lib_RPI. </p>
-<dl class="section note"><dt>Note</dt><dd>Port of arduino built-in print class, G Lyons 2022. </dd></dl>
-</div></div><!-- contents -->
+<p>Polymorphic print class to print many data types by wrapping write function in the graphics class's Using function overloading and templates for the vector definitions. Supports integers, floats, characters, character arrays, string objects and vectors. </p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a2b362e29d79569fdb6dbd1ee9b015f5d" name="a2b362e29d79569fdb6dbd1ee9b015f5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b362e29d79569fdb6dbd1ee9b015f5d">&#9670;&#160;</a></span>RDL_BIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RDL_BIN&#160;&#160;&#160;2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Format the passed integer in Binary format <br  />
+ </p>
+
+</div>
+</div>
+<a id="a4437b93039136120854a193ec320a780" name="a4437b93039136120854a193ec320a780"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4437b93039136120854a193ec320a780">&#9670;&#160;</a></span>RDL_DEC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RDL_DEC&#160;&#160;&#160;10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Format the passed integer in Decimal format </p>
+
+</div>
+</div>
+<a id="a2b801662b7d94e27feb986215ecd5816" name="a2b801662b7d94e27feb986215ecd5816"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b801662b7d94e27feb986215ecd5816">&#9670;&#160;</a></span>RDL_HEX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RDL_HEX&#160;&#160;&#160;16</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Format the passed integer in Hexadecimal format <br  />
+ </p>
+
+</div>
+</div>
+<a id="a418bbcca56e2f1b71e69f7207b6c145b" name="a418bbcca56e2f1b71e69f7207b6c145b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a418bbcca56e2f1b71e69f7207b6c145b">&#9670;&#160;</a></span>RDL_OCT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RDL_OCT&#160;&#160;&#160;8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Format the passed integer in Octal format <br  />
+ </p>
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8

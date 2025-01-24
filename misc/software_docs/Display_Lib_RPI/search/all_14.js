@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['uc1609_20readme_0',['ERM19264 UC1609 Readme',['../md__2home_2gll_2Desktop_2TEMP_2Display__Lib__RPI_2extra_2doc_2erm19264_2README.html',1,'']]],
+  ['uc1609_20readme_0',['ERM19264 UC1609 Readme',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2erm19264_2README.html',1,'']]],
   ['uc1609_5faddress_5fcontrol_1',['UC1609_ADDRESS_CONTROL',['../ERM19264__UC1609__LCD__RDL_8hpp.html#adb239d844d588f1d7ef618a23e08bbca',1,'ERM19264_UC1609_LCD_RDL.hpp']]],
   ['uc1609_5faddress_5fset_2',['UC1609_ADDRESS_SET',['../ERM19264__UC1609__LCD__RDL_8hpp.html#aaf66f91cfed65119cb8aecc46a16a4f8',1,'ERM19264_UC1609_LCD_RDL.hpp']]],
   ['uc1609_5fall_5fpixel_5fon_3',['UC1609_ALL_PIXEL_ON',['../ERM19264__UC1609__LCD__RDL_8hpp.html#a35439ac25ec5593ce63710ae5d3d97ab',1,'ERM19264_UC1609_LCD_RDL.hpp']]],
@@ -30,6 +30,6 @@ var searchData=
   ['uc1609_5fsystem_5freset_27',['UC1609_SYSTEM_RESET',['../ERM19264__UC1609__LCD__RDL_8hpp.html#a40adc5d6241525d52e9be273fdd4214f',1,'ERM19264_UC1609_LCD_RDL.hpp']]],
   ['uc1609_5ftemp_5fcomp_5freg_28',['UC1609_TEMP_COMP_REG',['../ERM19264__UC1609__LCD__RDL_8hpp.html#a39b2b1a884a389a34a5ceb4585be20c3',1,'ERM19264_UC1609_LCD_RDL.hpp']]],
   ['uc1609_5ftemp_5fcomp_5fset_29',['UC1609_TEMP_COMP_SET',['../ERM19264__UC1609__LCD__RDL_8hpp.html#a2cbd20d8930aca90f520958194ae5fc8',1,'ERM19264_UC1609_LCD_RDL.hpp']]],
-  ['user_20adjustments_30',['user adjustments',['../md__2home_2gll_2Desktop_2TEMP_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#user-adjustments',1,'User adjustments'],['../md__2home_2gll_2Desktop_2TEMP_2Display__Lib__RPI_2extra_2doc_2erm19264_2README.html#user-adjustments-1',1,'User Adjustments']]],
-  ['user_20options_31',['user options',['../md__2home_2gll_2Desktop_2TEMP_2Display__Lib__RPI_2extra_2doc_2ili9341_2README.html#user-options',1,'User options'],['../md__2home_2gll_2Desktop_2TEMP_2Display__Lib__RPI_2extra_2doc_2st7735_2README.html#user-options-1',1,'User options'],['../md__2home_2gll_2Desktop_2TEMP_2Display__Lib__RPI_2extra_2doc_2st7789_2README.html#user-options-2',1,'User options']]]
+  ['user_20adjustments_30',['user adjustments',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#user-adjustments',1,'User adjustments'],['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2erm19264_2README.html#user-adjustments-1',1,'User Adjustments']]],
+  ['user_20options_31',['user options',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ili9341_2README.html#user-options',1,'User options'],['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2st7735_2README.html#user-options-1',1,'User options'],['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2st7789_2README.html#user-options-2',1,'User options']]]
 ];

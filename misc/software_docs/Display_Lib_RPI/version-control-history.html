@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -92,7 +92,18 @@ $(function() {
 </li>
 <li>Version 2.0.0 05-12-2024<ul>
 <li>Changed low level dependency from 'bcm2835' to 'lgpio', primarily so the library can now work on a raspberry 5 as 'bcm2835' cannot work on raspberry 5. 'Lgpio' works with linux device driver rather than low level register access of 'bcm2835' software should now work on any linux based SBC which has SPI.</li>
-<li>Changed font system, added some different fonts and font data is now horizontally addressed instead of vertically. This facilitates using buffered writes to write font much faster character by character in a frame buffer rather than pixel by pixel. In the writeChar method of 16-bit color graphic display. </li>
+<li>Changed font system, added some different fonts and font data is now horizontally addressed instead of vertically. This facilitates using buffered writes to write font much faster character by character in a frame buffer rather than pixel by pixel. In the writeChar method of 16-bit color graphic display.</li>
+</ul>
+</li>
+<li>Version 2.1.0 24-01-2025<ul>
+<li>Added support for TM1637 LED module.</li>
+<li>Added support for vectors, with a template to the print method.</li>
+<li>Replaced the gll font data with better one, same name.</li>
+<li>Changed MAX7219 code so it can use same ASCII font as TM163X modules.</li>
+<li>Abstracted most 'lg' library calls to the common data file.</li>
+<li>Added Scroll test example for ST7789.</li>
+<li>Added Sprite function for 16 bit color displays</li>
+<li>Removed any calls to malloc() &amp; free() from library and examples, use vectors and unique pointers instead. </li>
 </ul>
 </li>
 </ul>

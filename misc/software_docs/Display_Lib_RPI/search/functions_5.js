@@ -6,5 +6,7 @@ var searchData=
   ['fillrectangle_3',['fillRectangle',['../classcolor16__graphics.html#ab07cb7811c97e5a7215523e7bc2740d2',1,'color16_graphics']]],
   ['fillroundrect_4',['fillroundrect',['../classbicolor__graphics.html#ac66aad6e8afbf50d6a93e735d0514587',1,'bicolor_graphics::fillRoundRect()'],['../classcolor16__graphics.html#ac2ff3fcbd0a2814fe532bd3a2bd72f0c',1,'color16_graphics::fillRoundRect()']]],
   ['fillscreen_5',['fillscreen',['../classbicolor__graphics.html#ab92cf4a3f75fae24bb6b25eb4eb9cf22',1,'bicolor_graphics::fillScreen()'],['../classcolor16__graphics.html#ab58747cf63206620c90a2999d4cfdb34',1,'color16_graphics::fillScreen()']]],
-  ['filltriangle_6',['filltriangle',['../classbicolor__graphics.html#aef266e20ab7f9906bd65c9a81c1d2533',1,'bicolor_graphics::fillTriangle()'],['../classcolor16__graphics.html#a2eb21b42dfff2b8041e6188963408148',1,'color16_graphics::fillTriangle()']]]
+  ['filltriangle_6',['filltriangle',['../classbicolor__graphics.html#aef266e20ab7f9906bd65c9a81c1d2533',1,'bicolor_graphics::fillTriangle()'],['../classcolor16__graphics.html#a2eb21b42dfff2b8041e6188963408148',1,'color16_graphics::fillTriangle()']]],
+  ['flipbitspreservemsb_7',['flipBitsPreserveMSB',['../classMAX7219__SS__RPI.html#aa411ddcece51aa84b55ae32d9a4f024f',1,'MAX7219_SS_RPI']]],
+  ['formatelement_8',['formatElement',['../classPrint.html#a99a6b3a402aee3748727f3170b0347d4',1,'Print']]]
 ];
