@@ -1,5 +1,7 @@
 <map id="Print" name="Print">
-<area shape="rect" id="node1" title="class that provides polymorphic print methods for printing data" alt="" coords="51,5,103,32"/>
-<area shape="rect" id="node2" href="$classSSD1306__graphics.html" title="Graphics class to hold graphic related functions." alt="" coords="5,80,148,107"/>
-<area shape="rect" id="node3" href="$classSSD1306.html" title="class to control OLED and define buffer" alt="" coords="37,155,117,181"/>
+<area shape="rect" id="Node000001" title="class that provides polymorphic print methods for printing data" alt="" coords="51,5,103,31"/>
+<area shape="rect" id="Node000002" href="$classSSD1306__graphics.html" title="Graphics class to hold graphic related functions." alt="" coords="5,79,148,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,44,79,79,74,79,74,44"/>
+<area shape="rect" id="Node000003" href="$classSSD1306.html" title="class to control OLED and define buffer" alt="" coords="37,152,117,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="79,118,79,152,74,152,74,118"/>
 </map>

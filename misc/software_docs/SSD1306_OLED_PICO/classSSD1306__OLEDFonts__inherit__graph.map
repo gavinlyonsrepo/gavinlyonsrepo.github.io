@@ -1,5 +1,7 @@
 <map id="SSD1306_OLEDFonts" name="SSD1306_OLEDFonts">
-<area shape="rect" id="node1" title="Font class to hold font data object" alt="" coords="5,5,163,32"/>
-<area shape="rect" id="node2" href="$classSSD1306__graphics.html" title="Graphics class to hold graphic related functions." alt="" coords="13,80,155,107"/>
-<area shape="rect" id="node3" href="$classSSD1306.html" title="class to control OLED and define buffer" alt="" coords="44,155,124,181"/>
+<area shape="rect" id="Node000001" title="Font class to hold font data object" alt="" coords="5,5,163,31"/>
+<area shape="rect" id="Node000002" href="$classSSD1306__graphics.html" title="Graphics class to hold graphic related functions." alt="" coords="13,79,155,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,44,87,79,81,79,81,44"/>
+<area shape="rect" id="Node000003" href="$classSSD1306.html" title="class to control OLED and define buffer" alt="" coords="44,152,124,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,118,87,152,81,152,81,118"/>
 </map>
