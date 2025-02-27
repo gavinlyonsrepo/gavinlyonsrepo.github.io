@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['chararraynullptr_0',['CharArrayNullptr',['../common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5ad14d01ed678fef8e11537c5e28fffda8',1,'rdlib']]],
-  ['charfontasciirange_1',['CharFontASCIIRange',['../common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5af8160ad4f435dc517d2f8b6f49d31c2c',1,'rdlib']]],
-  ['charscreenbounds_2',['CharScreenBounds',['../common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a4871d50542fe21d641276fc30fcebee0',1,'rdlib']]],
+  ['chararraynullptr_0',['CharArrayNullptr',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5ad14d01ed678fef8e11537c5e28fffda8',1,'rdlib']]],
+  ['charfontasciirange_1',['CharFontASCIIRange',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5af8160ad4f435dc517d2f8b6f49d31c2c',1,'rdlib']]],
+  ['charscreenbounds_2',['CharScreenBounds',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a4871d50542fe21d641276fc30fcebee0',1,'rdlib']]],
   ['codebfontdash_3',['CodeBFontDash',['../classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496acf90b7fca4c7c290475a75e37a389725',1,'MAX7219_SS_RPI']]],
   ['codebfonte_4',['CodeBFontE',['../classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496ac28b5e98aefed35c0e5ee00e4c33cca2',1,'MAX7219_SS_RPI']]],
   ['codebfonteight_5',['CodeBFontEight',['../classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496a2c3b53526839e291dd9c592547daebb3',1,'MAX7219_SS_RPI']]],
@@ -21,5 +21,5 @@ var searchData=
   ['codebfontzero_18',['CodeBFontZero',['../classMAX7219__SS__RPI.html#a16e558b5c26bd45ba685262aa73a3496a3a7dcae5adfb66886f0bb8d223918812',1,'MAX7219_SS_RPI']]],
   ['colororder_5fbgr_19',['COLORORDER_BGR',['../classSSD1331__OLED.html#a2d2c69539afc60608cea53a5ab653ea3a9ad29e8e29128191ae03d2c5b46f9aed',1,'SSD1331_OLED']]],
   ['colororder_5frgb_20',['COLORORDER_RGB',['../classSSD1331__OLED.html#a2d2c69539afc60608cea53a5ab653ea3a7b6d2f7d888132299f6279f89aa98894',1,'SSD1331_OLED']]],
-  ['customcharlen_21',['CustomCharLen',['../common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a09ef45fc00c89daf1ac08c9f52792742',1,'rdlib']]]
+  ['customcharlen_21',['CustomCharLen',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a09ef45fc00c89daf1ac08c9f52792742',1,'rdlib']]]
 ];

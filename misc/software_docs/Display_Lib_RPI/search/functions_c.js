@@ -40,8 +40,8 @@ var searchData=
   ['oledpowerdown_37',['oledpowerdown',['../classERMCH1115.html#abed1c706c557d55c09cc018611e9bcdd',1,'ERMCH1115::OLEDPowerDown()'],['../classSH110X__RDL.html#a85572b6d9ab8336704f0cab1cd215bce',1,'SH110X_RDL::OLEDPowerDown()'],['../classSSD1306__RDL.html#a7f183756cd75b10a80605ab4798e3e45',1,'SSD1306_RDL::OLEDPowerDown()'],['../classSSD1331__OLED.html#a6d0b079f025d59ccf8ce33b4d030e6eb',1,'SSD1331_OLED::OLEDPowerDown()']]],
   ['oledreset_38',['oledreset',['../classERMCH1115.html#aa1c11c1d2619a7ad559d57a7273dd42e',1,'ERMCH1115::OLEDReset()'],['../classSH110X__RDL.html#a410e3ded03b0be73b2e5a47018effbb1',1,'SH110X_RDL::OLEDReset()']]],
   ['oledresetpin_39',['OLEDResetPin',['../classSSD1331__OLED.html#a28f8917850d377c6985ebacf3ce69096',1,'SSD1331_OLED']]],
-  ['oledscroll_40',['oledscroll',['../classSSD1331__OLED.html#afe37671aa9e41621f3408efaf8a42f5a',1,'SSD1331_OLED::OLEDScroll()'],['../classERMCH1115.html#a5e3e9e41fb936755090c2a8c3c64cb12',1,'ERMCH1115::OLEDscroll(uint8_t bits)']]],
-  ['oledscrollsetup_41',['oledscrollsetup',['../classERMCH1115.html#a0408198c8cf6d6e6c9581a0487898a7a',1,'ERMCH1115::OLEDscrollSetup()'],['../classSSD1331__OLED.html#a27db5a0bc6c08e867de058a989d23cce',1,'SSD1331_OLED::OLEDScrollSetup()']]],
+  ['oledscroll_40',['oledscroll',['../classERMCH1115.html#a5e3e9e41fb936755090c2a8c3c64cb12',1,'ERMCH1115::OLEDscroll()'],['../classSSD1331__OLED.html#afe37671aa9e41621f3408efaf8a42f5a',1,'SSD1331_OLED::OLEDScroll(scroll_control_e)']]],
+  ['oledscrollsetup_41',['oledscrollsetup',['../classSSD1331__OLED.html#a27db5a0bc6c08e867de058a989d23cce',1,'SSD1331_OLED::OLEDScrollSetup()'],['../classERMCH1115.html#a0408198c8cf6d6e6c9581a0487898a7a',1,'ERMCH1115::OLEDscrollSetup(uint8_t Timeinterval=ERMCH1115_TIME_SET, uint8_t Direction=ERMCH1115_SCROLL_SETUP, uint8_t mode=ERMCH1115_SET_SCROLL_MODE)']]],
   ['oledsetbufferptr_42',['oledsetbufferptr',['../classERMCH1115.html#ad7b0023e400949ec93eb0f7d78c28a78',1,'ERMCH1115::OLEDSetBufferPtr()'],['../classSH110X__RDL.html#a003e2e524bd3061163490fdfc0d896bc',1,'SH110X_RDL::OLEDSetBufferPtr()'],['../classSSD1306__RDL.html#a4cb3925514537aa0c5559e0ba9047f47',1,'SSD1306_RDL::OLEDSetBufferPtr()']]],
   ['oledsetrotation_43',['OLEDsetRotation',['../classSSD1331__OLED.html#a9910439608ef9233ec1f2d362f682066',1,'SSD1331_OLED']]],
   ['oledsetupgpio_44',['oledsetupgpio',['../classSSD1331__OLED.html#a21140b9bb5713f48217abe6a80e9a555',1,'SSD1331_OLED::OLEDSetupGPIO(int8_t, int8_t, int8_t, int8_t, int8_t)'],['../classSSD1331__OLED.html#a81ba175cd42d476ebae4357b6706fd32',1,'SSD1331_OLED::OLEDSetupGPIO(int8_t, int8_t)']]],
@@ -54,5 +54,5 @@ var searchData=
   ['oledstartscrollright_51',['OLEDStartScrollRight',['../classSSD1306__RDL.html#ab83f8149652396f73fa12bebe47d979c',1,'SSD1306_RDL']]],
   ['oledstopscroll_52',['OLEDStopScroll',['../classSSD1306__RDL.html#add85c6ef62dcf5e7ab9535f8e8158f3b',1,'SSD1306_RDL']]],
   ['oledupdate_53',['oledupdate',['../classERMCH1115.html#a20d1d323a135ddaa55d5d5951491bf73',1,'ERMCH1115::OLEDupdate()'],['../classSH110X__RDL.html#a1bbbc98ca2999c296776c28099036c02',1,'SH110X_RDL::OLEDupdate()'],['../classSSD1306__RDL.html#a359afe80f9e4521a6af69917839b21b7',1,'SSD1306_RDL::OLEDupdate()']]],
-  ['operator_3c_3c_54',['operator&lt;&lt;',['../utility__data__RDL_8hpp.html#a37984aafdacf0613511266581bf80f93',1,'rdlib_log']]]
+  ['operator_3c_3c_54',['operator&lt;&lt;',['../namespacerdlib__log.html#a37984aafdacf0613511266581bf80f93',1,'rdlib_log']]]
 ];

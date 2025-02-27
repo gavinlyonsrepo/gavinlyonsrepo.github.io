@@ -16,8 +16,8 @@ var searchData=
   ['scroll_5fframe_5f6_13',['SCROLL_FRAME_6',['../classSSD1331__OLED.html#a93c1687b7733b65c8af6662d865d5c28a3de4ccd3ee61b4b3088fc5419b19cd7f',1,'SSD1331_OLED']]],
   ['sh1106_5fic_14',['SH1106_IC',['../classSH110X__RDL.html#ae48df795ea52acda8ba8ae30c9bc32c6a98d42388ca41696c69a4f696fd7dc92e',1,'SH110X_RDL']]],
   ['sh1107_5fic_15',['SH1107_IC',['../classSH110X__RDL.html#ae48df795ea52acda8ba8ae30c9bc32c6a5aae61a579093f5a02123768e161be75',1,'SH110X_RDL']]],
-  ['shapescreenbounds_16',['ShapeScreenBounds',['../common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a7d470e5d59985355fb8ad2e07098efe8',1,'rdlib']]],
-  ['spiclosefailure_17',['SPICloseFailure',['../common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a6169a81d0ae5688c76efad17712818f9',1,'rdlib']]],
-  ['spiopenfailure_18',['SPIOpenFailure',['../common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5ae2f52411247decd2656308eab208c8f8',1,'rdlib']]],
-  ['success_19',['Success',['../common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69',1,'rdlib']]]
+  ['shapescreenbounds_16',['ShapeScreenBounds',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a7d470e5d59985355fb8ad2e07098efe8',1,'rdlib']]],
+  ['spiclosefailure_17',['SPICloseFailure',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a6169a81d0ae5688c76efad17712818f9',1,'rdlib']]],
+  ['spiopenfailure_18',['SPIOpenFailure',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5ae2f52411247decd2656308eab208c8f8',1,'rdlib']]],
+  ['success_19',['Success',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69',1,'rdlib']]]
 ];

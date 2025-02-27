@@ -28,5 +28,5 @@ var searchData=
   ['rdlc_5ftan_25',['RDLC_TAN',['../classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3ca599f91f95bf3d25166991a93027eabe2',1,'color16_graphics']]],
   ['rdlc_5fwhite_26',['RDLC_WHITE',['../classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3cac9cb88a82d75fdbb23ce8e90f36244ff',1,'color16_graphics']]],
   ['rdlc_5fyellow_27',['RDLC_YELLOW',['../classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3ca08dc7c8e8bf8790d02f32dcb6b1d6534',1,'color16_graphics']]],
-  ['reserved_28',['Reserved',['../common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a475ebe8d4c6583a60e2444cd01625b0c',1,'rdlib']]]
+  ['reserved_28',['Reserved',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a475ebe8d4c6583a60e2444cd01625b0c',1,'rdlib']]]
 ];

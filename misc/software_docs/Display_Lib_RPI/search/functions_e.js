@@ -8,5 +8,5 @@ var searchData=
   ['readkey16_5',['ReadKey16',['../classTM1638plus__Model2.html#a408f81481670ab3aae346f41aa494559',1,'TM1638plus_Model2']]],
   ['readkey16two_6',['ReadKey16Two',['../classTM1638plus__Model2.html#af8686814f4ea89080b74694546cb5e8b',1,'TM1638plus_Model2']]],
   ['reset_7',['reset',['../classTM1638plus__common.html#ad6cfc82e91a68bbddf0abafabc35e0e5',1,'TM1638plus_common']]],
-  ['returncodetotext_8',['ReturnCodetoText',['../common__data__RDL_8hpp.html#a0a371c2969cb1c26592f5c930a1b7411',1,'rdlib']]]
+  ['returncodetotext_8',['ReturnCodetoText',['../namespacerdlib.html#a0a371c2969cb1c26592f5c930a1b7411',1,'rdlib']]]
 ];

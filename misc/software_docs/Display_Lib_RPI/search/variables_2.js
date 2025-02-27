@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['debug_5fenabled_0',['DEBUG_ENABLED',['../utility__data__RDL_8hpp.html#a9ed9f16ad0a9b4d26caa93d80ecf602a',1,'rdlib_config']]],
+  ['debug_5fenabled_0',['DEBUG_ENABLED',['../namespacerdlib__config.html#a9ed9f16ad0a9b4d26caa93d80ecf602a',1,'rdlib_config']]],
   ['dim_5fcontrastcolora_1',['Dim_ContrastColorA',['../structSSD1331__OLED_1_1Dim__Constrast__values__t.html#ade2d5d0055b044579c85ca2460b5a44d',1,'SSD1331_OLED::Dim_Constrast_values_t']]],
   ['dim_5fcontrastcolorb_2',['Dim_ContrastColorB',['../structSSD1331__OLED_1_1Dim__Constrast__values__t.html#a29d2284a82476152db94c4c936f4d065',1,'SSD1331_OLED::Dim_Constrast_values_t']]],
   ['dim_5fcontrastcolorc_3',['Dim_ContrastColorC',['../structSSD1331__OLED_1_1Dim__Constrast__values__t.html#af99d7a4fb26665c2b7487bf194df4065',1,'SSD1331_OLED::Dim_Constrast_values_t']]],

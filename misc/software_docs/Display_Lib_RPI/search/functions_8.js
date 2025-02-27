@@ -7,7 +7,7 @@ var searchData=
   ['initscreensize_4',['InitScreenSize',['../classILI9341__TFT.html#a457a29f1c990f4876a4a5e82dd22445b',1,'ILI9341_TFT']]],
   ['initspi_5',['initspi',['../classILI9341__TFT.html#aaf0b2bb37d807674f71e4e65d8385aa8',1,'ILI9341_TFT::InitSPI(uint16_t CommDelay, int gpioDev)'],['../classILI9341__TFT.html#a832ef4d455e8a1b3e3d62f1d6714b216',1,'ILI9341_TFT::InitSPI(int device, int channel, int speed, int flags, int gpioDev)']]],
   ['invertdisplay_6',['invertDisplay',['../classILI9341__TFT.html#a28288d03ba49f7d5373068a04f2061c2',1,'ILI9341_TFT']]],
-  ['isdebugenabled_7',['isDebugEnabled',['../utility__data__RDL_8hpp.html#abe2e604f6629b7aa0fae5075cf5acba4',1,'rdlib_config']]],
+  ['isdebugenabled_7',['isDebugEnabled',['../namespacerdlib__config.html#abe2e604f6629b7aa0fae5075cf5acba4',1,'rdlib_config']]],
   ['ishardwarespi_8',['isHardwareSPI',['../classNOKIA__5110__RPI.html#a5f3d43709a37b533a24da25f81bbb099',1,'NOKIA_5110_RPI']]],
-  ['isloggingenabled_9',['isLoggingEnabled',['../utility__data__RDL_8hpp.html#aee8107725223e13d36ce460f5eab3e4f',1,'rdlib_config']]]
+  ['isloggingenabled_9',['isLoggingEnabled',['../namespacerdlib__config.html#aee8107725223e13d36ce460f5eab3e4f',1,'rdlib_config']]]
 ];

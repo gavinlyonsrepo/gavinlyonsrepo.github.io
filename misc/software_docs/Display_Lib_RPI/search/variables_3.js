@@ -43,7 +43,7 @@ var searchData=
   ['ermch1115_5fset_5fscroll_5fmode_40',['ERMCH1115_SET_SCROLL_MODE',['../classERMCH1115.html#a8e5e2d5efab65e83958e5307a8252a31',1,'ERMCH1115']]],
   ['ermch1115_5fspage_5fadr_5fset_41',['ERMCH1115_SPAGE_ADR_SET',['../classERMCH1115.html#a34adb07402a735887988e8f0303e2621',1,'ERMCH1115']]],
   ['ermch1115_5ftime_5fset_42',['ERMCH1115_TIME_SET',['../classERMCH1115.html#a0f2fd02102a157ad6ebc5d7dcb546e01',1,'ERMCH1115']]],
-  ['error_5flog_5fpath_43',['ERROR_LOG_PATH',['../utility__data__RDL_8hpp.html#a613f344347b23c3c77eb93e38566a127',1,'rdlib_config']]],
+  ['error_5flog_5fpath_43',['ERROR_LOG_PATH',['../namespacerdlib__config.html#a613f344347b23c3c77eb93e38566a127',1,'rdlib_config']]],
   ['errorlocation_44',['errorLocation',['../classrdlib__log_1_1logData.html#a0b507736ce4c05d53dcbbb818e305c01',1,'rdlib_log::logData']]],
   ['errorstring_45',['errorString',['../classrdlib__log_1_1logData.html#ae2f9dc981699c42bd6304f381d2f2c24',1,'rdlib_log::logData']]]
 ];

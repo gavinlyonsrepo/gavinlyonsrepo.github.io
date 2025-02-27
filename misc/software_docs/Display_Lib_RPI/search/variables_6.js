@@ -15,5 +15,5 @@ var searchData=
   ['lcd_5fsetxaddr_12',['LCD_SETXADDR',['../classNOKIA__5110__RPI.html#abe103b24f11ddf667d822ffe76fcd613',1,'NOKIA_5110_RPI']]],
   ['lcd_5fsetyaddr_13',['LCD_SETYADDR',['../classNOKIA__5110__RPI.html#aefaa002d0277fae0e0a559151b0b3b59',1,'NOKIA_5110_RPI']]],
   ['lcddisplaybuffer_14',['LCDDisplayBuffer',['../classNOKIA__5110__RPI.html#a39567390899d58e1a3a8c1d6e29c707c',1,'NOKIA_5110_RPI']]],
-  ['logging_5fenabled_15',['LOGGING_ENABLED',['../utility__data__RDL_8hpp.html#a19462c24a685ac15dbecd9eea8d1b287',1,'rdlib_config']]]
+  ['logging_5fenabled_15',['LOGGING_ENABLED',['../namespacerdlib__config.html#a19462c24a685ac15dbecd9eea8d1b287',1,'rdlib_config']]]
 ];

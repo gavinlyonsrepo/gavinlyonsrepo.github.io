@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['i2cbeginfail_0',['I2CbeginFail',['../common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a4ab181270483a327c46816d4e874ad8b',1,'rdlib']]],
-  ['i2cclosefail_1',['I2CcloseFail',['../common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5ab455ae2c02e4c1e79b7dcc929d60cba2',1,'rdlib']]],
+  ['i2cbeginfail_0',['I2CbeginFail',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a4ab181270483a327c46816d4e874ad8b',1,'rdlib']]],
+  ['i2cclosefail_1',['I2CcloseFail',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5ab455ae2c02e4c1e79b7dcc929d60cba2',1,'rdlib']]],
   ['intensitydefault_2',['IntensityDefault',['../classMAX7219__SS__RPI.html#a5b9b5d28ece169dea457918a75ec0fd0a693471eaa0596acc2129aa544696c5e7',1,'MAX7219_SS_RPI']]],
   ['intensitymax_3',['IntensityMax',['../classMAX7219__SS__RPI.html#a5b9b5d28ece169dea457918a75ec0fd0a7a96d8c8e0f363554b0f1c59ccd02f16',1,'MAX7219_SS_RPI']]],
   ['intensitymin_4',['IntensityMin',['../classMAX7219__SS__RPI.html#a5b9b5d28ece169dea457918a75ec0fd0a47fe6956fcedc2047de3f92a3397baca',1,'MAX7219_SS_RPI']]],
