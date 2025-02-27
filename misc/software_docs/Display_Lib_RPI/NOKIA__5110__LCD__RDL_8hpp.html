@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -76,8 +76,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle"><div class="title">NOKIA_5110_LCD_RDL.hpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -86,7 +85,6 @@ $(function() {
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;cstdint&gt;</code><br />
 <code>#include &lt;cstdbool&gt;</code><br />
-<code>#include &lt;stdarg.h&gt;</code><br />
 <code>#include &lt;cstdio&gt;</code><br />
 <code>#include &lt;lgpio.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="bicolor__graphics__RDL_8hpp_source.html">bicolor_graphics_RDL.hpp</a>&quot;</code><br />
@@ -98,214 +96,11 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNOKIA__5110__RPI.html">NOKIA_5110_RPI</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class Controls SPI comms and LCD functionality.  <a href="classNOKIA__5110__RPI.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:aaef882ae70d1f485cd132815d9716111" id="r_aaef882ae70d1f485cd132815d9716111"><td class="memItemLeft" align="right" valign="top"><a id="aaef882ae70d1f485cd132815d9716111" name="aaef882ae70d1f485cd132815d9716111"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_FUNCTIONSET</b>&#160;&#160;&#160;0x20 /** LCD function set*/</td></tr>
-<tr class="separator:aaef882ae70d1f485cd132815d9716111"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37e67f9136000e6a402ec6a59163ac75" id="r_a37e67f9136000e6a402ec6a59163ac75"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="NOKIA__5110__LCD__RDL_8hpp.html#a37e67f9136000e6a402ec6a59163ac75">LCD_POWERDOWN</a>&#160;&#160;&#160;0x04</td></tr>
-<tr class="separator:a37e67f9136000e6a402ec6a59163ac75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3147f4736f3c4bc12c5ac628f0f580ae" id="r_a3147f4736f3c4bc12c5ac628f0f580ae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="NOKIA__5110__LCD__RDL_8hpp.html#a3147f4736f3c4bc12c5ac628f0f580ae">LCD_ENTRYMODE</a>&#160;&#160;&#160;0x02</td></tr>
-<tr class="separator:a3147f4736f3c4bc12c5ac628f0f580ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ac66432873953843b9c72bb5b0494a8" id="r_a2ac66432873953843b9c72bb5b0494a8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="NOKIA__5110__LCD__RDL_8hpp.html#a2ac66432873953843b9c72bb5b0494a8">LCD_EXTENDEDINSTRUCTION</a>&#160;&#160;&#160;0x01</td></tr>
-<tr class="separator:a2ac66432873953843b9c72bb5b0494a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfb8b2b8b8a08d7313504d7a4f89d99f" id="r_adfb8b2b8b8a08d7313504d7a4f89d99f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="NOKIA__5110__LCD__RDL_8hpp.html#adfb8b2b8b8a08d7313504d7a4f89d99f">LCD_DISPLAYCONTROL</a>&#160;&#160;&#160;0x08</td></tr>
-<tr class="separator:adfb8b2b8b8a08d7313504d7a4f89d99f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac760d1d7bc23b070ebc73341060d585d" id="r_ac760d1d7bc23b070ebc73341060d585d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="NOKIA__5110__LCD__RDL_8hpp.html#ac760d1d7bc23b070ebc73341060d585d">LCD_DISPLAYBLANK</a>&#160;&#160;&#160;0x00</td></tr>
-<tr class="separator:ac760d1d7bc23b070ebc73341060d585d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a203b8cb39bf5af09672c0c9382be660d" id="r_a203b8cb39bf5af09672c0c9382be660d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="NOKIA__5110__LCD__RDL_8hpp.html#a203b8cb39bf5af09672c0c9382be660d">LCD_DISPLAYNORMAL</a>&#160;&#160;&#160;0x04</td></tr>
-<tr class="separator:a203b8cb39bf5af09672c0c9382be660d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a037ec2df97a2b5e06f7e9b8c5bc4579e" id="r_a037ec2df97a2b5e06f7e9b8c5bc4579e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="NOKIA__5110__LCD__RDL_8hpp.html#a037ec2df97a2b5e06f7e9b8c5bc4579e">LCD_DISPLAYALLON</a>&#160;&#160;&#160;0x01</td></tr>
-<tr class="separator:a037ec2df97a2b5e06f7e9b8c5bc4579e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f5e781d5e3266efccbe0b0eb917f121" id="r_a9f5e781d5e3266efccbe0b0eb917f121"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="NOKIA__5110__LCD__RDL_8hpp.html#a9f5e781d5e3266efccbe0b0eb917f121">LCD_DISPLAYINVERTED</a>&#160;&#160;&#160;0x05</td></tr>
-<tr class="separator:a9f5e781d5e3266efccbe0b0eb917f121"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e9446289b17d14e60e7d218ba725ec3" id="r_a3e9446289b17d14e60e7d218ba725ec3"><td class="memItemLeft" align="right" valign="top"><a id="a3e9446289b17d14e60e7d218ba725ec3" name="a3e9446289b17d14e60e7d218ba725ec3"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_SETYADDR</b>&#160;&#160;&#160;0x40</td></tr>
-<tr class="separator:a3e9446289b17d14e60e7d218ba725ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45ad79e9272383e4e0ea5e528ec4b4ed" id="r_a45ad79e9272383e4e0ea5e528ec4b4ed"><td class="memItemLeft" align="right" valign="top"><a id="a45ad79e9272383e4e0ea5e528ec4b4ed" name="a45ad79e9272383e4e0ea5e528ec4b4ed"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_SETXADDR</b>&#160;&#160;&#160;0x80</td></tr>
-<tr class="separator:a45ad79e9272383e4e0ea5e528ec4b4ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6141eefea9398a2c4f52833ca5f1f8af" id="r_a6141eefea9398a2c4f52833ca5f1f8af"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="NOKIA__5110__LCD__RDL_8hpp.html#a6141eefea9398a2c4f52833ca5f1f8af">LCD_SETTEMP</a>&#160;&#160;&#160;0x04</td></tr>
-<tr class="separator:a6141eefea9398a2c4f52833ca5f1f8af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fccda530baf3b213f677249fd7ce6e7" id="r_a2fccda530baf3b213f677249fd7ce6e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="NOKIA__5110__LCD__RDL_8hpp.html#a2fccda530baf3b213f677249fd7ce6e7">LCD_CONTRAST</a>&#160;&#160;&#160;0xB0</td></tr>
-<tr class="separator:a2fccda530baf3b213f677249fd7ce6e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1657870ab8957a89094f479d96060c13" id="r_a1657870ab8957a89094f479d96060c13"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="NOKIA__5110__LCD__RDL_8hpp.html#a1657870ab8957a89094f479d96060c13">LCD_BIAS</a>&#160;&#160;&#160;0x13</td></tr>
-<tr class="separator:a1657870ab8957a89094f479d96060c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9079d0e449ef7a314e0b9b59d48f756" id="r_ab9079d0e449ef7a314e0b9b59d48f756"><td class="memItemLeft" align="right" valign="top"><a id="ab9079d0e449ef7a314e0b9b59d48f756" name="ab9079d0e449ef7a314e0b9b59d48f756"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_Rotate_swap_int16_t</b>(a,  b)&#160;&#160;&#160;{ int16_t t = a; a = b; b = t; }</td></tr>
-<tr class="separator:ab9079d0e449ef7a314e0b9b59d48f756"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Header file for NOKIA 5110 library to communicate with LCD Controls SPI and basic functionality Project Name: Display_Lib_RPI URL: <a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI">https://github.com/gavinlyonsrepo/Display_Lib_RPI</a>. </p>
 <dl class="section author"><dt>Author</dt><dd>Gavin Lyons </dd></dl>
-</div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a1657870ab8957a89094f479d96060c13" name="a1657870ab8957a89094f479d96060c13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1657870ab8957a89094f479d96060c13">&#9670;&#160;</a></span>LCD_BIAS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LCD_BIAS&#160;&#160;&#160;0x13</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>LCD Bias mode 1:48 0x12 to 0x14 </p>
-
-</div>
-</div>
-<a id="a2fccda530baf3b213f677249fd7ce6e7" name="a2fccda530baf3b213f677249fd7ce6e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fccda530baf3b213f677249fd7ce6e7">&#9670;&#160;</a></span>LCD_CONTRAST</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LCD_CONTRAST&#160;&#160;&#160;0xB0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>default value set LCD VOP contrast range 0xB1-BF </p>
-
-</div>
-</div>
-<a id="a037ec2df97a2b5e06f7e9b8c5bc4579e" name="a037ec2df97a2b5e06f7e9b8c5bc4579e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a037ec2df97a2b5e06f7e9b8c5bc4579e">&#9670;&#160;</a></span>LCD_DISPLAYALLON</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LCD_DISPLAYALLON&#160;&#160;&#160;0x01</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>all pixels on </p>
-
-</div>
-</div>
-<a id="ac760d1d7bc23b070ebc73341060d585d" name="ac760d1d7bc23b070ebc73341060d585d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac760d1d7bc23b070ebc73341060d585d">&#9670;&#160;</a></span>LCD_DISPLAYBLANK</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LCD_DISPLAYBLANK&#160;&#160;&#160;0x00</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Blank display </p>
-
-</div>
-</div>
-<a id="adfb8b2b8b8a08d7313504d7a4f89d99f" name="adfb8b2b8b8a08d7313504d7a4f89d99f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfb8b2b8b8a08d7313504d7a4f89d99f">&#9670;&#160;</a></span>LCD_DISPLAYCONTROL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LCD_DISPLAYCONTROL&#160;&#160;&#160;0x08</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Set display control </p>
-
-</div>
-</div>
-<a id="a9f5e781d5e3266efccbe0b0eb917f121" name="a9f5e781d5e3266efccbe0b0eb917f121"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f5e781d5e3266efccbe0b0eb917f121">&#9670;&#160;</a></span>LCD_DISPLAYINVERTED</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LCD_DISPLAYINVERTED&#160;&#160;&#160;0x05</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>display inverted </p>
-
-</div>
-</div>
-<a id="a203b8cb39bf5af09672c0c9382be660d" name="a203b8cb39bf5af09672c0c9382be660d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a203b8cb39bf5af09672c0c9382be660d">&#9670;&#160;</a></span>LCD_DISPLAYNORMAL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LCD_DISPLAYNORMAL&#160;&#160;&#160;0x04</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>normal mode display </p>
-
-</div>
-</div>
-<a id="a3147f4736f3c4bc12c5ac628f0f580ae" name="a3147f4736f3c4bc12c5ac628f0f580ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3147f4736f3c4bc12c5ac628f0f580ae">&#9670;&#160;</a></span>LCD_ENTRYMODE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LCD_ENTRYMODE&#160;&#160;&#160;0x02</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>LCD entry mode </p>
-
-</div>
-</div>
-<a id="a2ac66432873953843b9c72bb5b0494a8" name="a2ac66432873953843b9c72bb5b0494a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ac66432873953843b9c72bb5b0494a8">&#9670;&#160;</a></span>LCD_EXTENDEDINSTRUCTION</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LCD_EXTENDEDINSTRUCTION&#160;&#160;&#160;0x01</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>LCD get into the EXTENDED mode when combined with Function set </p>
-
-</div>
-</div>
-<a id="a37e67f9136000e6a402ec6a59163ac75" name="a37e67f9136000e6a402ec6a59163ac75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37e67f9136000e6a402ec6a59163ac75">&#9670;&#160;</a></span>LCD_POWERDOWN</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LCD_POWERDOWN&#160;&#160;&#160;0x04</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>LCD power off </p>
-
-</div>
-</div>
-<a id="a6141eefea9398a2c4f52833ca5f1f8af" name="a6141eefea9398a2c4f52833ca5f1f8af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6141eefea9398a2c4f52833ca5f1f8af">&#9670;&#160;</a></span>LCD_SETTEMP</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LCD_SETTEMP&#160;&#160;&#160;0x04</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>set temperature coefficient </p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8

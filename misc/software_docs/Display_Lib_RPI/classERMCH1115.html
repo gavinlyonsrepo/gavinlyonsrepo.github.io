@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -72,9 +72,11 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classERMCH1115-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">ERMCH1115 Class Reference</div></div>
 </div><!--header-->
@@ -99,6 +101,12 @@ Inheritance diagram for ERMCH1115:</div>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structERMCH1115_1_1ERMCH1115__Delays__t.html">ERMCH1115_Delays_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct to hold delay values used in driver.  <a href="structERMCH1115_1_1ERMCH1115__Delays__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af5f6414bc90dd1f7f4cbf7102c170d4f" id="r_af5f6414bc90dd1f7f4cbf7102c170d4f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#af5f6414bc90dd1f7f4cbf7102c170d4f">ERMCH1115</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">oledwidth</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">oledheight</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">rst</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">dc</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">cs</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">sclk</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">din</a>)</td></tr>
@@ -110,32 +118,33 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acab6f3a96247937ab6b5c31ea4ec360d" id="r_acab6f3a96247937ab6b5c31ea4ec360d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">virtual</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#acab6f3a96247937ab6b5c31ea4ec360d">drawPixel</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> colour) <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">override</a></td></tr>
 <tr class="memdesc:acab6f3a96247937ab6b5c31ea4ec360d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a Pixel to the screen , overides the graphics library.  <br /></td></tr>
 <tr class="separator:acab6f3a96247937ab6b5c31ea4ec360d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad021a64161597d2e08b79055190a7948" id="r_ad021a64161597d2e08b79055190a7948"><td class="memItemLeft" align="right" valign="top"><a id="ad021a64161597d2e08b79055190a7948" name="ad021a64161597d2e08b79055190a7948"></a>
-<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>OLEDupdate</b> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
-<tr class="memdesc:ad021a64161597d2e08b79055190a7948"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the OLED i.e. writes buffer to the screen <br /></td></tr>
-<tr class="separator:ad021a64161597d2e08b79055190a7948"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f7b395a506806b3ad5cae423e25a1f2" id="r_a9f7b395a506806b3ad5cae423e25a1f2"><td class="memItemLeft" align="right" valign="top"><a id="a9f7b395a506806b3ad5cae423e25a1f2" name="a9f7b395a506806b3ad5cae423e25a1f2"></a>
-<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>OLEDclearBuffer</b> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
-<tr class="memdesc:a9f7b395a506806b3ad5cae423e25a1f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">clears the active shared buffer i.e. does NOT write to the screen <br /></td></tr>
-<tr class="separator:a9f7b395a506806b3ad5cae423e25a1f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20ea79a48c870533fa79c90c6d459199" id="r_a20ea79a48c870533fa79c90c6d459199"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a20ea79a48c870533fa79c90c6d459199">OLEDBufferScreen</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">data</a>)</td></tr>
-<tr class="memdesc:a20ea79a48c870533fa79c90c6d459199"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a bitmap to the screen.  <br /></td></tr>
-<tr class="separator:a20ea79a48c870533fa79c90c6d459199"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7b0023e400949ec93eb0f7d78c28a78" id="r_ad7b0023e400949ec93eb0f7d78c28a78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#ad7b0023e400949ec93eb0f7d78c28a78">OLEDSetBufferPtr</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classbicolor__graphics.html#a07962ad272aa95287f47e6d86f9838cb">width</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classbicolor__graphics.html#a9d5ff76b0e168914229824009f568288">height</a>, std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">buffer</a>)</td></tr>
+<tr class="memdesc:ad7b0023e400949ec93eb0f7d78c28a78"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the buffer pointer to the users screen data buffer  <br /></td></tr>
+<tr class="separator:ad7b0023e400949ec93eb0f7d78c28a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20d1d323a135ddaa55d5d5951491bf73" id="r_a20d1d323a135ddaa55d5d5951491bf73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a20d1d323a135ddaa55d5d5951491bf73">OLEDupdate</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
+<tr class="memdesc:a20d1d323a135ddaa55d5d5951491bf73"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the OLED i.e. writes buffer to the screen  <br /></td></tr>
+<tr class="separator:a20d1d323a135ddaa55d5d5951491bf73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5b16e1e7b9bc02e4f23c0fedc8446ea" id="r_ae5b16e1e7b9bc02e4f23c0fedc8446ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#ae5b16e1e7b9bc02e4f23c0fedc8446ea">OLEDclearBuffer</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
+<tr class="memdesc:ae5b16e1e7b9bc02e4f23c0fedc8446ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">clears the buffer memory i.e. does NOT write to the screen  <br /></td></tr>
+<tr class="separator:ae5b16e1e7b9bc02e4f23c0fedc8446ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81788305fa01c5644cc39124e5e1c686" id="r_a81788305fa01c5644cc39124e5e1c686"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a81788305fa01c5644cc39124e5e1c686">OLEDBufferScreen</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt; data)</td></tr>
+<tr class="memdesc:a81788305fa01c5644cc39124e5e1c686"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a bitmap to the screen.  <br /></td></tr>
+<tr class="separator:a81788305fa01c5644cc39124e5e1c686"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abce84b222f376568a559c132e9316723" id="r_abce84b222f376568a559c132e9316723"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#abce84b222f376568a559c132e9316723">OLEDFillScreen</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">pixel</a>)</td></tr>
 <tr class="memdesc:abce84b222f376568a559c132e9316723"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill the screen NOT the buffer with a datapattern.  <br /></td></tr>
 <tr class="separator:abce84b222f376568a559c132e9316723"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34d846fbe41f1fdc455e66d4a171d650" id="r_a34d846fbe41f1fdc455e66d4a171d650"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a34d846fbe41f1fdc455e66d4a171d650">OLEDFillPage</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">page_num</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">pixels</a>)</td></tr>
 <tr class="memdesc:a34d846fbe41f1fdc455e66d4a171d650"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill the chosen page(0-7) with a datapattern.  <br /></td></tr>
 <tr class="separator:a34d846fbe41f1fdc455e66d4a171d650"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6331a3d7fc8b7ae41e9f86c221134bd2" id="r_a6331a3d7fc8b7ae41e9f86c221134bd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a6331a3d7fc8b7ae41e9f86c221134bd2">OLEDBitmap</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">data</a>)</td></tr>
-<tr class="memdesc:a6331a3d7fc8b7ae41e9f86c221134bd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a bitmap to the screen.  <br /></td></tr>
-<tr class="separator:a6331a3d7fc8b7ae41e9f86c221134bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa069f2ee095532f80ba9b3036fa6ec0" id="r_aaa069f2ee095532f80ba9b3036fa6ec0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#aaa069f2ee095532f80ba9b3036fa6ec0">OLEDbegin</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">contrast</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">gpioDev</a>)</td></tr>
-<tr class="memdesc:aaa069f2ee095532f80ba9b3036fa6ec0"><td class="mdescLeft">&#160;</td><td class="mdescRight">begin Method initialise OLED for software SPI  <br /></td></tr>
-<tr class="separator:aaa069f2ee095532f80ba9b3036fa6ec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bfe5bc07511d43df893bf42e0241963" id="r_a8bfe5bc07511d43df893bf42e0241963"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a8bfe5bc07511d43df893bf42e0241963">OLEDbegin</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">contrast</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">device</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">channel</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">speed</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">flags</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">gpioDev</a>)</td></tr>
-<tr class="memdesc:a8bfe5bc07511d43df893bf42e0241963"><td class="mdescLeft">&#160;</td><td class="mdescRight">begin Method initialise OLED for Hardware SPI  <br /></td></tr>
-<tr class="separator:a8bfe5bc07511d43df893bf42e0241963"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac587a1ac931025b7d27450699e59076a" id="r_ac587a1ac931025b7d27450699e59076a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#ac587a1ac931025b7d27450699e59076a">OLEDBitmap</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt; data)</td></tr>
+<tr class="memdesc:ac587a1ac931025b7d27450699e59076a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a bitmap to the screen.  <br /></td></tr>
+<tr class="separator:ac587a1ac931025b7d27450699e59076a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc35fbb16342c57ece2e6837730b5036" id="r_abc35fbb16342c57ece2e6837730b5036"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#abc35fbb16342c57ece2e6837730b5036">OLEDbegin</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">contrast</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">gpioDev</a>)</td></tr>
+<tr class="memdesc:abc35fbb16342c57ece2e6837730b5036"><td class="mdescLeft">&#160;</td><td class="mdescRight">begin Method initialise OLED for software SPI  <br /></td></tr>
+<tr class="separator:abc35fbb16342c57ece2e6837730b5036"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c0d56cf00e8e131dac95a88ae967314" id="r_a4c0d56cf00e8e131dac95a88ae967314"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a4c0d56cf00e8e131dac95a88ae967314">OLEDbegin</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">contrast</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">device</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">channel</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">speed</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">flags</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">gpioDev</a>)</td></tr>
+<tr class="memdesc:a4c0d56cf00e8e131dac95a88ae967314"><td class="mdescLeft">&#160;</td><td class="mdescRight">begin Method initialise OLED for Hardware SPI  <br /></td></tr>
+<tr class="separator:a4c0d56cf00e8e131dac95a88ae967314"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a114c5574720ce08ed1386b6fea482eb6" id="r_a114c5574720ce08ed1386b6fea482eb6"><td class="memItemLeft" align="right" valign="top"><a id="a114c5574720ce08ed1386b6fea482eb6" name="a114c5574720ce08ed1386b6fea482eb6"></a>
 <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>OLEDinit</b> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
 <tr class="memdesc:a114c5574720ce08ed1386b6fea482eb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called from OLEDbegin carries out Power on sequence and register init. <br /></td></tr>
@@ -153,24 +162,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae2c0ae8cf0e608823e1190996fbd4ca5" id="r_ae2c0ae8cf0e608823e1190996fbd4ca5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#ae2c0ae8cf0e608823e1190996fbd4ca5">OLEDFlip</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">on</a>)</td></tr>
 <tr class="memdesc:ae2c0ae8cf0e608823e1190996fbd4ca5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotates the display vertically, A 180 degree 'flip'.  <br /></td></tr>
 <tr class="separator:ae2c0ae8cf0e608823e1190996fbd4ca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbe582d6f15d18690f21317112affcde" id="r_adbe582d6f15d18690f21317112affcde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#adbe582d6f15d18690f21317112affcde">OLEDContrast</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">contrast</a>=<a class="el" href="ERM1__CH1115__OLED__RDL_8hpp.html#a3b3d74f3eb4d948403964542350cf83d">ERMCH1115_CONTRAST_DATA_DEFAULT</a>)</td></tr>
+<tr class="memitem:adbe582d6f15d18690f21317112affcde" id="r_adbe582d6f15d18690f21317112affcde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#adbe582d6f15d18690f21317112affcde">OLEDContrast</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">contrast</a>=<a class="el" href="classERMCH1115.html#a7b294c2ad39af0d9f53c14bb23c02efa">ERMCH1115_CONTRAST_DATA_DEFAULT</a>)</td></tr>
 <tr class="memdesc:adbe582d6f15d18690f21317112affcde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adjusts contrast.  <br /></td></tr>
 <tr class="separator:adbe582d6f15d18690f21317112affcde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e3e9e41fb936755090c2a8c3c64cb12" id="r_a5e3e9e41fb936755090c2a8c3c64cb12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a5e3e9e41fb936755090c2a8c3c64cb12">OLEDscroll</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bits</a>)</td></tr>
 <tr class="memdesc:a5e3e9e41fb936755090c2a8c3c64cb12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns on Horizontal scroll.  <br /></td></tr>
 <tr class="separator:a5e3e9e41fb936755090c2a8c3c64cb12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0408198c8cf6d6e6c9581a0487898a7a" id="r_a0408198c8cf6d6e6c9581a0487898a7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a0408198c8cf6d6e6c9581a0487898a7a">OLEDscrollSetup</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">Timeinterval</a>=<a class="el" href="ERM1__CH1115__OLED__RDL_8hpp.html#a46e5b93dd9c6b0cf782d6f32863716ae">ERMCH1115_TIME_SET</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">Direction</a>=<a class="el" href="ERM1__CH1115__OLED__RDL_8hpp.html#ae2096dca221bea24856288c35133ebf9">ERMCH1115_SCROLL_SETUP</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">mode</a>=<a class="el" href="ERM1__CH1115__OLED__RDL_8hpp.html#adaff7fc8db14e4b97ea4d6fb39e773af">ERMCH1115_SET_SCROLL_MODE</a>)</td></tr>
+<tr class="memitem:a0408198c8cf6d6e6c9581a0487898a7a" id="r_a0408198c8cf6d6e6c9581a0487898a7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a0408198c8cf6d6e6c9581a0487898a7a">OLEDscrollSetup</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">Timeinterval</a>=<a class="el" href="classERMCH1115.html#a0f2fd02102a157ad6ebc5d7dcb546e01">ERMCH1115_TIME_SET</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">Direction</a>=<a class="el" href="classERMCH1115.html#afe11c2158bbd60e22ed2cab3bf0de319">ERMCH1115_SCROLL_SETUP</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">mode</a>=<a class="el" href="classERMCH1115.html#a8e5e2d5efab65e83958e5307a8252a31">ERMCH1115_SET_SCROLL_MODE</a>)</td></tr>
 <tr class="memdesc:a0408198c8cf6d6e6c9581a0487898a7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up Horizontal Scroll.  <br /></td></tr>
 <tr class="separator:a0408198c8cf6d6e6c9581a0487898a7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48d7aa7ef74bf749d8da41bff5db5825" id="r_a48d7aa7ef74bf749d8da41bff5db5825"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a48d7aa7ef74bf749d8da41bff5db5825">OLEDfadeEffect</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bits</a>=<a class="el" href="ERM1__CH1115__OLED__RDL_8hpp.html#a06ba65560d354c78073d2a592565d61b">ERMCH1115_BREATHEFFECT_DATA</a>)</td></tr>
+<tr class="memitem:a48d7aa7ef74bf749d8da41bff5db5825" id="r_a48d7aa7ef74bf749d8da41bff5db5825"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a48d7aa7ef74bf749d8da41bff5db5825">OLEDfadeEffect</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bits</a>=<a class="el" href="classERMCH1115.html#af5473fe8519d0069ede07a9df10adc81">ERMCH1115_BREATHEFFECT_DATA</a>)</td></tr>
 <tr class="memdesc:a48d7aa7ef74bf749d8da41bff5db5825"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns on fade effect.  <br /></td></tr>
 <tr class="separator:a48d7aa7ef74bf749d8da41bff5db5825"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83d22d2930fa796c047f9a9374d95e14" id="r_a83d22d2930fa796c047f9a9374d95e14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a83d22d2930fa796c047f9a9374d95e14">OLEDIsSleeping</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
 <tr class="memdesc:a83d22d2930fa796c047f9a9374d95e14"><td class="mdescLeft">&#160;</td><td class="mdescRight">getting for _sleep member . is OLED in sleep mode  <br /></td></tr>
 <tr class="separator:a83d22d2930fa796c047f9a9374d95e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11aff758eefb990c03c16d24dbca9053" id="r_a11aff758eefb990c03c16d24dbca9053"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a11aff758eefb990c03c16d24dbca9053">OLEDSPIoff</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
-<tr class="memdesc:a11aff758eefb990c03c16d24dbca9053"><td class="mdescLeft">&#160;</td><td class="mdescRight">stops HW spi operations  <br /></td></tr>
-<tr class="separator:a11aff758eefb990c03c16d24dbca9053"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1fc20eb6da7a89f057a8d53d915e5bf" id="r_ae1fc20eb6da7a89f057a8d53d915e5bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#ae1fc20eb6da7a89f057a8d53d915e5bf">OLEDSPIoff</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
+<tr class="memdesc:ae1fc20eb6da7a89f057a8d53d915e5bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">stops HW spi operations  <br /></td></tr>
+<tr class="separator:ae1fc20eb6da7a89f057a8d53d915e5bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abed1c706c557d55c09cc018611e9bcdd" id="r_abed1c706c557d55c09cc018611e9bcdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#abed1c706c557d55c09cc018611e9bcdd">OLEDPowerDown</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
 <tr class="memdesc:abed1c706c557d55c09cc018611e9bcdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Power down function.  <br /></td></tr>
 <tr class="separator:abed1c706c557d55c09cc018611e9bcdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,9 +189,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a46821ffc57fd53d78b57c763ef7e3c63" id="r_a46821ffc57fd53d78b57c763ef7e3c63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a46821ffc57fd53d78b57c763ef7e3c63">OLEDHighFreqDelaySet</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>)</td></tr>
 <tr class="memdesc:a46821ffc57fd53d78b57c763ef7e3c63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Freq delay used in SW SPI setter, uS delay used in SW SPI method.  <br /></td></tr>
 <tr class="separator:a46821ffc57fd53d78b57c763ef7e3c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a491357e903e7a3e63b85fc7fd2ff2dce" id="r_a491357e903e7a3e63b85fc7fd2ff2dce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a491357e903e7a3e63b85fc7fd2ff2dce">OLEDSetBufferPtr</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classbicolor__graphics.html#a07962ad272aa95287f47e6d86f9838cb">width</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classbicolor__graphics.html#a9d5ff76b0e168914229824009f568288">height</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">pBuffer</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">sizeOfBuffer</a>)</td></tr>
-<tr class="memdesc:a491357e903e7a3e63b85fc7fd2ff2dce"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the buffer pointer to the users screen data buffer  <br /></td></tr>
-<tr class="separator:a491357e903e7a3e63b85fc7fd2ff2dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classbicolor__graphics"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classbicolor__graphics')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classbicolor__graphics.html">bicolor_graphics</a></td></tr>
 <tr class="memitem:a9fb0bc74b698471d3e42baceffef3b3a inherit pub_methods_classbicolor__graphics" id="r_a9fb0bc74b698471d3e42baceffef3b3a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a9fb0bc74b698471d3e42baceffef3b3a">bicolor_graphics</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>)</td></tr>
 <tr class="memdesc:a9fb0bc74b698471d3e42baceffef3b3a inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">init the Display Graphics class object  <br /></td></tr>
@@ -234,12 +240,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3108ca60f44bff6619b4fffa10aa3c53 inherit pub_methods_classbicolor__graphics" id="r_a3108ca60f44bff6619b4fffa10aa3c53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a3108ca60f44bff6619b4fffa10aa3c53">setCursor</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>)</td></tr>
 <tr class="memdesc:a3108ca60f44bff6619b4fffa10aa3c53 inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the cursor position  <br /></td></tr>
 <tr class="separator:a3108ca60f44bff6619b4fffa10aa3c53 inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac30da9b6d938e230be299d306bb21e0f inherit pub_methods_classbicolor__graphics" id="r_ac30da9b6d938e230be299d306bb21e0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ac30da9b6d938e230be299d306bb21e0f">setRotation</a> (<a class="el" href="bicolor__graphics__RDL_8hpp.html#a4d612119d782001a8ee3bbd4105e3376">displayBC_rotate_e</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">m</a>)</td></tr>
+<tr class="memitem:ac30da9b6d938e230be299d306bb21e0f inherit pub_methods_classbicolor__graphics" id="r_ac30da9b6d938e230be299d306bb21e0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ac30da9b6d938e230be299d306bb21e0f">setRotation</a> (<a class="el" href="classbicolor__graphics.html#a33fd29a1de3b1229671053c7747cef59">displayBC_rotate_e</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">m</a>)</td></tr>
 <tr class="memdesc:ac30da9b6d938e230be299d306bb21e0f inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the _rotation of the display.  <br /></td></tr>
 <tr class="separator:ac30da9b6d938e230be299d306bb21e0f inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56f599fcecd6accc8dca4486e1656bb5 inherit pub_methods_classbicolor__graphics" id="r_a56f599fcecd6accc8dca4486e1656bb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="bicolor__graphics__RDL_8hpp.html#a4d612119d782001a8ee3bbd4105e3376">displayBC_rotate_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a56f599fcecd6accc8dca4486e1656bb5">getRotation</a> ()</td></tr>
-<tr class="memdesc:a56f599fcecd6accc8dca4486e1656bb5 inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the _rotation of the display.  <br /></td></tr>
-<tr class="separator:a56f599fcecd6accc8dca4486e1656bb5 inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a349b3a77cc0c96a1d185fc8f43167983 inherit pub_methods_classbicolor__graphics" id="r_a349b3a77cc0c96a1d185fc8f43167983"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbicolor__graphics.html#a33fd29a1de3b1229671053c7747cef59">displayBC_rotate_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a349b3a77cc0c96a1d185fc8f43167983">getRotation</a> ()</td></tr>
+<tr class="memdesc:a349b3a77cc0c96a1d185fc8f43167983 inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the _rotation of the display.  <br /></td></tr>
+<tr class="separator:a349b3a77cc0c96a1d185fc8f43167983 inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d5ff76b0e168914229824009f568288 inherit pub_methods_classbicolor__graphics" id="r_a9d5ff76b0e168914229824009f568288"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a9d5ff76b0e168914229824009f568288">height</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>) <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a></td></tr>
 <tr class="memdesc:a9d5ff76b0e168914229824009f568288 inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the height of the display (per current _rotation)  <br /></td></tr>
 <tr class="separator:a9d5ff76b0e168914229824009f568288 inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -249,29 +255,29 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa2ed8571aa40aa8ef99caa8b5af0821c inherit pub_methods_classbicolor__graphics" id="r_aa2ed8571aa40aa8ef99caa8b5af0821c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">virtual</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#aa2ed8571aa40aa8ef99caa8b5af0821c">write</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>) <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">override</a></td></tr>
 <tr class="memdesc:aa2ed8571aa40aa8ef99caa8b5af0821c inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">write method used in the print class when user calls print  <br /></td></tr>
 <tr class="separator:aa2ed8571aa40aa8ef99caa8b5af0821c inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb91660d96d3ce49611686024e15fe9c inherit pub_methods_classbicolor__graphics" id="r_aeb91660d96d3ce49611686024e15fe9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#aeb91660d96d3ce49611686024e15fe9c">writeChar</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">value</a>)</td></tr>
-<tr class="memdesc:aeb91660d96d3ce49611686024e15fe9c inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write 1 character on display.  <br /></td></tr>
-<tr class="separator:aeb91660d96d3ce49611686024e15fe9c inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a146acbdcb2696e61b7c3cb360dbc7e inherit pub_methods_classbicolor__graphics" id="r_a9a146acbdcb2696e61b7c3cb360dbc7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a9a146acbdcb2696e61b7c3cb360dbc7e">writeCharString</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a> *<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">text</a>)</td></tr>
-<tr class="memdesc:a9a146acbdcb2696e61b7c3cb360dbc7e inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write Text character array on Display.  <br /></td></tr>
-<tr class="separator:a9a146acbdcb2696e61b7c3cb360dbc7e inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2e50d8086bd2c628e3e6c10d6d9a2ac inherit pub_methods_classbicolor__graphics" id="r_ac2e50d8086bd2c628e3e6c10d6d9a2ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ac2e50d8086bd2c628e3e6c10d6d9a2ac">writeChar</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">value</a>)</td></tr>
+<tr class="memdesc:ac2e50d8086bd2c628e3e6c10d6d9a2ac inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write 1 character on display.  <br /></td></tr>
+<tr class="separator:ac2e50d8086bd2c628e3e6c10d6d9a2ac inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a261bc4e6fc1d317a0a6499f4ea702539 inherit pub_methods_classbicolor__graphics" id="r_a261bc4e6fc1d317a0a6499f4ea702539"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a261bc4e6fc1d317a0a6499f4ea702539">writeCharString</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a> *<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">text</a>)</td></tr>
+<tr class="memdesc:a261bc4e6fc1d317a0a6499f4ea702539 inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write Text character array on Display.  <br /></td></tr>
+<tr class="separator:a261bc4e6fc1d317a0a6499f4ea702539 inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab541ef87aaaa3fdbf1ee04040acb101c inherit pub_methods_classbicolor__graphics" id="r_ab541ef87aaaa3fdbf1ee04040acb101c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ab541ef87aaaa3fdbf1ee04040acb101c">setTextWrap</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>)</td></tr>
 <tr class="memdesc:ab541ef87aaaa3fdbf1ee04040acb101c inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">turn on or off screen wrap of the text  <br /></td></tr>
 <tr class="separator:ab541ef87aaaa3fdbf1ee04040acb101c inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae315f54165346d4470a9fba192979891 inherit pub_methods_classbicolor__graphics" id="r_ae315f54165346d4470a9fba192979891"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ae315f54165346d4470a9fba192979891">setDrawBitmapAddr</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">mode</a>)</td></tr>
 <tr class="memdesc:ae315f54165346d4470a9fba192979891 inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the data addressing mode in drawBitmap function.  <br /></td></tr>
 <tr class="separator:ae315f54165346d4470a9fba192979891 inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5d1143159066619463fa17011a05ad5 inherit pub_methods_classbicolor__graphics" id="r_ac5d1143159066619463fa17011a05ad5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ac5d1143159066619463fa17011a05ad5">drawBitmap</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bitmap</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bg</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">sizeOfBitmap</a>)</td></tr>
-<tr class="memdesc:ac5d1143159066619463fa17011a05ad5 inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a 1-bit color bitmap.  <br /></td></tr>
-<tr class="separator:ac5d1143159066619463fa17011a05ad5 inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0b9252a23f50e0285e76529c93b4740 inherit pub_methods_classbicolor__graphics" id="r_ac0b9252a23f50e0285e76529c93b4740"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ac0b9252a23f50e0285e76529c93b4740">drawBitmap</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bitmap</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bg</a>)</td></tr>
+<tr class="memdesc:ac0b9252a23f50e0285e76529c93b4740 inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a 1-bit color bitmap.  <br /></td></tr>
+<tr class="separator:ac0b9252a23f50e0285e76529c93b4740 inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classdisplay__Fonts"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classdisplay__Fonts')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classdisplay__Fonts.html">display_Fonts</a></td></tr>
 <tr class="memitem:aa7b403a26a94f4e85a97ff7f4fbc853f inherit pub_methods_classdisplay__Fonts" id="r_aa7b403a26a94f4e85a97ff7f4fbc853f"><td class="memItemLeft" align="right" valign="top">
 &#160;</td><td class="memItemRight" valign="bottom"><b>display_Fonts</b> ()</td></tr>
 <tr class="memdesc:aa7b403a26a94f4e85a97ff7f4fbc853f inherit pub_methods_classdisplay__Fonts"><td class="mdescLeft">&#160;</td><td class="mdescRight">init the OLED font class object constructor <br /></td></tr>
 <tr class="separator:aa7b403a26a94f4e85a97ff7f4fbc853f inherit pub_methods_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba9c9563f1df935e61346ad1f1306155 inherit pub_methods_classdisplay__Fonts" id="r_aba9c9563f1df935e61346ad1f1306155"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#aba9c9563f1df935e61346ad1f1306155">setFont</a> (<a class="el" href="font__data__RDL_8hpp.html#a4e34a4baa30d127bc21926334fe5a365">display_Font_name_e</a>)</td></tr>
-<tr class="memdesc:aba9c9563f1df935e61346ad1f1306155 inherit pub_methods_classdisplay__Fonts"><td class="mdescLeft">&#160;</td><td class="mdescRight">SetFont.  <br /></td></tr>
-<tr class="separator:aba9c9563f1df935e61346ad1f1306155 inherit pub_methods_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af989da1fa05622390c727231ae9b425a inherit pub_methods_classdisplay__Fonts" id="r_af989da1fa05622390c727231ae9b425a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#af989da1fa05622390c727231ae9b425a">setFont</a> (<a class="el" href="font__data__RDL_8hpp.html#a4e34a4baa30d127bc21926334fe5a365">display_Font_name_e</a>)</td></tr>
+<tr class="memdesc:af989da1fa05622390c727231ae9b425a inherit pub_methods_classdisplay__Fonts"><td class="mdescLeft">&#160;</td><td class="mdescRight">SetFont.  <br /></td></tr>
+<tr class="separator:af989da1fa05622390c727231ae9b425a inherit pub_methods_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad95138537049721f2440f5d2d884e923 inherit pub_methods_classdisplay__Fonts" id="r_ad95138537049721f2440f5d2d884e923"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#ad95138537049721f2440f5d2d884e923">setInvertFont</a> (bool invertStatus)</td></tr>
 <tr class="memdesc:ad95138537049721f2440f5d2d884e923 inherit pub_methods_classdisplay__Fonts"><td class="mdescLeft">&#160;</td><td class="mdescRight">setInvertFont  <br /></td></tr>
 <tr class="separator:ad95138537049721f2440f5d2d884e923 inherit pub_methods_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -305,16 +311,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1e411d07a8ffec5faf7ce485bac0f029 inherit pub_methods_classPrint" id="r_a1e411d07a8ffec5faf7ce485bac0f029"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a1e411d07a8ffec5faf7ce485bac0f029">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a>)</td></tr>
 <tr class="memdesc:a1e411d07a8ffec5faf7ce485bac0f029 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an character  <br /></td></tr>
 <tr class="separator:a1e411d07a8ffec5faf7ce485bac0f029 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67acb421606e3a0915372d3472db9bd3 inherit pub_methods_classPrint" id="r_a67acb421606e3a0915372d3472db9bd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a67acb421606e3a0915372d3472db9bd3">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:a67acb421606e3a0915372d3472db9bd3 inherit pub_methods_classPrint" id="r_a67acb421606e3a0915372d3472db9bd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a67acb421606e3a0915372d3472db9bd3">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:a67acb421606e3a0915372d3472db9bd3 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an integer of base number system  <br /></td></tr>
 <tr class="separator:a67acb421606e3a0915372d3472db9bd3 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5b352ebfdb3c2c7adda4c354c74c5db inherit pub_methods_classPrint" id="r_ab5b352ebfdb3c2c7adda4c354c74c5db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ab5b352ebfdb3c2c7adda4c354c74c5db">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:ab5b352ebfdb3c2c7adda4c354c74c5db inherit pub_methods_classPrint" id="r_ab5b352ebfdb3c2c7adda4c354c74c5db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ab5b352ebfdb3c2c7adda4c354c74c5db">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:ab5b352ebfdb3c2c7adda4c354c74c5db inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned integer of base number system  <br /></td></tr>
 <tr class="separator:ab5b352ebfdb3c2c7adda4c354c74c5db inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaef5d39e88bb6460fc239c642790b655 inherit pub_methods_classPrint" id="r_aaef5d39e88bb6460fc239c642790b655"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#aaef5d39e88bb6460fc239c642790b655">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:aaef5d39e88bb6460fc239c642790b655 inherit pub_methods_classPrint" id="r_aaef5d39e88bb6460fc239c642790b655"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#aaef5d39e88bb6460fc239c642790b655">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:aaef5d39e88bb6460fc239c642790b655 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an long integer of base number system  <br /></td></tr>
 <tr class="separator:aaef5d39e88bb6460fc239c642790b655 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2fba632d40c18f847fc14510f9003fe inherit pub_methods_classPrint" id="r_ac2fba632d40c18f847fc14510f9003fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ac2fba632d40c18f847fc14510f9003fe">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:ac2fba632d40c18f847fc14510f9003fe inherit pub_methods_classPrint" id="r_ac2fba632d40c18f847fc14510f9003fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ac2fba632d40c18f847fc14510f9003fe">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:ac2fba632d40c18f847fc14510f9003fe inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned long integer of base number system  <br /></td></tr>
 <tr class="separator:ac2fba632d40c18f847fc14510f9003fe inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8b4c025786c820afe0a90aeea01c9c5 inherit pub_methods_classPrint" id="r_ae8b4c025786c820afe0a90aeea01c9c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ae8b4c025786c820afe0a90aeea01c9c5">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">double</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=2)</td></tr>
@@ -329,16 +335,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a554896a71162f967b5794401239d7a01 inherit pub_methods_classPrint" id="r_a554896a71162f967b5794401239d7a01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a554896a71162f967b5794401239d7a01">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a>)</td></tr>
 <tr class="memdesc:a554896a71162f967b5794401239d7a01 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an character followed by new line  <br /></td></tr>
 <tr class="separator:a554896a71162f967b5794401239d7a01 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3978528ddee1a7c701e69eaea2b9dd0c inherit pub_methods_classPrint" id="r_a3978528ddee1a7c701e69eaea2b9dd0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a3978528ddee1a7c701e69eaea2b9dd0c">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:a3978528ddee1a7c701e69eaea2b9dd0c inherit pub_methods_classPrint" id="r_a3978528ddee1a7c701e69eaea2b9dd0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a3978528ddee1a7c701e69eaea2b9dd0c">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:a3978528ddee1a7c701e69eaea2b9dd0c inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an integer of base number system followed by new line  <br /></td></tr>
 <tr class="separator:a3978528ddee1a7c701e69eaea2b9dd0c inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1324d4bb773895c8e34bbf81575536a inherit pub_methods_classPrint" id="r_ae1324d4bb773895c8e34bbf81575536a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ae1324d4bb773895c8e34bbf81575536a">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:ae1324d4bb773895c8e34bbf81575536a inherit pub_methods_classPrint" id="r_ae1324d4bb773895c8e34bbf81575536a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ae1324d4bb773895c8e34bbf81575536a">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:ae1324d4bb773895c8e34bbf81575536a inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned integer of base number system followed by new line  <br /></td></tr>
 <tr class="separator:ae1324d4bb773895c8e34bbf81575536a inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb52163d87b2401c87e40e9df60a57d6 inherit pub_methods_classPrint" id="r_adb52163d87b2401c87e40e9df60a57d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#adb52163d87b2401c87e40e9df60a57d6">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:adb52163d87b2401c87e40e9df60a57d6 inherit pub_methods_classPrint" id="r_adb52163d87b2401c87e40e9df60a57d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#adb52163d87b2401c87e40e9df60a57d6">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:adb52163d87b2401c87e40e9df60a57d6 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an long integer of base number system followed by new line  <br /></td></tr>
 <tr class="separator:adb52163d87b2401c87e40e9df60a57d6 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2e98cda15e864fbd6a6d85edb4b315d inherit pub_methods_classPrint" id="r_ac2e98cda15e864fbd6a6d85edb4b315d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ac2e98cda15e864fbd6a6d85edb4b315d">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:ac2e98cda15e864fbd6a6d85edb4b315d inherit pub_methods_classPrint" id="r_ac2e98cda15e864fbd6a6d85edb4b315d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ac2e98cda15e864fbd6a6d85edb4b315d">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:ac2e98cda15e864fbd6a6d85edb4b315d inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned long integer of base number system followed by new line  <br /></td></tr>
 <tr class="separator:ac2e98cda15e864fbd6a6d85edb4b315d inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56e976b079361b6021ef7c2bedb397a2 inherit pub_methods_classPrint" id="r_a56e976b079361b6021ef7c2bedb397a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a56e976b079361b6021ef7c2bedb397a2">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">double</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=2)</td></tr>
@@ -359,10 +365,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9044ad1fc884a89c0b85a43e3dc6b18b inherit pub_methods_classPrint"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPrint.html#a9044ad1fc884a89c0b85a43e3dc6b18b">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::vector&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> &gt; &amp;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">vec</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">format</a>=<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">defaultFormat</a>&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> &gt;())</td></tr>
 <tr class="memdesc:a9044ad1fc884a89c0b85a43e3dc6b18b inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s.">Print</a> a vector of elements followed by a newline.  <br /></td></tr>
 <tr class="separator:a9044ad1fc884a89c0b85a43e3dc6b18b inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e376c7a301a878bf25f522dff3cb813 inherit pub_methods_classPrint" id="r_a3e376c7a301a878bf25f522dff3cb813"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">typename</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> , <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a> N&gt; </td></tr>
+<tr class="memitem:a3e376c7a301a878bf25f522dff3cb813 inherit pub_methods_classPrint"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPrint.html#a3e376c7a301a878bf25f522dff3cb813">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::array&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">N</a> &gt; &amp;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">arr</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">format</a>=<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">defaultFormat</a>&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> &gt;())</td></tr>
+<tr class="memdesc:a3e376c7a301a878bf25f522dff3cb813 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s.">Print</a> a std::array of any type.  <br /></td></tr>
+<tr class="separator:a3e376c7a301a878bf25f522dff3cb813 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aa261254eec517de1908cc4976fee98 inherit pub_methods_classPrint" id="r_a6aa261254eec517de1908cc4976fee98"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">typename</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> , <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a> N&gt; </td></tr>
+<tr class="memitem:a6aa261254eec517de1908cc4976fee98 inherit pub_methods_classPrint"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPrint.html#a6aa261254eec517de1908cc4976fee98">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::array&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">N</a> &gt; &amp;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">arr</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">format</a>=<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">defaultFormat</a>&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> &gt;())</td></tr>
+<tr class="memdesc:a6aa261254eec517de1908cc4976fee98 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s.">Print</a> a std::array of elements followed by a newline.  <br /></td></tr>
+<tr class="separator:a6aa261254eec517de1908cc4976fee98 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:aae796ccad5672698a6053835be09c479" id="r_aae796ccad5672698a6053835be09c479"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#aae796ccad5672698a6053835be09c479">send_data</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">data</a>)</td></tr>
+<tr class="memitem:aae796ccad5672698a6053835be09c479" id="r_aae796ccad5672698a6053835be09c479"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#aae796ccad5672698a6053835be09c479">send_data</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> data)</td></tr>
 <tr class="memdesc:aae796ccad5672698a6053835be09c479"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send data byte with SPI to <a class="el" href="classERMCH1115.html" title="class to drive the ERMCh1115 OLED">ERMCH1115</a>.  <br /></td></tr>
 <tr class="separator:aae796ccad5672698a6053835be09c479"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae47cb9a2b7a0a0e47e70b659a5039636" id="r_ae47cb9a2b7a0a0e47e70b659a5039636"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#ae47cb9a2b7a0a0e47e70b659a5039636">send_command</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">command</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">value</a>)</td></tr>
@@ -401,7 +415,7 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a0dbc7cefb9c8f70da3a99698f3ff6f49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02fed4c9899af3d8e32971d8ceed88b3" id="r_a02fed4c9899af3d8e32971d8ceed88b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a02fed4c9899af3d8e32971d8ceed88b3">_spiFlags</a> = 0</td></tr>
 <tr class="separator:a02fed4c9899af3d8e32971d8ceed88b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a187bcddac8a1e7dec9bfc6d6aa92f79a" id="r_a187bcddac8a1e7dec9bfc6d6aa92f79a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a187bcddac8a1e7dec9bfc6d6aa92f79a">_OLEDHighFreqDelay</a> = <a class="el" href="ERM1__CH1115__OLED__RDL_8hpp.html#a237921a2c53b8c4f4f69b6adaa68cad8">ERMCH1115_HIGHFREQ_DELAY</a></td></tr>
+<tr class="memitem:a187bcddac8a1e7dec9bfc6d6aa92f79a" id="r_a187bcddac8a1e7dec9bfc6d6aa92f79a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a187bcddac8a1e7dec9bfc6d6aa92f79a">_OLEDHighFreqDelay</a> = 0</td></tr>
 <tr class="separator:a187bcddac8a1e7dec9bfc6d6aa92f79a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa178321fcb5c700224c6d8475a4f8816" id="r_aa178321fcb5c700224c6d8475a4f8816"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#aa178321fcb5c700224c6d8475a4f8816">_OLED_mode</a> = 2</td></tr>
 <tr class="separator:aa178321fcb5c700224c6d8475a4f8816"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -411,21 +425,129 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ac16d3ab2984dc6f4cf3adce479ef449c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52dc8319a885a45a1dffdbf488907299" id="r_a52dc8319a885a45a1dffdbf488907299"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a52dc8319a885a45a1dffdbf488907299">_OLED_PAGE_NUM</a> = (<a class="el" href="classERMCH1115.html#ac16d3ab2984dc6f4cf3adce479ef449c">_OLED_HEIGHT</a>/8)</td></tr>
 <tr class="separator:a52dc8319a885a45a1dffdbf488907299"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af776426abfd4ff9f4b107ec9b8c928a8" id="r_af776426abfd4ff9f4b107ec9b8c928a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#af776426abfd4ff9f4b107ec9b8c928a8">OLEDbuffer</a> = <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">nullptr</a></td></tr>
-<tr class="separator:af776426abfd4ff9f4b107ec9b8c928a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a966a5a18cef079e2cd21d80a404559" id="r_a3a966a5a18cef079e2cd21d80a404559"><td class="memItemLeft" align="right" valign="top">std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a3a966a5a18cef079e2cd21d80a404559">_OLEDbuffer</a></td></tr>
+<tr class="separator:a3a966a5a18cef079e2cd21d80a404559"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fdb3b36c6ef22dc4823537f3d71d348" id="r_a0fdb3b36c6ef22dc4823537f3d71d348"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a0fdb3b36c6ef22dc4823537f3d71d348">_sleep</a> = <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">true</a></td></tr>
 <tr class="separator:a0fdb3b36c6ef22dc4823537f3d71d348"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a930182c6fafe95f9836768ee93e0bfa9" id="r_a930182c6fafe95f9836768ee93e0bfa9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a930182c6fafe95f9836768ee93e0bfa9">_OLEDcontrast</a> = <a class="el" href="ERM1__CH1115__OLED__RDL_8hpp.html#a3b3d74f3eb4d948403964542350cf83d">ERMCH1115_CONTRAST_DATA_DEFAULT</a></td></tr>
+<tr class="memitem:a930182c6fafe95f9836768ee93e0bfa9" id="r_a930182c6fafe95f9836768ee93e0bfa9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a930182c6fafe95f9836768ee93e0bfa9">_OLEDcontrast</a> = <a class="el" href="classERMCH1115.html#a7b294c2ad39af0d9f53c14bb23c02efa">ERMCH1115_CONTRAST_DATA_DEFAULT</a></td></tr>
 <tr class="separator:a930182c6fafe95f9836768ee93e0bfa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:aff766e025c64af8785616565c9e23f05" id="r_aff766e025c64af8785616565c9e23f05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#aff766e025c64af8785616565c9e23f05">ERMCH1115_ENTIRE_DISPLAY_ON</a> = 0xA4</td></tr>
+<tr class="separator:aff766e025c64af8785616565c9e23f05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a026d00b9f04857cd5a763e37080bcb94" id="r_a026d00b9f04857cd5a763e37080bcb94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a026d00b9f04857cd5a763e37080bcb94">ERMCH1115_ENTIRE_DISPLAY_OFF</a> = 0xA5</td></tr>
+<tr class="separator:a026d00b9f04857cd5a763e37080bcb94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c932a505a2db3f95134074cd052e4c9" id="r_a4c932a505a2db3f95134074cd052e4c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a4c932a505a2db3f95134074cd052e4c9">ERMCH1115_DISPLAY_ON</a> = 0xAF</td></tr>
+<tr class="separator:a4c932a505a2db3f95134074cd052e4c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ba544cec48e7c7e03a889e8727d3d32" id="r_a9ba544cec48e7c7e03a889e8727d3d32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a9ba544cec48e7c7e03a889e8727d3d32">ERMCH1115_DISPLAY_OFF</a> = 0xAE</td></tr>
+<tr class="separator:a9ba544cec48e7c7e03a889e8727d3d32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8153755329fd8fd4c349d3672b36e3c7" id="r_a8153755329fd8fd4c349d3672b36e3c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a8153755329fd8fd4c349d3672b36e3c7">ERMCH1115_DISPLAY_NORMAL</a> = 0xA6</td></tr>
+<tr class="separator:a8153755329fd8fd4c349d3672b36e3c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad35b306e4d94ae2fb097c766ad728510" id="r_ad35b306e4d94ae2fb097c766ad728510"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#ad35b306e4d94ae2fb097c766ad728510">ERMCH1115_DISPLAY_INVERT</a> = 0xA7</td></tr>
+<tr class="separator:ad35b306e4d94ae2fb097c766ad728510"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aa8370c6247ba032864194d0a0e374f" id="r_a2aa8370c6247ba032864194d0a0e374f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a2aa8370c6247ba032864194d0a0e374f">ERMCH1115_CONTRAST_CONTROL</a> = 0x81</td></tr>
+<tr class="separator:a2aa8370c6247ba032864194d0a0e374f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b294c2ad39af0d9f53c14bb23c02efa" id="r_a7b294c2ad39af0d9f53c14bb23c02efa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a7b294c2ad39af0d9f53c14bb23c02efa">ERMCH1115_CONTRAST_DATA_DEFAULT</a> = 0x80</td></tr>
+<tr class="separator:a7b294c2ad39af0d9f53c14bb23c02efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3673a14cbeb1500c144c6b48a7f2a7a5" id="r_a3673a14cbeb1500c144c6b48a7f2a7a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a3673a14cbeb1500c144c6b48a7f2a7a5">ERMCH1115_SET_PAGEADD</a> = 0xB0</td></tr>
+<tr class="separator:a3673a14cbeb1500c144c6b48a7f2a7a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d7612c0df9d439c19aef2cc77461be8" id="r_a2d7612c0df9d439c19aef2cc77461be8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a2d7612c0df9d439c19aef2cc77461be8">ERMCH1115_SET_COLADD_LSB</a> = 0x00</td></tr>
+<tr class="separator:a2d7612c0df9d439c19aef2cc77461be8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0233ac20a36ba68de05396361901ed" id="r_a3f0233ac20a36ba68de05396361901ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a3f0233ac20a36ba68de05396361901ed">ERMCH1115_SET_COLADD_MSB</a> = 0x10</td></tr>
+<tr class="separator:a3f0233ac20a36ba68de05396361901ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21a2ca5b7229130e63d874db66f84753" id="r_a21a2ca5b7229130e63d874db66f84753"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a21a2ca5b7229130e63d874db66f84753">ERMCH1115_SET_DISPLAY_START_LINE</a> = 0x40</td></tr>
+<tr class="separator:a21a2ca5b7229130e63d874db66f84753"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f3826d752d58ea4b343178a2ec24ec9" id="r_a8f3826d752d58ea4b343178a2ec24ec9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a8f3826d752d58ea4b343178a2ec24ec9">ERMCH1115_SET_PUMP_REG</a> = 0x30</td></tr>
+<tr class="separator:a8f3826d752d58ea4b343178a2ec24ec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab51bf450611a26becddd191351631731" id="r_ab51bf450611a26becddd191351631731"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#ab51bf450611a26becddd191351631731">ERMCH1115_SET_PUMP_SET</a> = 0x01</td></tr>
+<tr class="separator:ab51bf450611a26becddd191351631731"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2beb560132913739df5f377abe0c8796" id="r_a2beb560132913739df5f377abe0c8796"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a2beb560132913739df5f377abe0c8796">ERMCH1115_IREF_REG</a> = 0x82</td></tr>
+<tr class="separator:a2beb560132913739df5f377abe0c8796"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae66b7ac40f36704c82ed44840093f001" id="r_ae66b7ac40f36704c82ed44840093f001"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#ae66b7ac40f36704c82ed44840093f001">ERMCH1115_IREF_SET</a> = 0x00</td></tr>
+<tr class="separator:ae66b7ac40f36704c82ed44840093f001"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11d7d1eb4b03a8bddefe44257389cba5" id="r_a11d7d1eb4b03a8bddefe44257389cba5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a11d7d1eb4b03a8bddefe44257389cba5">ERMCH1115_SEG_SET_REMAP</a> = 0xA0</td></tr>
+<tr class="separator:a11d7d1eb4b03a8bddefe44257389cba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9923599a56dc5990dc7a074feb0ad6e" id="r_aa9923599a56dc5990dc7a074feb0ad6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#aa9923599a56dc5990dc7a074feb0ad6e">ERMCH1115_SEG_SET_PADS</a> = 0xA2</td></tr>
+<tr class="separator:aa9923599a56dc5990dc7a074feb0ad6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed770d6032618bdb935a7c6f5b33d4ab" id="r_aed770d6032618bdb935a7c6f5b33d4ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#aed770d6032618bdb935a7c6f5b33d4ab">ERMCH1115_MULTIPLEX_MODE_SET</a> = 0xA8</td></tr>
+<tr class="separator:aed770d6032618bdb935a7c6f5b33d4ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab11bf981326ba215ec3cba7faec50041" id="r_ab11bf981326ba215ec3cba7faec50041"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#ab11bf981326ba215ec3cba7faec50041">ERMCH1115_MULTIPLEX_DATA_SET</a> = 0x3F</td></tr>
+<tr class="separator:ab11bf981326ba215ec3cba7faec50041"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a5030a977dfb5b5d068153bcf5f8109" id="r_a0a5030a977dfb5b5d068153bcf5f8109"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a0a5030a977dfb5b5d068153bcf5f8109">ERMCH1115_DC_MODE_SET</a> = 0xAD</td></tr>
+<tr class="separator:a0a5030a977dfb5b5d068153bcf5f8109"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9db813589c30ad118e1b497d2b3550f0" id="r_a9db813589c30ad118e1b497d2b3550f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a9db813589c30ad118e1b497d2b3550f0">ERMCH1115_DC_ONOFF_SET</a> = 0x8B</td></tr>
+<tr class="separator:a9db813589c30ad118e1b497d2b3550f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a742fdd42a0b581c15d7c08b0a5aaec8b" id="r_a742fdd42a0b581c15d7c08b0a5aaec8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a742fdd42a0b581c15d7c08b0a5aaec8b">ERMCH1115_COMMON_SCAN_DIR</a> = 0xC0</td></tr>
+<tr class="separator:a742fdd42a0b581c15d7c08b0a5aaec8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ec4281d571052394bdd66a002b077a7" id="r_a5ec4281d571052394bdd66a002b077a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a5ec4281d571052394bdd66a002b077a7">ERMCH1115_OFFSET_MODE_SET</a> = 0xD3</td></tr>
+<tr class="separator:a5ec4281d571052394bdd66a002b077a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ffe6752bbcf9d77eab0ecae1a92c9e7" id="r_a4ffe6752bbcf9d77eab0ecae1a92c9e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a4ffe6752bbcf9d77eab0ecae1a92c9e7">ERMCH1115_OFFSET_DATA_SET</a> = 0x00</td></tr>
+<tr class="separator:a4ffe6752bbcf9d77eab0ecae1a92c9e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a509babbaf34ff4aea7bd980d565b942b" id="r_a509babbaf34ff4aea7bd980d565b942b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a509babbaf34ff4aea7bd980d565b942b">ERMCH1115_BREATHEFFECT_SET</a> = 0x23</td></tr>
+<tr class="separator:a509babbaf34ff4aea7bd980d565b942b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5473fe8519d0069ede07a9df10adc81" id="r_af5473fe8519d0069ede07a9df10adc81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#af5473fe8519d0069ede07a9df10adc81">ERMCH1115_BREATHEFFECT_DATA</a> = 0x81</td></tr>
+<tr class="separator:af5473fe8519d0069ede07a9df10adc81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af240eaee11141abb40173849cff7c3eb" id="r_af240eaee11141abb40173849cff7c3eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#af240eaee11141abb40173849cff7c3eb">ERMCH1115_OSC_FREQ_MODE_SET</a> = 0xD5</td></tr>
+<tr class="separator:af240eaee11141abb40173849cff7c3eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a134f0029f77401c9f4159625a88f9602" id="r_a134f0029f77401c9f4159625a88f9602"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a134f0029f77401c9f4159625a88f9602">ERMCH1115_OSC_FREQ_DATA_SET</a> = 0xA0</td></tr>
+<tr class="separator:a134f0029f77401c9f4159625a88f9602"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0480138de92912cf0073405b79680787" id="r_a0480138de92912cf0073405b79680787"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a0480138de92912cf0073405b79680787">ERMCH1115_PRECHARGE_MODE_SET</a> = 0xD9</td></tr>
+<tr class="separator:a0480138de92912cf0073405b79680787"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00a8360b660f0a47106816b4803aad14" id="r_a00a8360b660f0a47106816b4803aad14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a00a8360b660f0a47106816b4803aad14">ERMCH1115_PRECHARGE_DATA_SET</a> = 0x22</td></tr>
+<tr class="separator:a00a8360b660f0a47106816b4803aad14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bf9594b9611dd3c3a28c34f6194218f" id="r_a1bf9594b9611dd3c3a28c34f6194218f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a1bf9594b9611dd3c3a28c34f6194218f">ERMCH1115_COM_LEVEL_MODE_SET</a> = 0xDB</td></tr>
+<tr class="separator:a1bf9594b9611dd3c3a28c34f6194218f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f308c2c29283dbbfb3d5dfd5009edbd" id="r_a3f308c2c29283dbbfb3d5dfd5009edbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a3f308c2c29283dbbfb3d5dfd5009edbd">ERMCH1115_COM_LEVEL_DATA_SET</a> = 0x40</td></tr>
+<tr class="separator:a3f308c2c29283dbbfb3d5dfd5009edbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46dab1e47105e584af2e1161599d3c09" id="r_a46dab1e47105e584af2e1161599d3c09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a46dab1e47105e584af2e1161599d3c09">ERMCH1115_HORIZONTAL_A_SCROLL_SETUP</a> = 0x24</td></tr>
+<tr class="separator:a46dab1e47105e584af2e1161599d3c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a883ab29a7d526b3cefed36f3856bc750" id="r_a883ab29a7d526b3cefed36f3856bc750"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a883ab29a7d526b3cefed36f3856bc750">ERMCH1115_HORIZONTAL_A_SCROLL_SET_SCOL</a> = 0x00</td></tr>
+<tr class="separator:a883ab29a7d526b3cefed36f3856bc750"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64b7b6763ea80e7a84352d7cbdb55f89" id="r_a64b7b6763ea80e7a84352d7cbdb55f89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a64b7b6763ea80e7a84352d7cbdb55f89">ERMCH1115_HORIZONTAL_A_SCROLL_SET_ECOL</a> = 0x7F</td></tr>
+<tr class="separator:a64b7b6763ea80e7a84352d7cbdb55f89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe11c2158bbd60e22ed2cab3bf0de319" id="r_afe11c2158bbd60e22ed2cab3bf0de319"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#afe11c2158bbd60e22ed2cab3bf0de319">ERMCH1115_SCROLL_SETUP</a> = 0x26</td></tr>
+<tr class="separator:afe11c2158bbd60e22ed2cab3bf0de319"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34adb07402a735887988e8f0303e2621" id="r_a34adb07402a735887988e8f0303e2621"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a34adb07402a735887988e8f0303e2621">ERMCH1115_SPAGE_ADR_SET</a> = 0x00</td></tr>
+<tr class="separator:a34adb07402a735887988e8f0303e2621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f2fd02102a157ad6ebc5d7dcb546e01" id="r_a0f2fd02102a157ad6ebc5d7dcb546e01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a0f2fd02102a157ad6ebc5d7dcb546e01">ERMCH1115_TIME_SET</a> = 0x00</td></tr>
+<tr class="separator:a0f2fd02102a157ad6ebc5d7dcb546e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7a8d6da177bce34bce7877c44b6ead0" id="r_aa7a8d6da177bce34bce7877c44b6ead0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#aa7a8d6da177bce34bce7877c44b6ead0">ERMCH1115_EPAGE_ADR_SET</a> = 0x07</td></tr>
+<tr class="separator:aa7a8d6da177bce34bce7877c44b6ead0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e5e2d5efab65e83958e5307a8252a31" id="r_a8e5e2d5efab65e83958e5307a8252a31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a8e5e2d5efab65e83958e5307a8252a31">ERMCH1115_SET_SCROLL_MODE</a> = 0x28</td></tr>
+<tr class="separator:a8e5e2d5efab65e83958e5307a8252a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa51b7ad23a483c5da77fe9f28e91c948" id="r_aa51b7ad23a483c5da77fe9f28e91c948"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#aa51b7ad23a483c5da77fe9f28e91c948">ERMCH1115_DEACTIVATE_SCROLL</a> = 0x2E</td></tr>
+<tr class="separator:aa51b7ad23a483c5da77fe9f28e91c948"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a1dffac7d5d2e89d2f200b392d4a0fa" id="r_a0a1dffac7d5d2e89d2f200b392d4a0fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERMCH1115.html#a0a1dffac7d5d2e89d2f200b392d4a0fa">ERMCH1115_ACTIVATE_SCROLL</a> = 0x2F</td></tr>
+<tr class="separator:a0a1dffac7d5d2e89d2f200b392d4a0fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_classbicolor__graphics"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classbicolor__graphics')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classbicolor__graphics.html">bicolor_graphics</a></td></tr>
+<tr class="memitem:a33fd29a1de3b1229671053c7747cef59 inherit pub_types_classbicolor__graphics" id="r_a33fd29a1de3b1229671053c7747cef59"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a33fd29a1de3b1229671053c7747cef59">displayBC_rotate_e</a> : uint8_t { <a class="el" href="classbicolor__graphics.html#a33fd29a1de3b1229671053c7747cef59ac807ce18c719926960d1a0d00f80ca55">BC_Degrees_0</a> = 0
+, <a class="el" href="classbicolor__graphics.html#a33fd29a1de3b1229671053c7747cef59aa66ae003bd10ae661def7bfa2526a0e3">BC_Degrees_90</a> = 1
+, <a class="el" href="classbicolor__graphics.html#a33fd29a1de3b1229671053c7747cef59a59532666b8c23df78ec655ac097af138">BC_Degrees_180</a> = 2
+, <a class="el" href="classbicolor__graphics.html#a33fd29a1de3b1229671053c7747cef59a3222e507da671a4d555ff2aa132f4267">BC_Degrees_270</a> = 3
+ }</td></tr>
+<tr class="separator:a33fd29a1de3b1229671053c7747cef59 inherit pub_types_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5e076620da61262e00e8f47d2254878 inherit pub_types_classbicolor__graphics" id="r_ae5e076620da61262e00e8f47d2254878"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ae5e076620da61262e00e8f47d2254878">pixel_color_e</a> : uint8_t { <a class="el" href="classbicolor__graphics.html#ae5e076620da61262e00e8f47d2254878adfafc33be4252e2adc96ed02b901df61">WHITE</a> = 0
+, <a class="el" href="classbicolor__graphics.html#ae5e076620da61262e00e8f47d2254878a1eca1004148361fc4c1274c6174ac19f">BLACK</a> = 1
+, <a class="el" href="classbicolor__graphics.html#ae5e076620da61262e00e8f47d2254878a66582b3da456fd7c17847f2f08d39b6c">INVERSE</a> = 2
+ }</td></tr>
+<tr class="separator:ae5e076620da61262e00e8f47d2254878 inherit pub_types_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classPrint"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classPrint')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classPrint.html">Print</a></td></tr>
+<tr class="memitem:a6d9bda509eaab1f639e14f228c04719b inherit pub_types_classPrint" id="r_a6d9bda509eaab1f639e14f228c04719b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719b">BaseNum</a> : uint8_t { <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a> = 10
+, <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719baad066ef1185ddb4db251e2e2bbc9f33f">RDL_HEX</a> = 16
+, <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba5ccb1478c894e55033ad8caca1cac40b">RDL_OCT</a> = 8
+, <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba4a5d5ee8967feab1df43c1eae6e0189c">RDL_BIN</a> = 2
+ }</td></tr>
+<tr class="separator:a6d9bda509eaab1f639e14f228c04719b inherit pub_types_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classPrint"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classPrint')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classPrint.html">Print</a></td></tr>
 <tr class="memitem:a2448ffd74bf2903d3f4b2b57d55463c9 inherit pro_methods_classPrint" id="r_a2448ffd74bf2903d3f4b2b57d55463c9"><td class="memItemLeft" align="right" valign="top">
 <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">err</a>=0)</td></tr>
 <tr class="separator:a2448ffd74bf2903d3f4b2b57d55463c9 inherit pro_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classbicolor__graphics"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classbicolor__graphics')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classbicolor__graphics.html">bicolor_graphics</a></td></tr>
-<tr class="memitem:ad191ad5e2fda39514e00ec1d58d59d0e inherit pro_attribs_classbicolor__graphics" id="r_ad191ad5e2fda39514e00ec1d58d59d0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="bicolor__graphics__RDL_8hpp.html#a4d612119d782001a8ee3bbd4105e3376">displayBC_rotate_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ad191ad5e2fda39514e00ec1d58d59d0e">_display_rotate</a> = <a class="el" href="bicolor__graphics__RDL_8hpp.html#a4d612119d782001a8ee3bbd4105e3376aea7364446a64a29bf66f90ef054b8f08">displayBC_Degrees_0</a></td></tr>
+<tr class="memitem:ad191ad5e2fda39514e00ec1d58d59d0e inherit pro_attribs_classbicolor__graphics" id="r_ad191ad5e2fda39514e00ec1d58d59d0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbicolor__graphics.html#a33fd29a1de3b1229671053c7747cef59">displayBC_rotate_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ad191ad5e2fda39514e00ec1d58d59d0e">_display_rotate</a> = <a class="el" href="classbicolor__graphics.html#a33fd29a1de3b1229671053c7747cef59ac807ce18c719926960d1a0d00f80ca55">BC_Degrees_0</a></td></tr>
 <tr class="separator:ad191ad5e2fda39514e00ec1d58d59d0e inherit pro_attribs_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb934f2f64a37817245a08d6980e4ef3 inherit pro_attribs_classbicolor__graphics" id="r_afb934f2f64a37817245a08d6980e4ef3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#afb934f2f64a37817245a08d6980e4ef3">WIDTH</a></td></tr>
 <tr class="separator:afb934f2f64a37817245a08d6980e4ef3 inherit pro_attribs_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -442,8 +564,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ab7b86b6e4b2cc1729e27baeec1322a61 inherit pro_attribs_classbicolor__graphics" id="r_ab7b86b6e4b2cc1729e27baeec1322a61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ab7b86b6e4b2cc1729e27baeec1322a61">_textwrap</a> = <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">true</a></td></tr>
 <tr class="separator:ab7b86b6e4b2cc1729e27baeec1322a61 inherit pro_attribs_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classdisplay__Fonts"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classdisplay__Fonts')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classdisplay__Fonts.html">display_Fonts</a></td></tr>
-<tr class="memitem:a7126df1738873a94c4d8f8fe162eeed3 inherit pro_attribs_classdisplay__Fonts" id="r_a7126df1738873a94c4d8f8fe162eeed3"><td class="memItemLeft" align="right" valign="top">const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#a7126df1738873a94c4d8f8fe162eeed3">_FontSelect</a> = pFontDefault</td></tr>
-<tr class="separator:a7126df1738873a94c4d8f8fe162eeed3 inherit pro_attribs_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fff5c7dbe437fa3a5d38e83976a8a12 inherit pro_attribs_classdisplay__Fonts" id="r_a3fff5c7dbe437fa3a5d38e83976a8a12"><td class="memItemLeft" align="right" valign="top">std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#a3fff5c7dbe437fa3a5d38e83976a8a12">_FontSelect</a> = pFontDefault</td></tr>
+<tr class="separator:a3fff5c7dbe437fa3a5d38e83976a8a12 inherit pro_attribs_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03bcf91a5baeb63efa14e945d3b57eb2 inherit pro_attribs_classdisplay__Fonts" id="r_a03bcf91a5baeb63efa14e945d3b57eb2"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#a03bcf91a5baeb63efa14e945d3b57eb2">_Font_X_Size</a> = 0x08</td></tr>
 <tr class="separator:a03bcf91a5baeb63efa14e945d3b57eb2 inherit pro_attribs_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42fa0dd2b935782d6e29d46158993f39 inherit pro_attribs_classdisplay__Fonts" id="r_a42fa0dd2b935782d6e29d46158993f39"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#a42fa0dd2b935782d6e29d46158993f39">_Font_Y_Size</a> = 0x08</td></tr>
@@ -666,14 +788,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a8bfe5bc07511d43df893bf42e0241963" name="a8bfe5bc07511d43df893bf42e0241963"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bfe5bc07511d43df893bf42e0241963">&#9670;&#160;</a></span>OLEDbegin() <span class="overload">[1/2]</span></h2>
+<a id="a4c0d56cf00e8e131dac95a88ae967314" name="a4c0d56cf00e8e131dac95a88ae967314"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c0d56cf00e8e131dac95a88ae967314">&#9670;&#160;</a></span>OLEDbegin() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> ERMCH1115::OLEDbegin </td>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> ERMCH1115::OLEDbegin </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
           <td class="paramname"><em>OLEDcontrast</em>, </td>
@@ -728,25 +850,25 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a rpiDisplay_Return_Codes_e code<ol type="1">
-<li>rpiDisplay_Success</li>
-<li>rpiDisplay_WrongModeChosen</li>
-<li>rpiDisplay_GpioChipDevice</li>
-<li>rpiDisplay_GpioPinClaim</li>
-<li>rpiDisplay_SPIOpenFailure </li>
+<dl class="section return"><dt>Returns</dt><dd>a <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> code<ol type="1">
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a65da6eddcff882b550b60c841cc4c243">rdlib::WrongModeChosen</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a91050c855c6aedfc87e0adb551161bde">rdlib::GpioChipDevice</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a25a9261690270578079addf51fd5d510">rdlib::GpioPinClaim</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5ae2f52411247decd2656308eab208c8f8">rdlib::SPIOpenFailure</a> </li>
 </ol>
 </dd></dl>
 
 </div>
 </div>
-<a id="aaa069f2ee095532f80ba9b3036fa6ec0" name="aaa069f2ee095532f80ba9b3036fa6ec0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa069f2ee095532f80ba9b3036fa6ec0">&#9670;&#160;</a></span>OLEDbegin() <span class="overload">[2/2]</span></h2>
+<a id="abc35fbb16342c57ece2e6837730b5036" name="abc35fbb16342c57ece2e6837730b5036"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc35fbb16342c57ece2e6837730b5036">&#9670;&#160;</a></span>OLEDbegin() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> ERMCH1115::OLEDbegin </td>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> ERMCH1115::OLEDbegin </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
           <td class="paramname"><em>OLEDcontrast</em>, </td>
@@ -773,18 +895,18 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a rpiDisplay_Return_Codes_e code<ol type="1">
-<li>rpiDisplay_Success</li>
-<li>rpiDisplay_WrongModeChosen</li>
-<li>rpiDisplay_GpioChipDevice</li>
-<li>rpiDisplay_GpioPinClaim </li>
+<dl class="section return"><dt>Returns</dt><dd>a <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> code<ol type="1">
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a65da6eddcff882b550b60c841cc4c243">rdlib::WrongModeChosen</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a91050c855c6aedfc87e0adb551161bde">rdlib::GpioChipDevice</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a25a9261690270578079addf51fd5d510">rdlib::GpioPinClaim</a> </li>
 </ol>
 </dd></dl>
 
 </div>
 </div>
-<a id="a6331a3d7fc8b7ae41e9f86c221134bd2" name="a6331a3d7fc8b7ae41e9f86c221134bd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6331a3d7fc8b7ae41e9f86c221134bd2">&#9670;&#160;</a></span>OLEDBitmap()</h2>
+<a id="ac587a1ac931025b7d27450699e59076a" name="ac587a1ac931025b7d27450699e59076a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac587a1ac931025b7d27450699e59076a">&#9670;&#160;</a></span>OLEDBitmap()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -816,7 +938,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt;&#160;</td>
           <td class="paramname"><em>data</em>&#160;</td>
         </tr>
         <tr>
@@ -834,7 +956,7 @@ Additional Inherited Members</h2></td></tr>
     <tr><td class="paramname">y</td><td>offset 0-64 </td></tr>
     <tr><td class="paramname">w</td><td>width 0-128 </td></tr>
     <tr><td class="paramname">h</td><td>height 0-64 </td></tr>
-    <tr><td class="paramname">data</td><td>pointer to the bitmap </td></tr>
+    <tr><td class="paramname">data</td><td>span to the bitmap data </td></tr>
   </table>
   </dd>
 </dl>
@@ -842,8 +964,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a20ea79a48c870533fa79c90c6d459199" name="a20ea79a48c870533fa79c90c6d459199"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20ea79a48c870533fa79c90c6d459199">&#9670;&#160;</a></span>OLEDBufferScreen()</h2>
+<a id="a81788305fa01c5644cc39124e5e1c686" name="a81788305fa01c5644cc39124e5e1c686"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81788305fa01c5644cc39124e5e1c686">&#9670;&#160;</a></span>OLEDBufferScreen()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -875,7 +997,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *&#160;</td>
+          <td class="paramtype">std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt;&#160;</td>
           <td class="paramname"><em>data</em>&#160;</td>
         </tr>
         <tr>
@@ -889,15 +1011,40 @@ Additional Inherited Members</h2></td></tr>
 <p>Draw a bitmap to the screen. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">x</td><td>offset 0-128 </td></tr>
-    <tr><td class="paramname">y</td><td>offset 0-64 </td></tr>
-    <tr><td class="paramname">w</td><td>width 0-128 </td></tr>
-    <tr><td class="paramname">h</td><td>height 0-64 </td></tr>
-    <tr><td class="paramname">data</td><td>pointer to the bitmap data array </td></tr>
+    <tr><td class="paramname">x</td><td>offset </td></tr>
+    <tr><td class="paramname">y</td><td>offset </td></tr>
+    <tr><td class="paramname">w</td><td>width </td></tr>
+    <tr><td class="paramname">h</td><td>height </td></tr>
+    <tr><td class="paramname">data</td><td>span the bitmap data array </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>Called by OLEDupdate, used internally mostly </dd></dl>
+
+</div>
+</div>
+<a id="ae5b16e1e7b9bc02e4f23c0fedc8446ea" name="ae5b16e1e7b9bc02e4f23c0fedc8446ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5b16e1e7b9bc02e4f23c0fedc8446ea">&#9670;&#160;</a></span>OLEDclearBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> ERMCH1115::OLEDclearBuffer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>clears the buffer memory i.e. does NOT write to the screen </p>
+<dl class="section return"><dt>Returns</dt><dd><ol type="1">
+<li>Success</li>
+<li>BufferEmpty is buffer empty object </li>
+</ol>
+</dd></dl>
 
 </div>
 </div>
@@ -911,7 +1058,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a> ERMCH1115::OLEDContrast </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
-          <td class="paramname"><em>contrast</em> = <code><a class="el" href="ERM1__CH1115__OLED__RDL_8hpp.html#a3b3d74f3eb4d948403964542350cf83d">ERMCH1115_CONTRAST_DATA_DEFAULT</a></code></td><td>)</td>
+          <td class="paramname"><em>contrast</em> = <code><a class="el" href="classERMCH1115.html#a7b294c2ad39af0d9f53c14bb23c02efa">ERMCH1115_CONTRAST_DATA_DEFAULT</a></code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -963,7 +1110,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a> ERMCH1115::OLEDfadeEffect </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
-          <td class="paramname"><em>bits</em> = <code><a class="el" href="ERM1__CH1115__OLED__RDL_8hpp.html#a06ba65560d354c78073d2a592565d61b">ERMCH1115_BREATHEFFECT_DATA</a></code></td><td>)</td>
+          <td class="paramname"><em>bits</em> = <code><a class="el" href="classERMCH1115.html#af5473fe8519d0069ede07a9df10adc81">ERMCH1115_BREATHEFFECT_DATA</a></code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1228,19 +1375,19 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a> ERMCH1115::OLEDscrollSetup </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
-          <td class="paramname"><em>Timeinterval</em> = <code><a class="el" href="ERM1__CH1115__OLED__RDL_8hpp.html#a46e5b93dd9c6b0cf782d6f32863716ae">ERMCH1115_TIME_SET</a></code>, </td>
+          <td class="paramname"><em>Timeinterval</em> = <code><a class="el" href="classERMCH1115.html#a0f2fd02102a157ad6ebc5d7dcb546e01">ERMCH1115_TIME_SET</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
-          <td class="paramname"><em>Direction</em> = <code><a class="el" href="ERM1__CH1115__OLED__RDL_8hpp.html#ae2096dca221bea24856288c35133ebf9">ERMCH1115_SCROLL_SETUP</a></code>, </td>
+          <td class="paramname"><em>Direction</em> = <code><a class="el" href="classERMCH1115.html#afe11c2158bbd60e22ed2cab3bf0de319">ERMCH1115_SCROLL_SETUP</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
-          <td class="paramname"><em>mode</em> = <code><a class="el" href="ERM1__CH1115__OLED__RDL_8hpp.html#adaff7fc8db14e4b97ea4d6fb39e773af">ERMCH1115_SET_SCROLL_MODE</a></code>&#160;</td>
+          <td class="paramname"><em>mode</em> = <code><a class="el" href="classERMCH1115.html#a8e5e2d5efab65e83958e5307a8252a31">ERMCH1115_SET_SCROLL_MODE</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1262,14 +1409,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a491357e903e7a3e63b85fc7fd2ff2dce" name="a491357e903e7a3e63b85fc7fd2ff2dce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a491357e903e7a3e63b85fc7fd2ff2dce">&#9670;&#160;</a></span>OLEDSetBufferPtr()</h2>
+<a id="ad7b0023e400949ec93eb0f7d78c28a78" name="ad7b0023e400949ec93eb0f7d78c28a78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7b0023e400949ec93eb0f7d78c28a78">&#9670;&#160;</a></span>OLEDSetBufferPtr()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> ERMCH1115::OLEDSetBufferPtr </td>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> ERMCH1115::OLEDSetBufferPtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
           <td class="paramname"><em>width</em>, </td>
@@ -1283,14 +1430,8 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *&#160;</td>
-          <td class="paramname"><em>pBuffer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>&#160;</td>
-          <td class="paramname"><em>sizeOfBuffer</em>&#160;</td>
+          <td class="paramtype">std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt;&#160;</td>
+          <td class="paramname"><em>buffer</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1305,28 +1446,27 @@ Additional Inherited Members</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">width</td><td>width of buffer in pixels </td></tr>
     <tr><td class="paramname">height</td><td>height of buffer in pixels </td></tr>
-    <tr><td class="paramname">pBuffer</td><td>the buffer array which decays to pointer </td></tr>
-    <tr><td class="paramname">sizeOfBuffer</td><td>size of buffer </td></tr>
+    <tr><td class="paramname">buffer</td><td>the buffer span </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Will return rpiDisplay_Return_Codes_e enum<ol type="1">
-<li>Success rpiDisplay_Success</li>
-<li>Error 1 rpiDisplay_BufferSize</li>
-<li>Error 2 rpiDisplay_BUfferNullptr </li>
+<dl class="section return"><dt>Returns</dt><dd>Will return <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> enum<ol type="1">
+<li>Success <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a></li>
+<li>Error 1 <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a9fc4d37392d1d2039ad916a01398d25d">rdlib::BufferSize</a></li>
+<li>Error 2 <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a7537147695b96c3652ab5902e9de73aa">rdlib::BufferEmpty</a> </li>
 </ol>
 </dd></dl>
 
 </div>
 </div>
-<a id="a11aff758eefb990c03c16d24dbca9053" name="a11aff758eefb990c03c16d24dbca9053"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11aff758eefb990c03c16d24dbca9053">&#9670;&#160;</a></span>OLEDSPIoff()</h2>
+<a id="ae1fc20eb6da7a89f057a8d53d915e5bf" name="ae1fc20eb6da7a89f057a8d53d915e5bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1fc20eb6da7a89f057a8d53d915e5bf">&#9670;&#160;</a></span>OLEDSPIoff()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> ERMCH1115::OLEDSPIoff </td>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> ERMCH1115::OLEDSPIoff </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1337,10 +1477,35 @@ Additional Inherited Members</h2></td></tr>
 
 <p>stops HW spi operations </p>
 <p>End SPI operations. </p><dl class="section return"><dt>Returns</dt><dd><ol type="1">
-<li>rpiDisplay_Success</li>
-<li>rpiDisplay_GpioPinFree</li>
-<li>rpiDisplay_SPICloseFailure</li>
-<li>rpiDisplay_GpioChipDevice </li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a0e40ec38e9d754b8ce795b4007f93fef">rdlib::GpioPinFree</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a6169a81d0ae5688c76efad17712818f9">rdlib::SPICloseFailure</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a91050c855c6aedfc87e0adb551161bde">rdlib::GpioChipDevice</a> </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<a id="a20d1d323a135ddaa55d5d5951491bf73" name="a20d1d323a135ddaa55d5d5951491bf73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20d1d323a135ddaa55d5d5951491bf73">&#9670;&#160;</a></span>OLEDupdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> ERMCH1115::OLEDupdate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>updates the OLED i.e. writes buffer to the screen </p>
+<dl class="section return"><dt>Returns</dt><dd><ol type="1">
+<li>Success</li>
+<li>BufferEmpty if buffer is empty object </li>
 </ol>
 </dd></dl>
 
@@ -1481,7 +1646,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>SWSPI The device number of a gpiochip 4=rpi5 0=rpi4,3 /dev/gpio </p>
+<p>SWSPI The device number of a gpiochip ls /dev/gpio </p>
 
 </div>
 </div>
@@ -1716,6 +1881,29 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a3a966a5a18cef079e2cd21d80a404559" name="a3a966a5a18cef079e2cd21d80a404559"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a966a5a18cef079e2cd21d80a404559">&#9670;&#160;</a></span>_OLEDbuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::span&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&gt; ERMCH1115::_OLEDbuffer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>span to buffer which holds screen data </p>
+
+</div>
+</div>
 <a id="a930182c6fafe95f9836768ee93e0bfa9" name="a930182c6fafe95f9836768ee93e0bfa9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a930182c6fafe95f9836768ee93e0bfa9">&#9670;&#160;</a></span>_OLEDcontrast</h2>
 
@@ -1726,7 +1914,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::_OLEDcontrast = <a class="el" href="ERM1__CH1115__OLED__RDL_8hpp.html#a3b3d74f3eb4d948403964542350cf83d">ERMCH1115_CONTRAST_DATA_DEFAULT</a></td>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::_OLEDcontrast = <a class="el" href="classERMCH1115.html#a7b294c2ad39af0d9f53c14bb23c02efa">ERMCH1115_CONTRAST_DATA_DEFAULT</a></td>
         </tr>
       </table>
   </td>
@@ -1749,7 +1937,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> ERMCH1115::_OLEDHighFreqDelay = <a class="el" href="ERM1__CH1115__OLED__RDL_8hpp.html#a237921a2c53b8c4f4f69b6adaa68cad8">ERMCH1115_HIGHFREQ_DELAY</a></td>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> ERMCH1115::_OLEDHighFreqDelay = 0</td>
         </tr>
       </table>
   </td>
@@ -1900,8 +2088,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="af776426abfd4ff9f4b107ec9b8c928a8" name="af776426abfd4ff9f4b107ec9b8c928a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af776426abfd4ff9f4b107ec9b8c928a8">&#9670;&#160;</a></span>OLEDbuffer</h2>
+<a id="a0a1dffac7d5d2e89d2f200b392d4a0fa" name="a0a1dffac7d5d2e89d2f200b392d4a0fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a1dffac7d5d2e89d2f200b392d4a0fa">&#9670;&#160;</a></span>ERMCH1115_ACTIVATE_SCROLL</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1910,16 +2098,985 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>* ERMCH1115::OLEDbuffer = <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">nullptr</a></td>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_ACTIVATE_SCROLL = 0x2F</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>pointer to buffer which holds screen data </p>
+<p>active Scroll mode </p>
+
+</div>
+</div>
+<a id="af5473fe8519d0069ede07a9df10adc81" name="af5473fe8519d0069ede07a9df10adc81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5473fe8519d0069ede07a9df10adc81">&#9670;&#160;</a></span>ERMCH1115_BREATHEFFECT_DATA</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_BREATHEFFECT_DATA = 0x81</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Display Effect ON/OFF and Time Interval: </p>
+
+</div>
+</div>
+<a id="a509babbaf34ff4aea7bd980d565b942b" name="a509babbaf34ff4aea7bd980d565b942b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a509babbaf34ff4aea7bd980d565b942b">&#9670;&#160;</a></span>ERMCH1115_BREATHEFFECT_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_BREATHEFFECT_SET = 0x23</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set Breathing Display Effect: </p>
+
+</div>
+</div>
+<a id="a3f308c2c29283dbbfb3d5dfd5009edbd" name="a3f308c2c29283dbbfb3d5dfd5009edbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f308c2c29283dbbfb3d5dfd5009edbd">&#9670;&#160;</a></span>ERMCH1115_COM_LEVEL_DATA_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_COM_LEVEL_DATA_SET = 0x40</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>VCOM Deselect Level Data Set: (00H - FFH) </p>
+
+</div>
+</div>
+<a id="a1bf9594b9611dd3c3a28c34f6194218f" name="a1bf9594b9611dd3c3a28c34f6194218f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bf9594b9611dd3c3a28c34f6194218f">&#9670;&#160;</a></span>ERMCH1115_COM_LEVEL_MODE_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_COM_LEVEL_MODE_SET = 0xDB</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>COM Deselect Level Mode Set: (DBH) </p>
+
+</div>
+</div>
+<a id="a742fdd42a0b581c15d7c08b0a5aaec8b" name="a742fdd42a0b581c15d7c08b0a5aaec8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a742fdd42a0b581c15d7c08b0a5aaec8b">&#9670;&#160;</a></span>ERMCH1115_COMMON_SCAN_DIR</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_COMMON_SCAN_DIR = 0xC0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set Common Op Scan Dir:C0H - C8H Flip vertical </p>
+
+</div>
+</div>
+<a id="a2aa8370c6247ba032864194d0a0e374f" name="a2aa8370c6247ba032864194d0a0e374f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2aa8370c6247ba032864194d0a0e374f">&#9670;&#160;</a></span>ERMCH1115_CONTRAST_CONTROL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_CONTRAST_CONTROL = 0x81</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Contrast Control Mode Set </p>
+
+</div>
+</div>
+<a id="a7b294c2ad39af0d9f53c14bb23c02efa" name="a7b294c2ad39af0d9f53c14bb23c02efa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b294c2ad39af0d9f53c14bb23c02efa">&#9670;&#160;</a></span>ERMCH1115_CONTRAST_DATA_DEFAULT</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_CONTRAST_DATA_DEFAULT = 0x80</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Contrast Data Reg Set = 0x00 to = 0xFF </p>
+
+</div>
+</div>
+<a id="a0a5030a977dfb5b5d068153bcf5f8109" name="a0a5030a977dfb5b5d068153bcf5f8109"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a5030a977dfb5b5d068153bcf5f8109">&#9670;&#160;</a></span>ERMCH1115_DC_MODE_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_DC_MODE_SET = 0xAD</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>DC-DC Control Mode Set </p>
+
+</div>
+</div>
+<a id="a9db813589c30ad118e1b497d2b3550f0" name="a9db813589c30ad118e1b497d2b3550f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9db813589c30ad118e1b497d2b3550f0">&#9670;&#160;</a></span>ERMCH1115_DC_ONOFF_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_DC_ONOFF_SET = 0x8B</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>DC-DC ON/OFF Mode Set (8AH - 8BH) (a=off; b=on) </p>
+
+</div>
+</div>
+<a id="aa51b7ad23a483c5da77fe9f28e91c948" name="aa51b7ad23a483c5da77fe9f28e91c948"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa51b7ad23a483c5da77fe9f28e91c948">&#9670;&#160;</a></span>ERMCH1115_DEACTIVATE_SCROLL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_DEACTIVATE_SCROLL = 0x2E</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>De-active Scroll mode </p>
+
+</div>
+</div>
+<a id="ad35b306e4d94ae2fb097c766ad728510" name="ad35b306e4d94ae2fb097c766ad728510"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad35b306e4d94ae2fb097c766ad728510">&#9670;&#160;</a></span>ERMCH1115_DISPLAY_INVERT</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_DISPLAY_INVERT = 0xA7</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Display Inversion on </p>
+
+</div>
+</div>
+<a id="a8153755329fd8fd4c349d3672b36e3c7" name="a8153755329fd8fd4c349d3672b36e3c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8153755329fd8fd4c349d3672b36e3c7">&#9670;&#160;</a></span>ERMCH1115_DISPLAY_NORMAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_DISPLAY_NORMAL = 0xA6</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Display Inversion off </p>
+
+</div>
+</div>
+<a id="a9ba544cec48e7c7e03a889e8727d3d32" name="a9ba544cec48e7c7e03a889e8727d3d32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ba544cec48e7c7e03a889e8727d3d32">&#9670;&#160;</a></span>ERMCH1115_DISPLAY_OFF</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_DISPLAY_OFF = 0xAE</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Turns off Display </p>
+
+</div>
+</div>
+<a id="a4c932a505a2db3f95134074cd052e4c9" name="a4c932a505a2db3f95134074cd052e4c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c932a505a2db3f95134074cd052e4c9">&#9670;&#160;</a></span>ERMCH1115_DISPLAY_ON</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_DISPLAY_ON = 0xAF</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Turns on Display </p>
+
+</div>
+</div>
+<a id="a026d00b9f04857cd5a763e37080bcb94" name="a026d00b9f04857cd5a763e37080bcb94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a026d00b9f04857cd5a763e37080bcb94">&#9670;&#160;</a></span>ERMCH1115_ENTIRE_DISPLAY_OFF</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_ENTIRE_DISPLAY_OFF = 0xA5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Forcibly turns the entire display on regardless of the contents of the display data RAM </p>
+
+</div>
+</div>
+<a id="aff766e025c64af8785616565c9e23f05" name="aff766e025c64af8785616565c9e23f05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff766e025c64af8785616565c9e23f05">&#9670;&#160;</a></span>ERMCH1115_ENTIRE_DISPLAY_ON</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_ENTIRE_DISPLAY_ON = 0xA4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Forcibly turns the entire display on regardless of the contents of the display data RAM </p>
+
+</div>
+</div>
+<a id="aa7a8d6da177bce34bce7877c44b6ead0" name="aa7a8d6da177bce34bce7877c44b6ead0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7a8d6da177bce34bce7877c44b6ead0">&#9670;&#160;</a></span>ERMCH1115_EPAGE_ADR_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_EPAGE_ADR_SET = 0x07</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>End Page Address Set: (C2 – C0) <br  />
+ </p>
+
+</div>
+</div>
+<a id="a64b7b6763ea80e7a84352d7cbdb55f89" name="a64b7b6763ea80e7a84352d7cbdb55f89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64b7b6763ea80e7a84352d7cbdb55f89">&#9670;&#160;</a></span>ERMCH1115_HORIZONTAL_A_SCROLL_SET_ECOL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_HORIZONTAL_A_SCROLL_SET_ECOL = 0x7F</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>End Column Position Set: (B7 – B0) </p>
+
+</div>
+</div>
+<a id="a883ab29a7d526b3cefed36f3856bc750" name="a883ab29a7d526b3cefed36f3856bc750"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a883ab29a7d526b3cefed36f3856bc750">&#9670;&#160;</a></span>ERMCH1115_HORIZONTAL_A_SCROLL_SET_SCOL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_HORIZONTAL_A_SCROLL_SET_SCOL = 0x00</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Start Column Position Set: (A7 – A0) </p>
+
+</div>
+</div>
+<a id="a46dab1e47105e584af2e1161599d3c09" name="a46dab1e47105e584af2e1161599d3c09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46dab1e47105e584af2e1161599d3c09">&#9670;&#160;</a></span>ERMCH1115_HORIZONTAL_A_SCROLL_SETUP</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_HORIZONTAL_A_SCROLL_SETUP = 0x24</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Additional Horizontal Scroll Setup Mode Set: (24H) </p>
+
+</div>
+</div>
+<a id="a2beb560132913739df5f377abe0c8796" name="a2beb560132913739df5f377abe0c8796"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2beb560132913739df5f377abe0c8796">&#9670;&#160;</a></span>ERMCH1115_IREF_REG</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_IREF_REG = 0x82</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>I REF Resistor Set <br  />
+ </p>
+
+</div>
+</div>
+<a id="ae66b7ac40f36704c82ed44840093f001" name="ae66b7ac40f36704c82ed44840093f001"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae66b7ac40f36704c82ed44840093f001">&#9670;&#160;</a></span>ERMCH1115_IREF_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_IREF_SET = 0x00</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>I REF Resistor adjust </p>
+
+</div>
+</div>
+<a id="ab11bf981326ba215ec3cba7faec50041" name="ab11bf981326ba215ec3cba7faec50041"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab11bf981326ba215ec3cba7faec50041">&#9670;&#160;</a></span>ERMCH1115_MULTIPLEX_DATA_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_MULTIPLEX_DATA_SET = 0x3F</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Multiplex Ration Data Set: (00H - 3FH) </p>
+
+</div>
+</div>
+<a id="aed770d6032618bdb935a7c6f5b33d4ab" name="aed770d6032618bdb935a7c6f5b33d4ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed770d6032618bdb935a7c6f5b33d4ab">&#9670;&#160;</a></span>ERMCH1115_MULTIPLEX_MODE_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_MULTIPLEX_MODE_SET = 0xA8</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Multiplex Ration Mode Set </p>
+
+</div>
+</div>
+<a id="a4ffe6752bbcf9d77eab0ecae1a92c9e7" name="a4ffe6752bbcf9d77eab0ecae1a92c9e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ffe6752bbcf9d77eab0ecae1a92c9e7">&#9670;&#160;</a></span>ERMCH1115_OFFSET_DATA_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_OFFSET_DATA_SET = 0x00</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Display Offset Data Set: (00H~3FH) </p>
+
+</div>
+</div>
+<a id="a5ec4281d571052394bdd66a002b077a7" name="a5ec4281d571052394bdd66a002b077a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ec4281d571052394bdd66a002b077a7">&#9670;&#160;</a></span>ERMCH1115_OFFSET_MODE_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_OFFSET_MODE_SET = 0xD3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Display Offset Mode Set: </p>
+
+</div>
+</div>
+<a id="a134f0029f77401c9f4159625a88f9602" name="a134f0029f77401c9f4159625a88f9602"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a134f0029f77401c9f4159625a88f9602">&#9670;&#160;</a></span>ERMCH1115_OSC_FREQ_DATA_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_OSC_FREQ_DATA_SET = 0xA0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Divide Ratio/Oscillator Frequency Data Set: </p>
+
+</div>
+</div>
+<a id="af240eaee11141abb40173849cff7c3eb" name="af240eaee11141abb40173849cff7c3eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af240eaee11141abb40173849cff7c3eb">&#9670;&#160;</a></span>ERMCH1115_OSC_FREQ_MODE_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_OSC_FREQ_MODE_SET = 0xD5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Divide Ratio/Oscillator Frequency Mode Set: (D5H) </p>
+
+</div>
+</div>
+<a id="a00a8360b660f0a47106816b4803aad14" name="a00a8360b660f0a47106816b4803aad14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00a8360b660f0a47106816b4803aad14">&#9670;&#160;</a></span>ERMCH1115_PRECHARGE_DATA_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_PRECHARGE_DATA_SET = 0x22</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Discharge/Pre-charge Period Data Set: (00H - FFH) </p>
+
+</div>
+</div>
+<a id="a0480138de92912cf0073405b79680787" name="a0480138de92912cf0073405b79680787"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0480138de92912cf0073405b79680787">&#9670;&#160;</a></span>ERMCH1115_PRECHARGE_MODE_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_PRECHARGE_MODE_SET = 0xD9</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Pre-charge Period Mode Set: </p>
+
+</div>
+</div>
+<a id="afe11c2158bbd60e22ed2cab3bf0de319" name="afe11c2158bbd60e22ed2cab3bf0de319"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe11c2158bbd60e22ed2cab3bf0de319">&#9670;&#160;</a></span>ERMCH1115_SCROLL_SETUP</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_SCROLL_SETUP = 0x26</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Horizontal Scroll Setup: 26 right 27 left (A2 – A0) </p>
+
+</div>
+</div>
+<a id="aa9923599a56dc5990dc7a074feb0ad6e" name="aa9923599a56dc5990dc7a074feb0ad6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9923599a56dc5990dc7a074feb0ad6e">&#9670;&#160;</a></span>ERMCH1115_SEG_SET_PADS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_SEG_SET_PADS = 0xA2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set SEG pads hw config: (A2H – A3H) </p>
+
+</div>
+</div>
+<a id="a11d7d1eb4b03a8bddefe44257389cba5" name="a11d7d1eb4b03a8bddefe44257389cba5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11d7d1eb4b03a8bddefe44257389cba5">&#9670;&#160;</a></span>ERMCH1115_SEG_SET_REMAP</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_SEG_SET_REMAP = 0xA0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set Segment Re-map: (A0H - A1H) </p>
+
+</div>
+</div>
+<a id="a2d7612c0df9d439c19aef2cc77461be8" name="a2d7612c0df9d439c19aef2cc77461be8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d7612c0df9d439c19aef2cc77461be8">&#9670;&#160;</a></span>ERMCH1115_SET_COLADD_LSB</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_SET_COLADD_LSB = 0x00</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set Lower Column Address: (00H - 0FH) </p>
+
+</div>
+</div>
+<a id="a3f0233ac20a36ba68de05396361901ed" name="a3f0233ac20a36ba68de05396361901ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f0233ac20a36ba68de05396361901ed">&#9670;&#160;</a></span>ERMCH1115_SET_COLADD_MSB</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_SET_COLADD_MSB = 0x10</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set Higher Column Address: (10H – 1FH) </p>
+
+</div>
+</div>
+<a id="a21a2ca5b7229130e63d874db66f84753" name="a21a2ca5b7229130e63d874db66f84753"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21a2ca5b7229130e63d874db66f84753">&#9670;&#160;</a></span>ERMCH1115_SET_DISPLAY_START_LINE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_SET_DISPLAY_START_LINE = 0x40</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Determine the initial display line </p>
+
+</div>
+</div>
+<a id="a3673a14cbeb1500c144c6b48a7f2a7a5" name="a3673a14cbeb1500c144c6b48a7f2a7a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3673a14cbeb1500c144c6b48a7f2a7a5">&#9670;&#160;</a></span>ERMCH1115_SET_PAGEADD</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_SET_PAGEADD = 0xB0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set Page Address: (B0H - B7H) </p>
+
+</div>
+</div>
+<a id="a8f3826d752d58ea4b343178a2ec24ec9" name="a8f3826d752d58ea4b343178a2ec24ec9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f3826d752d58ea4b343178a2ec24ec9">&#9670;&#160;</a></span>ERMCH1115_SET_PUMP_REG</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_SET_PUMP_REG = 0x30</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Output voltage (V PP ) internal charger pump. </p>
+
+</div>
+</div>
+<a id="ab51bf450611a26becddd191351631731" name="ab51bf450611a26becddd191351631731"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab51bf450611a26becddd191351631731">&#9670;&#160;</a></span>ERMCH1115_SET_PUMP_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_SET_PUMP_SET = 0x01</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>A1:A0[] 01 = 7.4v <br  />
+ </p>
+
+</div>
+</div>
+<a id="a8e5e2d5efab65e83958e5307a8252a31" name="a8e5e2d5efab65e83958e5307a8252a31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e5e2d5efab65e83958e5307a8252a31">&#9670;&#160;</a></span>ERMCH1115_SET_SCROLL_MODE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_SET_SCROLL_MODE = 0x28</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set Scroll Mode: (28H – 2BH) = 0x28 = continuous </p>
+
+</div>
+</div>
+<a id="a34adb07402a735887988e8f0303e2621" name="a34adb07402a735887988e8f0303e2621"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34adb07402a735887988e8f0303e2621">&#9670;&#160;</a></span>ERMCH1115_SPAGE_ADR_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_SPAGE_ADR_SET = 0x00</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Start Page Address Set = 0x00 = page 0 </p>
+
+</div>
+</div>
+<a id="a0f2fd02102a157ad6ebc5d7dcb546e01" name="a0f2fd02102a157ad6ebc5d7dcb546e01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f2fd02102a157ad6ebc5d7dcb546e01">&#9670;&#160;</a></span>ERMCH1115_TIME_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERMCH1115::ERMCH1115_TIME_SET = 0x00</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Time Interval Set: (B2 – B0) = 0x00 = 6 frames </p>
 
 </div>
 </div>

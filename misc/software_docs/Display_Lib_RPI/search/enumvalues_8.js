@@ -1,13 +1,10 @@
 var searchData=
 [
-  ['scaneightdigit_0',['ScanEightDigit',['../classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253a3b5ddff5467f95d7a7b662c66c040480',1,'MAX7219_SS_RPI']]],
-  ['scanfivedigit_1',['ScanFiveDigit',['../classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253aaf1cbe53d508f9a2ba2203cbcb1629f4',1,'MAX7219_SS_RPI']]],
-  ['scanfourdigit_2',['ScanFourDigit',['../classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253a47d955d428f5e06db351578e24f7ea78',1,'MAX7219_SS_RPI']]],
-  ['scanonedigit_3',['ScanOneDigit',['../classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253a1d2c8ed09706387e7fa7d79816a19ddd',1,'MAX7219_SS_RPI']]],
-  ['scansevendigit_4',['ScanSevenDigit',['../classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253a16a1a37a233dfaddc28fc7a5ca444ec3',1,'MAX7219_SS_RPI']]],
-  ['scansixdigit_5',['ScanSixDigit',['../classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253a5a1abe2e4e4d149306fc48ea66c49fd9',1,'MAX7219_SS_RPI']]],
-  ['scanthreedigit_6',['ScanThreeDigit',['../classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253ace171b2232c279b3c2e08f89b51ed188',1,'MAX7219_SS_RPI']]],
-  ['scantwodigit_7',['ScanTwoDigit',['../classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253a999524d15a0ae88711006fc480eacfb4',1,'MAX7219_SS_RPI']]],
-  ['sh1106_5fic_8',['SH1106_IC',['../classSH110X__RDL.html#ae48df795ea52acda8ba8ae30c9bc32c6a98d42388ca41696c69a4f696fd7dc92e',1,'SH110X_RDL']]],
-  ['sh1107_5fic_9',['SH1107_IC',['../classSH110X__RDL.html#ae48df795ea52acda8ba8ae30c9bc32c6a5aae61a579093f5a02123768e161be75',1,'SH110X_RDL']]]
+  ['max7219_5freg_5fdecodemode_0',['MAX7219_REG_DecodeMode',['../classMAX7219__SS__RPI.html#a10c504879398d960ca3efd6acf45087ba003460d12a7bb8cc28dc6d176f5e0518',1,'MAX7219_SS_RPI']]],
+  ['max7219_5freg_5fdisplaytest_1',['MAX7219_REG_DisplayTest',['../classMAX7219__SS__RPI.html#a10c504879398d960ca3efd6acf45087ba8c959d4a25c7ba169e027fbb8727fe7f',1,'MAX7219_SS_RPI']]],
+  ['max7219_5freg_5fintensity_2',['MAX7219_REG_Intensity',['../classMAX7219__SS__RPI.html#a10c504879398d960ca3efd6acf45087ba9602288f7cb0584d2b71f125803a497d',1,'MAX7219_SS_RPI']]],
+  ['max7219_5freg_5fnop_3',['MAX7219_REG_NOP',['../classMAX7219__SS__RPI.html#a10c504879398d960ca3efd6acf45087ba9a93cff941c743e79ed754cca0439749',1,'MAX7219_SS_RPI']]],
+  ['max7219_5freg_5fscanlimit_4',['MAX7219_REG_ScanLimit',['../classMAX7219__SS__RPI.html#a10c504879398d960ca3efd6acf45087ba4179c72de39fca7291e1f13b4f6f3789',1,'MAX7219_SS_RPI']]],
+  ['max7219_5freg_5fshutdown_5',['MAX7219_REG_ShutDown',['../classMAX7219__SS__RPI.html#a10c504879398d960ca3efd6acf45087badbc8a7a4a5adac33f54a403f12ec6f21',1,'MAX7219_SS_RPI']]],
+  ['memoryaerror_6',['MemoryAError',['../common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a299a450ad2228bb9f5de19391a541422',1,'rdlib']]]
 ];

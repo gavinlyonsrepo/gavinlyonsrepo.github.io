@@ -1,20 +1,21 @@
 <map id="doc" name="doc">
-<area shape="rect" id="node2" href="dir_0f83d48e526ee58785fe62858c815218.html" title="ch1115" alt="" coords="1472,63,1541,88"/>
-<area shape="rect" id="node3" href="dir_a47d315f7489a5650ce39a7370fbb9c4.html" title="colors" alt="" coords="1387,63,1448,88"/>
-<area shape="rect" id="node4" href="dir_98be2dea7423bc88985d73578cd88185.html" title="erm19264" alt="" coords="1275,63,1363,88"/>
-<area shape="rect" id="node5" href="dir_28872a8bd5d12631dde499a939f65bc4.html" title="errors" alt="" coords="1190,63,1250,88"/>
-<area shape="rect" id="node6" href="dir_1135e340bebdb446d14874455b63432c.html" title="fonts" alt="" coords="1111,63,1166,88"/>
-<area shape="rect" id="node7" href="dir_77afa50bd07bd97f67ac162ad66cddc5.html" title="hd44780" alt="" coords="1009,63,1087,88"/>
-<area shape="rect" id="node8" href="dir_72a199535c6962dc609134521c903a48.html" title="history" alt="" coords="917,63,984,88"/>
-<area shape="rect" id="node9" href="dir_6fc23548deead05752d2b420c05a5a51.html" title="ili9341" alt="" coords="827,63,893,88"/>
-<area shape="rect" id="node10" href="dir_5d3ee4e3a9a7e69dcb1d0ce71241bb39.html" title="max7219" alt="" coords="720,63,803,88"/>
-<area shape="rect" id="node11" href="dir_99199dc6f209310c2832f105b2a11d8f.html" title="nokia5110" alt="" coords="605,63,696,88"/>
-<area shape="rect" id="node12" href="dir_d3b6f952837438014b30b79a8e96481d.html" title="sh110x" alt="" coords="512,63,581,88"/>
-<area shape="rect" id="node13" href="dir_1e348fc40b29186927a6d8aafe66e0e9.html" title="ssd1306" alt="" coords="411,63,487,88"/>
-<area shape="rect" id="node14" href="dir_159e12ca917c62cef85ababb321c2eec.html" title="st7735" alt="" coords="320,63,387,88"/>
-<area shape="rect" id="node15" href="dir_285be32013acb33536e0da6cb103d585.html" title="st7789" alt="" coords="229,63,296,88"/>
-<area shape="rect" id="node16" href="dir_e0a6ba232e2e40630ae9f77d4070321d.html" title="tm1637" alt="" coords="133,63,205,88"/>
-<area shape="rect" id="node17" href="dir_52d5e1613ccff9ed402fe1803cce5a14.html" title="tm1638" alt="" coords="37,63,109,88"/>
-<area shape="rect" id="clust2" href="dir_92294d15063fe2e241e7cd0121913c6d.html" alt="" coords="27,52,1621,99"/>
-<area shape="rect" id="clust1" href="dir_61725470c0c4ad532abb3cb1e156c123.html" title="extra" alt="" coords="16,16,1632,109"/>
+<area shape="rect" id="node2" href="dir_0f83d48e526ee58785fe62858c815218.html" title="ch1115" alt="" coords="1572,63,1641,88"/>
+<area shape="rect" id="node3" href="dir_a47d315f7489a5650ce39a7370fbb9c4.html" title="colors" alt="" coords="1487,63,1548,88"/>
+<area shape="rect" id="node4" href="dir_98be2dea7423bc88985d73578cd88185.html" title="erm19264" alt="" coords="1375,63,1463,88"/>
+<area shape="rect" id="node5" href="dir_28872a8bd5d12631dde499a939f65bc4.html" title="errors" alt="" coords="1290,63,1350,88"/>
+<area shape="rect" id="node6" href="dir_1135e340bebdb446d14874455b63432c.html" title="fonts" alt="" coords="1211,63,1266,88"/>
+<area shape="rect" id="node7" href="dir_77afa50bd07bd97f67ac162ad66cddc5.html" title="hd44780" alt="" coords="1109,63,1187,88"/>
+<area shape="rect" id="node8" href="dir_72a199535c6962dc609134521c903a48.html" title="history" alt="" coords="1017,63,1084,88"/>
+<area shape="rect" id="node9" href="dir_6fc23548deead05752d2b420c05a5a51.html" title="ili9341" alt="" coords="927,63,993,88"/>
+<area shape="rect" id="node10" href="dir_5d3ee4e3a9a7e69dcb1d0ce71241bb39.html" title="max7219" alt="" coords="820,63,903,88"/>
+<area shape="rect" id="node11" href="dir_99199dc6f209310c2832f105b2a11d8f.html" title="nokia5110" alt="" coords="705,63,796,88"/>
+<area shape="rect" id="node12" href="dir_d3b6f952837438014b30b79a8e96481d.html" title="sh110x" alt="" coords="612,63,681,88"/>
+<area shape="rect" id="node13" href="dir_1e348fc40b29186927a6d8aafe66e0e9.html" title="ssd1306" alt="" coords="511,63,587,88"/>
+<area shape="rect" id="node14" href="dir_7970054ef9eab1e4865ca97000821cce.html" title="ssd1331" alt="" coords="411,63,487,88"/>
+<area shape="rect" id="node15" href="dir_159e12ca917c62cef85ababb321c2eec.html" title="st7735" alt="" coords="320,63,387,88"/>
+<area shape="rect" id="node16" href="dir_285be32013acb33536e0da6cb103d585.html" title="st7789" alt="" coords="229,63,296,88"/>
+<area shape="rect" id="node17" href="dir_e0a6ba232e2e40630ae9f77d4070321d.html" title="tm1637" alt="" coords="133,63,205,88"/>
+<area shape="rect" id="node18" href="dir_52d5e1613ccff9ed402fe1803cce5a14.html" title="tm1638" alt="" coords="37,63,109,88"/>
+<area shape="rect" id="clust2" href="dir_92294d15063fe2e241e7cd0121913c6d.html" alt="" coords="27,52,1721,99"/>
+<area shape="rect" id="clust1" href="dir_61725470c0c4ad532abb3cb1e156c123.html" title="extra" alt="" coords="16,16,1732,109"/>
 </map>

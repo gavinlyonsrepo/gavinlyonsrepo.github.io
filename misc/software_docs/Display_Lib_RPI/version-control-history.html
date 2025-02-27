@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -86,16 +86,16 @@ $(function() {
 <li>Added Support for ILI9341 LCD with XPT2046 touchscreen support.</li>
 </ul>
 </li>
-<li>Version 1.3.0 20-03-2024<ul>
+<li>Version 1.3.0 03-2024<ul>
 <li>Added Support for Sh1106 &amp; Sh1107 OLED I2C.</li>
 </ul>
 </li>
-<li>Version 2.0.0 05-12-2024<ul>
+<li>Version 2.0.0 12-2024<ul>
 <li>Changed low level dependency from 'bcm2835' to 'lgpio', primarily so the library can now work on a raspberry 5 as 'bcm2835' cannot work on raspberry 5. 'Lgpio' works with linux device driver rather than low level register access of 'bcm2835' software should now work on any linux based SBC which has SPI.</li>
 <li>Changed font system, added some different fonts and font data is now horizontally addressed instead of vertically. This facilitates using buffered writes to write font much faster character by character in a frame buffer rather than pixel by pixel. In the writeChar method of 16-bit color graphic display.</li>
 </ul>
 </li>
-<li>Version 2.1.0 24-01-2025<ul>
+<li>Version 2.1.0 01-2025<ul>
 <li>Added support for TM1637 LED module.</li>
 <li>Added support for vectors, with a template to the print method.</li>
 <li>Replaced the gll font data with better one, same name.</li>
@@ -103,7 +103,13 @@ $(function() {
 <li>Abstracted most 'lg' library calls to the common data file.</li>
 <li>Added Scroll test example for ST7789.</li>
 <li>Added Sprite function for 16 bit color displays</li>
-<li>Removed any calls to malloc() &amp; free() from library and examples, use vectors and unique pointers instead. </li>
+</ul>
+</li>
+<li>Version 2.2.0 02-2025<ul>
+<li>Added support for SSD1331 OLED.</li>
+<li>Added Config file, Logging and Debug modes.</li>
+<li>Code optimisations.</li>
+<li>Namespace improvements. </li>
 </ul>
 </li>
 </ul>

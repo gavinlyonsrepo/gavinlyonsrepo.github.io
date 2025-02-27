@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -74,7 +74,9 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classXPT__2046__RDL-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">XPT_2046_RDL Class Reference</div></div>
 </div><!--header-->
@@ -96,15 +98,15 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>XPT_2046_RDL</b> ()</td></tr>
 <tr class="memdesc:a838877bfa537557a4a22cff0ee4dab2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for class XPT2046_RDL. <br /></td></tr>
 <tr class="separator:a838877bfa537557a4a22cff0ee4dab2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03acfef4c3f553e3effb33f61eeb1a81" id="r_a03acfef4c3f553e3effb33f61eeb1a81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#a03acfef4c3f553e3effb33f61eeb1a81">XPTSPIInit</a> (int device, int channel, int speed, int flags, int gpioDev, uint8_t IRQPin, int8_t resPin)</td></tr>
-<tr class="memdesc:a03acfef4c3f553e3effb33f61eeb1a81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise the SPI interface.  <br /></td></tr>
-<tr class="separator:a03acfef4c3f553e3effb33f61eeb1a81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a319831d1c6b35e5674150c2593556bee" id="r_a319831d1c6b35e5674150c2593556bee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#a319831d1c6b35e5674150c2593556bee">XPTSPIInit</a> (int device, int channel, int speed, int flags, int gpioDev, uint8_t IRQPin, int8_t resPin)</td></tr>
+<tr class="memdesc:a319831d1c6b35e5674150c2593556bee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise the SPI interface.  <br /></td></tr>
+<tr class="separator:a319831d1c6b35e5674150c2593556bee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f0c03d688d4e23570620a609229c3e5" id="r_a3f0c03d688d4e23570620a609229c3e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#a3f0c03d688d4e23570620a609229c3e5">XPTIRQIsPressed</a> ()</td></tr>
 <tr class="memdesc:a3f0c03d688d4e23570620a609229c3e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Poll the IRQ pin.  <br /></td></tr>
 <tr class="separator:a3f0c03d688d4e23570620a609229c3e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ea2a8a2bae1697cef3246cfd5c63cdb" id="r_a8ea2a8a2bae1697cef3246cfd5c63cdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#a8ea2a8a2bae1697cef3246cfd5c63cdb">XPTSPIend</a> (void)</td></tr>
-<tr class="memdesc:a8ea2a8a2bae1697cef3246cfd5c63cdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop the SPI interface.  <br /></td></tr>
-<tr class="separator:a8ea2a8a2bae1697cef3246cfd5c63cdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafaca5a6063e9ca86e3d7040c24ba428" id="r_aafaca5a6063e9ca86e3d7040c24ba428"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#aafaca5a6063e9ca86e3d7040c24ba428">XPTSPIend</a> (void)</td></tr>
+<tr class="memdesc:aafaca5a6063e9ca86e3d7040c24ba428"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop the SPI interface.  <br /></td></tr>
+<tr class="separator:aafaca5a6063e9ca86e3d7040c24ba428"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a697c9f3f6c89f7010e849c67a9b07dad" id="r_a697c9f3f6c89f7010e849c67a9b07dad"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#a697c9f3f6c89f7010e849c67a9b07dad">XPTReadSensor</a> (int command)</td></tr>
 <tr class="memdesc:a697c9f3f6c89f7010e849c67a9b07dad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the touch screen sensor Data.  <br /></td></tr>
 <tr class="separator:a697c9f3f6c89f7010e849c67a9b07dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,6 +126,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>XPTSetPoint</b> (uint
 int&#160;</td><td class="memItemRight" valign="bottom"><b>XPTGetPoint</b> ()</td></tr>
 <tr class="separator:aff2095d79eee4957476253bd48ce4825"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:acf4ebd49fa8a29732f80d42fb0932e3c" id="r_acf4ebd49fa8a29732f80d42fb0932e3c"><td class="memItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#acf4ebd49fa8a29732f80d42fb0932e3c">MaxTouchPoints</a> = 20</td></tr>
+<tr class="separator:acf4ebd49fa8a29732f80d42fb0932e3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b15aed062d2d95ec9258cd7dc51bfb2" id="r_a6b15aed062d2d95ec9258cd7dc51bfb2"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#a6b15aed062d2d95ec9258cd7dc51bfb2">MAX_LEN_BUFFER</a> = 3</td></tr>
+<tr class="separator:a6b15aed062d2d95ec9258cd7dc51bfb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75641b46ce1d13d36decbb3771cbab79" id="r_a75641b46ce1d13d36decbb3771cbab79"><td class="memItemLeft" align="right" valign="top">static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#a75641b46ce1d13d36decbb3771cbab79">DTMAX</a> = 800000</td></tr>
+<tr class="separator:a75641b46ce1d13d36decbb3771cbab79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:af71c38d94b047fce68a32916e94a9732" id="r_af71c38d94b047fce68a32916e94a9732"><td class="memItemLeft" align="right" valign="top"><a id="af71c38d94b047fce68a32916e94a9732" name="af71c38d94b047fce68a32916e94a9732"></a>
@@ -138,9 +149,9 @@ time_t&#160;</td><td class="memItemRight" valign="bottom"><b>lsec</b></td></tr>
 <tr class="memitem:a7fb6754880b0b298818632e6457d0c62" id="r_a7fb6754880b0b298818632e6457d0c62"><td class="memItemLeft" align="right" valign="top"><a id="a7fb6754880b0b298818632e6457d0c62" name="a7fb6754880b0b298818632e6457d0c62"></a>
 suseconds_t&#160;</td><td class="memItemRight" valign="bottom"><b>lusec</b></td></tr>
 <tr class="separator:a7fb6754880b0b298818632e6457d0c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a264946dc3af0354a47976249f23cfca6" id="r_a264946dc3af0354a47976249f23cfca6"><td class="memItemLeft" align="right" valign="top"><a id="a264946dc3af0354a47976249f23cfca6" name="a264946dc3af0354a47976249f23cfca6"></a>
-<a class="el" href="structXPT__2046__RDL_1_1TouchPoint.html">TouchPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><b>tps</b> [<a class="el" href="XPT2046__TS__TFT__LCD__RDL_8hpp.html#aec56134d326dbb3afe7bb77a07a5968b">MAXTP</a>]</td></tr>
-<tr class="separator:a264946dc3af0354a47976249f23cfca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6785934d3e3a66f32cc2547ee0cfeca" id="r_af6785934d3e3a66f32cc2547ee0cfeca"><td class="memItemLeft" align="right" valign="top"><a id="af6785934d3e3a66f32cc2547ee0cfeca" name="af6785934d3e3a66f32cc2547ee0cfeca"></a>
+<a class="el" href="structXPT__2046__RDL_1_1TouchPoint.html">TouchPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><b>tps</b> [<a class="el" href="classXPT__2046__RDL.html#acf4ebd49fa8a29732f80d42fb0932e3c">MaxTouchPoints</a>]</td></tr>
+<tr class="separator:af6785934d3e3a66f32cc2547ee0cfeca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac93c0b77f25888c13cbf9c904483403f" id="r_ac93c0b77f25888c13cbf9c904483403f"><td class="memItemLeft" align="right" valign="top"><a id="ac93c0b77f25888c13cbf9c904483403f" name="ac93c0b77f25888c13cbf9c904483403f"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>_calibration</b></td></tr>
 <tr class="separator:ac93c0b77f25888c13cbf9c904483403f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -181,6 +192,21 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>_GpioHandle</b> = 0</t
 <tr class="separator:af14cfdb97b57d391b29792ab1e4f0cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb78ab685d83d056b9b84582e303fd9a" id="r_afb78ab685d83d056b9b84582e303fd9a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#afb78ab685d83d056b9b84582e303fd9a">_resetXPTPinOn</a> = false</td></tr>
 <tr class="separator:afb78ab685d83d056b9b84582e303fd9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a5e35eef079bdd56d5b900cb3b6d8c33c" id="r_a5e35eef079bdd56d5b900cb3b6d8c33c"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#a5e35eef079bdd56d5b900cb3b6d8c33c">XPT_START</a> = 0x80</td></tr>
+<tr class="separator:a5e35eef079bdd56d5b900cb3b6d8c33c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1acf32392f282b92af23ce449ee8ff81" id="r_a1acf32392f282b92af23ce449ee8ff81"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#a1acf32392f282b92af23ce449ee8ff81">XPT_XPOS</a> = 0x50</td></tr>
+<tr class="separator:a1acf32392f282b92af23ce449ee8ff81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bbbceb036ddf6a5f7e4b75502dbf61b" id="r_a5bbbceb036ddf6a5f7e4b75502dbf61b"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#a5bbbceb036ddf6a5f7e4b75502dbf61b">XPT_YPOS</a> = 0x10</td></tr>
+<tr class="separator:a5bbbceb036ddf6a5f7e4b75502dbf61b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa12b8eef798b8b77d263b8cceaed81a5" id="r_aa12b8eef798b8b77d263b8cceaed81a5"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#aa12b8eef798b8b77d263b8cceaed81a5">XPT_8BIT</a> = 0x08</td></tr>
+<tr class="separator:aa12b8eef798b8b77d263b8cceaed81a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab65189c4b683b3fcad247798566e5fa4" id="r_ab65189c4b683b3fcad247798566e5fa4"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#ab65189c4b683b3fcad247798566e5fa4">XPT_SER</a> = 0x04</td></tr>
+<tr class="separator:ab65189c4b683b3fcad247798566e5fa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a168100da2574764576b3a1a76ea657a1" id="r_a168100da2574764576b3a1a76ea657a1"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#a168100da2574764576b3a1a76ea657a1">XPT_DEF</a> = 0x03</td></tr>
+<tr class="separator:a168100da2574764576b3a1a76ea657a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class to interface hardware of Touch point IC XPT2046. </p>
@@ -263,14 +289,14 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>_GpioHandle</b> = 0</t
 
 </div>
 </div>
-<a id="a8ea2a8a2bae1697cef3246cfd5c63cdb" name="a8ea2a8a2bae1697cef3246cfd5c63cdb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ea2a8a2bae1697cef3246cfd5c63cdb">&#9670;&#160;</a></span>XPTSPIend()</h2>
+<a id="aafaca5a6063e9ca86e3d7040c24ba428" name="aafaca5a6063e9ca86e3d7040c24ba428"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafaca5a6063e9ca86e3d7040c24ba428">&#9670;&#160;</a></span>XPTSPIend()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> XPT_2046_RDL::XPTSPIend </td>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> XPT_2046_RDL::XPTSPIend </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -280,24 +306,24 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>_GpioHandle</b> = 0</t
 </div><div class="memdoc">
 
 <p>Stop the SPI interface. </p>
-<dl class="section return"><dt>Returns</dt><dd>Returns a rpiDisplay_Return_Codes_e<ol type="1">
-<li>rpiDisplay_Success</li>
-<li>rpiDisplay_GpioPinFree</li>
-<li>rpiDisplay_SPICloseFailure</li>
-<li>rpiDisplay_GpioChipDevice </li>
+<dl class="section return"><dt>Returns</dt><dd>Returns a <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a><ol type="1">
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a0e40ec38e9d754b8ce795b4007f93fef">rdlib::GpioPinFree</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a6169a81d0ae5688c76efad17712818f9">rdlib::SPICloseFailure</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a91050c855c6aedfc87e0adb551161bde">rdlib::GpioChipDevice</a> </li>
 </ol>
 </dd></dl>
 
 </div>
 </div>
-<a id="a03acfef4c3f553e3effb33f61eeb1a81" name="a03acfef4c3f553e3effb33f61eeb1a81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03acfef4c3f553e3effb33f61eeb1a81">&#9670;&#160;</a></span>XPTSPIInit()</h2>
+<a id="a319831d1c6b35e5674150c2593556bee" name="a319831d1c6b35e5674150c2593556bee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a319831d1c6b35e5674150c2593556bee">&#9670;&#160;</a></span>XPTSPIInit()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> XPT_2046_RDL::XPTSPIInit </td>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> XPT_2046_RDL::XPTSPIInit </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>device</em>, </td>
@@ -359,11 +385,11 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>_GpioHandle</b> = 0</t
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Returns a rpiDisplay_Return_Codes_e<ol type="1">
-<li>rpiDisplay_Success</li>
-<li>rpiDisplay_GpioChipDevice</li>
-<li>rpiDisplay_GpioChipClaim</li>
-<li>rpiDisplay_SPIOpenFailure </li>
+<dl class="section return"><dt>Returns</dt><dd>Returns a <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a><ol type="1">
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a91050c855c6aedfc87e0adb551161bde">rdlib::GpioChipDevice</a></li>
+<li>rdlib::GpioChipClaim</li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5ae2f52411247decd2656308eab208c8f8">rdlib::SPIOpenFailure</a> </li>
 </ol>
 </dd></dl>
 
@@ -389,7 +415,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>_GpioHandle</b> = 0</t
   </tr>
 </table>
 </div><div class="memdoc">
-<p>The device number of a gpiochip 4=rpi5 0=rpi4,3 /dev/gpio </p>
+<p>The device number of a gpiochip ls /dev/gpio </p>
 
 </div>
 </div>
@@ -759,6 +785,213 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>_GpioHandle</b> = 0</t
 </table>
 </div><div class="memdoc">
 <p>Hold a handle for the SPI device on the channel. </p>
+
+</div>
+</div>
+<a id="a75641b46ce1d13d36decbb3771cbab79" name="a75641b46ce1d13d36decbb3771cbab79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75641b46ce1d13d36decbb3771cbab79">&#9670;&#160;</a></span>DTMAX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint32_t XPT_2046_RDL::DTMAX = 800000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Delay 800mS </p>
+
+</div>
+</div>
+<a id="a6b15aed062d2d95ec9258cd7dc51bfb2" name="a6b15aed062d2d95ec9258cd7dc51bfb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b15aed062d2d95ec9258cd7dc51bfb2">&#9670;&#160;</a></span>MAX_LEN_BUFFER</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t XPT_2046_RDL::MAX_LEN_BUFFER = 3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Maximum length of RX and TX buffer </p>
+
+</div>
+</div>
+<a id="acf4ebd49fa8a29732f80d42fb0932e3c" name="acf4ebd49fa8a29732f80d42fb0932e3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf4ebd49fa8a29732f80d42fb0932e3c">&#9670;&#160;</a></span>MaxTouchPoints</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto XPT_2046_RDL::MaxTouchPoints = 20</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Maximum Number of Touch point's to record </p>
+
+</div>
+</div>
+<a id="aa12b8eef798b8b77d263b8cceaed81a5" name="aa12b8eef798b8b77d263b8cceaed81a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa12b8eef798b8b77d263b8cceaed81a5">&#9670;&#160;</a></span>XPT_8BIT</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t XPT_2046_RDL::XPT_8BIT = 0x08</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Mode select 8 bit </p>
+
+</div>
+</div>
+<a id="a168100da2574764576b3a1a76ea657a1" name="a168100da2574764576b3a1a76ea657a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a168100da2574764576b3a1a76ea657a1">&#9670;&#160;</a></span>XPT_DEF</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t XPT_2046_RDL::XPT_DEF = 0x03</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Differential Reference Select bit </p>
+
+</div>
+</div>
+<a id="ab65189c4b683b3fcad247798566e5fa4" name="ab65189c4b683b3fcad247798566e5fa4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab65189c4b683b3fcad247798566e5fa4">&#9670;&#160;</a></span>XPT_SER</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t XPT_2046_RDL::XPT_SER = 0x04</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Single-Ended Select bit </p>
+
+</div>
+</div>
+<a id="a5e35eef079bdd56d5b900cb3b6d8c33c" name="a5e35eef079bdd56d5b900cb3b6d8c33c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e35eef079bdd56d5b900cb3b6d8c33c">&#9670;&#160;</a></span>XPT_START</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t XPT_2046_RDL::XPT_START = 0x80</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Start bit Control Register </p>
+
+</div>
+</div>
+<a id="a1acf32392f282b92af23ce449ee8ff81" name="a1acf32392f282b92af23ce449ee8ff81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1acf32392f282b92af23ce449ee8ff81">&#9670;&#160;</a></span>XPT_XPOS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t XPT_2046_RDL::XPT_XPOS = 0x50</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>A2-A0 Channel select bits for XPOS </p>
+
+</div>
+</div>
+<a id="a5bbbceb036ddf6a5f7e4b75502dbf61b" name="a5bbbceb036ddf6a5f7e4b75502dbf61b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bbbceb036ddf6a5f7e4b75502dbf61b">&#9670;&#160;</a></span>XPT_YPOS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t XPT_2046_RDL::XPT_YPOS = 0x10</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>A2-A0 Channel select bits for YPOS </p>
 
 </div>
 </div>

@@ -4,8 +4,8 @@
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,126,105,114,141,103,143,108,106,119,71,131"/>
 <area shape="rect" id="Node000003" href="$classbicolor__graphics.html" title="Graphics class to hold graphic related functions for 1&#45;bit displays." alt="" coords="124,129,252,155"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="71,139,123,139,123,145,71,145"/>
-<area shape="rect" id="Node000009" href="$classcolor16__graphics.html" title="Class to handle fonts and graphics of color 16 bit display." alt="" coords="122,276,254,301"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="58,163,175,274,171,278,55,167"/>
+<area shape="rect" id="Node000009" href="$classcolor16__graphics.html" title="Class to handle fonts and graphics of color 16 bit display." alt="" coords="122,301,254,327"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="55,163,177,299,173,303,51,167"/>
 <area shape="rect" id="Node000004" href="$classERM19264__UC1609.html" title="class to drive the ERM19264 UC1609 LCD" alt="" coords="319,5,468,31"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="259,121,269,115,285,97,292,78,300,59,317,40,337,29,339,33,320,44,305,62,297,80,289,100,272,119,262,126"/>
 <area shape="rect" id="Node000005" href="$classERMCH1115.html" title="class to drive the ERMCh1115 OLED" alt="" coords="342,55,445,80"/>
@@ -17,9 +17,11 @@
 <area shape="rect" id="Node000008" href="$classSSD1306__RDL.html" title="class to control OLED and define buffer" alt="" coords="337,203,450,228"/>
 <area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="237,157,320,187,356,200,354,205,318,193,235,162"/>
 <area shape="rect" id="Node000010" href="$classILI9341__TFT.html" title="Class to interface with ILI9341 LCD display." alt="" coords="344,252,443,277"/>
-<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="267,277,344,268,344,273,268,282"/>
-<area shape="rect" id="Node000011" href="$classST7735__TFT.html" title="Class to control ST7735 TFT basic functionality." alt="" coords="343,301,443,327"/>
-<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="268,296,343,305,342,310,267,301"/>
-<area shape="rect" id="Node000012" href="$classST7789__TFT.html" title="Class to control ST7789 TFT basic functionality." alt="" coords="343,351,443,376"/>
-<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="236,304,320,335,355,348,353,353,318,341,234,309"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="254,296,343,274,344,279,255,301"/>
+<area shape="rect" id="Node000011" href="$classSSD1331__OLED.html" title="Class to control SSD1331 OLED basic functionality." alt="" coords="332,301,455,327"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="268,311,332,311,332,317,268,317"/>
+<area shape="rect" id="Node000012" href="$classST7735__TFT.html" title="Class to control ST7735 TFT basic functionality." alt="" coords="343,351,443,376"/>
+<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="255,327,344,349,342,354,254,333"/>
+<area shape="rect" id="Node000013" href="$classST7789__TFT.html" title="Class to control ST7789 TFT basic functionality." alt="" coords="343,400,443,425"/>
+<area shape="poly" id="edge12_Node000009_Node000013" title=" " alt="" coords="222,332,268,358,320,385,352,397,350,402,318,390,265,363,220,336"/>
 </map>

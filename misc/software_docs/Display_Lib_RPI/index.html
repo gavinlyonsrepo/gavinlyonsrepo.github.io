@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -78,7 +78,7 @@ $(function() {
 <h1><a class="anchor" id="display-library-for-linux-based-single-board-computers"></a>
 Display Library for Linux based Single Board Computers</h1>
 <p><a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/logo.png"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/logo.png" alt="logo image" class="inline"/></a></p>
-<h2><a class="anchor" id="table-of-contents-12"></a>
+<h2><a class="anchor" id="table-of-contents-13"></a>
 Table of contents</h2>
 <ul>
 <li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#overview">Overview</a></li>
@@ -92,7 +92,9 @@ Table of contents</h2>
 </li>
 <li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#software">Software</a><ul>
 <li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ili9341_2README.html#file-system">File-system</a></li>
+<li><a class="el" href="index.html#error-codes">Error Codes</a></li>
 <li><a class="el" href="index.html#tool-chain">Tool chain</a></li>
+<li><a class="el" href="index.html#configuration">Configuration</a></li>
 </ul>
 </li>
 <li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ili9341_2README.html#notes">Notes</a><ul>
@@ -100,7 +102,7 @@ Table of contents</h2>
 </ul>
 </li>
 </ul>
-<h2><a class="anchor" id="overview-12"></a>
+<h2><a class="anchor" id="overview-13"></a>
 Overview</h2>
 <ul>
 <li>Project Name: Display_Lib_RPI</li>
@@ -137,14 +139,14 @@ Installation</h2>
 </ul>
 </li>
 </ol>
-<div class="fragment"><div class="line">curl -sL https://github.com/gavinlyonsrepo/Display_Lib_RPI/archive/2.1.0.tar.gz | tar xz</div>
+<div class="fragment"><div class="line">curl -sL https://github.com/gavinlyonsrepo/Display_Lib_RPI/archive/2.2.0.tar.gz | tar xz</div>
 </div><!-- fragment --><ol type="1">
 <li>Install library : Run 'make' and 'sudo make install' to run the makefile to build and then install library.<ul>
 <li>It will be installed to usr/local/lib and usr/local/include by default.</li>
 </ul>
 </li>
 </ol>
-<div class="fragment"><div class="line">cd Display_Lib_RPI-2.1.0</div>
+<div class="fragment"><div class="line">cd Display_Lib_RPI-2.2.0</div>
 <div class="line">make</div>
 <div class="line">sudo make install</div>
 </div><!-- fragment --><h2><a class="anchor" id="test"></a>
@@ -175,53 +177,54 @@ Supported devices</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">ST7735   </td><td class="markdownTableBodyNone">16 bit Colour Graphic TFT LCD   </td><td class="markdownTableBodyNone">SPI HW &amp; SW   </td><td class="markdownTableBodyNone"><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2st7735_2README.html">Readme</a>    </td></tr>
 <tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">SSD1331   </td><td class="markdownTableBodyNone">16 bit Colour Graphic OLED   </td><td class="markdownTableBodyNone">SPI HW &amp; SW   </td><td class="markdownTableBodyNone"><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ssd1331_2README.html">Readme</a>    </td></tr>
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">ERM19264 UC1609   </td><td class="markdownTableBodyNone">Bi colour Graphic LCD   </td><td class="markdownTableBodyNone">SPI HW &amp; SW   </td><td class="markdownTableBodyNone"><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2erm19264_2README.html">Readme</a>    </td></tr>
-<tr class="markdownTableRowOdd">
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">Nokia 5110 PCD8544   </td><td class="markdownTableBodyNone">Bi colour Graphic LCD   </td><td class="markdownTableBodyNone">SPI HW &amp; SW   </td><td class="markdownTableBodyNone"><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2nokia5110_2README.html">Readme</a>    </td></tr>
-<tr class="markdownTableRowEven">
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">ERM1 CH1115   </td><td class="markdownTableBodyNone">Bi colour Graphic OLED   </td><td class="markdownTableBodyNone">SPI HW &amp; SW   </td><td class="markdownTableBodyNone"><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html">Readme</a>    </td></tr>
-<tr class="markdownTableRowOdd">
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">SSD1306   </td><td class="markdownTableBodyNone">Bi colour Graphic OLED   </td><td class="markdownTableBodyNone">I2C   </td><td class="markdownTableBodyNone"><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ssd1306_2README.html">Readme</a>    </td></tr>
-<tr class="markdownTableRowEven">
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">SH1106 SH1107   </td><td class="markdownTableBodyNone">Bi colour Graphic OLED   </td><td class="markdownTableBodyNone">I2C   </td><td class="markdownTableBodyNone"><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2sh110x_2README.html">Readme</a>    </td></tr>
-<tr class="markdownTableRowOdd">
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">HD44780_PCF8574   </td><td class="markdownTableBodyNone">Character LCD   </td><td class="markdownTableBodyNone">I2C   </td><td class="markdownTableBodyNone"><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2hd44780_2README.html">Readme</a>    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">TM1638   </td><td class="markdownTableBodyNone">LED 7 segment display   </td><td class="markdownTableBodyNone">~SPI SW   </td><td class="markdownTableBodyNone"><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2tm1638_2README.html">Readme</a>    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">TM1637   </td><td class="markdownTableBodyNone">LED 7 segment display   </td><td class="markdownTableBodyNone">~SPI SW   </td><td class="markdownTableBodyNone"><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2tm1637_2README.html">Readme</a>    </td></tr>
+<td class="markdownTableBodyNone">TM1638   </td><td class="markdownTableBodyNone">LED 7 segment display   </td><td class="markdownTableBodyNone">~SPI SW   </td><td class="markdownTableBodyNone"><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2tm1638_2README.html">Readme</a>    </td></tr>
 <tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">TM1637   </td><td class="markdownTableBodyNone">LED 7 segment display   </td><td class="markdownTableBodyNone">GPIO   </td><td class="markdownTableBodyNone"><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2tm1637_2README.html">Readme</a>    </td></tr>
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">MAX7219   </td><td class="markdownTableBodyNone">LED 7 segment display   </td><td class="markdownTableBodyNone">SPI HW &amp; SW   </td><td class="markdownTableBodyNone"><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2max7219_2README.html">Readme</a>   </td></tr>
 </table>
 <h3><a class="anchor" id="api-documentation"></a>
 API Documentation</h3>
-<p><a href="https://gavinlyonsrepo.github.io/misc/software_docs/Display_Lib_RPI/index.html">The application programming interface documentation is at link</a> hosted on github pages and generated by Doxygen.</p>
+<p>The application programming interface html <a href="https://gavinlyonsrepo.github.io/misc/software_docs/Display_Lib_RPI/index.html">documentation is at link</a> hosted on github pages and generated by Doxygen. Detailed project overview images are available there.</p>
 <h3><a class="anchor" id="fonts"></a>
 Fonts</h3>
 <p>The font system readme for the graphic displays is in the 'doc' folder <a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2fonts_2README.html">at link.</a></p>
-<h2><a class="anchor" id="software-12"></a>
+<h2><a class="anchor" id="software-13"></a>
 Software</h2>
-<h3><a class="anchor" id="file-system-7"></a>
+<h3><a class="anchor" id="file-system-8"></a>
 File system</h3>
 <p>There are 2 makefiles.</p>
 <ol type="1">
-<li>Root directory, builds and installs library at a system level.</li>
-<li>Example directory, builds a chosen example file using installed library to an executable. which can then be run. A user editable list of file paths to examples can be found in makefile.</li>
-<li>Run 'make help' on these makefiles to see a menu of all options.(uninstall for example)</li>
+<li>Root directory makefile, builds and installs library at a system level.</li>
+<li>Example directory makefile, builds a chosen example file using installed library to an executable. which can then be run. A user editable list of file paths to examples can be found in makefile.</li>
 </ol>
+<p>Run 'make help' on these makefiles to see a menu of all options.(uninstall library for example)</p>
 <p>Library naming :</p>
 <ol type="1">
 <li>library name = librpidisplaygl</li>
 <li>Linker flags for complier = -lrpidisplaygl (also needs -llgpio for lgpio library)</li>
 <li>Library File suffix = RDL</li>
 <li>Project name = Display_Lib_RPI</li>
-<li>Installed size = ~330 KiB</li>
+<li>Installed size = ~500 KiB.</li>
+<li>Namespaces see API.documentation.</li>
 </ol>
-<p>Basic project overview, see API documentation for more detailed diagrams :</p>
-<p><a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/diagram.png"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/diagram.png" alt="Overview image" class="inline"/></a></p>
 <h3><a class="anchor" id="error-codes"></a>
 Error Codes</h3>
-<p>Most functions that return a value, return a enum 'rpiDisplay_Return_Codes'. Zero for success and a positive number for an error code. The error codes are listed in is in the 'doc' folder <a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2errors_2README.html">at link.</a></p>
+<p>Most functions that return a value, return a enum 'rdlib::Return_Codes'. Zero for success and a positive number for an error code. The error codes are listed in is in the 'doc' folder <a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2errors_2README.html">at link.</a></p>
 <h3><a class="anchor" id="tool-chain"></a>
 Tool chain</h3>
 <ul>
@@ -233,7 +236,14 @@ Tool chain</h3>
 </ol>
 </li>
 </ul>
-<h2><a class="anchor" id="notes-3"></a>
+<h3><a class="anchor" id="configuration"></a>
+Configuration</h3>
+<p>A configuration file can be created which is read into program by running "rdlib_config::loadConfig()" at start of program If the file is missing it will create it at "/($HOME)/.config/rdlib_config/config.cfg". In this file logging and debug modes can be enabled they are OFF by default. A path to log file can also be set. Certain functions produce debug information to console if this setting is enabled. Some errors conditions trigger logging if it is enabled.</p>
+<p>Config file :</p>
+<p><a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/config.png"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/config.png" alt="cfg file" class="inline"/></a></p>
+<p>Log file example output :</p>
+<p><a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/logfile.png"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/logfile.png" alt="log file" class="inline"/></a></p>
+<h2><a class="anchor" id="notes-4"></a>
 Notes</h2>
 <h3><a class="anchor" id="older-versions"></a>
 Older versions</h3>

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['scanlimit_5fe_0',['ScanLimit_e',['../classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253',1,'MAX7219_SS_RPI']]]
+  ['pixel_5fcolor565_5fe_0',['pixel_color565_e',['../classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3c',1,'color16_graphics']]],
+  ['pixel_5fcolor_5fe_1',['pixel_color_e',['../classbicolor__graphics.html#ae5e076620da61262e00e8f47d2254878',1,'bicolor_graphics']]]
 ];

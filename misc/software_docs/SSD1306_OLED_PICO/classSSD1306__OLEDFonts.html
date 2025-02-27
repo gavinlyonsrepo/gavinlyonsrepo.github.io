@@ -42,7 +42,6 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classSSD1306__OLEDFonts-members.html">List of all members</a>  </div>
@@ -84,13 +83,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5fb902a0236594b1f63a4d3c965b64a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">getInvertFont  <br /></td></tr>
 <tr class="separator:a5fb902a0236594b1f63a4d3c965b64a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a67bc12b3d20b48506261861ca2ded0cd" id="r_a67bc12b3d20b48506261861ca2ded0cd"><td class="memItemLeft" align="right" valign="top">std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__OLEDFonts.html#a67bc12b3d20b48506261861ca2ded0cd">_FontSelect</a> = pFontDefault</td></tr>
-<tr class="separator:a67bc12b3d20b48506261861ca2ded0cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr class="memitem:a67bc12b3d20b48506261861ca2ded0cd" id="r_a67bc12b3d20b48506261861ca2ded0cd"><td class="memItemLeft" align="right" valign="top">std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__OLEDFonts.html#a67bc12b3d20b48506261861ca2ded0cd">_FontSelect</a> = pFontDefault</td></tr>
+<tr class="separator:a67bc12b3d20b48506261861ca2ded0cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2599430efd550b071ce8940ebff1b7c" id="r_ad2599430efd550b071ce8940ebff1b7c"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__OLEDFonts.html#ad2599430efd550b071ce8940ebff1b7c">_Font_X_Size</a> = 0x06</td></tr>
 <tr class="separator:ad2599430efd550b071ce8940ebff1b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd81ebfefafc345a266cedd4ba4a9050" id="r_acd81ebfefafc345a266cedd4ba4a9050"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__OLEDFonts.html#acd81ebfefafc345a266cedd4ba4a9050">_Font_Y_Size</a> = 0x08</td></tr>
@@ -309,13 +305,21 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">std::span&lt;const uint8_t&gt; SSD1306_OLEDFonts::_FontSelect = pFontDefault</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<p>Active font Pointer to the active font, Fonts Stored are Const </p>
+<p>span to the active font, Fonts Stored are Const </p>
 
 </div>
 </div>

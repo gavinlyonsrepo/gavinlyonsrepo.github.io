@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -72,9 +72,12 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classERM19264__UC1609-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">ERM19264_UC1609 Class Reference</div></div>
 </div><!--header-->
@@ -99,6 +102,41 @@ Inheritance diagram for ERM19264_UC1609:</div>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structERM19264__UC1609_1_1UC1609__Delays__t.html">UC1609_Delays_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct to hold delay values used in driver.  <a href="structERM19264__UC1609_1_1UC1609__Delays__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a3b88e7728bcd892bf65e8ef94546179c" id="r_a3b88e7728bcd892bf65e8ef94546179c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a3b88e7728bcd892bf65e8ef94546179c">LCD_rotate_command_e</a> : uint8_t { <a class="el" href="classERM19264__UC1609.html#a3b88e7728bcd892bf65e8ef94546179ca75140ab955187fa2fb0fed09e3278024">UC1609_ROTATION_FLIP_TWO</a> = 0x06
+, <a class="el" href="classERM19264__UC1609.html#a3b88e7728bcd892bf65e8ef94546179ca254750751eac6388818ba08f7caf5aab">UC1609_ROTATION_NORMAL</a> = 0x04
+, <a class="el" href="classERM19264__UC1609.html#a3b88e7728bcd892bf65e8ef94546179ca78bd0e07a028f2bb609ce2764edd2efa">UC1609_ROTATION_FLIP_ONE</a> = 0x02
+, <a class="el" href="classERM19264__UC1609.html#a3b88e7728bcd892bf65e8ef94546179ca984deda22602b0243d277de3147548a2">UC1609_ROTATION_FLIP_THREE</a> = 0x00
+ }</td></tr>
+<tr class="memdesc:a3b88e7728bcd892bf65e8ef94546179c"><td class="mdescLeft">&#160;</td><td class="mdescRight">enum to hold LCD Rotate command constants  <a href="classERM19264__UC1609.html#a3b88e7728bcd892bf65e8ef94546179c">More...</a><br /></td></tr>
+<tr class="separator:a3b88e7728bcd892bf65e8ef94546179c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classbicolor__graphics"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classbicolor__graphics')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classbicolor__graphics.html">bicolor_graphics</a></td></tr>
+<tr class="memitem:a33fd29a1de3b1229671053c7747cef59 inherit pub_types_classbicolor__graphics" id="r_a33fd29a1de3b1229671053c7747cef59"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a33fd29a1de3b1229671053c7747cef59">displayBC_rotate_e</a> : uint8_t { <a class="el" href="classbicolor__graphics.html#a33fd29a1de3b1229671053c7747cef59ac807ce18c719926960d1a0d00f80ca55">BC_Degrees_0</a> = 0
+, <a class="el" href="classbicolor__graphics.html#a33fd29a1de3b1229671053c7747cef59aa66ae003bd10ae661def7bfa2526a0e3">BC_Degrees_90</a> = 1
+, <a class="el" href="classbicolor__graphics.html#a33fd29a1de3b1229671053c7747cef59a59532666b8c23df78ec655ac097af138">BC_Degrees_180</a> = 2
+, <a class="el" href="classbicolor__graphics.html#a33fd29a1de3b1229671053c7747cef59a3222e507da671a4d555ff2aa132f4267">BC_Degrees_270</a> = 3
+ }</td></tr>
+<tr class="separator:a33fd29a1de3b1229671053c7747cef59 inherit pub_types_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5e076620da61262e00e8f47d2254878 inherit pub_types_classbicolor__graphics" id="r_ae5e076620da61262e00e8f47d2254878"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ae5e076620da61262e00e8f47d2254878">pixel_color_e</a> : uint8_t { <a class="el" href="classbicolor__graphics.html#ae5e076620da61262e00e8f47d2254878adfafc33be4252e2adc96ed02b901df61">WHITE</a> = 0
+, <a class="el" href="classbicolor__graphics.html#ae5e076620da61262e00e8f47d2254878a1eca1004148361fc4c1274c6174ac19f">BLACK</a> = 1
+, <a class="el" href="classbicolor__graphics.html#ae5e076620da61262e00e8f47d2254878a66582b3da456fd7c17847f2f08d39b6c">INVERSE</a> = 2
+ }</td></tr>
+<tr class="separator:ae5e076620da61262e00e8f47d2254878 inherit pub_types_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classPrint"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classPrint')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classPrint.html">Print</a></td></tr>
+<tr class="memitem:a6d9bda509eaab1f639e14f228c04719b inherit pub_types_classPrint" id="r_a6d9bda509eaab1f639e14f228c04719b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719b">BaseNum</a> : uint8_t { <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a> = 10
+, <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719baad066ef1185ddb4db251e2e2bbc9f33f">RDL_HEX</a> = 16
+, <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba5ccb1478c894e55033ad8caca1cac40b">RDL_OCT</a> = 8
+, <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba4a5d5ee8967feab1df43c1eae6e0189c">RDL_BIN</a> = 2
+ }</td></tr>
+<tr class="separator:a6d9bda509eaab1f639e14f228c04719b inherit pub_types_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a032f767730f666cb79a4cc0715a09c71" id="r_a032f767730f666cb79a4cc0715a09c71"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a032f767730f666cb79a4cc0715a09c71">ERM19264_UC1609</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">lcdwidth</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">lcdheight</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">rst</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">cd</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">cs</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">sclk</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">din</a>)</td></tr>
@@ -110,26 +148,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa1191dc5d509df6e204860896f91ccce" id="r_aa1191dc5d509df6e204860896f91ccce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">virtual</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#aa1191dc5d509df6e204860896f91ccce">drawPixel</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> colour) <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">override</a></td></tr>
 <tr class="memdesc:aa1191dc5d509df6e204860896f91ccce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a Pixel to the screen , overrides the graphics library.  <br /></td></tr>
 <tr class="separator:aa1191dc5d509df6e204860896f91ccce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdab96ee0e657b082530c2aca2ec0be5" id="r_abdab96ee0e657b082530c2aca2ec0be5"><td class="memItemLeft" align="right" valign="top"><a id="abdab96ee0e657b082530c2aca2ec0be5" name="abdab96ee0e657b082530c2aca2ec0be5"></a>
-<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LCDupdate</b> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
-<tr class="memdesc:abdab96ee0e657b082530c2aca2ec0be5"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the buffer i.e. writes it to the screen <br /></td></tr>
-<tr class="separator:abdab96ee0e657b082530c2aca2ec0be5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf97976c924668cb3931e624771f971f" id="r_acf97976c924668cb3931e624771f971f"><td class="memItemLeft" align="right" valign="top"><a id="acf97976c924668cb3931e624771f971f" name="acf97976c924668cb3931e624771f971f"></a>
-<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LCDclearBuffer</b> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
-<tr class="memdesc:acf97976c924668cb3931e624771f971f"><td class="mdescLeft">&#160;</td><td class="mdescRight">clears the buffer i.e. does NOT write to the screen <br /></td></tr>
-<tr class="separator:acf97976c924668cb3931e624771f971f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a208f6e0dc9ce457e3fc728e492c98c2c" id="r_a208f6e0dc9ce457e3fc728e492c98c2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a208f6e0dc9ce457e3fc728e492c98c2c">LCDBuffer</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">data</a>)</td></tr>
-<tr class="memdesc:a208f6e0dc9ce457e3fc728e492c98c2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a data array to the screen.  <br /></td></tr>
-<tr class="separator:a208f6e0dc9ce457e3fc728e492c98c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a416f44b2f42c9de7ac62871016f638c3" id="r_a416f44b2f42c9de7ac62871016f638c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a416f44b2f42c9de7ac62871016f638c3">LCDSetBufferPtr</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classbicolor__graphics.html#a07962ad272aa95287f47e6d86f9838cb">width</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classbicolor__graphics.html#a9d5ff76b0e168914229824009f568288">height</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">pBuffer</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">sizeOfBuffer</a>)</td></tr>
-<tr class="memdesc:a416f44b2f42c9de7ac62871016f638c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the buffer pointer to the users screen data buffer  <br /></td></tr>
-<tr class="separator:a416f44b2f42c9de7ac62871016f638c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfed8150581619a6d631ad20792301dc" id="r_adfed8150581619a6d631ad20792301dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#adfed8150581619a6d631ad20792301dc">LCDbegin</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">AddressSet</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">VbiasPot</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">device</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">channel</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">speed</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">flags</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">gpioDev</a>)</td></tr>
-<tr class="memdesc:adfed8150581619a6d631ad20792301dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">begin Method initialise LCD Sets pinmodes and SPI setup HW SPI  <br /></td></tr>
-<tr class="separator:adfed8150581619a6d631ad20792301dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace8f01d363e77add11a29c5da32cc629" id="r_ace8f01d363e77add11a29c5da32cc629"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#ace8f01d363e77add11a29c5da32cc629">LCDbegin</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">AddressSet</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">VbiasPot</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">gpioDev</a>)</td></tr>
-<tr class="memdesc:ace8f01d363e77add11a29c5da32cc629"><td class="mdescLeft">&#160;</td><td class="mdescRight">begin Method initialise LCD for software SPI  <br /></td></tr>
-<tr class="separator:ace8f01d363e77add11a29c5da32cc629"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a198f4929a7a47f92103ae52b3de2fde4" id="r_a198f4929a7a47f92103ae52b3de2fde4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a198f4929a7a47f92103ae52b3de2fde4">LCDupdate</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
+<tr class="memdesc:a198f4929a7a47f92103ae52b3de2fde4"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the buffer i.e. writes it to the screen  <br /></td></tr>
+<tr class="separator:a198f4929a7a47f92103ae52b3de2fde4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab33f681e1ee6bedfb715e198e419f15" id="r_aab33f681e1ee6bedfb715e198e419f15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#aab33f681e1ee6bedfb715e198e419f15">LCDclearBuffer</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
+<tr class="memdesc:aab33f681e1ee6bedfb715e198e419f15"><td class="mdescLeft">&#160;</td><td class="mdescRight">clears the buffer memory i.e. does NOT write to the screen  <br /></td></tr>
+<tr class="separator:aab33f681e1ee6bedfb715e198e419f15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a004183cc94d3a6072d98539eb20d6646" id="r_a004183cc94d3a6072d98539eb20d6646"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a004183cc94d3a6072d98539eb20d6646">LCDBuffer</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt; data)</td></tr>
+<tr class="memdesc:a004183cc94d3a6072d98539eb20d6646"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a data array to the screen.  <br /></td></tr>
+<tr class="separator:a004183cc94d3a6072d98539eb20d6646"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fa9ee546bbc529e5b1c05da23690eb2" id="r_a8fa9ee546bbc529e5b1c05da23690eb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a8fa9ee546bbc529e5b1c05da23690eb2">LCDSetBufferPtr</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classbicolor__graphics.html#a07962ad272aa95287f47e6d86f9838cb">width</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classbicolor__graphics.html#a9d5ff76b0e168914229824009f568288">height</a>, std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt; data)</td></tr>
+<tr class="memdesc:a8fa9ee546bbc529e5b1c05da23690eb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the buffer pointer to the users screen data buffer  <br /></td></tr>
+<tr class="separator:a8fa9ee546bbc529e5b1c05da23690eb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a386e6b325a5de86df14235ad67cf03f8" id="r_a386e6b325a5de86df14235ad67cf03f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a386e6b325a5de86df14235ad67cf03f8">LCDBitmap</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt; data)</td></tr>
+<tr class="memdesc:a386e6b325a5de86df14235ad67cf03f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a bitmap into the screen.  <br /></td></tr>
+<tr class="separator:a386e6b325a5de86df14235ad67cf03f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab60f091d010344b05db8ad137dc9f405" id="r_ab60f091d010344b05db8ad137dc9f405"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#ab60f091d010344b05db8ad137dc9f405">LCDbegin</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">AddressSet</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">VbiasPot</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">device</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">channel</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">speed</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">flags</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">gpioDev</a>)</td></tr>
+<tr class="memdesc:ab60f091d010344b05db8ad137dc9f405"><td class="mdescLeft">&#160;</td><td class="mdescRight">begin Method initialise LCD Sets pinmodes and SPI setup HW SPI  <br /></td></tr>
+<tr class="separator:ab60f091d010344b05db8ad137dc9f405"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a273db76e71e6948a64bd5684dd1bd201" id="r_a273db76e71e6948a64bd5684dd1bd201"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a273db76e71e6948a64bd5684dd1bd201">LCDbegin</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">AddressSet</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">VbiasPot</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">gpioDev</a>)</td></tr>
+<tr class="memdesc:a273db76e71e6948a64bd5684dd1bd201"><td class="mdescLeft">&#160;</td><td class="mdescRight">begin Method initialise LCD for software SPI  <br /></td></tr>
+<tr class="separator:a273db76e71e6948a64bd5684dd1bd201"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc9a41c14661421548277a6f07c28b71" id="r_afc9a41c14661421548277a6f07c28b71"><td class="memItemLeft" align="right" valign="top"><a id="afc9a41c14661421548277a6f07c28b71" name="afc9a41c14661421548277a6f07c28b71"></a>
 <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LCDinit</b> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
 <tr class="memdesc:afc9a41c14661421548277a6f07c28b71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called from LCDbegin carries out Power on sequence and register init Can be used to reset LCD to default values. <br /></td></tr>
@@ -143,9 +182,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0fdd3ece8e3222c2dd24a4826cb57193" id="r_a0fdd3ece8e3222c2dd24a4826cb57193"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a0fdd3ece8e3222c2dd24a4826cb57193">LCDFillPage</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">page_num</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">pixels</a>)</td></tr>
 <tr class="memdesc:a0fdd3ece8e3222c2dd24a4826cb57193"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill the chosen page at page_num with a datapattern.  <br /></td></tr>
 <tr class="separator:a0fdd3ece8e3222c2dd24a4826cb57193"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a606adc2573ee098f7a8bcb769d08ffa3" id="r_a606adc2573ee098f7a8bcb769d08ffa3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a606adc2573ee098f7a8bcb769d08ffa3">LCDrotate</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">rotatevalue</a>)</td></tr>
-<tr class="memdesc:a606adc2573ee098f7a8bcb769d08ffa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotates the display by sending commands to display.  <br /></td></tr>
-<tr class="separator:a606adc2573ee098f7a8bcb769d08ffa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae95158761b8d1de785cadb11f266e040" id="r_ae95158761b8d1de785cadb11f266e040"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#ae95158761b8d1de785cadb11f266e040">LCDrotate</a> (<a class="el" href="classERM19264__UC1609.html#a3b88e7728bcd892bf65e8ef94546179c">LCD_rotate_command_e</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">rotatevalue</a>)</td></tr>
+<tr class="memdesc:ae95158761b8d1de785cadb11f266e040"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotates the display by sending commands to display.  <br /></td></tr>
+<tr class="separator:ae95158761b8d1de785cadb11f266e040"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a734e46cfb4fe714bbb1d28c42fd1a363" id="r_a734e46cfb4fe714bbb1d28c42fd1a363"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a734e46cfb4fe714bbb1d28c42fd1a363">LCDinvert</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">on</a>)</td></tr>
 <tr class="memdesc:a734e46cfb4fe714bbb1d28c42fd1a363"><td class="mdescLeft">&#160;</td><td class="mdescRight">invert the display  <br /></td></tr>
 <tr class="separator:a734e46cfb4fe714bbb1d28c42fd1a363"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,16 +198,13 @@ Public Member Functions</h2></td></tr>
 <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LCDReset</b> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
 <tr class="memdesc:a12e9f5c12ab9d7c07de07ef5ae32acf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets LCD in a four wire setup called at start and should also be called in a controlled power down setting. <br /></td></tr>
 <tr class="separator:a12e9f5c12ab9d7c07de07ef5ae32acf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3446de754a2431deb3568c28ff7ca987" id="r_a3446de754a2431deb3568c28ff7ca987"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a3446de754a2431deb3568c28ff7ca987">LCDBitmap</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">data</a>)</td></tr>
-<tr class="memdesc:a3446de754a2431deb3568c28ff7ca987"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a bitmap into the screen.  <br /></td></tr>
-<tr class="separator:a3446de754a2431deb3568c28ff7ca987"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0993682db481154bb0e12d8c43f11ba7" id="r_a0993682db481154bb0e12d8c43f11ba7"><td class="memItemLeft" align="right" valign="top"><a id="a0993682db481154bb0e12d8c43f11ba7" name="a0993682db481154bb0e12d8c43f11ba7"></a>
 <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LCDPowerDown</b> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
 <tr class="memdesc:a0993682db481154bb0e12d8c43f11ba7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Powerdown procedure for LCD see datasheet P40. <br /></td></tr>
 <tr class="separator:a0993682db481154bb0e12d8c43f11ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a630486f4bb4bd70fd8b3029a298303fe" id="r_a630486f4bb4bd70fd8b3029a298303fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a630486f4bb4bd70fd8b3029a298303fe">LCDSPIoff</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
-<tr class="memdesc:a630486f4bb4bd70fd8b3029a298303fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">End SPI operations.  <br /></td></tr>
-<tr class="separator:a630486f4bb4bd70fd8b3029a298303fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ab7351530e0bff21af6962c25c2d952" id="r_a8ab7351530e0bff21af6962c25c2d952"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a8ab7351530e0bff21af6962c25c2d952">LCDSPIoff</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
+<tr class="memdesc:a8ab7351530e0bff21af6962c25c2d952"><td class="mdescLeft">&#160;</td><td class="mdescRight">End SPI operations.  <br /></td></tr>
+<tr class="separator:a8ab7351530e0bff21af6962c25c2d952"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44968dae16d3ace1d0a2e73e737a7388" id="r_a44968dae16d3ace1d0a2e73e737a7388"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a44968dae16d3ace1d0a2e73e737a7388">LCDIssleeping</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
 <tr class="memdesc:a44968dae16d3ace1d0a2e73e737a7388"><td class="mdescLeft">&#160;</td><td class="mdescRight">LCD Is Sleeping?  <br /></td></tr>
 <tr class="separator:a44968dae16d3ace1d0a2e73e737a7388"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,12 +265,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3108ca60f44bff6619b4fffa10aa3c53 inherit pub_methods_classbicolor__graphics" id="r_a3108ca60f44bff6619b4fffa10aa3c53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a3108ca60f44bff6619b4fffa10aa3c53">setCursor</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>)</td></tr>
 <tr class="memdesc:a3108ca60f44bff6619b4fffa10aa3c53 inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the cursor position  <br /></td></tr>
 <tr class="separator:a3108ca60f44bff6619b4fffa10aa3c53 inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac30da9b6d938e230be299d306bb21e0f inherit pub_methods_classbicolor__graphics" id="r_ac30da9b6d938e230be299d306bb21e0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ac30da9b6d938e230be299d306bb21e0f">setRotation</a> (<a class="el" href="bicolor__graphics__RDL_8hpp.html#a4d612119d782001a8ee3bbd4105e3376">displayBC_rotate_e</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">m</a>)</td></tr>
+<tr class="memitem:ac30da9b6d938e230be299d306bb21e0f inherit pub_methods_classbicolor__graphics" id="r_ac30da9b6d938e230be299d306bb21e0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ac30da9b6d938e230be299d306bb21e0f">setRotation</a> (<a class="el" href="classbicolor__graphics.html#a33fd29a1de3b1229671053c7747cef59">displayBC_rotate_e</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">m</a>)</td></tr>
 <tr class="memdesc:ac30da9b6d938e230be299d306bb21e0f inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the _rotation of the display.  <br /></td></tr>
 <tr class="separator:ac30da9b6d938e230be299d306bb21e0f inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56f599fcecd6accc8dca4486e1656bb5 inherit pub_methods_classbicolor__graphics" id="r_a56f599fcecd6accc8dca4486e1656bb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="bicolor__graphics__RDL_8hpp.html#a4d612119d782001a8ee3bbd4105e3376">displayBC_rotate_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a56f599fcecd6accc8dca4486e1656bb5">getRotation</a> ()</td></tr>
-<tr class="memdesc:a56f599fcecd6accc8dca4486e1656bb5 inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the _rotation of the display.  <br /></td></tr>
-<tr class="separator:a56f599fcecd6accc8dca4486e1656bb5 inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a349b3a77cc0c96a1d185fc8f43167983 inherit pub_methods_classbicolor__graphics" id="r_a349b3a77cc0c96a1d185fc8f43167983"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbicolor__graphics.html#a33fd29a1de3b1229671053c7747cef59">displayBC_rotate_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a349b3a77cc0c96a1d185fc8f43167983">getRotation</a> ()</td></tr>
+<tr class="memdesc:a349b3a77cc0c96a1d185fc8f43167983 inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the _rotation of the display.  <br /></td></tr>
+<tr class="separator:a349b3a77cc0c96a1d185fc8f43167983 inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d5ff76b0e168914229824009f568288 inherit pub_methods_classbicolor__graphics" id="r_a9d5ff76b0e168914229824009f568288"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a9d5ff76b0e168914229824009f568288">height</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>) <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a></td></tr>
 <tr class="memdesc:a9d5ff76b0e168914229824009f568288 inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the height of the display (per current _rotation)  <br /></td></tr>
 <tr class="separator:a9d5ff76b0e168914229824009f568288 inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -244,29 +280,29 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa2ed8571aa40aa8ef99caa8b5af0821c inherit pub_methods_classbicolor__graphics" id="r_aa2ed8571aa40aa8ef99caa8b5af0821c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">virtual</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#aa2ed8571aa40aa8ef99caa8b5af0821c">write</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>) <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">override</a></td></tr>
 <tr class="memdesc:aa2ed8571aa40aa8ef99caa8b5af0821c inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">write method used in the print class when user calls print  <br /></td></tr>
 <tr class="separator:aa2ed8571aa40aa8ef99caa8b5af0821c inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb91660d96d3ce49611686024e15fe9c inherit pub_methods_classbicolor__graphics" id="r_aeb91660d96d3ce49611686024e15fe9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#aeb91660d96d3ce49611686024e15fe9c">writeChar</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">value</a>)</td></tr>
-<tr class="memdesc:aeb91660d96d3ce49611686024e15fe9c inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write 1 character on display.  <br /></td></tr>
-<tr class="separator:aeb91660d96d3ce49611686024e15fe9c inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a146acbdcb2696e61b7c3cb360dbc7e inherit pub_methods_classbicolor__graphics" id="r_a9a146acbdcb2696e61b7c3cb360dbc7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a9a146acbdcb2696e61b7c3cb360dbc7e">writeCharString</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a> *<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">text</a>)</td></tr>
-<tr class="memdesc:a9a146acbdcb2696e61b7c3cb360dbc7e inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write Text character array on Display.  <br /></td></tr>
-<tr class="separator:a9a146acbdcb2696e61b7c3cb360dbc7e inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2e50d8086bd2c628e3e6c10d6d9a2ac inherit pub_methods_classbicolor__graphics" id="r_ac2e50d8086bd2c628e3e6c10d6d9a2ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ac2e50d8086bd2c628e3e6c10d6d9a2ac">writeChar</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">value</a>)</td></tr>
+<tr class="memdesc:ac2e50d8086bd2c628e3e6c10d6d9a2ac inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write 1 character on display.  <br /></td></tr>
+<tr class="separator:ac2e50d8086bd2c628e3e6c10d6d9a2ac inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a261bc4e6fc1d317a0a6499f4ea702539 inherit pub_methods_classbicolor__graphics" id="r_a261bc4e6fc1d317a0a6499f4ea702539"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a261bc4e6fc1d317a0a6499f4ea702539">writeCharString</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a> *<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">text</a>)</td></tr>
+<tr class="memdesc:a261bc4e6fc1d317a0a6499f4ea702539 inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write Text character array on Display.  <br /></td></tr>
+<tr class="separator:a261bc4e6fc1d317a0a6499f4ea702539 inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab541ef87aaaa3fdbf1ee04040acb101c inherit pub_methods_classbicolor__graphics" id="r_ab541ef87aaaa3fdbf1ee04040acb101c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ab541ef87aaaa3fdbf1ee04040acb101c">setTextWrap</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>)</td></tr>
 <tr class="memdesc:ab541ef87aaaa3fdbf1ee04040acb101c inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">turn on or off screen wrap of the text  <br /></td></tr>
 <tr class="separator:ab541ef87aaaa3fdbf1ee04040acb101c inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae315f54165346d4470a9fba192979891 inherit pub_methods_classbicolor__graphics" id="r_ae315f54165346d4470a9fba192979891"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ae315f54165346d4470a9fba192979891">setDrawBitmapAddr</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">mode</a>)</td></tr>
 <tr class="memdesc:ae315f54165346d4470a9fba192979891 inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the data addressing mode in drawBitmap function.  <br /></td></tr>
 <tr class="separator:ae315f54165346d4470a9fba192979891 inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5d1143159066619463fa17011a05ad5 inherit pub_methods_classbicolor__graphics" id="r_ac5d1143159066619463fa17011a05ad5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ac5d1143159066619463fa17011a05ad5">drawBitmap</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bitmap</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bg</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">sizeOfBitmap</a>)</td></tr>
-<tr class="memdesc:ac5d1143159066619463fa17011a05ad5 inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a 1-bit color bitmap.  <br /></td></tr>
-<tr class="separator:ac5d1143159066619463fa17011a05ad5 inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0b9252a23f50e0285e76529c93b4740 inherit pub_methods_classbicolor__graphics" id="r_ac0b9252a23f50e0285e76529c93b4740"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ac0b9252a23f50e0285e76529c93b4740">drawBitmap</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bitmap</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bg</a>)</td></tr>
+<tr class="memdesc:ac0b9252a23f50e0285e76529c93b4740 inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a 1-bit color bitmap.  <br /></td></tr>
+<tr class="separator:ac0b9252a23f50e0285e76529c93b4740 inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classdisplay__Fonts"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classdisplay__Fonts')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classdisplay__Fonts.html">display_Fonts</a></td></tr>
 <tr class="memitem:aa7b403a26a94f4e85a97ff7f4fbc853f inherit pub_methods_classdisplay__Fonts" id="r_aa7b403a26a94f4e85a97ff7f4fbc853f"><td class="memItemLeft" align="right" valign="top">
 &#160;</td><td class="memItemRight" valign="bottom"><b>display_Fonts</b> ()</td></tr>
 <tr class="memdesc:aa7b403a26a94f4e85a97ff7f4fbc853f inherit pub_methods_classdisplay__Fonts"><td class="mdescLeft">&#160;</td><td class="mdescRight">init the OLED font class object constructor <br /></td></tr>
 <tr class="separator:aa7b403a26a94f4e85a97ff7f4fbc853f inherit pub_methods_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba9c9563f1df935e61346ad1f1306155 inherit pub_methods_classdisplay__Fonts" id="r_aba9c9563f1df935e61346ad1f1306155"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#aba9c9563f1df935e61346ad1f1306155">setFont</a> (<a class="el" href="font__data__RDL_8hpp.html#a4e34a4baa30d127bc21926334fe5a365">display_Font_name_e</a>)</td></tr>
-<tr class="memdesc:aba9c9563f1df935e61346ad1f1306155 inherit pub_methods_classdisplay__Fonts"><td class="mdescLeft">&#160;</td><td class="mdescRight">SetFont.  <br /></td></tr>
-<tr class="separator:aba9c9563f1df935e61346ad1f1306155 inherit pub_methods_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af989da1fa05622390c727231ae9b425a inherit pub_methods_classdisplay__Fonts" id="r_af989da1fa05622390c727231ae9b425a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#af989da1fa05622390c727231ae9b425a">setFont</a> (<a class="el" href="font__data__RDL_8hpp.html#a4e34a4baa30d127bc21926334fe5a365">display_Font_name_e</a>)</td></tr>
+<tr class="memdesc:af989da1fa05622390c727231ae9b425a inherit pub_methods_classdisplay__Fonts"><td class="mdescLeft">&#160;</td><td class="mdescRight">SetFont.  <br /></td></tr>
+<tr class="separator:af989da1fa05622390c727231ae9b425a inherit pub_methods_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad95138537049721f2440f5d2d884e923 inherit pub_methods_classdisplay__Fonts" id="r_ad95138537049721f2440f5d2d884e923"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#ad95138537049721f2440f5d2d884e923">setInvertFont</a> (bool invertStatus)</td></tr>
 <tr class="memdesc:ad95138537049721f2440f5d2d884e923 inherit pub_methods_classdisplay__Fonts"><td class="mdescLeft">&#160;</td><td class="mdescRight">setInvertFont  <br /></td></tr>
 <tr class="separator:ad95138537049721f2440f5d2d884e923 inherit pub_methods_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -300,16 +336,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1e411d07a8ffec5faf7ce485bac0f029 inherit pub_methods_classPrint" id="r_a1e411d07a8ffec5faf7ce485bac0f029"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a1e411d07a8ffec5faf7ce485bac0f029">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a>)</td></tr>
 <tr class="memdesc:a1e411d07a8ffec5faf7ce485bac0f029 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an character  <br /></td></tr>
 <tr class="separator:a1e411d07a8ffec5faf7ce485bac0f029 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67acb421606e3a0915372d3472db9bd3 inherit pub_methods_classPrint" id="r_a67acb421606e3a0915372d3472db9bd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a67acb421606e3a0915372d3472db9bd3">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:a67acb421606e3a0915372d3472db9bd3 inherit pub_methods_classPrint" id="r_a67acb421606e3a0915372d3472db9bd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a67acb421606e3a0915372d3472db9bd3">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:a67acb421606e3a0915372d3472db9bd3 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an integer of base number system  <br /></td></tr>
 <tr class="separator:a67acb421606e3a0915372d3472db9bd3 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5b352ebfdb3c2c7adda4c354c74c5db inherit pub_methods_classPrint" id="r_ab5b352ebfdb3c2c7adda4c354c74c5db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ab5b352ebfdb3c2c7adda4c354c74c5db">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:ab5b352ebfdb3c2c7adda4c354c74c5db inherit pub_methods_classPrint" id="r_ab5b352ebfdb3c2c7adda4c354c74c5db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ab5b352ebfdb3c2c7adda4c354c74c5db">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:ab5b352ebfdb3c2c7adda4c354c74c5db inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned integer of base number system  <br /></td></tr>
 <tr class="separator:ab5b352ebfdb3c2c7adda4c354c74c5db inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaef5d39e88bb6460fc239c642790b655 inherit pub_methods_classPrint" id="r_aaef5d39e88bb6460fc239c642790b655"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#aaef5d39e88bb6460fc239c642790b655">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:aaef5d39e88bb6460fc239c642790b655 inherit pub_methods_classPrint" id="r_aaef5d39e88bb6460fc239c642790b655"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#aaef5d39e88bb6460fc239c642790b655">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:aaef5d39e88bb6460fc239c642790b655 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an long integer of base number system  <br /></td></tr>
 <tr class="separator:aaef5d39e88bb6460fc239c642790b655 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2fba632d40c18f847fc14510f9003fe inherit pub_methods_classPrint" id="r_ac2fba632d40c18f847fc14510f9003fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ac2fba632d40c18f847fc14510f9003fe">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:ac2fba632d40c18f847fc14510f9003fe inherit pub_methods_classPrint" id="r_ac2fba632d40c18f847fc14510f9003fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ac2fba632d40c18f847fc14510f9003fe">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:ac2fba632d40c18f847fc14510f9003fe inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned long integer of base number system  <br /></td></tr>
 <tr class="separator:ac2fba632d40c18f847fc14510f9003fe inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8b4c025786c820afe0a90aeea01c9c5 inherit pub_methods_classPrint" id="r_ae8b4c025786c820afe0a90aeea01c9c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ae8b4c025786c820afe0a90aeea01c9c5">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">double</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=2)</td></tr>
@@ -324,16 +360,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a554896a71162f967b5794401239d7a01 inherit pub_methods_classPrint" id="r_a554896a71162f967b5794401239d7a01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a554896a71162f967b5794401239d7a01">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a>)</td></tr>
 <tr class="memdesc:a554896a71162f967b5794401239d7a01 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an character followed by new line  <br /></td></tr>
 <tr class="separator:a554896a71162f967b5794401239d7a01 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3978528ddee1a7c701e69eaea2b9dd0c inherit pub_methods_classPrint" id="r_a3978528ddee1a7c701e69eaea2b9dd0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a3978528ddee1a7c701e69eaea2b9dd0c">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:a3978528ddee1a7c701e69eaea2b9dd0c inherit pub_methods_classPrint" id="r_a3978528ddee1a7c701e69eaea2b9dd0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a3978528ddee1a7c701e69eaea2b9dd0c">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:a3978528ddee1a7c701e69eaea2b9dd0c inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an integer of base number system followed by new line  <br /></td></tr>
 <tr class="separator:a3978528ddee1a7c701e69eaea2b9dd0c inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1324d4bb773895c8e34bbf81575536a inherit pub_methods_classPrint" id="r_ae1324d4bb773895c8e34bbf81575536a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ae1324d4bb773895c8e34bbf81575536a">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:ae1324d4bb773895c8e34bbf81575536a inherit pub_methods_classPrint" id="r_ae1324d4bb773895c8e34bbf81575536a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ae1324d4bb773895c8e34bbf81575536a">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:ae1324d4bb773895c8e34bbf81575536a inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned integer of base number system followed by new line  <br /></td></tr>
 <tr class="separator:ae1324d4bb773895c8e34bbf81575536a inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb52163d87b2401c87e40e9df60a57d6 inherit pub_methods_classPrint" id="r_adb52163d87b2401c87e40e9df60a57d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#adb52163d87b2401c87e40e9df60a57d6">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:adb52163d87b2401c87e40e9df60a57d6 inherit pub_methods_classPrint" id="r_adb52163d87b2401c87e40e9df60a57d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#adb52163d87b2401c87e40e9df60a57d6">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:adb52163d87b2401c87e40e9df60a57d6 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an long integer of base number system followed by new line  <br /></td></tr>
 <tr class="separator:adb52163d87b2401c87e40e9df60a57d6 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2e98cda15e864fbd6a6d85edb4b315d inherit pub_methods_classPrint" id="r_ac2e98cda15e864fbd6a6d85edb4b315d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ac2e98cda15e864fbd6a6d85edb4b315d">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:ac2e98cda15e864fbd6a6d85edb4b315d inherit pub_methods_classPrint" id="r_ac2e98cda15e864fbd6a6d85edb4b315d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ac2e98cda15e864fbd6a6d85edb4b315d">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:ac2e98cda15e864fbd6a6d85edb4b315d inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned long integer of base number system followed by new line  <br /></td></tr>
 <tr class="separator:ac2e98cda15e864fbd6a6d85edb4b315d inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56e976b079361b6021ef7c2bedb397a2 inherit pub_methods_classPrint" id="r_a56e976b079361b6021ef7c2bedb397a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a56e976b079361b6021ef7c2bedb397a2">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">double</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=2)</td></tr>
@@ -354,15 +390,23 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9044ad1fc884a89c0b85a43e3dc6b18b inherit pub_methods_classPrint"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPrint.html#a9044ad1fc884a89c0b85a43e3dc6b18b">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::vector&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> &gt; &amp;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">vec</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">format</a>=<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">defaultFormat</a>&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> &gt;())</td></tr>
 <tr class="memdesc:a9044ad1fc884a89c0b85a43e3dc6b18b inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s.">Print</a> a vector of elements followed by a newline.  <br /></td></tr>
 <tr class="separator:a9044ad1fc884a89c0b85a43e3dc6b18b inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e376c7a301a878bf25f522dff3cb813 inherit pub_methods_classPrint" id="r_a3e376c7a301a878bf25f522dff3cb813"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">typename</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> , <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a> N&gt; </td></tr>
+<tr class="memitem:a3e376c7a301a878bf25f522dff3cb813 inherit pub_methods_classPrint"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPrint.html#a3e376c7a301a878bf25f522dff3cb813">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::array&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">N</a> &gt; &amp;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">arr</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">format</a>=<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">defaultFormat</a>&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> &gt;())</td></tr>
+<tr class="memdesc:a3e376c7a301a878bf25f522dff3cb813 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s.">Print</a> a std::array of any type.  <br /></td></tr>
+<tr class="separator:a3e376c7a301a878bf25f522dff3cb813 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aa261254eec517de1908cc4976fee98 inherit pub_methods_classPrint" id="r_a6aa261254eec517de1908cc4976fee98"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">typename</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> , <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a> N&gt; </td></tr>
+<tr class="memitem:a6aa261254eec517de1908cc4976fee98 inherit pub_methods_classPrint"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPrint.html#a6aa261254eec517de1908cc4976fee98">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::array&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">N</a> &gt; &amp;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">arr</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">format</a>=<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">defaultFormat</a>&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> &gt;())</td></tr>
+<tr class="memdesc:a6aa261254eec517de1908cc4976fee98 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s.">Print</a> a std::array of elements followed by a newline.  <br /></td></tr>
+<tr class="separator:a6aa261254eec517de1908cc4976fee98 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:af73dfeac9ce66b76bab5c7275367bcff" id="r_af73dfeac9ce66b76bab5c7275367bcff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#af73dfeac9ce66b76bab5c7275367bcff">send_data</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">data</a>)</td></tr>
-<tr class="memdesc:af73dfeac9ce66b76bab5c7275367bcff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send data byte with SPI to UC1609.  <br /></td></tr>
-<tr class="separator:af73dfeac9ce66b76bab5c7275367bcff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abaa91cb9d2235cc9523bdb692ef85c1f" id="r_abaa91cb9d2235cc9523bdb692ef85c1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#abaa91cb9d2235cc9523bdb692ef85c1f">send_command</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">command</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">value</a>)</td></tr>
-<tr class="memdesc:abaa91cb9d2235cc9523bdb692ef85c1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a command to the display.  <br /></td></tr>
-<tr class="separator:abaa91cb9d2235cc9523bdb692ef85c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab294e6c7f7b07944ab4f4de9ccd817b4" id="r_ab294e6c7f7b07944ab4f4de9ccd817b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#ab294e6c7f7b07944ab4f4de9ccd817b4">sendData</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> data)</td></tr>
+<tr class="memdesc:ab294e6c7f7b07944ab4f4de9ccd817b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send data byte with SPI to UC1609.  <br /></td></tr>
+<tr class="separator:ab294e6c7f7b07944ab4f4de9ccd817b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15ecc56fe6a62b3c7f7ae64ba88b5ec6" id="r_a15ecc56fe6a62b3c7f7ae64ba88b5ec6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a15ecc56fe6a62b3c7f7ae64ba88b5ec6">sendCommand</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">command</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">value</a>)</td></tr>
+<tr class="memdesc:a15ecc56fe6a62b3c7f7ae64ba88b5ec6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a command to the display.  <br /></td></tr>
+<tr class="separator:a15ecc56fe6a62b3c7f7ae64ba88b5ec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c4268ae19583aecae583070ade7f2e7" id="r_a1c4268ae19583aecae583070ade7f2e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a1c4268ae19583aecae583070ade7f2e7">GetCommMode</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
 <tr class="memdesc:a1c4268ae19583aecae583070ade7f2e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if software SPI is on.  <br /></td></tr>
 <tr class="separator:a1c4268ae19583aecae583070ade7f2e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -392,8 +436,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ade1fe677edfc1f1975def30e7196c6ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21a94916371464a2523979c3bb1041d0" id="r_a21a94916371464a2523979c3bb1041d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a21a94916371464a2523979c3bb1041d0">_LCD_PAGE_NUM</a> = (<a class="el" href="classERM19264__UC1609.html#ade1fe677edfc1f1975def30e7196c6ae">_LCD_HEIGHT</a>/8)</td></tr>
 <tr class="separator:a21a94916371464a2523979c3bb1041d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad47dcf5fd7c89ac40470fff1dc38a0f2" id="r_ad47dcf5fd7c89ac40470fff1dc38a0f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#ad47dcf5fd7c89ac40470fff1dc38a0f2">LCDbufferScreen</a> = <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">nullptr</a></td></tr>
-<tr class="separator:ad47dcf5fd7c89ac40470fff1dc38a0f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0250bfa7dd460fff4f9395479560a691" id="r_a0250bfa7dd460fff4f9395479560a691"><td class="memItemLeft" align="right" valign="top">std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a0250bfa7dd460fff4f9395479560a691">_LCDbufferScreen</a></td></tr>
+<tr class="separator:a0250bfa7dd460fff4f9395479560a691"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab275c8c5304e5c4b2aa5cac91153d333" id="r_ab275c8c5304e5c4b2aa5cac91153d333"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#ab275c8c5304e5c4b2aa5cac91153d333">_sleep</a> = <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">true</a></td></tr>
 <tr class="separator:ab275c8c5304e5c4b2aa5cac91153d333"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05e4451fa8a10da6a01708ff18a07a84" id="r_a05e4451fa8a10da6a01708ff18a07a84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a05e4451fa8a10da6a01708ff18a07a84">_VbiasPOT</a> = 0x49</td></tr>
@@ -415,6 +459,51 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a35dd91a731faea2918a275cb38014879" id="r_a35dd91a731faea2918a275cb38014879"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a35dd91a731faea2918a275cb38014879">_LCD_HighFreqDelay</a> = 0</td></tr>
 <tr class="separator:a35dd91a731faea2918a275cb38014879"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a620311301965153a68266984be3cb9f7" id="r_a620311301965153a68266984be3cb9f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a620311301965153a68266984be3cb9f7">UC1609_SYSTEM_RESET</a> = 0xE2</td></tr>
+<tr class="separator:a620311301965153a68266984be3cb9f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac95f42666fa9cde53ef5e172b96a22e" id="r_aac95f42666fa9cde53ef5e172b96a22e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#aac95f42666fa9cde53ef5e172b96a22e">UC1609_POWER_CONTROL</a> = 0x28</td></tr>
+<tr class="separator:aac95f42666fa9cde53ef5e172b96a22e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26734e0d6800e582fd0b6e677846c6e9" id="r_a26734e0d6800e582fd0b6e677846c6e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a26734e0d6800e582fd0b6e677846c6e9">UC1609_PC_SET</a> = 0x06</td></tr>
+<tr class="separator:a26734e0d6800e582fd0b6e677846c6e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36d1240886681369b5c7724fcbbe18f4" id="r_a36d1240886681369b5c7724fcbbe18f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a36d1240886681369b5c7724fcbbe18f4">UC1609_ADDRESS_CONTROL</a> = 0x88</td></tr>
+<tr class="separator:a36d1240886681369b5c7724fcbbe18f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d0cb4c67cb8a4c4135f4604d89dc68c" id="r_a2d0cb4c67cb8a4c4135f4604d89dc68c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a2d0cb4c67cb8a4c4135f4604d89dc68c">UC1609_ADDRESS_SET</a> = 0x02</td></tr>
+<tr class="separator:a2d0cb4c67cb8a4c4135f4604d89dc68c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a7f0ec6711a387e5c71e6bba3ac09b1" id="r_a5a7f0ec6711a387e5c71e6bba3ac09b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a5a7f0ec6711a387e5c71e6bba3ac09b1">UC1609_SET_PAGEADD</a> = 0xB0</td></tr>
+<tr class="separator:a5a7f0ec6711a387e5c71e6bba3ac09b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac0d76a81aa7bf262a044ee6000a973d" id="r_aac0d76a81aa7bf262a044ee6000a973d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#aac0d76a81aa7bf262a044ee6000a973d">UC1609_SET_COLADD_LSB</a> = 0x00</td></tr>
+<tr class="separator:aac0d76a81aa7bf262a044ee6000a973d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ebf3db71a0477f2b249d18ff67240d1" id="r_a1ebf3db71a0477f2b249d18ff67240d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a1ebf3db71a0477f2b249d18ff67240d1">UC1609_SET_COLADD_MSB</a> = 0x10</td></tr>
+<tr class="separator:a1ebf3db71a0477f2b249d18ff67240d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8ad40872ea4465d6eeb9b2ded15b828" id="r_af8ad40872ea4465d6eeb9b2ded15b828"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#af8ad40872ea4465d6eeb9b2ded15b828">UC1609_TEMP_COMP_REG</a> = 0x27</td></tr>
+<tr class="separator:af8ad40872ea4465d6eeb9b2ded15b828"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12482a50ff439eead5f7c0d2cc3b7138" id="r_a12482a50ff439eead5f7c0d2cc3b7138"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a12482a50ff439eead5f7c0d2cc3b7138">UC1609_TEMP_COMP_SET</a> = 0x00</td></tr>
+<tr class="separator:a12482a50ff439eead5f7c0d2cc3b7138"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa259aa095cb15c1b39331457fd8b6126" id="r_aa259aa095cb15c1b39331457fd8b6126"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#aa259aa095cb15c1b39331457fd8b6126">UC1609_FRAMERATE_REG</a> = 0xA0</td></tr>
+<tr class="separator:aa259aa095cb15c1b39331457fd8b6126"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac616e6ef99bfa6ac1c7af2cd8855c9d4" id="r_ac616e6ef99bfa6ac1c7af2cd8855c9d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#ac616e6ef99bfa6ac1c7af2cd8855c9d4">UC1609_FRAMERATE_SET</a> = 0x01</td></tr>
+<tr class="separator:ac616e6ef99bfa6ac1c7af2cd8855c9d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0eb0529d28535c415de98b4c8bbcfa9" id="r_ac0eb0529d28535c415de98b4c8bbcfa9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#ac0eb0529d28535c415de98b4c8bbcfa9">UC1609_BIAS_RATIO</a> = 0xE8</td></tr>
+<tr class="separator:ac0eb0529d28535c415de98b4c8bbcfa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2d8dcd03d1c97fda8a08a7f5119bc11" id="r_ad2d8dcd03d1c97fda8a08a7f5119bc11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#ad2d8dcd03d1c97fda8a08a7f5119bc11">UC1609_BIAS_RATIO_SET</a> = 0x03</td></tr>
+<tr class="separator:ad2d8dcd03d1c97fda8a08a7f5119bc11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a052304888dd602e29563338a20302fe5" id="r_a052304888dd602e29563338a20302fe5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a052304888dd602e29563338a20302fe5">UC1609_GN_PM</a> = 0x81</td></tr>
+<tr class="separator:a052304888dd602e29563338a20302fe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4e167880921cfcc7e6f3d1519271446" id="r_ae4e167880921cfcc7e6f3d1519271446"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#ae4e167880921cfcc7e6f3d1519271446">UC1609_DEFAULT_GN_PM</a> = 0x49</td></tr>
+<tr class="separator:ae4e167880921cfcc7e6f3d1519271446"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a406354857bfd61b89d10bad55b104bfd" id="r_a406354857bfd61b89d10bad55b104bfd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a406354857bfd61b89d10bad55b104bfd">UC1609_LCD_CONTROL</a> = 0xC0</td></tr>
+<tr class="separator:a406354857bfd61b89d10bad55b104bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a386a3e95cbf2e7b16b7e62ce9cbce541" id="r_a386a3e95cbf2e7b16b7e62ce9cbce541"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a386a3e95cbf2e7b16b7e62ce9cbce541">UC1609_DISPLAY_ON</a> = 0xAE</td></tr>
+<tr class="separator:a386a3e95cbf2e7b16b7e62ce9cbce541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84825dc368edd523c973e593f396b813" id="r_a84825dc368edd523c973e593f396b813"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a84825dc368edd523c973e593f396b813">UC1609_ALL_PIXEL_ON</a> = 0xA4</td></tr>
+<tr class="separator:a84825dc368edd523c973e593f396b813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ed85485dcff426a96a63f7686b4da69" id="r_a9ed85485dcff426a96a63f7686b4da69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a9ed85485dcff426a96a63f7686b4da69">UC1609_INVERSE_DISPLAY</a> = 0xA6</td></tr>
+<tr class="separator:a9ed85485dcff426a96a63f7686b4da69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84c19a380bcaa84023fbc2e850f921d0" id="r_a84c19a380bcaa84023fbc2e850f921d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">static</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classERM19264__UC1609.html#a84c19a380bcaa84023fbc2e850f921d0">UC1609_SCROLL</a> = 0x40</td></tr>
+<tr class="separator:a84c19a380bcaa84023fbc2e850f921d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_methods_classPrint"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classPrint')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classPrint.html">Print</a></td></tr>
@@ -422,7 +511,7 @@ Additional Inherited Members</h2></td></tr>
 <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">err</a>=0)</td></tr>
 <tr class="separator:a2448ffd74bf2903d3f4b2b57d55463c9 inherit pro_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classbicolor__graphics"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classbicolor__graphics')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classbicolor__graphics.html">bicolor_graphics</a></td></tr>
-<tr class="memitem:ad191ad5e2fda39514e00ec1d58d59d0e inherit pro_attribs_classbicolor__graphics" id="r_ad191ad5e2fda39514e00ec1d58d59d0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="bicolor__graphics__RDL_8hpp.html#a4d612119d782001a8ee3bbd4105e3376">displayBC_rotate_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ad191ad5e2fda39514e00ec1d58d59d0e">_display_rotate</a> = <a class="el" href="bicolor__graphics__RDL_8hpp.html#a4d612119d782001a8ee3bbd4105e3376aea7364446a64a29bf66f90ef054b8f08">displayBC_Degrees_0</a></td></tr>
+<tr class="memitem:ad191ad5e2fda39514e00ec1d58d59d0e inherit pro_attribs_classbicolor__graphics" id="r_ad191ad5e2fda39514e00ec1d58d59d0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbicolor__graphics.html#a33fd29a1de3b1229671053c7747cef59">displayBC_rotate_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ad191ad5e2fda39514e00ec1d58d59d0e">_display_rotate</a> = <a class="el" href="classbicolor__graphics.html#a33fd29a1de3b1229671053c7747cef59ac807ce18c719926960d1a0d00f80ca55">BC_Degrees_0</a></td></tr>
 <tr class="separator:ad191ad5e2fda39514e00ec1d58d59d0e inherit pro_attribs_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb934f2f64a37817245a08d6980e4ef3 inherit pro_attribs_classbicolor__graphics" id="r_afb934f2f64a37817245a08d6980e4ef3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#afb934f2f64a37817245a08d6980e4ef3">WIDTH</a></td></tr>
 <tr class="separator:afb934f2f64a37817245a08d6980e4ef3 inherit pro_attribs_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -439,8 +528,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ab7b86b6e4b2cc1729e27baeec1322a61 inherit pro_attribs_classbicolor__graphics" id="r_ab7b86b6e4b2cc1729e27baeec1322a61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ab7b86b6e4b2cc1729e27baeec1322a61">_textwrap</a> = <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">true</a></td></tr>
 <tr class="separator:ab7b86b6e4b2cc1729e27baeec1322a61 inherit pro_attribs_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classdisplay__Fonts"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classdisplay__Fonts')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classdisplay__Fonts.html">display_Fonts</a></td></tr>
-<tr class="memitem:a7126df1738873a94c4d8f8fe162eeed3 inherit pro_attribs_classdisplay__Fonts" id="r_a7126df1738873a94c4d8f8fe162eeed3"><td class="memItemLeft" align="right" valign="top">const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#a7126df1738873a94c4d8f8fe162eeed3">_FontSelect</a> = pFontDefault</td></tr>
-<tr class="separator:a7126df1738873a94c4d8f8fe162eeed3 inherit pro_attribs_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fff5c7dbe437fa3a5d38e83976a8a12 inherit pro_attribs_classdisplay__Fonts" id="r_a3fff5c7dbe437fa3a5d38e83976a8a12"><td class="memItemLeft" align="right" valign="top">std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#a3fff5c7dbe437fa3a5d38e83976a8a12">_FontSelect</a> = pFontDefault</td></tr>
+<tr class="separator:a3fff5c7dbe437fa3a5d38e83976a8a12 inherit pro_attribs_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03bcf91a5baeb63efa14e945d3b57eb2 inherit pro_attribs_classdisplay__Fonts" id="r_a03bcf91a5baeb63efa14e945d3b57eb2"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#a03bcf91a5baeb63efa14e945d3b57eb2">_Font_X_Size</a> = 0x08</td></tr>
 <tr class="separator:a03bcf91a5baeb63efa14e945d3b57eb2 inherit pro_attribs_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42fa0dd2b935782d6e29d46158993f39 inherit pro_attribs_classdisplay__Fonts" id="r_a42fa0dd2b935782d6e29d46158993f39"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#a42fa0dd2b935782d6e29d46158993f39">_Font_Y_Size</a> = 0x08</td></tr>
@@ -452,7 +541,35 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>class to drive the ERM19264 UC1609 LCD </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a3b88e7728bcd892bf65e8ef94546179c" name="a3b88e7728bcd892bf65e8ef94546179c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b88e7728bcd892bf65e8ef94546179c">&#9670;&#160;</a></span>LCD_rotate_command_e</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">enum</a> <a class="el" href="classERM19264__UC1609.html#a3b88e7728bcd892bf65e8ef94546179c">ERM19264_UC1609::LCD_rotate_command_e</a> : <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>enum to hold LCD Rotate command constants </p>
+<dl class="section note"><dt>Note</dt><dd>two methods to rotate screen , use rotate command or rotate buffer </dd></dl>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3b88e7728bcd892bf65e8ef94546179ca75140ab955187fa2fb0fed09e3278024" name="a3b88e7728bcd892bf65e8ef94546179ca75140ab955187fa2fb0fed09e3278024"></a>UC1609_ROTATION_FLIP_TWO&#160;</td><td class="fielddoc"><p>mirror image Rotation LCD command </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3b88e7728bcd892bf65e8ef94546179ca254750751eac6388818ba08f7caf5aab" name="a3b88e7728bcd892bf65e8ef94546179ca254750751eac6388818ba08f7caf5aab"></a>UC1609_ROTATION_NORMAL&#160;</td><td class="fielddoc"><p>Normal Rotation LCD command </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3b88e7728bcd892bf65e8ef94546179ca78bd0e07a028f2bb609ce2764edd2efa" name="a3b88e7728bcd892bf65e8ef94546179ca78bd0e07a028f2bb609ce2764edd2efa"></a>UC1609_ROTATION_FLIP_ONE&#160;</td><td class="fielddoc"><p>180 degree Rotation LCD command </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3b88e7728bcd892bf65e8ef94546179ca984deda22602b0243d277de3147548a2" name="a3b88e7728bcd892bf65e8ef94546179ca984deda22602b0243d277de3147548a2"></a>UC1609_ROTATION_FLIP_THREE&#160;</td><td class="fielddoc"><p>mirror image Rotation LCD command </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a032f767730f666cb79a4cc0715a09c71" name="a032f767730f666cb79a4cc0715a09c71"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a032f767730f666cb79a4cc0715a09c71">&#9670;&#160;</a></span>ERM19264_UC1609() <span class="overload">[1/2]</span></h2>
 
@@ -735,14 +852,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="adfed8150581619a6d631ad20792301dc" name="adfed8150581619a6d631ad20792301dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfed8150581619a6d631ad20792301dc">&#9670;&#160;</a></span>LCDbegin() <span class="overload">[1/2]</span></h2>
+<a id="ab60f091d010344b05db8ad137dc9f405" name="ab60f091d010344b05db8ad137dc9f405"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab60f091d010344b05db8ad137dc9f405">&#9670;&#160;</a></span>LCDbegin() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> ERM19264_UC1609::LCDbegin </td>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> ERM19264_UC1609::LCDbegin </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
           <td class="paramname"><em>AddressSet</em>, </td>
@@ -804,25 +921,25 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a rpiDisplay_Return_Codes_e code<ol type="1">
-<li>rpiDisplay_Success</li>
-<li>rpiDisplay_WrongModeChosen</li>
-<li>rpiDisplay_GpioChipDevice</li>
-<li>rpiDisplay_GpioPinClaim</li>
-<li>rpiDisplay_SPIOpenFailure </li>
+<dl class="section return"><dt>Returns</dt><dd>a <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> code<ol type="1">
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a65da6eddcff882b550b60c841cc4c243">rdlib::WrongModeChosen</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a91050c855c6aedfc87e0adb551161bde">rdlib::GpioChipDevice</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a25a9261690270578079addf51fd5d510">rdlib::GpioPinClaim</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5ae2f52411247decd2656308eab208c8f8">rdlib::SPIOpenFailure</a> </li>
 </ol>
 </dd></dl>
 
 </div>
 </div>
-<a id="ace8f01d363e77add11a29c5da32cc629" name="ace8f01d363e77add11a29c5da32cc629"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace8f01d363e77add11a29c5da32cc629">&#9670;&#160;</a></span>LCDbegin() <span class="overload">[2/2]</span></h2>
+<a id="a273db76e71e6948a64bd5684dd1bd201" name="a273db76e71e6948a64bd5684dd1bd201"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a273db76e71e6948a64bd5684dd1bd201">&#9670;&#160;</a></span>LCDbegin() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> ERM19264_UC1609::LCDbegin </td>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> ERM19264_UC1609::LCDbegin </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
           <td class="paramname"><em>AddressSet</em>, </td>
@@ -856,18 +973,18 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a rpiDisplay_Return_Codes_e code<ol type="1">
-<li>rpiDisplay_Success</li>
-<li>rpiDisplay_WrongModeChosen</li>
-<li>rpiDisplay_GpioChipDevice</li>
-<li>rpiDisplay_GpioPinClaim </li>
+<dl class="section return"><dt>Returns</dt><dd>a <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> code<ol type="1">
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a65da6eddcff882b550b60c841cc4c243">rdlib::WrongModeChosen</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a91050c855c6aedfc87e0adb551161bde">rdlib::GpioChipDevice</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a25a9261690270578079addf51fd5d510">rdlib::GpioPinClaim</a> </li>
 </ol>
 </dd></dl>
 
 </div>
 </div>
-<a id="a3446de754a2431deb3568c28ff7ca987" name="a3446de754a2431deb3568c28ff7ca987"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3446de754a2431deb3568c28ff7ca987">&#9670;&#160;</a></span>LCDBitmap()</h2>
+<a id="a386e6b325a5de86df14235ad67cf03f8" name="a386e6b325a5de86df14235ad67cf03f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a386e6b325a5de86df14235ad67cf03f8">&#9670;&#160;</a></span>LCDBitmap()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -899,7 +1016,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt;&#160;</td>
           <td class="paramname"><em>data</em>&#160;</td>
         </tr>
         <tr>
@@ -924,8 +1041,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a208f6e0dc9ce457e3fc728e492c98c2c" name="a208f6e0dc9ce457e3fc728e492c98c2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a208f6e0dc9ce457e3fc728e492c98c2c">&#9670;&#160;</a></span>LCDBuffer()</h2>
+<a id="a004183cc94d3a6072d98539eb20d6646" name="a004183cc94d3a6072d98539eb20d6646"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a004183cc94d3a6072d98539eb20d6646">&#9670;&#160;</a></span>LCDBuffer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -957,7 +1074,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *&#160;</td>
+          <td class="paramtype">std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt;&#160;</td>
           <td class="paramname"><em>data</em>&#160;</td>
         </tr>
         <tr>
@@ -975,11 +1092,36 @@ Additional Inherited Members</h2></td></tr>
     <tr><td class="paramname">y</td><td>offset 0-64 </td></tr>
     <tr><td class="paramname">w</td><td>width 0-192 </td></tr>
     <tr><td class="paramname">h</td><td>height 0-64 </td></tr>
-    <tr><td class="paramname">data</td><td>pointer to the data array </td></tr>
+    <tr><td class="paramname">data</td><td>span to the data array </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>Called by LCDupdate internally to write buffer to screen , can be called standalone as well </dd></dl>
+
+</div>
+</div>
+<a id="aab33f681e1ee6bedfb715e198e419f15" name="aab33f681e1ee6bedfb715e198e419f15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab33f681e1ee6bedfb715e198e419f15">&#9670;&#160;</a></span>LCDclearBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> ERM19264_UC1609::LCDclearBuffer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>clears the buffer memory i.e. does NOT write to the screen </p>
+<dl class="section return"><dt>Returns</dt><dd><ol type="1">
+<li>Success</li>
+<li>BufferEmpty is buffer empty object </li>
+</ol>
+</dd></dl>
 
 </div>
 </div>
@@ -1119,16 +1261,16 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a606adc2573ee098f7a8bcb769d08ffa3" name="a606adc2573ee098f7a8bcb769d08ffa3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a606adc2573ee098f7a8bcb769d08ffa3">&#9670;&#160;</a></span>LCDrotate()</h2>
+<a id="ae95158761b8d1de785cadb11f266e040" name="ae95158761b8d1de785cadb11f266e040"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae95158761b8d1de785cadb11f266e040">&#9670;&#160;</a></span>LCDrotate()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a> ERM19264_UC1609::LCDrotate </td>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> ERM19264_UC1609::LCDrotate </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classERM19264__UC1609.html#a3b88e7728bcd892bf65e8ef94546179c">LCD_rotate_command_e</a>&#160;</td>
           <td class="paramname"><em>rotatevalue</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1166,14 +1308,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a416f44b2f42c9de7ac62871016f638c3" name="a416f44b2f42c9de7ac62871016f638c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a416f44b2f42c9de7ac62871016f638c3">&#9670;&#160;</a></span>LCDSetBufferPtr()</h2>
+<a id="a8fa9ee546bbc529e5b1c05da23690eb2" name="a8fa9ee546bbc529e5b1c05da23690eb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fa9ee546bbc529e5b1c05da23690eb2">&#9670;&#160;</a></span>LCDSetBufferPtr()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> ERM19264_UC1609::LCDSetBufferPtr </td>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> ERM19264_UC1609::LCDSetBufferPtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
           <td class="paramname"><em>width</em>, </td>
@@ -1187,14 +1329,8 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *&#160;</td>
-          <td class="paramname"><em>pBuffer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>&#160;</td>
-          <td class="paramname"><em>sizeOfBuffer</em>&#160;</td>
+          <td class="paramtype">std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt;&#160;</td>
+          <td class="paramname"><em>buffer</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1209,28 +1345,27 @@ Additional Inherited Members</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">width</td><td>width of buffer in pixels </td></tr>
     <tr><td class="paramname">height</td><td>height of buffer in pixels </td></tr>
-    <tr><td class="paramname">pBuffer</td><td>the buffer array which decays to pointer </td></tr>
-    <tr><td class="paramname">sizeOfBuffer</td><td>size of buffer </td></tr>
+    <tr><td class="paramname">buffer</td><td>the span to buffer data </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Will return rpiDisplay_Return_Codes_e enum<ol type="1">
-<li>Success rpiDisplay_Success</li>
-<li>Error 1 rpiDisplay_BufferSize</li>
-<li>Error 2 rpiDisplay_BUfferNullptr </li>
+<dl class="section return"><dt>Returns</dt><dd>Will return <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> enum<ol type="1">
+<li>Success <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a></li>
+<li>Error 1 <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a9fc4d37392d1d2039ad916a01398d25d">rdlib::BufferSize</a></li>
+<li>Error 2 <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a7537147695b96c3652ab5902e9de73aa">rdlib::BufferEmpty</a> </li>
 </ol>
 </dd></dl>
 
 </div>
 </div>
-<a id="a630486f4bb4bd70fd8b3029a298303fe" name="a630486f4bb4bd70fd8b3029a298303fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a630486f4bb4bd70fd8b3029a298303fe">&#9670;&#160;</a></span>LCDSPIoff()</h2>
+<a id="a8ab7351530e0bff21af6962c25c2d952" name="a8ab7351530e0bff21af6962c25c2d952"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ab7351530e0bff21af6962c25c2d952">&#9670;&#160;</a></span>LCDSPIoff()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> ERM19264_UC1609::LCDSPIoff </td>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> ERM19264_UC1609::LCDSPIoff </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1241,17 +1376,42 @@ Additional Inherited Members</h2></td></tr>
 
 <p>End SPI operations. </p>
 <dl class="section return"><dt>Returns</dt><dd><ol type="1">
-<li>rpiDisplay_Success</li>
-<li>rpiDisplay_GpioPinFree</li>
-<li>rpiDisplay_SPICloseFailure</li>
-<li>rpiDisplay_GpioChipDevice </li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a0e40ec38e9d754b8ce795b4007f93fef">rdlib::GpioPinFree</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a6169a81d0ae5688c76efad17712818f9">rdlib::SPICloseFailure</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a91050c855c6aedfc87e0adb551161bde">rdlib::GpioChipDevice</a> </li>
 </ol>
 </dd></dl>
 
 </div>
 </div>
-<a id="abaa91cb9d2235cc9523bdb692ef85c1f" name="abaa91cb9d2235cc9523bdb692ef85c1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abaa91cb9d2235cc9523bdb692ef85c1f">&#9670;&#160;</a></span>send_command()</h2>
+<a id="a198f4929a7a47f92103ae52b3de2fde4" name="a198f4929a7a47f92103ae52b3de2fde4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a198f4929a7a47f92103ae52b3de2fde4">&#9670;&#160;</a></span>LCDupdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> ERM19264_UC1609::LCDupdate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>updates the buffer i.e. writes it to the screen </p>
+<dl class="section return"><dt>Returns</dt><dd><ol type="1">
+<li>Success</li>
+<li>BufferEmpty if buffer is empty object </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<a id="a15ecc56fe6a62b3c7f7ae64ba88b5ec6" name="a15ecc56fe6a62b3c7f7ae64ba88b5ec6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15ecc56fe6a62b3c7f7ae64ba88b5ec6">&#9670;&#160;</a></span>sendCommand()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1260,7 +1420,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a> ERM19264_UC1609::send_command </td>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a> ERM19264_UC1609::sendCommand </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
           <td class="paramname"><em>command</em>, </td>
@@ -1296,8 +1456,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="af73dfeac9ce66b76bab5c7275367bcff" name="af73dfeac9ce66b76bab5c7275367bcff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af73dfeac9ce66b76bab5c7275367bcff">&#9670;&#160;</a></span>send_data()</h2>
+<a id="ab294e6c7f7b07944ab4f4de9ccd817b4" name="ab294e6c7f7b07944ab4f4de9ccd817b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab294e6c7f7b07944ab4f4de9ccd817b4">&#9670;&#160;</a></span>sendData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1306,7 +1466,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a> ERM19264_UC1609::send_data </td>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a> ERM19264_UC1609::sendData </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
           <td class="paramname"><em>dataByte</em></td><td>)</td>
@@ -1408,7 +1568,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>The device number of a gpiochip 4=rpi5 0=rpi4,3 /dev/gpio </p>
+<p>The device number of a gpiochip ls /dev/gpio </p>
 
 </div>
 </div>
@@ -1666,6 +1826,29 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a0250bfa7dd460fff4f9395479560a691" name="a0250bfa7dd460fff4f9395479560a691"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0250bfa7dd460fff4f9395479560a691">&#9670;&#160;</a></span>_LCDbufferScreen</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::span&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&gt; ERM19264_UC1609::_LCDbufferScreen</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>span to the screen buffer data </p>
+
+</div>
+</div>
 <a id="ab275c8c5304e5c4b2aa5cac91153d333" name="ab275c8c5304e5c4b2aa5cac91153d333"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab275c8c5304e5c4b2aa5cac91153d333">&#9670;&#160;</a></span>_sleep</h2>
 
@@ -1827,8 +2010,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ad47dcf5fd7c89ac40470fff1dc38a0f2" name="ad47dcf5fd7c89ac40470fff1dc38a0f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad47dcf5fd7c89ac40470fff1dc38a0f2">&#9670;&#160;</a></span>LCDbufferScreen</h2>
+<a id="a36d1240886681369b5c7724fcbbe18f4" name="a36d1240886681369b5c7724fcbbe18f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36d1240886681369b5c7724fcbbe18f4">&#9670;&#160;</a></span>UC1609_ADDRESS_CONTROL</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1837,16 +2020,477 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>* ERM19264_UC1609::LCDbufferScreen = <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">nullptr</a></td>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERM19264_UC1609::UC1609_ADDRESS_CONTROL = 0x88</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>pointer to the screen buffer data array </p>
+<p>set RAM address control </p>
+
+</div>
+</div>
+<a id="a2d0cb4c67cb8a4c4135f4604d89dc68c" name="a2d0cb4c67cb8a4c4135f4604d89dc68c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d0cb4c67cb8a4c4135f4604d89dc68c">&#9670;&#160;</a></span>UC1609_ADDRESS_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERM19264_UC1609::UC1609_ADDRESS_SET = 0x02</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set AC [2:0] Program registers for RAM address control. </p>
+
+</div>
+</div>
+<a id="a84825dc368edd523c973e593f396b813" name="a84825dc368edd523c973e593f396b813"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84825dc368edd523c973e593f396b813">&#9670;&#160;</a></span>UC1609_ALL_PIXEL_ON</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERM19264_UC1609::UC1609_ALL_PIXEL_ON = 0xA4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>sets on all Pixels on </p>
+
+</div>
+</div>
+<a id="ac0eb0529d28535c415de98b4c8bbcfa9" name="ac0eb0529d28535c415de98b4c8bbcfa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0eb0529d28535c415de98b4c8bbcfa9">&#9670;&#160;</a></span>UC1609_BIAS_RATIO</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERM19264_UC1609::UC1609_BIAS_RATIO = 0xE8</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Bias Ratio. The ratio between V-LCD and V-D . </p>
+
+</div>
+</div>
+<a id="ad2d8dcd03d1c97fda8a08a7f5119bc11" name="ad2d8dcd03d1c97fda8a08a7f5119bc11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2d8dcd03d1c97fda8a08a7f5119bc11">&#9670;&#160;</a></span>UC1609_BIAS_RATIO_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERM19264_UC1609::UC1609_BIAS_RATIO_SET = 0x03</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set BR[1:0] = 11 (set to 9 default, 11b = 9) </p>
+
+</div>
+</div>
+<a id="ae4e167880921cfcc7e6f3d1519271446" name="ae4e167880921cfcc7e6f3d1519271446"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4e167880921cfcc7e6f3d1519271446">&#9670;&#160;</a></span>UC1609_DEFAULT_GN_PM</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERM19264_UC1609::UC1609_DEFAULT_GN_PM = 0x49</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>default only used if user does not specify Vbias </p>
+
+</div>
+</div>
+<a id="a386a3e95cbf2e7b16b7e62ce9cbce541" name="a386a3e95cbf2e7b16b7e62ce9cbce541"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a386a3e95cbf2e7b16b7e62ce9cbce541">&#9670;&#160;</a></span>UC1609_DISPLAY_ON</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERM19264_UC1609::UC1609_DISPLAY_ON = 0xAE</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>enables display </p>
+
+</div>
+</div>
+<a id="aa259aa095cb15c1b39331457fd8b6126" name="aa259aa095cb15c1b39331457fd8b6126"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa259aa095cb15c1b39331457fd8b6126">&#9670;&#160;</a></span>UC1609_FRAMERATE_REG</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERM19264_UC1609::UC1609_FRAMERATE_REG = 0xA0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Frame rate register </p>
+
+</div>
+</div>
+<a id="ac616e6ef99bfa6ac1c7af2cd8855c9d4" name="ac616e6ef99bfa6ac1c7af2cd8855c9d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac616e6ef99bfa6ac1c7af2cd8855c9d4">&#9670;&#160;</a></span>UC1609_FRAMERATE_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERM19264_UC1609::UC1609_FRAMERATE_SET = 0x01</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set Frame Rate LC [4:3] 01b: 95 fps </p>
+
+</div>
+</div>
+<a id="a052304888dd602e29563338a20302fe5" name="a052304888dd602e29563338a20302fe5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a052304888dd602e29563338a20302fe5">&#9670;&#160;</a></span>UC1609_GN_PM</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERM19264_UC1609::UC1609_GN_PM = 0x81</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set V BIAS Potentiometer to fine tune V-D and V-LCD (double-byte command) </p>
+
+</div>
+</div>
+<a id="a9ed85485dcff426a96a63f7686b4da69" name="a9ed85485dcff426a96a63f7686b4da69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ed85485dcff426a96a63f7686b4da69">&#9670;&#160;</a></span>UC1609_INVERSE_DISPLAY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERM19264_UC1609::UC1609_INVERSE_DISPLAY = 0xA6</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>inverts display </p>
+
+</div>
+</div>
+<a id="a406354857bfd61b89d10bad55b104bfd" name="a406354857bfd61b89d10bad55b104bfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a406354857bfd61b89d10bad55b104bfd">&#9670;&#160;</a></span>UC1609_LCD_CONTROL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERM19264_UC1609::UC1609_LCD_CONTROL = 0xC0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Rotate map control </p>
+
+</div>
+</div>
+<a id="a26734e0d6800e582fd0b6e677846c6e9" name="a26734e0d6800e582fd0b6e677846c6e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26734e0d6800e582fd0b6e677846c6e9">&#9670;&#160;</a></span>UC1609_PC_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERM19264_UC1609::UC1609_PC_SET = 0x06</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>PC[2:0] 110, Internal V LCD (7x charge pump) + 10b: 1.4mA </p>
+
+</div>
+</div>
+<a id="aac95f42666fa9cde53ef5e172b96a22e" name="aac95f42666fa9cde53ef5e172b96a22e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac95f42666fa9cde53ef5e172b96a22e">&#9670;&#160;</a></span>UC1609_POWER_CONTROL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERM19264_UC1609::UC1609_POWER_CONTROL = 0x28</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Power control Address </p>
+
+</div>
+</div>
+<a id="a84c19a380bcaa84023fbc2e850f921d0" name="a84c19a380bcaa84023fbc2e850f921d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84c19a380bcaa84023fbc2e850f921d0">&#9670;&#160;</a></span>UC1609_SCROLL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERM19264_UC1609::UC1609_SCROLL = 0x40</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>scrolls , Set the scroll line number. 0-64 </p>
+
+</div>
+</div>
+<a id="aac0d76a81aa7bf262a044ee6000a973d" name="aac0d76a81aa7bf262a044ee6000a973d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac0d76a81aa7bf262a044ee6000a973d">&#9670;&#160;</a></span>UC1609_SET_COLADD_LSB</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERM19264_UC1609::UC1609_SET_COLADD_LSB = 0x00</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Column Address Set CA [3:0] </p>
+
+</div>
+</div>
+<a id="a1ebf3db71a0477f2b249d18ff67240d1" name="a1ebf3db71a0477f2b249d18ff67240d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ebf3db71a0477f2b249d18ff67240d1">&#9670;&#160;</a></span>UC1609_SET_COLADD_MSB</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERM19264_UC1609::UC1609_SET_COLADD_MSB = 0x10</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Column Address Set CA [7:4] </p>
+
+</div>
+</div>
+<a id="a5a7f0ec6711a387e5c71e6bba3ac09b1" name="a5a7f0ec6711a387e5c71e6bba3ac09b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a7f0ec6711a387e5c71e6bba3ac09b1">&#9670;&#160;</a></span>UC1609_SET_PAGEADD</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERM19264_UC1609::UC1609_SET_PAGEADD = 0xB0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Page address Set PA[3:0] <br  />
+ </p>
+
+</div>
+</div>
+<a id="a620311301965153a68266984be3cb9f7" name="a620311301965153a68266984be3cb9f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a620311301965153a68266984be3cb9f7">&#9670;&#160;</a></span>UC1609_SYSTEM_RESET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERM19264_UC1609::UC1609_SYSTEM_RESET = 0xE2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>System Reset </p>
+
+</div>
+</div>
+<a id="af8ad40872ea4465d6eeb9b2ded15b828" name="af8ad40872ea4465d6eeb9b2ded15b828"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8ad40872ea4465d6eeb9b2ded15b828">&#9670;&#160;</a></span>UC1609_TEMP_COMP_REG</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERM19264_UC1609::UC1609_TEMP_COMP_REG = 0x27</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Temperature Compensation Register </p>
+
+</div>
+</div>
+<a id="a12482a50ff439eead5f7c0d2cc3b7138" name="a12482a50ff439eead5f7c0d2cc3b7138"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12482a50ff439eead5f7c0d2cc3b7138">&#9670;&#160;</a></span>UC1609_TEMP_COMP_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">constexpr</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> ERM19264_UC1609::UC1609_TEMP_COMP_SET = 0x00</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>TC[1:0] = 00b= -0.00%/ C </p>
 
 </div>
 </div>

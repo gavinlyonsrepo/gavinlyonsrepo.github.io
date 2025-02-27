@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -72,9 +72,11 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="classcolor16__graphics-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">color16_graphics Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
@@ -89,20 +91,72 @@ Inheritance diagram for color16_graphics:</div>
 <div class="dyncontent">
 <div class="center"><img src="classcolor16__graphics__inherit__graph.png" border="0" usemap="#acolor16__graphics_inherit__map" alt="Inheritance graph"/></div>
 <map name="acolor16__graphics_inherit__map" id="acolor16__graphics_inherit__map">
-<area shape="rect" title="Class to handle fonts and graphics of color 16 bit display." alt="" coords="113,79,245,104"/>
+<area shape="rect" title="Class to handle fonts and graphics of color 16 bit display." alt="" coords="191,79,323,104"/>
 <area shape="rect" href="classILI9341__TFT.html" title="Class to interface with ILI9341 LCD display." alt="" coords="5,152,104,177"/>
-<area shape="poly" title=" " alt="" coords="148,113,76,154,74,149,146,108"/>
-<area shape="rect" href="classST7735__TFT.html" title="Class to control ST7735 TFT basic functionality." alt="" coords="129,152,229,177"/>
-<area shape="poly" title=" " alt="" coords="181,118,181,152,176,152,176,118"/>
-<area shape="rect" href="classST7789__TFT.html" title="Class to control ST7789 TFT basic functionality." alt="" coords="253,152,353,177"/>
-<area shape="poly" title=" " alt="" coords="212,108,284,149,281,154,209,113"/>
-<area shape="rect" href="classdisplay__Fonts.html" title="Font class to hold font data object" alt="" coords="71,5,182,31"/>
-<area shape="poly" title=" " alt="" coords="145,40,172,77,168,80,141,43"/>
-<area shape="rect" href="classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s." alt="" coords="206,5,258,31"/>
-<area shape="poly" title=" " alt="" coords="217,43,189,80,185,77,213,40"/>
+<area shape="poly" title=" " alt="" coords="213,111,88,154,87,149,211,106"/>
+<area shape="rect" href="classSSD1331__OLED.html" title="Class to control SSD1331 OLED basic functionality." alt="" coords="128,152,251,177"/>
+<area shape="poly" title=" " alt="" coords="239,116,202,154,198,150,235,112"/>
+<area shape="rect" href="classST7735__TFT.html" title="Class to control ST7735 TFT basic functionality." alt="" coords="275,152,375,177"/>
+<area shape="poly" title=" " alt="" coords="280,112,316,150,312,154,276,116"/>
+<area shape="rect" href="classST7789__TFT.html" title="Class to control ST7789 TFT basic functionality." alt="" coords="399,152,499,177"/>
+<area shape="poly" title=" " alt="" coords="302,106,419,149,417,154,300,111"/>
+<area shape="rect" href="classdisplay__Fonts.html" title="Font class to hold font data object" alt="" coords="150,5,261,31"/>
+<area shape="poly" title=" " alt="" coords="224,40,251,77,247,80,220,43"/>
+<area shape="rect" href="classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s." alt="" coords="285,5,337,31"/>
+<area shape="poly" title=" " alt="" coords="296,43,268,80,264,77,292,40"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a539f872d478ef8e53d8c592b7d6cad3c" id="r_a539f872d478ef8e53d8c592b7d6cad3c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3c">pixel_color565_e</a> : uint16_t { <br />
+&#160;&#160;<a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3ca0a45a873d4dbd5f61a80d13f852fd0ea">RDLC_BLACK</a> = 0x0000
+, <a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3ca5fcbc54ee21e617889348471af8db26c">RDLC_BLUE</a> = 0x001F
+, <a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3ca9db488f2f9e3d69a06f5bb7b04d5ab6e">RDLC_RED</a> = 0xF800
+, <a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3caa105c481c29f5b2501a5be917618f595">RDLC_GREEN</a> = 0x07E0
+, <br />
+&#160;&#160;<a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3ca4514831df86465a1929bfa3d426b003d">RDLC_CYAN</a> = 0x07FF
+, <a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3caa5e5673a70726f07d6278e5962b548b8">RDLC_MAGENTA</a> = 0xF81F
+, <a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3ca08dc7c8e8bf8790d02f32dcb6b1d6534">RDLC_YELLOW</a> = 0xFFE0
+, <a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3cac9cb88a82d75fdbb23ce8e90f36244ff">RDLC_WHITE</a> = 0xFFFF
+, <br />
+&#160;&#160;<a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3ca599f91f95bf3d25166991a93027eabe2">RDLC_TAN</a> = 0xED01
+, <a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3ca1ed129414748fae077fc7fa515d966e5">RDLC_GREY</a> = 0x9CD1
+, <a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3cab79974d46a0812cc920e42ad1783ca4f">RDLC_BROWN</a> = 0x6201
+, <a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3cac0bfa14309da0edba818fbac3d427a62">RDLC_DGREEN</a> = 0x01C0
+, <br />
+&#160;&#160;<a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3ca43f11879e67c821c6b01480e303cc364">RDLC_ORANGE</a> = 0xFC00
+, <a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3caed8ab8de1ca847b0115746cac44c9ef5">RDLC_NAVY</a> = 0x000F
+, <a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3ca41514a50b9721f0f333553f77251f852">RDLC_DCYAN</a> = 0x03EF
+, <a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3ca10521981de4af954213b66d4029c2ca2">RDLC_MAROON</a> = 0x7800
+, <br />
+&#160;&#160;<a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3ca4dc2a369581913f97ff415a7fd5033c2">RDLC_PURPLE</a> = 0x780F
+, <a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3ca9d3f133a7e1e3becb2a9953bc0ae86b4">RDLC_OLIVE</a> = 0x7BE0
+, <a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3ca3236f7d559edd34fbae75d0b526f0248">RDLC_LGREY</a> = 0xC618
+, <a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3caf0a5d24b3ab82ff7c3f565db9e7cf815">RDLC_DGREY</a> = 0x7BEF
+, <br />
+&#160;&#160;<a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3ca4cabe9e9df0304e6bf138d2c1d5d2011">RDLC_GYELLOW</a> = 0xAFE5
+, <a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3ca272030b3cc8477f1910cc323e80187b0">RDLC_PINK</a> = 0xFC18
+, <a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3cad608ea8b0199beadb5041caf324925d6">RDLC_LBLUE</a> = 0x7E5F
+, <a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3ca5c14ba388d3d28ef5bb65fb8f466330d">RDLC_BEIGE</a> = 0xB5D2
+<br />
+ }</td></tr>
+<tr class="memdesc:a539f872d478ef8e53d8c592b7d6cad3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">16-bit color definitions (RGB565 format).  <a href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3c">More...</a><br /></td></tr>
+<tr class="separator:a539f872d478ef8e53d8c592b7d6cad3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aac03c702c18b5b786ec00d9b328831" id="r_a7aac03c702c18b5b786ec00d9b328831"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#a7aac03c702c18b5b786ec00d9b328831">display_rotate_e</a> : uint8_t { <a class="el" href="classcolor16__graphics.html#a7aac03c702c18b5b786ec00d9b328831a8b06c8bd946f7177443ef06b671b16d5">Degrees_0</a> = 0
+, <a class="el" href="classcolor16__graphics.html#a7aac03c702c18b5b786ec00d9b328831a2575106d138efca4042728c2de6847ee">Degrees_90</a>
+, <a class="el" href="classcolor16__graphics.html#a7aac03c702c18b5b786ec00d9b328831ab38c79e72daaf4cff11108a01d99ab6f">Degrees_180</a>
+, <a class="el" href="classcolor16__graphics.html#a7aac03c702c18b5b786ec00d9b328831a43f514f2a5aef4d991bcb7dcf37d1792">Degrees_270</a>
+ }</td></tr>
+<tr class="separator:a7aac03c702c18b5b786ec00d9b328831"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classPrint"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classPrint')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classPrint.html">Print</a></td></tr>
+<tr class="memitem:a6d9bda509eaab1f639e14f228c04719b inherit pub_types_classPrint" id="r_a6d9bda509eaab1f639e14f228c04719b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719b">BaseNum</a> : uint8_t { <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a> = 10
+, <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719baad066ef1185ddb4db251e2e2bbc9f33f">RDL_HEX</a> = 16
+, <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba5ccb1478c894e55033ad8caca1cac40b">RDL_OCT</a> = 8
+, <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba4a5d5ee8967feab1df43c1eae6e0189c">RDL_BIN</a> = 2
+ }</td></tr>
+<tr class="separator:a6d9bda509eaab1f639e14f228c04719b inherit pub_types_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aba11b1ddcb3a265a7047f1794d1c0e45" id="r_aba11b1ddcb3a265a7047f1794d1c0e45"><td class="memItemLeft" align="right" valign="top"><a id="aba11b1ddcb3a265a7047f1794d1c0e45" name="aba11b1ddcb3a265a7047f1794d1c0e45"></a>
@@ -123,18 +177,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a836c74891fdef7237cca3dfa63a24399" id="r_a836c74891fdef7237cca3dfa63a24399"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#a836c74891fdef7237cca3dfa63a24399">drawLine</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> x1, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> y1, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
 <tr class="memdesc:a836c74891fdef7237cca3dfa63a24399"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws a line from (x0,y0) to (x1,y1).  <br /></td></tr>
 <tr class="separator:a836c74891fdef7237cca3dfa63a24399"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec1a7f5ff52366fba1dc92b78a3e6be4" id="r_aec1a7f5ff52366fba1dc92b78a3e6be4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#aec1a7f5ff52366fba1dc92b78a3e6be4">drawFastVLine</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
-<tr class="memdesc:aec1a7f5ff52366fba1dc92b78a3e6be4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a vertical line starting at (x,y) with height h.  <br /></td></tr>
-<tr class="separator:aec1a7f5ff52366fba1dc92b78a3e6be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5265d89b80e0e525cd9e00af730c0a78" id="r_a5265d89b80e0e525cd9e00af730c0a78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#a5265d89b80e0e525cd9e00af730c0a78">drawFastHLine</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
-<tr class="memdesc:a5265d89b80e0e525cd9e00af730c0a78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a horizontal line starting at (x,y) with width w.  <br /></td></tr>
-<tr class="separator:a5265d89b80e0e525cd9e00af730c0a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af52a6d8efdcc4d283f0fb6615116cc0a" id="r_af52a6d8efdcc4d283f0fb6615116cc0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#af52a6d8efdcc4d283f0fb6615116cc0a">drawFastVLine</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
+<tr class="memdesc:af52a6d8efdcc4d283f0fb6615116cc0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a vertical line starting at (x,y) with height h.  <br /></td></tr>
+<tr class="separator:af52a6d8efdcc4d283f0fb6615116cc0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d1ffdba3907eefd1534526d36b4a70d" id="r_a7d1ffdba3907eefd1534526d36b4a70d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#a7d1ffdba3907eefd1534526d36b4a70d">drawFastHLine</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
+<tr class="memdesc:a7d1ffdba3907eefd1534526d36b4a70d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a horizontal line starting at (x,y) with width w.  <br /></td></tr>
+<tr class="separator:a7d1ffdba3907eefd1534526d36b4a70d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8032d3b25da3edca69fcd5a3cc1389a5" id="r_a8032d3b25da3edca69fcd5a3cc1389a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#a8032d3b25da3edca69fcd5a3cc1389a5">drawRectWH</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
 <tr class="memdesc:a8032d3b25da3edca69fcd5a3cc1389a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws rectangle at (x,y) where h is height and w is width of the rectangle.  <br /></td></tr>
 <tr class="separator:a8032d3b25da3edca69fcd5a3cc1389a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab07cb7811c97e5a7215523e7bc2740d2" id="r_ab07cb7811c97e5a7215523e7bc2740d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#ab07cb7811c97e5a7215523e7bc2740d2">fillRectangle</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>)</td></tr>
-<tr class="memdesc:ab07cb7811c97e5a7215523e7bc2740d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">fills a rectangle starting from coordinates (x,y) with width of w and height of h.  <br /></td></tr>
-<tr class="separator:ab07cb7811c97e5a7215523e7bc2740d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c972a814fb3654608ee7e7ce56abf2f" id="r_a1c972a814fb3654608ee7e7ce56abf2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#a1c972a814fb3654608ee7e7ce56abf2f">fillRectangle</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>)</td></tr>
+<tr class="memdesc:a1c972a814fb3654608ee7e7ce56abf2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">fills a rectangle starting from coordinates (x,y) with width of w and height of h.  <br /></td></tr>
+<tr class="separator:a1c972a814fb3654608ee7e7ce56abf2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d7bbf1eeffde70d6f41aab36e7ec3e8" id="r_a1d7bbf1eeffde70d6f41aab36e7ec3e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#a1d7bbf1eeffde70d6f41aab36e7ec3e8">fillRect</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
 <tr class="memdesc:a1d7bbf1eeffde70d6f41aab36e7ec3e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">fills a rectangle at (x,y) where h is height and w is width of the rectangle.  <br /></td></tr>
 <tr class="separator:a1d7bbf1eeffde70d6f41aab36e7ec3e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,12 +213,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6feeda9f584c1fe0b488cbf08ab77125" id="r_a6feeda9f584c1fe0b488cbf08ab77125"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">virtual</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#a6feeda9f584c1fe0b488cbf08ab77125">write</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>) <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">override</a></td></tr>
 <tr class="memdesc:a6feeda9f584c1fe0b488cbf08ab77125"><td class="mdescLeft">&#160;</td><td class="mdescRight">write method used in the print class when user calls print  <br /></td></tr>
 <tr class="separator:a6feeda9f584c1fe0b488cbf08ab77125"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b566f55c0786fa92834a9cb30f5a31e" id="r_a9b566f55c0786fa92834a9cb30f5a31e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#a9b566f55c0786fa92834a9cb30f5a31e">writeChar</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">value</a>)</td></tr>
-<tr class="memdesc:a9b566f55c0786fa92834a9cb30f5a31e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write 1 character on Display.  <br /></td></tr>
-<tr class="separator:a9b566f55c0786fa92834a9cb30f5a31e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d8d033b2cdc6b5942a7d6bb26f26fc0" id="r_a6d8d033b2cdc6b5942a7d6bb26f26fc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#a6d8d033b2cdc6b5942a7d6bb26f26fc0">writeCharString</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a> *<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">text</a>)</td></tr>
-<tr class="memdesc:a6d8d033b2cdc6b5942a7d6bb26f26fc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write Text character array on display.  <br /></td></tr>
-<tr class="separator:a6d8d033b2cdc6b5942a7d6bb26f26fc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40bc4c17443344462c94cbd97de10fbb" id="r_a40bc4c17443344462c94cbd97de10fbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#a40bc4c17443344462c94cbd97de10fbb">writeChar</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">value</a>)</td></tr>
+<tr class="memdesc:a40bc4c17443344462c94cbd97de10fbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write 1 character on Display.  <br /></td></tr>
+<tr class="separator:a40bc4c17443344462c94cbd97de10fbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3891f0881f9f0ff496c556dee8eb3c27" id="r_a3891f0881f9f0ff496c556dee8eb3c27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#a3891f0881f9f0ff496c556dee8eb3c27">writeCharString</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a> *<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">text</a>)</td></tr>
+<tr class="memdesc:a3891f0881f9f0ff496c556dee8eb3c27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write Text character array on display.  <br /></td></tr>
+<tr class="separator:a3891f0881f9f0ff496c556dee8eb3c27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05eb256d85392ec928a86b8cd9fefc77" id="r_a05eb256d85392ec928a86b8cd9fefc77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#a05eb256d85392ec928a86b8cd9fefc77">setTextWrap</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>)</td></tr>
 <tr class="memdesc:a05eb256d85392ec928a86b8cd9fefc77"><td class="mdescLeft">&#160;</td><td class="mdescRight">turn on or off screen wrap of the text (fonts 1-6)  <br /></td></tr>
 <tr class="separator:a05eb256d85392ec928a86b8cd9fefc77"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,21 +228,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3ecbf5510518c9a7be99f5bec7e21328" id="r_a3ecbf5510518c9a7be99f5bec7e21328"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#a3ecbf5510518c9a7be99f5bec7e21328">setTextColor</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">c</a>)</td></tr>
 <tr class="memdesc:a3ecbf5510518c9a7be99f5bec7e21328"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set text color foreground.  <br /></td></tr>
 <tr class="separator:a3ecbf5510518c9a7be99f5bec7e21328"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a3f93358f0aeef2022d3f7b964a328f" id="r_a7a3f93358f0aeef2022d3f7b964a328f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#a7a3f93358f0aeef2022d3f7b964a328f">drawIcon</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bgcolor</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">character</a>[])</td></tr>
-<tr class="memdesc:a7a3f93358f0aeef2022d3f7b964a328f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws an custom Icon of X by 8 size to screen , where X = 0 to 127.  <br /></td></tr>
-<tr class="separator:a7a3f93358f0aeef2022d3f7b964a328f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accd8a045ae1319c92ea22c58f83e3e34" id="r_accd8a045ae1319c92ea22c58f83e3e34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#accd8a045ae1319c92ea22c58f83e3e34">drawBitmap</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bgcolor</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">pBmp</a>)</td></tr>
-<tr class="memdesc:accd8a045ae1319c92ea22c58f83e3e34"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Draws an bi-color bitmap to screen  <br /></td></tr>
-<tr class="separator:accd8a045ae1319c92ea22c58f83e3e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a7b9223fa28f70bb21b618ee2ea0f96" id="r_a4a7b9223fa28f70bb21b618ee2ea0f96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#a4a7b9223fa28f70bb21b618ee2ea0f96">drawBitmap24</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">pBmp</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>)</td></tr>
-<tr class="memdesc:a4a7b9223fa28f70bb21b618ee2ea0f96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws an 24 bit color bitmap to screen from a data array.  <br /></td></tr>
-<tr class="separator:a4a7b9223fa28f70bb21b618ee2ea0f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47f8e8d26a2f030960082a2b31727608" id="r_a47f8e8d26a2f030960082a2b31727608"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#a47f8e8d26a2f030960082a2b31727608">drawBitmap16</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">pBmp</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>)</td></tr>
-<tr class="memdesc:a47f8e8d26a2f030960082a2b31727608"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Draws an 16 bit color bitmap to screen from a data array  <br /></td></tr>
-<tr class="separator:a47f8e8d26a2f030960082a2b31727608"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b3520a19bed95b563d5fa11d76b7efb" id="r_a3b3520a19bed95b563d5fa11d76b7efb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#a3b3520a19bed95b563d5fa11d76b7efb">drawSprite</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">pBmp</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">backgroundColor</a>)</td></tr>
-<tr class="memdesc:a3b3520a19bed95b563d5fa11d76b7efb"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Draws an 16 bit color sprite bitmap to screen from a data array with transparent background  <br /></td></tr>
-<tr class="separator:a3b3520a19bed95b563d5fa11d76b7efb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3f4c0e4409cf41051d83ba93664b888" id="r_aa3f4c0e4409cf41051d83ba93664b888"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#aa3f4c0e4409cf41051d83ba93664b888">drawIcon</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bgcolor</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt; data)</td></tr>
+<tr class="memdesc:aa3f4c0e4409cf41051d83ba93664b888"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws an custom Icon of X by 8 size to screen , where X = 0 to 127.  <br /></td></tr>
+<tr class="separator:aa3f4c0e4409cf41051d83ba93664b888"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13da42070aea46465d1c4bad39c7b75b" id="r_a13da42070aea46465d1c4bad39c7b75b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#a13da42070aea46465d1c4bad39c7b75b">drawBitmap</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bgcolor</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt; data)</td></tr>
+<tr class="memdesc:a13da42070aea46465d1c4bad39c7b75b"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Draws an bi-color bitmap to screen  <br /></td></tr>
+<tr class="separator:a13da42070aea46465d1c4bad39c7b75b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa606f38f7f7b60b5b0a199e87ef11a4d" id="r_aa606f38f7f7b60b5b0a199e87ef11a4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#aa606f38f7f7b60b5b0a199e87ef11a4d">drawBitmap24</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt; data, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>)</td></tr>
+<tr class="memdesc:aa606f38f7f7b60b5b0a199e87ef11a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws an 24 bit color bitmap to screen from a data array.  <br /></td></tr>
+<tr class="separator:aa606f38f7f7b60b5b0a199e87ef11a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b683533950b879c576481d027179a51" id="r_a6b683533950b879c576481d027179a51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#a6b683533950b879c576481d027179a51">drawBitmap16</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt; data, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>)</td></tr>
+<tr class="memdesc:a6b683533950b879c576481d027179a51"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Draws an 16 bit color bitmap to screen from a data array  <br /></td></tr>
+<tr class="separator:a6b683533950b879c576481d027179a51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec9e4d5c4ab4ac1a590d4c936ee2f053" id="r_aec9e4d5c4ab4ac1a590d4c936ee2f053"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#aec9e4d5c4ab4ac1a590d4c936ee2f053">drawSprite</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt; data, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">backgroundColor</a>)</td></tr>
+<tr class="memdesc:aec9e4d5c4ab4ac1a590d4c936ee2f053"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Draws an 16 bit color sprite bitmap to screen with transparent background  <br /></td></tr>
+<tr class="separator:aec9e4d5c4ab4ac1a590d4c936ee2f053"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5cefb5faeba1152878df90720484a3f" id="r_ac5cefb5faeba1152878df90720484a3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#ac5cefb5faeba1152878df90720484a3f">Color565</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>)</td></tr>
 <tr class="memdesc:ac5cefb5faeba1152878df90720484a3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Convert: 24-bit color to 565 16-bit color  <br /></td></tr>
 <tr class="separator:ac5cefb5faeba1152878df90720484a3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -197,9 +251,9 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>display_Fonts</b> ()</td></tr>
 <tr class="memdesc:aa7b403a26a94f4e85a97ff7f4fbc853f inherit pub_methods_classdisplay__Fonts"><td class="mdescLeft">&#160;</td><td class="mdescRight">init the OLED font class object constructor <br /></td></tr>
 <tr class="separator:aa7b403a26a94f4e85a97ff7f4fbc853f inherit pub_methods_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba9c9563f1df935e61346ad1f1306155 inherit pub_methods_classdisplay__Fonts" id="r_aba9c9563f1df935e61346ad1f1306155"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#aba9c9563f1df935e61346ad1f1306155">setFont</a> (<a class="el" href="font__data__RDL_8hpp.html#a4e34a4baa30d127bc21926334fe5a365">display_Font_name_e</a>)</td></tr>
-<tr class="memdesc:aba9c9563f1df935e61346ad1f1306155 inherit pub_methods_classdisplay__Fonts"><td class="mdescLeft">&#160;</td><td class="mdescRight">SetFont.  <br /></td></tr>
-<tr class="separator:aba9c9563f1df935e61346ad1f1306155 inherit pub_methods_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af989da1fa05622390c727231ae9b425a inherit pub_methods_classdisplay__Fonts" id="r_af989da1fa05622390c727231ae9b425a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#af989da1fa05622390c727231ae9b425a">setFont</a> (<a class="el" href="font__data__RDL_8hpp.html#a4e34a4baa30d127bc21926334fe5a365">display_Font_name_e</a>)</td></tr>
+<tr class="memdesc:af989da1fa05622390c727231ae9b425a inherit pub_methods_classdisplay__Fonts"><td class="mdescLeft">&#160;</td><td class="mdescRight">SetFont.  <br /></td></tr>
+<tr class="separator:af989da1fa05622390c727231ae9b425a inherit pub_methods_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad95138537049721f2440f5d2d884e923 inherit pub_methods_classdisplay__Fonts" id="r_ad95138537049721f2440f5d2d884e923"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#ad95138537049721f2440f5d2d884e923">setInvertFont</a> (bool invertStatus)</td></tr>
 <tr class="memdesc:ad95138537049721f2440f5d2d884e923 inherit pub_methods_classdisplay__Fonts"><td class="mdescLeft">&#160;</td><td class="mdescRight">setInvertFont  <br /></td></tr>
 <tr class="separator:ad95138537049721f2440f5d2d884e923 inherit pub_methods_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -233,16 +287,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1e411d07a8ffec5faf7ce485bac0f029 inherit pub_methods_classPrint" id="r_a1e411d07a8ffec5faf7ce485bac0f029"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a1e411d07a8ffec5faf7ce485bac0f029">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a>)</td></tr>
 <tr class="memdesc:a1e411d07a8ffec5faf7ce485bac0f029 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an character  <br /></td></tr>
 <tr class="separator:a1e411d07a8ffec5faf7ce485bac0f029 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67acb421606e3a0915372d3472db9bd3 inherit pub_methods_classPrint" id="r_a67acb421606e3a0915372d3472db9bd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a67acb421606e3a0915372d3472db9bd3">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:a67acb421606e3a0915372d3472db9bd3 inherit pub_methods_classPrint" id="r_a67acb421606e3a0915372d3472db9bd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a67acb421606e3a0915372d3472db9bd3">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:a67acb421606e3a0915372d3472db9bd3 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an integer of base number system  <br /></td></tr>
 <tr class="separator:a67acb421606e3a0915372d3472db9bd3 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5b352ebfdb3c2c7adda4c354c74c5db inherit pub_methods_classPrint" id="r_ab5b352ebfdb3c2c7adda4c354c74c5db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ab5b352ebfdb3c2c7adda4c354c74c5db">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:ab5b352ebfdb3c2c7adda4c354c74c5db inherit pub_methods_classPrint" id="r_ab5b352ebfdb3c2c7adda4c354c74c5db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ab5b352ebfdb3c2c7adda4c354c74c5db">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:ab5b352ebfdb3c2c7adda4c354c74c5db inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned integer of base number system  <br /></td></tr>
 <tr class="separator:ab5b352ebfdb3c2c7adda4c354c74c5db inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaef5d39e88bb6460fc239c642790b655 inherit pub_methods_classPrint" id="r_aaef5d39e88bb6460fc239c642790b655"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#aaef5d39e88bb6460fc239c642790b655">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:aaef5d39e88bb6460fc239c642790b655 inherit pub_methods_classPrint" id="r_aaef5d39e88bb6460fc239c642790b655"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#aaef5d39e88bb6460fc239c642790b655">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:aaef5d39e88bb6460fc239c642790b655 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an long integer of base number system  <br /></td></tr>
 <tr class="separator:aaef5d39e88bb6460fc239c642790b655 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2fba632d40c18f847fc14510f9003fe inherit pub_methods_classPrint" id="r_ac2fba632d40c18f847fc14510f9003fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ac2fba632d40c18f847fc14510f9003fe">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:ac2fba632d40c18f847fc14510f9003fe inherit pub_methods_classPrint" id="r_ac2fba632d40c18f847fc14510f9003fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ac2fba632d40c18f847fc14510f9003fe">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:ac2fba632d40c18f847fc14510f9003fe inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned long integer of base number system  <br /></td></tr>
 <tr class="separator:ac2fba632d40c18f847fc14510f9003fe inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8b4c025786c820afe0a90aeea01c9c5 inherit pub_methods_classPrint" id="r_ae8b4c025786c820afe0a90aeea01c9c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ae8b4c025786c820afe0a90aeea01c9c5">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">double</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=2)</td></tr>
@@ -257,16 +311,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a554896a71162f967b5794401239d7a01 inherit pub_methods_classPrint" id="r_a554896a71162f967b5794401239d7a01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a554896a71162f967b5794401239d7a01">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a>)</td></tr>
 <tr class="memdesc:a554896a71162f967b5794401239d7a01 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an character followed by new line  <br /></td></tr>
 <tr class="separator:a554896a71162f967b5794401239d7a01 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3978528ddee1a7c701e69eaea2b9dd0c inherit pub_methods_classPrint" id="r_a3978528ddee1a7c701e69eaea2b9dd0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a3978528ddee1a7c701e69eaea2b9dd0c">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:a3978528ddee1a7c701e69eaea2b9dd0c inherit pub_methods_classPrint" id="r_a3978528ddee1a7c701e69eaea2b9dd0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a3978528ddee1a7c701e69eaea2b9dd0c">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:a3978528ddee1a7c701e69eaea2b9dd0c inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an integer of base number system followed by new line  <br /></td></tr>
 <tr class="separator:a3978528ddee1a7c701e69eaea2b9dd0c inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1324d4bb773895c8e34bbf81575536a inherit pub_methods_classPrint" id="r_ae1324d4bb773895c8e34bbf81575536a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ae1324d4bb773895c8e34bbf81575536a">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:ae1324d4bb773895c8e34bbf81575536a inherit pub_methods_classPrint" id="r_ae1324d4bb773895c8e34bbf81575536a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ae1324d4bb773895c8e34bbf81575536a">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:ae1324d4bb773895c8e34bbf81575536a inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned integer of base number system followed by new line  <br /></td></tr>
 <tr class="separator:ae1324d4bb773895c8e34bbf81575536a inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb52163d87b2401c87e40e9df60a57d6 inherit pub_methods_classPrint" id="r_adb52163d87b2401c87e40e9df60a57d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#adb52163d87b2401c87e40e9df60a57d6">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:adb52163d87b2401c87e40e9df60a57d6 inherit pub_methods_classPrint" id="r_adb52163d87b2401c87e40e9df60a57d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#adb52163d87b2401c87e40e9df60a57d6">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:adb52163d87b2401c87e40e9df60a57d6 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an long integer of base number system followed by new line  <br /></td></tr>
 <tr class="separator:adb52163d87b2401c87e40e9df60a57d6 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2e98cda15e864fbd6a6d85edb4b315d inherit pub_methods_classPrint" id="r_ac2e98cda15e864fbd6a6d85edb4b315d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ac2e98cda15e864fbd6a6d85edb4b315d">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:ac2e98cda15e864fbd6a6d85edb4b315d inherit pub_methods_classPrint" id="r_ac2e98cda15e864fbd6a6d85edb4b315d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ac2e98cda15e864fbd6a6d85edb4b315d">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:ac2e98cda15e864fbd6a6d85edb4b315d inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned long integer of base number system followed by new line  <br /></td></tr>
 <tr class="separator:ac2e98cda15e864fbd6a6d85edb4b315d inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56e976b079361b6021ef7c2bedb397a2 inherit pub_methods_classPrint" id="r_a56e976b079361b6021ef7c2bedb397a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a56e976b079361b6021ef7c2bedb397a2">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">double</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=2)</td></tr>
@@ -287,6 +341,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9044ad1fc884a89c0b85a43e3dc6b18b inherit pub_methods_classPrint"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPrint.html#a9044ad1fc884a89c0b85a43e3dc6b18b">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::vector&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> &gt; &amp;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">vec</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">format</a>=<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">defaultFormat</a>&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> &gt;())</td></tr>
 <tr class="memdesc:a9044ad1fc884a89c0b85a43e3dc6b18b inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s.">Print</a> a vector of elements followed by a newline.  <br /></td></tr>
 <tr class="separator:a9044ad1fc884a89c0b85a43e3dc6b18b inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e376c7a301a878bf25f522dff3cb813 inherit pub_methods_classPrint" id="r_a3e376c7a301a878bf25f522dff3cb813"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">typename</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> , <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a> N&gt; </td></tr>
+<tr class="memitem:a3e376c7a301a878bf25f522dff3cb813 inherit pub_methods_classPrint"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPrint.html#a3e376c7a301a878bf25f522dff3cb813">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::array&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">N</a> &gt; &amp;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">arr</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">format</a>=<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">defaultFormat</a>&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> &gt;())</td></tr>
+<tr class="memdesc:a3e376c7a301a878bf25f522dff3cb813 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s.">Print</a> a std::array of any type.  <br /></td></tr>
+<tr class="separator:a3e376c7a301a878bf25f522dff3cb813 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aa261254eec517de1908cc4976fee98 inherit pub_methods_classPrint" id="r_a6aa261254eec517de1908cc4976fee98"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">typename</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> , <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a> N&gt; </td></tr>
+<tr class="memitem:a6aa261254eec517de1908cc4976fee98 inherit pub_methods_classPrint"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPrint.html#a6aa261254eec517de1908cc4976fee98">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::array&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">N</a> &gt; &amp;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">arr</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">format</a>=<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">defaultFormat</a>&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> &gt;())</td></tr>
+<tr class="memdesc:a6aa261254eec517de1908cc4976fee98 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s.">Print</a> a std::array of elements followed by a newline.  <br /></td></tr>
+<tr class="separator:a6aa261254eec517de1908cc4976fee98 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -361,8 +423,8 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:aac03a31d60e3fad44af6d1bd8ad8783f" id="r_aac03a31d60e3fad44af6d1bd8ad8783f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcolor16__graphics.html#aac03a31d60e3fad44af6d1bd8ad8783f">_spiHandle</a> = 0</td></tr>
 <tr class="separator:aac03a31d60e3fad44af6d1bd8ad8783f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classdisplay__Fonts"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classdisplay__Fonts')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classdisplay__Fonts.html">display_Fonts</a></td></tr>
-<tr class="memitem:a7126df1738873a94c4d8f8fe162eeed3 inherit pro_attribs_classdisplay__Fonts" id="r_a7126df1738873a94c4d8f8fe162eeed3"><td class="memItemLeft" align="right" valign="top">const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#a7126df1738873a94c4d8f8fe162eeed3">_FontSelect</a> = pFontDefault</td></tr>
-<tr class="separator:a7126df1738873a94c4d8f8fe162eeed3 inherit pro_attribs_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fff5c7dbe437fa3a5d38e83976a8a12 inherit pro_attribs_classdisplay__Fonts" id="r_a3fff5c7dbe437fa3a5d38e83976a8a12"><td class="memItemLeft" align="right" valign="top">std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#a3fff5c7dbe437fa3a5d38e83976a8a12">_FontSelect</a> = pFontDefault</td></tr>
+<tr class="separator:a3fff5c7dbe437fa3a5d38e83976a8a12 inherit pro_attribs_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03bcf91a5baeb63efa14e945d3b57eb2 inherit pro_attribs_classdisplay__Fonts" id="r_a03bcf91a5baeb63efa14e945d3b57eb2"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#a03bcf91a5baeb63efa14e945d3b57eb2">_Font_X_Size</a> = 0x08</td></tr>
 <tr class="separator:a03bcf91a5baeb63efa14e945d3b57eb2 inherit pro_attribs_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42fa0dd2b935782d6e29d46158993f39 inherit pro_attribs_classdisplay__Fonts" id="r_a42fa0dd2b935782d6e29d46158993f39"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#a42fa0dd2b935782d6e29d46158993f39">_Font_Y_Size</a> = 0x08</td></tr>
@@ -371,10 +433,108 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a02ecc4390cb670ea1517d26d76a01d12 inherit pro_attribs_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8177feb6fa222080ddb3a3c48a3e2f69 inherit pro_attribs_classdisplay__Fonts" id="r_a8177feb6fa222080ddb3a3c48a3e2f69"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#a8177feb6fa222080ddb3a3c48a3e2f69">_FontNumChars</a> = 0x5F</td></tr>
 <tr class="separator:a8177feb6fa222080ddb3a3c48a3e2f69 inherit pro_attribs_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ac8b4841232f0f699eaa557220be531a6" id="r_ac8b4841232f0f699eaa557220be531a6"><td class="memItemLeft" align="right" valign="top"><a id="ac8b4841232f0f699eaa557220be531a6" name="ac8b4841232f0f699eaa557220be531a6"></a>
+<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>swapint16t</b> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> &amp;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">a</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> &amp;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">b</a>)</td></tr>
+<tr class="separator:ac8b4841232f0f699eaa557220be531a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class to handle fonts and graphics of color 16 bit display. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a7aac03c702c18b5b786ec00d9b328831" name="a7aac03c702c18b5b786ec00d9b328831"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aac03c702c18b5b786ec00d9b328831">&#9670;&#160;</a></span>display_rotate_e</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">enum</a> <a class="el" href="classcolor16__graphics.html#a7aac03c702c18b5b786ec00d9b328831">color16_graphics::display_rotate_e</a> : <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>TFT rotate modes in degrees </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7aac03c702c18b5b786ec00d9b328831a8b06c8bd946f7177443ef06b671b16d5" name="a7aac03c702c18b5b786ec00d9b328831a8b06c8bd946f7177443ef06b671b16d5"></a>Degrees_0&#160;</td><td class="fielddoc"><p>No rotation 0 degrees </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a7aac03c702c18b5b786ec00d9b328831a2575106d138efca4042728c2de6847ee" name="a7aac03c702c18b5b786ec00d9b328831a2575106d138efca4042728c2de6847ee"></a>Degrees_90&#160;</td><td class="fielddoc"><p>Rotation 90 degrees </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a7aac03c702c18b5b786ec00d9b328831ab38c79e72daaf4cff11108a01d99ab6f" name="a7aac03c702c18b5b786ec00d9b328831ab38c79e72daaf4cff11108a01d99ab6f"></a>Degrees_180&#160;</td><td class="fielddoc"><p>Rotation 180 degrees </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a7aac03c702c18b5b786ec00d9b328831a43f514f2a5aef4d991bcb7dcf37d1792" name="a7aac03c702c18b5b786ec00d9b328831a43f514f2a5aef4d991bcb7dcf37d1792"></a>Degrees_270&#160;</td><td class="fielddoc"><p>Rotation 270 degrees </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a539f872d478ef8e53d8c592b7d6cad3c" name="a539f872d478ef8e53d8c592b7d6cad3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a539f872d478ef8e53d8c592b7d6cad3c">&#9670;&#160;</a></span>pixel_color565_e</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">enum</a> <a class="el" href="classcolor16__graphics.html#a539f872d478ef8e53d8c592b7d6cad3c">color16_graphics::pixel_color565_e</a> : <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>16-bit color definitions (RGB565 format). </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3ca0a45a873d4dbd5f61a80d13f852fd0ea" name="a539f872d478ef8e53d8c592b7d6cad3ca0a45a873d4dbd5f61a80d13f852fd0ea"></a>RDLC_BLACK&#160;</td><td class="fielddoc"><p>Black </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3ca5fcbc54ee21e617889348471af8db26c" name="a539f872d478ef8e53d8c592b7d6cad3ca5fcbc54ee21e617889348471af8db26c"></a>RDLC_BLUE&#160;</td><td class="fielddoc"><p>Blue </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3ca9db488f2f9e3d69a06f5bb7b04d5ab6e" name="a539f872d478ef8e53d8c592b7d6cad3ca9db488f2f9e3d69a06f5bb7b04d5ab6e"></a>RDLC_RED&#160;</td><td class="fielddoc"><p>Red </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3caa105c481c29f5b2501a5be917618f595" name="a539f872d478ef8e53d8c592b7d6cad3caa105c481c29f5b2501a5be917618f595"></a>RDLC_GREEN&#160;</td><td class="fielddoc"><p>Green </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3ca4514831df86465a1929bfa3d426b003d" name="a539f872d478ef8e53d8c592b7d6cad3ca4514831df86465a1929bfa3d426b003d"></a>RDLC_CYAN&#160;</td><td class="fielddoc"><p>Cyan </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3caa5e5673a70726f07d6278e5962b548b8" name="a539f872d478ef8e53d8c592b7d6cad3caa5e5673a70726f07d6278e5962b548b8"></a>RDLC_MAGENTA&#160;</td><td class="fielddoc"><p>Magenta </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3ca08dc7c8e8bf8790d02f32dcb6b1d6534" name="a539f872d478ef8e53d8c592b7d6cad3ca08dc7c8e8bf8790d02f32dcb6b1d6534"></a>RDLC_YELLOW&#160;</td><td class="fielddoc"><p>Yellow </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3cac9cb88a82d75fdbb23ce8e90f36244ff" name="a539f872d478ef8e53d8c592b7d6cad3cac9cb88a82d75fdbb23ce8e90f36244ff"></a>RDLC_WHITE&#160;</td><td class="fielddoc"><p>White </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3ca599f91f95bf3d25166991a93027eabe2" name="a539f872d478ef8e53d8c592b7d6cad3ca599f91f95bf3d25166991a93027eabe2"></a>RDLC_TAN&#160;</td><td class="fielddoc"><p>Tan </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3ca1ed129414748fae077fc7fa515d966e5" name="a539f872d478ef8e53d8c592b7d6cad3ca1ed129414748fae077fc7fa515d966e5"></a>RDLC_GREY&#160;</td><td class="fielddoc"><p>Grey </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3cab79974d46a0812cc920e42ad1783ca4f" name="a539f872d478ef8e53d8c592b7d6cad3cab79974d46a0812cc920e42ad1783ca4f"></a>RDLC_BROWN&#160;</td><td class="fielddoc"><p>Brown </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3cac0bfa14309da0edba818fbac3d427a62" name="a539f872d478ef8e53d8c592b7d6cad3cac0bfa14309da0edba818fbac3d427a62"></a>RDLC_DGREEN&#160;</td><td class="fielddoc"><p>Dark Green </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3ca43f11879e67c821c6b01480e303cc364" name="a539f872d478ef8e53d8c592b7d6cad3ca43f11879e67c821c6b01480e303cc364"></a>RDLC_ORANGE&#160;</td><td class="fielddoc"><p>Orange </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3caed8ab8de1ca847b0115746cac44c9ef5" name="a539f872d478ef8e53d8c592b7d6cad3caed8ab8de1ca847b0115746cac44c9ef5"></a>RDLC_NAVY&#160;</td><td class="fielddoc"><p>Navy </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3ca41514a50b9721f0f333553f77251f852" name="a539f872d478ef8e53d8c592b7d6cad3ca41514a50b9721f0f333553f77251f852"></a>RDLC_DCYAN&#160;</td><td class="fielddoc"><p>Dark Cyan </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3ca10521981de4af954213b66d4029c2ca2" name="a539f872d478ef8e53d8c592b7d6cad3ca10521981de4af954213b66d4029c2ca2"></a>RDLC_MAROON&#160;</td><td class="fielddoc"><p>Maroon </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3ca4dc2a369581913f97ff415a7fd5033c2" name="a539f872d478ef8e53d8c592b7d6cad3ca4dc2a369581913f97ff415a7fd5033c2"></a>RDLC_PURPLE&#160;</td><td class="fielddoc"><p>Purple </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3ca9d3f133a7e1e3becb2a9953bc0ae86b4" name="a539f872d478ef8e53d8c592b7d6cad3ca9d3f133a7e1e3becb2a9953bc0ae86b4"></a>RDLC_OLIVE&#160;</td><td class="fielddoc"><p>Olive </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3ca3236f7d559edd34fbae75d0b526f0248" name="a539f872d478ef8e53d8c592b7d6cad3ca3236f7d559edd34fbae75d0b526f0248"></a>RDLC_LGREY&#160;</td><td class="fielddoc"><p>Light Grey </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3caf0a5d24b3ab82ff7c3f565db9e7cf815" name="a539f872d478ef8e53d8c592b7d6cad3caf0a5d24b3ab82ff7c3f565db9e7cf815"></a>RDLC_DGREY&#160;</td><td class="fielddoc"><p>Dark Grey </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3ca4cabe9e9df0304e6bf138d2c1d5d2011" name="a539f872d478ef8e53d8c592b7d6cad3ca4cabe9e9df0304e6bf138d2c1d5d2011"></a>RDLC_GYELLOW&#160;</td><td class="fielddoc"><p>Greenish Yellow </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3ca272030b3cc8477f1910cc323e80187b0" name="a539f872d478ef8e53d8c592b7d6cad3ca272030b3cc8477f1910cc323e80187b0"></a>RDLC_PINK&#160;</td><td class="fielddoc"><p>Pink </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3cad608ea8b0199beadb5041caf324925d6" name="a539f872d478ef8e53d8c592b7d6cad3cad608ea8b0199beadb5041caf324925d6"></a>RDLC_LBLUE&#160;</td><td class="fielddoc"><p>Light Blue </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a539f872d478ef8e53d8c592b7d6cad3ca5c14ba388d3d28ef5bb65fb8f466330d" name="a539f872d478ef8e53d8c592b7d6cad3ca5c14ba388d3d28ef5bb65fb8f466330d"></a>RDLC_BEIGE&#160;</td><td class="fielddoc"><p>Beige </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac5cefb5faeba1152878df90720484a3f" name="ac5cefb5faeba1152878df90720484a3f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac5cefb5faeba1152878df90720484a3f">&#9670;&#160;</a></span>Color565()</h2>
 
@@ -421,14 +581,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="accd8a045ae1319c92ea22c58f83e3e34" name="accd8a045ae1319c92ea22c58f83e3e34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accd8a045ae1319c92ea22c58f83e3e34">&#9670;&#160;</a></span>drawBitmap()</h2>
+<a id="a13da42070aea46465d1c4bad39c7b75b" name="a13da42070aea46465d1c4bad39c7b75b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13da42070aea46465d1c4bad39c7b75b">&#9670;&#160;</a></span>drawBitmap()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> color16_graphics::drawBitmap </td>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> color16_graphics::drawBitmap </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -466,8 +626,8 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *&#160;</td>
-          <td class="paramname"><em>pBmp</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt;&#160;</td>
+          <td class="paramname"><em>bitmap</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -486,29 +646,29 @@ Protected Attributes</h2></td></tr>
     <tr><td class="paramname">h</td><td>height of the bitmap in pixels </td></tr>
     <tr><td class="paramname">color</td><td>bitmap foreground colors ,is bi-color </td></tr>
     <tr><td class="paramname">bgcolor</td><td>bitmap background colors ,is bi-color </td></tr>
-    <tr><td class="paramname">pBmp</td><td>an array of unsigned chars containing bitmap data horizontally addressed. </td></tr>
+    <tr><td class="paramname">bitmap</td><td>bitmap data, horizontally addressed. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>enum rpiDisplay_Return_Codes_e<ol type="1">
-<li>rpiDisplay_Success for success</li>
-<li>rpiDisplay_BitmapScreenBounds Error</li>
-<li>rpiDisplay_BitmapNullptr Error</li>
-<li>rpiDisplay_BitmapHorizontalSize Error</li>
-<li>rpiDisplay_MemoryAError Error </li>
+<dl class="section return"><dt>Returns</dt><dd>enum <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a><ol type="1">
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a> for success</li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a115edea586915b96039561aea3870cb0">rdlib::BitmapScreenBounds</a> Error</li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a4066db1aada4d2e98e7c2436153e395f">rdlib::BitmapDataEmpty</a> Error</li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a1a895f26f8104e759526c806291e37f9">rdlib::BitmapHorizontalSize</a> Error</li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a299a450ad2228bb9f5de19391a541422">rdlib::MemoryAError</a> Error </li>
 </ol>
 </dd></dl>
 
 </div>
 </div>
-<a id="a47f8e8d26a2f030960082a2b31727608" name="a47f8e8d26a2f030960082a2b31727608"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47f8e8d26a2f030960082a2b31727608">&#9670;&#160;</a></span>drawBitmap16()</h2>
+<a id="a6b683533950b879c576481d027179a51" name="a6b683533950b879c576481d027179a51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b683533950b879c576481d027179a51">&#9670;&#160;</a></span>drawBitmap16()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> color16_graphics::drawBitmap16 </td>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> color16_graphics::drawBitmap16 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -522,8 +682,8 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *&#160;</td>
-          <td class="paramname"><em>pBmp</em>, </td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt;&#160;</td>
+          <td class="paramname"><em>bitmap</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -550,30 +710,30 @@ Protected Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">x</td><td>X coordinate </td></tr>
     <tr><td class="paramname">y</td><td>Y coordinate </td></tr>
-    <tr><td class="paramname">pBmp</td><td>A pointer to the databuffer containing Bitmap data </td></tr>
+    <tr><td class="paramname">bitmap</td><td>databuffer containing Bitmap data </td></tr>
     <tr><td class="paramname">w</td><td>width of the bitmap in pixels </td></tr>
     <tr><td class="paramname">h</td><td>height of the bitmap in pixels </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>enum rpiDisplay_Return_Codes_e<ol type="1">
-<li>rpiDisplay_Success for success</li>
-<li>rpiDisplay_BitmapScreenBounds Error</li>
-<li>rpiDisplay_BitmapNullptr Error</li>
-<li>rpiDisplay_MemoryAError Error </li>
+<dl class="section return"><dt>Returns</dt><dd>enum <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a><ol type="1">
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a> for success</li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a115edea586915b96039561aea3870cb0">rdlib::BitmapScreenBounds</a> Error</li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a4066db1aada4d2e98e7c2436153e395f">rdlib::BitmapDataEmpty</a> Error</li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a299a450ad2228bb9f5de19391a541422">rdlib::MemoryAError</a> Error </li>
 </ol>
 </dd></dl>
 
 </div>
 </div>
-<a id="a4a7b9223fa28f70bb21b618ee2ea0f96" name="a4a7b9223fa28f70bb21b618ee2ea0f96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a7b9223fa28f70bb21b618ee2ea0f96">&#9670;&#160;</a></span>drawBitmap24()</h2>
+<a id="aa606f38f7f7b60b5b0a199e87ef11a4d" name="aa606f38f7f7b60b5b0a199e87ef11a4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa606f38f7f7b60b5b0a199e87ef11a4d">&#9670;&#160;</a></span>drawBitmap24()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> color16_graphics::drawBitmap24 </td>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> color16_graphics::drawBitmap24 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -587,8 +747,8 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *&#160;</td>
-          <td class="paramname"><em>pBmp</em>, </td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt;&#160;</td>
+          <td class="paramname"><em>bitmap</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -615,17 +775,17 @@ Protected Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">x</td><td>X coordinate </td></tr>
     <tr><td class="paramname">y</td><td>Y coordinate </td></tr>
-    <tr><td class="paramname">pBmp</td><td>A pointer to the databuffer containing Bitmap data </td></tr>
+    <tr><td class="paramname">bitmap</td><td>A span to the data buffer containing Bitmap data </td></tr>
     <tr><td class="paramname">w</td><td>width of the bitmap in pixels </td></tr>
     <tr><td class="paramname">h</td><td>height of the bitmap in pixels </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>enum rpiDisplay_Return_Codes_e<ol type="1">
-<li>rpiDisplay_Success for success</li>
-<li>rpiDisplay_BitmapScreenBounds Error</li>
-<li>rpiDisplay_BitmapNullptr Error</li>
-<li>rpiDisplay_MemoryAError Error </li>
+<dl class="section return"><dt>Returns</dt><dd>enum <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a><ol type="1">
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a> for success</li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a115edea586915b96039561aea3870cb0">rdlib::BitmapScreenBounds</a> Error</li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a4066db1aada4d2e98e7c2436153e395f">rdlib::BitmapDataEmpty</a> Error</li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a299a450ad2228bb9f5de19391a541422">rdlib::MemoryAError</a> Error </li>
 </ol>
 </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>24 bit color converted to 16 bit color </dd></dl>
@@ -683,14 +843,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a5265d89b80e0e525cd9e00af730c0a78" name="a5265d89b80e0e525cd9e00af730c0a78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5265d89b80e0e525cd9e00af730c0a78">&#9670;&#160;</a></span>drawFastHLine()</h2>
+<a id="a7d1ffdba3907eefd1534526d36b4a70d" name="a7d1ffdba3907eefd1534526d36b4a70d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d1ffdba3907eefd1534526d36b4a70d">&#9670;&#160;</a></span>drawFastHLine()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> color16_graphics::drawFastHLine </td>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> color16_graphics::drawFastHLine </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -731,22 +891,22 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>enum rpiDisplay_Return_Codes_e<ol type="1">
-<li>rpiDisplay_Success for success</li>
-<li>rpiDisplay_ShapeScreenBounds Error </li>
+<dl class="section return"><dt>Returns</dt><dd>enum <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a><ol type="1">
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a> for success</li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a7d470e5d59985355fb8ad2e07098efe8">rdlib::ShapeScreenBounds</a> Error </li>
 </ol>
 </dd></dl>
 
 </div>
 </div>
-<a id="aec1a7f5ff52366fba1dc92b78a3e6be4" name="aec1a7f5ff52366fba1dc92b78a3e6be4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec1a7f5ff52366fba1dc92b78a3e6be4">&#9670;&#160;</a></span>drawFastVLine()</h2>
+<a id="af52a6d8efdcc4d283f0fb6615116cc0a" name="af52a6d8efdcc4d283f0fb6615116cc0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af52a6d8efdcc4d283f0fb6615116cc0a">&#9670;&#160;</a></span>drawFastVLine()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> color16_graphics::drawFastVLine </td>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> color16_graphics::drawFastVLine </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -787,22 +947,22 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>enum rpiDisplay_Return_Codes_e<ol type="1">
-<li>rpiDisplay_Success for success</li>
-<li>rpiDisplay_ShapeScreenBounds Error </li>
+<dl class="section return"><dt>Returns</dt><dd>enum <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a><ol type="1">
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a> for success</li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a7d470e5d59985355fb8ad2e07098efe8">rdlib::ShapeScreenBounds</a> Error </li>
 </ol>
 </dd></dl>
 
 </div>
 </div>
-<a id="a7a3f93358f0aeef2022d3f7b964a328f" name="a7a3f93358f0aeef2022d3f7b964a328f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a3f93358f0aeef2022d3f7b964a328f">&#9670;&#160;</a></span>drawIcon()</h2>
+<a id="aa3f4c0e4409cf41051d83ba93664b888" name="aa3f4c0e4409cf41051d83ba93664b888"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3f4c0e4409cf41051d83ba93664b888">&#9670;&#160;</a></span>drawIcon()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> color16_graphics::drawIcon </td>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> color16_graphics::drawIcon </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -834,8 +994,8 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a>&#160;</td>
-          <td class="paramname"><em>character</em>[]&#160;</td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt;&#160;</td>
+          <td class="paramname"><em>character</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -853,14 +1013,14 @@ Protected Attributes</h2></td></tr>
     <tr><td class="paramname">w</td><td>0-MAX_Y possible values width of icon in pixels , height is fixed at 8 pixels </td></tr>
     <tr><td class="paramname">color</td><td>icon foreground colors ,is bi-color </td></tr>
     <tr><td class="paramname">backcolor</td><td>icon background colors ,is bi-color </td></tr>
-    <tr><td class="paramname">character</td><td>An array of unsigned chars containing icon data vertically addressed. </td></tr>
+    <tr><td class="paramname">character</td><td>icon data vertically addressed. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>enum rpiDisplay_Return_Codes_e<ol type="1">
-<li>rpiDisplay_Success for success</li>
-<li>rpiDisplay_BitmapScreenBounds Error</li>
-<li>rpiDisplay_BitmapNullptr Error </li>
+<dl class="section return"><dt>Returns</dt><dd>enum <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a><ol type="1">
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a> for success</li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a115edea586915b96039561aea3870cb0">rdlib::BitmapScreenBounds</a> Error</li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a4066db1aada4d2e98e7c2436153e395f">rdlib::BitmapDataEmpty</a> Error </li>
 </ol>
 </dd></dl>
 
@@ -1091,14 +1251,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3b3520a19bed95b563d5fa11d76b7efb" name="a3b3520a19bed95b563d5fa11d76b7efb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b3520a19bed95b563d5fa11d76b7efb">&#9670;&#160;</a></span>drawSprite()</h2>
+<a id="aec9e4d5c4ab4ac1a590d4c936ee2f053" name="aec9e4d5c4ab4ac1a590d4c936ee2f053"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec9e4d5c4ab4ac1a590d4c936ee2f053">&#9670;&#160;</a></span>drawSprite()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> color16_graphics::drawSprite </td>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> color16_graphics::drawSprite </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -1112,8 +1272,8 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *&#160;</td>
-          <td class="paramname"><em>pBmp</em>, </td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt;&#160;</td>
+          <td class="paramname"><em>sprite</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1141,12 +1301,12 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>: Draws an 16 bit color sprite bitmap to screen from a data array with transparent background </p>
+<p>: Draws an 16 bit color sprite bitmap to screen with transparent background </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">x</td><td>X coordinate </td></tr>
     <tr><td class="paramname">y</td><td>Y coordinate </td></tr>
-    <tr><td class="paramname">pBmp</td><td>pointer to data array </td></tr>
+    <tr><td class="paramname">sprite</td><td>span to sprite data </td></tr>
     <tr><td class="paramname">w</td><td>width of the sprite in pixels </td></tr>
     <tr><td class="paramname">h</td><td>height of the sprite in pixels </td></tr>
     <tr><td class="paramname">backgroundColor</td><td>the background color of sprite (16 bit 565) this will be made transparent </td></tr>
@@ -1155,9 +1315,10 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>Does not use buffer, just draw pixel </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd><ol type="1">
-<li>Display_Success=success</li>
-<li>Display_BitmapNullptr=invalid pointer object</li>
-<li>Display_BitmapScreenBounds=Co-ordinates out of bounds </li>
+<li>Success=success</li>
+<li>BitmapDataEmpty=invalid pointer object</li>
+<li>BitmapScreenBounds=Co-ordinates out of bounds</li>
+<li>BitmapSize=Sprite data out of bounds </li>
 </ol>
 </dd></dl>
 
@@ -1344,14 +1505,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab07cb7811c97e5a7215523e7bc2740d2" name="ab07cb7811c97e5a7215523e7bc2740d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab07cb7811c97e5a7215523e7bc2740d2">&#9670;&#160;</a></span>fillRectangle()</h2>
+<a id="a1c972a814fb3654608ee7e7ce56abf2f" name="a1c972a814fb3654608ee7e7ce56abf2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c972a814fb3654608ee7e7ce56abf2f">&#9670;&#160;</a></span>fillRectangle()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> color16_graphics::fillRectangle </td>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> color16_graphics::fillRectangle </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -1400,10 +1561,10 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>uses spiWriteDataBuffer method </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>enum rpiDisplay_Return_Codes_e<ol type="1">
-<li>rpiDisplay_Success for success</li>
-<li>rpiDisplay_ShapeScreenBounds Error</li>
-<li>rpiDisplay_MemoryAError Error </li>
+<dl class="section return"><dt>Returns</dt><dd>enum <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a><ol type="1">
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a> for success</li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a7d470e5d59985355fb8ad2e07098efe8">rdlib::ShapeScreenBounds</a> Error</li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a299a450ad2228bb9f5de19391a541422">rdlib::MemoryAError</a> Error </li>
 </ol>
 </dd></dl>
 
@@ -1652,7 +1813,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classILI9341__TFT.html#a041223efb9e4ecc348aca8b76b29cb39">ILI9341_TFT</a>, <a class="el" href="classST7735__TFT.html#a1613a62e02aa5caf220beb94cb5feea1">ST7735_TFT</a>, and <a class="el" href="classST7789__TFT.html#aee26d5e605f10b5f9f0f239ee4cce9dc">ST7789_TFT</a>.</p>
+<p>Implemented in <a class="el" href="classILI9341__TFT.html#a041223efb9e4ecc348aca8b76b29cb39">ILI9341_TFT</a>, <a class="el" href="classSSD1331__OLED.html#aa0209fca4fa9b3397154ecd63727a510">SSD1331_OLED</a>, <a class="el" href="classST7735__TFT.html#a1613a62e02aa5caf220beb94cb5feea1">ST7735_TFT</a>, and <a class="el" href="classST7789__TFT.html#aee26d5e605f10b5f9f0f239ee4cce9dc">ST7789_TFT</a>.</p>
 
 </div>
 </div>
@@ -1896,7 +2057,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Will return<ol type="1">
 <li>1. success</li>
-<li>rpiDisplay_Return_Codes_e enum error code, An error in the writeChar method.upstream </li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> enum error code, An error in the writeChar method.upstream </li>
 </ol>
 </dd></dl>
 
@@ -1904,14 +2065,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9b566f55c0786fa92834a9cb30f5a31e" name="a9b566f55c0786fa92834a9cb30f5a31e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b566f55c0786fa92834a9cb30f5a31e">&#9670;&#160;</a></span>writeChar()</h2>
+<a id="a40bc4c17443344462c94cbd97de10fbb" name="a40bc4c17443344462c94cbd97de10fbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40bc4c17443344462c94cbd97de10fbb">&#9670;&#160;</a></span>writeChar()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> color16_graphics::writeChar </td>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> color16_graphics::writeChar </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -1946,24 +2107,24 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>uses spiWriteDataBuffer method to write each character as a buffer for speed. Much faster than pixel by pixel spi byte writes </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>Will return rpiDisplay_Return_Codes_e enum<ol type="1">
-<li>rpiDisplay_Success success</li>
-<li>rpiDisplay_CharScreenBounds co-ords out of bounds check x and y</li>
-<li>rpiDisplay_CharFontASCIIRange Character out of ASCII Font bounds, check Font range</li>
-<li>rpiDisplay_MemoryAError Could not assign memory for character buffer </li>
+<dl class="section return"><dt>Returns</dt><dd>Will return <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> enum<ol type="1">
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a> success</li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a4871d50542fe21d641276fc30fcebee0">rdlib::CharScreenBounds</a> co-ords out of bounds check x and y</li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5af8160ad4f435dc517d2f8b6f49d31c2c">rdlib::CharFontASCIIRange</a> Character out of ASCII Font bounds, check Font range</li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a299a450ad2228bb9f5de19391a541422">rdlib::MemoryAError</a> Could not assign memory for character buffer </li>
 </ol>
 </dd></dl>
 
 </div>
 </div>
-<a id="a6d8d033b2cdc6b5942a7d6bb26f26fc0" name="a6d8d033b2cdc6b5942a7d6bb26f26fc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d8d033b2cdc6b5942a7d6bb26f26fc0">&#9670;&#160;</a></span>writeCharString()</h2>
+<a id="a3891f0881f9f0ff496c556dee8eb3c27" name="a3891f0881f9f0ff496c556dee8eb3c27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3891f0881f9f0ff496c556dee8eb3c27">&#9670;&#160;</a></span>writeCharString()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> color16_graphics::writeCharString </td>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> color16_graphics::writeCharString </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -1998,8 +2159,8 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Will return<ol type="1">
-<li>rpiDisplay_Success Success</li>
-<li>rpiDisplay_CharArrayNullptr String pText Array invalid pointer object</li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a> Success</li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5ad14d01ed678fef8e11537c5e28fffda8">rdlib::CharArrayNullptr</a> String pText Array invalid pointer object</li>
 <li>Failure code from writeChar method upstream </li>
 </ol>
 </dd></dl>
@@ -2140,7 +2301,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>The device number of a gpiochip 4=rpi5 0=rpi4,3 /dev/gpio </p>
+<p>The device number of a gpiochip ls /dev/gpio </p>
 
 </div>
 </div>

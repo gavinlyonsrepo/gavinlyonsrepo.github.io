@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -75,8 +75,6 @@ $(function() {
 </div>
 </div><!-- top -->
 <div class="header">
-  <div class="summary">
-<a href="#define-members">Macros</a>  </div>
   <div class="headertitle"><div class="title">XPT2046_TS_TFT_LCD_RDL.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -84,168 +82,10 @@ $(function() {
 <p>Source file for ILI9341_TFT_LCD_RDL library. to manage hardware interface with XPT2046 Touch Screen Controller.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="XPT2046__TS__TFT__LCD__RDL_8hpp_source.html">../../include/xpt2046/XPT2046_TS_TFT_LCD_RDL.hpp</a>&quot;</code><br />
-</div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a852a0fd5b704b7957dde111de56429fd" id="r_a852a0fd5b704b7957dde111de56429fd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="XPT2046__TS__TFT__LCD__RDL_8cpp.html#a852a0fd5b704b7957dde111de56429fd">MAX_LEN_BUFFER</a>&#160;&#160;&#160;3</td></tr>
-<tr class="separator:a852a0fd5b704b7957dde111de56429fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7543556ef91be5fe5b910563c24872f" id="r_af7543556ef91be5fe5b910563c24872f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="XPT2046__TS__TFT__LCD__RDL_8cpp.html#af7543556ef91be5fe5b910563c24872f">_DEBUGXPT_</a>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:af7543556ef91be5fe5b910563c24872f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c219b19b1afabfe3d5479e17ae04def" id="r_a3c219b19b1afabfe3d5479e17ae04def"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="XPT2046__TS__TFT__LCD__RDL_8cpp.html#a3c219b19b1afabfe3d5479e17ae04def">DTMAX</a>&#160;&#160;&#160;800000</td></tr>
-<tr class="separator:a3c219b19b1afabfe3d5479e17ae04def"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d5fcb0a4b6b8125de9acb2a052fdf49" id="r_a5d5fcb0a4b6b8125de9acb2a052fdf49"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="XPT2046__TS__TFT__LCD__RDL_8cpp.html#a5d5fcb0a4b6b8125de9acb2a052fdf49">XPT_START</a>&#160;&#160;&#160;0x80</td></tr>
-<tr class="separator:a5d5fcb0a4b6b8125de9acb2a052fdf49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99d846e7ba26344f2d6cb300a76a1ae0" id="r_a99d846e7ba26344f2d6cb300a76a1ae0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="XPT2046__TS__TFT__LCD__RDL_8cpp.html#a99d846e7ba26344f2d6cb300a76a1ae0">XPT_XPOS</a>&#160;&#160;&#160;0x50</td></tr>
-<tr class="separator:a99d846e7ba26344f2d6cb300a76a1ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af95f164564473890ea835dc496aa5795" id="r_af95f164564473890ea835dc496aa5795"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="XPT2046__TS__TFT__LCD__RDL_8cpp.html#af95f164564473890ea835dc496aa5795">XPT_YPOS</a>&#160;&#160;&#160;0x10</td></tr>
-<tr class="separator:af95f164564473890ea835dc496aa5795"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f48e972e5566353880002f6e315e45d" id="r_a6f48e972e5566353880002f6e315e45d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="XPT2046__TS__TFT__LCD__RDL_8cpp.html#a6f48e972e5566353880002f6e315e45d">XPT_8BIT</a>&#160;&#160;&#160;0x08</td></tr>
-<tr class="separator:a6f48e972e5566353880002f6e315e45d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a905a79de99ae184774690c862bc2bef0" id="r_a905a79de99ae184774690c862bc2bef0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="XPT2046__TS__TFT__LCD__RDL_8cpp.html#a905a79de99ae184774690c862bc2bef0">XPT_SER</a>&#160;&#160;&#160;0x04</td></tr>
-<tr class="separator:a905a79de99ae184774690c862bc2bef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3feaa1233ddb4d315d94d99419cc8461" id="r_a3feaa1233ddb4d315d94d99419cc8461"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="XPT2046__TS__TFT__LCD__RDL_8cpp.html#a3feaa1233ddb4d315d94d99419cc8461">XPT_DEF</a>&#160;&#160;&#160;0x03</td></tr>
-<tr class="separator:a3feaa1233ddb4d315d94d99419cc8461"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+</div><a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Source file for ILI9341_TFT_LCD_RDL library. to manage hardware interface with XPT2046 Touch Screen Controller. </p>
 <dl class="section author"><dt>Author</dt><dd>Gavin Lyons </dd></dl>
-</div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="af7543556ef91be5fe5b910563c24872f" name="af7543556ef91be5fe5b910563c24872f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7543556ef91be5fe5b910563c24872f">&#9670;&#160;</a></span>_DEBUGXPT_</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define _DEBUGXPT_&#160;&#160;&#160;0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Switch on debug mode </p>
-
-</div>
-</div>
-<a id="a3c219b19b1afabfe3d5479e17ae04def" name="a3c219b19b1afabfe3d5479e17ae04def"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c219b19b1afabfe3d5479e17ae04def">&#9670;&#160;</a></span>DTMAX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DTMAX&#160;&#160;&#160;800000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Delay 800mS </p>
-
-</div>
-</div>
-<a id="a852a0fd5b704b7957dde111de56429fd" name="a852a0fd5b704b7957dde111de56429fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a852a0fd5b704b7957dde111de56429fd">&#9670;&#160;</a></span>MAX_LEN_BUFFER</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAX_LEN_BUFFER&#160;&#160;&#160;3</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Maximum lenght of RX and TX buffer </p>
-
-</div>
-</div>
-<a id="a6f48e972e5566353880002f6e315e45d" name="a6f48e972e5566353880002f6e315e45d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f48e972e5566353880002f6e315e45d">&#9670;&#160;</a></span>XPT_8BIT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define XPT_8BIT&#160;&#160;&#160;0x08</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Mode select 8 bit </p>
-
-</div>
-</div>
-<a id="a3feaa1233ddb4d315d94d99419cc8461" name="a3feaa1233ddb4d315d94d99419cc8461"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3feaa1233ddb4d315d94d99419cc8461">&#9670;&#160;</a></span>XPT_DEF</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define XPT_DEF&#160;&#160;&#160;0x03</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Differential Reference Select bit </p>
-
-</div>
-</div>
-<a id="a905a79de99ae184774690c862bc2bef0" name="a905a79de99ae184774690c862bc2bef0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a905a79de99ae184774690c862bc2bef0">&#9670;&#160;</a></span>XPT_SER</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define XPT_SER&#160;&#160;&#160;0x04</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Single-Ended Select bit. </p>
-
-</div>
-</div>
-<a id="a5d5fcb0a4b6b8125de9acb2a052fdf49" name="a5d5fcb0a4b6b8125de9acb2a052fdf49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d5fcb0a4b6b8125de9acb2a052fdf49">&#9670;&#160;</a></span>XPT_START</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define XPT_START&#160;&#160;&#160;0x80</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Start bit Control Register </p>
-
-</div>
-</div>
-<a id="a99d846e7ba26344f2d6cb300a76a1ae0" name="a99d846e7ba26344f2d6cb300a76a1ae0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99d846e7ba26344f2d6cb300a76a1ae0">&#9670;&#160;</a></span>XPT_XPOS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define XPT_XPOS&#160;&#160;&#160;0x50</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>A2-A0 Channel select bits for XPOS </p>
-
-</div>
-</div>
-<a id="af95f164564473890ea835dc496aa5795" name="af95f164564473890ea835dc496aa5795"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af95f164564473890ea835dc496aa5795">&#9670;&#160;</a></span>XPT_YPOS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define XPT_YPOS&#160;&#160;&#160;0x10</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>A2-A0 Channel select bits for YPOS </p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8

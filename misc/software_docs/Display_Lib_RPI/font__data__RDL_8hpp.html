@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -87,6 +87,8 @@ $(function() {
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;cstdint&gt;</code><br />
 <code>#include &lt;cstdio&gt;</code><br />
+<code>#include &lt;span&gt;</code><br />
+<code>#include &lt;array&gt;</code><br />
 <code>#include &quot;<a class="el" href="common__data__RDL_8hpp_source.html">common_data_RDL.hpp</a>&quot;</code><br />
 </div>
 <p><a href="font__data__RDL_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -126,54 +128,54 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a57a669f2ebc6f3f65d4acff96d5618ff" id="r_a57a669f2ebc6f3f65d4acff96d5618ff"><td class="memItemLeft" align="right" valign="top"><a id="a57a669f2ebc6f3f65d4acff96d5618ff" name="a57a669f2ebc6f3f65d4acff96d5618ff"></a>
-const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontDefault</b></td></tr>
-<tr class="separator:a57a669f2ebc6f3f65d4acff96d5618ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4288d374dbf5980cc267e7637aa15204" id="r_a4288d374dbf5980cc267e7637aa15204"><td class="memItemLeft" align="right" valign="top"><a id="a4288d374dbf5980cc267e7637aa15204" name="a4288d374dbf5980cc267e7637aa15204"></a>
-const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontPico</b></td></tr>
-<tr class="separator:a4288d374dbf5980cc267e7637aa15204"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6866434085e8b6a67a1a316fe9f1eda5" id="r_a6866434085e8b6a67a1a316fe9f1eda5"><td class="memItemLeft" align="right" valign="top"><a id="a6866434085e8b6a67a1a316fe9f1eda5" name="a6866434085e8b6a67a1a316fe9f1eda5"></a>
-const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontGll</b></td></tr>
-<tr class="separator:a6866434085e8b6a67a1a316fe9f1eda5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6b72d252ee9e20f38d2e5f6f37356ec" id="r_ae6b72d252ee9e20f38d2e5f6f37356ec"><td class="memItemLeft" align="right" valign="top"><a id="ae6b72d252ee9e20f38d2e5f6f37356ec" name="ae6b72d252ee9e20f38d2e5f6f37356ec"></a>
-const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontSinclairS</b></td></tr>
-<tr class="separator:ae6b72d252ee9e20f38d2e5f6f37356ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0c4a71b06c028c2e1acbc4b55ea70c2" id="r_ae0c4a71b06c028c2e1acbc4b55ea70c2"><td class="memItemLeft" align="right" valign="top"><a id="ae0c4a71b06c028c2e1acbc4b55ea70c2" name="ae0c4a71b06c028c2e1acbc4b55ea70c2"></a>
-const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontRetro</b></td></tr>
-<tr class="separator:ae0c4a71b06c028c2e1acbc4b55ea70c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc071546f90e5d5cb5d3fb8a7a050d6c" id="r_afc071546f90e5d5cb5d3fb8a7a050d6c"><td class="memItemLeft" align="right" valign="top"><a id="afc071546f90e5d5cb5d3fb8a7a050d6c" name="afc071546f90e5d5cb5d3fb8a7a050d6c"></a>
-const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontMega</b></td></tr>
-<tr class="separator:afc071546f90e5d5cb5d3fb8a7a050d6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe8eaf8cedb2f4e0a14b60d3b32cb6bf" id="r_abe8eaf8cedb2f4e0a14b60d3b32cb6bf"><td class="memItemLeft" align="right" valign="top"><a id="abe8eaf8cedb2f4e0a14b60d3b32cb6bf" name="abe8eaf8cedb2f4e0a14b60d3b32cb6bf"></a>
-const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontArialBold</b></td></tr>
-<tr class="separator:abe8eaf8cedb2f4e0a14b60d3b32cb6bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dc56c33172cf33f3ff3a91fc1cb52a4" id="r_a7dc56c33172cf33f3ff3a91fc1cb52a4"><td class="memItemLeft" align="right" valign="top"><a id="a7dc56c33172cf33f3ff3a91fc1cb52a4" name="a7dc56c33172cf33f3ff3a91fc1cb52a4"></a>
-const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontHallfetica</b></td></tr>
-<tr class="separator:a7dc56c33172cf33f3ff3a91fc1cb52a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a721fb586cb1d8b0e6ebd3aa1fe66f16f" id="r_a721fb586cb1d8b0e6ebd3aa1fe66f16f"><td class="memItemLeft" align="right" valign="top"><a id="a721fb586cb1d8b0e6ebd3aa1fe66f16f" name="a721fb586cb1d8b0e6ebd3aa1fe66f16f"></a>
-const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontOrla</b></td></tr>
-<tr class="separator:a721fb586cb1d8b0e6ebd3aa1fe66f16f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a272bd1ee7ad27c66de66c5ad7e1b229a" id="r_a272bd1ee7ad27c66de66c5ad7e1b229a"><td class="memItemLeft" align="right" valign="top"><a id="a272bd1ee7ad27c66de66c5ad7e1b229a" name="a272bd1ee7ad27c66de66c5ad7e1b229a"></a>
-const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontArialRound</b></td></tr>
-<tr class="separator:a272bd1ee7ad27c66de66c5ad7e1b229a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e17d5b10487d1b35770010ad965af44" id="r_a6e17d5b10487d1b35770010ad965af44"><td class="memItemLeft" align="right" valign="top"><a id="a6e17d5b10487d1b35770010ad965af44" name="a6e17d5b10487d1b35770010ad965af44"></a>
-const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontGroTesk</b></td></tr>
-<tr class="separator:a6e17d5b10487d1b35770010ad965af44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa15821added0ef8d5fea3deb36fd6f8a" id="r_aa15821added0ef8d5fea3deb36fd6f8a"><td class="memItemLeft" align="right" valign="top"><a id="aa15821added0ef8d5fea3deb36fd6f8a" name="aa15821added0ef8d5fea3deb36fd6f8a"></a>
-const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontInconsola</b></td></tr>
-<tr class="separator:aa15821added0ef8d5fea3deb36fd6f8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a867e89ae7538d9c554cdde45b8840970" id="r_a867e89ae7538d9c554cdde45b8840970"><td class="memItemLeft" align="right" valign="top"><a id="a867e89ae7538d9c554cdde45b8840970" name="a867e89ae7538d9c554cdde45b8840970"></a>
-const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontMint</b></td></tr>
-<tr class="separator:a867e89ae7538d9c554cdde45b8840970"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac112bd94173943f2adbeb70529c2e11c" id="r_ac112bd94173943f2adbeb70529c2e11c"><td class="memItemLeft" align="right" valign="top"><a id="ac112bd94173943f2adbeb70529c2e11c" name="ac112bd94173943f2adbeb70529c2e11c"></a>
-const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontSixteenSeg</b></td></tr>
-<tr class="separator:ac112bd94173943f2adbeb70529c2e11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6789320773aa20950a085df55980871a" id="r_a6789320773aa20950a085df55980871a"><td class="memItemLeft" align="right" valign="top"><a id="a6789320773aa20950a085df55980871a" name="a6789320773aa20950a085df55980871a"></a>
-const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontSevenSeg</b></td></tr>
-<tr class="separator:a6789320773aa20950a085df55980871a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb221f412720a20d1cbbdb0394713c23" id="r_afb221f412720a20d1cbbdb0394713c23"><td class="memItemLeft" align="right" valign="top"><a id="afb221f412720a20d1cbbdb0394713c23" name="afb221f412720a20d1cbbdb0394713c23"></a>
-const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>pFontGroTeskBig</b></td></tr>
-<tr class="separator:afb221f412720a20d1cbbdb0394713c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af098a235ee2c386600588c729624e4ea" id="r_af098a235ee2c386600588c729624e4ea"><td class="memItemLeft" align="right" valign="top"><a id="af098a235ee2c386600588c729624e4ea" name="af098a235ee2c386600588c729624e4ea"></a>
+const std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pFontDefault</b></td></tr>
+<tr class="separator:af098a235ee2c386600588c729624e4ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a624b36aebfe933a3e37051a05e274051" id="r_a624b36aebfe933a3e37051a05e274051"><td class="memItemLeft" align="right" valign="top"><a id="a624b36aebfe933a3e37051a05e274051" name="a624b36aebfe933a3e37051a05e274051"></a>
+const std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pFontPico</b></td></tr>
+<tr class="separator:a624b36aebfe933a3e37051a05e274051"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf0ce8cf495e43525b6e9cc0bee15665" id="r_adf0ce8cf495e43525b6e9cc0bee15665"><td class="memItemLeft" align="right" valign="top"><a id="adf0ce8cf495e43525b6e9cc0bee15665" name="adf0ce8cf495e43525b6e9cc0bee15665"></a>
+const std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pFontGll</b></td></tr>
+<tr class="separator:adf0ce8cf495e43525b6e9cc0bee15665"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb50f2b148345f0536b2aba69333880f" id="r_abb50f2b148345f0536b2aba69333880f"><td class="memItemLeft" align="right" valign="top"><a id="abb50f2b148345f0536b2aba69333880f" name="abb50f2b148345f0536b2aba69333880f"></a>
+const std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pFontSinclairS</b></td></tr>
+<tr class="separator:abb50f2b148345f0536b2aba69333880f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68d1eb2ddcf53aa676c1782b586daaa3" id="r_a68d1eb2ddcf53aa676c1782b586daaa3"><td class="memItemLeft" align="right" valign="top"><a id="a68d1eb2ddcf53aa676c1782b586daaa3" name="a68d1eb2ddcf53aa676c1782b586daaa3"></a>
+const std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pFontRetro</b></td></tr>
+<tr class="separator:a68d1eb2ddcf53aa676c1782b586daaa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4688f8638d8ea5d6bed6859c347a0875" id="r_a4688f8638d8ea5d6bed6859c347a0875"><td class="memItemLeft" align="right" valign="top"><a id="a4688f8638d8ea5d6bed6859c347a0875" name="a4688f8638d8ea5d6bed6859c347a0875"></a>
+const std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pFontMega</b></td></tr>
+<tr class="separator:a4688f8638d8ea5d6bed6859c347a0875"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4a13ccaf4d8b336c74e9028d87c603b" id="r_ae4a13ccaf4d8b336c74e9028d87c603b"><td class="memItemLeft" align="right" valign="top"><a id="ae4a13ccaf4d8b336c74e9028d87c603b" name="ae4a13ccaf4d8b336c74e9028d87c603b"></a>
+const std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pFontArialBold</b></td></tr>
+<tr class="separator:ae4a13ccaf4d8b336c74e9028d87c603b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63b9b25557c2e37accb1aa74005493a8" id="r_a63b9b25557c2e37accb1aa74005493a8"><td class="memItemLeft" align="right" valign="top"><a id="a63b9b25557c2e37accb1aa74005493a8" name="a63b9b25557c2e37accb1aa74005493a8"></a>
+const std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pFontHallfetica</b></td></tr>
+<tr class="separator:a63b9b25557c2e37accb1aa74005493a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad78b6857ee51aca5977b4d6abd60c2ed" id="r_ad78b6857ee51aca5977b4d6abd60c2ed"><td class="memItemLeft" align="right" valign="top"><a id="ad78b6857ee51aca5977b4d6abd60c2ed" name="ad78b6857ee51aca5977b4d6abd60c2ed"></a>
+const std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pFontOrla</b></td></tr>
+<tr class="separator:ad78b6857ee51aca5977b4d6abd60c2ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a16d891cd0984fadfdb1576eab6f37a" id="r_a5a16d891cd0984fadfdb1576eab6f37a"><td class="memItemLeft" align="right" valign="top"><a id="a5a16d891cd0984fadfdb1576eab6f37a" name="a5a16d891cd0984fadfdb1576eab6f37a"></a>
+const std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pFontArialRound</b></td></tr>
+<tr class="separator:a5a16d891cd0984fadfdb1576eab6f37a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3940b8d19fdf127d3e147fefb100772a" id="r_a3940b8d19fdf127d3e147fefb100772a"><td class="memItemLeft" align="right" valign="top"><a id="a3940b8d19fdf127d3e147fefb100772a" name="a3940b8d19fdf127d3e147fefb100772a"></a>
+const std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pFontGroTesk</b></td></tr>
+<tr class="separator:a3940b8d19fdf127d3e147fefb100772a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3088877972d764a0efd8e4e85d87b24b" id="r_a3088877972d764a0efd8e4e85d87b24b"><td class="memItemLeft" align="right" valign="top"><a id="a3088877972d764a0efd8e4e85d87b24b" name="a3088877972d764a0efd8e4e85d87b24b"></a>
+const std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pFontInconsola</b></td></tr>
+<tr class="separator:a3088877972d764a0efd8e4e85d87b24b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a624999cce56bf5066a2e821910b73f40" id="r_a624999cce56bf5066a2e821910b73f40"><td class="memItemLeft" align="right" valign="top"><a id="a624999cce56bf5066a2e821910b73f40" name="a624999cce56bf5066a2e821910b73f40"></a>
+const std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pFontMint</b></td></tr>
+<tr class="separator:a624999cce56bf5066a2e821910b73f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a0c4ab129be72427fd1bb2d19c99e4b" id="r_a1a0c4ab129be72427fd1bb2d19c99e4b"><td class="memItemLeft" align="right" valign="top"><a id="a1a0c4ab129be72427fd1bb2d19c99e4b" name="a1a0c4ab129be72427fd1bb2d19c99e4b"></a>
+const std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pFontSixteenSeg</b></td></tr>
+<tr class="separator:a1a0c4ab129be72427fd1bb2d19c99e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6b9c91c0d179014ed8e2e9b67d62e74" id="r_ac6b9c91c0d179014ed8e2e9b67d62e74"><td class="memItemLeft" align="right" valign="top"><a id="ac6b9c91c0d179014ed8e2e9b67d62e74" name="ac6b9c91c0d179014ed8e2e9b67d62e74"></a>
+const std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pFontSevenSeg</b></td></tr>
+<tr class="separator:ac6b9c91c0d179014ed8e2e9b67d62e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14eac99d505cfacd3f9e070d7e8b7bf1" id="r_a14eac99d505cfacd3f9e070d7e8b7bf1"><td class="memItemLeft" align="right" valign="top"><a id="a14eac99d505cfacd3f9e070d7e8b7bf1" name="a14eac99d505cfacd3f9e070d7e8b7bf1"></a>
+const std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pFontGroTeskBig</b></td></tr>
+<tr class="separator:a14eac99d505cfacd3f9e070d7e8b7bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>font data file. Project Name: Display_Lib_RPI </p>

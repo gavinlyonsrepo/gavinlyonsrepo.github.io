@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classTM1638plus__common.html" title="The base Class , used to store common data &amp; functions for all models types." alt="" coords="5,31,171,56"/>
+<area shape="rect" id="Node000001" href="$classTM1638plus__Model1.html" title="Class for Model 1." alt="" coords="219,5,375,31"/>
+<area shape="poly" id="edge15_Node000000_Node000001" title=" " alt="" coords="184,29,218,25,219,30,184,34"/>
+<area shape="rect" id="Node000003" href="$classTM1638plus__Model2.html" title="Class for Model 2." alt="" coords="219,55,375,80"/>
+<area shape="poly" id="edge17_Node000000_Node000003" title=" " alt="" coords="184,52,219,56,218,61,184,57"/>
+<area shape="rect" id="Node000002" href="$classTM1638plus__Model3.html" title="Class for Model 3." alt="" coords="423,5,579,31"/>
+<area shape="poly" id="edge16_Node000001_Node000002" title=" " alt="" coords="388,15,423,15,423,21,388,21"/>
+</map>

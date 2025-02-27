@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -72,6 +72,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
@@ -96,8 +97,8 @@ Inheritance diagram for Print:</div>
 <area shape="poly" title=" " alt="" coords="69,126,105,114,141,103,143,108,106,119,71,131"/>
 <area shape="rect" href="classbicolor__graphics.html" title="Graphics class to hold graphic related functions for 1&#45;bit displays." alt="" coords="124,129,252,155"/>
 <area shape="poly" title=" " alt="" coords="71,139,123,139,123,145,71,145"/>
-<area shape="rect" href="classcolor16__graphics.html" title="Class to handle fonts and graphics of color 16 bit display." alt="" coords="122,276,254,301"/>
-<area shape="poly" title=" " alt="" coords="58,163,175,274,171,278,55,167"/>
+<area shape="rect" href="classcolor16__graphics.html" title="Class to handle fonts and graphics of color 16 bit display." alt="" coords="122,301,254,327"/>
+<area shape="poly" title=" " alt="" coords="55,163,177,299,173,303,51,167"/>
 <area shape="rect" href="classERM19264__UC1609.html" title="class to drive the ERM19264 UC1609 LCD" alt="" coords="319,5,468,31"/>
 <area shape="poly" title=" " alt="" coords="259,121,269,115,285,97,292,78,300,59,317,40,337,29,339,33,320,44,305,62,297,80,289,100,272,119,262,126"/>
 <area shape="rect" href="classERMCH1115.html" title="class to drive the ERMCh1115 OLED" alt="" coords="342,55,445,80"/>
@@ -109,14 +110,25 @@ Inheritance diagram for Print:</div>
 <area shape="rect" href="classSSD1306__RDL.html" title="class to control OLED and define buffer" alt="" coords="337,203,450,228"/>
 <area shape="poly" title=" " alt="" coords="237,157,320,187,356,200,354,205,318,193,235,162"/>
 <area shape="rect" href="classILI9341__TFT.html" title="Class to interface with ILI9341 LCD display." alt="" coords="344,252,443,277"/>
-<area shape="poly" title=" " alt="" coords="267,277,344,268,344,273,268,282"/>
-<area shape="rect" href="classST7735__TFT.html" title="Class to control ST7735 TFT basic functionality." alt="" coords="343,301,443,327"/>
-<area shape="poly" title=" " alt="" coords="268,296,343,305,342,310,267,301"/>
-<area shape="rect" href="classST7789__TFT.html" title="Class to control ST7789 TFT basic functionality." alt="" coords="343,351,443,376"/>
-<area shape="poly" title=" " alt="" coords="236,304,320,335,355,348,353,353,318,341,234,309"/>
+<area shape="poly" title=" " alt="" coords="254,296,343,274,344,279,255,301"/>
+<area shape="rect" href="classSSD1331__OLED.html" title="Class to control SSD1331 OLED basic functionality." alt="" coords="332,301,455,327"/>
+<area shape="poly" title=" " alt="" coords="268,311,332,311,332,317,268,317"/>
+<area shape="rect" href="classST7735__TFT.html" title="Class to control ST7735 TFT basic functionality." alt="" coords="343,351,443,376"/>
+<area shape="poly" title=" " alt="" coords="255,327,344,349,342,354,254,333"/>
+<area shape="rect" href="classST7789__TFT.html" title="Class to control ST7789 TFT basic functionality." alt="" coords="343,400,443,425"/>
+<area shape="poly" title=" " alt="" coords="222,332,268,358,320,385,352,397,350,402,318,390,265,363,220,336"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a6d9bda509eaab1f639e14f228c04719b" id="r_a6d9bda509eaab1f639e14f228c04719b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719b">BaseNum</a> : uint8_t { <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a> = 10
+, <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719baad066ef1185ddb4db251e2e2bbc9f33f">RDL_HEX</a> = 16
+, <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba5ccb1478c894e55033ad8caca1cac40b">RDL_OCT</a> = 8
+, <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba4a5d5ee8967feab1df43c1eae6e0189c">RDL_BIN</a> = 2
+ }</td></tr>
+<tr class="separator:a6d9bda509eaab1f639e14f228c04719b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a88a4a829fb5d589efb43955ad0cbddcc" id="r_a88a4a829fb5d589efb43955ad0cbddcc"><td class="memItemLeft" align="right" valign="top"><a id="a88a4a829fb5d589efb43955ad0cbddcc" name="a88a4a829fb5d589efb43955ad0cbddcc"></a>
@@ -148,16 +160,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1e411d07a8ffec5faf7ce485bac0f029" id="r_a1e411d07a8ffec5faf7ce485bac0f029"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a1e411d07a8ffec5faf7ce485bac0f029">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a>)</td></tr>
 <tr class="memdesc:a1e411d07a8ffec5faf7ce485bac0f029"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an character  <br /></td></tr>
 <tr class="separator:a1e411d07a8ffec5faf7ce485bac0f029"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67acb421606e3a0915372d3472db9bd3" id="r_a67acb421606e3a0915372d3472db9bd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a67acb421606e3a0915372d3472db9bd3">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:a67acb421606e3a0915372d3472db9bd3" id="r_a67acb421606e3a0915372d3472db9bd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a67acb421606e3a0915372d3472db9bd3">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:a67acb421606e3a0915372d3472db9bd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an integer of base number system  <br /></td></tr>
 <tr class="separator:a67acb421606e3a0915372d3472db9bd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5b352ebfdb3c2c7adda4c354c74c5db" id="r_ab5b352ebfdb3c2c7adda4c354c74c5db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ab5b352ebfdb3c2c7adda4c354c74c5db">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:ab5b352ebfdb3c2c7adda4c354c74c5db" id="r_ab5b352ebfdb3c2c7adda4c354c74c5db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ab5b352ebfdb3c2c7adda4c354c74c5db">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:ab5b352ebfdb3c2c7adda4c354c74c5db"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned integer of base number system  <br /></td></tr>
 <tr class="separator:ab5b352ebfdb3c2c7adda4c354c74c5db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaef5d39e88bb6460fc239c642790b655" id="r_aaef5d39e88bb6460fc239c642790b655"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#aaef5d39e88bb6460fc239c642790b655">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:aaef5d39e88bb6460fc239c642790b655" id="r_aaef5d39e88bb6460fc239c642790b655"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#aaef5d39e88bb6460fc239c642790b655">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:aaef5d39e88bb6460fc239c642790b655"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an long integer of base number system  <br /></td></tr>
 <tr class="separator:aaef5d39e88bb6460fc239c642790b655"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2fba632d40c18f847fc14510f9003fe" id="r_ac2fba632d40c18f847fc14510f9003fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ac2fba632d40c18f847fc14510f9003fe">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:ac2fba632d40c18f847fc14510f9003fe" id="r_ac2fba632d40c18f847fc14510f9003fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ac2fba632d40c18f847fc14510f9003fe">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:ac2fba632d40c18f847fc14510f9003fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned long integer of base number system  <br /></td></tr>
 <tr class="separator:ac2fba632d40c18f847fc14510f9003fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8b4c025786c820afe0a90aeea01c9c5" id="r_ae8b4c025786c820afe0a90aeea01c9c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ae8b4c025786c820afe0a90aeea01c9c5">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">double</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=2)</td></tr>
@@ -172,16 +184,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a554896a71162f967b5794401239d7a01" id="r_a554896a71162f967b5794401239d7a01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a554896a71162f967b5794401239d7a01">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a>)</td></tr>
 <tr class="memdesc:a554896a71162f967b5794401239d7a01"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an character followed by new line  <br /></td></tr>
 <tr class="separator:a554896a71162f967b5794401239d7a01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3978528ddee1a7c701e69eaea2b9dd0c" id="r_a3978528ddee1a7c701e69eaea2b9dd0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a3978528ddee1a7c701e69eaea2b9dd0c">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:a3978528ddee1a7c701e69eaea2b9dd0c" id="r_a3978528ddee1a7c701e69eaea2b9dd0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a3978528ddee1a7c701e69eaea2b9dd0c">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:a3978528ddee1a7c701e69eaea2b9dd0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an integer of base number system followed by new line  <br /></td></tr>
 <tr class="separator:a3978528ddee1a7c701e69eaea2b9dd0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1324d4bb773895c8e34bbf81575536a" id="r_ae1324d4bb773895c8e34bbf81575536a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ae1324d4bb773895c8e34bbf81575536a">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:ae1324d4bb773895c8e34bbf81575536a" id="r_ae1324d4bb773895c8e34bbf81575536a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ae1324d4bb773895c8e34bbf81575536a">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:ae1324d4bb773895c8e34bbf81575536a"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned integer of base number system followed by new line  <br /></td></tr>
 <tr class="separator:ae1324d4bb773895c8e34bbf81575536a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb52163d87b2401c87e40e9df60a57d6" id="r_adb52163d87b2401c87e40e9df60a57d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#adb52163d87b2401c87e40e9df60a57d6">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:adb52163d87b2401c87e40e9df60a57d6" id="r_adb52163d87b2401c87e40e9df60a57d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#adb52163d87b2401c87e40e9df60a57d6">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:adb52163d87b2401c87e40e9df60a57d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an long integer of base number system followed by new line  <br /></td></tr>
 <tr class="separator:adb52163d87b2401c87e40e9df60a57d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2e98cda15e864fbd6a6d85edb4b315d" id="r_ac2e98cda15e864fbd6a6d85edb4b315d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ac2e98cda15e864fbd6a6d85edb4b315d">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a>)</td></tr>
+<tr class="memitem:ac2e98cda15e864fbd6a6d85edb4b315d" id="r_ac2e98cda15e864fbd6a6d85edb4b315d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ac2e98cda15e864fbd6a6d85edb4b315d">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">unsigned</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">long</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=<a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a>)</td></tr>
 <tr class="memdesc:ac2e98cda15e864fbd6a6d85edb4b315d"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an unsigned long integer of base number system followed by new line  <br /></td></tr>
 <tr class="separator:ac2e98cda15e864fbd6a6d85edb4b315d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56e976b079361b6021ef7c2bedb397a2" id="r_a56e976b079361b6021ef7c2bedb397a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a56e976b079361b6021ef7c2bedb397a2">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">double</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>=2)</td></tr>
@@ -202,6 +214,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9044ad1fc884a89c0b85a43e3dc6b18b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPrint.html#a9044ad1fc884a89c0b85a43e3dc6b18b">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::vector&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> &gt; &amp;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">vec</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">format</a>=<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">defaultFormat</a>&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> &gt;())</td></tr>
 <tr class="memdesc:a9044ad1fc884a89c0b85a43e3dc6b18b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s.">Print</a> a vector of elements followed by a newline.  <br /></td></tr>
 <tr class="separator:a9044ad1fc884a89c0b85a43e3dc6b18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e376c7a301a878bf25f522dff3cb813" id="r_a3e376c7a301a878bf25f522dff3cb813"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">typename</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> , <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a> N&gt; </td></tr>
+<tr class="memitem:a3e376c7a301a878bf25f522dff3cb813"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPrint.html#a3e376c7a301a878bf25f522dff3cb813">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::array&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">N</a> &gt; &amp;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">arr</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">format</a>=<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">defaultFormat</a>&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> &gt;())</td></tr>
+<tr class="memdesc:a3e376c7a301a878bf25f522dff3cb813"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s.">Print</a> a std::array of any type.  <br /></td></tr>
+<tr class="separator:a3e376c7a301a878bf25f522dff3cb813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aa261254eec517de1908cc4976fee98" id="r_a6aa261254eec517de1908cc4976fee98"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">typename</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> , <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a> N&gt; </td></tr>
+<tr class="memitem:a6aa261254eec517de1908cc4976fee98"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPrint.html#a6aa261254eec517de1908cc4976fee98">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::array&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">N</a> &gt; &amp;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">arr</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">format</a>=<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">defaultFormat</a>&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> &gt;())</td></tr>
+<tr class="memdesc:a6aa261254eec517de1908cc4976fee98"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s.">Print</a> a std::array of elements followed by a newline.  <br /></td></tr>
+<tr class="separator:a6aa261254eec517de1908cc4976fee98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -226,7 +246,7 @@ Private Member Functions</h2></td></tr>
 Static Private Member Functions</h2></td></tr>
 <tr class="memitem:aa4546c995106573c1de021834951a6ab" id="r_aa4546c995106573c1de021834951a6ab"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:aa4546c995106573c1de021834951a6ab"><td class="memTemplItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">defaultFormat</a> ()</td></tr>
-<tr class="memdesc:aa4546c995106573c1de021834951a6ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called from vector template , Get the default format for a given type.  <br /></td></tr>
+<tr class="memdesc:aa4546c995106573c1de021834951a6ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called from vector &amp; string template , Get the default format for a given type.  <br /></td></tr>
 <tr class="separator:aa4546c995106573c1de021834951a6ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
@@ -237,7 +257,36 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Polymorphic print class to print many data types by wrapping write function in the graphics class's. </p>
 <p>Using function overloading and templates for the vector definitions. Supports integers floats Characters , character arrays, string objects and vectors. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a6d9bda509eaab1f639e14f228c04719b" name="a6d9bda509eaab1f639e14f228c04719b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d9bda509eaab1f639e14f228c04719b">&#9670;&#160;</a></span>BaseNum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">enum</a> <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719b">Print::BaseNum</a> : <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Base number type </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573" name="a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573"></a>RDL_DEC&#160;</td><td class="fielddoc"><p>Format the passed integer in Decimal format </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a6d9bda509eaab1f639e14f228c04719baad066ef1185ddb4db251e2e2bbc9f33f" name="a6d9bda509eaab1f639e14f228c04719baad066ef1185ddb4db251e2e2bbc9f33f"></a>RDL_HEX&#160;</td><td class="fielddoc"><p>Format the passed integer in Hexadecimal format <br  />
+ </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a6d9bda509eaab1f639e14f228c04719ba5ccb1478c894e55033ad8caca1cac40b" name="a6d9bda509eaab1f639e14f228c04719ba5ccb1478c894e55033ad8caca1cac40b"></a>RDL_OCT&#160;</td><td class="fielddoc"><p>Format the passed integer in Octal format <br  />
+ </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a6d9bda509eaab1f639e14f228c04719ba4a5d5ee8967feab1df43c1eae6e0189c" name="a6d9bda509eaab1f639e14f228c04719ba4a5d5ee8967feab1df43c1eae6e0189c"></a>RDL_BIN&#160;</td><td class="fielddoc"><p>Format the passed integer in Binary format <br  />
+ </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="aa4546c995106573c1de021834951a6ab" name="aa4546c995106573c1de021834951a6ab"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa4546c995106573c1de021834951a6ab">&#9670;&#160;</a></span>defaultFormat()</h2>
 
@@ -263,7 +312,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Called from vector template , Get the default format for a given type. </p>
+<p>Called from vector &amp; string template , Get the default format for a given type. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">T</td><td>Type of the element </td></tr>
@@ -329,7 +378,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
 </div>
 </div>
 <a id="a1e411d07a8ffec5faf7ce485bac0f029" name="a1e411d07a8ffec5faf7ce485bac0f029"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e411d07a8ffec5faf7ce485bac0f029">&#9670;&#160;</a></span>print() <span class="overload">[1/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e411d07a8ffec5faf7ce485bac0f029">&#9670;&#160;</a></span>print() <span class="overload">[1/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -355,7 +404,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
 </div>
 </div>
 <a id="acfe80773011eb17dfb52c2fba517a093" name="acfe80773011eb17dfb52c2fba517a093"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acfe80773011eb17dfb52c2fba517a093">&#9670;&#160;</a></span>print() <span class="overload">[2/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acfe80773011eb17dfb52c2fba517a093">&#9670;&#160;</a></span>print() <span class="overload">[2/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -380,8 +429,67 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
 
 </div>
 </div>
+<a id="a3e376c7a301a878bf25f522dff3cb813" name="a3e376c7a301a878bf25f522dff3cb813"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e376c7a301a878bf25f522dff3cb813">&#9670;&#160;</a></span>print() <span class="overload">[3/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">typename</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> , <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a> N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a> Print::print </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::array&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">N</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>arr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>&#160;</td>
+          <td class="paramname"><em>format</em> = <code><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">defaultFormat</a>&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a>&gt;()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s.">Print</a> a std::array of any type. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Type of elements in the array. </td></tr>
+    <tr><td class="paramname">N</td><td>Size of the array. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arr</td><td>The std::array to print. </td></tr>
+    <tr><td class="paramname">format</td><td>Format specifier:<ul>
+<li>For floats/doubles: Number of decimal places (default is 2).</li>
+<li>For ints/longs: Conversion base (default is RDL_DEC for decimal). </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of characters written. </dd></dl>
+
+</div>
+</div>
 <a id="ad98e56154fce960dd8c48e7d97a13624" name="ad98e56154fce960dd8c48e7d97a13624"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad98e56154fce960dd8c48e7d97a13624">&#9670;&#160;</a></span>print() <span class="overload">[3/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad98e56154fce960dd8c48e7d97a13624">&#9670;&#160;</a></span>print() <span class="overload">[4/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -407,7 +515,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
 </div>
 </div>
 <a id="a0eb24741b10b3d27642175608b02c382" name="a0eb24741b10b3d27642175608b02c382"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0eb24741b10b3d27642175608b02c382">&#9670;&#160;</a></span>print() <span class="overload">[4/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0eb24741b10b3d27642175608b02c382">&#9670;&#160;</a></span>print() <span class="overload">[5/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -465,7 +573,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
 </div>
 </div>
 <a id="ae8b4c025786c820afe0a90aeea01c9c5" name="ae8b4c025786c820afe0a90aeea01c9c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8b4c025786c820afe0a90aeea01c9c5">&#9670;&#160;</a></span>print() <span class="overload">[5/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8b4c025786c820afe0a90aeea01c9c5">&#9670;&#160;</a></span>print() <span class="overload">[6/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -503,7 +611,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
 </div>
 </div>
 <a id="a67acb421606e3a0915372d3472db9bd3" name="a67acb421606e3a0915372d3472db9bd3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67acb421606e3a0915372d3472db9bd3">&#9670;&#160;</a></span>print() <span class="overload">[6/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a67acb421606e3a0915372d3472db9bd3">&#9670;&#160;</a></span>print() <span class="overload">[7/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -518,7 +626,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>&#160;</td>
-          <td class="paramname"><em>base</em> = <code><a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a></code>&#160;</td>
+          <td class="paramname"><em>base</em> = <code><a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -540,7 +648,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
 </div>
 </div>
 <a id="aaef5d39e88bb6460fc239c642790b655" name="aaef5d39e88bb6460fc239c642790b655"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaef5d39e88bb6460fc239c642790b655">&#9670;&#160;</a></span>print() <span class="overload">[7/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaef5d39e88bb6460fc239c642790b655">&#9670;&#160;</a></span>print() <span class="overload">[8/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -555,7 +663,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>&#160;</td>
-          <td class="paramname"><em>base</em> = <code><a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a></code>&#160;</td>
+          <td class="paramname"><em>base</em> = <code><a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -577,7 +685,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
 </div>
 </div>
 <a id="ab5b352ebfdb3c2c7adda4c354c74c5db" name="ab5b352ebfdb3c2c7adda4c354c74c5db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5b352ebfdb3c2c7adda4c354c74c5db">&#9670;&#160;</a></span>print() <span class="overload">[8/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5b352ebfdb3c2c7adda4c354c74c5db">&#9670;&#160;</a></span>print() <span class="overload">[9/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -592,7 +700,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>&#160;</td>
-          <td class="paramname"><em>base</em> = <code><a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a></code>&#160;</td>
+          <td class="paramname"><em>base</em> = <code><a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -614,7 +722,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
 </div>
 </div>
 <a id="ac2fba632d40c18f847fc14510f9003fe" name="ac2fba632d40c18f847fc14510f9003fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2fba632d40c18f847fc14510f9003fe">&#9670;&#160;</a></span>print() <span class="overload">[9/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2fba632d40c18f847fc14510f9003fe">&#9670;&#160;</a></span>print() <span class="overload">[10/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -629,7 +737,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>&#160;</td>
-          <td class="paramname"><em>base</em> = <code><a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a></code>&#160;</td>
+          <td class="paramname"><em>base</em> = <code><a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -696,7 +804,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
 </div>
 </div>
 <a id="a554896a71162f967b5794401239d7a01" name="a554896a71162f967b5794401239d7a01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a554896a71162f967b5794401239d7a01">&#9670;&#160;</a></span>println() <span class="overload">[1/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a554896a71162f967b5794401239d7a01">&#9670;&#160;</a></span>println() <span class="overload">[1/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -722,7 +830,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
 </div>
 </div>
 <a id="ad337ce3f7977411b7d34d47a51e5737e" name="ad337ce3f7977411b7d34d47a51e5737e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad337ce3f7977411b7d34d47a51e5737e">&#9670;&#160;</a></span>println() <span class="overload">[2/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad337ce3f7977411b7d34d47a51e5737e">&#9670;&#160;</a></span>println() <span class="overload">[2/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -747,8 +855,67 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
 
 </div>
 </div>
+<a id="a6aa261254eec517de1908cc4976fee98" name="a6aa261254eec517de1908cc4976fee98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6aa261254eec517de1908cc4976fee98">&#9670;&#160;</a></span>println() <span class="overload">[3/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">typename</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a> , <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a> N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a> Print::println </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> std::array&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">N</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>arr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>&#160;</td>
+          <td class="paramname"><em>format</em> = <code><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">defaultFormat</a>&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">T</a>&gt;()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classPrint.html" title="Polymorphic print class to print many data types by wrapping write function in the graphics class&#39;s.">Print</a> a std::array of elements followed by a newline. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Type of elements in the array. </td></tr>
+    <tr><td class="paramname">N</td><td>Size of the array. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arr</td><td>The std::array to print. </td></tr>
+    <tr><td class="paramname">format</td><td>Format specifier:<ul>
+<li>For floats/doubles: Number of decimal places (default is 2).</li>
+<li>For ints/longs: Conversion base (default is RDL_DEC for decimal). </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of characters written. </dd></dl>
+
+</div>
+</div>
 <a id="a9e65eed803938e026804a767a9f99336" name="a9e65eed803938e026804a767a9f99336"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e65eed803938e026804a767a9f99336">&#9670;&#160;</a></span>println() <span class="overload">[3/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e65eed803938e026804a767a9f99336">&#9670;&#160;</a></span>println() <span class="overload">[4/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -774,7 +941,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
 </div>
 </div>
 <a id="a9044ad1fc884a89c0b85a43e3dc6b18b" name="a9044ad1fc884a89c0b85a43e3dc6b18b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9044ad1fc884a89c0b85a43e3dc6b18b">&#9670;&#160;</a></span>println() <span class="overload">[4/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9044ad1fc884a89c0b85a43e3dc6b18b">&#9670;&#160;</a></span>println() <span class="overload">[5/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -828,7 +995,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
 </div>
 </div>
 <a id="a56e976b079361b6021ef7c2bedb397a2" name="a56e976b079361b6021ef7c2bedb397a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56e976b079361b6021ef7c2bedb397a2">&#9670;&#160;</a></span>println() <span class="overload">[5/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a56e976b079361b6021ef7c2bedb397a2">&#9670;&#160;</a></span>println() <span class="overload">[6/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -866,7 +1033,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
 </div>
 </div>
 <a id="a3978528ddee1a7c701e69eaea2b9dd0c" name="a3978528ddee1a7c701e69eaea2b9dd0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3978528ddee1a7c701e69eaea2b9dd0c">&#9670;&#160;</a></span>println() <span class="overload">[6/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3978528ddee1a7c701e69eaea2b9dd0c">&#9670;&#160;</a></span>println() <span class="overload">[7/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -881,7 +1048,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>&#160;</td>
-          <td class="paramname"><em>base</em> = <code><a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a></code>&#160;</td>
+          <td class="paramname"><em>base</em> = <code><a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -903,7 +1070,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
 </div>
 </div>
 <a id="adb52163d87b2401c87e40e9df60a57d6" name="adb52163d87b2401c87e40e9df60a57d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb52163d87b2401c87e40e9df60a57d6">&#9670;&#160;</a></span>println() <span class="overload">[7/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adb52163d87b2401c87e40e9df60a57d6">&#9670;&#160;</a></span>println() <span class="overload">[8/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -918,7 +1085,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>&#160;</td>
-          <td class="paramname"><em>base</em> = <code><a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a></code>&#160;</td>
+          <td class="paramname"><em>base</em> = <code><a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -940,7 +1107,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
 </div>
 </div>
 <a id="ae1324d4bb773895c8e34bbf81575536a" name="ae1324d4bb773895c8e34bbf81575536a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1324d4bb773895c8e34bbf81575536a">&#9670;&#160;</a></span>println() <span class="overload">[8/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1324d4bb773895c8e34bbf81575536a">&#9670;&#160;</a></span>println() <span class="overload">[9/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -955,7 +1122,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>&#160;</td>
-          <td class="paramname"><em>base</em> = <code><a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a></code>&#160;</td>
+          <td class="paramname"><em>base</em> = <code><a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -977,7 +1144,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
 </div>
 </div>
 <a id="ac2e98cda15e864fbd6a6d85edb4b315d" name="ac2e98cda15e864fbd6a6d85edb4b315d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2e98cda15e864fbd6a6d85edb4b315d">&#9670;&#160;</a></span>println() <span class="overload">[9/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2e98cda15e864fbd6a6d85edb4b315d">&#9670;&#160;</a></span>println() <span class="overload">[10/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -992,7 +1159,7 @@ template&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6a
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>&#160;</td>
-          <td class="paramname"><em>base</em> = <code><a class="el" href="print__data__RDL_8hpp.html#a4437b93039136120854a193ec320a780">RDL_DEC</a></code>&#160;</td>
+          <td class="paramname"><em>base</em> = <code><a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba24cb834aa2290edf92bb3d0e0e9f5573">RDL_DEC</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>

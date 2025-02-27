@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -78,17 +78,20 @@ $(function() {
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">common_data_RDL.hpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>file to hold common data used by many Displays Project Name: Display_Lib_RPI  
+<p>file to hold common data and functions used by many Displays Project Name: Display_Lib_RPI  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;cstdint&gt;</code><br />
 <code>#include &lt;chrono&gt;</code><br />
 <code>#include &lt;thread&gt;</code><br />
+<code>#include &lt;array&gt;</code><br />
 <code>#include &lt;lgpio.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="utility__data__RDL_8hpp_source.html">utility_data_RDL.hpp</a>&quot;</code><br />
 </div>
 <p><a href="common__data__RDL_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -130,9 +133,21 @@ Macros</h2></td></tr>
 <tr class="memitem:ae47d93e5e39c0f7ea00bfd4523ac1794" id="r_ae47d93e5e39c0f7ea00bfd4523ac1794"><td class="memItemLeft" align="right" valign="top"><a id="ae47d93e5e39c0f7ea00bfd4523ac1794" name="ae47d93e5e39c0f7ea00bfd4523ac1794"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_SDATA_SetLow</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _Display_SDATA,0)</td></tr>
 <tr class="separator:ae47d93e5e39c0f7ea00bfd4523ac1794"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68428fb994e3c4e09fe88717ab392c23" id="r_a68428fb994e3c4e09fe88717ab392c23"><td class="memItemLeft" align="right" valign="top"><a id="a68428fb994e3c4e09fe88717ab392c23" name="a68428fb994e3c4e09fe88717ab392c23"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>_XPT_RST_SetHigh</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _RESET_PIN , 1)</td></tr>
+<tr class="separator:a68428fb994e3c4e09fe88717ab392c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a201125a6daec2a90a0d3dd75171d2cec" id="r_a201125a6daec2a90a0d3dd75171d2cec"><td class="memItemLeft" align="right" valign="top"><a id="a201125a6daec2a90a0d3dd75171d2cec" name="a201125a6daec2a90a0d3dd75171d2cec"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>_XPT_RST_SetLow</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _RESET_PIN , 0)</td></tr>
+<tr class="separator:a201125a6daec2a90a0d3dd75171d2cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad73b2267a229672378146adb5c2b4208" id="r_ad73b2267a229672378146adb5c2b4208"><td class="memItemLeft" align="right" valign="top"><a id="ad73b2267a229672378146adb5c2b4208" name="ad73b2267a229672378146adb5c2b4208"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_MISO_Read</b>&#160;&#160;&#160;lgGpioRead(_GpioHandle, _Display_MISO)</td></tr>
 <tr class="separator:ad73b2267a229672378146adb5c2b4208"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92df920742ad4b8b708dd08519ec2f67" id="r_a92df920742ad4b8b708dd08519ec2f67"><td class="memItemLeft" align="right" valign="top"><a id="a92df920742ad4b8b708dd08519ec2f67" name="a92df920742ad4b8b708dd08519ec2f67"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_SDATA_Read</b>&#160;&#160;&#160;lgGpioRead(_GpioHandle, _Display_SDATA)</td></tr>
+<tr class="separator:a92df920742ad4b8b708dd08519ec2f67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1829e8b4e8be00601a929e0086320563" id="r_a1829e8b4e8be00601a929e0086320563"><td class="memItemLeft" align="right" valign="top"><a id="a1829e8b4e8be00601a929e0086320563" name="a1829e8b4e8be00601a929e0086320563"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>_XPT_IRQ_Read</b>&#160;&#160;&#160;lgGpioRead(_GpioHandle, _IRQ_PIN)</td></tr>
+<tr class="separator:a1829e8b4e8be00601a929e0086320563"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49a5f5b456e06aa68f8865cc3e293411" id="r_a49a5f5b456e06aa68f8865cc3e293411"><td class="memItemLeft" align="right" valign="top"><a id="a49a5f5b456e06aa68f8865cc3e293411" name="a49a5f5b456e06aa68f8865cc3e293411"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_RST_SetDigitalOutput</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0, _Display_RST,  0);</td></tr>
 <tr class="separator:a49a5f5b456e06aa68f8865cc3e293411"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,9 +163,21 @@ Macros</h2></td></tr>
 <tr class="memitem:afcc217fa1b0f1ed0d462bced6d3a59c4" id="r_afcc217fa1b0f1ed0d462bced6d3a59c4"><td class="memItemLeft" align="right" valign="top"><a id="afcc217fa1b0f1ed0d462bced6d3a59c4" name="afcc217fa1b0f1ed0d462bced6d3a59c4"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_SDATA_SetDigitalOutput</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0, _Display_SDATA,  0);</td></tr>
 <tr class="separator:afcc217fa1b0f1ed0d462bced6d3a59c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a272c2efeab94e9f47481e416bb2efc4b" id="r_a272c2efeab94e9f47481e416bb2efc4b"><td class="memItemLeft" align="right" valign="top"><a id="a272c2efeab94e9f47481e416bb2efc4b" name="a272c2efeab94e9f47481e416bb2efc4b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>_XPT_RST_SetDigitalOutput</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0,_RESET_PIN,  0);</td></tr>
+<tr class="separator:a272c2efeab94e9f47481e416bb2efc4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a8071d55fdf22949f321ef980ab1448" id="r_a9a8071d55fdf22949f321ef980ab1448"><td class="memItemLeft" align="right" valign="top"><a id="a9a8071d55fdf22949f321ef980ab1448" name="a9a8071d55fdf22949f321ef980ab1448"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_SCLK_SetDigitalInput</b>&#160;&#160;&#160;lgGpioClaimInput(_GpioHandle, 0, _Display_SCLK);</td></tr>
+<tr class="separator:a9a8071d55fdf22949f321ef980ab1448"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8971e002c075b4065be633ee5926e8a9" id="r_a8971e002c075b4065be633ee5926e8a9"><td class="memItemLeft" align="right" valign="top"><a id="a8971e002c075b4065be633ee5926e8a9" name="a8971e002c075b4065be633ee5926e8a9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_SDATA_SetDigitalInput</b>&#160;&#160;&#160;lgGpioClaimInput(_GpioHandle, 0, _Display_SDATA);</td></tr>
+<tr class="separator:a8971e002c075b4065be633ee5926e8a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3785b897efc2d5c708c7b62b6031d7c6" id="r_a3785b897efc2d5c708c7b62b6031d7c6"><td class="memItemLeft" align="right" valign="top"><a id="a3785b897efc2d5c708c7b62b6031d7c6" name="a3785b897efc2d5c708c7b62b6031d7c6"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_MISO_SetDigitalInput</b>&#160;&#160;&#160;lgGpioClaimInput(_GpioHandle, 0,_Display_MISO);</td></tr>
 <tr class="separator:a3785b897efc2d5c708c7b62b6031d7c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac57e3e26a8bbc60e8b7a2c06ea5a744e" id="r_ac57e3e26a8bbc60e8b7a2c06ea5a744e"><td class="memItemLeft" align="right" valign="top"><a id="ac57e3e26a8bbc60e8b7a2c06ea5a744e" name="ac57e3e26a8bbc60e8b7a2c06ea5a744e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>_XPT_IRQ_SetDigitalInput</b>&#160;&#160;&#160;lgGpioClaimInput(_GpioHandle, 0,_IRQ_PIN);</td></tr>
+<tr class="separator:ac57e3e26a8bbc60e8b7a2c06ea5a744e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3698012b07cde2e08a99fc6d85d39dbf" id="r_a3698012b07cde2e08a99fc6d85d39dbf"><td class="memItemLeft" align="right" valign="top"><a id="a3698012b07cde2e08a99fc6d85d39dbf" name="a3698012b07cde2e08a99fc6d85d39dbf"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_OPEN_GPIO_CHIP</b>&#160;&#160;&#160;lgGpiochipOpen(_DeviceNumGpioChip)</td></tr>
 <tr class="separator:a3698012b07cde2e08a99fc6d85d39dbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,12 +199,21 @@ Macros</h2></td></tr>
 <tr class="memitem:adffa9f140b748e143581b628312fe730" id="r_adffa9f140b748e143581b628312fe730"><td class="memItemLeft" align="right" valign="top"><a id="adffa9f140b748e143581b628312fe730" name="adffa9f140b748e143581b628312fe730"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_GPIO_FREE_SDATA</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _Display_SDATA)</td></tr>
 <tr class="separator:adffa9f140b748e143581b628312fe730"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc3b872456db885ff6031d17adae5e1d" id="r_acc3b872456db885ff6031d17adae5e1d"><td class="memItemLeft" align="right" valign="top"><a id="acc3b872456db885ff6031d17adae5e1d" name="acc3b872456db885ff6031d17adae5e1d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>_XPT_GPIO_FREE_IRQ</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _IRQ_PIN)</td></tr>
+<tr class="separator:acc3b872456db885ff6031d17adae5e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e05596bfd10808d156d03bf54c37ab9" id="r_a7e05596bfd10808d156d03bf54c37ab9"><td class="memItemLeft" align="right" valign="top"><a id="a7e05596bfd10808d156d03bf54c37ab9" name="a7e05596bfd10808d156d03bf54c37ab9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>_XPT_GPIO_FREE_RST</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _RESET_PIN )</td></tr>
+<tr class="separator:a7e05596bfd10808d156d03bf54c37ab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a914d08d46336e2f771e93d3f2dea5c50" id="r_a914d08d46336e2f771e93d3f2dea5c50"><td class="memItemLeft" align="right" valign="top"><a id="a914d08d46336e2f771e93d3f2dea5c50" name="a914d08d46336e2f771e93d3f2dea5c50"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_OPEN_SPI</b>&#160;&#160;&#160;lgSpiOpen(_spiDev, _spiChan, _spiBaud, _spiFlags)</td></tr>
 <tr class="separator:a914d08d46336e2f771e93d3f2dea5c50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2320e94897a923ad8a362ba1fc0579ee" id="r_a2320e94897a923ad8a362ba1fc0579ee"><td class="memItemLeft" align="right" valign="top"><a id="a2320e94897a923ad8a362ba1fc0579ee" name="a2320e94897a923ad8a362ba1fc0579ee"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_CLOSE_SPI</b>&#160;&#160;&#160;lgSpiClose(_spiHandle)</td></tr>
 <tr class="separator:a2320e94897a923ad8a362ba1fc0579ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0541b65d9b31c3cee649a1b56c4f0b5a" id="r_a0541b65d9b31c3cee649a1b56c4f0b5a"><td class="memItemLeft" align="right" valign="top"><a id="a0541b65d9b31c3cee649a1b56c4f0b5a" name="a0541b65d9b31c3cee649a1b56c4f0b5a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_SPI_READ</b>&#160;&#160;&#160;lgSpiRead</td></tr>
+<tr class="separator:a0541b65d9b31c3cee649a1b56c4f0b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab837ff73fb292615540015cf5f32f070" id="r_ab837ff73fb292615540015cf5f32f070"><td class="memItemLeft" align="right" valign="top"><a id="ab837ff73fb292615540015cf5f32f070" name="ab837ff73fb292615540015cf5f32f070"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_SPI_WRITE</b>&#160;&#160;&#160;lgSpiWrite</td></tr>
 <tr class="separator:ab837ff73fb292615540015cf5f32f070"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,119 +222,76 @@ Macros</h2></td></tr>
 <tr class="memitem:af0441ff3ac611c75735188a303fd4c34" id="r_af0441ff3ac611c75735188a303fd4c34"><td class="memItemLeft" align="right" valign="top"><a id="af0441ff3ac611c75735188a303fd4c34" name="af0441ff3ac611c75735188a303fd4c34"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_SPI_TRANSFER</b>&#160;&#160;&#160;lgSpiXfer</td></tr>
 <tr class="separator:af0441ff3ac611c75735188a303fd4c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a934a4cdb4bec11a902ec1d2718ddc21a" id="r_a934a4cdb4bec11a902ec1d2718ddc21a"><td class="memItemLeft" align="right" valign="top"><a id="a934a4cdb4bec11a902ec1d2718ddc21a" name="a934a4cdb4bec11a902ec1d2718ddc21a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_RDL_I2C_OPEN</b>&#160;&#160;&#160;lgI2cOpen</td></tr>
-<tr class="separator:a934a4cdb4bec11a902ec1d2718ddc21a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab32a86ac99082aa5b909382d8817071b" id="r_ab32a86ac99082aa5b909382d8817071b"><td class="memItemLeft" align="right" valign="top"><a id="ab32a86ac99082aa5b909382d8817071b" name="ab32a86ac99082aa5b909382d8817071b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_RDL_I2C_CLOSE</b>&#160;&#160;&#160;lgI2cClose</td></tr>
-<tr class="separator:ab32a86ac99082aa5b909382d8817071b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a307d865ac79e7102f9a8275d3ef780" id="r_a4a307d865ac79e7102f9a8275d3ef780"><td class="memItemLeft" align="right" valign="top"><a id="a4a307d865ac79e7102f9a8275d3ef780" name="a4a307d865ac79e7102f9a8275d3ef780"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_RDL_I2C_WRITE</b>&#160;&#160;&#160;lgI2cWriteDevice</td></tr>
-<tr class="separator:a4a307d865ac79e7102f9a8275d3ef780"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1e944952782387e1600be58ce394de4" id="r_ae1e944952782387e1600be58ce394de4"><td class="memItemLeft" align="right" valign="top"><a id="ae1e944952782387e1600be58ce394de4" name="ae1e944952782387e1600be58ce394de4"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_RDL_I2C_READ</b>&#160;&#160;&#160;lgI2cReadDevice</td></tr>
-<tr class="separator:ae1e944952782387e1600be58ce394de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a6560c928d0b139f06bf86bf53c2c17" id="r_a7a6560c928d0b139f06bf86bf53c2c17"><td class="memItemLeft" align="right" valign="top"><a id="a7a6560c928d0b139f06bf86bf53c2c17" name="a7a6560c928d0b139f06bf86bf53c2c17"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM163X_STROBE_SetHigh</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _STROBE_IO, 1)</td></tr>
-<tr class="separator:a7a6560c928d0b139f06bf86bf53c2c17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fb9a5d214fd8b8cb0d3ab5a90e65b90" id="r_a6fb9a5d214fd8b8cb0d3ab5a90e65b90"><td class="memItemLeft" align="right" valign="top"><a id="a6fb9a5d214fd8b8cb0d3ab5a90e65b90" name="a6fb9a5d214fd8b8cb0d3ab5a90e65b90"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM163X_STROBE_SetLow</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _STROBE_IO, 0)</td></tr>
-<tr class="separator:a6fb9a5d214fd8b8cb0d3ab5a90e65b90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7c42d55551ae0954e243cc9558e47ff" id="r_aa7c42d55551ae0954e243cc9558e47ff"><td class="memItemLeft" align="right" valign="top"><a id="aa7c42d55551ae0954e243cc9558e47ff" name="aa7c42d55551ae0954e243cc9558e47ff"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM163X_DATA_SetHigh</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _DATA_IO, 1)</td></tr>
-<tr class="separator:aa7c42d55551ae0954e243cc9558e47ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa34b521c3f9bf8c663f32c3e8801e6ed" id="r_aa34b521c3f9bf8c663f32c3e8801e6ed"><td class="memItemLeft" align="right" valign="top"><a id="aa34b521c3f9bf8c663f32c3e8801e6ed" name="aa34b521c3f9bf8c663f32c3e8801e6ed"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM163X_DATA_SetLow</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _DATA_IO, 0)</td></tr>
-<tr class="separator:aa34b521c3f9bf8c663f32c3e8801e6ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1d101b375aa6df8630114a3b4029dc2" id="r_aa1d101b375aa6df8630114a3b4029dc2"><td class="memItemLeft" align="right" valign="top"><a id="aa1d101b375aa6df8630114a3b4029dc2" name="aa1d101b375aa6df8630114a3b4029dc2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM163X_CLOCK_SetHigh</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _CLOCK_IO, 1)</td></tr>
-<tr class="separator:aa1d101b375aa6df8630114a3b4029dc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01565af5ec76fc8cb3a31dee46caa39f" id="r_a01565af5ec76fc8cb3a31dee46caa39f"><td class="memItemLeft" align="right" valign="top"><a id="a01565af5ec76fc8cb3a31dee46caa39f" name="a01565af5ec76fc8cb3a31dee46caa39f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM163X_CLOCK_SetLow</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _CLOCK_IO, 0)</td></tr>
-<tr class="separator:a01565af5ec76fc8cb3a31dee46caa39f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bbc09c93f6acb8b35c33eed6bb34a59" id="r_a8bbc09c93f6acb8b35c33eed6bb34a59"><td class="memItemLeft" align="right" valign="top"><a id="a8bbc09c93f6acb8b35c33eed6bb34a59" name="a8bbc09c93f6acb8b35c33eed6bb34a59"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM163X_DATA_READ</b>&#160;&#160;&#160;lgGpioRead(_GpioHandle, _DATA_IO)</td></tr>
-<tr class="separator:a8bbc09c93f6acb8b35c33eed6bb34a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b14d84b4e5a0b0d3bbc7871f41079a3" id="r_a8b14d84b4e5a0b0d3bbc7871f41079a3"><td class="memItemLeft" align="right" valign="top"><a id="a8b14d84b4e5a0b0d3bbc7871f41079a3" name="a8b14d84b4e5a0b0d3bbc7871f41079a3"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM163X_SET_OUTPUT_STROBE</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0, _STROBE_IO, 0)</td></tr>
-<tr class="separator:a8b14d84b4e5a0b0d3bbc7871f41079a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab67e68f772a1c8ff9eab2f3d0b19648e" id="r_ab67e68f772a1c8ff9eab2f3d0b19648e"><td class="memItemLeft" align="right" valign="top"><a id="ab67e68f772a1c8ff9eab2f3d0b19648e" name="ab67e68f772a1c8ff9eab2f3d0b19648e"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM163X_SET_OUTPUT_DATA</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0, _DATA_IO, 0)</td></tr>
-<tr class="separator:ab67e68f772a1c8ff9eab2f3d0b19648e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78279701626f2ccdea3f0abbf0869e33" id="r_a78279701626f2ccdea3f0abbf0869e33"><td class="memItemLeft" align="right" valign="top"><a id="a78279701626f2ccdea3f0abbf0869e33" name="a78279701626f2ccdea3f0abbf0869e33"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM163X_SET_INPUT_DATA</b>&#160;&#160;&#160;lgGpioClaimInput(_GpioHandle,  0, _DATA_IO)</td></tr>
-<tr class="separator:a78279701626f2ccdea3f0abbf0869e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2cfb79e65547f4e182203dd2a6ec5a5c" id="r_a2cfb79e65547f4e182203dd2a6ec5a5c"><td class="memItemLeft" align="right" valign="top"><a id="a2cfb79e65547f4e182203dd2a6ec5a5c" name="a2cfb79e65547f4e182203dd2a6ec5a5c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM163X_SET_OUTPUT_CLOCK</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0, _CLOCK_IO, 0)</td></tr>
-<tr class="separator:a2cfb79e65547f4e182203dd2a6ec5a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade77c138e54e84aac2cdfe1df2c8ec33" id="r_ade77c138e54e84aac2cdfe1df2c8ec33"><td class="memItemLeft" align="right" valign="top"><a id="ade77c138e54e84aac2cdfe1df2c8ec33" name="ade77c138e54e84aac2cdfe1df2c8ec33"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM163X_SET_INPUT_CLOCK</b>&#160;&#160;&#160;lgGpioClaimInput(_GpioHandle, 0, _CLOCK_IO)</td></tr>
-<tr class="separator:ade77c138e54e84aac2cdfe1df2c8ec33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2821a5881299a2c51fdd83f19b7e11fd" id="r_a2821a5881299a2c51fdd83f19b7e11fd"><td class="memItemLeft" align="right" valign="top"><a id="a2821a5881299a2c51fdd83f19b7e11fd" name="a2821a5881299a2c51fdd83f19b7e11fd"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM163X_OPEN_GPIO_CHIP</b>&#160;&#160;&#160;lgGpiochipOpen(_DeviceNumGpioChip)</td></tr>
-<tr class="separator:a2821a5881299a2c51fdd83f19b7e11fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a310cc25417a2be4cc502d4bce7330707" id="r_a310cc25417a2be4cc502d4bce7330707"><td class="memItemLeft" align="right" valign="top"><a id="a310cc25417a2be4cc502d4bce7330707" name="a310cc25417a2be4cc502d4bce7330707"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM163X_CLOSE_GPIO_HANDLE</b>&#160;&#160;&#160;lgGpiochipClose(_GpioHandle)</td></tr>
-<tr class="separator:a310cc25417a2be4cc502d4bce7330707"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd85dcde6039ee4d72d1e388da7feb65" id="r_afd85dcde6039ee4d72d1e388da7feb65"><td class="memItemLeft" align="right" valign="top"><a id="afd85dcde6039ee4d72d1e388da7feb65" name="afd85dcde6039ee4d72d1e388da7feb65"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM163X_GPIO_FREE_STROBE</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _STROBE_IO)</td></tr>
-<tr class="separator:afd85dcde6039ee4d72d1e388da7feb65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7517bd03fbd85040dc3198d571aaf088" id="r_a7517bd03fbd85040dc3198d571aaf088"><td class="memItemLeft" align="right" valign="top"><a id="a7517bd03fbd85040dc3198d571aaf088" name="a7517bd03fbd85040dc3198d571aaf088"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM163X_GPIO_FREE_CLOCK</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _CLOCK_IO)</td></tr>
-<tr class="separator:a7517bd03fbd85040dc3198d571aaf088"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a392dba0a1da41b5c2def206478d813e1" id="r_a392dba0a1da41b5c2def206478d813e1"><td class="memItemLeft" align="right" valign="top"><a id="a392dba0a1da41b5c2def206478d813e1" name="a392dba0a1da41b5c2def206478d813e1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TM163X_GPIO_FREE_DATA</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _DATA_IO)</td></tr>
-<tr class="separator:a392dba0a1da41b5c2def206478d813e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a425eb3fdd2fdbf215827d5212e68ddf6" id="r_a425eb3fdd2fdbf215827d5212e68ddf6"><td class="memItemLeft" align="right" valign="top"><a id="a425eb3fdd2fdbf215827d5212e68ddf6" name="a425eb3fdd2fdbf215827d5212e68ddf6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_RDL_I2C_OPEN</b>&#160;&#160;&#160;lgI2cOpen</td></tr>
+<tr class="separator:a425eb3fdd2fdbf215827d5212e68ddf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d4a105fb77e59dd610d99096f3458ae" id="r_a5d4a105fb77e59dd610d99096f3458ae"><td class="memItemLeft" align="right" valign="top"><a id="a5d4a105fb77e59dd610d99096f3458ae" name="a5d4a105fb77e59dd610d99096f3458ae"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_RDL_I2C_CLOSE</b>&#160;&#160;&#160;lgI2cClose</td></tr>
+<tr class="separator:a5d4a105fb77e59dd610d99096f3458ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8d33a3d1bf5b1073d0807105fd04190" id="r_ab8d33a3d1bf5b1073d0807105fd04190"><td class="memItemLeft" align="right" valign="top"><a id="ab8d33a3d1bf5b1073d0807105fd04190" name="ab8d33a3d1bf5b1073d0807105fd04190"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_RDL_I2C_WRITE</b>&#160;&#160;&#160;lgI2cWriteDevice</td></tr>
+<tr class="separator:ab8d33a3d1bf5b1073d0807105fd04190"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac67fe72be1180de785b1e375b3858219" id="r_ac67fe72be1180de785b1e375b3858219"><td class="memItemLeft" align="right" valign="top"><a id="ac67fe72be1180de785b1e375b3858219" name="ac67fe72be1180de785b1e375b3858219"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>Display_RDL_I2C_READ</b>&#160;&#160;&#160;lgI2cReadDevice</td></tr>
+<tr class="separator:ac67fe72be1180de785b1e375b3858219"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a638e2b542fd45f9cf769398b800a7514" id="r_a638e2b542fd45f9cf769398b800a7514"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> : uint8_t { <br />
-&#160;&#160;<a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514afc5ae4103aabe5ec9f290577a55b9d27">rpiDisplay_Success</a> = 0
-, <a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514a5cef375611683fc7570b5a510bf36c11">rpiDisplay_Reserved</a> = 1
-, <a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514a35daa32d30fb6e3bf1756beeccbcec0c">rpiDisplay_WrongFont</a> = 2
-, <a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514a7bb1c1dd81d6c8efb608cf1899b4502a">rpiDisplay_CharScreenBounds</a> = 3
+<tr class="memitem:a845aeef87d4b9da5c3b3c7d942bf65d5" id="r_a845aeef87d4b9da5c3b3c7d942bf65d5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a> = 0
+, <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a475ebe8d4c6583a60e2444cd01625b0c">rdlib::Reserved</a> = 1
+, <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a94b76a4986a14ddca58ae548b085b27d">rdlib::WrongFont</a> = 2
+, <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a4871d50542fe21d641276fc30fcebee0">rdlib::CharScreenBounds</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514add94e5fe151fde936725cbeb48ce4e61">rpiDisplay_CharFontASCIIRange</a> = 4
-, <a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514aa5a42e67e6e9bf00d1ddc949d3fc3701">rpiDisplay_CharArrayNullptr</a> = 5
-, <a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514a0fea47b4b6017ff9f7b191b15639335a">rpiDisplay_FontPtrNullptr</a> = 6
-, <a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514a4262fd8179d9d4a14e471d445baeccad">rpiDisplay_BitmapNullptr</a> = 7
+&#160;&#160;<a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5af8160ad4f435dc517d2f8b6f49d31c2c">rdlib::CharFontASCIIRange</a> = 4
+, <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5ad14d01ed678fef8e11537c5e28fffda8">rdlib::CharArrayNullptr</a> = 5
+, <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a851e803b99b13e837541d483e2124484">rdlib::FontDataEmpty</a> = 6
+, <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a4066db1aada4d2e98e7c2436153e395f">rdlib::BitmapDataEmpty</a> = 7
 , <br />
-&#160;&#160;<a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514af637b285d03e76bc8178fad42fd383be">rpiDisplay_BitmapScreenBounds</a> = 8
-, <a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514a74eee491d91a3966e048eaf345b3fcb0">rpiDisplay_BitmapLargerThanScreen</a> = 9
-, <a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514ae2bc3e24d910f2c7483cbb0c013fff98">rpiDisplay_BitmapVerticalSize</a> = 10
-, <a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514ab395e0f6fe1b4cc66e7386ef76e11742">rpiDisplay_BitmapHorizontalSize</a> = 11
+&#160;&#160;<a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a115edea586915b96039561aea3870cb0">rdlib::BitmapScreenBounds</a> = 8
+, <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a52227e72eb5b55cebaabef1f817fecb8">rdlib::BitmapLargerThanScreen</a> = 9
+, <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5aa9c99f95a3e7afc3d8fc88583f0ad73a">rdlib::BitmapVerticalSize</a> = 10
+, <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a1a895f26f8104e759526c806291e37f9">rdlib::BitmapHorizontalSize</a> = 11
 , <br />
-&#160;&#160;<a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514ac37b343da3b98927f96d8f57c1d71d92">rpiDisplay_BitmapSize</a> = 12
-, <a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514afa57bab3fb7e0d1a618eefe2c0c67a90">rpiDisplay_CustomCharLen</a> = 13
-, <a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514abc81d1ff5f28b86df0ec2301e956a7d6">rpiDisplay_BufferSize</a> = 14
-, <a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514a2590e1ceca3de6d728d95d35f8adf99c">rpiDisplay_BufferNullptr</a> = 15
+&#160;&#160;<a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5aae88a0633cfdb97ae029a04d28830b81">rdlib::BitmapSize</a> = 12
+, <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a09ef45fc00c89daf1ac08c9f52792742">rdlib::CustomCharLen</a> = 13
+, <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a9fc4d37392d1d2039ad916a01398d25d">rdlib::BufferSize</a> = 14
+, <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a7537147695b96c3652ab5902e9de73aa">rdlib::BufferEmpty</a> = 15
 , <br />
-&#160;&#160;<a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514a2743da91c866629fea6d4dc1e01e022c">rpiDisplay_SPIOpenFailure</a> = 16
-, <a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514af003c14a9c49f0180b8e3398ea2236e2">rpiDisplay_SPICloseFailure</a> = 17
-, <a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514a196b08f3b340c6dafc7bcc5bf0f90388">rpiDisplay_I2CbeginFail</a> = 18
-, <a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514a145510bdc6603333a42bb1a9f7e41e37">rpiDisplay_I2CcloseFail</a> = 19
+&#160;&#160;<a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5ae2f52411247decd2656308eab208c8f8">rdlib::SPIOpenFailure</a> = 16
+, <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a6169a81d0ae5688c76efad17712818f9">rdlib::SPICloseFailure</a> = 17
+, <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a4ab181270483a327c46816d4e874ad8b">rdlib::I2CbeginFail</a> = 18
+, <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5ab455ae2c02e4c1e79b7dcc929d60cba2">rdlib::I2CcloseFail</a> = 19
 , <br />
-&#160;&#160;<a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514a365eb115a8c4de22c4437488a044e662">rpiDisplay_ShapeScreenBounds</a> = 20
-, <a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514a5ffd4ac750c9453bad03444e9402db63">rpiDisplay_MemoryAError</a> = 21
-, <a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514ac841cb202f8021ee2f073dea1eefd811">rpiDisplay_WrongInputPCBType</a> = 22
-, <a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514ad32e2746fad061cd19f4d79f3746359b">rpiDisplay_GpioChipDevice</a> = 23
+&#160;&#160;<a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a7d470e5d59985355fb8ad2e07098efe8">rdlib::ShapeScreenBounds</a> = 20
+, <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a299a450ad2228bb9f5de19391a541422">rdlib::MemoryAError</a> = 21
+, <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a3544131cbc3051a6f351ed64cc7473e8">rdlib::WrongInputPCBType</a> = 22
+, <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a91050c855c6aedfc87e0adb551161bde">rdlib::GpioChipDevice</a> = 23
 , <br />
-&#160;&#160;<a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514a893ed421d039436b50ad55c535e77900">rpiDisplay_GpioPinClaim</a> = 24
-, <a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514ab1e0ee6ba565e0fbdcea9ebdc4cab671">rpiDisplay_GpioPinFree</a> = 25
-, <a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514abba3ccb2dd79d1dca6a1179b04c7206e">rpiDisplay_WrongModeChosen</a> = 26
-, <a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514a4fea422d7aae5be7e13c1339e674b14a">rpiDisplay_GenericError</a> = 27
+&#160;&#160;<a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a25a9261690270578079addf51fd5d510">rdlib::GpioPinClaim</a> = 24
+, <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a0e40ec38e9d754b8ce795b4007f93fef">rdlib::GpioPinFree</a> = 25
+, <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a65da6eddcff882b550b60c841cc4c243">rdlib::WrongModeChosen</a> = 26
+, <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5ac39046017118863bcc2c856621493f2e">rdlib::GenericError</a> = 27
 <br />
  }</td></tr>
-<tr class="separator:a638e2b542fd45f9cf769398b800a7514"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a845aeef87d4b9da5c3b3c7d942bf65d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a60da09de30f94d417f7d07e95b5397cb" id="r_a60da09de30f94d417f7d07e95b5397cb"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__data__RDL_8hpp.html#a60da09de30f94d417f7d07e95b5397cb">GetRDLibVersionNum</a> (void)</td></tr>
-<tr class="memdesc:a60da09de30f94d417f7d07e95b5397cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the library version number  <br /></td></tr>
-<tr class="separator:a60da09de30f94d417f7d07e95b5397cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a371c2969cb1c26592f5c930a1b7411" id="r_a0a371c2969cb1c26592f5c930a1b7411"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__data__RDL_8hpp.html#a0a371c2969cb1c26592f5c930a1b7411">rdlib::ReturnCodetoText</a> (<a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> code)</td></tr>
+<tr class="memdesc:a0a371c2969cb1c26592f5c930a1b7411"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints out Enum label and help message for given enum code from Return_Codes_e.  <br /></td></tr>
+<tr class="separator:a0a371c2969cb1c26592f5c930a1b7411"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16e2138a7a8da411120ed10e37b4c17e" id="r_a16e2138a7a8da411120ed10e37b4c17e"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__data__RDL_8hpp.html#a16e2138a7a8da411120ed10e37b4c17e">rdlib::LibraryVersion</a> (void)</td></tr>
+<tr class="memdesc:a16e2138a7a8da411120ed10e37b4c17e"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the library version number  <br /></td></tr>
+<tr class="separator:a16e2138a7a8da411120ed10e37b4c17e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:abf6551dfb3aea3d4622213b392007d4e" id="r_abf6551dfb3aea3d4622213b392007d4e"><td class="memItemLeft" align="right" valign="top">constexpr std::array&lt; const char *, 28 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__data__RDL_8hpp.html#abf6551dfb3aea3d4622213b392007d4e">rdlib::ReturnCodesStrings</a></td></tr>
+<tr class="separator:abf6551dfb3aea3d4622213b392007d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>file to hold common data used by many Displays Project Name: Display_Lib_RPI </p>
+<div class="textblock"><p>file to hold common data and functions used by many Displays Project Name: Display_Lib_RPI </p>
 <dl class="section author"><dt>Author</dt><dd>Gavin Lyons </dd></dl>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a922168d0714383bc34bcfd00eea4d4f8" name="a922168d0714383bc34bcfd00eea4d4f8"></a>
@@ -370,88 +363,88 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a638e2b542fd45f9cf769398b800a7514" name="a638e2b542fd45f9cf769398b800a7514"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a638e2b542fd45f9cf769398b800a7514">&#9670;&#160;</a></span>rpiDisplay_Return_Codes_e</h2>
+<a id="a845aeef87d4b9da5c3b3c7d942bf65d5" name="a845aeef87d4b9da5c3b3c7d942bf65d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a845aeef87d4b9da5c3b3c7d942bf65d5">&#9670;&#160;</a></span>Return_Codes_e</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> : uint8_t</td>
+          <td class="memname">enum <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> : uint8_t</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>Enum to define a standard return code for most functions that return failures </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514afc5ae4103aabe5ec9f290577a55b9d27" name="a638e2b542fd45f9cf769398b800a7514afc5ae4103aabe5ec9f290577a55b9d27"></a>rpiDisplay_Success&#160;</td><td class="fielddoc"><p>Success, Function ran without defined Error :) </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69" name="a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69"></a>Success&#160;</td><td class="fielddoc"><p>Success, Function ran without defined Error :) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514a5cef375611683fc7570b5a510bf36c11" name="a638e2b542fd45f9cf769398b800a7514a5cef375611683fc7570b5a510bf36c11"></a>rpiDisplay_Reserved&#160;</td><td class="fielddoc"><p>Reserved for future use </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a475ebe8d4c6583a60e2444cd01625b0c" name="a845aeef87d4b9da5c3b3c7d942bf65d5a475ebe8d4c6583a60e2444cd01625b0c"></a>Reserved&#160;</td><td class="fielddoc"><p>Reserved for future use </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514a35daa32d30fb6e3bf1756beeccbcec0c" name="a638e2b542fd45f9cf769398b800a7514a35daa32d30fb6e3bf1756beeccbcec0c"></a>rpiDisplay_WrongFont&#160;</td><td class="fielddoc"><p>Wrong Font selected </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a94b76a4986a14ddca58ae548b085b27d" name="a845aeef87d4b9da5c3b3c7d942bf65d5a94b76a4986a14ddca58ae548b085b27d"></a>WrongFont&#160;</td><td class="fielddoc"><p>Wrong Font selected </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514a7bb1c1dd81d6c8efb608cf1899b4502a" name="a638e2b542fd45f9cf769398b800a7514a7bb1c1dd81d6c8efb608cf1899b4502a"></a>rpiDisplay_CharScreenBounds&#160;</td><td class="fielddoc"><p>Text Character is out of Screen bounds, Check x and y </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a4871d50542fe21d641276fc30fcebee0" name="a845aeef87d4b9da5c3b3c7d942bf65d5a4871d50542fe21d641276fc30fcebee0"></a>CharScreenBounds&#160;</td><td class="fielddoc"><p>Text Character is out of Screen bounds, Check x and y </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514add94e5fe151fde936725cbeb48ce4e61" name="a638e2b542fd45f9cf769398b800a7514add94e5fe151fde936725cbeb48ce4e61"></a>rpiDisplay_CharFontASCIIRange&#160;</td><td class="fielddoc"><p>Text Character is outside of chosen Fonts ASCII range, Check the selected Fonts ASCII range. </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5af8160ad4f435dc517d2f8b6f49d31c2c" name="a845aeef87d4b9da5c3b3c7d942bf65d5af8160ad4f435dc517d2f8b6f49d31c2c"></a>CharFontASCIIRange&#160;</td><td class="fielddoc"><p>Text Character is outside of chosen Fonts ASCII range, Check the selected Fonts ASCII range. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514aa5a42e67e6e9bf00d1ddc949d3fc3701" name="a638e2b542fd45f9cf769398b800a7514aa5a42e67e6e9bf00d1ddc949d3fc3701"></a>rpiDisplay_CharArrayNullptr&#160;</td><td class="fielddoc"><p>Text Character Array is an invalid pointer object </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5ad14d01ed678fef8e11537c5e28fffda8" name="a845aeef87d4b9da5c3b3c7d942bf65d5ad14d01ed678fef8e11537c5e28fffda8"></a>CharArrayNullptr&#160;</td><td class="fielddoc"><p>Text Character Array is an invalid pointer object </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514a0fea47b4b6017ff9f7b191b15639335a" name="a638e2b542fd45f9cf769398b800a7514a0fea47b4b6017ff9f7b191b15639335a"></a>rpiDisplay_FontPtrNullptr&#160;</td><td class="fielddoc"><p>Pointer to the font is an invalid pointer object </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a851e803b99b13e837541d483e2124484" name="a845aeef87d4b9da5c3b3c7d942bf65d5a851e803b99b13e837541d483e2124484"></a>FontDataEmpty&#160;</td><td class="fielddoc"><p>Span to the font data is an empty object </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514a4262fd8179d9d4a14e471d445baeccad" name="a638e2b542fd45f9cf769398b800a7514a4262fd8179d9d4a14e471d445baeccad"></a>rpiDisplay_BitmapNullptr&#160;</td><td class="fielddoc"><p>The Bitmap data array is an invalid pointer object </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a4066db1aada4d2e98e7c2436153e395f" name="a845aeef87d4b9da5c3b3c7d942bf65d5a4066db1aada4d2e98e7c2436153e395f"></a>BitmapDataEmpty&#160;</td><td class="fielddoc"><p>The Bitmap span is an empty object </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514af637b285d03e76bc8178fad42fd383be" name="a638e2b542fd45f9cf769398b800a7514af637b285d03e76bc8178fad42fd383be"></a>rpiDisplay_BitmapScreenBounds&#160;</td><td class="fielddoc"><p>The Bitmap starting point is outside screen bounds, check x and y </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a115edea586915b96039561aea3870cb0" name="a845aeef87d4b9da5c3b3c7d942bf65d5a115edea586915b96039561aea3870cb0"></a>BitmapScreenBounds&#160;</td><td class="fielddoc"><p>The Bitmap starting point is outside screen bounds, check x and y </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514a74eee491d91a3966e048eaf345b3fcb0" name="a638e2b542fd45f9cf769398b800a7514a74eee491d91a3966e048eaf345b3fcb0"></a>rpiDisplay_BitmapLargerThanScreen&#160;</td><td class="fielddoc"><p>The Bitmap is larger than screen, check w and h </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a52227e72eb5b55cebaabef1f817fecb8" name="a845aeef87d4b9da5c3b3c7d942bf65d5a52227e72eb5b55cebaabef1f817fecb8"></a>BitmapLargerThanScreen&#160;</td><td class="fielddoc"><p>The Bitmap is larger than screen, check w and h </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514ae2bc3e24d910f2c7483cbb0c013fff98" name="a638e2b542fd45f9cf769398b800a7514ae2bc3e24d910f2c7483cbb0c013fff98"></a>rpiDisplay_BitmapVerticalSize&#160;</td><td class="fielddoc"><p>A vertical Bitmap's height must be divisible by 8. </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5aa9c99f95a3e7afc3d8fc88583f0ad73a" name="a845aeef87d4b9da5c3b3c7d942bf65d5aa9c99f95a3e7afc3d8fc88583f0ad73a"></a>BitmapVerticalSize&#160;</td><td class="fielddoc"><p>A vertical Bitmap's height must be divisible by 8. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514ab395e0f6fe1b4cc66e7386ef76e11742" name="a638e2b542fd45f9cf769398b800a7514ab395e0f6fe1b4cc66e7386ef76e11742"></a>rpiDisplay_BitmapHorizontalSize&#160;</td><td class="fielddoc"><p>A horizontal Bitmap's width must be divisible by 8 </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a1a895f26f8104e759526c806291e37f9" name="a845aeef87d4b9da5c3b3c7d942bf65d5a1a895f26f8104e759526c806291e37f9"></a>BitmapHorizontalSize&#160;</td><td class="fielddoc"><p>A horizontal Bitmap's width must be divisible by 8 </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514ac37b343da3b98927f96d8f57c1d71d92" name="a638e2b542fd45f9cf769398b800a7514ac37b343da3b98927f96d8f57c1d71d92"></a>rpiDisplay_BitmapSize&#160;</td><td class="fielddoc"><p>Size of the Bitmap is incorrect: BitmapSize(vertical)!=(w*(h/8),BitmapSize(horizontal)!=(w/8)*h </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5aae88a0633cfdb97ae029a04d28830b81" name="a845aeef87d4b9da5c3b3c7d942bf65d5aae88a0633cfdb97ae029a04d28830b81"></a>BitmapSize&#160;</td><td class="fielddoc"><p>Size of the Bitmap is incorrect: <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5aae88a0633cfdb97ae029a04d28830b81">BitmapSize(vertical)</a>!=(w*(h/8),<a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5aae88a0633cfdb97ae029a04d28830b81">BitmapSize(horizontal)</a>!=(w/8)*h </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514afa57bab3fb7e0d1a618eefe2c0c67a90" name="a638e2b542fd45f9cf769398b800a7514afa57bab3fb7e0d1a618eefe2c0c67a90"></a>rpiDisplay_CustomCharLen&#160;</td><td class="fielddoc"><p>CustomChar array must always be 5 bytes long </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a09ef45fc00c89daf1ac08c9f52792742" name="a845aeef87d4b9da5c3b3c7d942bf65d5a09ef45fc00c89daf1ac08c9f52792742"></a>CustomCharLen&#160;</td><td class="fielddoc"><p>CustomChar array must always be 5 bytes long </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514abc81d1ff5f28b86df0ec2301e956a7d6" name="a638e2b542fd45f9cf769398b800a7514abc81d1ff5f28b86df0ec2301e956a7d6"></a>rpiDisplay_BufferSize&#160;</td><td class="fielddoc"><p>Size of the Buffer is incorrect: BufferSize(vertical)!=(w*(h/8) </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a9fc4d37392d1d2039ad916a01398d25d" name="a845aeef87d4b9da5c3b3c7d942bf65d5a9fc4d37392d1d2039ad916a01398d25d"></a>BufferSize&#160;</td><td class="fielddoc"><p>Size of the Buffer is incorrect: <a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a9fc4d37392d1d2039ad916a01398d25d">BufferSize(vertical)</a>!=(w*(h/8) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514a2590e1ceca3de6d728d95d35f8adf99c" name="a638e2b542fd45f9cf769398b800a7514a2590e1ceca3de6d728d95d35f8adf99c"></a>rpiDisplay_BufferNullptr&#160;</td><td class="fielddoc"><p>The Buffer data array is an invalid pointer object </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a7537147695b96c3652ab5902e9de73aa" name="a845aeef87d4b9da5c3b3c7d942bf65d5a7537147695b96c3652ab5902e9de73aa"></a>BufferEmpty&#160;</td><td class="fielddoc"><p>The Buffer span is an empty object </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514a2743da91c866629fea6d4dc1e01e022c" name="a638e2b542fd45f9cf769398b800a7514a2743da91c866629fea6d4dc1e01e022c"></a>rpiDisplay_SPIOpenFailure&#160;</td><td class="fielddoc"><p>Failed to open HW SPI , lgpio </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5ae2f52411247decd2656308eab208c8f8" name="a845aeef87d4b9da5c3b3c7d942bf65d5ae2f52411247decd2656308eab208c8f8"></a>SPIOpenFailure&#160;</td><td class="fielddoc"><p>Failed to open HW SPI , lgpio </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514af003c14a9c49f0180b8e3398ea2236e2" name="a638e2b542fd45f9cf769398b800a7514af003c14a9c49f0180b8e3398ea2236e2"></a>rpiDisplay_SPICloseFailure&#160;</td><td class="fielddoc"><p>Failed to close HW SPI , lgpio </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a6169a81d0ae5688c76efad17712818f9" name="a845aeef87d4b9da5c3b3c7d942bf65d5a6169a81d0ae5688c76efad17712818f9"></a>SPICloseFailure&#160;</td><td class="fielddoc"><p>Failed to close HW SPI , lgpio </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514a196b08f3b340c6dafc7bcc5bf0f90388" name="a638e2b542fd45f9cf769398b800a7514a196b08f3b340c6dafc7bcc5bf0f90388"></a>rpiDisplay_I2CbeginFail&#160;</td><td class="fielddoc"><p>Failed to open I2C , lgpio </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a4ab181270483a327c46816d4e874ad8b" name="a845aeef87d4b9da5c3b3c7d942bf65d5a4ab181270483a327c46816d4e874ad8b"></a>I2CbeginFail&#160;</td><td class="fielddoc"><p>Failed to open I2C , lgpio </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514a145510bdc6603333a42bb1a9f7e41e37" name="a638e2b542fd45f9cf769398b800a7514a145510bdc6603333a42bb1a9f7e41e37"></a>rpiDisplay_I2CcloseFail&#160;</td><td class="fielddoc"><p>Failed to close I2C , lgpio </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5ab455ae2c02e4c1e79b7dcc929d60cba2" name="a845aeef87d4b9da5c3b3c7d942bf65d5ab455ae2c02e4c1e79b7dcc929d60cba2"></a>I2CcloseFail&#160;</td><td class="fielddoc"><p>Failed to close I2C , lgpio </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514a365eb115a8c4de22c4437488a044e662" name="a638e2b542fd45f9cf769398b800a7514a365eb115a8c4de22c4437488a044e662"></a>rpiDisplay_ShapeScreenBounds&#160;</td><td class="fielddoc"><p>Shape is outside screen bounds, check x and y </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a7d470e5d59985355fb8ad2e07098efe8" name="a845aeef87d4b9da5c3b3c7d942bf65d5a7d470e5d59985355fb8ad2e07098efe8"></a>ShapeScreenBounds&#160;</td><td class="fielddoc"><p>Shape is outside screen bounds, check x and y </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514a5ffd4ac750c9453bad03444e9402db63" name="a638e2b542fd45f9cf769398b800a7514a5ffd4ac750c9453bad03444e9402db63"></a>rpiDisplay_MemoryAError&#160;</td><td class="fielddoc"><p>Could not assign memory </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a299a450ad2228bb9f5de19391a541422" name="a845aeef87d4b9da5c3b3c7d942bf65d5a299a450ad2228bb9f5de19391a541422"></a>MemoryAError&#160;</td><td class="fielddoc"><p>Could not assign memory </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514ac841cb202f8021ee2f073dea1eefd811" name="a638e2b542fd45f9cf769398b800a7514ac841cb202f8021ee2f073dea1eefd811"></a>rpiDisplay_WrongInputPCBType&#160;</td><td class="fielddoc"><p>Wrong input PCB type chosen </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a3544131cbc3051a6f351ed64cc7473e8" name="a845aeef87d4b9da5c3b3c7d942bf65d5a3544131cbc3051a6f351ed64cc7473e8"></a>WrongInputPCBType&#160;</td><td class="fielddoc"><p>Wrong input PCB type chosen </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514ad32e2746fad061cd19f4d79f3746359b" name="a638e2b542fd45f9cf769398b800a7514ad32e2746fad061cd19f4d79f3746359b"></a>rpiDisplay_GpioChipDevice&#160;</td><td class="fielddoc"><p>Failed to open or close GPIO chip device, lgpio </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a91050c855c6aedfc87e0adb551161bde" name="a845aeef87d4b9da5c3b3c7d942bf65d5a91050c855c6aedfc87e0adb551161bde"></a>GpioChipDevice&#160;</td><td class="fielddoc"><p>Failed to open or close GPIO chip device, lgpio </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514a893ed421d039436b50ad55c535e77900" name="a638e2b542fd45f9cf769398b800a7514a893ed421d039436b50ad55c535e77900"></a>rpiDisplay_GpioPinClaim&#160;</td><td class="fielddoc"><p>Failed to claim a GPIO for output or input, lgpio </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a25a9261690270578079addf51fd5d510" name="a845aeef87d4b9da5c3b3c7d942bf65d5a25a9261690270578079addf51fd5d510"></a>GpioPinClaim&#160;</td><td class="fielddoc"><p>Failed to claim a GPIO for output or input, lgpio </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514ab1e0ee6ba565e0fbdcea9ebdc4cab671" name="a638e2b542fd45f9cf769398b800a7514ab1e0ee6ba565e0fbdcea9ebdc4cab671"></a>rpiDisplay_GpioPinFree&#160;</td><td class="fielddoc"><p>Failed to free a GPIO for output or input, lgpio </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a0e40ec38e9d754b8ce795b4007f93fef" name="a845aeef87d4b9da5c3b3c7d942bf65d5a0e40ec38e9d754b8ce795b4007f93fef"></a>GpioPinFree&#160;</td><td class="fielddoc"><p>Failed to free a GPIO for output or input, lgpio </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514abba3ccb2dd79d1dca6a1179b04c7206e" name="a638e2b542fd45f9cf769398b800a7514abba3ccb2dd79d1dca6a1179b04c7206e"></a>rpiDisplay_WrongModeChosen&#160;</td><td class="fielddoc"><p>Wrong SPI communication mode chosen by user </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a65da6eddcff882b550b60c841cc4c243" name="a845aeef87d4b9da5c3b3c7d942bf65d5a65da6eddcff882b550b60c841cc4c243"></a>WrongModeChosen&#160;</td><td class="fielddoc"><p>Wrong SPI communication mode chosen by user </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a638e2b542fd45f9cf769398b800a7514a4fea422d7aae5be7e13c1339e674b14a" name="a638e2b542fd45f9cf769398b800a7514a4fea422d7aae5be7e13c1339e674b14a"></a>rpiDisplay_GenericError&#160;</td><td class="fielddoc"><p>Generic Error message </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5ac39046017118863bcc2c856621493f2e" name="a845aeef87d4b9da5c3b3c7d942bf65d5ac39046017118863bcc2c856621493f2e"></a>GenericError&#160;</td><td class="fielddoc"><p>Generic Error message </p>
 </td></tr>
 </table>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a60da09de30f94d417f7d07e95b5397cb" name="a60da09de30f94d417f7d07e95b5397cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60da09de30f94d417f7d07e95b5397cb">&#9670;&#160;</a></span>GetRDLibVersionNum()</h2>
+<a id="a16e2138a7a8da411120ed10e37b4c17e" name="a16e2138a7a8da411120ed10e37b4c17e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16e2138a7a8da411120ed10e37b4c17e">&#9670;&#160;</a></span>LibraryVersion()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t GetRDLibVersionNum </td>
+          <td class="memname">uint16_t rdlib::LibraryVersion </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -463,6 +456,85 @@ Functions</h2></td></tr>
 <p>get the library version number </p>
 <dl class="section return"><dt>Returns</dt><dd>the library version number eg 120 = 1.2.0 </dd></dl>
 
+</div>
+</div>
+<a id="a0a371c2969cb1c26592f5c930a1b7411" name="a0a371c2969cb1c26592f5c930a1b7411"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a371c2969cb1c26592f5c930a1b7411">&#9670;&#160;</a></span>ReturnCodetoText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string rdlib::ReturnCodetoText </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td>
+          <td class="paramname"><em>code</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prints out Enum label and help message for given enum code from Return_Codes_e. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">code</td><td>an enum code from Return_Codes_e </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="abf6551dfb3aea3d4622213b392007d4e" name="abf6551dfb3aea3d4622213b392007d4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf6551dfb3aea3d4622213b392007d4e">&#9670;&#160;</a></span>ReturnCodesStrings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr std::array&lt;const char*, 28&gt; rdlib::ReturnCodesStrings</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    <span class="stringliteral">&quot;Success, Function ran without defined Error&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;Reserved, Reserved for future use&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;WrongFont, Wrong Font selected&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;CharScreenBounds, Text Character is out of Screen bounds, Check x and y&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;CharFontASCIIRange, Text Character is outside of chosen Fonts ASCII range, Check the selected Fonts ASCII range&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;CharArrayNullptr, Text Character Array is an invalid pointer object&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;FontDataEmpty, Span to the font data is an empty object&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;BitmapDataEmpty, The Bitmap span is an empty object&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;BitmapScreenBounds, The Bitmap starting point is outside screen bounds, check x and y&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;BitmapLargerThanScreen, The Bitmap is larger than screen, check w and h&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;BitmapVerticalSize, A vertical Bitmap&#39;s height must be divisible by 8&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;BitmapHorizontalSize, A horizontal Bitmap&#39;s width must be divisible by 8&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;BitmapSize, Size of the Bitmap is incorrect: BitmapSize(vertical)!=(w*(h/8), BitmapSize(horizontal)!=(w/8)*h&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;CustomCharLen, CustomChar array must always be 5 bytes long&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;BufferSize, Size of the Buffer is incorrect: BufferSize(vertical)!=(w*(h/8)&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;BufferEmpty, The Buffer span is an empty object&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;SPIOpenFailure, Failed to open HW SPI, lgpio&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;SPICloseFailure, Failed to close HW SPI, lgpio&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;I2CbeginFail, Failed to open I2C, lgpio&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;I2CcloseFail, Failed to close I2C, lgpio&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;ShapeScreenBounds, Shape is outside screen bounds, check x and y&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;MemoryAError, Could not assign memory&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;WrongInputPCBType, Wrong input PCB type chosen&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;GpioChipDevice, Failed to open or close GPIO chip device, lgpio&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;GpioPinClaim, Failed to claim a GPIO for output or input, lgpio&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;GpioPinFree, Failed to free a GPIO for output or input, lgpio&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;WrongModeChosen, Wrong SPI communication mode chosen by user&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;GenericError, Generic Error message&quot;</span></div>
+<div class="line">}</div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

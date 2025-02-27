@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -76,8 +76,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle"><div class="title">XPT2046_TS_TFT_LCD_RDL.hpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -102,65 +101,11 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structXPT__2046__RDL_1_1TouchPoint.html">XPT_2046_RDL::TouchPoint</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:aec56134d326dbb3afe7bb77a07a5968b" id="r_aec56134d326dbb3afe7bb77a07a5968b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="XPT2046__TS__TFT__LCD__RDL_8hpp.html#aec56134d326dbb3afe7bb77a07a5968b">MAXTP</a>&#160;&#160;&#160;20</td></tr>
-<tr class="separator:aec56134d326dbb3afe7bb77a07a5968b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68428fb994e3c4e09fe88717ab392c23" id="r_a68428fb994e3c4e09fe88717ab392c23"><td class="memItemLeft" align="right" valign="top"><a id="a68428fb994e3c4e09fe88717ab392c23" name="a68428fb994e3c4e09fe88717ab392c23"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>_XPT_RST_SetHigh</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _RESET_PIN , 1)</td></tr>
-<tr class="separator:a68428fb994e3c4e09fe88717ab392c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a201125a6daec2a90a0d3dd75171d2cec" id="r_a201125a6daec2a90a0d3dd75171d2cec"><td class="memItemLeft" align="right" valign="top"><a id="a201125a6daec2a90a0d3dd75171d2cec" name="a201125a6daec2a90a0d3dd75171d2cec"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>_XPT_RST_SetLow</b>&#160;&#160;&#160;lgGpioWrite(_GpioHandle, _RESET_PIN , 0)</td></tr>
-<tr class="separator:a201125a6daec2a90a0d3dd75171d2cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1829e8b4e8be00601a929e0086320563" id="r_a1829e8b4e8be00601a929e0086320563"><td class="memItemLeft" align="right" valign="top"><a id="a1829e8b4e8be00601a929e0086320563" name="a1829e8b4e8be00601a929e0086320563"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>_XPT_IRQ_Read</b>&#160;&#160;&#160;lgGpioRead(_GpioHandle, _IRQ_PIN)</td></tr>
-<tr class="separator:a1829e8b4e8be00601a929e0086320563"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a272c2efeab94e9f47481e416bb2efc4b" id="r_a272c2efeab94e9f47481e416bb2efc4b"><td class="memItemLeft" align="right" valign="top"><a id="a272c2efeab94e9f47481e416bb2efc4b" name="a272c2efeab94e9f47481e416bb2efc4b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>_XPT_RST_SetDigitalOutput</b>&#160;&#160;&#160;lgGpioClaimOutput(_GpioHandle, 0,_RESET_PIN,  0);</td></tr>
-<tr class="separator:a272c2efeab94e9f47481e416bb2efc4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac57e3e26a8bbc60e8b7a2c06ea5a744e" id="r_ac57e3e26a8bbc60e8b7a2c06ea5a744e"><td class="memItemLeft" align="right" valign="top"><a id="ac57e3e26a8bbc60e8b7a2c06ea5a744e" name="ac57e3e26a8bbc60e8b7a2c06ea5a744e"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>_XPT_IRQ_SetDigitalInput</b>&#160;&#160;&#160;lgGpioClaimInput(_GpioHandle, 0,_IRQ_PIN);</td></tr>
-<tr class="separator:ac57e3e26a8bbc60e8b7a2c06ea5a744e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac40e9e19176076489374d1d8b0b644ab" id="r_ac40e9e19176076489374d1d8b0b644ab"><td class="memItemLeft" align="right" valign="top"><a id="ac40e9e19176076489374d1d8b0b644ab" name="ac40e9e19176076489374d1d8b0b644ab"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>_XPT_OPEN_GPIO_CHIP</b>&#160;&#160;&#160;lgGpiochipOpen(_DeviceNumGpioChip)</td></tr>
-<tr class="separator:ac40e9e19176076489374d1d8b0b644ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf4ef4f1363192a2e4a60bcca2fc4f23" id="r_adf4ef4f1363192a2e4a60bcca2fc4f23"><td class="memItemLeft" align="right" valign="top"><a id="adf4ef4f1363192a2e4a60bcca2fc4f23" name="adf4ef4f1363192a2e4a60bcca2fc4f23"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>_XPT_CLOSE_GPIO_HANDLE</b>&#160;&#160;&#160;lgGpiochipClose(_GpioHandle)</td></tr>
-<tr class="separator:adf4ef4f1363192a2e4a60bcca2fc4f23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc3b872456db885ff6031d17adae5e1d" id="r_acc3b872456db885ff6031d17adae5e1d"><td class="memItemLeft" align="right" valign="top"><a id="acc3b872456db885ff6031d17adae5e1d" name="acc3b872456db885ff6031d17adae5e1d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>_XPT_GPIO_FREE_IRQ</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _IRQ_PIN)</td></tr>
-<tr class="separator:acc3b872456db885ff6031d17adae5e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e05596bfd10808d156d03bf54c37ab9" id="r_a7e05596bfd10808d156d03bf54c37ab9"><td class="memItemLeft" align="right" valign="top"><a id="a7e05596bfd10808d156d03bf54c37ab9" name="a7e05596bfd10808d156d03bf54c37ab9"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>_XPT_GPIO_FREE_RST</b>&#160;&#160;&#160;lgGpioFree(_GpioHandle , _RESET_PIN )</td></tr>
-<tr class="separator:a7e05596bfd10808d156d03bf54c37ab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8f5dcea2a792f8e672ecdc46db12b22" id="r_ae8f5dcea2a792f8e672ecdc46db12b22"><td class="memItemLeft" align="right" valign="top"><a id="ae8f5dcea2a792f8e672ecdc46db12b22" name="ae8f5dcea2a792f8e672ecdc46db12b22"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>_XPT_OPEN_SPI</b>&#160;&#160;&#160;lgSpiOpen(_spiDev, _spiChan, _spiBaud, _spiFlags)</td></tr>
-<tr class="separator:ae8f5dcea2a792f8e672ecdc46db12b22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6e87a3bf54eebb8af9bae8b1c77eec9" id="r_af6e87a3bf54eebb8af9bae8b1c77eec9"><td class="memItemLeft" align="right" valign="top"><a id="af6e87a3bf54eebb8af9bae8b1c77eec9" name="af6e87a3bf54eebb8af9bae8b1c77eec9"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>_XPT_CLOSE_SPI</b>&#160;&#160;&#160;lgSpiClose(_spiHandle)</td></tr>
-<tr class="separator:af6e87a3bf54eebb8af9bae8b1c77eec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Header file for ILI9341_TFT_LCD_RDL library. to manage hardware interface with XPT2046 Touch Screen Controller. </p>
 <dl class="section author"><dt>Author</dt><dd>Gavin Lyons </dd></dl>
-</div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="aec56134d326dbb3afe7bb77a07a5968b" name="aec56134d326dbb3afe7bb77a07a5968b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec56134d326dbb3afe7bb77a07a5968b">&#9670;&#160;</a></span>MAXTP</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAXTP&#160;&#160;&#160;20</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Maximum Number of Touch point's to record </p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8

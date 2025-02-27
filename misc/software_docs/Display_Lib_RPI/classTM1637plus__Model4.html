@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -75,6 +75,7 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classTM1637plus__Model4-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">TM1637plus_Model4 Class Reference</div></div>
 </div><!--header-->
@@ -90,12 +91,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a80a6cf82f0f2acdd71bae6c3d42420a2" id="r_a80a6cf82f0f2acdd71bae6c3d42420a2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#a80a6cf82f0f2acdd71bae6c3d42420a2">TM1637plus_Model4</a> (uint8_t clock, uint8_t data, int gpioDev, int delay, int DisplaySize)</td></tr>
 <tr class="memdesc:a80a6cf82f0f2acdd71bae6c3d42420a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a TM1637 object.  <br /></td></tr>
 <tr class="separator:a80a6cf82f0f2acdd71bae6c3d42420a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65fcc647697734d828c70d2f53db9ed6" id="r_a65fcc647697734d828c70d2f53db9ed6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#a65fcc647697734d828c70d2f53db9ed6">displayBegin</a> (void)</td></tr>
-<tr class="memdesc:a65fcc647697734d828c70d2f53db9ed6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Begin method , set and claims GPIO.  <br /></td></tr>
-<tr class="separator:a65fcc647697734d828c70d2f53db9ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbda680264d9d1b73ec0f096d957abe7" id="r_adbda680264d9d1b73ec0f096d957abe7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#adbda680264d9d1b73ec0f096d957abe7">displayClose</a> (void)</td></tr>
-<tr class="memdesc:adbda680264d9d1b73ec0f096d957abe7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close method , frees GPIO and deactivate display.  <br /></td></tr>
-<tr class="separator:adbda680264d9d1b73ec0f096d957abe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf0cb337e19b55871ba8315ece77e002" id="r_aaf0cb337e19b55871ba8315ece77e002"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#aaf0cb337e19b55871ba8315ece77e002">displayBegin</a> (void)</td></tr>
+<tr class="memdesc:aaf0cb337e19b55871ba8315ece77e002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Begin method , set and claims GPIO.  <br /></td></tr>
+<tr class="separator:aaf0cb337e19b55871ba8315ece77e002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b3db29c4d374f09b9a8952c8e27efd6" id="r_a3b3db29c4d374f09b9a8952c8e27efd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#a3b3db29c4d374f09b9a8952c8e27efd6">displayClose</a> (void)</td></tr>
+<tr class="memdesc:a3b3db29c4d374f09b9a8952c8e27efd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close method , frees GPIO and deactivate display.  <br /></td></tr>
+<tr class="separator:a3b3db29c4d374f09b9a8952c8e27efd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92d510ecda38e7f1ac7d027e8ba44a7a" id="r_a92d510ecda38e7f1ac7d027e8ba44a7a"><td class="memItemLeft" align="right" valign="top"><a id="a92d510ecda38e7f1ac7d027e8ba44a7a" name="a92d510ecda38e7f1ac7d027e8ba44a7a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>displayClear</b> (void)</td></tr>
 <tr class="memdesc:a92d510ecda38e7f1ac7d027e8ba44a7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the display. <br /></td></tr>
@@ -139,10 +140,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>CommStop</b> (void)</
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ab2ee3f5fc9f4cc7f2bdc382a96047d87" id="r_ab2ee3f5fc9f4cc7f2bdc382a96047d87"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#ab2ee3f5fc9f4cc7f2bdc382a96047d87">_DATA_IO</a></td></tr>
-<tr class="separator:ab2ee3f5fc9f4cc7f2bdc382a96047d87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1430c05cd479c16a8ceb08ab9a07dd8c" id="r_a1430c05cd479c16a8ceb08ab9a07dd8c"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#a1430c05cd479c16a8ceb08ab9a07dd8c">_CLOCK_IO</a></td></tr>
-<tr class="separator:a1430c05cd479c16a8ceb08ab9a07dd8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72f1d58507131c5b9c43ec24ffbfd627" id="r_a72f1d58507131c5b9c43ec24ffbfd627"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#a72f1d58507131c5b9c43ec24ffbfd627">_Display_SDATA</a></td></tr>
+<tr class="separator:a72f1d58507131c5b9c43ec24ffbfd627"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9746cbae67742db428b978835199fe3" id="r_af9746cbae67742db428b978835199fe3"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#af9746cbae67742db428b978835199fe3">_Display_SCLK</a></td></tr>
+<tr class="separator:af9746cbae67742db428b978835199fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61bbc0518ae251dc31f83b6d33ddd152" id="r_a61bbc0518ae251dc31f83b6d33ddd152"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#a61bbc0518ae251dc31f83b6d33ddd152">_DisplaySize</a> = 4</td></tr>
 <tr class="separator:a61bbc0518ae251dc31f83b6d33ddd152"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac536cb7c54a6cba43ab4712940b38411" id="r_ac536cb7c54a6cba43ab4712940b38411"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#ac536cb7c54a6cba43ab4712940b38411">_DeviceNumGpioChip</a> = 0</td></tr>
@@ -151,8 +152,19 @@ Private Attributes</h2></td></tr>
 <tr class="separator:af2bd9a73bcf97bb5ec8ac35feedcb99a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d3988cc3e4e43c8c797b7eaf15d3d25" id="r_a6d3988cc3e4e43c8c797b7eaf15d3d25"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#a6d3988cc3e4e43c8c797b7eaf15d3d25">_BitDelayUS</a> = 75</td></tr>
 <tr class="separator:a6d3988cc3e4e43c8c797b7eaf15d3d25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add3e8a386cf906319f921bc92fdb38f5" id="r_add3e8a386cf906319f921bc92fdb38f5"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#add3e8a386cf906319f921bc92fdb38f5">_brightness</a></td></tr>
+<tr class="memitem:add3e8a386cf906319f921bc92fdb38f5" id="r_add3e8a386cf906319f921bc92fdb38f5"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#add3e8a386cf906319f921bc92fdb38f5">_brightness</a> = 7</td></tr>
 <tr class="separator:add3e8a386cf906319f921bc92fdb38f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fbc70a7014a1d5ad52dc489e84b87db" id="r_a5fbc70a7014a1d5ad52dc489e84b87db"><td class="memItemLeft" align="right" valign="top">const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#a5fbc70a7014a1d5ad52dc489e84b87db">_ASCIIOffset</a> = 0x20</td></tr>
+<tr class="separator:a5fbc70a7014a1d5ad52dc489e84b87db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a292fccfd13f2312ac440cb925ac55e77" id="r_a292fccfd13f2312ac440cb925ac55e77"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#a292fccfd13f2312ac440cb925ac55e77">TM1637_COMMAND_1</a> = 0x40</td></tr>
+<tr class="separator:a292fccfd13f2312ac440cb925ac55e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b356d281e6ed0133928785f5998e634" id="r_a9b356d281e6ed0133928785f5998e634"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#a9b356d281e6ed0133928785f5998e634">TM1637_COMMAND_2</a> = 0xC0</td></tr>
+<tr class="separator:a9b356d281e6ed0133928785f5998e634"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a239587eed7a3a4d7de56d99bb53ad86b" id="r_a239587eed7a3a4d7de56d99bb53ad86b"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#a239587eed7a3a4d7de56d99bb53ad86b">TM1637_COMMAND_3</a> = 0x80</td></tr>
+<tr class="separator:a239587eed7a3a4d7de56d99bb53ad86b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class for TM1637 Model 4. </p>
@@ -216,14 +228,14 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a65fcc647697734d828c70d2f53db9ed6" name="a65fcc647697734d828c70d2f53db9ed6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65fcc647697734d828c70d2f53db9ed6">&#9670;&#160;</a></span>displayBegin()</h2>
+<a id="aaf0cb337e19b55871ba8315ece77e002" name="aaf0cb337e19b55871ba8315ece77e002"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf0cb337e19b55871ba8315ece77e002">&#9670;&#160;</a></span>displayBegin()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> TM1637plus_Model4::displayBegin </td>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> TM1637plus_Model4::displayBegin </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -234,23 +246,23 @@ Private Attributes</h2></td></tr>
 
 <p>Begin method , set and claims GPIO. </p>
 <dl class="section return"><dt>Returns</dt><dd><ol type="1">
-<li>rpiDisplay_Success</li>
-<li>rpiDisplay_GpioChipDevice</li>
-<li>rpiDisplay_GpioPinClaim </li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a91050c855c6aedfc87e0adb551161bde">rdlib::GpioChipDevice</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a25a9261690270578079addf51fd5d510">rdlib::GpioPinClaim</a> </li>
 </ol>
 </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Call in Setup </dd></dl>
 
 </div>
 </div>
-<a id="adbda680264d9d1b73ec0f096d957abe7" name="adbda680264d9d1b73ec0f096d957abe7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adbda680264d9d1b73ec0f096d957abe7">&#9670;&#160;</a></span>displayClose()</h2>
+<a id="a3b3db29c4d374f09b9a8952c8e27efd6" name="a3b3db29c4d374f09b9a8952c8e27efd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b3db29c4d374f09b9a8952c8e27efd6">&#9670;&#160;</a></span>displayClose()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> TM1637plus_Model4::displayClose </td>
+          <td class="memname"><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> TM1637plus_Model4::displayClose </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -261,9 +273,9 @@ Private Attributes</h2></td></tr>
 
 <p>Close method , frees GPIO and deactivate display. </p>
 <dl class="section return"><dt>Returns</dt><dd><ol type="1">
-<li>rpiDisplay_Success</li>
-<li>rpiDisplay_GpioChipDevice</li>
-<li>rpiDisplay_GpioPinFree </li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a91050c855c6aedfc87e0adb551161bde">rdlib::GpioChipDevice</a></li>
+<li><a class="el" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5a0e40ec38e9d754b8ce795b4007f93fef">rdlib::GpioPinFree</a> </li>
 </ol>
 </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>call at end of program </dd></dl>
@@ -575,6 +587,29 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5fbc70a7014a1d5ad52dc489e84b87db" name="a5fbc70a7014a1d5ad52dc489e84b87db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fbc70a7014a1d5ad52dc489e84b87db">&#9670;&#160;</a></span>_ASCIIOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint8_t TM1637plus_Model4::_ASCIIOffset = 0x20</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Offset in the ASCII table for font Start position </p>
+
+</div>
+</div>
 <a id="a6d3988cc3e4e43c8c797b7eaf15d3d25" name="a6d3988cc3e4e43c8c797b7eaf15d3d25"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6d3988cc3e4e43c8c797b7eaf15d3d25">&#9670;&#160;</a></span>_BitDelayUS</h2>
 
@@ -608,7 +643,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t TM1637plus_Model4::_brightness</td>
+          <td class="memname">uint8_t TM1637plus_Model4::_brightness = 7</td>
         </tr>
       </table>
   </td>
@@ -618,54 +653,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Brightness level 0-7 </p>
-
-</div>
-</div>
-<a id="a1430c05cd479c16a8ceb08ab9a07dd8c" name="a1430c05cd479c16a8ceb08ab9a07dd8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1430c05cd479c16a8ceb08ab9a07dd8c">&#9670;&#160;</a></span>_CLOCK_IO</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t TM1637plus_Model4::_CLOCK_IO</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>GPIO connected to CLk on Tm1637 <br  />
- </p>
-
-</div>
-</div>
-<a id="ab2ee3f5fc9f4cc7f2bdc382a96047d87" name="ab2ee3f5fc9f4cc7f2bdc382a96047d87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2ee3f5fc9f4cc7f2bdc382a96047d87">&#9670;&#160;</a></span>_DATA_IO</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t TM1637plus_Model4::_DATA_IO</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>GPIO connected to DIO on Tm1637 <br  />
- </p>
 
 </div>
 </div>
@@ -689,6 +676,54 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>The device number of a gpiochip usually 0 , ls /dev/gpio </p>
+
+</div>
+</div>
+<a id="af9746cbae67742db428b978835199fe3" name="af9746cbae67742db428b978835199fe3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9746cbae67742db428b978835199fe3">&#9670;&#160;</a></span>_Display_SCLK</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t TM1637plus_Model4::_Display_SCLK</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>GPIO connected to CLk on Tm1637 <br  />
+ </p>
+
+</div>
+</div>
+<a id="a72f1d58507131c5b9c43ec24ffbfd627" name="a72f1d58507131c5b9c43ec24ffbfd627"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72f1d58507131c5b9c43ec24ffbfd627">&#9670;&#160;</a></span>_Display_SDATA</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t TM1637plus_Model4::_Display_SDATA</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>GPIO connected to DIO on Tm1637 <br  />
+ </p>
 
 </div>
 </div>
@@ -735,6 +770,75 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>This returns a handle to a gpiochip device. </p>
+
+</div>
+</div>
+<a id="a292fccfd13f2312ac440cb925ac55e77" name="a292fccfd13f2312ac440cb925ac55e77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a292fccfd13f2312ac440cb925ac55e77">&#9670;&#160;</a></span>TM1637_COMMAND_1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t TM1637plus_Model4::TM1637_COMMAND_1 = 0x40</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Automatic data incrementing </p>
+
+</div>
+</div>
+<a id="a9b356d281e6ed0133928785f5998e634" name="a9b356d281e6ed0133928785f5998e634"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b356d281e6ed0133928785f5998e634">&#9670;&#160;</a></span>TM1637_COMMAND_2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t TM1637plus_Model4::TM1637_COMMAND_2 = 0xC0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Data Data1~N: Transfer display data </p>
+
+</div>
+</div>
+<a id="a239587eed7a3a4d7de56d99bb53ad86b" name="a239587eed7a3a4d7de56d99bb53ad86b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a239587eed7a3a4d7de56d99bb53ad86b">&#9670;&#160;</a></span>TM1637_COMMAND_3</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t TM1637plus_Model4::TM1637_COMMAND_3 = 0x80</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Display intensity </p>
 
 </div>
 </div>

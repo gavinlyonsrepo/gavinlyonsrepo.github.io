@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.1.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -107,7 +107,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="comment">// These methods over-ride the super class.</span></div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classTM1638plus__Model3.html#a9e25cdf1d78b9f8728938dbcb0a76ad6">setLEDs</a>(uint16_t greenred) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a> <a class="code hl_function" href="classTM1638plus__Model3.html#ac46992ae1e71247fbfa458fbafdf6a79">setLED</a>(uint8_t position, uint8_t value) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keyword">virtual</span> <a class="code hl_enumeration" href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> <a class="code hl_function" href="classTM1638plus__Model3.html#ae315e774c06321feff6f7212fad6779a">setLED</a>(uint8_t position, uint8_t value) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>};</div>
 </div>
@@ -120,8 +120,8 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="aclassTM1638plus__Model3_html_a6dd49158b51e3bc4d64a974e812a09faae1a1f4c0959ed71481694da263bf0d66"><div class="ttname"><a href="classTM1638plus__Model3.html#a6dd49158b51e3bc4d64a974e812a09faae1a1f4c0959ed71481694da263bf0d66">TM1638plus_Model3::TM_OFF_LED</a></div><div class="ttdeci">@ TM_OFF_LED</div><div class="ttdef"><b>Definition</b> TM1638plus_Model3_RDL.hpp:24</div></div>
 <div class="ttc" id="aclassTM1638plus__Model3_html_a6dd49158b51e3bc4d64a974e812a09faaead6a8807900346181f3907e5a8530ec"><div class="ttname"><a href="classTM1638plus__Model3.html#a6dd49158b51e3bc4d64a974e812a09faaead6a8807900346181f3907e5a8530ec">TM1638plus_Model3::TM_RED_LED</a></div><div class="ttdeci">@ TM_RED_LED</div><div class="ttdef"><b>Definition</b> TM1638plus_Model3_RDL.hpp:22</div></div>
 <div class="ttc" id="aclassTM1638plus__Model3_html_a9e25cdf1d78b9f8728938dbcb0a76ad6"><div class="ttname"><a href="classTM1638plus__Model3.html#a9e25cdf1d78b9f8728938dbcb0a76ad6">TM1638plus_Model3::setLEDs</a></div><div class="ttdeci">virtual void setLEDs(uint16_t greenred) override</div><div class="ttdoc">Set the LEDs. passed one 16bit integer.</div><div class="ttdef"><b>Definition</b> TM1638plus_Model3_RDL.cpp:52</div></div>
-<div class="ttc" id="aclassTM1638plus__Model3_html_ac46992ae1e71247fbfa458fbafdf6a79"><div class="ttname"><a href="classTM1638plus__Model3.html#ac46992ae1e71247fbfa458fbafdf6a79">TM1638plus_Model3::setLED</a></div><div class="ttdeci">virtual rpiDisplay_Return_Codes_e setLED(uint8_t position, uint8_t value) override</div><div class="ttdoc">Set one LED on or off Model 3.</div><div class="ttdef"><b>Definition</b> TM1638plus_Model3_RDL.cpp:28</div></div>
-<div class="ttc" id="acommon__data__RDL_8hpp_html_a638e2b542fd45f9cf769398b800a7514"><div class="ttname"><a href="common__data__RDL_8hpp.html#a638e2b542fd45f9cf769398b800a7514">rpiDisplay_Return_Codes_e</a></div><div class="ttdeci">rpiDisplay_Return_Codes_e</div><div class="ttdef"><b>Definition</b> common_data_RDL.hpp:24</div></div>
+<div class="ttc" id="aclassTM1638plus__Model3_html_ae315e774c06321feff6f7212fad6779a"><div class="ttname"><a href="classTM1638plus__Model3.html#ae315e774c06321feff6f7212fad6779a">TM1638plus_Model3::setLED</a></div><div class="ttdeci">virtual rdlib::Return_Codes_e setLED(uint8_t position, uint8_t value) override</div><div class="ttdoc">Set one LED on or off Model 3.</div><div class="ttdef"><b>Definition</b> TM1638plus_Model3_RDL.cpp:28</div></div>
+<div class="ttc" id="acommon__data__RDL_8hpp_html_a845aeef87d4b9da5c3b3c7d942bf65d5"><div class="ttname"><a href="common__data__RDL_8hpp.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a></div><div class="ttdeci">Return_Codes_e</div><div class="ttdef"><b>Definition</b> common_data_RDL.hpp:21</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

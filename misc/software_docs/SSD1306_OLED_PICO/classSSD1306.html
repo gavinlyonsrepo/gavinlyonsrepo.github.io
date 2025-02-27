@@ -528,9 +528,6 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>S
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_attribs_classSSD1306__OLEDFonts"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classSSD1306__OLEDFonts')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classSSD1306__OLEDFonts.html">SSD1306_OLEDFonts</a></td></tr>
-<tr class="memitem:a67bc12b3d20b48506261861ca2ded0cd inherit pub_attribs_classSSD1306__OLEDFonts" id="r_a67bc12b3d20b48506261861ca2ded0cd"><td class="memItemLeft" align="right" valign="top">std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__OLEDFonts.html#a67bc12b3d20b48506261861ca2ded0cd">_FontSelect</a> = pFontDefault</td></tr>
-<tr class="separator:a67bc12b3d20b48506261861ca2ded0cd inherit pub_attribs_classSSD1306__OLEDFonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classPrint"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classPrint')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classPrint.html">Print</a></td></tr>
 <tr class="memitem:a46656410e23c0ec14d7a01b38b3b6f00 inherit pro_methods_classPrint" id="r_a46656410e23c0ec14d7a01b38b3b6f00"><td class="memItemLeft" align="right" valign="top">
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (int err=1)</td></tr>
@@ -553,6 +550,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 <tr class="memitem:ad8801f34cc491a8e0b6056e3ea293f7c inherit pro_attribs_classSSD1306__graphics" id="r_ad8801f34cc491a8e0b6056e3ea293f7c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__graphics.html#ad8801f34cc491a8e0b6056e3ea293f7c">_textwrap</a> = true</td></tr>
 <tr class="separator:ad8801f34cc491a8e0b6056e3ea293f7c inherit pro_attribs_classSSD1306__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classSSD1306__OLEDFonts"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classSSD1306__OLEDFonts')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classSSD1306__OLEDFonts.html">SSD1306_OLEDFonts</a></td></tr>
+<tr class="memitem:a67bc12b3d20b48506261861ca2ded0cd inherit pro_attribs_classSSD1306__OLEDFonts" id="r_a67bc12b3d20b48506261861ca2ded0cd"><td class="memItemLeft" align="right" valign="top">std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__OLEDFonts.html#a67bc12b3d20b48506261861ca2ded0cd">_FontSelect</a> = pFontDefault</td></tr>
+<tr class="separator:a67bc12b3d20b48506261861ca2ded0cd inherit pro_attribs_classSSD1306__OLEDFonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2599430efd550b071ce8940ebff1b7c inherit pro_attribs_classSSD1306__OLEDFonts" id="r_ad2599430efd550b071ce8940ebff1b7c"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__OLEDFonts.html#ad2599430efd550b071ce8940ebff1b7c">_Font_X_Size</a> = 0x06</td></tr>
 <tr class="separator:ad2599430efd550b071ce8940ebff1b7c inherit pro_attribs_classSSD1306__OLEDFonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd81ebfefafc345a266cedd4ba4a9050 inherit pro_attribs_classSSD1306__OLEDFonts" id="r_acd81ebfefafc345a266cedd4ba4a9050"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSSD1306__OLEDFonts.html#acd81ebfefafc345a266cedd4ba4a9050">_Font_Y_Size</a> = 0x08</td></tr>
@@ -1001,7 +1000,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (in
 <li>BitmapHorizontalSize Check Horizontal bitmap size </li>
 </ol>
 </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>bitmap data must be horizontally addressed and height divisible by 8 </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>bitmap data must be horizontally addressed and width divisible by 8 </dd></dl>
 
 </div>
 </div>
