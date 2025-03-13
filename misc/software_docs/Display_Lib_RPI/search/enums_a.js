@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['textalignment_5fe_0',['TextAlignment_e',['../classMAX7219__SS__RPI.html#a375b0775632361fe21d29133007547d9',1,'MAX7219_SS_RPI']]],
+  ['textalignment_5fe_0',['textalignment_e',['../classHT16K33plus__Model1.html#a105e79d78e68c0054a03d543a10bf984',1,'HT16K33plus_Model1::TextAlignment_e'],['../classMAX7219__SS__RPI.html#a375b0775632361fe21d29133007547d9',1,'MAX7219_SS_RPI::TextAlignment_e']]],
   ['tft_5fmodes_5fe_1',['TFT_modes_e',['../classST7735__TFT.html#a09ec4c00dbd2e041b2f42623349d4647',1,'ST7735_TFT']]],
   ['tft_5fpcbtype_5fe_2',['TFT_PCBtype_e',['../classST7735__TFT.html#a25e12505b778035ea78e5fe872fef392',1,'ST7735_TFT']]],
   ['tmcommands_3',['TMCommands',['../classTM1638plus__common.html#abce475e9cc0fa220439c7f72fff9e333',1,'TM1638plus_common']]],

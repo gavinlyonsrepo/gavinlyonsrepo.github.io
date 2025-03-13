@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.3.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -89,7 +89,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structXPT__2046__RDL_1_1TouchPoint.html">TouchPoint</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structXPT__2046__RDL_1_1Touch__Point__t.html">Touch_Point_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure representing a touch point on the screen. This structure is used to define a touch area on the screen, x1<code>and</code>x2<code>represent the horizontal boundaries of the touch region. y1</code> and <code>y2</code> represent the vertical boundaries of the touch region. The <code>id</code> field is used to uniquely identify the touch point.  <a href="structXPT__2046__RDL_1_1Touch__Point__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -115,15 +116,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab57168c85245cce28067c13af6dbdeac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6431a32c078d465ad19e834fe2bedcd" id="r_ac6431a32c078d465ad19e834fe2bedcd"><td class="memItemLeft" align="right" valign="top"><a id="ac6431a32c078d465ad19e834fe2bedcd" name="ac6431a32c078d465ad19e834fe2bedcd"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>XPTInitValues</b> ()</td></tr>
+<tr class="memdesc:ac6431a32c078d465ad19e834fe2bedcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">init values <br /></td></tr>
 <tr class="separator:ac6431a32c078d465ad19e834fe2bedcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e5162cdc647d56f0c1a181f62f74b82" id="r_a7e5162cdc647d56f0c1a181f62f74b82"><td class="memItemLeft" align="right" valign="top"><a id="a7e5162cdc647d56f0c1a181f62f74b82" name="a7e5162cdc647d56f0c1a181f62f74b82"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>XPTPrintValues</b> ()</td></tr>
+<tr class="memdesc:a7e5162cdc647d56f0c1a181f62f74b82"><td class="mdescLeft">&#160;</td><td class="mdescRight">print the touch point values if debug enabled <br /></td></tr>
 <tr class="separator:a7e5162cdc647d56f0c1a181f62f74b82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d6cf19cb15c7fddced73d3b5203b5cc" id="r_a5d6cf19cb15c7fddced73d3b5203b5cc"><td class="memItemLeft" align="right" valign="top"><a id="a5d6cf19cb15c7fddced73d3b5203b5cc" name="a5d6cf19cb15c7fddced73d3b5203b5cc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>XPTSetPoint</b> (uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t id)</td></tr>
+<tr class="memitem:a5d6cf19cb15c7fddced73d3b5203b5cc" id="r_a5d6cf19cb15c7fddced73d3b5203b5cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#a5d6cf19cb15c7fddced73d3b5203b5cc">XPTSetPoint</a> (uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t id)</td></tr>
+<tr class="memdesc:a5d6cf19cb15c7fddced73d3b5203b5cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the touch points for the XPT_2046 touch controller.  <br /></td></tr>
 <tr class="separator:a5d6cf19cb15c7fddced73d3b5203b5cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff2095d79eee4957476253bd48ce4825" id="r_aff2095d79eee4957476253bd48ce4825"><td class="memItemLeft" align="right" valign="top"><a id="aff2095d79eee4957476253bd48ce4825" name="aff2095d79eee4957476253bd48ce4825"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>XPTGetPoint</b> ()</td></tr>
+<tr class="memitem:aff2095d79eee4957476253bd48ce4825" id="r_aff2095d79eee4957476253bd48ce4825"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#aff2095d79eee4957476253bd48ce4825">XPTGetPoint</a> ()</td></tr>
+<tr class="memdesc:aff2095d79eee4957476253bd48ce4825"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the touch point ID based on the current touch coordinates.  <br /></td></tr>
 <tr class="separator:aff2095d79eee4957476253bd48ce4825"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
@@ -137,23 +140,17 @@ Static Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:af71c38d94b047fce68a32916e94a9732" id="r_af71c38d94b047fce68a32916e94a9732"><td class="memItemLeft" align="right" valign="top"><a id="af71c38d94b047fce68a32916e94a9732" name="af71c38d94b047fce68a32916e94a9732"></a>
-uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>tpc</b></td></tr>
+<tr class="memitem:af71c38d94b047fce68a32916e94a9732" id="r_af71c38d94b047fce68a32916e94a9732"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#af71c38d94b047fce68a32916e94a9732">tpc</a></td></tr>
 <tr class="separator:af71c38d94b047fce68a32916e94a9732"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2db86f5c732f2b9460d8e39cf7ed93b" id="r_ab2db86f5c732f2b9460d8e39cf7ed93b"><td class="memItemLeft" align="right" valign="top"><a id="ab2db86f5c732f2b9460d8e39cf7ed93b" name="ab2db86f5c732f2b9460d8e39cf7ed93b"></a>
-uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>tpx</b></td></tr>
+<tr class="memitem:ab2db86f5c732f2b9460d8e39cf7ed93b" id="r_ab2db86f5c732f2b9460d8e39cf7ed93b"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#ab2db86f5c732f2b9460d8e39cf7ed93b">tpx</a></td></tr>
 <tr class="separator:ab2db86f5c732f2b9460d8e39cf7ed93b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66fa5b7eb28f5366328f4cc757ca6c06" id="r_a66fa5b7eb28f5366328f4cc757ca6c06"><td class="memItemLeft" align="right" valign="top"><a id="a66fa5b7eb28f5366328f4cc757ca6c06" name="a66fa5b7eb28f5366328f4cc757ca6c06"></a>
-time_t&#160;</td><td class="memItemRight" valign="bottom"><b>lsec</b></td></tr>
+<tr class="memitem:a66fa5b7eb28f5366328f4cc757ca6c06" id="r_a66fa5b7eb28f5366328f4cc757ca6c06"><td class="memItemLeft" align="right" valign="top">time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#a66fa5b7eb28f5366328f4cc757ca6c06">lsec</a></td></tr>
 <tr class="separator:a66fa5b7eb28f5366328f4cc757ca6c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fb6754880b0b298818632e6457d0c62" id="r_a7fb6754880b0b298818632e6457d0c62"><td class="memItemLeft" align="right" valign="top"><a id="a7fb6754880b0b298818632e6457d0c62" name="a7fb6754880b0b298818632e6457d0c62"></a>
-suseconds_t&#160;</td><td class="memItemRight" valign="bottom"><b>lusec</b></td></tr>
+<tr class="memitem:a7fb6754880b0b298818632e6457d0c62" id="r_a7fb6754880b0b298818632e6457d0c62"><td class="memItemLeft" align="right" valign="top">suseconds_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#a7fb6754880b0b298818632e6457d0c62">lusec</a></td></tr>
 <tr class="separator:a7fb6754880b0b298818632e6457d0c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6785934d3e3a66f32cc2547ee0cfeca" id="r_af6785934d3e3a66f32cc2547ee0cfeca"><td class="memItemLeft" align="right" valign="top"><a id="af6785934d3e3a66f32cc2547ee0cfeca" name="af6785934d3e3a66f32cc2547ee0cfeca"></a>
-<a class="el" href="structXPT__2046__RDL_1_1TouchPoint.html">TouchPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><b>tps</b> [<a class="el" href="classXPT__2046__RDL.html#acf4ebd49fa8a29732f80d42fb0932e3c">MaxTouchPoints</a>]</td></tr>
-<tr class="separator:af6785934d3e3a66f32cc2547ee0cfeca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac93c0b77f25888c13cbf9c904483403f" id="r_ac93c0b77f25888c13cbf9c904483403f"><td class="memItemLeft" align="right" valign="top"><a id="ac93c0b77f25888c13cbf9c904483403f" name="ac93c0b77f25888c13cbf9c904483403f"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_calibration</b></td></tr>
+<tr class="memitem:a8348903e207f90c50b86b68326cb0fb4" id="r_a8348903e207f90c50b86b68326cb0fb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structXPT__2046__RDL_1_1Touch__Point__t.html">Touch_Point_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#a8348903e207f90c50b86b68326cb0fb4">tps</a> [<a class="el" href="classXPT__2046__RDL.html#acf4ebd49fa8a29732f80d42fb0932e3c">MaxTouchPoints</a>]</td></tr>
+<tr class="separator:a8348903e207f90c50b86b68326cb0fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac93c0b77f25888c13cbf9c904483403f" id="r_ac93c0b77f25888c13cbf9c904483403f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#ac93c0b77f25888c13cbf9c904483403f">_calibration</a></td></tr>
 <tr class="separator:ac93c0b77f25888c13cbf9c904483403f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e9c6be6fb5af57d46d47c6f6da1198f" id="r_a6e9c6be6fb5af57d46d47c6f6da1198f"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#a6e9c6be6fb5af57d46d47c6f6da1198f">_min_xp</a></td></tr>
 <tr class="separator:a6e9c6be6fb5af57d46d47c6f6da1198f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,8 +180,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_calibration</b></td>
 <tr class="separator:a35c729969c349163dd87db922368023f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bd26ab29ac89b50ff86644b21855de9" id="r_a2bd26ab29ac89b50ff86644b21855de9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#a2bd26ab29ac89b50ff86644b21855de9">_DeviceNumGpioChip</a> = 0</td></tr>
 <tr class="separator:a2bd26ab29ac89b50ff86644b21855de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ab788fcf18be55b28166aa9d74ead3a" id="r_a7ab788fcf18be55b28166aa9d74ead3a"><td class="memItemLeft" align="right" valign="top"><a id="a7ab788fcf18be55b28166aa9d74ead3a" name="a7ab788fcf18be55b28166aa9d74ead3a"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>_GpioHandle</b> = 0</td></tr>
+<tr class="memitem:a7ab788fcf18be55b28166aa9d74ead3a" id="r_a7ab788fcf18be55b28166aa9d74ead3a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#a7ab788fcf18be55b28166aa9d74ead3a">_GpioHandle</a> = 0</td></tr>
 <tr class="separator:a7ab788fcf18be55b28166aa9d74ead3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22af328e1e2cdb54bcdfb5715f571db2" id="r_a22af328e1e2cdb54bcdfb5715f571db2"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXPT__2046__RDL.html#a22af328e1e2cdb54bcdfb5715f571db2">_RESET_PIN</a> = 0</td></tr>
 <tr class="separator:a22af328e1e2cdb54bcdfb5715f571db2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -211,6 +207,27 @@ Static Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class to interface hardware of Touch point IC XPT2046. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aff2095d79eee4957476253bd48ce4825" name="aff2095d79eee4957476253bd48ce4825"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff2095d79eee4957476253bd48ce4825">&#9670;&#160;</a></span>XPTGetPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int XPT_2046_RDL::XPTGetPoint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the touch point ID based on the current touch coordinates. </p>
+<p>This function reads the X and Y touch coordinates, performs a range check, and then scales the coordinates based on predefined minimum and maximum values for both the touch screen and the display. It ensures no double-touch is registered by checking the time between touch events, and returns the ID of the touch point if it lies within the specified touch areas.</p>
+<dl class="section return"><dt>Returns</dt><dd>The ID of the touch point if it lies within a valid region, or -1 if no valid touch is detected or double-touch is detected. </dd></dl>
+
+</div>
+</div>
 <a id="a3f0c03d688d4e23570620a609229c3e5" name="a3f0c03d688d4e23570620a609229c3e5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3f0c03d688d4e23570620a609229c3e5">&#9670;&#160;</a></span>XPTIRQIsPressed()</h2>
 
@@ -241,13 +258,19 @@ Static Private Attributes</h2></td></tr>
           <td class="memname">int XPT_2046_RDL::XPTReadSensor </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>Command</em></td><td>)</td>
+          <td class="paramname"><em>command</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Read the touch screen sensor Data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">command</td><td>the x or y position </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>The readbuffer data </dd></dl>
 
 </div>
@@ -283,6 +306,65 @@ Static Private Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">xp</td><td>the X position </td></tr>
     <tr><td class="paramname">yp</td><td>the Y position </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5d6cf19cb15c7fddced73d3b5203b5cc" name="a5d6cf19cb15c7fddced73d3b5203b5cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d6cf19cb15c7fddced73d3b5203b5cc">&#9670;&#160;</a></span>XPTSetPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void XPT_2046_RDL::XPTSetPoint </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>x1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>y1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>x2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>y2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the touch points for the XPT_2046 touch controller. </p>
+<p>This function updates the touch point coordinates (<code>x1</code>, <code>y1</code>, <code>x2</code>, <code>y2</code>) and touch point ID (<code>id</code>) for the touch controller. It ensures the coordinates are correctly ordered, swapping values if necessary (i.e., making sure that <code>x1 &lt;= x2</code> and <code>y1 &lt;= y2</code>). The function then stores the updated values into the <code>tps</code> array at the current <code>tpc</code> index, and increments <code>tpc</code> to move to the next index.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x1</td><td>The first x-coordinate to set. </td></tr>
+    <tr><td class="paramname">y1</td><td>The first y-coordinate to set. </td></tr>
+    <tr><td class="paramname">x2</td><td>The second x-coordinate to set. </td></tr>
+    <tr><td class="paramname">y2</td><td>The second y-coordinate to set. </td></tr>
+    <tr><td class="paramname">id</td><td>The identifier for the touch point. </td></tr>
   </table>
   </dd>
 </dl>
@@ -379,7 +461,8 @@ Static Private Attributes</h2></td></tr>
     <tr><td class="paramname">channel</td><td>A SPI channel, &gt;= 0. </td></tr>
     <tr><td class="paramname">speed</td><td>The speed of serial communication in bits per second. </td></tr>
     <tr><td class="paramname">flags</td><td>The flags may be used to modify the default behaviour. Set to 0(mode 0) for this device. </td></tr>
-    <tr><td class="paramname">gpioDev</td><td>The device number of a gpiochip. 4 for RPI5, 0 for RPI3 </td></tr>
+    <tr><td class="paramname">gpioDev</td><td>The device number of a gpiochip. <br  />
+ </td></tr>
     <tr><td class="paramname">IRQPin</td><td>The GPIO to use for interrupt eg T_IRQ on ili9341 PCB </td></tr>
     <tr><td class="paramname">resPin</td><td>GPIO for reset pin MOSI only needed if SPI not already on by TFT set to -1 normally </td></tr>
   </table>
@@ -396,6 +479,29 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac93c0b77f25888c13cbf9c904483403f" name="ac93c0b77f25888c13cbf9c904483403f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac93c0b77f25888c13cbf9c904483403f">&#9670;&#160;</a></span>_calibration</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool XPT_2046_RDL::_calibration</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Calibration flag </p>
+
+</div>
+</div>
 <a id="a2bd26ab29ac89b50ff86644b21855de9" name="a2bd26ab29ac89b50ff86644b21855de9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2bd26ab29ac89b50ff86644b21855de9">&#9670;&#160;</a></span>_DeviceNumGpioChip</h2>
 
@@ -416,6 +522,30 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>The device number of a gpiochip ls /dev/gpio </p>
+
+</div>
+</div>
+<a id="a7ab788fcf18be55b28166aa9d74ead3a" name="a7ab788fcf18be55b28166aa9d74ead3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ab788fcf18be55b28166aa9d74ead3a">&#9670;&#160;</a></span>_GpioHandle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int XPT_2046_RDL::_GpioHandle = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This holds a handle to a gpiochip device opened by lgGpiochipOpen <br  />
+ </p>
 
 </div>
 </div>
@@ -645,8 +775,7 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This holds a handle to a gpiochip device opened by lgGpiochipOpen <br  />
- Reset pin for SPI </p>
+<p>Reset pin for SPI </p>
 
 </div>
 </div>
@@ -811,6 +940,52 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a66fa5b7eb28f5366328f4cc757ca6c06" name="a66fa5b7eb28f5366328f4cc757ca6c06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66fa5b7eb28f5366328f4cc757ca6c06">&#9670;&#160;</a></span>lsec</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">time_t XPT_2046_RDL::lsec</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Last recorded second for touch event timestamp </p>
+
+</div>
+</div>
+<a id="a7fb6754880b0b298818632e6457d0c62" name="a7fb6754880b0b298818632e6457d0c62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fb6754880b0b298818632e6457d0c62">&#9670;&#160;</a></span>lusec</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">suseconds_t XPT_2046_RDL::lusec</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Last recorded microsecond for touch event timestamp </p>
+
+</div>
+</div>
 <a id="a6b15aed062d2d95ec9258cd7dc51bfb2" name="a6b15aed062d2d95ec9258cd7dc51bfb2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6b15aed062d2d95ec9258cd7dc51bfb2">&#9670;&#160;</a></span>MAX_LEN_BUFFER</h2>
 
@@ -854,6 +1029,75 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Maximum Number of Touch point's to record </p>
+
+</div>
+</div>
+<a id="af71c38d94b047fce68a32916e94a9732" name="af71c38d94b047fce68a32916e94a9732"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af71c38d94b047fce68a32916e94a9732">&#9670;&#160;</a></span>tpc</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t XPT_2046_RDL::tpc</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Number of touch points stored </p>
+
+</div>
+</div>
+<a id="a8348903e207f90c50b86b68326cb0fb4" name="a8348903e207f90c50b86b68326cb0fb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8348903e207f90c50b86b68326cb0fb4">&#9670;&#160;</a></span>tps</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structXPT__2046__RDL_1_1Touch__Point__t.html">Touch_Point_t</a> XPT_2046_RDL::tps[<a class="el" href="classXPT__2046__RDL.html#acf4ebd49fa8a29732f80d42fb0932e3c">MaxTouchPoints</a>]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Array of touch points </p>
+
+</div>
+</div>
+<a id="ab2db86f5c732f2b9460d8e39cf7ed93b" name="ab2db86f5c732f2b9460d8e39cf7ed93b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2db86f5c732f2b9460d8e39cf7ed93b">&#9670;&#160;</a></span>tpx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t XPT_2046_RDL::tpx</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Maximum number of touch points </p>
 
 </div>
 </div>

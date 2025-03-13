@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.3.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -103,9 +103,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4a9e37d8d6dc8764c711dcc4c3768008" id="r_a4a9e37d8d6dc8764c711dcc4c3768008"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1638plus__Model1.html#a4a9e37d8d6dc8764c711dcc4c3768008">readButtons</a> (void)</td></tr>
 <tr class="memdesc:a4a9e37d8d6dc8764c711dcc4c3768008"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read buttons values from display.  <br /></td></tr>
 <tr class="separator:a4a9e37d8d6dc8764c711dcc4c3768008"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ee61a9dbc7cbedcfb1cf4f0208bd4aa" id="r_a9ee61a9dbc7cbedcfb1cf4f0208bd4aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1638plus__Model1.html#a9ee61a9dbc7cbedcfb1cf4f0208bd4aa">displayText</a> (const char *text)</td></tr>
-<tr class="memdesc:a9ee61a9dbc7cbedcfb1cf4f0208bd4aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display a text string on display.  <br /></td></tr>
-<tr class="separator:a9ee61a9dbc7cbedcfb1cf4f0208bd4aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae97f7eeb5ca770889206836871a73efa" id="r_ae97f7eeb5ca770889206836871a73efa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1638plus__Model1.html#ae97f7eeb5ca770889206836871a73efa">displayText</a> (const char *text)</td></tr>
+<tr class="memdesc:ae97f7eeb5ca770889206836871a73efa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display a text string on display.  <br /></td></tr>
+<tr class="separator:ae97f7eeb5ca770889206836871a73efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac73314d9d40fe64fff4c1e04c82695ba" id="r_ac73314d9d40fe64fff4c1e04c82695ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1638plus__Model1.html#ac73314d9d40fe64fff4c1e04c82695ba">displayASCII</a> (uint8_t position, uint8_t ascii)</td></tr>
 <tr class="memdesc:ac73314d9d40fe64fff4c1e04c82695ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display an ASCII character on display.  <br /></td></tr>
 <tr class="separator:ac73314d9d40fe64fff4c1e04c82695ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -254,7 +254,8 @@ Additional Inherited Members</h2></td></tr>
     <tr><td class="paramname">strobe</td><td>GPIO STB pin </td></tr>
     <tr><td class="paramname">clock</td><td>GPIO CLK pin </td></tr>
     <tr><td class="paramname">data</td><td>GPIO DIO pin </td></tr>
-    <tr><td class="paramname">gpioDev</td><td>The device number of a gpiochip. 4 for RPI5, 0 for RPI3 </td></tr>
+    <tr><td class="paramname">gpioDev</td><td>The device number of a gpiochip. <br  />
+ </td></tr>
   </table>
   </dd>
 </dl>
@@ -496,14 +497,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a9ee61a9dbc7cbedcfb1cf4f0208bd4aa" name="a9ee61a9dbc7cbedcfb1cf4f0208bd4aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ee61a9dbc7cbedcfb1cf4f0208bd4aa">&#9670;&#160;</a></span>displayText()</h2>
+<a id="ae97f7eeb5ca770889206836871a73efa" name="ae97f7eeb5ca770889206836871a73efa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae97f7eeb5ca770889206836871a73efa">&#9670;&#160;</a></span>displayText()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void TM1638plus_Model1::displayText </td>
+          <td class="memname"><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> TM1638plus_Model1::displayText </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>text</em></td><td>)</td>
@@ -519,6 +520,7 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>error code if string is nullptr or too long </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Dots are removed from string and dot on preceding digit switched on "abc.def" will be shown as "abcdef" with c decimal point turned on. </dd></dl>
 
 </div>

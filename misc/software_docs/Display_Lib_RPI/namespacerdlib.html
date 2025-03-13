@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.3.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -119,6 +119,9 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a0e40ec38e9d754b8ce795b4007f93fef">GpioPinFree</a> = 25
 , <a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a65da6eddcff882b550b60c841cc4c243">WrongModeChosen</a> = 26
 , <a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5ac39046017118863bcc2c856621493f2e">GenericError</a> = 27
+, <br />
+&#160;&#160;<a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5af5a664ab4ca81f7bb8c3eca2b068de49">UnknownError</a> = 28
+, <a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a80a925ef3cd454fe1f72fcdc0cb2bdee">InvalidRAMLocation</a> = 29
 <br />
  }</td></tr>
 <tr class="separator:a845aeef87d4b9da5c3b3c7d942bf65d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,8 +137,8 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:abf6551dfb3aea3d4622213b392007d4e" id="r_abf6551dfb3aea3d4622213b392007d4e"><td class="memItemLeft" align="right" valign="top">constexpr std::array&lt; const char *, 28 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacerdlib.html#abf6551dfb3aea3d4622213b392007d4e">ReturnCodesStrings</a></td></tr>
-<tr class="separator:abf6551dfb3aea3d4622213b392007d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91cd4a91de01f7ee989f880efa89bcc7" id="r_a91cd4a91de01f7ee989f880efa89bcc7"><td class="memItemLeft" align="right" valign="top">constexpr std::array&lt; const char *, 30 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacerdlib.html#a91cd4a91de01f7ee989f880efa89bcc7">ReturnCodesStrings</a></td></tr>
+<tr class="separator:a91cd4a91de01f7ee989f880efa89bcc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Name space for common utilities. </p>
@@ -179,7 +182,7 @@ Variables</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5aae88a0633cfdb97ae029a04d28830b81" name="a845aeef87d4b9da5c3b3c7d942bf65d5aae88a0633cfdb97ae029a04d28830b81"></a>BitmapSize&#160;</td><td class="fielddoc"><p>Size of the Bitmap is incorrect: <a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5aae88a0633cfdb97ae029a04d28830b81">BitmapSize(vertical)</a>!=(w*(h/8),<a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5aae88a0633cfdb97ae029a04d28830b81">BitmapSize(horizontal)</a>!=(w/8)*h </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a09ef45fc00c89daf1ac08c9f52792742" name="a845aeef87d4b9da5c3b3c7d942bf65d5a09ef45fc00c89daf1ac08c9f52792742"></a>CustomCharLen&#160;</td><td class="fielddoc"><p>CustomChar array must always be 5 bytes long </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a09ef45fc00c89daf1ac08c9f52792742" name="a845aeef87d4b9da5c3b3c7d942bf65d5a09ef45fc00c89daf1ac08c9f52792742"></a>CustomCharLen&#160;</td><td class="fielddoc"><p>Char array is incorrect size </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a9fc4d37392d1d2039ad916a01398d25d" name="a845aeef87d4b9da5c3b3c7d942bf65d5a9fc4d37392d1d2039ad916a01398d25d"></a>BufferSize&#160;</td><td class="fielddoc"><p>Size of the Buffer is incorrect: <a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a9fc4d37392d1d2039ad916a01398d25d">BufferSize(vertical)</a>!=(w*(h/8) </p>
 </td></tr>
@@ -207,7 +210,11 @@ Variables</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a65da6eddcff882b550b60c841cc4c243" name="a845aeef87d4b9da5c3b3c7d942bf65d5a65da6eddcff882b550b60c841cc4c243"></a>WrongModeChosen&#160;</td><td class="fielddoc"><p>Wrong SPI communication mode chosen by user </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5ac39046017118863bcc2c856621493f2e" name="a845aeef87d4b9da5c3b3c7d942bf65d5ac39046017118863bcc2c856621493f2e"></a>GenericError&#160;</td><td class="fielddoc"><p>Generic Error message </p>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5ac39046017118863bcc2c856621493f2e" name="a845aeef87d4b9da5c3b3c7d942bf65d5ac39046017118863bcc2c856621493f2e"></a>GenericError&#160;</td><td class="fielddoc"><p>Generic Error message, for minor errors </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5af5a664ab4ca81f7bb8c3eca2b068de49" name="a845aeef87d4b9da5c3b3c7d942bf65d5af5a664ab4ca81f7bb8c3eca2b068de49"></a>UnknownError&#160;</td><td class="fielddoc"><p>For Unknown Errors </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a845aeef87d4b9da5c3b3c7d942bf65d5a80a925ef3cd454fe1f72fcdc0cb2bdee" name="a845aeef87d4b9da5c3b3c7d942bf65d5a80a925ef3cd454fe1f72fcdc0cb2bdee"></a>InvalidRAMLocation&#160;</td><td class="fielddoc"><p>Invalid Display RAM location </p>
 </td></tr>
 </table>
 
@@ -258,12 +265,13 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>A String containing the error enum and message </dd></dl>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="abf6551dfb3aea3d4622213b392007d4e" name="abf6551dfb3aea3d4622213b392007d4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf6551dfb3aea3d4622213b392007d4e">&#9670;&#160;</a></span>ReturnCodesStrings</h2>
+<a id="a91cd4a91de01f7ee989f880efa89bcc7" name="a91cd4a91de01f7ee989f880efa89bcc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91cd4a91de01f7ee989f880efa89bcc7">&#9670;&#160;</a></span>ReturnCodesStrings</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -272,7 +280,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr std::array&lt;const char*, 28&gt; rdlib::ReturnCodesStrings</td>
+          <td class="memname">constexpr std::array&lt;const char*, 30&gt; rdlib::ReturnCodesStrings</td>
         </tr>
       </table>
   </td>
@@ -281,37 +289,8 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <span class="stringliteral">&quot;Success, Function ran without defined Error&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;Reserved, Reserved for future use&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;WrongFont, Wrong Font selected&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;CharScreenBounds, Text Character is out of Screen bounds, Check x and y&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;CharFontASCIIRange, Text Character is outside of chosen Fonts ASCII range, Check the selected Fonts ASCII range&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;CharArrayNullptr, Text Character Array is an invalid pointer object&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;FontDataEmpty, Span to the font data is an empty object&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;BitmapDataEmpty, The Bitmap span is an empty object&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;BitmapScreenBounds, The Bitmap starting point is outside screen bounds, check x and y&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;BitmapLargerThanScreen, The Bitmap is larger than screen, check w and h&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;BitmapVerticalSize, A vertical Bitmap&#39;s height must be divisible by 8&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;BitmapHorizontalSize, A horizontal Bitmap&#39;s width must be divisible by 8&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;BitmapSize, Size of the Bitmap is incorrect: BitmapSize(vertical)!=(w*(h/8), BitmapSize(horizontal)!=(w/8)*h&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;CustomCharLen, CustomChar array must always be 5 bytes long&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;BufferSize, Size of the Buffer is incorrect: BufferSize(vertical)!=(w*(h/8)&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;BufferEmpty, The Buffer span is an empty object&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;SPIOpenFailure, Failed to open HW SPI, lgpio&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;SPICloseFailure, Failed to close HW SPI, lgpio&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;I2CbeginFail, Failed to open I2C, lgpio&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;I2CcloseFail, Failed to close I2C, lgpio&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;ShapeScreenBounds, Shape is outside screen bounds, check x and y&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;MemoryAError, Could not assign memory&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;WrongInputPCBType, Wrong input PCB type chosen&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;GpioChipDevice, Failed to open or close GPIO chip device, lgpio&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;GpioPinClaim, Failed to claim a GPIO for output or input, lgpio&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;GpioPinFree, Failed to free a GPIO for output or input, lgpio&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;WrongModeChosen, Wrong SPI communication mode chosen by user&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;GenericError, Generic Error message&quot;</span></div>
-<div class="line">}</div>
-</div><!-- fragment -->
+<p>String array to hold error data so user if in possession of an error code can print out message , the message consists of the enum label and its associated comment </p>
+
 </div>
 </div>
 </div><!-- contents -->

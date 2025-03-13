@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.3.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -113,9 +113,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>displayClear</b> (voi
 <tr class="memitem:a956063e8fbae2da44924eac313b3e5d9" id="r_a956063e8fbae2da44924eac313b3e5d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#a956063e8fbae2da44924eac313b3e5d9">DisplayDecimalwDot</a> (int num, uint8_t dots, bool leading_zero, uint8_t length, uint8_t pos)</td></tr>
 <tr class="memdesc:a956063e8fbae2da44924eac313b3e5d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays a decimal number, with decimal point control.  <br /></td></tr>
 <tr class="separator:a956063e8fbae2da44924eac313b3e5d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a691f1796bcb9f2b6ed62bcec71ce2048" id="r_a691f1796bcb9f2b6ed62bcec71ce2048"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#a691f1796bcb9f2b6ed62bcec71ce2048">DisplayString</a> (const char *numStr, uint8_t dots, uint8_t length, uint8_t position)</td></tr>
-<tr class="memdesc:a691f1796bcb9f2b6ed62bcec71ce2048"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays a character array.  <br /></td></tr>
-<tr class="separator:a691f1796bcb9f2b6ed62bcec71ce2048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace96ee63bde0fab949224c746e30dfae" id="r_ace96ee63bde0fab949224c746e30dfae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#ace96ee63bde0fab949224c746e30dfae">DisplayString</a> (const char *numStr, uint8_t dots, uint8_t length, uint8_t position)</td></tr>
+<tr class="memdesc:ace96ee63bde0fab949224c746e30dfae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays a character array.  <br /></td></tr>
+<tr class="separator:ace96ee63bde0fab949224c746e30dfae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec9f2153b3ac9bd2c1a7e04e71c283ec" id="r_aec9f2153b3ac9bd2c1a7e04e71c283ec"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#aec9f2153b3ac9bd2c1a7e04e71c283ec">encodeCharacter</a> (unsigned char digit)</td></tr>
 <tr class="memdesc:aec9f2153b3ac9bd2c1a7e04e71c283ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translate a single Character into 7 segment code.  <br /></td></tr>
 <tr class="separator:aec9f2153b3ac9bd2c1a7e04e71c283ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -391,14 +391,14 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a691f1796bcb9f2b6ed62bcec71ce2048" name="a691f1796bcb9f2b6ed62bcec71ce2048"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a691f1796bcb9f2b6ed62bcec71ce2048">&#9670;&#160;</a></span>DisplayString()</h2>
+<a id="ace96ee63bde0fab949224c746e30dfae" name="ace96ee63bde0fab949224c746e30dfae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace96ee63bde0fab949224c746e30dfae">&#9670;&#160;</a></span>DisplayString()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void TM1637plus_Model4::DisplayString </td>
+          <td class="memname"><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> TM1637plus_Model4::DisplayString </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>numStr</em>, </td>
@@ -439,6 +439,12 @@ Static Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>codes<ol type="1">
+<li>Success</li>
+<li>CharArrayNullptr</li>
+<li>GenericError ( if The number of digits to set is greater than DisplaySzie) </li>
+</ol>
+</dd></dl>
 
 </div>
 </div>

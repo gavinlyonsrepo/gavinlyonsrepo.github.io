@@ -4,11 +4,11 @@ var searchData=
   ['encodecharacter_1',['encodeCharacter',['../classTM1637plus__Model4.html#aec9f2153b3ac9bd2c1a7e04e71c283ec',1,'TM1637plus_Model4']]],
   ['erm_20ch1115_20oled_20readme_2',['ERM CH1115 OLED Readme',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html',1,'']]],
   ['erm19264_20uc1609_20readme_3',['ERM19264 UC1609 Readme',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2erm19264_2README.html',1,'']]],
-  ['erm19264_2fbitmap_2fmain_2ecpp_4',['main.cpp',['../erm19264_2BITMAP_2main_8cpp.html',1,'']]],
-  ['erm19264_2fframerate_5fper_5fsec_2fmain_2ecpp_5',['main.cpp',['../erm19264_2FRAMERATE__PER__SEC_2main_8cpp.html',1,'']]],
-  ['erm19264_2fhello_5fworld_2fmain_2ecpp_6',['main.cpp',['../erm19264_2HELLO__WORLD_2main_8cpp.html',1,'']]],
-  ['erm19264_2fsoftware_5fspi_2fmain_2ecpp_7',['main.cpp',['../erm19264_2SOFTWARE__SPI_2main_8cpp.html',1,'']]],
-  ['erm19264_2ftext_5fgraphics_5ffunctions_2fmain_2ecpp_8',['main.cpp',['../erm19264_2TEXT__GRAPHICS__FUNCTIONS_2main_8cpp.html',1,'']]],
+  ['erm19264_2fbitmap_2fmain_2ecpp_4',['main.cpp',['../erm19264_2bitmap_2main_8cpp.html',1,'']]],
+  ['erm19264_2fframerate_5fper_5fsec_2fmain_2ecpp_5',['main.cpp',['../erm19264_2framerate__per__sec_2main_8cpp.html',1,'']]],
+  ['erm19264_2fhello_5fworld_2fmain_2ecpp_6',['main.cpp',['../erm19264_2hello__world_2main_8cpp.html',1,'']]],
+  ['erm19264_2fsoftware_5fspi_2fmain_2ecpp_7',['main.cpp',['../erm19264_2software__spi_2main_8cpp.html',1,'']]],
+  ['erm19264_2ftext_5fgraphics_5ffunctions_2fmain_2ecpp_8',['main.cpp',['../erm19264_2text__graphics__functions_2main_8cpp.html',1,'']]],
   ['erm19264_5fuc1609_9',['erm19264_uc1609',['../classERM19264__UC1609.html',1,'ERM19264_UC1609'],['../classERM19264__UC1609.html#a31f5fc0d018ddc1d8882ce580c0c46a8',1,'ERM19264_UC1609::ERM19264_UC1609(int16_t lcdwidth, int16_t lcdheight, int8_t rst, int8_t cd)'],['../classERM19264__UC1609.html#a032f767730f666cb79a4cc0715a09c71',1,'ERM19264_UC1609::ERM19264_UC1609(int16_t lcdwidth, int16_t lcdheight, int8_t rst, int8_t cd, int8_t cs, int8_t sclk, int8_t din)']]],
   ['erm19264_5fuc1609_5flcd_5frdl_2ecpp_10',['ERM19264_UC1609_LCD_RDL.cpp',['../ERM19264__UC1609__LCD__RDL_8cpp.html',1,'']]],
   ['erm19264_5fuc1609_5flcd_5frdl_2ehpp_11',['ERM19264_UC1609_LCD_RDL.hpp',['../ERM19264__UC1609__LCD__RDL_8hpp.html',1,'']]],
@@ -64,5 +64,5 @@ var searchData=
   ['error_5flog_5fpath_61',['ERROR_LOG_PATH',['../namespacerdlib__config.html#a613f344347b23c3c77eb93e38566a127',1,'rdlib_config']]],
   ['errorlocation_62',['errorLocation',['../classrdlib__log_1_1logData.html#a0b507736ce4c05d53dcbbb818e305c01',1,'rdlib_log::logData']]],
   ['errorstring_63',['errorString',['../classrdlib__log_1_1logData.html#ae2f9dc981699c42bd6304f381d2f2c24',1,'rdlib_log::logData']]],
-  ['example_20files_64',['Example files',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2hd44780_2README.html#example-files',1,'']]]
+  ['example_20files_64',['example files',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2hd44780_2README.html#example-files',1,'Example files'],['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ht16k33_2README.html#example-files-1',1,'Example files']]]
 ];

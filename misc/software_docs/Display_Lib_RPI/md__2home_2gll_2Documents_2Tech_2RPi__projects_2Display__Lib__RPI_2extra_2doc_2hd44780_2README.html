@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.3.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -83,7 +83,6 @@ Table of contents</h1>
 <li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#hardware">Hardware</a></li>
 <li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#software">Software</a><ul>
 <li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2hd44780_2README.html#i2c">I2C</a></li>
-<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2hd44780_2README.html#debug">Debug</a></li>
 <li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2hd44780_2README.html#example-files">Example files</a></li>
 </ul>
 </li>
@@ -129,11 +128,8 @@ user can change argument passed into LCD class constructor). LCD_I2C_FLAGS No fl
 </ol>
 <div class="fragment"><div class="line">param=i2c_arm=on,i2c_arm_baudrate=400000</div>
 </div><!-- fragment --><ol type="1">
-<li>In the event of an error writing a byte, debug info with error code will be written to console. Debug flag must be set to true to see this output. User can set error timeout between retry attempts and number of retry attempts and can monitor the Error flag.</li>
+<li>In the event of an error writing a byte, debug info with error code will be written to console. Debug configuration flag must be set to true to see this output. User can set error timeout between retry attempts and number of retry attempts and can monitor the Error flag.</li>
 </ol>
-<h2><a class="anchor" id="debug"></a>
-Debug</h2>
-<p>User can turn on debug messages with LCDDebugSet method see example file.</p>
 <h2><a class="anchor" id="example-files"></a>
 Example files</h2>
 <table class="markdownTable">
@@ -142,11 +138,7 @@ Example files</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">TEST_16x02   </td><td class="markdownTableBodyNone">Carries out test sequence testing features   </td><td class="markdownTableBodyNone">16x02    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">TEST_20x04   </td><td class="markdownTableBodyNone">Carries out test sequence testing features   </td><td class="markdownTableBodyNone">20x04    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">CLOCK_16x02   </td><td class="markdownTableBodyNone">A basic clock Demo   </td><td class="markdownTableBodyNone">16x02    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">TEST_I2C_16x02   </td><td class="markdownTableBodyNone">Check I2C connection   </td><td class="markdownTableBodyNone">16x02   </td></tr>
+<td class="markdownTableBodyNone">TEST_20x04   </td><td class="markdownTableBodyNone">Carries out test sequence testing features   </td><td class="markdownTableBodyNone">20x04   </td></tr>
 </table>
 <h1><a class="anchor" id="output-2"></a>
 Output</h1>

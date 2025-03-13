@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.3.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -75,7 +75,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="st7735-tft-readme"></a> <a href="https://github.com/gavinlyonsrepo/pic_16F18346_projects/blob/master/images/st7735/pcb.jpg"><img src="https://github.com/gavinlyonsrepo/pic_16F18346_projects/blob/master/images/st7735/pcb.jpg" alt=" Image TFT " class="inline"/></a></p>
-<h1><a class="anchor" id="table-of-contents-9"></a>
+<h1><a class="anchor" id="table-of-contents-10"></a>
 Table of contents</h1>
 <ul>
 <li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#overview">Overview</a></li>
@@ -93,7 +93,7 @@ Table of contents</h1>
 </ul>
 </li>
 </ul>
-<h1><a class="anchor" id="overview-9"></a>
+<h1><a class="anchor" id="overview-10"></a>
 Overview</h1>
 <ul>
 <li>Name: <a class="el" href="classST7735__TFT.html" title="Class to control ST7735 TFT basic functionality.">ST7735_TFT</a></li>
@@ -112,7 +112,7 @@ Overview</h1>
 <li>Author: Gavin Lyons</li>
 <li>Port of my PIC library at <a href="https://github.com/gavinlyonsrepo/pic_16F18346_projects">github link.</a></li>
 </ul>
-<h1><a class="anchor" id="software-9"></a>
+<h1><a class="anchor" id="software-10"></a>
 Software</h1>
 <h2><a class="anchor" id="user-options-2"></a>
 User options</h2>
@@ -166,19 +166,17 @@ File system</h2>
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">#   </th><th class="markdownTableHeadNone">example file name   </th><th class="markdownTableHeadNone">Desc    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">Hello_world   </td><td class="markdownTableBodyNone">Basic use case    </td></tr>
+<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">hello_world   </td><td class="markdownTableBodyNone">Basic use case    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">Hello_world_SWSPI   </td><td class="markdownTableBodyNone">Basic use case fro software spi    </td></tr>
+<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">hello_world_SWSPI   </td><td class="markdownTableBodyNone">Basic use case fro software spi    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">Text_Graphic_Functions   </td><td class="markdownTableBodyNone">Tests text,graphics &amp; function testing    </td></tr>
+<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">text_Graphic_Functions   </td><td class="markdownTableBodyNone">Tests text,graphics &amp; function testing    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">Bitmap_Tests   </td><td class="markdownTableBodyNone">bitmap    </td></tr>
+<td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">bitmap_Tests   </td><td class="markdownTableBodyNone">bitmap    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">Frame_rate_test_bmp   </td><td class="markdownTableBodyNone">Frame rate per second (FPS) bitmaps    </td></tr>
+<td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">framerate_test   </td><td class="markdownTableBodyNone">Frame rate per second (FPS)    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">6   </td><td class="markdownTableBodyNone">Frame_rate_test_two   </td><td class="markdownTableBodyNone">Frame rate per second (FPS) text + graphics    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">7   </td><td class="markdownTableBodyNone">Multiple_displays   </td><td class="markdownTableBodyNone">shows use of two displays on same spi bus(OLED AND LCD)   </td></tr>
+<td class="markdownTableBodyNone">6   </td><td class="markdownTableBodyNone">demos   </td><td class="markdownTableBodyNone">various demos   </td></tr>
 </table>
 <h2><a class="anchor" id="bitmap-2"></a>
 Bitmap</h2>
@@ -208,7 +206,7 @@ Bitmap</h2>
 <h2><a class="anchor" id="color-codes-2"></a>
 Color codes</h2>
 <p>For functions that accept a 16 bit color value. There is list of pre-defined colors in the 'colors' folder in doc.</p>
-<h1><a class="anchor" id="hardware-9"></a>
+<h1><a class="anchor" id="hardware-10"></a>
 Hardware</h1>
 <p>Connections as setup in main.cpp test file.</p>
 <table class="markdownTable">
@@ -240,24 +238,37 @@ Hardware</h1>
 <li>Backlight control is left to user.</li>
 </ol>
 <p><a href="https://github.com/gavinlyonsrepo/ST7735_TFT_RPI/blob/main/extra/images/wiring.jpg"><img src="https://github.com/gavinlyonsrepo/ST7735_TFT_RPI/blob/main/extra/images/wiring.jpg" alt=" Wiring pic " class="inline"/></a></p>
-<h1><a class="anchor" id="output-6"></a>
+<h1><a class="anchor" id="output-7"></a>
 Output</h1>
 <ol type="1">
 <li>Clock Demo showing icons, small bitmaps</li>
 <li>24-bit color bitmap test image</li>
 <li>16-bit color bitmap test image</li>
 </ol>
-<p><a href="https://github.com/gavinlyonsrepo/ST7735_TFT_RPI/blob/main/extra/images/4.jpg"><img src="https://github.com/gavinlyonsrepo/ST7735_TFT_RPI/blob/main/extra/images/4.jpg" alt=" Demo pic " class="inline"/></a></p>
+<p><a href="https://github.com/gavinlyonsrepo/ST7735_TFT_RPI/blob/main/extra/images/4.jpg"><img src="https://github.com/gavinlyonsrepo/ST7735_TFT_RPI/blob/main/extra/images/4.jpg" alt=" Demo pic " class="inline"/></a> <a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/st7735output.jpg"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/st7735output.jpg" alt=" demo pic 2" class="inline"/></a></p>
 <h1><a class="anchor" id="notes-2"></a>
 Notes</h1>
 <h2><a class="anchor" id="spidev-buf-size-2"></a>
 spidev buf size</h2>
-<p>The maximum transaction size that 'lgpio' can handle by default is 65536 bytes. So this is also the maximum transaction size of Display_lib_RPI, if more than that needs to be sent it is sent in blocks of 65536 bytes. Certain 'Display_lib_RPI' functions use buffered writes, the ones that draw bitmaps, write fonts, fill rectangles, clear screen, etc. In order for this to work the spidev.buf size must be at least 65536. To check the setting on your device run command:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Device or library   </th><th class="markdownTableHeadNone">maximum SPI transaction size bytes   </th><th class="markdownTableHeadNone">where defined    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">lgpio   </td><td class="markdownTableBodyNone">65536   </td><td class="markdownTableBodyNone">LG_MAX_SPI_DEVICE_COUNT in lgpio.h    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Display_lib_RPI   </td><td class="markdownTableBodyNone">2 &lt;-&gt; 65536(default)   </td><td class="markdownTableBodyNone">Display_SPI_BLK_SIZE    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Raspberry pis   </td><td class="markdownTableBodyNone">set same or bigger as Display_SPI_BLK_SIZE   </td><td class="markdownTableBodyNone">/boot/firmware/cmdline.txt spidev.bufsiz    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">other SBC   </td><td class="markdownTableBodyNone">set same or bigger as Display_SPI_BLK_SIZE   </td><td class="markdownTableBodyNone">???   </td></tr>
+</table>
+<p>The maximum SPI transaction size that 'lgpio' can handle by default is 65536 bytes.(see LG_MAX_SPI_DEVICE_COUNT in lgpio.h) So this is also the maximum transaction size of Display_lib_RPI, if more than that needs to be sent it is sent in blocks of Display_SPI_BLK_SIZE(default 65536) bytes. Certain color 16-bit 'Display_lib_RPI' functions use buffered writes, the ones that draw bitmaps, write fonts, fill rectangles, clear screen, etc. User can also change and view maximum SPI transaction size( Display_SPI_BLK_SIZE) of 'Display_lib_RPI' by using getDisplaySPIBlockSize() and setDisplaySPIBlockSize() functions, by default it is 65536. Due not set it higher than this or 'lgppio' will give an spi Write error. In order for buffered writes to work the spidev.buf size of users SBC must bigger than or equal Display_SPI_BLK_SIZE(max and default 65536), but no bigger than 65536.</p>
+<p><em>On Raspberry Pi's SBC</em></p>
+<p>spidev bufsiz defines the number of bytes that the SPI driver will use as a buffer for data transfers. To check the spidev buf size setting on your device run command:</p>
 <div class="fragment"><div class="line">cat /sys/module/spidev/parameters/bufsiz</div>
-</div><!-- fragment --><p>If it is lower than 65536 you can change it by adding this to the start of line in file /boot/firmware/cmdline.txt.(raspberry pi ) Make sure everything is on one line and there is space ' ' between this parameter and next one. Then reboot machine. Verify again by running last cat command above</p>
+</div><!-- fragment --><p>If it is lower than 65536 you can change it by adding this to the start of line in file /boot/firmware/cmdline.txt. Make sure everything is on one line and there is space ' ' between this parameter and next one. Then reboot machine. Verify again by running last cat command above</p>
 <div class="fragment"><div class="line">spidev.bufsiz=65536</div>
-</div><!-- fragment --><p>bufsiz defines the number of bytes that the SPI driver will use as a buffer for data transfers. </p>
-</div></div><!-- contents -->
+</div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

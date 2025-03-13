@@ -27,9 +27,10 @@ var searchData=
   ['uc1609_5fsystem_5freset_24',['UC1609_SYSTEM_RESET',['../classERM19264__UC1609.html#a620311301965153a68266984be3cb9f7',1,'ERM19264_UC1609']]],
   ['uc1609_5ftemp_5fcomp_5freg_25',['UC1609_TEMP_COMP_REG',['../classERM19264__UC1609.html#af8ad40872ea4465d6eeb9b2ded15b828',1,'ERM19264_UC1609']]],
   ['uc1609_5ftemp_5fcomp_5fset_26',['UC1609_TEMP_COMP_SET',['../classERM19264__UC1609.html#a12482a50ff439eead5f7c0d2cc3b7138',1,'ERM19264_UC1609']]],
-  ['user_20adjustments_27',['user adjustments',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#user-adjustments',1,'User adjustments'],['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2erm19264_2README.html#user-adjustments-1',1,'User Adjustments']]],
-  ['user_20options_28',['user options',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2st7789_2README.html#user-options-3',1,'User options'],['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ssd1331_2README.html#user-options-1',1,'User options'],['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2st7735_2README.html#user-options-2',1,'User options'],['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ili9341_2README.html#user-options',1,'User options']]],
-  ['userdata_29',['userData',['../classrdlib__log_1_1logData.html#a4c9d5b1fef6cf26ad339816d7c708c92',1,'rdlib_log::logData']]],
-  ['utility_5fdata_5frdl_2ecpp_30',['utility_data_RDL.cpp',['../utility__data__RDL_8cpp.html',1,'']]],
-  ['utility_5fdata_5frdl_2ehpp_31',['utility_data_RDL.hpp',['../utility__data__RDL_8hpp.html',1,'']]]
+  ['unknownerror_27',['UnknownError',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5af5a664ab4ca81f7bb8c3eca2b068de49',1,'rdlib']]],
+  ['user_20adjustments_28',['user adjustments',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#user-adjustments',1,'User adjustments'],['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2erm19264_2README.html#user-adjustments-1',1,'User Adjustments']]],
+  ['user_20options_29',['user options',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2st7789_2README.html#user-options-3',1,'User options'],['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ssd1331_2README.html#user-options-1',1,'User options'],['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2st7735_2README.html#user-options-2',1,'User options'],['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ili9341_2README.html#user-options',1,'User options']]],
+  ['userdata_30',['userData',['../classrdlib__log_1_1logData.html#a4c9d5b1fef6cf26ad339816d7c708c92',1,'rdlib_log::logData']]],
+  ['utility_5fdata_5frdl_2ecpp_31',['utility_data_RDL.cpp',['../utility__data__RDL_8cpp.html',1,'']]],
+  ['utility_5fdata_5frdl_2ehpp_32',['utility_data_RDL.hpp',['../utility__data__RDL_8hpp.html',1,'']]]
 ];

@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.3.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -75,10 +75,14 @@ $(function() {
 
 <h3><a id="index__5F" name="index__5F"></a>- _ -</h3><ul>
 <li>_AddressCtrl&#160;:&#160;<a class="el" href="classERM19264__UC1609.html#a8b550446e14a247c51c1d0bf9e05c273">ERM19264_UC1609</a></li>
+<li>_arcAngleMax&#160;:&#160;<a class="el" href="classbicolor__graphics.html#a4a4d1c3752e6930d1cd4d241724c2af6">bicolor_graphics</a>, <a class="el" href="classcolor16__graphics.html#a5dd2db85be2ae68c8c99da1e7bd3477f">color16_graphics</a></li>
+<li>_arcAngleOffset&#160;:&#160;<a class="el" href="classbicolor__graphics.html#a6558fff8f283c815fb10440170576c67">bicolor_graphics</a>, <a class="el" href="classcolor16__graphics.html#a4b2b0a00712a8b0e342fa3b9aea0cfde">color16_graphics</a></li>
 <li>_ASCIIOffset&#160;:&#160;<a class="el" href="classTM1637plus__Model4.html#a5fbc70a7014a1d5ad52dc489e84b87db">TM1637plus_Model4</a></li>
 <li>_bias&#160;:&#160;<a class="el" href="classNOKIA__5110__RPI.html#ad2f3c38a7fd64486239cd1a691fae330">NOKIA_5110_RPI</a></li>
 <li>_BitDelayUS&#160;:&#160;<a class="el" href="classTM1637plus__Model4.html#a6d3988cc3e4e43c8c797b7eaf15d3d25">TM1637plus_Model4</a></li>
-<li>_brightness&#160;:&#160;<a class="el" href="classTM1637plus__Model4.html#add3e8a386cf906319f921bc92fdb38f5">TM1637plus_Model4</a></li>
+<li>_blinkSetting&#160;:&#160;<a class="el" href="classHT16K33plus__Model1.html#a06aebfcb44784f5f8748c84c3861e5ca">HT16K33plus_Model1</a></li>
+<li>_brightness&#160;:&#160;<a class="el" href="classHT16K33plus__Model1.html#addbf4e8b0bcf1fa6f104c57e30096f58">HT16K33plus_Model1</a>, <a class="el" href="classTM1637plus__Model4.html#add3e8a386cf906319f921bc92fdb38f5">TM1637plus_Model4</a></li>
+<li>_calibration&#160;:&#160;<a class="el" href="classXPT__2046__RDL.html#ac93c0b77f25888c13cbf9c904483403f">XPT_2046_RDL</a></li>
 <li>_CMD_ACTIVE_SCROLL&#160;:&#160;<a class="el" href="classSSD1331__OLED.html#ae053028992dd4385ef5ba9655174fb0b">SSD1331_OLED</a></li>
 <li>_CMD_CLEAR_WINDOW&#160;:&#160;<a class="el" href="classSSD1331__OLED.html#aab7d2b22bb1e978b34fefa4dd659f4b2">SSD1331_OLED</a></li>
 <li>_CMD_CLOCKDIV&#160;:&#160;<a class="el" href="classSSD1331__OLED.html#a5b074ca4762b8a2bb48fe062066a57a7">SSD1331_OLED</a></li>
@@ -137,25 +141,38 @@ $(function() {
 <li>_Display_RST&#160;:&#160;<a class="el" href="classcolor16__graphics.html#a4c9404965a4e7cf833dd1916403639d2">color16_graphics</a>, <a class="el" href="classERM19264__UC1609.html#a0d4eade17c7354ca24dc962732847813">ERM19264_UC1609</a>, <a class="el" href="classERMCH1115.html#a14a04bdf212f3c0fa057528fab1229ac">ERMCH1115</a>, <a class="el" href="classNOKIA__5110__RPI.html#a07ced7015d24ef3d049e27d8bbf10966">NOKIA_5110_RPI</a>, <a class="el" href="classSH110X__RDL.html#abccd2ca4e2d4d412c327c73fb4aa1088">SH110X_RDL</a></li>
 <li>_Display_SCLK&#160;:&#160;<a class="el" href="classcolor16__graphics.html#ac96f3c8333332788860bd228fd6e25ff">color16_graphics</a>, <a class="el" href="classERM19264__UC1609.html#a3866a5d55034cf1cd6c23560a4bd34db">ERM19264_UC1609</a>, <a class="el" href="classERMCH1115.html#a67cab620dbc601e3872382fcbba0d696">ERMCH1115</a>, <a class="el" href="classMAX7219__SS__RPI.html#ab2ae6cc8538442c7fd20be37650d8c4f">MAX7219_SS_RPI</a>, <a class="el" href="classNOKIA__5110__RPI.html#ad7f4af32808192693b70298ecb4cc05b">NOKIA_5110_RPI</a>, <a class="el" href="classTM1637plus__Model4.html#af9746cbae67742db428b978835199fe3">TM1637plus_Model4</a>, <a class="el" href="classTM1638plus__common.html#a34b111fa494e645aef398c8d1110f180">TM1638plus_common</a></li>
 <li>_Display_SDATA&#160;:&#160;<a class="el" href="classcolor16__graphics.html#a3c234616d07e7c807b8d982456cb39bb">color16_graphics</a>, <a class="el" href="classERM19264__UC1609.html#ae82b4f3d5cb377dd2c894d5b2d07d0cb">ERM19264_UC1609</a>, <a class="el" href="classERMCH1115.html#ae50cec38b217efa5c1c0e8fa5d021ea3">ERMCH1115</a>, <a class="el" href="classMAX7219__SS__RPI.html#ad3a9209e8fb98a05cabbb231ebfa0854">MAX7219_SS_RPI</a>, <a class="el" href="classNOKIA__5110__RPI.html#a6087c642926e4b11e19cc03473e084f7">NOKIA_5110_RPI</a>, <a class="el" href="classTM1637plus__Model4.html#a72f1d58507131c5b9c43ec24ffbfd627">TM1637plus_Model4</a>, <a class="el" href="classTM1638plus__common.html#afc6326ac3a4450cd49cd27f93013de88">TM1638plus_common</a></li>
+<li>_Display_SPI_BLK_SIZE&#160;:&#160;<a class="el" href="classcolor16__graphics.html#a46b9fd476fb25408535d7f3f8b16f574">color16_graphics</a></li>
 <li>_displayRotate&#160;:&#160;<a class="el" href="classSSD1331__OLED.html#a0a3e8ed7d351bb9f4dbd59695fd63234">SSD1331_OLED</a></li>
 <li>_DisplaySize&#160;:&#160;<a class="el" href="classTM1637plus__Model4.html#a61bbc0518ae251dc31f83b6d33ddd152">TM1637plus_Model4</a></li>
+<li>_displayType&#160;:&#160;<a class="el" href="classHT16K33plus__Model1.html#a5ef30b988fb64fa978839a0e9e7e3f87">HT16K33plus_Model1</a></li>
 <li>_drawBitmapAddr&#160;:&#160;<a class="el" href="classbicolor__graphics.html#a9577e0c69c474d3308a43ab44be8d7a5">bicolor_graphics</a></li>
+<li>_ErrorFlag&#160;:&#160;<a class="el" href="classPrint.html#af78d49d99f6a34dba3524058e2af7c77">Print</a></li>
 <li>_Font_X_Size&#160;:&#160;<a class="el" href="classdisplay__Fonts.html#a03bcf91a5baeb63efa14e945d3b57eb2">display_Fonts</a></li>
 <li>_Font_Y_Size&#160;:&#160;<a class="el" href="classdisplay__Fonts.html#a42fa0dd2b935782d6e29d46158993f39">display_Fonts</a></li>
 <li>_FontInverted&#160;:&#160;<a class="el" href="classdisplay__Fonts.html#a7350579df4affe9e96857bddbd3aab74">display_Fonts</a></li>
 <li>_FontNumChars&#160;:&#160;<a class="el" href="classdisplay__Fonts.html#a8177feb6fa222080ddb3a3c48a3e2f69">display_Fonts</a></li>
 <li>_FontOffset&#160;:&#160;<a class="el" href="classdisplay__Fonts.html#a02ecc4390cb670ea1517d26d76a01d12">display_Fonts</a></li>
 <li>_FontSelect&#160;:&#160;<a class="el" href="classdisplay__Fonts.html#a3fff5c7dbe437fa3a5d38e83976a8a12">display_Fonts</a></li>
-<li>_GpioHandle&#160;:&#160;<a class="el" href="classcolor16__graphics.html#a8bc9c133b5bb955897b7699b9fb7d336">color16_graphics</a>, <a class="el" href="classERM19264__UC1609.html#abaaba5d131ba90faccf8042df8c06bea">ERM19264_UC1609</a>, <a class="el" href="classERMCH1115.html#a610e6e82ba6e237813645af6cebf0bf8">ERMCH1115</a>, <a class="el" href="classMAX7219__SS__RPI.html#ac2bb969ecd9abcf8fb496c71328ee821">MAX7219_SS_RPI</a>, <a class="el" href="classNOKIA__5110__RPI.html#a17df6346822ab4288f0088291fb11172">NOKIA_5110_RPI</a>, <a class="el" href="classTM1637plus__Model4.html#af2bd9a73bcf97bb5ec8ac35feedcb99a">TM1637plus_Model4</a>, <a class="el" href="classTM1638plus__common.html#a154102967a519d5808cf7c429aa2ac11">TM1638plus_common</a></li>
+<li>_GpioHandle&#160;:&#160;<a class="el" href="classcolor16__graphics.html#a8bc9c133b5bb955897b7699b9fb7d336">color16_graphics</a>, <a class="el" href="classERM19264__UC1609.html#abaaba5d131ba90faccf8042df8c06bea">ERM19264_UC1609</a>, <a class="el" href="classERMCH1115.html#a610e6e82ba6e237813645af6cebf0bf8">ERMCH1115</a>, <a class="el" href="classMAX7219__SS__RPI.html#ac2bb969ecd9abcf8fb496c71328ee821">MAX7219_SS_RPI</a>, <a class="el" href="classNOKIA__5110__RPI.html#a17df6346822ab4288f0088291fb11172">NOKIA_5110_RPI</a>, <a class="el" href="classSH110X__RDL.html#af483ba2c1653a2fe5a4c31654c6b93c6">SH110X_RDL</a>, <a class="el" href="classTM1637plus__Model4.html#af2bd9a73bcf97bb5ec8ac35feedcb99a">TM1637plus_Model4</a>, <a class="el" href="classTM1638plus__common.html#a154102967a519d5808cf7c429aa2ac11">TM1638plus_common</a>, <a class="el" href="classXPT__2046__RDL.html#a7ab788fcf18be55b28166aa9d74ead3a">XPT_2046_RDL</a></li>
 <li>_hardwareSPI&#160;:&#160;<a class="el" href="classcolor16__graphics.html#ae080943044878bf713a0c285cfadedfb">color16_graphics</a></li>
 <li>_HardwareSPI&#160;:&#160;<a class="el" href="classMAX7219__SS__RPI.html#ae0750534d69cd560f61c7533a7ecb104">MAX7219_SS_RPI</a></li>
 <li>_height&#160;:&#160;<a class="el" href="classbicolor__graphics.html#a5a92dcd42876fe59288eccaf205d6a98">bicolor_graphics</a>, <a class="el" href="classcolor16__graphics.html#a86b93a71087c193a4e06e57a01bf8db4">color16_graphics</a></li>
 <li>_heightStartOLED&#160;:&#160;<a class="el" href="classSSD1331__OLED.html#a7a7f95d8ece06070a2370ec205f1243b">SSD1331_OLED</a></li>
 <li>_heightStartTFT&#160;:&#160;<a class="el" href="classILI9341__TFT.html#a52efa5f7097ce92bd1d0ec12e867ee7e">ILI9341_TFT</a>, <a class="el" href="classST7735__TFT.html#a17cb768ae15f3c875002f7f1b45d534a">ST7735_TFT</a>, <a class="el" href="classST7789__TFT.html#a1ed92cda17edf263ddab4e92419d3cd2">ST7789_TFT</a></li>
 <li>_HighFreqDelay&#160;:&#160;<a class="el" href="classcolor16__graphics.html#ac17323e9c1d54cb70a3cd3aea637d93e">color16_graphics</a></li>
-<li>_I2C_ErrorDelay&#160;:&#160;<a class="el" href="classHD44780PCF8574LCD.html#a766cb0f8ab3d5f5bef6985043c328a6a">HD44780PCF8574LCD</a>, <a class="el" href="classSH110X__RDL.html#a88c6f87330c6e7536f5a656e91af8fe3">SH110X_RDL</a>, <a class="el" href="classSSD1306__RDL.html#aa26a3202e3a505f30dca18825323fd38">SSD1306_RDL</a></li>
-<li>_I2C_ErrorFlag&#160;:&#160;<a class="el" href="classHD44780PCF8574LCD.html#a61690708bb476e9453687ff0676bb9a3">HD44780PCF8574LCD</a>, <a class="el" href="classSH110X__RDL.html#a8ac132664a3cbde67b8893fe0f847b4a">SH110X_RDL</a>, <a class="el" href="classSSD1306__RDL.html#a8735119d5025621d5409ab0e9f2ebbf2">SSD1306_RDL</a></li>
-<li>_I2C_ErrorRetryNum&#160;:&#160;<a class="el" href="classHD44780PCF8574LCD.html#a466577fb5618813f7b60bc2f57eb3a80">HD44780PCF8574LCD</a>, <a class="el" href="classSH110X__RDL.html#a26f2da244911a61fd3c285a6bf1a508a">SH110X_RDL</a>, <a class="el" href="classSSD1306__RDL.html#af0dad438fc6b1e997bbcf7f3018e1cd9">SSD1306_RDL</a></li>
+<li>_HT_ASCIIEnd&#160;:&#160;<a class="el" href="classHT16K33plus__Model1.html#acf2c00017160246234cf3aa72502dac1">HT16K33plus_Model1</a></li>
+<li>_HT_ASCIIOffset&#160;:&#160;<a class="el" href="classHT16K33plus__Model1.html#a43c7d27367e2fff5f1ee015decead7f2">HT16K33plus_Model1</a></li>
+<li>_HT_DEC_POINT_14_MASK&#160;:&#160;<a class="el" href="classHT16K33plus__Model1.html#a05ffdda716bda0474858419148b3bb17">HT16K33plus_Model1</a></li>
+<li>_HT_DEC_POINT_7_MASK&#160;:&#160;<a class="el" href="classHT16K33plus__Model1.html#a3cffe32f9bc4c739f1f16f4c3479c157">HT16K33plus_Model1</a></li>
+<li>_HT_DEC_POINT_9_MASK&#160;:&#160;<a class="el" href="classHT16K33plus__Model1.html#af4964b5bf3a20575c550f672b2ee3bb7">HT16K33plus_Model1</a></li>
+<li>_HT_HEXoffset&#160;:&#160;<a class="el" href="classHT16K33plus__Model1.html#a41875ec72eba55d2d2c18dd5d85c711f">HT16K33plus_Model1</a></li>
+<li>_I2C_ErrorDelay&#160;:&#160;<a class="el" href="classHD44780PCF8574LCD.html#a766cb0f8ab3d5f5bef6985043c328a6a">HD44780PCF8574LCD</a>, <a class="el" href="classHT16K33plus__Model1.html#a838f745caa46db62b829b11e31c35167">HT16K33plus_Model1</a>, <a class="el" href="classSH110X__RDL.html#a88c6f87330c6e7536f5a656e91af8fe3">SH110X_RDL</a>, <a class="el" href="classSSD1306__RDL.html#aa26a3202e3a505f30dca18825323fd38">SSD1306_RDL</a></li>
+<li>_I2C_ErrorFlag&#160;:&#160;<a class="el" href="classHD44780PCF8574LCD.html#a61690708bb476e9453687ff0676bb9a3">HD44780PCF8574LCD</a>, <a class="el" href="classHT16K33plus__Model1.html#ac789f92f7c3fe7a80d6be04ec7da81ac">HT16K33plus_Model1</a>, <a class="el" href="classSH110X__RDL.html#a8ac132664a3cbde67b8893fe0f847b4a">SH110X_RDL</a>, <a class="el" href="classSSD1306__RDL.html#a8735119d5025621d5409ab0e9f2ebbf2">SSD1306_RDL</a></li>
+<li>_I2C_ErrorRetryNum&#160;:&#160;<a class="el" href="classHD44780PCF8574LCD.html#a466577fb5618813f7b60bc2f57eb3a80">HD44780PCF8574LCD</a>, <a class="el" href="classHT16K33plus__Model1.html#a5729565b8dd73dbb30c3a2b1afd75b34">HT16K33plus_Model1</a>, <a class="el" href="classSH110X__RDL.html#a26f2da244911a61fd3c285a6bf1a508a">SH110X_RDL</a>, <a class="el" href="classSSD1306__RDL.html#af0dad438fc6b1e997bbcf7f3018e1cd9">SSD1306_RDL</a></li>
+<li>_I2CAddress&#160;:&#160;<a class="el" href="classHT16K33plus__Model1.html#ab5f6add0c56b0f059060bc7d1e229a68">HT16K33plus_Model1</a></li>
+<li>_I2CDevice&#160;:&#160;<a class="el" href="classHT16K33plus__Model1.html#a09d4adf10cfdfaaf5dc9531c4a020d61">HT16K33plus_Model1</a></li>
+<li>_I2CFlags&#160;:&#160;<a class="el" href="classHT16K33plus__Model1.html#a2acd265786333fcf23e86af0200d68b6">HT16K33plus_Model1</a></li>
+<li>_I2CHandle&#160;:&#160;<a class="el" href="classHT16K33plus__Model1.html#adfbdd2786f944f04f13df2133edf5381">HT16K33plus_Model1</a></li>
 <li>_inverse&#160;:&#160;<a class="el" href="classNOKIA__5110__RPI.html#a6da07825b99e1e8ca98129429cdf8577">NOKIA_5110_RPI</a></li>
 <li>_IRQ_PIN&#160;:&#160;<a class="el" href="classXPT__2046__RDL.html#af14cfdb97b57d391b29792ab1e4f0cd8">XPT_2046_RDL</a></li>
 <li>_LCD_Display_size&#160;:&#160;<a class="el" href="classNOKIA__5110__RPI.html#a93d218b75daa52f1113cd119c7ab02b8">NOKIA_5110_RPI</a></li>
@@ -182,6 +199,7 @@ $(function() {
 <li>_min_yp&#160;:&#160;<a class="el" href="classXPT__2046__RDL.html#a7ad0d890490f3eefc53d13c0950cee6a">XPT_2046_RDL</a></li>
 <li>_NoDigits&#160;:&#160;<a class="el" href="classMAX7219__SS__RPI.html#a345d53696d850798eee85b24359544d5">MAX7219_SS_RPI</a></li>
 <li>_NumColsLCD&#160;:&#160;<a class="el" href="classHD44780PCF8574LCD.html#a1baac28d2428ded07705fce9e35dcc08">HD44780PCF8574LCD</a></li>
+<li>_numOfDigits&#160;:&#160;<a class="el" href="classHT16K33plus__Model1.html#ab221071967144f7e74c8c880c5b5f667">HT16K33plus_Model1</a></li>
 <li>_NumRowsLCD&#160;:&#160;<a class="el" href="classHD44780PCF8574LCD.html#aa38c19c33f2b2748c1c3e3e4abb8fba5">HD44780PCF8574LCD</a></li>
 <li>_OLED_HEIGHT&#160;:&#160;<a class="el" href="classERMCH1115.html#ac16d3ab2984dc6f4cf3adce479ef449c">ERMCH1115</a>, <a class="el" href="classSH110X__RDL.html#a6a75a1091ff0c36b5e4261043a58d53d">SH110X_RDL</a>, <a class="el" href="classSSD1306__RDL.html#a4eb3ea3d7ca4ee59a4d531b595e7b25d">SSD1306_RDL</a></li>
 <li>_OLED_IC_type&#160;:&#160;<a class="el" href="classSH110X__RDL.html#aeb72c3e955b72161884a364fca77c312">SH110X_RDL</a></li>

@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.3.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -77,17 +77,21 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">utility_data_RDL.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>A file to hold some utilities(config file logging etc) , included in common_data_RDL.  
+<p>A file to hold some utilities(maths, config, file logging etc) , included in common_data_RDL.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="utility__data__RDL_8hpp_source.html">utility_data_RDL.hpp</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
+<tr class="memitem:namespacerdlib__maths" id="r_namespacerdlib__maths"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacerdlib__maths.html">rdlib_maths</a></td></tr>
+<tr class="memdesc:namespacerdlib__maths"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name space for maths related utilities. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacerdlib__log" id="r_namespacerdlib__log"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacerdlib__log.html">rdlib_log</a></td></tr>
 <tr class="memdesc:namespacerdlib__log"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name space for log file related utilities. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -97,27 +101,42 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:aed5942ab70dae2ccdd87615e31ddef44" id="r_aed5942ab70dae2ccdd87615e31ddef44"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacerdlib__maths.html#aed5942ab70dae2ccdd87615e31ddef44">rdlib_maths::mapValue</a> (int x, int in_min, int in_max, int out_min, int out_max)</td></tr>
+<tr class="memdesc:aed5942ab70dae2ccdd87615e31ddef44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maps a value from one range to another using linear interpolation. This function takes an input value within a specified range and maps it to a corresponding value in a different output range using std::lerp.  <br /></td></tr>
+<tr class="separator:aed5942ab70dae2ccdd87615e31ddef44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab30d0c398ad37d660ab86c4c293b4538" id="r_ab30d0c398ad37d660ab86c4c293b4538"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacerdlib__maths.html#ab30d0c398ad37d660ab86c4c293b4538">rdlib_maths::cosineFromDegrees</a> (float angle)</td></tr>
+<tr class="memdesc:ab30d0c398ad37d660ab86c4c293b4538"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the cosine of an angle given in degrees. This function converts the input angle from degrees to radians and then calculates the cosine of that angle using the standard C++ <code>cos</code> function.  <br /></td></tr>
+<tr class="separator:ab30d0c398ad37d660ab86c4c293b4538"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58b2e871d44fc1e7cd6e704f8a77f9c1" id="r_a58b2e871d44fc1e7cd6e704f8a77f9c1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacerdlib__maths.html#a58b2e871d44fc1e7cd6e704f8a77f9c1">rdlib_maths::sineFromDegrees</a> (float angle)</td></tr>
+<tr class="memdesc:a58b2e871d44fc1e7cd6e704f8a77f9c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the sine of an angle given in degrees. This function converts the input angle from degrees to radians and then calculates the sine of that angle using the standard C++ <code>sin</code> function.  <br /></td></tr>
+<tr class="separator:a58b2e871d44fc1e7cd6e704f8a77f9c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37984aafdacf0613511266581bf80f93" id="r_a37984aafdacf0613511266581bf80f93"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacerdlib__log.html#a37984aafdacf0613511266581bf80f93">rdlib_log::operator&lt;&lt;</a> (std::ostream &amp;os, const std::source_location &amp;location)</td></tr>
 <tr class="memdesc:a37984aafdacf0613511266581bf80f93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overloaded stream insertion operator for std::source_location.  <br /></td></tr>
 <tr class="separator:a37984aafdacf0613511266581bf80f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1373492eb7cae2ee5a9fdd45720c0c32" id="r_a1373492eb7cae2ee5a9fdd45720c0c32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacerdlib__config.html#a1373492eb7cae2ee5a9fdd45720c0c32">rdlib_config::loadConfig</a> ()</td></tr>
 <tr class="memdesc:a1373492eb7cae2ee5a9fdd45720c0c32"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function loads the config file into program.  <br /></td></tr>
 <tr class="separator:a1373492eb7cae2ee5a9fdd45720c0c32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee8107725223e13d36ce460f5eab3e4f" id="r_aee8107725223e13d36ce460f5eab3e4f"><td class="memItemLeft" align="right" valign="top"><a id="aee8107725223e13d36ce460f5eab3e4f" name="aee8107725223e13d36ce460f5eab3e4f"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>rdlib_config::isLoggingEnabled</b> ()</td></tr>
-<tr class="memdesc:aee8107725223e13d36ce460f5eab3e4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieve the logging enabled setting , true for logging on <br /></td></tr>
+<tr class="memitem:aee8107725223e13d36ce460f5eab3e4f" id="r_aee8107725223e13d36ce460f5eab3e4f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacerdlib__config.html#aee8107725223e13d36ce460f5eab3e4f">rdlib_config::isLoggingEnabled</a> ()</td></tr>
+<tr class="memdesc:aee8107725223e13d36ce460f5eab3e4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieve the logging enabled setting , true for logging on  <br /></td></tr>
 <tr class="separator:aee8107725223e13d36ce460f5eab3e4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe2e604f6629b7aa0fae5075cf5acba4" id="r_abe2e604f6629b7aa0fae5075cf5acba4"><td class="memItemLeft" align="right" valign="top"><a id="abe2e604f6629b7aa0fae5075cf5acba4" name="abe2e604f6629b7aa0fae5075cf5acba4"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>rdlib_config::isDebugEnabled</b> ()</td></tr>
-<tr class="memdesc:abe2e604f6629b7aa0fae5075cf5acba4"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieve the debug enabled setting , true for debug on <br /></td></tr>
+<tr class="memitem:abe2e604f6629b7aa0fae5075cf5acba4" id="r_abe2e604f6629b7aa0fae5075cf5acba4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacerdlib__config.html#abe2e604f6629b7aa0fae5075cf5acba4">rdlib_config::isDebugEnabled</a> ()</td></tr>
+<tr class="memdesc:abe2e604f6629b7aa0fae5075cf5acba4"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieve the debug enabled setting , true for debug on  <br /></td></tr>
 <tr class="separator:abe2e604f6629b7aa0fae5075cf5acba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2348f014eeb1e8f9b480c99682057b5" id="r_ae2348f014eeb1e8f9b480c99682057b5"><td class="memItemLeft" align="right" valign="top"><a id="ae2348f014eeb1e8f9b480c99682057b5" name="ae2348f014eeb1e8f9b480c99682057b5"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>rdlib_config::getErrorLogPath</b> ()</td></tr>
-<tr class="memdesc:ae2348f014eeb1e8f9b480c99682057b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieve the log file path setting <br /></td></tr>
+<tr class="memitem:ae2348f014eeb1e8f9b480c99682057b5" id="r_ae2348f014eeb1e8f9b480c99682057b5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacerdlib__config.html#ae2348f014eeb1e8f9b480c99682057b5">rdlib_config::getErrorLogPath</a> ()</td></tr>
+<tr class="memdesc:ae2348f014eeb1e8f9b480c99682057b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieve the log file path setting  <br /></td></tr>
 <tr class="separator:ae2348f014eeb1e8f9b480c99682057b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a19462c24a685ac15dbecd9eea8d1b287" id="r_a19462c24a685ac15dbecd9eea8d1b287"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacerdlib__config.html#a19462c24a685ac15dbecd9eea8d1b287">rdlib_config::LOGGING_ENABLED</a> = false</td></tr>
+<tr class="separator:a19462c24a685ac15dbecd9eea8d1b287"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ed9f16ad0a9b4d26caa93d80ecf602a" id="r_a9ed9f16ad0a9b4d26caa93d80ecf602a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacerdlib__config.html#a9ed9f16ad0a9b4d26caa93d80ecf602a">rdlib_config::DEBUG_ENABLED</a> = false</td></tr>
+<tr class="separator:a9ed9f16ad0a9b4d26caa93d80ecf602a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a613f344347b23c3c77eb93e38566a127" id="r_a613f344347b23c3c77eb93e38566a127"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacerdlib__config.html#a613f344347b23c3c77eb93e38566a127">rdlib_config::ERROR_LOG_PATH</a> = &quot;/tmp/error.log&quot;</td></tr>
+<tr class="separator:a613f344347b23c3c77eb93e38566a127"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A file to hold some utilities(config file logging etc) , included in common_data_RDL. </p>
+<div class="textblock"><p>A file to hold some utilities(maths, config, file logging etc) , included in common_data_RDL. </p>
 <p>Implements the operator&lt;&lt; function for std::source_location. This file provides an overloaded stream insertion operator to format and output source location information, aiding in debugging and logging. Implements the configuration file functionality </p>
 </div></div><!-- contents -->
 <!-- start footer part -->

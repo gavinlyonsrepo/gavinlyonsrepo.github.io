@@ -14,10 +14,14 @@ var searchData=
   ['scroll_5fframe_5f100_11',['SCROLL_FRAME_100',['../classSSD1331__OLED.html#a93c1687b7733b65c8af6662d865d5c28a4f79f495c1dd9f64b81a8f1c9af0b040',1,'SSD1331_OLED']]],
   ['scroll_5fframe_5f200_12',['SCROLL_FRAME_200',['../classSSD1331__OLED.html#a93c1687b7733b65c8af6662d865d5c28afd7b14019dab690e7f72b3dc224da4fa',1,'SSD1331_OLED']]],
   ['scroll_5fframe_5f6_13',['SCROLL_FRAME_6',['../classSSD1331__OLED.html#a93c1687b7733b65c8af6662d865d5c28a3de4ccd3ee61b4b3088fc5419b19cd7f',1,'SSD1331_OLED']]],
-  ['sh1106_5fic_14',['SH1106_IC',['../classSH110X__RDL.html#ae48df795ea52acda8ba8ae30c9bc32c6a98d42388ca41696c69a4f696fd7dc92e',1,'SH110X_RDL']]],
-  ['sh1107_5fic_15',['SH1107_IC',['../classSH110X__RDL.html#ae48df795ea52acda8ba8ae30c9bc32c6a5aae61a579093f5a02123768e161be75',1,'SH110X_RDL']]],
-  ['shapescreenbounds_16',['ShapeScreenBounds',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a7d470e5d59985355fb8ad2e07098efe8',1,'rdlib']]],
-  ['spiclosefailure_17',['SPICloseFailure',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a6169a81d0ae5688c76efad17712818f9',1,'rdlib']]],
-  ['spiopenfailure_18',['SPIOpenFailure',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5ae2f52411247decd2656308eab208c8f8',1,'rdlib']]],
-  ['success_19',['Success',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69',1,'rdlib']]]
+  ['segtype14_14',['SegType14',['../classHT16K33plus__Model1.html#af8f04aa4ca5ee11de836d0dac5df7574a7880b3f8e77561990dd86f8369c46d67',1,'HT16K33plus_Model1']]],
+  ['segtype16_15',['SegType16',['../classHT16K33plus__Model1.html#af8f04aa4ca5ee11de836d0dac5df7574a8a33ea13fcd0516e1c4fd58c1a22980b',1,'HT16K33plus_Model1']]],
+  ['segtype7_16',['SegType7',['../classHT16K33plus__Model1.html#af8f04aa4ca5ee11de836d0dac5df7574a45e78ca2cade4f4188bf815c4684e74b',1,'HT16K33plus_Model1']]],
+  ['segtype9_17',['SegType9',['../classHT16K33plus__Model1.html#af8f04aa4ca5ee11de836d0dac5df7574ac4c473548fdb8fc066b2926a22b7ffa5',1,'HT16K33plus_Model1']]],
+  ['sh1106_5fic_18',['SH1106_IC',['../classSH110X__RDL.html#ae48df795ea52acda8ba8ae30c9bc32c6a98d42388ca41696c69a4f696fd7dc92e',1,'SH110X_RDL']]],
+  ['sh1107_5fic_19',['SH1107_IC',['../classSH110X__RDL.html#ae48df795ea52acda8ba8ae30c9bc32c6a5aae61a579093f5a02123768e161be75',1,'SH110X_RDL']]],
+  ['shapescreenbounds_20',['ShapeScreenBounds',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a7d470e5d59985355fb8ad2e07098efe8',1,'rdlib']]],
+  ['spiclosefailure_21',['SPICloseFailure',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a6169a81d0ae5688c76efad17712818f9',1,'rdlib']]],
+  ['spiopenfailure_22',['SPIOpenFailure',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5ae2f52411247decd2656308eab208c8f8',1,'rdlib']]],
+  ['success_23',['Success',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69',1,'rdlib']]]
 ];

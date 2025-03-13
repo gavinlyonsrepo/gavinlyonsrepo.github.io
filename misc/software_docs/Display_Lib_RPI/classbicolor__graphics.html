@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.3.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -75,7 +75,6 @@ $(function() {
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classbicolor__graphics-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">bicolor_graphics Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
@@ -136,16 +135,23 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9fb0bc74b698471d3e42baceffef3b3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">init the Display Graphics class object  <br /></td></tr>
 <tr class="separator:a9fb0bc74b698471d3e42baceffef3b3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8048fbe1bef8830031811ece3816032" id="r_af8048fbe1bef8830031811ece3816032"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">virtual</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#af8048fbe1bef8830031811ece3816032">drawPixel</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)=0</td></tr>
+<tr class="memdesc:af8048fbe1bef8830031811ece3816032"><td class="mdescLeft">&#160;</td><td class="mdescRight">define in the sub class  <br /></td></tr>
 <tr class="separator:af8048fbe1bef8830031811ece3816032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25d58cc0a7c614d44721a0db7c1bb274" id="r_a25d58cc0a7c614d44721a0db7c1bb274"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a25d58cc0a7c614d44721a0db7c1bb274">drawDotGrid</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">DotGridGap</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
+<tr class="memdesc:a25d58cc0a7c614d44721a0db7c1bb274"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a grid of dots on the screen starting from the given coordinates. This function draws a grid of pixels with a specified gap between them. It checks that the provided coordinates and dimensions are within the screen bounds and adjusts them if necessary. It also validates The grid of dots gap value and defaults it to 2 if invalid.  <br /></td></tr>
+<tr class="separator:a25d58cc0a7c614d44721a0db7c1bb274"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac89b6cea452c2ca8559c6e7b1c1ca471" id="r_ac89b6cea452c2ca8559c6e7b1c1ca471"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ac89b6cea452c2ca8559c6e7b1c1ca471">drawLine</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> x1, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> y1, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
 <tr class="memdesc:ac89b6cea452c2ca8559c6e7b1c1ca471"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws a line from (x0,y0) to (x1,y1).  <br /></td></tr>
 <tr class="separator:ac89b6cea452c2ca8559c6e7b1c1ca471"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8abcc14195abfdc930066bb3da0a6e73" id="r_a8abcc14195abfdc930066bb3da0a6e73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a8abcc14195abfdc930066bb3da0a6e73">drawFastVLine</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
-<tr class="memdesc:a8abcc14195abfdc930066bb3da0a6e73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a vertical line starting at (x,y) with height h.  <br /></td></tr>
-<tr class="separator:a8abcc14195abfdc930066bb3da0a6e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8689fc69a4ca71e0dc574ae162bbd446" id="r_a8689fc69a4ca71e0dc574ae162bbd446"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a8689fc69a4ca71e0dc574ae162bbd446">drawFastHLine</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
-<tr class="memdesc:a8689fc69a4ca71e0dc574ae162bbd446"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a horizontal line starting at (x,y) with width w.  <br /></td></tr>
-<tr class="separator:a8689fc69a4ca71e0dc574ae162bbd446"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6927c8b38283557a703ac07ac54b4ef6" id="r_a6927c8b38283557a703ac07ac54b4ef6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a6927c8b38283557a703ac07ac54b4ef6">drawFastVLine</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
+<tr class="memdesc:a6927c8b38283557a703ac07ac54b4ef6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a vertical line starting at (x,y) with height h.  <br /></td></tr>
+<tr class="separator:a6927c8b38283557a703ac07ac54b4ef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a250fcf76a84c0f629caac0fefef0bf5b" id="r_a250fcf76a84c0f629caac0fefef0bf5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a250fcf76a84c0f629caac0fefef0bf5b">drawFastHLine</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
+<tr class="memdesc:a250fcf76a84c0f629caac0fefef0bf5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a horizontal line starting at (x,y) with width w.  <br /></td></tr>
+<tr class="separator:a250fcf76a84c0f629caac0fefef0bf5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bebf58a02e119386f2b2a461d309019" id="r_a6bebf58a02e119386f2b2a461d309019"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a6bebf58a02e119386f2b2a461d309019">drawLineAngle</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">angle</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">start</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">length</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">offset</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
+<tr class="memdesc:a6bebf58a02e119386f2b2a461d309019"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a line using an angle and length as parameters. This function draws a line starting from <code>(x, y)</code>, extending in the direction specified by <code>angle</code>, with a given <code>length</code>. The function also allows applying an <code>offset</code> to the angle before computing the line’s end coordinates.  <br /></td></tr>
+<tr class="separator:a6bebf58a02e119386f2b2a461d309019"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ed7317d3249cec490b565a2a42a0ca5" id="r_a4ed7317d3249cec490b565a2a42a0ca5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a4ed7317d3249cec490b565a2a42a0ca5">drawRect</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
 <tr class="memdesc:a4ed7317d3249cec490b565a2a42a0ca5"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws rectangle at (x,y) where h is height and w is width of the rectangle.  <br /></td></tr>
 <tr class="separator:a4ed7317d3249cec490b565a2a42a0ca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -158,17 +164,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab81f12fefc1da59485b6abe4c5498e5a" id="r_ab81f12fefc1da59485b6abe4c5498e5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ab81f12fefc1da59485b6abe4c5498e5a">drawCircle</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">r</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
 <tr class="memdesc:ab81f12fefc1da59485b6abe4c5498e5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws a circle where (x0,y0) are center coordinates an r is circle radius.  <br /></td></tr>
 <tr class="separator:ab81f12fefc1da59485b6abe4c5498e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cace7f1db83ab5dbf68dec86666c135" id="r_a4cace7f1db83ab5dbf68dec86666c135"><td class="memItemLeft" align="right" valign="top"><a id="a4cace7f1db83ab5dbf68dec86666c135" name="a4cace7f1db83ab5dbf68dec86666c135"></a>
-<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>drawCircleHelper</b> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">r</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">cornername</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
-<tr class="memdesc:a4cace7f1db83ab5dbf68dec86666c135"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used internally by drawRoundRect. <br /></td></tr>
-<tr class="separator:a4cace7f1db83ab5dbf68dec86666c135"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf48d5808241e148c06fc120c4ed7d9e" id="r_aaf48d5808241e148c06fc120c4ed7d9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#aaf48d5808241e148c06fc120c4ed7d9e">fillCircle</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">r</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
 <tr class="memdesc:aaf48d5808241e148c06fc120c4ed7d9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">fills a circle where (x0,y0) are center coordinates an r is circle radius.  <br /></td></tr>
 <tr class="separator:aaf48d5808241e148c06fc120c4ed7d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a360563b601a40fc87578e64d6b72e637" id="r_a360563b601a40fc87578e64d6b72e637"><td class="memItemLeft" align="right" valign="top"><a id="a360563b601a40fc87578e64d6b72e637" name="a360563b601a40fc87578e64d6b72e637"></a>
-<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fillCircleHelper</b> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">r</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">cornername</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">delta</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
-<tr class="memdesc:a360563b601a40fc87578e64d6b72e637"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used internally by fill circle fillRoundRect and fillcircle. <br /></td></tr>
-<tr class="separator:a360563b601a40fc87578e64d6b72e637"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa6ab879b3216d57cd81e31cc499f76f" id="r_aaa6ab879b3216d57cd81e31cc499f76f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#aaa6ab879b3216d57cd81e31cc499f76f">drawEllipse</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">cx</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">cy</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">semiMajorAxis</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">semiMinorAxis</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">fill</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
+<tr class="memdesc:aaa6ab879b3216d57cd81e31cc499f76f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw an ellipse on the display. This function uses the midpoint ellipse algorithm to efficiently draw an ellipse centered at (cx, cy) with the given semi-major (horizontal) and semi-minor (vertical) axes.  <br /></td></tr>
+<tr class="separator:aaa6ab879b3216d57cd81e31cc499f76f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67166d063763ff0fe29302cdd0a09a1e" id="r_a67166d063763ff0fe29302cdd0a09a1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a67166d063763ff0fe29302cdd0a09a1e">drawTriangle</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> x1, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> y1, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> x2, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> y2, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
 <tr class="memdesc:a67166d063763ff0fe29302cdd0a09a1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws a triangle of coordinates (x0,y0), (x1,y1) and (x2,y2).  <br /></td></tr>
 <tr class="separator:a67166d063763ff0fe29302cdd0a09a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -181,6 +182,33 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac66aad6e8afbf50d6a93e735d0514587" id="r_ac66aad6e8afbf50d6a93e735d0514587"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ac66aad6e8afbf50d6a93e735d0514587">fillRoundRect</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">radius</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
 <tr class="memdesc:ac66aad6e8afbf50d6a93e735d0514587"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills a rectangle with rounded edges.  <br /></td></tr>
 <tr class="separator:ac66aad6e8afbf50d6a93e735d0514587"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a978ba9681b0f56d9ea6f7e857e6f0ccb" id="r_a978ba9681b0f56d9ea6f7e857e6f0ccb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a978ba9681b0f56d9ea6f7e857e6f0ccb">drawQuadrilateral</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> x1, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> y1, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> x2, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> y2, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x3</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y3</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
+<tr class="memdesc:a978ba9681b0f56d9ea6f7e857e6f0ccb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a quadrilateral (four-sided polygon) by connecting four points with lines. This function draws a quadrilateral by drawing four lines between the given vertices. The lines are drawn in the order: (x0, y0) to (x1, y1), (x1, y1) to (x2, y2), (x2, y2) to (x3, y3), and finally (x3, y3) back to (x0, y0).  <br /></td></tr>
+<tr class="separator:a978ba9681b0f56d9ea6f7e857e6f0ccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c3edb2e0e7efc76296e186c9b631801" id="r_a0c3edb2e0e7efc76296e186c9b631801"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a0c3edb2e0e7efc76296e186c9b631801">fillQuadrilateral</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> x1, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> y1, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> x2, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> y2, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x3</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y3</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">useTriangleSplit</a>=<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">true</a>)</td></tr>
+<tr class="memdesc:a0c3edb2e0e7efc76296e186c9b631801"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills a quadrilateral with the specified color using triangles. This function fills a quadrilateral by dividing it into triangles and filling them individually. The quadrilateral is filled by calling the <code>fillTriangle</code> function three times with appropriate vertex coordinates. The <code>useTriangleSplit</code> parameter determines whether the quadrilateral is divided into two triangles or if only one triangle is used.  <br /></td></tr>
+<tr class="separator:a0c3edb2e0e7efc76296e186c9b631801"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a9a3be1000b270de83697acfe99747b" id="r_a2a9a3be1000b270de83697acfe99747b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a2a9a3be1000b270de83697acfe99747b">drawPolygon</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">sides</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">diameter</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">float</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">rotation</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">fill</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
+<tr class="memdesc:a2a9a3be1000b270de83697acfe99747b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a polygon with a specified number of sides, diameter, rotation, and color. This function draws a regular polygon by connecting points equally spaced around a circle, with each point having a distance defined by the diameter. The polygon is rotated by the given angle (in degrees) before being drawn. The number of sides is enforced to be at least 3.  <br /></td></tr>
+<tr class="separator:a2a9a3be1000b270de83697acfe99747b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63d9e5c10fc35807cecdb0f7bc0aab82" id="r_a63d9e5c10fc35807cecdb0f7bc0aab82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a63d9e5c10fc35807cecdb0f7bc0aab82">drawArc</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">cx</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">cy</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">radius</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">thickness</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">float</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">startAngle</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">float</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">endAngle</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
+<tr class="memdesc:a63d9e5c10fc35807cecdb0f7bc0aab82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw an arc on the TFT display. This function draws an arc between two angles (start and end) on a circle with a given radius.  <br /></td></tr>
+<tr class="separator:a63d9e5c10fc35807cecdb0f7bc0aab82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8fd3f7cd46496ad18a8b4db9274bf70" id="r_af8fd3f7cd46496ad18a8b4db9274bf70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#af8fd3f7cd46496ad18a8b4db9274bf70">drawSimpleArc</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">cx</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">cy</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">radius</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">float</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">startAngle</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">float</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">endAngle</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
+<tr class="memdesc:af8fd3f7cd46496ad18a8b4db9274bf70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a simple arc of one pixel on the display( no offsets , thickness or maximum arc calculations) This function draws an arc between two angles (start and end) on a circle with a given radius.  <br /></td></tr>
+<tr class="separator:af8fd3f7cd46496ad18a8b4db9274bf70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a384c151963be98bad9a33ec549c73efe" id="r_a384c151963be98bad9a33ec549c73efe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a384c151963be98bad9a33ec549c73efe">getArcAngleMax</a> () <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a></td></tr>
+<tr class="memdesc:a384c151963be98bad9a33ec549c73efe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current maximum angle of the arc.  <br /></td></tr>
+<tr class="separator:a384c151963be98bad9a33ec549c73efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac15e5a07332de7240e0206f4335e6821" id="r_ac15e5a07332de7240e0206f4335e6821"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ac15e5a07332de7240e0206f4335e6821">setArcAngleMax</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">float</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">arcAngleMax</a>)</td></tr>
+<tr class="memdesc:ac15e5a07332de7240e0206f4335e6821"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a new maximum angle for the arc.  <br /></td></tr>
+<tr class="separator:ac15e5a07332de7240e0206f4335e6821"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47ea8ffbb6ded3248f230547455a22ff" id="r_a47ea8ffbb6ded3248f230547455a22ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a47ea8ffbb6ded3248f230547455a22ff">getArcAngleOffset</a> () <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a></td></tr>
+<tr class="memdesc:a47ea8ffbb6ded3248f230547455a22ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current angle offset.  <br /></td></tr>
+<tr class="separator:a47ea8ffbb6ded3248f230547455a22ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cc5355775c5af7e0df2c146e8dbb7df" id="r_a8cc5355775c5af7e0df2c146e8dbb7df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a8cc5355775c5af7e0df2c146e8dbb7df">setArcAngleOffset</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">arcAngleOffset</a>)</td></tr>
+<tr class="memdesc:a8cc5355775c5af7e0df2c146e8dbb7df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a new angle offset.  <br /></td></tr>
+<tr class="separator:a8cc5355775c5af7e0df2c146e8dbb7df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3108ca60f44bff6619b4fffa10aa3c53" id="r_a3108ca60f44bff6619b4fffa10aa3c53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a3108ca60f44bff6619b4fffa10aa3c53">setCursor</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>)</td></tr>
 <tr class="memdesc:a3108ca60f44bff6619b4fffa10aa3c53"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the cursor position  <br /></td></tr>
 <tr class="separator:a3108ca60f44bff6619b4fffa10aa3c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,26 +257,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a080ad53acb42493bc9599096c11a2f86 inherit pub_methods_classdisplay__Fonts"><td class="mdescLeft">&#160;</td><td class="mdescRight">getInvertFont  <br /></td></tr>
 <tr class="separator:a080ad53acb42493bc9599096c11a2f86 inherit pub_methods_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classPrint"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classPrint')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classPrint.html">Print</a></td></tr>
-<tr class="memitem:a88a4a829fb5d589efb43955ad0cbddcc inherit pub_methods_classPrint" id="r_a88a4a829fb5d589efb43955ad0cbddcc"><td class="memItemLeft" align="right" valign="top">
-<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getWriteError</b> ()</td></tr>
-<tr class="memdesc:a88a4a829fb5d589efb43955ad0cbddcc inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets the error flag status, zero no error <br /></td></tr>
+<tr class="memitem:a88a4a829fb5d589efb43955ad0cbddcc inherit pub_methods_classPrint" id="r_a88a4a829fb5d589efb43955ad0cbddcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a88a4a829fb5d589efb43955ad0cbddcc">getWriteError</a> ()</td></tr>
+<tr class="memdesc:a88a4a829fb5d589efb43955ad0cbddcc inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets the error flag status, zero no error  <br /></td></tr>
 <tr class="separator:a88a4a829fb5d589efb43955ad0cbddcc inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec9ecf84cc6d9087a650def3cefc459e inherit pub_methods_classPrint" id="r_aec9ecf84cc6d9087a650def3cefc459e"><td class="memItemLeft" align="right" valign="top">
 <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>clearWriteError</b> ()</td></tr>
-<tr class="memdesc:aec9ecf84cc6d9087a650def3cefc459e inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">clears the errof flag by setting it to zero <br /></td></tr>
+<tr class="memdesc:aec9ecf84cc6d9087a650def3cefc459e inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">clears the error flag by setting it to zero <br /></td></tr>
 <tr class="separator:aec9ecf84cc6d9087a650def3cefc459e inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b40e0e9cab1f2fe5bb0cb22ffe5adda inherit pub_methods_classPrint" id="r_a5b40e0e9cab1f2fe5bb0cb22ffe5adda"><td class="memItemLeft" align="right" valign="top">
-<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>write</b> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a> *<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">str</a>)</td></tr>
-<tr class="separator:a5b40e0e9cab1f2fe5bb0cb22ffe5adda inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad98d820df11e2697be1e4b1ea30b4a23 inherit pub_methods_classPrint" id="r_ad98d820df11e2697be1e4b1ea30b4a23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">virtual</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ad98d820df11e2697be1e4b1ea30b4a23">write</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> *<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">buffer</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size</a>)</td></tr>
-<tr class="memdesc:ad98d820df11e2697be1e4b1ea30b4a23 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">default implementation: may be overridden  <br /></td></tr>
+<tr class="memdesc:ad98d820df11e2697be1e4b1ea30b4a23 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">define in the sub class  <br /></td></tr>
 <tr class="separator:ad98d820df11e2697be1e4b1ea30b4a23 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfdd93a61c4b95a3ba41680188505e73 inherit pub_methods_classPrint" id="r_abfdd93a61c4b95a3ba41680188505e73"><td class="memItemLeft" align="right" valign="top">
-<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>write</b> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a> *<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">buffer</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size</a>)</td></tr>
+<tr class="memitem:a5b40e0e9cab1f2fe5bb0cb22ffe5adda inherit pub_methods_classPrint" id="r_a5b40e0e9cab1f2fe5bb0cb22ffe5adda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a5b40e0e9cab1f2fe5bb0cb22ffe5adda">write</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a> *<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">str</a>)</td></tr>
+<tr class="memdesc:a5b40e0e9cab1f2fe5bb0cb22ffe5adda inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a string to the output.  <br /></td></tr>
+<tr class="separator:a5b40e0e9cab1f2fe5bb0cb22ffe5adda inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfdd93a61c4b95a3ba41680188505e73 inherit pub_methods_classPrint" id="r_abfdd93a61c4b95a3ba41680188505e73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#abfdd93a61c4b95a3ba41680188505e73">write</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a> *<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">buffer</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size</a>)</td></tr>
+<tr class="memdesc:abfdd93a61c4b95a3ba41680188505e73 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a buffer of a specified size to the output.  <br /></td></tr>
 <tr class="separator:abfdd93a61c4b95a3ba41680188505e73 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae278602698f895c25820f18da4e765be inherit pub_methods_classPrint" id="r_ae278602698f895c25820f18da4e765be"><td class="memItemLeft" align="right" valign="top">
-<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">virtual</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>&#160;</td><td class="memItemRight" valign="bottom"><b>availableForWrite</b> ()</td></tr>
-<tr class="separator:ae278602698f895c25820f18da4e765be inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b5fb4ffd9acec8d497c46fd94cb22e3 inherit pub_methods_classPrint" id="r_a5b5fb4ffd9acec8d497c46fd94cb22e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">virtual</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a5b5fb4ffd9acec8d497c46fd94cb22e3">availableForWrite</a> ()</td></tr>
+<tr class="memdesc:a5b5fb4ffd9acec8d497c46fd94cb22e3 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">define in the sub class  <br /></td></tr>
+<tr class="separator:a5b5fb4ffd9acec8d497c46fd94cb22e3 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfe80773011eb17dfb52c2fba517a093 inherit pub_methods_classPrint" id="r_acfe80773011eb17dfb52c2fba517a093"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#acfe80773011eb17dfb52c2fba517a093">print</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a>[])</td></tr>
 <tr class="memdesc:acfe80773011eb17dfb52c2fba517a093 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an array  <br /></td></tr>
 <tr class="separator:acfe80773011eb17dfb52c2fba517a093 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -274,7 +301,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad98e56154fce960dd8c48e7d97a13624 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an C++ string object  <br /></td></tr>
 <tr class="separator:ad98e56154fce960dd8c48e7d97a13624 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad337ce3f7977411b7d34d47a51e5737e inherit pub_methods_classPrint" id="r_ad337ce3f7977411b7d34d47a51e5737e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#ad337ce3f7977411b7d34d47a51e5737e">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">const</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a>[])</td></tr>
-<tr class="memdesc:ad337ce3f7977411b7d34d47a51e5737e inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an array followed by new line  <br /></td></tr>
+<tr class="memdesc:ad337ce3f7977411b7d34d47a51e5737e inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints a character array followed by a newline.  <br /></td></tr>
 <tr class="separator:ad337ce3f7977411b7d34d47a51e5737e inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a554896a71162f967b5794401239d7a01 inherit pub_methods_classPrint" id="r_a554896a71162f967b5794401239d7a01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a554896a71162f967b5794401239d7a01">println</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">char</a>)</td></tr>
 <tr class="memdesc:a554896a71162f967b5794401239d7a01 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an character followed by new line  <br /></td></tr>
@@ -334,10 +361,14 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a06ffb5012edc622eb7a017e977c3d5ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8de1cbff3aef504b316af350eac3b174" id="r_a8de1cbff3aef504b316af350eac3b174"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a8de1cbff3aef504b316af350eac3b174">_cursor_y</a></td></tr>
 <tr class="separator:a8de1cbff3aef504b316af350eac3b174"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a4d1c3752e6930d1cd4d241724c2af6" id="r_a4a4d1c3752e6930d1cd4d241724c2af6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a4a4d1c3752e6930d1cd4d241724c2af6">_arcAngleMax</a> = 360.0f</td></tr>
+<tr class="separator:a4a4d1c3752e6930d1cd4d241724c2af6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6558fff8f283c815fb10440170576c67" id="r_a6558fff8f283c815fb10440170576c67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a6558fff8f283c815fb10440170576c67">_arcAngleOffset</a> = 0</td></tr>
+<tr class="separator:a6558fff8f283c815fb10440170576c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7b86b6e4b2cc1729e27baeec1322a61" id="r_ab7b86b6e4b2cc1729e27baeec1322a61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#ab7b86b6e4b2cc1729e27baeec1322a61">_textwrap</a> = <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">true</a></td></tr>
 <tr class="separator:ab7b86b6e4b2cc1729e27baeec1322a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classdisplay__Fonts"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classdisplay__Fonts')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classdisplay__Fonts.html">display_Fonts</a></td></tr>
-<tr class="memitem:a3fff5c7dbe437fa3a5d38e83976a8a12 inherit pro_attribs_classdisplay__Fonts" id="r_a3fff5c7dbe437fa3a5d38e83976a8a12"><td class="memItemLeft" align="right" valign="top">std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#a3fff5c7dbe437fa3a5d38e83976a8a12">_FontSelect</a> = pFontDefault</td></tr>
+<tr class="memitem:a3fff5c7dbe437fa3a5d38e83976a8a12 inherit pro_attribs_classdisplay__Fonts" id="r_a3fff5c7dbe437fa3a5d38e83976a8a12"><td class="memItemLeft" align="right" valign="top">std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#a3fff5c7dbe437fa3a5d38e83976a8a12">_FontSelect</a> = <a class="el" href="font__data__RDL_8hpp.html#af098a235ee2c386600588c729624e4ea">pFontDefault</a></td></tr>
 <tr class="separator:a3fff5c7dbe437fa3a5d38e83976a8a12 inherit pro_attribs_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03bcf91a5baeb63efa14e945d3b57eb2 inherit pro_attribs_classdisplay__Fonts" id="r_a03bcf91a5baeb63efa14e945d3b57eb2"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#a03bcf91a5baeb63efa14e945d3b57eb2">_Font_X_Size</a> = 0x08</td></tr>
 <tr class="separator:a03bcf91a5baeb63efa14e945d3b57eb2 inherit pro_attribs_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -348,12 +379,6 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a8177feb6fa222080ddb3a3c48a3e2f69 inherit pro_attribs_classdisplay__Fonts" id="r_a8177feb6fa222080ddb3a3c48a3e2f69"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#a8177feb6fa222080ddb3a3c48a3e2f69">_FontNumChars</a> = 0x5F</td></tr>
 <tr class="separator:a8177feb6fa222080ddb3a3c48a3e2f69 inherit pro_attribs_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a8ec1d37dbad34fad910dce80f40acdc7" id="r_a8ec1d37dbad34fad910dce80f40acdc7"><td class="memItemLeft" align="right" valign="top"><a id="a8ec1d37dbad34fad910dce80f40acdc7" name="a8ec1d37dbad34fad910dce80f40acdc7"></a>
-<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>swapint16t</b> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> &amp;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">a</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> &amp;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">b</a>)</td></tr>
-<tr class="separator:a8ec1d37dbad34fad910dce80f40acdc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a9577e0c69c474d3308a43ab44be8d7a5" id="r_a9577e0c69c474d3308a43ab44be8d7a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a9577e0c69c474d3308a43ab44be8d7a5">_drawBitmapAddr</a></td></tr>
@@ -362,8 +387,7 @@ Private Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_methods_classPrint"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classPrint')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classPrint.html">Print</a></td></tr>
-<tr class="memitem:a2448ffd74bf2903d3f4b2b57d55463c9 inherit pro_methods_classPrint" id="r_a2448ffd74bf2903d3f4b2b57d55463c9"><td class="memItemLeft" align="right" valign="top">
-<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>setWriteError</b> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">err</a>=0)</td></tr>
+<tr class="memitem:a2448ffd74bf2903d3f4b2b57d55463c9 inherit pro_methods_classPrint" id="r_a2448ffd74bf2903d3f4b2b57d55463c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a2448ffd74bf2903d3f4b2b57d55463c9">setWriteError</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">err</a>=0)</td></tr>
 <tr class="separator:a2448ffd74bf2903d3f4b2b57d55463c9 inherit pro_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -459,6 +483,79 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a63d9e5c10fc35807cecdb0f7bc0aab82" name="a63d9e5c10fc35807cecdb0f7bc0aab82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63d9e5c10fc35807cecdb0f7bc0aab82">&#9670;&#160;</a></span>drawArc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a> bicolor_graphics::drawArc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>&#160;</td>
+          <td class="paramname"><em>cx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>&#160;</td>
+          <td class="paramname"><em>cy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>&#160;</td>
+          <td class="paramname"><em>thickness</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">float</a>&#160;</td>
+          <td class="paramname"><em>startAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">float</a>&#160;</td>
+          <td class="paramname"><em>endAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>color</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Draw an arc on the TFT display. This function draws an arc between two angles (start and end) on a circle with a given radius. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cx</td><td>X-coordinate of the center of the circle. </td></tr>
+    <tr><td class="paramname">cy</td><td>Y-coordinate of the center of the circle. </td></tr>
+    <tr><td class="paramname">radius</td><td>The radius of the circle. </td></tr>
+    <tr><td class="paramname">thickness</td><td>the thickness of the arc </td></tr>
+    <tr><td class="paramname">startAngle</td><td>The starting angle of the arc (in degrees). </td></tr>
+    <tr><td class="paramname">endAngle</td><td>The ending angle of the arc (in degrees). </td></tr>
+    <tr><td class="paramname">color</td><td>The color of the arc. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>variables _arcAngleMax and _arcAngleOffset which can be set by user with setters define behaviour of arc. _arcAngleOffset is zero default means 0 is positive X axis , Arc is drawn counterclockwise XXX 270 XXX 180 XXX 000 XXX 090 XXX </dd></dl>
+
+</div>
+</div>
 <a id="ac0b9252a23f50e0285e76529c93b4740" name="ac0b9252a23f50e0285e76529c93b4740"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac0b9252a23f50e0285e76529c93b4740">&#9670;&#160;</a></span>drawBitmap()</h2>
 
@@ -592,14 +689,149 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a8689fc69a4ca71e0dc574ae162bbd446" name="a8689fc69a4ca71e0dc574ae162bbd446"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8689fc69a4ca71e0dc574ae162bbd446">&#9670;&#160;</a></span>drawFastHLine()</h2>
+<a id="a25d58cc0a7c614d44721a0db7c1bb274" name="a25d58cc0a7c614d44721a0db7c1bb274"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25d58cc0a7c614d44721a0db7c1bb274">&#9670;&#160;</a></span>drawDotGrid()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a> bicolor_graphics::drawFastHLine </td>
+          <td class="memname"><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> bicolor_graphics::drawDotGrid </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>h</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>DotGridGap</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>color</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Draws a grid of dots on the screen starting from the given coordinates. This function draws a grid of pixels with a specified gap between them. It checks that the provided coordinates and dimensions are within the screen bounds and adjusts them if necessary. It also validates The grid of dots gap value and defaults it to 2 if invalid. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>The x-coordinate of the top-left corner where The grid of dots will start. </td></tr>
+    <tr><td class="paramname">y</td><td>The y-coordinate of the top-left corner where The grid of dots will start. </td></tr>
+    <tr><td class="paramname">w</td><td>The width of the area to draw The grid of dots, from the starting x-coordinate. </td></tr>
+    <tr><td class="paramname">h</td><td>The height of the area to draw The grid of dots, from the starting y-coordinate. </td></tr>
+    <tr><td class="paramname">DotGridGap</td><td>The gap between each dot gap line, controlling the spacing between drawn pixels. </td></tr>
+    <tr><td class="paramname">color</td><td>The color of the pixels to draw in The grid of dots. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> Returns a status code indicating success or failure. Possible return values:<ul>
+<li><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a>: The grid of dots was successfully drawn.</li>
+<li><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a7d470e5d59985355fb8ad2e07098efe8">rdlib::ShapeScreenBounds</a>: The provided coordinates or dimensions are out of screen bounds. </li>
+</ul>
+</dd></dl>
+
+</div>
+</div>
+<a id="aaa6ab879b3216d57cd81e31cc499f76f" name="aaa6ab879b3216d57cd81e31cc499f76f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa6ab879b3216d57cd81e31cc499f76f">&#9670;&#160;</a></span>drawEllipse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a> bicolor_graphics::drawEllipse </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>cx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>cy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>semiMajorAxis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>semiMinorAxis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a>&#160;</td>
+          <td class="paramname"><em>fill</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>color</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Draw an ellipse on the display. This function uses the midpoint ellipse algorithm to efficiently draw an ellipse centered at (cx, cy) with the given semi-major (horizontal) and semi-minor (vertical) axes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cx</td><td>X-coordinate of the ellipse center. </td></tr>
+    <tr><td class="paramname">cy</td><td>Y-coordinate of the ellipse center. </td></tr>
+    <tr><td class="paramname">semiMajorAxis</td><td>Length of the semi-major axis (horizontal radius). </td></tr>
+    <tr><td class="paramname">semiMinorAxis</td><td>Length of the semi-minor axis (vertical radius). </td></tr>
+    <tr><td class="paramname">fill</td><td>if false draw Ellipse , if true fill it! </td></tr>
+    <tr><td class="paramname">color</td><td>color value for the ellipse. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a250fcf76a84c0f629caac0fefef0bf5b" name="a250fcf76a84c0f629caac0fefef0bf5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a250fcf76a84c0f629caac0fefef0bf5b">&#9670;&#160;</a></span>drawFastHLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> bicolor_graphics::drawFastHLine </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -640,17 +872,22 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>enum <a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a><ol type="1">
+<li><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a> for success</li>
+<li><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a7d470e5d59985355fb8ad2e07098efe8">rdlib::ShapeScreenBounds</a> Error </li>
+</ol>
+</dd></dl>
 
 </div>
 </div>
-<a id="a8abcc14195abfdc930066bb3da0a6e73" name="a8abcc14195abfdc930066bb3da0a6e73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8abcc14195abfdc930066bb3da0a6e73">&#9670;&#160;</a></span>drawFastVLine()</h2>
+<a id="a6927c8b38283557a703ac07ac54b4ef6" name="a6927c8b38283557a703ac07ac54b4ef6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6927c8b38283557a703ac07ac54b4ef6">&#9670;&#160;</a></span>drawFastVLine()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a> bicolor_graphics::drawFastVLine </td>
+          <td class="memname"><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> bicolor_graphics::drawFastVLine </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -691,6 +928,11 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>enum <a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a><ol type="1">
+<li><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69">rdlib::Success</a> for success</li>
+<li><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a7d470e5d59985355fb8ad2e07098efe8">rdlib::ShapeScreenBounds</a> Error </li>
+</ol>
+</dd></dl>
 
 </div>
 </div>
@@ -752,6 +994,78 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a6bebf58a02e119386f2b2a461d309019" name="a6bebf58a02e119386f2b2a461d309019"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bebf58a02e119386f2b2a461d309019">&#9670;&#160;</a></span>drawLineAngle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a> bicolor_graphics::drawLineAngle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>&#160;</td>
+          <td class="paramname"><em>angle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>color</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Draws a line using an angle and length as parameters. This function draws a line starting from <code>(x, y)</code>, extending in the direction specified by <code>angle</code>, with a given <code>length</code>. The function also allows applying an <code>offset</code> to the angle before computing the line’s end coordinates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>The starting x-coordinate (horizontal position). </td></tr>
+    <tr><td class="paramname">y</td><td>The starting y-coordinate (vertical position). </td></tr>
+    <tr><td class="paramname">angle</td><td>The angle (in degrees) at which the line is drawn. </td></tr>
+    <tr><td class="paramname">start</td><td>calculates a new starting position by moving start units along the given angle. </td></tr>
+    <tr><td class="paramname">length</td><td>The length of the line. </td></tr>
+    <tr><td class="paramname">offset</td><td>An additional offset applied to the angle before calculating the endpoint. </td></tr>
+    <tr><td class="paramname">color</td><td>The color of the line </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="af8048fbe1bef8830031811ece3816032" name="af8048fbe1bef8830031811ece3816032"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af8048fbe1bef8830031811ece3816032">&#9670;&#160;</a></span>drawPixel()</h2>
 
@@ -792,7 +1106,168 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>define in the sub class </p>
+
 <p>Implemented in <a class="el" href="classNOKIA__5110__RPI.html#a305b5067e9a077cca0d1510ba4b81786">NOKIA_5110_RPI</a>, <a class="el" href="classSH110X__RDL.html#ae2ebcbeff5b2eccf6add11e702527fe5">SH110X_RDL</a>, <a class="el" href="classSSD1306__RDL.html#a559969b15ee7b92554f28d5adfaee570">SSD1306_RDL</a>, <a class="el" href="classERMCH1115.html#acab6f3a96247937ab6b5c31ea4ec360d">ERMCH1115</a>, and <a class="el" href="classERM19264__UC1609.html#aa1191dc5d509df6e204860896f91ccce">ERM19264_UC1609</a>.</p>
+
+</div>
+</div>
+<a id="a2a9a3be1000b270de83697acfe99747b" name="a2a9a3be1000b270de83697acfe99747b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a9a3be1000b270de83697acfe99747b">&#9670;&#160;</a></span>drawPolygon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> bicolor_graphics::drawPolygon </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>sides</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>diameter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">float</a>&#160;</td>
+          <td class="paramname"><em>rotation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a>&#160;</td>
+          <td class="paramname"><em>fill</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>color</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Draws a polygon with a specified number of sides, diameter, rotation, and color. This function draws a regular polygon by connecting points equally spaced around a circle, with each point having a distance defined by the diameter. The polygon is rotated by the given angle (in degrees) before being drawn. The number of sides is enforced to be at least 3. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>The x-coordinate of the center of the polygon. </td></tr>
+    <tr><td class="paramname">y</td><td>The y-coordinate of the center of the polygon. </td></tr>
+    <tr><td class="paramname">sides</td><td>The number of sides the polygon will have. Must be at least 3. </td></tr>
+    <tr><td class="paramname">diameter</td><td>The diameter of the circle inscribed by the polygon. </td></tr>
+    <tr><td class="paramname">rotation</td><td>The angle (in degrees) by which to rotate the polygon. </td></tr>
+    <tr><td class="paramname">fill</td><td>if false draw ,if true fill </td></tr>
+    <tr><td class="paramname">color</td><td>The color of the polygon edges. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>error code GenericError , if user inputs incorrect sides value </dd></dl>
+
+</div>
+</div>
+<a id="a978ba9681b0f56d9ea6f7e857e6f0ccb" name="a978ba9681b0f56d9ea6f7e857e6f0ccb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a978ba9681b0f56d9ea6f7e857e6f0ccb">&#9670;&#160;</a></span>drawQuadrilateral()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a> bicolor_graphics::drawQuadrilateral </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>x0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>y0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>x1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>y1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>x2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>y2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>x3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>y3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>color</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Draws a quadrilateral (four-sided polygon) by connecting four points with lines. This function draws a quadrilateral by drawing four lines between the given vertices. The lines are drawn in the order: (x0, y0) to (x1, y1), (x1, y1) to (x2, y2), (x2, y2) to (x3, y3), and finally (x3, y3) back to (x0, y0). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x0</td><td>The x-coordinate of the first vertex. </td></tr>
+    <tr><td class="paramname">y0</td><td>The y-coordinate of the first vertex. </td></tr>
+    <tr><td class="paramname">x1</td><td>The x-coordinate of the second vertex. </td></tr>
+    <tr><td class="paramname">y1</td><td>The y-coordinate of the second vertex. </td></tr>
+    <tr><td class="paramname">x2</td><td>The x-coordinate of the third vertex. </td></tr>
+    <tr><td class="paramname">y2</td><td>The y-coordinate of the third vertex. </td></tr>
+    <tr><td class="paramname">x3</td><td>The x-coordinate of the fourth vertex. </td></tr>
+    <tr><td class="paramname">y3</td><td>The y-coordinate of the fourth vertex. </td></tr>
+    <tr><td class="paramname">color</td><td>The 565 color used to draw the lines of the quadrilateral. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -919,6 +1394,72 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="af8fd3f7cd46496ad18a8b4db9274bf70" name="af8fd3f7cd46496ad18a8b4db9274bf70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8fd3f7cd46496ad18a8b4db9274bf70">&#9670;&#160;</a></span>drawSimpleArc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a> bicolor_graphics::drawSimpleArc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>cx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>cy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">float</a>&#160;</td>
+          <td class="paramname"><em>startAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">float</a>&#160;</td>
+          <td class="paramname"><em>endAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>color</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Draw a simple arc of one pixel on the display( no offsets , thickness or maximum arc calculations) This function draws an arc between two angles (start and end) on a circle with a given radius. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cx</td><td>X-coordinate of the center of the circle. </td></tr>
+    <tr><td class="paramname">cy</td><td>Y-coordinate of the center of the circle. </td></tr>
+    <tr><td class="paramname">radius</td><td>The radius of the circle. </td></tr>
+    <tr><td class="paramname">startAngle</td><td>The starting angle of the arc (in degrees). </td></tr>
+    <tr><td class="paramname">endAngle</td><td>The ending angle of the arc (in degrees). </td></tr>
+    <tr><td class="paramname">color</td><td>The color of the arc.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>0 degree is positive X axis , arc is drawn counterclockwise </p>
+
+</div>
+</div>
 <a id="a67166d063763ff0fe29302cdd0a09a1e" name="a67166d063763ff0fe29302cdd0a09a1e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a67166d063763ff0fe29302cdd0a09a1e">&#9670;&#160;</a></span>drawTriangle()</h2>
 
@@ -1036,6 +1577,99 @@ Additional Inherited Members</h2></td></tr>
     <tr><td class="paramname">y0</td><td>circle center y position </td></tr>
     <tr><td class="paramname">r</td><td>radius of circle </td></tr>
     <tr><td class="paramname">color</td><td>color of the filled circle </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0c3edb2e0e7efc76296e186c9b631801" name="a0c3edb2e0e7efc76296e186c9b631801"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c3edb2e0e7efc76296e186c9b631801">&#9670;&#160;</a></span>fillQuadrilateral()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a> bicolor_graphics::fillQuadrilateral </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>x0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>y0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>x1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>y1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>x2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>y2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>x3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a>&#160;</td>
+          <td class="paramname"><em>y3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a>&#160;</td>
+          <td class="paramname"><em>useTriangleSplit</em> = <code><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">true</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fills a quadrilateral with the specified color using triangles. This function fills a quadrilateral by dividing it into triangles and filling them individually. The quadrilateral is filled by calling the <code>fillTriangle</code> function three times with appropriate vertex coordinates. The <code>useTriangleSplit</code> parameter determines whether the quadrilateral is divided into two triangles or if only one triangle is used. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x0</td><td>The x-coordinate of the first vertex. </td></tr>
+    <tr><td class="paramname">y0</td><td>The y-coordinate of the first vertex. </td></tr>
+    <tr><td class="paramname">x1</td><td>The x-coordinate of the second vertex. </td></tr>
+    <tr><td class="paramname">y1</td><td>The y-coordinate of the second vertex. </td></tr>
+    <tr><td class="paramname">x2</td><td>The x-coordinate of the third vertex. </td></tr>
+    <tr><td class="paramname">y2</td><td>The y-coordinate of the third vertex. </td></tr>
+    <tr><td class="paramname">x3</td><td>The x-coordinate of the fourth vertex. </td></tr>
+    <tr><td class="paramname">y3</td><td>The y-coordinate of the fourth vertex. </td></tr>
+    <tr><td class="paramname">color</td><td>The color used to fill the quadrilateral. </td></tr>
+    <tr><td class="paramname">useTriangleSplit</td><td>A boolean flag that determines whether the quadrilateral should be divided into two or three triangles. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1263,6 +1897,46 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a384c151963be98bad9a33ec549c73efe" name="a384c151963be98bad9a33ec549c73efe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a384c151963be98bad9a33ec549c73efe">&#9670;&#160;</a></span>getArcAngleMax()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">float</a> bicolor_graphics::getArcAngleMax </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the current maximum angle of the arc. </p>
+<dl class="section return"><dt>Returns</dt><dd>The current maximum angle in degrees. </dd></dl>
+
+</div>
+</div>
+<a id="a47ea8ffbb6ded3248f230547455a22ff" name="a47ea8ffbb6ded3248f230547455a22ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47ea8ffbb6ded3248f230547455a22ff">&#9670;&#160;</a></span>getArcAngleOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> bicolor_graphics::getArcAngleOffset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the current angle offset. </p>
+<dl class="section return"><dt>Returns</dt><dd>The current angle offset in degrees. </dd></dl>
+
+</div>
+</div>
 <a id="a349b3a77cc0c96a1d185fc8f43167983" name="a349b3a77cc0c96a1d185fc8f43167983"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a349b3a77cc0c96a1d185fc8f43167983">&#9670;&#160;</a></span>getRotation()</h2>
 
@@ -1302,6 +1976,58 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Gets the height of the display (per current _rotation) </p>
 <dl class="section return"><dt>Returns</dt><dd>height member of display in pixels </dd></dl>
+
+</div>
+</div>
+<a id="ac15e5a07332de7240e0206f4335e6821" name="ac15e5a07332de7240e0206f4335e6821"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac15e5a07332de7240e0206f4335e6821">&#9670;&#160;</a></span>setArcAngleMax()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a> bicolor_graphics::setArcAngleMax </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">float</a>&#160;</td>
+          <td class="paramname"><em>arcAngleMax</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set a new maximum angle for the arc. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arcAngleMax</td><td>The new maximum angle in degrees (should be positive). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8cc5355775c5af7e0df2c146e8dbb7df" name="a8cc5355775c5af7e0df2c146e8dbb7df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cc5355775c5af7e0df2c146e8dbb7df">&#9670;&#160;</a></span>setArcAngleOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a> bicolor_graphics::setArcAngleOffset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a>&#160;</td>
+          <td class="paramname"><em>arcAngleOffset</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set a new angle offset. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arcAngleOffset</td><td>The new angle offset in degrees. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1588,6 +2314,52 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a4a4d1c3752e6930d1cd4d241724c2af6" name="a4a4d1c3752e6930d1cd4d241724c2af6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a4d1c3752e6930d1cd4d241724c2af6">&#9670;&#160;</a></span>_arcAngleMax</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">float</a> bicolor_graphics::_arcAngleMax = 360.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Maximum angle of Arc , used by drawArc </p>
+
+</div>
+</div>
+<a id="a6558fff8f283c815fb10440170576c67" name="a6558fff8f283c815fb10440170576c67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6558fff8f283c815fb10440170576c67">&#9670;&#160;</a></span>_arcAngleOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int</a> bicolor_graphics::_arcAngleOffset = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>used by drawArc, offset for adjusting the starting angle of arc. default positive X-axis (0°) </p>
+
+</div>
+</div>
 <a id="a06ffb5012edc622eb7a017e977c3d5ea" name="a06ffb5012edc622eb7a017e977c3d5ea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a06ffb5012edc622eb7a017e977c3d5ea">&#9670;&#160;</a></span>_cursor_x</h2>
 

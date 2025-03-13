@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.2.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.3.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -114,9 +114,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a30b0f2e6fbd7114b3c912edf10231234" id="r_a30b0f2e6fbd7114b3c912edf10231234"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1638plus__Model2.html#a30b0f2e6fbd7114b3c912edf10231234">DisplayDecNum</a> (unsigned long number, uint8_t dots, <a class="el" href="classTM1638plus__common.html#a4d81024412c313c1f8b36371b44bf9a9">AlignTextType_e</a>=<a class="el" href="classTM1638plus__common.html#a4d81024412c313c1f8b36371b44bf9a9ae5a5a43e907b5fde739ff09ed5aaf837">TMAlignTextLeft</a>)</td></tr>
 <tr class="memdesc:a30b0f2e6fbd7114b3c912edf10231234"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display an decimal number.  <br /></td></tr>
 <tr class="separator:a30b0f2e6fbd7114b3c912edf10231234"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a740f987527dde173dbf02a038f765d0b" id="r_a740f987527dde173dbf02a038f765d0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1638plus__Model2.html#a740f987527dde173dbf02a038f765d0b">DisplayStr</a> (const char *string, uint16_t dots=0)</td></tr>
-<tr class="memdesc:a740f987527dde173dbf02a038f765d0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display a string, with decimal point display.  <br /></td></tr>
-<tr class="separator:a740f987527dde173dbf02a038f765d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9032538b40d8ae08beef61af96193f97" id="r_a9032538b40d8ae08beef61af96193f97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1638plus__Model2.html#a9032538b40d8ae08beef61af96193f97">DisplayStr</a> (const char *string, uint16_t dots=0)</td></tr>
+<tr class="memdesc:a9032538b40d8ae08beef61af96193f97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display a string, with decimal point display.  <br /></td></tr>
+<tr class="separator:a9032538b40d8ae08beef61af96193f97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad38ddca163e86be02aa31061f1ef9d49" id="r_ad38ddca163e86be02aa31061f1ef9d49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1638plus__Model2.html#ad38ddca163e86be02aa31061f1ef9d49">ASCIItoSegment</a> (const uint8_t values[])</td></tr>
 <tr class="memdesc:ad38ddca163e86be02aa31061f1ef9d49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes in Array of 8 ASCII bytes , Called from DisplayStr . Scans each ASCII byte converts to array of 8 segment bytes where each byte represents a segment. Then calls <a class="el" href="classTM1638plus__Model2.html#aa0b8f2a9aee98c1868abb0fcf872c3ff" title="Send seven segment value to display.">DisplaySegments()</a> method to display segments on display.  <br /></td></tr>
 <tr class="separator:ad38ddca163e86be02aa31061f1ef9d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -258,7 +258,8 @@ Additional Inherited Members</h2></td></tr>
     <tr><td class="paramname">strobe</td><td>GPIO STB pin </td></tr>
     <tr><td class="paramname">clock</td><td>GPIO CLK pin </td></tr>
     <tr><td class="paramname">data</td><td>GPIO DIO pin </td></tr>
-    <tr><td class="paramname">gpioDev</td><td>The device number of a gpiochip. 4 for RPI5, 0 for RPI3 </td></tr>
+    <tr><td class="paramname">gpioDev</td><td>The device number of a gpiochip. <br  />
+ </td></tr>
     <tr><td class="paramname">swap_nibbles</td><td>default false, if true, swaps nibbles on display byte. </td></tr>
   </table>
   </dd>
@@ -481,14 +482,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a740f987527dde173dbf02a038f765d0b" name="a740f987527dde173dbf02a038f765d0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a740f987527dde173dbf02a038f765d0b">&#9670;&#160;</a></span>DisplayStr()</h2>
+<a id="a9032538b40d8ae08beef61af96193f97" name="a9032538b40d8ae08beef61af96193f97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9032538b40d8ae08beef61af96193f97">&#9670;&#160;</a></span>DisplayStr()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void TM1638plus_Model2::DisplayStr </td>
+          <td class="memname"><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> TM1638plus_Model2::DisplayStr </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>string</em>, </td>
@@ -515,6 +516,7 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>error code if string is nullptr </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Takes in string , converts it to ASCII using the font and masks for the decimal point. Then passes array of eight ASCII bytes to DisplayValues function </dd></dl>
 
 </div>
@@ -561,10 +563,10 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>A 16 bit integer where each bit correspond to a switch.<ol type="1">
 <li>S1 = 0x0001</li>
 <li>S16 = 0x8000</li>
-<li>S1 + S16 together = 0x8001 </li>
+<li>S1 + S16 together = 0x8001</li>
 </ol>
 </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>Can detect multiple key presses. However, See notes section in readme regarding, problems with seven segment display when pressing certain keys in combination. </dd></dl>
+<p>Data matrix for read key_value. c = datain c3 0110 0110 c2 0110 0110 c1 0110 0110 c0 0110 0110 :uint8_ts read 8,16 7,15 6,14 5,13 4,12 3,11 2,10 1,9 :button value </p><dl class="section note"><dt>Note</dt><dd>Can detect multiple key presses. However, See notes section in readme regarding, problems with seven segment display when pressing certain keys in combination. </dd></dl>
 
 </div>
 </div>

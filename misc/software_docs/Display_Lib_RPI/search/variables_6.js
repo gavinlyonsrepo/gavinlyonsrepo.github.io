@@ -15,5 +15,7 @@ var searchData=
   ['lcd_5fsetxaddr_12',['LCD_SETXADDR',['../classNOKIA__5110__RPI.html#abe103b24f11ddf667d822ffe76fcd613',1,'NOKIA_5110_RPI']]],
   ['lcd_5fsetyaddr_13',['LCD_SETYADDR',['../classNOKIA__5110__RPI.html#aefaa002d0277fae0e0a559151b0b3b59',1,'NOKIA_5110_RPI']]],
   ['lcddisplaybuffer_14',['LCDDisplayBuffer',['../classNOKIA__5110__RPI.html#a39567390899d58e1a3a8c1d6e29c707c',1,'NOKIA_5110_RPI']]],
-  ['logging_5fenabled_15',['LOGGING_ENABLED',['../namespacerdlib__config.html#a19462c24a685ac15dbecd9eea8d1b287',1,'rdlib_config']]]
+  ['logging_5fenabled_15',['LOGGING_ENABLED',['../namespacerdlib__config.html#a19462c24a685ac15dbecd9eea8d1b287',1,'rdlib_config']]],
+  ['lsec_16',['lsec',['../classXPT__2046__RDL.html#a66fa5b7eb28f5366328f4cc757ca6c06',1,'XPT_2046_RDL']]],
+  ['lusec_17',['lusec',['../classXPT__2046__RDL.html#a7fb6754880b0b298818632e6457d0c62',1,'XPT_2046_RDL']]]
 ];
