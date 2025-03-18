@@ -1,9 +1,0 @@
-<map id="SSD1306_graphics" name="SSD1306_graphics">
-<area shape="rect" id="Node000001" title="Graphics class to hold graphic related functions." alt="" coords="77,79,219,104"/>
-<area shape="rect" id="Node000004" href="$classSSD1306.html" title="class to control OLED and define buffer" alt="" coords="108,152,188,177"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="151,118,151,152,145,152,145,118"/>
-<area shape="rect" id="Node000002" href="$classSSD1306__OLEDFonts.html" title="Font class to hold font data object" alt="" coords="5,5,163,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,39,140,77,136,80,102,43"/>
-<area shape="rect" id="Node000003" href="$classPrint.html" title="class that provides polymorphic print methods for printing data" alt="" coords="187,5,239,31"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="195,43,161,80,157,77,191,39"/>
-</map>

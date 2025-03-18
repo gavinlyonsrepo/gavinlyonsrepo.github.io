@@ -1,9 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classPrint.html" title="class that provides polymorphic print methods for printing data" alt="" coords="58,5,110,31"/>
-<area shape="rect" id="Node000001" href="$classSSD1306__graphics.html" title="Graphics class to hold graphic related functions." alt="" coords="211,31,353,56"/>
-<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="124,20,211,32,210,37,123,26"/>
-<area shape="rect" id="Node000002" href="$classSSD1306.html" title="class to control OLED and define buffer" alt="" coords="401,31,481,56"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="367,41,401,41,401,46,367,46"/>
-<area shape="rect" id="Node000003" href="$classSSD1306__OLEDFonts.html" title="Font class to hold font data object" alt="" coords="5,55,163,80"/>
-<area shape="poly" id="edge3_Node000003_Node000001" title=" " alt="" coords="176,54,210,49,210,55,177,59"/>
-</map>
