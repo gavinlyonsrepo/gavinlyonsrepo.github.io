@@ -9,30 +9,28 @@ layout: page
 
 		<ul>
 			{% assign doc_folder = "software_docs" %}
+			{% assign folders = "" | split: "" %}
 
 			{% for folder in site.static_files %}
 			{% if folder.path contains doc_folder and folder.name == "index.html" %}
 				{% assign folder_parts = folder.path | split: '/' %}
-
-				<!-- Get the second-to-last part as the subfolder name -->
 				{% assign folder_name = folder_parts | slice: -2, 1 %}
 
-				<li><a href="/misc/{{ doc_folder }}/{{ folder_name[0] }}/">{{ folder_name[0] }}</a></li>
+				<!-- Store folder names in an array -->
+				{% assign folders = folders | push: folder_name[0] %}
 			{% endif %}
 			{% endfor %}
+
+			<!-- Sort naturally (case-insensitive) -->
+			{% assign sorted_folders = folders | sort_natural %}
+
+			<!-- Display sorted folder names -->
+			{% for folder in sorted_folders %}
+				<li><a href="/misc/{{ doc_folder }}/{{ folder }}/">{{ folder }}</a></li>
+			{% endfor %}
 		</ul>
+
 	</div>
 </div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
