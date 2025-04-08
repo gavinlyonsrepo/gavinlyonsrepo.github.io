@@ -1,10 +1,25 @@
 var searchData=
 [
-  ['a_20font_0',['Adding or removing a font',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2fonts_2README.html#autotoc_md4',1,'']]],
-  ['adding_20or_20removing_20a_20font_1',['Adding or removing a font',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2fonts_2README.html#autotoc_md4',1,'']]],
-  ['adjustwidthheight_2',['AdjustWidthHeight',['../classST7789__TFT.html#a700fa7e04a6e98647464967be1e03ac0',1,'ST7789_TFT']]],
-  ['advanced_20graphics_3',['Advanced Graphics',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2README.html#autotoc_md60',1,'']]],
-  ['alarmicon_4',['alarmicon',['../Bitmap__TEST__Data_8hpp.html#ad22c3be957e5d7723eac08e298b825f5',1,'AlarmIcon:&#160;Bitmap_TEST_Data.cpp'],['../Bitmap__TEST__Data_8cpp.html#a7eeee775d0c13e16d47eac14e8b232dc',1,'AlarmIcon:&#160;Bitmap_TEST_Data.cpp']]],
-  ['api_20documentation_5',['API Documentation',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2README.html#autotoc_md57',1,'']]],
-  ['availableforwrite_6',['availableForWrite',['../classPrint.html#a5b5fb4ffd9acec8d497c46fd94cb22e3',1,'Print']]]
+  ['basenum_0',['BaseNum',['../classPrint.html#a6d9bda509eaab1f639e14f228c04719b',1,'Print']]],
+  ['baticon_1',['baticon',['../Bitmap__TEST__Data_8hpp.html#ad56378df6d17de3d612743595e268fa8',1,'BatIcon:&#160;Bitmap_TEST_Data.cpp'],['../Bitmap__TEST__Data_8cpp.html#ac0692a2672c23c030c7547e724ac5117',1,'BatIcon:&#160;Bitmap_TEST_Data.cpp']]],
+  ['bcmd_2',['Bcmd',['../classST7735__TFT.html#a0aa89395ff0c7e0f38da658c22ec8c7f',1,'ST7735_TFT']]],
+  ['bin_3',['BIN',['../classPrint.html#a6d9bda509eaab1f639e14f228c04719bae29e65ba20d7690d8b439367989658e1',1,'Print']]],
+  ['bit_20color_20graphic_20displays_20for_20raspberry_20pi_20pico_4',['Display Library for 16-bit color graphic displays for Raspberry PI PICO',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2README.html#autotoc_md78',1,'']]],
+  ['bitmap_5',['bitmap',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2st7789_2README.html#autotoc_md75',1,'Bitmap'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2st7735_2README.html#autotoc_md66',1,'Bitmap'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2ssd1331_2README.html#autotoc_md57',1,'Bitmap'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2ili9341_2README.html#autotoc_md18',1,'Bitmap']]],
+  ['bitmap_20test_6',['bitmap test',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2spi__speed_2April__2025__v2_81_80__Performance.html#autotoc_md36',1,'Bitmap test'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2spi__speed_2April__2025__v2_81_80__Performance.html#autotoc_md34',1,'Bitmap test']]],
+  ['bitmap_5ffps_20tt_20hw_20spi_208 mhz_7',['bitmap_fps tt hw spi 8 mhz',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2spi__speed_2April__2025__v2_81_80__Performance.html#autotoc_md33',1,'ST7735 &lt;tt&gt;bitmap_fps&lt;/tt&gt; (HW SPI 8 MHz)'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2spi__speed_2March__2025__v2_80_80__Performance.html#autotoc_md50',1,'ST7735 &lt;tt&gt;bitmap_fps&lt;/tt&gt; (HW SPI 8 MHz)'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2spi__speed_2April__2025__v2_81_80__Performance.html#autotoc_md27',1,'ST7789 &lt;tt&gt;bitmap_fps&lt;/tt&gt; (HW SPI 8 MHz)'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2spi__speed_2March__2025__v2_80_80__Performance.html#autotoc_md44',1,'ST7789 &lt;tt&gt;bitmap_fps&lt;/tt&gt; (HW SPI 8 MHz)']]],
+  ['bitmap_5ftest_5fdata_2ecpp_8',['Bitmap_TEST_Data.cpp',['../Bitmap__TEST__Data_8cpp.html',1,'']]],
+  ['bitmap_5ftest_5fdata_2ehpp_9',['Bitmap_TEST_Data.hpp',['../Bitmap__TEST__Data_8hpp.html',1,'']]],
+  ['bitmapdataempty_10',['BitmapDataEmpty',['../namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaaadb37ed76ef23c00e91f94d58d78ec74',1,'DisLib16']]],
+  ['bitmaphorizontalsize_11',['BitmapHorizontalSize',['../namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaa56b1962962b24b42463b2b35bb8bbcfe',1,'DisLib16']]],
+  ['bitmaplargerthanscreen_12',['BitmapLargerThanScreen',['../namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaafe7544814e75ac00d3310853ccc2b45c',1,'DisLib16']]],
+  ['bitmapnullptr_13',['BitmapNullptr',['../namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaad0a7bbe3482e16e0310ec1a827f7066b',1,'DisLib16']]],
+  ['bitmapscreenbounds_14',['BitmapScreenBounds',['../namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaa9419ed4eaba2784c01330fa7c29f12e6',1,'DisLib16']]],
+  ['bitmapsize_15',['BitmapSize',['../namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaa233803d35e3ad83d7fb706ff4f548ad1',1,'DisLib16']]],
+  ['bitmapverticalsize_16',['BitmapVerticalSize',['../namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaaa7ce8db2d3495f4b19b66b709494248b',1,'DisLib16']]],
+  ['buffer_20mode_17',['buffer mode',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2README.html#autotoc_md87',1,'Advanced buffer mode'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2buffer__mode_2README.html#autotoc_md1',1,'Enabling Advanced Buffer Mode']]],
+  ['buffer_20mode_20readme_18',['Advanced Buffer Mode Readme',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2buffer__mode_2README.html',1,'']]],
+  ['bufferempty_19',['BufferEmpty',['../namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaa5cf1ac314fb5c9453d86d09a48265258',1,'DisLib16']]],
+  ['buffernullptr_20',['BufferNullptr',['../namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaaea999e60cd35e627f1cd0f6c81680a9f',1,'DisLib16']]],
+  ['buffersize_21',['BufferSize',['../namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaad5b0d7a05d9d4d4bdd6fc29a04389e7b',1,'DisLib16']]]
 ];

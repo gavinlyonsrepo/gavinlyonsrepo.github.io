@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.1.0</span>
    </div>
    <div id="projectbrief">Driver for 16-bit colour graphics displays,  Rpi PICO  library.</div>
   </td>
@@ -103,6 +103,9 @@ Macros</h2></td></tr>
 <tr class="memitem:ad25e2185faa757f3ba3fb026cdbdf9bc" id="r_ad25e2185faa757f3ba3fb026cdbdf9bc"><td class="memItemLeft" align="right" valign="top"><a id="ad25e2185faa757f3ba3fb026cdbdf9bc" name="ad25e2185faa757f3ba3fb026cdbdf9bc"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>MICROSEC_DELAY</b>&#160;&#160;&#160;busy_wait_us</td></tr>
 <tr class="separator:ad25e2185faa757f3ba3fb026cdbdf9bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdea2c2f77863006c5560d233bea8ccd" id="r_afdea2c2f77863006c5560d233bea8ccd"><td class="memItemLeft" align="right" valign="top"><a id="afdea2c2f77863006c5560d233bea8ccd" name="afdea2c2f77863006c5560d233bea8ccd"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>dislib16_ADVANCED_FONTS_ENABLE</b></td></tr>
+<tr class="separator:afdea2c2f77863006c5560d233bea8ccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -120,6 +123,12 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="displaylib__16__Font_8hpp.html#a4e34a4baa30d127bc21926334fe5a365aaa505490f626b8b513cd1e7b2e1a575a">font_orla</a> = 9
 , <a class="el" href="displaylib__16__Font_8hpp.html#a4e34a4baa30d127bc21926334fe5a365a85eb21102d47d4291774e376c4d538d3">font_arialRound</a> = 10
 , <a class="el" href="displaylib__16__Font_8hpp.html#a4e34a4baa30d127bc21926334fe5a365a04c9272bb3b646179b7caace725b0fd7">font_groTesk</a> = 11
+, <a class="el" href="displaylib__16__Font_8hpp.html#a4e34a4baa30d127bc21926334fe5a365afba33eff07b65f0a2ed834a7f71001f0">font_inconsola</a> =12
+, <br />
+&#160;&#160;<a class="el" href="displaylib__16__Font_8hpp.html#a4e34a4baa30d127bc21926334fe5a365a2b9788565a879343435fa46e6bcbd079">font_mint</a> = 13
+, <a class="el" href="displaylib__16__Font_8hpp.html#a4e34a4baa30d127bc21926334fe5a365a24a6fc7d4af033662865a64e29fc1f32">font_sixteenSeg</a> = 14
+, <a class="el" href="displaylib__16__Font_8hpp.html#a4e34a4baa30d127bc21926334fe5a365a6a9d844df12ff9553170f672063ee3e7">font_sevenSeg</a> = 15
+, <a class="el" href="displaylib__16__Font_8hpp.html#a4e34a4baa30d127bc21926334fe5a365a1ad8ffb787c9da605664960a38192d59">font_groTeskBig</a> = 16
 <br />
  }</td></tr>
 <tr class="separator:a4e34a4baa30d127bc21926334fe5a365"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -164,6 +173,16 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a4e34a4baa30d127bc21926334fe5a365a85eb21102d47d4291774e376c4d538d3" name="a4e34a4baa30d127bc21926334fe5a365a85eb21102d47d4291774e376c4d538d3"></a>font_arialRound&#160;</td><td class="fielddoc"><p>ArialRound 16by24 </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a4e34a4baa30d127bc21926334fe5a365a04c9272bb3b646179b7caace725b0fd7" name="a4e34a4baa30d127bc21926334fe5a365a04c9272bb3b646179b7caace725b0fd7"></a>font_groTesk&#160;</td><td class="fielddoc"><p>GroTesk 16by32 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a4e34a4baa30d127bc21926334fe5a365afba33eff07b65f0a2ed834a7f71001f0" name="a4e34a4baa30d127bc21926334fe5a365afba33eff07b65f0a2ed834a7f71001f0"></a>font_inconsola&#160;</td><td class="fielddoc"><p>Inconsola 24by32 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a4e34a4baa30d127bc21926334fe5a365a2b9788565a879343435fa46e6bcbd079" name="a4e34a4baa30d127bc21926334fe5a365a2b9788565a879343435fa46e6bcbd079"></a>font_mint&#160;</td><td class="fielddoc"><p>Mint 24by32 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a4e34a4baa30d127bc21926334fe5a365a24a6fc7d4af033662865a64e29fc1f32" name="a4e34a4baa30d127bc21926334fe5a365a24a6fc7d4af033662865a64e29fc1f32"></a>font_sixteenSeg&#160;</td><td class="fielddoc"><p>Sixteen Segment 32by48 (NUMBERS ONLY + : . -) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a4e34a4baa30d127bc21926334fe5a365a6a9d844df12ff9553170f672063ee3e7" name="a4e34a4baa30d127bc21926334fe5a365a6a9d844df12ff9553170f672063ee3e7"></a>font_sevenSeg&#160;</td><td class="fielddoc"><p>Seven Segment 32by50 (NUMBERS ONLY + : . -) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a4e34a4baa30d127bc21926334fe5a365a1ad8ffb787c9da605664960a38192d59" name="a4e34a4baa30d127bc21926334fe5a365a1ad8ffb787c9da605664960a38192d59"></a>font_groTeskBig&#160;</td><td class="fielddoc"><p>Grotesk big 32by64 (NO LOWERCASE) </p>
 </td></tr>
 </table>
 

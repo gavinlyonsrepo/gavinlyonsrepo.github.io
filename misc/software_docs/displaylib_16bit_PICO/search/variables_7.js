@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['powericon_0',['powericon',['../Bitmap__TEST__Data_8hpp.html#a792d9c81e63d3c24556a691e8244a7ba',1,'powerIcon:&#160;Bitmap_TEST_Data.cpp'],['../Bitmap__TEST__Data_8cpp.html#a4d1149a0cd1ba4a6a6f5753905524b64',1,'powerIcon:&#160;Bitmap_TEST_Data.cpp']]]
+  ['powericon_0',['powericon',['../Bitmap__TEST__Data_8hpp.html#a0c32f4446d948d6ec10a395ecaef1905',1,'powerIcon:&#160;Bitmap_TEST_Data.cpp'],['../Bitmap__TEST__Data_8cpp.html#a33b50cdd8bcf221191b8072510212053',1,'powerIcon:&#160;Bitmap_TEST_Data.cpp']]]
 ];

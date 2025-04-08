@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.1.0</span>
    </div>
    <div id="projectbrief">Driver for 16-bit colour graphics displays,  Rpi PICO  library.</div>
   </td>
@@ -73,8 +73,8 @@ $(function() {
   <div class="headertitle"><div class="title">SSD1331 OLED Readme</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md25"></a> </p>
-<h1><a class="anchor" id="autotoc_md26"></a>
+<div class="textblock"><p><a class="anchor" id="autotoc_md51"></a> </p>
+<h1><a class="anchor" id="autotoc_md52"></a>
 Table of contents</h1>
 <ul>
 <li>Overview</li>
@@ -88,7 +88,7 @@ Table of contents</h1>
 <li>Hardware</li>
 <li>Output</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md27"></a>
+<h1><a class="anchor" id="autotoc_md53"></a>
 Overview</h1>
 <ul>
 <li>Name: SSD1331</li>
@@ -98,9 +98,9 @@ Overview</h1>
 <ul>
 <li>Author: Gavin Lyons</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md28"></a>
+<h1><a class="anchor" id="autotoc_md54"></a>
 Software</h1>
-<h2><a class="anchor" id="autotoc_md29"></a>
+<h2><a class="anchor" id="autotoc_md55"></a>
 User options</h2>
 <p>In the example files, there are 3 sections in "Setup()" function where user can make adjustments. The constructor also takes a number of arguments.</p>
 <ul>
@@ -118,7 +118,7 @@ User options</h2>
 <p>Set the five GPIO pins if using Hardware SPI clock and data pins will be tied to the chosen interface eg Spi0 CLK=18 DIN=19)</p>
 <p>*User Option Screen size *</p>
 <p>User can adjust screen pixel height, screen pixel width.</p>
-<h2><a class="anchor" id="autotoc_md30"></a>
+<h2><a class="anchor" id="autotoc_md56"></a>
 File system</h2>
 <p>There are example files included. User picks the one they want by editing the CMakeLists.txt :: add_executable(${PROJECT_NAME} section. Comment in one path and one path only.</p>
 <table class="markdownTable">
@@ -131,32 +131,28 @@ File system</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">demo   </td><td class="markdownTableBodyNone">radar demo   </td></tr>
 </table>
-<h2><a class="anchor" id="autotoc_md31"></a>
+<h2><a class="anchor" id="autotoc_md57"></a>
 Bitmap</h2>
 <p>Functions to support drawing bitmaps, icons &amp; sprites.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Num   </th><th class="markdownTableHeadNone">Function Name   </th><th class="markdownTableHeadNone">Colour support   </th><th class="markdownTableHeadNone">bitmap size Max   </th><th class="markdownTableHeadNone">Note    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">drawIcon   </td><td class="markdownTableBodyNone">bi-colour   </td><td class="markdownTableBodyNone">(8 x (0-Max_y)) &ndash;   </td><td class="markdownTableBodyNone">Data vertically addressed    </td></tr>
+<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">drawBitmap   </td><td class="markdownTableBodyNone">bi-colour   </td><td class="markdownTableBodyNone">768 bytes   </td><td class="markdownTableBodyNone">Data horizontally addressed    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">drawBitmap   </td><td class="markdownTableBodyNone">bi-colour   </td><td class="markdownTableBodyNone">768 bytes   </td><td class="markdownTableBodyNone">Data horizontally addressed    </td></tr>
+<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">drawBitmap8Data   </td><td class="markdownTableBodyNone">8 bit color RRRGGGBB   </td><td class="markdownTableBodyNone">6144   </td><td class="markdownTableBodyNone">Data from array on PICO, Converted by software to 16-bit color    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">drawBitmap8Data   </td><td class="markdownTableBodyNone">8 bit color RRRGGGBB   </td><td class="markdownTableBodyNone">6144   </td><td class="markdownTableBodyNone">Data from array on PICO, Converted by software to 16-bit color    </td></tr>
+<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">drawBitmap16Data   </td><td class="markdownTableBodyNone">16 bit color 565   </td><td class="markdownTableBodyNone">12288   </td><td class="markdownTableBodyNone">Data from array on PICO    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">drawBitmap16Data   </td><td class="markdownTableBodyNone">16 bit color 565   </td><td class="markdownTableBodyNone">12288   </td><td class="markdownTableBodyNone">Data from array on PICO    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">drawBitmap24Data   </td><td class="markdownTableBodyNone">24 bit color   </td><td class="markdownTableBodyNone">18432   </td><td class="markdownTableBodyNone">Data from array on PICO, Converted by software to 16-bit color    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">6   </td><td class="markdownTableBodyNone">drawSpriteData   </td><td class="markdownTableBodyNone">16 bit color 565   </td><td class="markdownTableBodyNone">12288   </td><td class="markdownTableBodyNone">Data from array on PICO, Draws background color transparent   </td></tr>
+<td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">drawSpriteData   </td><td class="markdownTableBodyNone">16 bit color 565   </td><td class="markdownTableBodyNone">12288   </td><td class="markdownTableBodyNone">Data from array on PICO, Draws background color transparent   </td></tr>
 </table>
 <ol type="1">
 <li>Bitmap size in kiloBytes = (screenWidth * screenHeight * bitsPerPixel)/(1024 * 8)</li>
-<li>Math in bitmap size column 2-6 assumes 96x64 pixel screen.</li>
-<li>The data array for 1 and 2 is created from image files using file data conversion tool <a href="https://javl.github.io/image2cpp/">link</a></li>
-<li>The data array for 3 - 6 is created from BMP files using file data conversion tool <a href="https://notisrac.github.io/FileToCArray/">link</a></li>
+<li>Math in bitmap size column assumes 96x64 pixel screen.</li>
+<li>The data array for 1 is created from image files using file data conversion tool <a href="https://javl.github.io/image2cpp/">link</a></li>
+<li>The data array for 2-4 is created from BMP files using file data conversion tool <a href="https://notisrac.github.io/FileToCArray/">link</a></li>
 </ol>
-<h1><a class="anchor" id="autotoc_md32"></a>
+<h1><a class="anchor" id="autotoc_md58"></a>
 Hardware</h1>
 <p>Connections as setup in main.cpp test file.</p>
 <table class="markdownTable">
@@ -182,7 +178,7 @@ Hardware</h1>
 <li>User can select SPI_CE0 or SPI_CE1 for HW SPI</li>
 </ol>
 <p><a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ssd1331.jpg"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ssd1331.jpg" alt="Image SSD" class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md33"></a>
+<h1><a class="anchor" id="autotoc_md59"></a>
 Output</h1>
 <p><a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ssd1331output.jpg"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ssd1331output.jpg" alt=" demo pic 2" class="inline"/></a> </p>
 </div></div><!-- contents -->

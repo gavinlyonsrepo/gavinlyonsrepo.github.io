@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.1.0</span>
    </div>
    <div id="projectbrief">Driver for 16-bit colour graphics displays,  Rpi PICO  library.</div>
   </td>
@@ -73,9 +73,9 @@ $(function() {
   <div class="headertitle"><div class="title">ST7735 Readme</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md34"></a> <a href="https://www.paypal.com/paypalme/whitelight976"><img src="https://img.shields.io/badge/Donate-PayPal-green.svg" alt="Donate" style="pointer-events: none;" class="inline"/></a></p>
+<div class="textblock"><p><a class="anchor" id="autotoc_md60"></a> <a href="https://www.paypal.com/paypalme/whitelight976"><img src="https://img.shields.io/badge/Donate-PayPal-green.svg" alt="Donate" style="pointer-events: none;" class="inline"/></a></p>
 <p><img src="https://github.com/gavinlyonsrepo/pic_16F18346_projects/blob/master/images/st7735/pcb.jpg" alt=" ig " class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md35"></a>
+<h1><a class="anchor" id="autotoc_md61"></a>
 Table of contents</h1>
 <ul>
 <li>Overview</li>
@@ -88,14 +88,14 @@ Table of contents</h1>
 <li>Hardware</li>
 <li>Output</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md36"></a>
+<h1><a class="anchor" id="autotoc_md62"></a>
 Overview</h1>
 <ul>
 <li>Name: ST7735</li>
 <li>Description:</li>
 </ul>
 <p>C++ Raspberry pi PICO library for a TFT SPI LCD, ST7735 Driver</p>
-<h1><a class="anchor" id="autotoc_md37"></a>
+<h1><a class="anchor" id="autotoc_md63"></a>
 Test</h1>
 <p>There are example files included. User picks the one they want by editing the CMakeLists.txt :: add_executable(${PROJECT_NAME} section. Comment in one path and one path only.</p>
 <table class="markdownTable">
@@ -110,13 +110,15 @@ Test</h1>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">functions_fps   </td><td class="markdownTableBodyNone">Functions(like rotate, scroll) + FPS tests   </td><td class="markdownTableBodyNone">&mdash;    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">bmp_data   </td><td class="markdownTableBodyNone">1,16 &amp; 24 bit bitmaps tests + bitmap FPS tests   </td><td class="markdownTableBodyNone">Bitmap data is stored in arrays on PICO    </td></tr>
+<td class="markdownTableBodyNone">bmp_data   </td><td class="markdownTableBodyNone">1,8 16 bit bitmaps tests + bitmap FPS tests   </td><td class="markdownTableBodyNone">Bitmap data is stored in arrays on PICO    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">demos   </td><td class="markdownTableBodyNone">A demo showing a gauge   </td><td class="markdownTableBodyNone">&mdash;   </td></tr>
+<td class="markdownTableBodyNone">demos   </td><td class="markdownTableBodyNone">A demo showing a gauge   </td><td class="markdownTableBodyNone">&mdash;    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">frame_buffer   </td><td class="markdownTableBodyNone">Testing frame Buffer mode   </td><td class="markdownTableBodyNone">dislib16_ADVANCED_SCREEN_BUFFER_ENABLE must be enabled user option 2   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md38"></a>
+<h1><a class="anchor" id="autotoc_md64"></a>
 Software</h1>
-<h2><a class="anchor" id="autotoc_md39"></a>
+<h2><a class="anchor" id="autotoc_md65"></a>
 User Options</h2>
 <p>In the main.cpp example files. There are four sections in "Setup()" function where user can make adjustments to select for SPI type used, PCB type used and screen size.</p>
 <p>0. USER OPTION 0 SPI_SPEED + TYPE</p><ol type="1">
@@ -146,32 +148,28 @@ User Options</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">ST7735S "Black Tab"   </td><td class="markdownTableBodyNone">TFT_ST7735S_Black   </td><td class="markdownTableBodyNone">RED PCB v1.2, 1.8 , 128 x 160 pixels   </td></tr>
 </table>
-<h2><a class="anchor" id="autotoc_md40"></a>
+<h2><a class="anchor" id="autotoc_md66"></a>
 Bitmap</h2>
-<p>Functions to support drawing bitmaps, icons &amp; sprites.</p>
+<p>Functions to support drawing bitmaps &amp; sprites.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Num   </th><th class="markdownTableHeadNone">Function Name   </th><th class="markdownTableHeadNone">Colour support   </th><th class="markdownTableHeadNone">bitmap size Max   </th><th class="markdownTableHeadNone">Note    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">drawIcon   </td><td class="markdownTableBodyNone">bi-colour   </td><td class="markdownTableBodyNone">(8 x (0-Max_y)) 128 bytes max   </td><td class="markdownTableBodyNone">Data vertically addressed    </td></tr>
+<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">drawBitmap   </td><td class="markdownTableBodyNone">bi-colour   </td><td class="markdownTableBodyNone">2048 bytes   </td><td class="markdownTableBodyNone">Data horizontally addressed    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">drawBitmap   </td><td class="markdownTableBodyNone">bi-colour   </td><td class="markdownTableBodyNone">2048 bytes   </td><td class="markdownTableBodyNone">Data horizontally addressed    </td></tr>
+<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">drawBitmap8Data   </td><td class="markdownTableBodyNone">8 bit color RRRGGGBB   </td><td class="markdownTableBodyNone">16384   </td><td class="markdownTableBodyNone">Data from array on PICO, Converted by software to 16-bit color    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">drawBitmap8Data   </td><td class="markdownTableBodyNone">8 bit color RRRGGGBB   </td><td class="markdownTableBodyNone">16384   </td><td class="markdownTableBodyNone">Data from array on PICO, Converted by software to 16-bit color    </td></tr>
+<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">drawBitmap16Data   </td><td class="markdownTableBodyNone">16 bit color 565   </td><td class="markdownTableBodyNone">32768   </td><td class="markdownTableBodyNone">Data from array on PICO    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">drawBitmap16Data   </td><td class="markdownTableBodyNone">16 bit color 565   </td><td class="markdownTableBodyNone">32768   </td><td class="markdownTableBodyNone">Data from array on PICO    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">drawBitmap24Data   </td><td class="markdownTableBodyNone">24 bit color   </td><td class="markdownTableBodyNone">49152   </td><td class="markdownTableBodyNone">Data from array on PICO, Converted by software to 16-bit color    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">6   </td><td class="markdownTableBodyNone">drawSpriteData   </td><td class="markdownTableBodyNone">16 bit color 565   </td><td class="markdownTableBodyNone">32768   </td><td class="markdownTableBodyNone">Data from array on PICO, Draws background color transparent   </td></tr>
+<td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">drawSpriteData   </td><td class="markdownTableBodyNone">16 bit color 565   </td><td class="markdownTableBodyNone">32768   </td><td class="markdownTableBodyNone">Data from array on PICO, Draws background color transparent   </td></tr>
 </table>
 <ol type="1">
 <li>Bitmap size in kiloBytes = (screenWidth * screenHeight * bitsPerPixel)/(1024 * 8)</li>
-<li>Math in bitmap size column 2-5 assumes 128x128 pixel screen.</li>
-<li>The data array for 1 and 2 is created from image files using file data conversion tool <a href="https://javl.github.io/image2cpp/">link</a></li>
-<li>The data array for 3 - 6 is created from BMP files using file data conversion tool <a href="https://notisrac.github.io/FileToCArray/">link</a></li>
+<li>Math in bitmap size column 1-4 assumes 128x128 pixel screen.</li>
+<li>The data array for 1 is created from image files using file data conversion tool <a href="https://javl.github.io/image2cpp/">link</a></li>
+<li>The data array for 2-4 is created from BMP files using file data conversion tool <a href="https://notisrac.github.io/FileToCArray/">link</a></li>
 </ol>
-<h1><a class="anchor" id="autotoc_md41"></a>
+<h1><a class="anchor" id="autotoc_md67"></a>
 Hardware</h1>
 <p>Connections as setup in main.cpp test file.</p>
 <table class="markdownTable">
@@ -186,7 +184,7 @@ Hardware</h1>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">A0/DC   </td><td class="markdownTableBodyNone">GPIO3    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">RESET   </td><td class="markdownTableBodyNone">GPIO17    </td></tr>
+<td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">RESET   </td><td class="markdownTableBodyNone">GPIO4    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">6   </td><td class="markdownTableBodyNone">SS/CS   </td><td class="markdownTableBodyNone">GPIO2    </td></tr>
 <tr class="markdownTableRowOdd">
@@ -201,7 +199,7 @@ Hardware</h1>
 <li>SW SPI pick any GPIO you like , HW SPI SCLK and SDA will be tied to spio interface.</li>
 <li>Backlight on/off control is left to user.</li>
 </ol>
-<h1><a class="anchor" id="autotoc_md42"></a>
+<h1><a class="anchor" id="autotoc_md68"></a>
 Output</h1>
 <p><a href="https://github.com/gavinlyonsrepo/ST7735_TFT_RPI/blob/main/extra/images/4.jpg"><img src="https://github.com/gavinlyonsrepo/ST7735_TFT_RPI/blob/main/extra/images/4.jpg" alt=" Demo pic " class="inline"/></a> <a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/st7735output.jpg"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/st7735output.jpg" alt=" demo pic 2" class="inline"/></a> </p>
 </div></div><!-- contents -->

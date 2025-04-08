@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['user_20options_0',['user options',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2ili9341_2README.html#autotoc_md12',1,'User options'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2ssd1331_2README.html#autotoc_md29',1,'User options'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2st7735_2README.html#autotoc_md39',1,'User Options'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2st7789_2README.html#autotoc_md48',1,'User Options']]]
+  ['v2_200_200_20performance_20data_0',['March 2025 v2.0.0 Performance Data',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2spi__speed_2March__2025__v2_80_80__Performance.html',1,'']]],
+  ['v2_201_200_20performance_20data_1',['April 2025 v2.1.0 Performance Data',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2spi__speed_2April__2025__v2_81_80__Performance.html',1,'']]],
+  ['versions_2',['Older versions',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2README.html#autotoc_md93',1,'']]]
 ];

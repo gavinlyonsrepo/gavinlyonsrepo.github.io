@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.1.0</span>
    </div>
    <div id="projectbrief">Driver for 16-bit colour graphics displays,  Rpi PICO  library.</div>
   </td>
@@ -173,8 +173,20 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0896ca1a3f84e788f53ab46f308d213b" id="r_a0896ca1a3f84e788f53ab46f308d213b"><td class="memItemLeft" align="right" valign="top"><a id="a0896ca1a3f84e788f53ab46f308d213b" name="a0896ca1a3f84e788f53ab46f308d213b"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>displaylib_16_graphics</b> ()</td></tr>
-<tr class="memdesc:a0896ca1a3f84e788f53ab46f308d213b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new st7735 tft graphics::st7735 tft graphics object. <br /></td></tr>
+<tr class="memdesc:a0896ca1a3f84e788f53ab46f308d213b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new graphics object. <br /></td></tr>
 <tr class="separator:a0896ca1a3f84e788f53ab46f308d213b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56ff6e00bc362ce19d5e32ebac1ba77f" id="r_a56ff6e00bc362ce19d5e32ebac1ba77f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a56ff6e00bc362ce19d5e32ebac1ba77f">setBuffer</a> (void)</td></tr>
+<tr class="memdesc:a56ff6e00bc362ce19d5e32ebac1ba77f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates memory for the screen buffer based on display resolution. The buffer size is calculated as width × height × 2 bytes (RGB565 format). If allocation fails, it returns a memory allocation error. In debug mode, it prints the allocated buffer size.  <br /></td></tr>
+<tr class="separator:a56ff6e00bc362ce19d5e32ebac1ba77f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeba8c19270c421618a7bfe7471357625" id="r_aeba8c19270c421618a7bfe7471357625"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#aeba8c19270c421618a7bfe7471357625">clearBuffer</a> (uint16_t color=<a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24caaba00c0dd83be67289d566137fded03e">C_BLACK</a>)</td></tr>
+<tr class="memdesc:aeba8c19270c421618a7bfe7471357625"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the screen buffer by filling it with a given color. The buffer is filled in RGB565 format. This function assumes the buffer has already been allocated via <a class="el" href="classdisplaylib__16__graphics.html#a56ff6e00bc362ce19d5e32ebac1ba77f" title="Allocates memory for the screen buffer based on display resolution. The buffer size is calculated as ...">setBuffer()</a>.  <br /></td></tr>
+<tr class="separator:aeba8c19270c421618a7bfe7471357625"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a782fa70ed8ad23728557817005ce2be2" id="r_a782fa70ed8ad23728557817005ce2be2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a782fa70ed8ad23728557817005ce2be2">writeBuffer</a> (void)</td></tr>
+<tr class="memdesc:a782fa70ed8ad23728557817005ce2be2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the contents of the screen buffer to the display. This function assumes the buffer has already been allocated and filled. It sets the address window for the entire screen and writes the buffer data.  <br /></td></tr>
+<tr class="separator:a782fa70ed8ad23728557817005ce2be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a884a0a4293e1fac04391d8657c973ba3" id="r_a884a0a4293e1fac04391d8657c973ba3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a884a0a4293e1fac04391d8657c973ba3">destroyBuffer</a> (void)</td></tr>
+<tr class="memdesc:a884a0a4293e1fac04391d8657c973ba3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the screen buffer by resizing it to zero. This function checks if the buffer has been successfully destroyed and prints debug information.  <br /></td></tr>
+<tr class="separator:a884a0a4293e1fac04391d8657c973ba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad2bb8baa48358e0ae13547c9d8b1711" id="r_aad2bb8baa48358e0ae13547c9d8b1711"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#aad2bb8baa48358e0ae13547c9d8b1711">setAddrWindow</a> (uint16_t, uint16_t, uint16_t, uint16_t)=0</td></tr>
 <tr class="memdesc:aad2bb8baa48358e0ae13547c9d8b1711"><td class="mdescLeft">&#160;</td><td class="mdescRight">define in the sub class  <br /></td></tr>
 <tr class="separator:aad2bb8baa48358e0ae13547c9d8b1711"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -241,9 +253,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7a481b27b283cbc4a036497e32e3a3de" id="r_a7a481b27b283cbc4a036497e32e3a3de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a7a481b27b283cbc4a036497e32e3a3de">drawLineAngle</a> (int16_t x, int16_t y, int angle, uint8_t start, uint8_t length, int offset, uint16_t color)</td></tr>
 <tr class="memdesc:a7a481b27b283cbc4a036497e32e3a3de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a line using an angle and length as parameters. This function draws a line starting from <code>(x, y)</code>, extending in the direction specified by <code>angle</code>, with a given <code>length</code>. The function also allows applying an <code>offset</code> to the angle before computing the line’s end coordinates.  <br /></td></tr>
 <tr class="separator:a7a481b27b283cbc4a036497e32e3a3de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc61ff4c695f3592457f48699c6ada70" id="r_abc61ff4c695f3592457f48699c6ada70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#abc61ff4c695f3592457f48699c6ada70">drawSimpleArc</a> (int16_t cx, int16_t cy, int16_t radius, float startAngle, float endAngle, uint16_t color)</td></tr>
-<tr class="memdesc:abc61ff4c695f3592457f48699c6ada70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a simple arc of one pixel on the display( no offsets , thickness or maximum arc calculations) This function draws an arc between two angles (start and end) on a circle with a given radius.  <br /></td></tr>
-<tr class="separator:abc61ff4c695f3592457f48699c6ada70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f523b1fccdc48253d8f0f9542838c9d" id="r_a0f523b1fccdc48253d8f0f9542838c9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a0f523b1fccdc48253d8f0f9542838c9d">drawArc</a> (uint16_t cx, uint16_t cy, uint16_t radius, uint16_t thickness, float startAngle, float endAngle, uint16_t color)</td></tr>
 <tr class="memdesc:a0f523b1fccdc48253d8f0f9542838c9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw an arc on the TFT display. This function draws an arc between two angles (start and end) on a circle with a given radius.  <br /></td></tr>
 <tr class="separator:a0f523b1fccdc48253d8f0f9542838c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -283,12 +292,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1a03abf62428fc884eaf7ec2a113b7eb" id="r_a1a03abf62428fc884eaf7ec2a113b7eb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a1a03abf62428fc884eaf7ec2a113b7eb">getTextCharPixelOrBuffer</a> () const</td></tr>
 <tr class="memdesc:a1a03abf62428fc884eaf7ec2a113b7eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current text rendering mode.  <br /></td></tr>
 <tr class="separator:a1a03abf62428fc884eaf7ec2a113b7eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60fce0845e31dcc661ebc3b5e044c11b" id="r_a60fce0845e31dcc661ebc3b5e044c11b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a60fce0845e31dcc661ebc3b5e044c11b">drawIcon</a> (uint16_t x, uint16_t y, uint16_t w, uint16_t color, uint16_t bgcol, const std::span&lt; const uint8_t &gt; data)</td></tr>
-<tr class="memdesc:a60fce0845e31dcc661ebc3b5e044c11b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws an custom Icon of X by 8 size to screen , where X = 0 to MAX width.  <br /></td></tr>
-<tr class="separator:a60fce0845e31dcc661ebc3b5e044c11b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6480918476b9302ce22815230a9f17b3" id="r_a6480918476b9302ce22815230a9f17b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a6480918476b9302ce22815230a9f17b3">drawSpriteData</a> (uint16_t x, uint16_t y, const std::span&lt; const uint8_t &gt; data, uint16_t w, uint16_t h, uint16_t bgColor, bool printBg)</td></tr>
-<tr class="memdesc:a6480918476b9302ce22815230a9f17b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Draws an 16 bit color sprite bitmap to screen from a data array with transparent background  <br /></td></tr>
-<tr class="separator:a6480918476b9302ce22815230a9f17b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e987226fc8e9276cf7b288cb0525838" id="r_a3e987226fc8e9276cf7b288cb0525838"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a3e987226fc8e9276cf7b288cb0525838">drawBitmap</a> (int16_t x, int16_t y, int16_t w, int16_t h, uint16_t col, uint16_t bgcol, const std::span&lt; const uint8_t &gt; data)</td></tr>
 <tr class="memdesc:a3e987226fc8e9276cf7b288cb0525838"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Draws an bi-color bitmap to screen  <br /></td></tr>
 <tr class="separator:a3e987226fc8e9276cf7b288cb0525838"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -298,9 +301,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4ef74d69fc66ba4d577b3e04eddb4f71" id="r_a4ef74d69fc66ba4d577b3e04eddb4f71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a4ef74d69fc66ba4d577b3e04eddb4f71">drawBitmap16Data</a> (uint16_t x, uint16_t y, const std::span&lt; const uint8_t &gt; data, uint16_t w, uint16_t h)</td></tr>
 <tr class="memdesc:a4ef74d69fc66ba4d577b3e04eddb4f71"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Draws a 16-bit color bitmap to the screen from a data array  <br /></td></tr>
 <tr class="separator:a4ef74d69fc66ba4d577b3e04eddb4f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40400c5b1b95a82302d3030a8fb7bec5" id="r_a40400c5b1b95a82302d3030a8fb7bec5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a40400c5b1b95a82302d3030a8fb7bec5">drawBitmap24Data</a> (uint16_t x, uint16_t y, const std::span&lt; const uint8_t &gt; data, uint16_t w, uint16_t h)</td></tr>
-<tr class="memdesc:a40400c5b1b95a82302d3030a8fb7bec5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws an 24 bit color bitmap to screen from a data array.  <br /></td></tr>
-<tr class="separator:a40400c5b1b95a82302d3030a8fb7bec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6480918476b9302ce22815230a9f17b3" id="r_a6480918476b9302ce22815230a9f17b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a6480918476b9302ce22815230a9f17b3">drawSpriteData</a> (uint16_t x, uint16_t y, const std::span&lt; const uint8_t &gt; data, uint16_t w, uint16_t h, uint16_t bgColor, bool printBg)</td></tr>
+<tr class="memdesc:a6480918476b9302ce22815230a9f17b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Draws an 16 bit color sprite bitmap to screen from a data array with transparent background  <br /></td></tr>
+<tr class="separator:a6480918476b9302ce22815230a9f17b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classdisplay__Fonts"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classdisplay__Fonts')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classdisplay__Fonts.html">display_Fonts</a></td></tr>
 <tr class="memitem:aa7b403a26a94f4e85a97ff7f4fbc853f inherit pub_methods_classdisplay__Fonts" id="r_aa7b403a26a94f4e85a97ff7f4fbc853f"><td class="memItemLeft" align="right" valign="top">
 &#160;</td><td class="memItemRight" valign="bottom"><b>display_Fonts</b> ()</td></tr>
@@ -390,30 +393,6 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>println</b> (void)<
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a28e3d66eb9c65bf3a0cb196e67c6796d" id="r_a28e3d66eb9c65bf3a0cb196e67c6796d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a28e3d66eb9c65bf3a0cb196e67c6796d">pushColor</a> (uint16_t color)</td></tr>
-<tr class="memdesc:a28e3d66eb9c65bf3a0cb196e67c6796d"><td class="mdescLeft">&#160;</td><td class="mdescRight">pushColor  <br /></td></tr>
-<tr class="separator:a28e3d66eb9c65bf3a0cb196e67c6796d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76ffda6e1922fc2651d3989ed20f1ed9" id="r_a76ffda6e1922fc2651d3989ed20f1ed9"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a76ffda6e1922fc2651d3989ed20f1ed9">Color565</a> (uint16_t, uint16_t, uint16_t)</td></tr>
-<tr class="memdesc:a76ffda6e1922fc2651d3989ed20f1ed9"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Convert: 24-bit color to 565 16-bit color  <br /></td></tr>
-<tr class="separator:a76ffda6e1922fc2651d3989ed20f1ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2615709b329a73f360f7d0beba38f30a" id="r_a2615709b329a73f360f7d0beba38f30a"><td class="memItemLeft" align="right" valign="top"><a id="a2615709b329a73f360f7d0beba38f30a" name="a2615709b329a73f360f7d0beba38f30a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>drawCircleHelper</b> (int16_t x0, int16_t y0, int16_t r, uint8_t cornername, uint16_t color)</td></tr>
-<tr class="separator:a2615709b329a73f360f7d0beba38f30a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b8b9c5b246d740aa5598285b2d7d660" id="r_a8b8b9c5b246d740aa5598285b2d7d660"><td class="memItemLeft" align="right" valign="top"><a id="a8b8b9c5b246d740aa5598285b2d7d660" name="a8b8b9c5b246d740aa5598285b2d7d660"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>fillCircleHelper</b> (int16_t x0, int16_t y0, int16_t r, uint8_t cornername, int16_t delta, uint16_t color)</td></tr>
-<tr class="separator:a8b8b9c5b246d740aa5598285b2d7d660"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad74c1364b794839a9f141f88f617be2e" id="r_ad74c1364b794839a9f141f88f617be2e"><td class="memItemLeft" align="right" valign="top"><a id="ad74c1364b794839a9f141f88f617be2e" name="ad74c1364b794839a9f141f88f617be2e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ellipseHelper</b> (uint16_t cx, uint16_t cy, uint16_t x, uint16_t y, uint16_t color)</td></tr>
-<tr class="separator:ad74c1364b794839a9f141f88f617be2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a823df2bb1c98f278b2fb53d2c58e77f6" id="r_a823df2bb1c98f278b2fb53d2c58e77f6"><td class="memItemLeft" align="right" valign="top"><a id="a823df2bb1c98f278b2fb53d2c58e77f6" name="a823df2bb1c98f278b2fb53d2c58e77f6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>drawArcHelper</b> (uint16_t cx, uint16_t cy, uint16_t radius, uint16_t thickness, float start, float end, uint16_t color)</td></tr>
-<tr class="separator:a823df2bb1c98f278b2fb53d2c58e77f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53f5a4600b526cd59a60cb52400ee724" id="r_a53f5a4600b526cd59a60cb52400ee724"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a53f5a4600b526cd59a60cb52400ee724">sineFromDegrees</a> (float angle)</td></tr>
-<tr class="memdesc:a53f5a4600b526cd59a60cb52400ee724"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the sine of an angle given in degrees. This function converts the input angle from degrees to radians and then calculates the sine of that angle using the standard C++ <code>sin</code> function.  <br /></td></tr>
-<tr class="separator:a53f5a4600b526cd59a60cb52400ee724"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ca33be25caf0c63d8325180df1b8410" id="r_a7ca33be25caf0c63d8325180df1b8410"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a7ca33be25caf0c63d8325180df1b8410">cosineFromDegrees</a> (float angle)</td></tr>
-<tr class="memdesc:a7ca33be25caf0c63d8325180df1b8410"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the cosine of an angle given in degrees. This function converts the input angle from degrees to radians and then calculates the cosine of that angle using the standard C++ <code>cos</code> function.  <br /></td></tr>
-<tr class="separator:a7ca33be25caf0c63d8325180df1b8410"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8207438437f5d72c5adfaee2d509be80" id="r_a8207438437f5d72c5adfaee2d509be80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a8207438437f5d72c5adfaee2d509be80">writeCommand</a> (uint8_t)</td></tr>
 <tr class="memdesc:a8207438437f5d72c5adfaee2d509be80"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Write an SPI command to TFT  <br /></td></tr>
 <tr class="separator:a8207438437f5d72c5adfaee2d509be80"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -435,10 +414,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>drawArcHelper</b> (ui
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a541832b2761c1608bd7e9735daafc9f3" id="r_a541832b2761c1608bd7e9735daafc9f3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a541832b2761c1608bd7e9735daafc9f3">_arcAngleMax</a> = 360.0f</td></tr>
-<tr class="separator:a541832b2761c1608bd7e9735daafc9f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a795daa3499cdbd4d5eaddddb60830981" id="r_a795daa3499cdbd4d5eaddddb60830981"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a795daa3499cdbd4d5eaddddb60830981">_arcAngleOffset</a> = 0</td></tr>
-<tr class="separator:a795daa3499cdbd4d5eaddddb60830981"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fb38ac7e8d75d4d5e1631409394a684" id="r_a7fb38ac7e8d75d4d5e1631409394a684"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a7fb38ac7e8d75d4d5e1631409394a684">_hardwareSPI</a></td></tr>
+<tr class="separator:a7fb38ac7e8d75d4d5e1631409394a684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef9f97a849084c5d537bad3ef3206706" id="r_aef9f97a849084c5d537bad3ef3206706"><td class="memItemLeft" align="right" valign="top">spi_inst_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#aef9f97a849084c5d537bad3ef3206706">_pspiInterface</a></td></tr>
+<tr class="separator:aef9f97a849084c5d537bad3ef3206706"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a065fe927105f0dc22f57fab21e2f992c" id="r_a065fe927105f0dc22f57fab21e2f992c"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a065fe927105f0dc22f57fab21e2f992c">_speedSPIKHz</a></td></tr>
+<tr class="separator:a065fe927105f0dc22f57fab21e2f992c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ee26730d0b2d5ff657adca18a650876" id="r_a8ee26730d0b2d5ff657adca18a650876"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a8ee26730d0b2d5ff657adca18a650876">_SWSPIGPIODelay</a> = 0</td></tr>
+<tr class="separator:a8ee26730d0b2d5ff657adca18a650876"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2151fca987ef164442266caa4159d70e" id="r_a2151fca987ef164442266caa4159d70e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a2151fca987ef164442266caa4159d70e">_textwrap</a> = true</td></tr>
 <tr class="separator:a2151fca987ef164442266caa4159d70e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fcd31d2c5ad32357b37c18596f2d8bc" id="r_a4fcd31d2c5ad32357b37c18596f2d8bc"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a4fcd31d2c5ad32357b37c18596f2d8bc">_textcolor</a> = 0xFFFF</td></tr>
@@ -469,14 +452,6 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a32b8e9ab8c0521b598840714e746b8ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97ac7a3843d65de3d3c62d78622782fb" id="r_a97ac7a3843d65de3d3c62d78622782fb"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a97ac7a3843d65de3d3c62d78622782fb">_display_MISO</a></td></tr>
 <tr class="separator:a97ac7a3843d65de3d3c62d78622782fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fb38ac7e8d75d4d5e1631409394a684" id="r_a7fb38ac7e8d75d4d5e1631409394a684"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a7fb38ac7e8d75d4d5e1631409394a684">_hardwareSPI</a></td></tr>
-<tr class="separator:a7fb38ac7e8d75d4d5e1631409394a684"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef9f97a849084c5d537bad3ef3206706" id="r_aef9f97a849084c5d537bad3ef3206706"><td class="memItemLeft" align="right" valign="top">spi_inst_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#aef9f97a849084c5d537bad3ef3206706">_pspiInterface</a></td></tr>
-<tr class="separator:aef9f97a849084c5d537bad3ef3206706"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a065fe927105f0dc22f57fab21e2f992c" id="r_a065fe927105f0dc22f57fab21e2f992c"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a065fe927105f0dc22f57fab21e2f992c">_speedSPIKHz</a></td></tr>
-<tr class="separator:a065fe927105f0dc22f57fab21e2f992c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ee26730d0b2d5ff657adca18a650876" id="r_a8ee26730d0b2d5ff657adca18a650876"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a8ee26730d0b2d5ff657adca18a650876">_SWSPIGPIODelay</a> = 0</td></tr>
-<tr class="separator:a8ee26730d0b2d5ff657adca18a650876"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classdisplay__Fonts"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classdisplay__Fonts')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classdisplay__Fonts.html">display_Fonts</a></td></tr>
 <tr class="memitem:a3fff5c7dbe437fa3a5d38e83976a8a12 inherit pro_attribs_classdisplay__Fonts" id="r_a3fff5c7dbe437fa3a5d38e83976a8a12"><td class="memItemLeft" align="right" valign="top">std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#a3fff5c7dbe437fa3a5d38e83976a8a12">_FontSelect</a> = pFontDefault</td></tr>
 <tr class="separator:a3fff5c7dbe437fa3a5d38e83976a8a12 inherit pro_attribs_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -497,11 +472,35 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>swapint16t</b> (int16
 <tr class="memitem:a7b24bf5b80c9a26b0901fcc28c98f516" id="r_a7b24bf5b80c9a26b0901fcc28c98f516"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a7b24bf5b80c9a26b0901fcc28c98f516">convert8bitTo16bit</a> (uint8_t RRRGGGBB)</td></tr>
 <tr class="memdesc:a7b24bf5b80c9a26b0901fcc28c98f516"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert 8 bit color to 16 bit color 565  <br /></td></tr>
 <tr class="separator:a7b24bf5b80c9a26b0901fcc28c98f516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2615709b329a73f360f7d0beba38f30a" id="r_a2615709b329a73f360f7d0beba38f30a"><td class="memItemLeft" align="right" valign="top"><a id="a2615709b329a73f360f7d0beba38f30a" name="a2615709b329a73f360f7d0beba38f30a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>drawCircleHelper</b> (int16_t x0, int16_t y0, int16_t r, uint8_t cornername, uint16_t color)</td></tr>
+<tr class="separator:a2615709b329a73f360f7d0beba38f30a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b8b9c5b246d740aa5598285b2d7d660" id="r_a8b8b9c5b246d740aa5598285b2d7d660"><td class="memItemLeft" align="right" valign="top"><a id="a8b8b9c5b246d740aa5598285b2d7d660" name="a8b8b9c5b246d740aa5598285b2d7d660"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>fillCircleHelper</b> (int16_t x0, int16_t y0, int16_t r, uint8_t cornername, int16_t delta, uint16_t color)</td></tr>
+<tr class="separator:a8b8b9c5b246d740aa5598285b2d7d660"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad74c1364b794839a9f141f88f617be2e" id="r_ad74c1364b794839a9f141f88f617be2e"><td class="memItemLeft" align="right" valign="top"><a id="ad74c1364b794839a9f141f88f617be2e" name="ad74c1364b794839a9f141f88f617be2e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ellipseHelper</b> (uint16_t cx, uint16_t cy, uint16_t x, uint16_t y, uint16_t color)</td></tr>
+<tr class="separator:ad74c1364b794839a9f141f88f617be2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a823df2bb1c98f278b2fb53d2c58e77f6" id="r_a823df2bb1c98f278b2fb53d2c58e77f6"><td class="memItemLeft" align="right" valign="top"><a id="a823df2bb1c98f278b2fb53d2c58e77f6" name="a823df2bb1c98f278b2fb53d2c58e77f6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>drawArcHelper</b> (uint16_t cx, uint16_t cy, uint16_t radius, uint16_t thickness, float start, float end, uint16_t color)</td></tr>
+<tr class="separator:a823df2bb1c98f278b2fb53d2c58e77f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53f5a4600b526cd59a60cb52400ee724" id="r_a53f5a4600b526cd59a60cb52400ee724"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a53f5a4600b526cd59a60cb52400ee724">sineFromDegrees</a> (float angle)</td></tr>
+<tr class="memdesc:a53f5a4600b526cd59a60cb52400ee724"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the sine of an angle given in degrees. This function converts the input angle from degrees to radians and then calculates the sine of that angle using the standard C++ <code>sin</code> function.  <br /></td></tr>
+<tr class="separator:a53f5a4600b526cd59a60cb52400ee724"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ca33be25caf0c63d8325180df1b8410" id="r_a7ca33be25caf0c63d8325180df1b8410"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a7ca33be25caf0c63d8325180df1b8410">cosineFromDegrees</a> (float angle)</td></tr>
+<tr class="memdesc:a7ca33be25caf0c63d8325180df1b8410"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the cosine of an angle given in degrees. This function converts the input angle from degrees to radians and then calculates the cosine of that angle using the standard C++ <code>cos</code> function.  <br /></td></tr>
+<tr class="separator:a7ca33be25caf0c63d8325180df1b8410"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a541832b2761c1608bd7e9735daafc9f3" id="r_a541832b2761c1608bd7e9735daafc9f3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a541832b2761c1608bd7e9735daafc9f3">_arcAngleMax</a> = 360.0f</td></tr>
+<tr class="separator:a541832b2761c1608bd7e9735daafc9f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a795daa3499cdbd4d5eaddddb60830981" id="r_a795daa3499cdbd4d5eaddddb60830981"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a795daa3499cdbd4d5eaddddb60830981">_arcAngleOffset</a> = 0</td></tr>
+<tr class="separator:a795daa3499cdbd4d5eaddddb60830981"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adaaecbe2c7daf4535dca0cd5aa0819d3" id="r_adaaecbe2c7daf4535dca0cd5aa0819d3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#adaaecbe2c7daf4535dca0cd5aa0819d3">_textCharPixelOrBuffer</a> = false</td></tr>
 <tr class="separator:adaaecbe2c7daf4535dca0cd5aa0819d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfe15b697a45bb444fe86e2ac0feeea6" id="r_abfe15b697a45bb444fe86e2ac0feeea6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#abfe15b697a45bb444fe86e2ac0feeea6">_screenBuffer</a></td></tr>
+<tr class="separator:abfe15b697a45bb444fe86e2ac0feeea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class to handle fonts and graphics of ST7735 display. </p>
@@ -598,57 +597,30 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a76ffda6e1922fc2651d3989ed20f1ed9" name="a76ffda6e1922fc2651d3989ed20f1ed9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76ffda6e1922fc2651d3989ed20f1ed9">&#9670;&#160;</a></span>Color565()</h2>
+<a id="aeba8c19270c421618a7bfe7471357625" name="aeba8c19270c421618a7bfe7471357625"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeba8c19270c421618a7bfe7471357625">&#9670;&#160;</a></span>clearBuffer()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t displaylib_16_graphics::Color565 </td>
+          <td class="memname"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a> displaylib_16_graphics::clearBuffer </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>r</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>color</em> = <code><a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24caaba00c0dd83be67289d566137fded03e">C_BLACK</a></code></td><td>)</td>
           <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>: Convert: 24-bit color to 565 16-bit color </p>
+<p>Clears the screen buffer by filling it with a given color. The buffer is filled in RGB565 format. This function assumes the buffer has already been allocated via <a class="el" href="classdisplaylib__16__graphics.html#a56ff6e00bc362ce19d5e32ebac1ba77f" title="Allocates memory for the screen buffer based on display resolution. The buffer size is calculated as ...">setBuffer()</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">r</td><td>color red </td></tr>
-    <tr><td class="paramname">g</td><td>color green </td></tr>
-    <tr><td class="paramname">b</td><td>color blue </td></tr>
+    <tr><td class="paramname">color</td><td>The 16-bit RGB565 color to fill the buffer with. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>16 bit color value </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>3 byte to 2 byte, Red Green Blue. RRRR RRRR GGGG GGGG BBBB BBBB =&gt; 565 color mode =&gt; RRRRR GGGGGG BBBBB </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaaa833130d8beb5e37fcd7543185caf638">DisLib16::Success</a> on completion. <a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaa5cf1ac314fb5c9453d86d09a48265258">DisLib16::BufferEmpty</a> if the buffer is empty. </dd></dl>
 
 </div>
 </div>
@@ -706,7 +678,7 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -719,6 +691,27 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The cosine value of the given angle. </dd></dl>
+
+</div>
+</div>
+<a id="a884a0a4293e1fac04391d8657c973ba3" name="a884a0a4293e1fac04391d8657c973ba3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a884a0a4293e1fac04391d8657c973ba3">&#9670;&#160;</a></span>destroyBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a> displaylib_16_graphics::destroyBuffer </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys the screen buffer by resizing it to zero. This function checks if the buffer has been successfully destroyed and prints debug information. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaaa833130d8beb5e37fcd7543185caf638">DisLib16::Success</a> on successful destruction, <a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaac522afb4f607148c99564383c9b7ec40">DisLib16::MemoryAError</a> if destruction fails. </dd></dl>
 
 </div>
 </div>
@@ -871,7 +864,7 @@ Private Attributes</h2></td></tr>
 <li>Display_BitmapHorizontalSize=bitmap wrong size </li>
 </ol>
 </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>A horizontal Bitmap's w must be divisible by 8. For a bitmap with w=88 &amp; h=48. Bitmap excepted size = (88/8) * 48 = 528 bytes. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>A horizontal Bitmap's w must be divisible by 8. For a bitmap with w=88 &amp; h=48. Bitmap excepted size = (88/8) * 48 = 528 bytes. If dislib16_ADVANCED_SCREEN_BUFFER_ENABLE is defined then the function will write to screen Buffer instead of VRAM. </dd></dl>
 
 </div>
 </div>
@@ -937,72 +930,7 @@ Private Attributes</h2></td></tr>
 <li><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaa233803d35e3ad83d7fb706ff4f548ad1">DisLib16::BitmapSize</a> if bitmap is too small. </li>
 </ol>
 </dd></dl>
-
-</div>
-</div>
-<a id="a40400c5b1b95a82302d3030a8fb7bec5" name="a40400c5b1b95a82302d3030a8fb7bec5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40400c5b1b95a82302d3030a8fb7bec5">&#9670;&#160;</a></span>drawBitmap24Data()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a> displaylib_16_graphics::drawBitmap24Data </td>
-          <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::span&lt; const uint8_t &gt;&#160;</td>
-          <td class="paramname"><em>bitmap</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>w</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>h</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Draws an 24 bit color bitmap to screen from a data array. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">x</td><td>X coordinate </td></tr>
-    <tr><td class="paramname">y</td><td>Y coordinate </td></tr>
-    <tr><td class="paramname">bitmap</td><td>span to data array </td></tr>
-    <tr><td class="paramname">w</td><td>width of the bitmap in pixels </td></tr>
-    <tr><td class="paramname">h</td><td>height of the bitmap in pixels </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>24 bit color converted to 16 bit color, excepted input format RRRRRRRR GGGGGGGG BBBBBBBB </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>Display status code:<ol type="1">
-<li><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaaa833130d8beb5e37fcd7543185caf638">DisLib16::Success</a> on success.</li>
-<li><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaaadb37ed76ef23c00e91f94d58d78ec74">DisLib16::BitmapDataEmpty</a> if bitmap is empty.</li>
-<li><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaa9419ed4eaba2784c01330fa7c29f12e6">DisLib16::BitmapScreenBounds</a> if the coordinates are out of screen bounds.</li>
-<li><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaa233803d35e3ad83d7fb706ff4f548ad1">DisLib16::BitmapSize</a> if bitmap is too small. </li>
-</ol>
-</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If dislib16_ADVANCED_SCREEN_BUFFER_ENABLE is defined then the function will write to screen Buffer instead of VRAM. </dd></dl>
 
 </div>
 </div>
@@ -1068,6 +996,7 @@ Private Attributes</h2></td></tr>
 <li><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaa233803d35e3ad83d7fb706ff4f548ad1">DisLib16::BitmapSize</a> if bitmap is too small. </li>
 </ol>
 </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If dislib16_ADVANCED_SCREEN_BUFFER_ENABLE is defined then the function will write to screen Buffer instead of VRAM. </dd></dl>
 
 </div>
 </div>
@@ -1359,78 +1288,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a60fce0845e31dcc661ebc3b5e044c11b" name="a60fce0845e31dcc661ebc3b5e044c11b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60fce0845e31dcc661ebc3b5e044c11b">&#9670;&#160;</a></span>drawIcon()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a> displaylib_16_graphics::drawIcon </td>
-          <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>w</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>color</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>backcolor</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::span&lt; const uint8_t &gt;&#160;</td>
-          <td class="paramname"><em>bitmap</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Draws an custom Icon of X by 8 size to screen , where X = 0 to MAX width. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">x</td><td>X coordinate </td></tr>
-    <tr><td class="paramname">y</td><td>Y coordinate </td></tr>
-    <tr><td class="paramname">w</td><td>0-MAX_Y possible values width of icon in pixels , height is fixed at 8 pixels </td></tr>
-    <tr><td class="paramname">color</td><td>icon foreground colors ,is bi-color </td></tr>
-    <tr><td class="paramname">backcolor</td><td>icon background colors ,is bi-color </td></tr>
-    <tr><td class="paramname">bitmap</td><td>An array containing icon data vertically addressed. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><ol type="1">
-<li>Display_Success=success.</li>
-<li>Display_BitmapScreenBounds=Co-ordinates out of bounds.</li>
-<li>Display_BitmapNullptr=invalid pointer object.</li>
-<li>Display_IconScreenWidth=Icon width is greater than screen width </li>
-</ol>
-</dd></dl>
-
-</div>
-</div>
 <a id="a73e28d9c013886e9f8613e337a5723cd" name="a73e28d9c013886e9f8613e337a5723cd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a73e28d9c013886e9f8613e337a5723cd">&#9670;&#160;</a></span>drawLine()</h2>
 
@@ -1602,6 +1459,8 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section note"><dt>Note</dt><dd>By default uses spiWriteBuffer method to write each pixel as a buffer for speed. Much faster than pixel by pixel spi byte writes If dislib16_ADVANCED_SCREEN_BUFFER_ENABLE is defined then the function will use the screen buffer to draw the pixel. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Will return early if x or y are out of bounds. </dd></dl>
 
 </div>
 </div>
@@ -1884,72 +1743,6 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="abc61ff4c695f3592457f48699c6ada70" name="abc61ff4c695f3592457f48699c6ada70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc61ff4c695f3592457f48699c6ada70">&#9670;&#160;</a></span>drawSimpleArc()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void displaylib_16_graphics::drawSimpleArc </td>
-          <td>(</td>
-          <td class="paramtype">int16_t&#160;</td>
-          <td class="paramname"><em>cx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int16_t&#160;</td>
-          <td class="paramname"><em>cy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int16_t&#160;</td>
-          <td class="paramname"><em>radius</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>startAngle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>endAngle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>color</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Draw a simple arc of one pixel on the display( no offsets , thickness or maximum arc calculations) This function draws an arc between two angles (start and end) on a circle with a given radius. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">cx</td><td>X-coordinate of the center of the circle. </td></tr>
-    <tr><td class="paramname">cy</td><td>Y-coordinate of the center of the circle. </td></tr>
-    <tr><td class="paramname">radius</td><td>The radius of the circle. </td></tr>
-    <tr><td class="paramname">startAngle</td><td>The starting angle of the arc (in degrees). </td></tr>
-    <tr><td class="paramname">endAngle</td><td>The ending angle of the arc (in degrees). </td></tr>
-    <tr><td class="paramname">color</td><td>The color of the arc.</td></tr>
-  </table>
-  </dd>
-</dl>
-<p>0 degree is positive X axis , arc is drawn counterclockwise </p>
 
 </div>
 </div>
@@ -2583,42 +2376,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the current text rendering mode. </p>
-<dl class="section return"><dt>Returns</dt><dd>True if characters are drawn pixel by pixel, false if drawn using a buffer. </dd></dl>
-
-</div>
-</div>
-<a id="a28e3d66eb9c65bf3a0cb196e67c6796d" name="a28e3d66eb9c65bf3a0cb196e67c6796d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28e3d66eb9c65bf3a0cb196e67c6796d">&#9670;&#160;</a></span>pushColor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void displaylib_16_graphics::pushColor </td>
-          <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>color</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>pushColor </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">color</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>not in use currently. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>if true characters are, drawn pixel by pixel, if false, characters are drawn using a buffered write. </dd></dl>
 
 </div>
 </div>
@@ -2723,6 +2481,27 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a56ff6e00bc362ce19d5e32ebac1ba77f" name="a56ff6e00bc362ce19d5e32ebac1ba77f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56ff6e00bc362ce19d5e32ebac1ba77f">&#9670;&#160;</a></span>setBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a> displaylib_16_graphics::setBuffer </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Allocates memory for the screen buffer based on display resolution. The buffer size is calculated as width × height × 2 bytes (RGB565 format). If allocation fails, it returns a memory allocation error. In debug mode, it prints the allocated buffer size. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaaa833130d8beb5e37fcd7543185caf638">DisLib16::Success</a> on successful allocation, <a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaac522afb4f607148c99564383c9b7ec40">DisLib16::MemoryAError</a> if allocation fails. </dd></dl>
 
 </div>
 </div>
@@ -2897,7 +2676,7 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3068,6 +2847,27 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a782fa70ed8ad23728557817005ce2be2" name="a782fa70ed8ad23728557817005ce2be2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a782fa70ed8ad23728557817005ce2be2">&#9670;&#160;</a></span>writeBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a> displaylib_16_graphics::writeBuffer </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes the contents of the screen buffer to the display. This function assumes the buffer has already been allocated and filled. It sets the address window for the entire screen and writes the buffer data. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaaa833130d8beb5e37fcd7543185caf638">DisLib16::Success</a> on completion. <a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaa5cf1ac314fb5c9453d86d09a48265258">DisLib16::BufferEmpty</a> if the buffer is empty. </dd></dl>
+
+</div>
+</div>
 <a id="ac00553b6e371a5a4f4dbaeb3c09ed018" name="ac00553b6e371a5a4f4dbaeb3c09ed018"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac00553b6e371a5a4f4dbaeb3c09ed018">&#9670;&#160;</a></span>writeChar()</h2>
 
@@ -3109,7 +2909,7 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>uses spiWriteDataBuffer method to write each character as a buffer for speed. Much faster than pixel by pixel spi byte writes </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>uses spiWriteDataBuffer method to write each character as a buffer for speed. Much faster than pixel by pixel spi byte writes, if _textCharPixelOrBuffer = false. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Will return <a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a> enum<ol type="1">
 <li><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaaa833130d8beb5e37fcd7543185caf638">DisLib16::Success</a> success</li>
 <li><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaa619677016e26477ea48b4f96f37980a6">DisLib16::CharScreenBounds</a> co-ords out of bounds check x and y</li>
@@ -3254,7 +3054,7 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3277,7 +3077,7 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3488,7 +3288,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>True for Hardware SPI on , false fpr Software SPI on </p>
+<p>True for Hardware SPI on , false for Software SPI on </p>
 
 </div>
 </div>
@@ -3535,6 +3335,29 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>SPI instance pointer </p>
+
+</div>
+</div>
+<a id="abfe15b697a45bb444fe86e2ac0feeea6" name="abfe15b697a45bb444fe86e2ac0feeea6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfe15b697a45bb444fe86e2ac0feeea6">&#9670;&#160;</a></span>_screenBuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;uint8_t&gt; displaylib_16_graphics::_screenBuffer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Buffer for screen </p>
 
 </div>
 </div>

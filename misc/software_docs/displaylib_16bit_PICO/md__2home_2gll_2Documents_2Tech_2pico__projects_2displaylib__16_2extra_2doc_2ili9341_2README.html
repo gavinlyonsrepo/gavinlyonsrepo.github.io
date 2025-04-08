@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.1.0</span>
    </div>
    <div id="projectbrief">Driver for 16-bit colour graphics displays,  Rpi PICO  library.</div>
   </td>
@@ -73,8 +73,8 @@ $(function() {
   <div class="headertitle"><div class="title">ILI9341 LCD TFT Readme</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md8"></a> <a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ili9341.jpg"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ili9341.jpg" alt="Image TFT" class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md9"></a>
+<div class="textblock"><p><a class="anchor" id="autotoc_md12"></a> <a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ili9341.jpg"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ili9341.jpg" alt="Image TFT" class="inline"/></a></p>
+<h1><a class="anchor" id="autotoc_md13"></a>
 Table of contents</h1>
 <ul>
 <li>Overview</li>
@@ -88,16 +88,16 @@ Table of contents</h1>
 <li>Hardware</li>
 <li>Output</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md10"></a>
+<h1><a class="anchor" id="autotoc_md14"></a>
 Overview</h1>
 <ul>
 <li>Name: ILI9341</li>
 <li>Description:</li>
 </ul>
 <p>C++ Raspberry pi PICO library for a TFT SPI LCD,ILI9341 Driver</p>
-<h1><a class="anchor" id="autotoc_md11"></a>
+<h1><a class="anchor" id="autotoc_md15"></a>
 Software</h1>
-<h2><a class="anchor" id="autotoc_md12"></a>
+<h2><a class="anchor" id="autotoc_md16"></a>
 User options</h2>
 <p>In the example files, there are 3 sections in "Setup()" function where user can make adjustments.</p>
 <ul>
@@ -109,10 +109,10 @@ User options</h2>
 <p>Here the user can pass the SPI Bus freq in kiloHertz. Max SPI speed on the PICO is 62.5Mhz. 2nd parameter is the SPI interface(spi0 spi1 etc). If users wants software SPI just call this method with just one argument for the optional GPIO software uS delay, which by default is zero. Setting this higher can be used to slow down Software SPI which may be beneficial in some setups. <br  />
 </p>
 <p>*User Option Setup the GPIO pins</p>
-<p>Set the five GPIO pins if using Hardware SPI clock and data pins will be tied to the chosen interface eg Spi0 CLK=18 DIN=19)</p>
+<p>Set the five GPIO pins if using Hardware SPI clock and data pins will be tied to the chosen interface eg Spi0 CLK=18 DIN=19). The reset pin is optional if your display/hat uses software reset , set to -1 to 'disable'.</p>
 <p>*User Option Screen size *</p>
 <p>User can adjust screen pixel height, screen pixel width.</p>
-<h2><a class="anchor" id="autotoc_md13"></a>
+<h2><a class="anchor" id="autotoc_md17"></a>
 File system</h2>
 <p>There are example files included. User picks the one they want by editing the CMakeLists.txt :: add_executable(${PROJECT_NAME} section. Comment in one path and one path ONLY.</p>
 <table class="markdownTable">
@@ -127,33 +127,28 @@ File system</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">demo   </td><td class="markdownTableBodyNone">A demo   </td></tr>
 </table>
-<p>|</p>
-<h2><a class="anchor" id="autotoc_md14"></a>
+<h2><a class="anchor" id="autotoc_md18"></a>
 Bitmap</h2>
 <p>Functions to support drawing bitmaps</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Function Name   </th><th class="markdownTableHeadNone">Colour support   </th><th class="markdownTableHeadNone">Pixel max size KiB   </th><th class="markdownTableHeadNone">Note    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">drawIcon   </td><td class="markdownTableBodyNone">bi-colour array   </td><td class="markdownTableBodyNone">(0-240) X 8   </td><td class="markdownTableBodyNone">Data vertically addressed    </td></tr>
-<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">drawBitmap   </td><td class="markdownTableBodyNone">bi-colour array   </td><td class="markdownTableBodyNone">18.75   </td><td class="markdownTableBodyNone">Data horizontally addressed    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">drawBitmap8Data   </td><td class="markdownTableBodyNone">8 bit color RRRGGGBB   </td><td class="markdownTableBodyNone">75   </td><td class="markdownTableBodyNone">Converted by software to 16-bit color    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">drawBitmap16   </td><td class="markdownTableBodyNone">16 bit color 565 BMP files or array   </td><td class="markdownTableBodyNone">150   </td><td class="markdownTableBodyNone">---&mdash;    </td></tr>
+<td class="markdownTableBodyNone">drawBitmap8Data   </td><td class="markdownTableBodyNone">8 bit color RRRGGGBB   </td><td class="markdownTableBodyNone">75   </td><td class="markdownTableBodyNone">Converted by software to 16-bit color    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">drawBitmap24   </td><td class="markdownTableBodyNone">24 bit color BMP files or array   </td><td class="markdownTableBodyNone">225   </td><td class="markdownTableBodyNone">Converted by software to 16-bit color    </td></tr>
+<td class="markdownTableBodyNone">drawBitmap16   </td><td class="markdownTableBodyNone">16 bit color 565 BMP files or array   </td><td class="markdownTableBodyNone">150   </td><td class="markdownTableBodyNone">---&mdash;    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">drawSprite   </td><td class="markdownTableBodyNone">16 bit color 565 array   </td><td class="markdownTableBodyNone">150   </td><td class="markdownTableBodyNone">Does not use a buffer , draws pixel by pixel , ignores background chosen color   </td></tr>
 </table>
 <ol type="1">
 <li>Bitmap Size (in KiB)= Image Width×Image Height×Bits Per Pixel(8×1024)</li>
 <li>Pixel size column assumes 240 by 320 screen.</li>
-<li>The data array for 1 and 2 is created from image files using file data conversion tool <a href="https://javl.github.io/image2cpp/">link</a></li>
-<li>The data array for 3 - 6 is created from BMP files using file data conversion tool <a href="https://notisrac.github.io/FileToCArray/">link</a></li>
+<li>The data array for 1 is created from image files using file data conversion tool <a href="https://javl.github.io/image2cpp/">link</a></li>
+<li>The data array for 2-4 is created from BMP files using file data conversion tool <a href="https://notisrac.github.io/FileToCArray/">link</a></li>
 </ol>
-<h1><a class="anchor" id="autotoc_md15"></a>
+<h1><a class="anchor" id="autotoc_md19"></a>
 Hardware</h1>
 <p>Tested and developed on:</p>
 <ul>
@@ -203,7 +198,7 @@ Hardware</h1>
 <li>LED Backlight control is left to user.</li>
 <li>Pins marked with T_ prefix are related to the touchscreen IC XP2046 if user is not using the touch screen do not connect these. The touch screen and TFT share the SPI bus but have different chip select lines. TFT SPI settings(Speed, active chip select) should be refreshed after ever read cycle of XPT2046 sensor, see example.</li>
 </ol>
-<h1><a class="anchor" id="autotoc_md16"></a>
+<h1><a class="anchor" id="autotoc_md20"></a>
 Output</h1>
 <p>Four-Byte Burger 240x320 16-bit bitmap test image, Credits <a href="https://www.youtube.com/watch?v=i4EFkspO5p4">Ahoy</a></p>
 <p><a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ili9341output2.jpg"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ili9341output2.jpg" alt="output pic" class="inline"/></a> </p>
