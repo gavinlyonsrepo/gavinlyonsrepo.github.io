@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ili9341_5ftft_0',['ILI9341_TFT',['../classILI9341__TFT.html',1,'']]]
+  ['gc9a01_5ftft_0',['GC9A01_TFT',['../classGC9A01__TFT.html',1,'']]]
 ];

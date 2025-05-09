@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.1.0</span>
+   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.2.0</span>
    </div>
    <div id="projectbrief">Driver for 16-bit colour graphics displays,  Rpi PICO  library.</div>
   </td>
@@ -91,19 +91,21 @@ Inheritance diagram for displaylib_16_graphics:</div>
 <div class="dyncontent">
 <div class="center"><img src="classdisplaylib__16__graphics__inherit__graph.png" border="0" usemap="#adisplaylib__16__graphics_inherit__map" alt="Inheritance graph"/></div>
 <map name="adisplaylib__16__graphics_inherit__map" id="adisplaylib__16__graphics_inherit__map">
-<area shape="rect" title="Class to handle fonts and graphics of ST7735 display." alt="" coords="172,79,343,104"/>
-<area shape="rect" href="classILI9341__TFT.html" title="Class to interface with ILI9341 LCD display." alt="" coords="5,152,104,177"/>
-<area shape="poly" title=" " alt="" coords="213,111,88,154,87,149,211,106"/>
-<area shape="rect" href="classSSD1331__OLED.html" title="Class to control SSD1331 OLED basic functionality." alt="" coords="128,152,251,177"/>
-<area shape="poly" title=" " alt="" coords="239,116,202,154,198,150,235,112"/>
-<area shape="rect" href="classST7735__TFT.html" title="Class to control ST7735 TFT basic functionality." alt="" coords="275,152,375,177"/>
-<area shape="poly" title=" " alt="" coords="280,112,316,150,312,154,276,116"/>
-<area shape="rect" href="classST7789__TFT.html" title="Class to control ST7789 TFT basic functionality." alt="" coords="399,152,499,177"/>
-<area shape="poly" title=" " alt="" coords="302,106,419,149,417,154,300,111"/>
-<area shape="rect" href="classdisplay__Fonts.html" title="Font class to hold font data object" alt="" coords="150,5,261,31"/>
-<area shape="poly" title=" " alt="" coords="224,40,251,77,247,80,220,43"/>
-<area shape="rect" href="classPrint.html" title="class that provides polymorphic print methods for printing data" alt="" coords="285,5,337,31"/>
-<area shape="poly" title=" " alt="" coords="296,43,268,80,264,77,292,40"/>
+<area shape="rect" title="Class to handle fonts and graphics of ST7735 display." alt="" coords="232,79,403,104"/>
+<area shape="rect" href="classGC9A01__TFT.html" title="Class to control GC9A01 TFT basic functionality." alt="" coords="5,152,109,177"/>
+<area shape="poly" title=" " alt="" coords="263,110,100,154,99,149,262,105"/>
+<area shape="rect" href="classILI9341__TFT.html" title="Class to interface with ILI9341 LCD display." alt="" coords="133,152,232,177"/>
+<area shape="poly" title=" " alt="" coords="285,113,206,154,203,149,282,108"/>
+<area shape="rect" href="classSSD1331__OLED.html" title="Class to control SSD1331 OLED basic functionality." alt="" coords="256,152,379,177"/>
+<area shape="poly" title=" " alt="" coords="320,118,320,152,315,152,315,118"/>
+<area shape="rect" href="classST7735__TFT.html" title="Class to control ST7735 TFT basic functionality." alt="" coords="403,152,503,177"/>
+<area shape="poly" title=" " alt="" coords="352,108,432,149,430,154,350,113"/>
+<area shape="rect" href="classST7789__TFT.html" title="Class to control ST7789 TFT basic functionality." alt="" coords="527,152,627,177"/>
+<area shape="poly" title=" " alt="" coords="373,105,536,149,535,154,372,110"/>
+<area shape="rect" href="classdisplay__Fonts.html" title="Font class to hold font data object" alt="" coords="210,5,321,31"/>
+<area shape="poly" title=" " alt="" coords="284,40,311,77,307,80,280,43"/>
+<area shape="rect" href="classPrint.html" title="class that provides polymorphic print methods for printing data" alt="" coords="345,5,397,31"/>
+<area shape="poly" title=" " alt="" coords="356,43,328,80,324,77,352,40"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -175,18 +177,6 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>displaylib_16_graphics</b> ()</td></tr>
 <tr class="memdesc:a0896ca1a3f84e788f53ab46f308d213b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new graphics object. <br /></td></tr>
 <tr class="separator:a0896ca1a3f84e788f53ab46f308d213b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56ff6e00bc362ce19d5e32ebac1ba77f" id="r_a56ff6e00bc362ce19d5e32ebac1ba77f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a56ff6e00bc362ce19d5e32ebac1ba77f">setBuffer</a> (void)</td></tr>
-<tr class="memdesc:a56ff6e00bc362ce19d5e32ebac1ba77f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates memory for the screen buffer based on display resolution. The buffer size is calculated as width × height × 2 bytes (RGB565 format). If allocation fails, it returns a memory allocation error. In debug mode, it prints the allocated buffer size.  <br /></td></tr>
-<tr class="separator:a56ff6e00bc362ce19d5e32ebac1ba77f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeba8c19270c421618a7bfe7471357625" id="r_aeba8c19270c421618a7bfe7471357625"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#aeba8c19270c421618a7bfe7471357625">clearBuffer</a> (uint16_t color=<a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24caaba00c0dd83be67289d566137fded03e">C_BLACK</a>)</td></tr>
-<tr class="memdesc:aeba8c19270c421618a7bfe7471357625"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the screen buffer by filling it with a given color. The buffer is filled in RGB565 format. This function assumes the buffer has already been allocated via <a class="el" href="classdisplaylib__16__graphics.html#a56ff6e00bc362ce19d5e32ebac1ba77f" title="Allocates memory for the screen buffer based on display resolution. The buffer size is calculated as ...">setBuffer()</a>.  <br /></td></tr>
-<tr class="separator:aeba8c19270c421618a7bfe7471357625"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a782fa70ed8ad23728557817005ce2be2" id="r_a782fa70ed8ad23728557817005ce2be2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a782fa70ed8ad23728557817005ce2be2">writeBuffer</a> (void)</td></tr>
-<tr class="memdesc:a782fa70ed8ad23728557817005ce2be2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the contents of the screen buffer to the display. This function assumes the buffer has already been allocated and filled. It sets the address window for the entire screen and writes the buffer data.  <br /></td></tr>
-<tr class="separator:a782fa70ed8ad23728557817005ce2be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a884a0a4293e1fac04391d8657c973ba3" id="r_a884a0a4293e1fac04391d8657c973ba3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a884a0a4293e1fac04391d8657c973ba3">destroyBuffer</a> (void)</td></tr>
-<tr class="memdesc:a884a0a4293e1fac04391d8657c973ba3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the screen buffer by resizing it to zero. This function checks if the buffer has been successfully destroyed and prints debug information.  <br /></td></tr>
-<tr class="separator:a884a0a4293e1fac04391d8657c973ba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad2bb8baa48358e0ae13547c9d8b1711" id="r_aad2bb8baa48358e0ae13547c9d8b1711"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#aad2bb8baa48358e0ae13547c9d8b1711">setAddrWindow</a> (uint16_t, uint16_t, uint16_t, uint16_t)=0</td></tr>
 <tr class="memdesc:aad2bb8baa48358e0ae13547c9d8b1711"><td class="mdescLeft">&#160;</td><td class="mdescRight">define in the sub class  <br /></td></tr>
 <tr class="separator:aad2bb8baa48358e0ae13547c9d8b1711"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -499,8 +489,6 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a795daa3499cdbd4d5eaddddb60830981"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adaaecbe2c7daf4535dca0cd5aa0819d3" id="r_adaaecbe2c7daf4535dca0cd5aa0819d3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#adaaecbe2c7daf4535dca0cd5aa0819d3">_textCharPixelOrBuffer</a> = false</td></tr>
 <tr class="separator:adaaecbe2c7daf4535dca0cd5aa0819d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfe15b697a45bb444fe86e2ac0feeea6" id="r_abfe15b697a45bb444fe86e2ac0feeea6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#abfe15b697a45bb444fe86e2ac0feeea6">_screenBuffer</a></td></tr>
-<tr class="separator:abfe15b697a45bb444fe86e2ac0feeea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class to handle fonts and graphics of ST7735 display. </p>
@@ -597,33 +585,6 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aeba8c19270c421618a7bfe7471357625" name="aeba8c19270c421618a7bfe7471357625"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeba8c19270c421618a7bfe7471357625">&#9670;&#160;</a></span>clearBuffer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a> displaylib_16_graphics::clearBuffer </td>
-          <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>color</em> = <code><a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24caaba00c0dd83be67289d566137fded03e">C_BLACK</a></code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Clears the screen buffer by filling it with a given color. The buffer is filled in RGB565 format. This function assumes the buffer has already been allocated via <a class="el" href="classdisplaylib__16__graphics.html#a56ff6e00bc362ce19d5e32ebac1ba77f" title="Allocates memory for the screen buffer based on display resolution. The buffer size is calculated as ...">setBuffer()</a>. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">color</td><td>The 16-bit RGB565 color to fill the buffer with. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaaa833130d8beb5e37fcd7543185caf638">DisLib16::Success</a> on completion. <a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaa5cf1ac314fb5c9453d86d09a48265258">DisLib16::BufferEmpty</a> if the buffer is empty. </dd></dl>
-
-</div>
-</div>
 <a id="a7b24bf5b80c9a26b0901fcc28c98f516" name="a7b24bf5b80c9a26b0901fcc28c98f516"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7b24bf5b80c9a26b0901fcc28c98f516">&#9670;&#160;</a></span>convert8bitTo16bit()</h2>
 
@@ -691,27 +652,6 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The cosine value of the given angle. </dd></dl>
-
-</div>
-</div>
-<a id="a884a0a4293e1fac04391d8657c973ba3" name="a884a0a4293e1fac04391d8657c973ba3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a884a0a4293e1fac04391d8657c973ba3">&#9670;&#160;</a></span>destroyBuffer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a> displaylib_16_graphics::destroyBuffer </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Destroys the screen buffer by resizing it to zero. This function checks if the buffer has been successfully destroyed and prints debug information. </p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaaa833130d8beb5e37fcd7543185caf638">DisLib16::Success</a> on successful destruction, <a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaac522afb4f607148c99564383c9b7ec40">DisLib16::MemoryAError</a> if destruction fails. </dd></dl>
 
 </div>
 </div>
@@ -2428,7 +2368,7 @@ Private Attributes</h2></td></tr>
 
 <p>define in the sub class </p>
 
-<p>Implemented in <a class="el" href="classILI9341__TFT.html#a041223efb9e4ecc348aca8b76b29cb39">ILI9341_TFT</a>, <a class="el" href="classSSD1331__OLED.html#aa0209fca4fa9b3397154ecd63727a510">SSD1331_OLED</a>, <a class="el" href="classST7735__TFT.html#a1613a62e02aa5caf220beb94cb5feea1">ST7735_TFT</a>, and <a class="el" href="classST7789__TFT.html#aee26d5e605f10b5f9f0f239ee4cce9dc">ST7789_TFT</a>.</p>
+<p>Implemented in <a class="el" href="classILI9341__TFT.html#a041223efb9e4ecc348aca8b76b29cb39">ILI9341_TFT</a>, <a class="el" href="classGC9A01__TFT.html#a5f2788ba3f5b33a3ac6dd23771f54886">GC9A01_TFT</a>, <a class="el" href="classSSD1331__OLED.html#aa0209fca4fa9b3397154ecd63727a510">SSD1331_OLED</a>, <a class="el" href="classST7735__TFT.html#a1613a62e02aa5caf220beb94cb5feea1">ST7735_TFT</a>, and <a class="el" href="classST7789__TFT.html#aee26d5e605f10b5f9f0f239ee4cce9dc">ST7789_TFT</a>.</p>
 
 </div>
 </div>
@@ -2481,27 +2421,6 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a56ff6e00bc362ce19d5e32ebac1ba77f" name="a56ff6e00bc362ce19d5e32ebac1ba77f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56ff6e00bc362ce19d5e32ebac1ba77f">&#9670;&#160;</a></span>setBuffer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a> displaylib_16_graphics::setBuffer </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Allocates memory for the screen buffer based on display resolution. The buffer size is calculated as width × height × 2 bytes (RGB565 format). If allocation fails, it returns a memory allocation error. In debug mode, it prints the allocated buffer size. </p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaaa833130d8beb5e37fcd7543185caf638">DisLib16::Success</a> on successful allocation, <a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaac522afb4f607148c99564383c9b7ec40">DisLib16::MemoryAError</a> if allocation fails. </dd></dl>
 
 </div>
 </div>
@@ -2844,27 +2763,6 @@ Private Attributes</h2></td></tr>
 </dd></dl>
 
 <p>Implements <a class="el" href="classPrint.html#a5be30d49adae2406a270c29ba9a3e0a3">Print</a>.</p>
-
-</div>
-</div>
-<a id="a782fa70ed8ad23728557817005ce2be2" name="a782fa70ed8ad23728557817005ce2be2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a782fa70ed8ad23728557817005ce2be2">&#9670;&#160;</a></span>writeBuffer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a> displaylib_16_graphics::writeBuffer </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Writes the contents of the screen buffer to the display. This function assumes the buffer has already been allocated and filled. It sets the address window for the entire screen and writes the buffer data. </p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaaa833130d8beb5e37fcd7543185caf638">DisLib16::Success</a> on completion. <a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaa5cf1ac314fb5c9453d86d09a48265258">DisLib16::BufferEmpty</a> if the buffer is empty. </dd></dl>
 
 </div>
 </div>
@@ -3335,29 +3233,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>SPI instance pointer </p>
-
-</div>
-</div>
-<a id="abfe15b697a45bb444fe86e2ac0feeea6" name="abfe15b697a45bb444fe86e2ac0feeea6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfe15b697a45bb444fe86e2ac0feeea6">&#9670;&#160;</a></span>_screenBuffer</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;uint8_t&gt; displaylib_16_graphics::_screenBuffer</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Buffer for screen </p>
 
 </div>
 </div>

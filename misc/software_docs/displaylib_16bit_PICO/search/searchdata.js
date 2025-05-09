@@ -1,13 +1,13 @@
 var indexSectionsWithContent =
 {
   0: "0128_abcdefghilmnoprstuvw",
-  1: "cdips",
+  1: "cdgimps",
   2: "d",
-  3: "bdis",
+  3: "bdgis",
   4: "abcdefghilnprstw",
-  5: "_abcdimpst",
+  5: "_abcdgimprst",
   6: "bcdprst",
-  7: "bcdfghimorstw",
+  7: "bcdfghimnoprstw",
   8: "012abcdfilmoprstv"
 };
 

@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.1.0</span>
+   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.2.0</span>
    </div>
    <div id="projectbrief">Driver for 16-bit colour graphics displays,  Rpi PICO  library.</div>
   </td>
@@ -73,9 +73,9 @@ $(function() {
   <div class="headertitle"><div class="title">ST7789 Readme</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md69"></a> <a href="https://gavinlyonsrepo.github.io/"><img src="https://img.shields.io/badge/Website-Link-blue.svg" alt="Website" style="pointer-events: none;" class="inline"/></a> <a href="https://gavinlyonsrepo.github.io//feed.xml"><img src="https://img.shields.io/badge/Subscribe-RSS-yellow.svg" alt="Rss" style="pointer-events: none;" class="inline"/></a> <a href="https://www.paypal.com/paypalme/whitelight976"><img src="https://img.shields.io/badge/Donate-PayPal-green.svg" alt="Donate" style="pointer-events: none;" class="inline"/></a></p>
+<div class="textblock"><p><a class="anchor" id="autotoc_md78"></a> <a href="https://gavinlyonsrepo.github.io/"><img src="https://img.shields.io/badge/Website-Link-blue.svg" alt="Website" style="pointer-events: none;" class="inline"/></a> <a href="https://gavinlyonsrepo.github.io//feed.xml"><img src="https://img.shields.io/badge/Subscribe-RSS-yellow.svg" alt="Rss" style="pointer-events: none;" class="inline"/></a> <a href="https://www.paypal.com/paypalme/whitelight976"><img src="https://img.shields.io/badge/Donate-PayPal-green.svg" alt="Donate" style="pointer-events: none;" class="inline"/></a></p>
 <p><a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/st7789.jpg"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/st7789.jpg" alt="Image TFT" class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md70"></a>
+<h1><a class="anchor" id="autotoc_md79"></a>
 Table of contents</h1>
 <ul>
 <li>Overview</li>
@@ -88,14 +88,14 @@ Table of contents</h1>
 <li>Hardware</li>
 <li>Output</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md71"></a>
+<h1><a class="anchor" id="autotoc_md80"></a>
 Overview</h1>
 <ul>
 <li>Name: ST7789_TFT_PICO</li>
 <li>Description:</li>
 </ul>
 <p>C++ Raspberry pi PICO library for a TFT SPI LCD, ST7789 Driver</p>
-<h1><a class="anchor" id="autotoc_md72"></a>
+<h1><a class="anchor" id="autotoc_md81"></a>
 Test</h1>
 <p>There are example files included. User picks the one they want by editing the CMakeLists.txt :: add_executable(${PROJECT_NAME} section. Comment in one path and one path only.</p>
 <table class="markdownTable">
@@ -110,13 +110,13 @@ Test</h1>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">functions_fps   </td><td class="markdownTableBodyNone">Functions(like rotate scroll) + FPS test   </td><td class="markdownTableBodyNone">&mdash;    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">bmp_data   </td><td class="markdownTableBodyNone">1,8 16 bit colour bitmaps tests + bitmap FPS test   </td><td class="markdownTableBodyNone">Bitmap data is stored in arrays on PICO    </td></tr>
+<td class="markdownTableBodyNone">bmp_data   </td><td class="markdownTableBodyNone">1,8 &amp; 16 bit colour bitmaps tests + bitmap FPS test   </td><td class="markdownTableBodyNone">Bitmap data is stored in arrays on PICO    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">demos   </td><td class="markdownTableBodyNone">A demo   </td><td class="markdownTableBodyNone">&mdash;   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md73"></a>
+<h1><a class="anchor" id="autotoc_md82"></a>
 Software</h1>
-<h2><a class="anchor" id="autotoc_md74"></a>
+<h2><a class="anchor" id="autotoc_md83"></a>
 User Options</h2>
 <p>In the main.cpp example files. There are four sections in "Setup()" function where user can make adjustments to select for SPI type used, PCB type used and screen size.</p>
 <p>0. USER OPTION 0 SPI_SPEED + TYPE</p><ol type="1">
@@ -131,7 +131,7 @@ User Options</h2>
 <p>The 5 GPIO pins used, the clock and data lines must be the clock and data lines of spi interface chosen in option 0 if using hardware SPI. If no reset pin on display or hat, pass -1 as argument to disable reset pin.</p>
 <p><em>USER OPTION 2 Screen size + Offsets</em></p>
 <p>In the main.cpp file, in USER OPTION 2 . User can adjust screen pixel height, screen pixel width and x &amp; y screen offsets. These offsets can be used in the event of screen damage or manufacturing errors around edge such as cropped data or defective pixels. The function TFTInitScreenSize sets them.</p>
-<h2><a class="anchor" id="autotoc_md75"></a>
+<h2><a class="anchor" id="autotoc_md84"></a>
 Bitmap</h2>
 <p>Functions to support drawing bitmaps,</p>
 <table class="markdownTable">
@@ -152,7 +152,7 @@ Bitmap</h2>
 <li>The data array for 1 is created from image files using file data conversion tool <a href="https://javl.github.io/image2cpp/">link</a></li>
 <li>The data array for 2-4 is created from BMP files using file data conversion tool <a href="https://notisrac.github.io/FileToCArray/">link</a></li>
 </ol>
-<h1><a class="anchor" id="autotoc_md76"></a>
+<h1><a class="anchor" id="autotoc_md85"></a>
 Hardware</h1>
 <p>Connections as setup in main.cpp test file.</p>
 <table class="markdownTable">
@@ -183,7 +183,7 @@ Hardware</h1>
 <li>Backlight on/off control is left to user.</li>
 <li>If no reset pin on display or hat, pass -1 as argument to disable.</li>
 </ol>
-<h1><a class="anchor" id="autotoc_md77"></a>
+<h1><a class="anchor" id="autotoc_md86"></a>
 Output</h1>
 <p><a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/st7789output.jpg"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/st7789output.jpg" alt="output pic" class="inline"/></a> </p>
 </div></div><!-- contents -->

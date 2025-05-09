@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.1.0</span>
+   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.2.0</span>
    </div>
    <div id="projectbrief">Driver for 16-bit colour graphics displays,  Rpi PICO  library.</div>
   </td>
@@ -73,7 +73,8 @@ $(function() {
   <div class="headertitle"><div class="title">Advanced Buffer Mode Readme</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md0"></a> Advanced buffer mode allows the library to write to a global screen buffer (<code>_screenBuffer</code>) instead of directly writing to the VRAM of the display. This mode is off by default but can be enabled for specific use cases where buffering is advantageous.</p>
+<div class="textblock"><p><a class="anchor" id="autotoc_md0"></a> This mode was added in Version 2.1.0.</p>
+<p>Advanced buffer mode allows the library to write to a global screen buffer (<code>_screenBuffer</code>) instead of directly writing to the VRAM of the display. This mode is off by default but can be enabled for specific use cases where buffering is advantageous.</p>
 <p>Advanced buffer mode offers several key benefits. It enables double buffering, where all drawing operations are first performed in memory and then written to the display in a single operation. With batch drawing, multiple graphics operations can be completed before updating the screen, improving rendering efficiency. The memory-resident buffer also allows for custom effects like fading or blending to be applied before display. Additionally, since memory operations are faster than direct display writes, this approach leads to optimized performance for applications with frequent updates.</p>
 <p>However, it comes with limitations. It requires significant heap memory and flushing the buffer to the display can introduce a performance overhead. Compatibility is also a concern on memory-constrained devices. Use advanced buffer mode when you need complex rendering, visual effects, or performance optimizations. For simpler applications where memory is limited, direct display drawing may be more suitable. Bear in mind many functions in normal mode have some form of local buffered writes already.</p>
 <p>Some examples of SRAM usage for selected display sizes and PICO's.</p>
@@ -106,7 +107,7 @@ Functions</h1>
 <ol type="1">
 <li>drawPixel()</li>
 <li>All Bitmap functions.</li>
-<li>All Draw text functions IF <b>textCharPixelOrBuffer = true</b></li>
+<li>All Draw text functions only IF <b>textCharPixelOrBuffer = true</b></li>
 </ol>
 <p>The situation with graphic functions is complicated as some use fast draw methods of drawFastVLine() and drawFastHLine(). and fillRectBuffer uses a local buffer in function to write to display VRAM. So depending on the graphic function code may write to screenBuffer and/or VRAM. Note fillRectBuffer is wrapped by fillScreen. </p>
 </div></div><!-- contents -->

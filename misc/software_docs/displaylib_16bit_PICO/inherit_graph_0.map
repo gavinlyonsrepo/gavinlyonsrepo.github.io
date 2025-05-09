@@ -1,15 +1,17 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classdisplay__Fonts.html" title="Font class to hold font data object" alt="" coords="5,55,116,80"/>
-<area shape="rect" id="Node000001" href="$classdisplaylib__16__graphics.html" title="Class to handle fonts and graphics of ST7735 display." alt="" coords="164,80,335,105"/>
-<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="130,74,164,79,164,84,129,79"/>
-<area shape="rect" id="Node000002" href="$classILI9341__TFT.html" title="Class to interface with ILI9341 LCD display." alt="" coords="395,5,493,31"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="295,72,409,28,411,33,297,77"/>
-<area shape="rect" id="Node000003" href="$classSSD1331__OLED.html" title="Class to control SSD1331 OLED basic functionality." alt="" coords="383,55,505,80"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="348,77,382,73,383,78,349,82"/>
-<area shape="rect" id="Node000004" href="$classST7735__TFT.html" title="Class to control ST7735 TFT basic functionality." alt="" coords="394,104,494,129"/>
-<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="348,102,394,108,393,113,348,108"/>
-<area shape="rect" id="Node000005" href="$classST7789__TFT.html" title="Class to control ST7789 TFT basic functionality." alt="" coords="394,153,494,179"/>
-<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="298,108,410,151,408,156,296,113"/>
-<area shape="rect" id="Node000006" href="$classPrint.html" title="class that provides polymorphic print methods for printing data" alt="" coords="35,104,87,129"/>
-<area shape="poly" id="edge6_Node000006_Node000001" title=" " alt="" coords="100,109,163,101,164,106,101,114"/>
+<area shape="rect" id="Node000000" href="$classdisplay__Fonts.html" title="Font class to hold font data object" alt="" coords="5,79,116,104"/>
+<area shape="rect" id="Node000001" href="$classdisplaylib__16__graphics.html" title="Class to handle fonts and graphics of ST7735 display." alt="" coords="164,104,335,129"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="130,98,164,103,164,108,129,103"/>
+<area shape="rect" id="Node000002" href="$classGC9A01__TFT.html" title="Class to control GC9A01 TFT basic functionality." alt="" coords="392,5,496,31"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="281,95,381,40,408,28,410,33,384,44,284,99"/>
+<area shape="rect" id="Node000003" href="$classILI9341__TFT.html" title="Class to interface with ILI9341 LCD display." alt="" coords="395,55,493,80"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="312,98,393,77,395,82,314,103"/>
+<area shape="rect" id="Node000004" href="$classSSD1331__OLED.html" title="Class to control SSD1331 OLED basic functionality." alt="" coords="383,104,505,129"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="348,114,382,114,382,119,348,119"/>
+<area shape="rect" id="Node000005" href="$classST7735__TFT.html" title="Class to control ST7735 TFT basic functionality." alt="" coords="394,153,494,179"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="314,130,394,151,393,156,313,135"/>
+<area shape="rect" id="Node000006" href="$classST7789__TFT.html" title="Class to control ST7789 TFT basic functionality." alt="" coords="394,203,494,228"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="284,134,384,189,410,200,408,205,381,194,281,139"/>
+<area shape="rect" id="Node000007" href="$classPrint.html" title="class that provides polymorphic print methods for printing data" alt="" coords="35,128,87,153"/>
+<area shape="poly" id="edge7_Node000007_Node000001" title=" " alt="" coords="100,133,163,125,164,130,101,138"/>
 </map>
