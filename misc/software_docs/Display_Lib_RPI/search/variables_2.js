@@ -1,10 +1,8 @@
 var searchData=
 [
-  ['debug_5fenabled_0',['DEBUG_ENABLED',['../namespacerdlib__config.html#a9ed9f16ad0a9b4d26caa93d80ecf602a',1,'rdlib_config']]],
-  ['dim_5fcontrastcolora_1',['Dim_ContrastColorA',['../structSSD1331__OLED_1_1Dim__Constrast__values__t.html#ade2d5d0055b044579c85ca2460b5a44d',1,'SSD1331_OLED::Dim_Constrast_values_t']]],
-  ['dim_5fcontrastcolorb_2',['Dim_ContrastColorB',['../structSSD1331__OLED_1_1Dim__Constrast__values__t.html#a29d2284a82476152db94c4c936f4d065',1,'SSD1331_OLED::Dim_Constrast_values_t']]],
-  ['dim_5fcontrastcolorc_3',['Dim_ContrastColorC',['../structSSD1331__OLED_1_1Dim__Constrast__values__t.html#af99d7a4fb26665c2b7487bf194df4065',1,'SSD1331_OLED::Dim_Constrast_values_t']]],
-  ['dimcontrastvalues_4',['DimContrastValues',['../classSSD1331__OLED.html#a3734e3696c8a40f69a9e6159eef57415',1,'SSD1331_OLED']]],
-  ['displayrotate_5',['displayrotate',['../classST7735__TFT.html#acd70accbef78669c5fbb80a31752ff8e',1,'ST7735_TFT::displayRotate'],['../classST7789__TFT.html#a866cb887d42bf386c06256954018aa09',1,'ST7789_TFT::displayRotate']]],
-  ['dtmax_6',['DTMAX',['../classXPT__2046__RDL.html#a75641b46ce1d13d36decbb3771cbab79',1,'XPT_2046_RDL']]]
+  ['contrastcolora_0',['ContrastColorA',['../structSSD1331__OLED_1_1Constrast__values__t.html#af0a827f89468955c59b6e70048eaa3e1',1,'SSD1331_OLED::Constrast_values_t']]],
+  ['contrastcolorb_1',['ContrastColorB',['../structSSD1331__OLED_1_1Constrast__values__t.html#a09b20b6c7de97c1e0f7f9acb3b671b2a',1,'SSD1331_OLED::Constrast_values_t']]],
+  ['contrastcolorc_2',['ContrastColorC',['../structSSD1331__OLED_1_1Constrast__values__t.html#ac640841985e46e1c3ed9964504952ff0',1,'SSD1331_OLED::Constrast_values_t']]],
+  ['contrastvalues_3',['ContrastValues',['../classSSD1331__OLED.html#ab6bac52b99c6596b7f250b697818f804',1,'SSD1331_OLED']]],
+  ['currentdecodemode_4',['CurrentDecodeMode',['../classMAX7219__SS__RPI.html#a9bb2fefc89ca8b7dbf9497af329e9db4',1,'MAX7219_SS_RPI']]]
 ];

@@ -1,0 +1,11 @@
+<map id="HT16K33plus_Model1" name="HT16K33plus_Model1">
+<area shape="rect" id="Node000001" title="class to control Ht16K33 , supports 7 9 14 and 16 segment displays" alt="" coords="254,79,417,104"/>
+<area shape="rect" id="Node000002" href="$classSevenSegmentFont.html" title="SevenSegmentFont Class that provides access to a seven&#45;segment font data table." alt="" coords="5,5,153,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,32,295,76,293,81,133,37"/>
+<area shape="rect" id="Node000003" href="$classNineSegmentFont.html" title="NineSegmentFont Class that provides access to a nine&#45;segment font data table." alt="" coords="178,5,317,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="274,37,323,76,319,81,270,41"/>
+<area shape="rect" id="Node000004" href="$classFourteenSegmentFont.html" title="FourteenSegmentFont Class that provides access to a fourteen&#45;segment font data table." alt="" coords="341,5,506,31"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="400,41,351,81,348,76,397,37"/>
+<area shape="rect" id="Node000005" href="$classSixteenSegmentFont.html" title="SixteenSegmentFont Class that provides access to a sixteen&#45;segment font data table." alt="" coords="530,5,687,31"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="552,37,380,81,379,76,551,32"/>
+</map>

@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.3.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.4.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -138,7 +138,7 @@ Adding or removing a font</h1>
 <li>Add/remove the font name from the enum 'display_Font_name_e'.</li>
 <li>Re-compile and re-install library.</li>
 </ul>
-<p>A new ASCII font must have following font structure. First 4 bytes are control bytes followed by <b>horizontally</b> addressed font data.</p>
+<p>A new ASCII font must have following font structure. First 4 bytes are control bytes followed by <b>horizontally</b> addressed font data. Also the fonts character width (or x-size) must be divisible evenly by 8.</p>
 <div class="fragment"><div class="line">// Example Font</div>
 <div class="line">// An 8 by 8 character size font starting at </div>
 <div class="line">// ASCII offset 0x30 in ASCII table with 0x02 characters in font. </div>

@@ -1,27 +1,5 @@
 var searchData=
 [
-  ['scaneightdigit_0',['ScanEightDigit',['../classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253a3b5ddff5467f95d7a7b662c66c040480',1,'MAX7219_SS_RPI']]],
-  ['scanfivedigit_1',['ScanFiveDigit',['../classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253aaf1cbe53d508f9a2ba2203cbcb1629f4',1,'MAX7219_SS_RPI']]],
-  ['scanfourdigit_2',['ScanFourDigit',['../classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253a47d955d428f5e06db351578e24f7ea78',1,'MAX7219_SS_RPI']]],
-  ['scanonedigit_3',['ScanOneDigit',['../classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253a1d2c8ed09706387e7fa7d79816a19ddd',1,'MAX7219_SS_RPI']]],
-  ['scansevendigit_4',['ScanSevenDigit',['../classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253a16a1a37a233dfaddc28fc7a5ca444ec3',1,'MAX7219_SS_RPI']]],
-  ['scansixdigit_5',['ScanSixDigit',['../classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253a5a1abe2e4e4d149306fc48ea66c49fd9',1,'MAX7219_SS_RPI']]],
-  ['scanthreedigit_6',['ScanThreeDigit',['../classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253ace171b2232c279b3c2e08f89b51ed188',1,'MAX7219_SS_RPI']]],
-  ['scantwodigit_7',['ScanTwoDigit',['../classMAX7219__SS__RPI.html#a885f7e7134b7ebb1569f5431ecbab253a999524d15a0ae88711006fc480eacfb4',1,'MAX7219_SS_RPI']]],
-  ['scroll_5factivate_8',['SCROLL_ACTIVATE',['../classSSD1331__OLED.html#af0d18e05eaf6ad477600557f3453c634ae2a2006a3447f84511a2f6b981f1c23f',1,'SSD1331_OLED']]],
-  ['scroll_5fdeactive_9',['SCROLL_DEACTIVE',['../classSSD1331__OLED.html#af0d18e05eaf6ad477600557f3453c634a99baa08387f38d408e88b0663bd0cb3a',1,'SSD1331_OLED']]],
-  ['scroll_5fframe_5f10_10',['SCROLL_FRAME_10',['../classSSD1331__OLED.html#a93c1687b7733b65c8af6662d865d5c28a1d4de4291ae1db8d633d0588456b0a53',1,'SSD1331_OLED']]],
-  ['scroll_5fframe_5f100_11',['SCROLL_FRAME_100',['../classSSD1331__OLED.html#a93c1687b7733b65c8af6662d865d5c28a4f79f495c1dd9f64b81a8f1c9af0b040',1,'SSD1331_OLED']]],
-  ['scroll_5fframe_5f200_12',['SCROLL_FRAME_200',['../classSSD1331__OLED.html#a93c1687b7733b65c8af6662d865d5c28afd7b14019dab690e7f72b3dc224da4fa',1,'SSD1331_OLED']]],
-  ['scroll_5fframe_5f6_13',['SCROLL_FRAME_6',['../classSSD1331__OLED.html#a93c1687b7733b65c8af6662d865d5c28a3de4ccd3ee61b4b3088fc5419b19cd7f',1,'SSD1331_OLED']]],
-  ['segtype14_14',['SegType14',['../classHT16K33plus__Model1.html#af8f04aa4ca5ee11de836d0dac5df7574a7880b3f8e77561990dd86f8369c46d67',1,'HT16K33plus_Model1']]],
-  ['segtype16_15',['SegType16',['../classHT16K33plus__Model1.html#af8f04aa4ca5ee11de836d0dac5df7574a8a33ea13fcd0516e1c4fd58c1a22980b',1,'HT16K33plus_Model1']]],
-  ['segtype7_16',['SegType7',['../classHT16K33plus__Model1.html#af8f04aa4ca5ee11de836d0dac5df7574a45e78ca2cade4f4188bf815c4684e74b',1,'HT16K33plus_Model1']]],
-  ['segtype9_17',['SegType9',['../classHT16K33plus__Model1.html#af8f04aa4ca5ee11de836d0dac5df7574ac4c473548fdb8fc066b2926a22b7ffa5',1,'HT16K33plus_Model1']]],
-  ['sh1106_5fic_18',['SH1106_IC',['../classSH110X__RDL.html#ae48df795ea52acda8ba8ae30c9bc32c6a98d42388ca41696c69a4f696fd7dc92e',1,'SH110X_RDL']]],
-  ['sh1107_5fic_19',['SH1107_IC',['../classSH110X__RDL.html#ae48df795ea52acda8ba8ae30c9bc32c6a5aae61a579093f5a02123768e161be75',1,'SH110X_RDL']]],
-  ['shapescreenbounds_20',['ShapeScreenBounds',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a7d470e5d59985355fb8ad2e07098efe8',1,'rdlib']]],
-  ['spiclosefailure_21',['SPICloseFailure',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a6169a81d0ae5688c76efad17712818f9',1,'rdlib']]],
-  ['spiopenfailure_22',['SPIOpenFailure',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5ae2f52411247decd2656308eab208c8f8',1,'rdlib']]],
-  ['success_23',['Success',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69',1,'rdlib']]]
+  ['partialidleoff_0',['PartialIdleOff',['../classGC9A01__TFT.html#ab3017abedb1eea51817f16be1cc6750ca887e867ae6e34934de80568a068cef27',1,'GC9A01_TFT']]],
+  ['partialidleon_1',['PartialIdleOn',['../classGC9A01__TFT.html#ab3017abedb1eea51817f16be1cc6750cac5baf9ea0e14749351e8dd124708e2e0',1,'GC9A01_TFT']]]
 ];

@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.3.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.4.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -132,30 +132,6 @@ Public Member Functions</h2></td></tr>
 <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LCDPowerDown</b> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
 <tr class="memdesc:ad4c52973487ea627ceef43e8042f7f47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call when powering down LCD. <br /></td></tr>
 <tr class="separator:ad4c52973487ea627ceef43e8042f7f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a305b5067e9a077cca0d1510ba4b81786" id="r_a305b5067e9a077cca0d1510ba4b81786"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">virtual</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNOKIA__5110__RPI.html#a305b5067e9a077cca0d1510ba4b81786">drawPixel</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>) <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">override</a></td></tr>
-<tr class="memdesc:a305b5067e9a077cca0d1510ba4b81786"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a single pixel in the buffer.  <br /></td></tr>
-<tr class="separator:a305b5067e9a077cca0d1510ba4b81786"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6249de8bf760e1bf317b1c1707b7b00" id="r_aa6249de8bf760e1bf317b1c1707b7b00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNOKIA__5110__RPI.html#aa6249de8bf760e1bf317b1c1707b7b00">LCDSetContrast</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">con</a>)</td></tr>
-<tr class="memdesc:aa6249de8bf760e1bf317b1c1707b7b00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to set contrast passed a byte.  <br /></td></tr>
-<tr class="separator:aa6249de8bf760e1bf317b1c1707b7b00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1be835f170079cb3214c4e951393948e" id="r_a1be835f170079cb3214c4e951393948e"><td class="memItemLeft" align="right" valign="top"><a id="a1be835f170079cb3214c4e951393948e" name="a1be835f170079cb3214c4e951393948e"></a>
-<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LCDdisplayUpdate</b> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
-<tr class="memdesc:a1be835f170079cb3214c4e951393948e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the buffer to the LCD. <br /></td></tr>
-<tr class="separator:a1be835f170079cb3214c4e951393948e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb77552adaecd2cef5828bd73ceae79c" id="r_abb77552adaecd2cef5828bd73ceae79c"><td class="memItemLeft" align="right" valign="top"><a id="abb77552adaecd2cef5828bd73ceae79c" name="abb77552adaecd2cef5828bd73ceae79c"></a>
-<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LCDdisplayClear</b> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
-<tr class="memdesc:abb77552adaecd2cef5828bd73ceae79c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the buffer (full of zeros) to the LCD. <br /></td></tr>
-<tr class="separator:abb77552adaecd2cef5828bd73ceae79c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0127617fd0ea0904679988eb5758f72" id="r_ab0127617fd0ea0904679988eb5758f72"><td class="memItemLeft" align="right" valign="top"><a id="ab0127617fd0ea0904679988eb5758f72" name="ab0127617fd0ea0904679988eb5758f72"></a>
-<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LCDfillScreen</b> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
-<tr class="memdesc:ab0127617fd0ea0904679988eb5758f72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the buffer (full of ones(0xFF)) to the LCD. <br /></td></tr>
-<tr class="separator:ab0127617fd0ea0904679988eb5758f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a688b2ce7e1c180d98e70551bc82a750a" id="r_a688b2ce7e1c180d98e70551bc82a750a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNOKIA__5110__RPI.html#a688b2ce7e1c180d98e70551bc82a750a">LCDfillScreenPattern</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>)</td></tr>
-<tr class="memdesc:a688b2ce7e1c180d98e70551bc82a750a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the buffer (with pattern) to the LCD.  <br /></td></tr>
-<tr class="separator:a688b2ce7e1c180d98e70551bc82a750a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c300bb75f3473185e2e2871aa563b8d" id="r_a0c300bb75f3473185e2e2871aa563b8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNOKIA__5110__RPI.html#a0c300bb75f3473185e2e2871aa563b8d">LCDinvertDisplay</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">inv</a>)</td></tr>
-<tr class="memdesc:a0c300bb75f3473185e2e2871aa563b8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">inverts color on display  <br /></td></tr>
-<tr class="separator:a0c300bb75f3473185e2e2871aa563b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae59268cc99b2c41dbd8c690373edb468" id="r_ae59268cc99b2c41dbd8c690373edb468"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNOKIA__5110__RPI.html#ae59268cc99b2c41dbd8c690373edb468">LCDHighFreqDelayGet</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
 <tr class="memdesc:ae59268cc99b2c41dbd8c690373edb468"><td class="mdescLeft">&#160;</td><td class="mdescRight">Freq delay used in SW SPI getter, uS delay used in SW SPI method.  <br /></td></tr>
 <tr class="separator:ae59268cc99b2c41dbd8c690373edb468"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,6 +141,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5f3d43709a37b533a24da25f81bbb099" id="r_a5f3d43709a37b533a24da25f81bbb099"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNOKIA__5110__RPI.html#a5f3d43709a37b533a24da25f81bbb099">isHardwareSPI</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
 <tr class="memdesc:a5f3d43709a37b533a24da25f81bbb099"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks which SPI mode is on.  <br /></td></tr>
 <tr class="separator:a5f3d43709a37b533a24da25f81bbb099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a003119f7b8306f1d2791222255175b00" id="r_a003119f7b8306f1d2791222255175b00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNOKIA__5110__RPI.html#a003119f7b8306f1d2791222255175b00">LCDSetBufferPtr</a> (std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">buffer</a>)</td></tr>
+<tr class="memdesc:a003119f7b8306f1d2791222255175b00"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the buffer pointer to the users screen data buffer  <br /></td></tr>
+<tr class="separator:a003119f7b8306f1d2791222255175b00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74616963c069c17e44c0dc14c3f07091" id="r_a74616963c069c17e44c0dc14c3f07091"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNOKIA__5110__RPI.html#a74616963c069c17e44c0dc14c3f07091">LCDupdate</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>)</td></tr>
+<tr class="memdesc:a74616963c069c17e44c0dc14c3f07091"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the LCD i.e. writes the shared buffer to the active screen pointed to by Active Buffer  <br /></td></tr>
+<tr class="separator:a74616963c069c17e44c0dc14c3f07091"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32acda3d82b404f745d08c4665c42948" id="r_a32acda3d82b404f745d08c4665c42948"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNOKIA__5110__RPI.html#a32acda3d82b404f745d08c4665c42948">LCDclearBuffer</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">pattern</a>=0x00)</td></tr>
+<tr class="memdesc:a32acda3d82b404f745d08c4665c42948"><td class="mdescLeft">&#160;</td><td class="mdescRight">clears the buffer of the active screen pointed to by Active Buffer  <br /></td></tr>
+<tr class="separator:a32acda3d82b404f745d08c4665c42948"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7316c28441c0df13ca7f33d282a11e1c" id="r_a7316c28441c0df13ca7f33d282a11e1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNOKIA__5110__RPI.html#a7316c28441c0df13ca7f33d282a11e1c">LCDfillScreen</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">pattern</a>=0x00)</td></tr>
+<tr class="memdesc:a7316c28441c0df13ca7f33d282a11e1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the buffer (with pattern) to the LCD.  <br /></td></tr>
+<tr class="separator:a7316c28441c0df13ca7f33d282a11e1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a305b5067e9a077cca0d1510ba4b81786" id="r_a305b5067e9a077cca0d1510ba4b81786"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">virtual</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNOKIA__5110__RPI.html#a305b5067e9a077cca0d1510ba4b81786">drawPixel</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>) <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">override</a></td></tr>
+<tr class="memdesc:a305b5067e9a077cca0d1510ba4b81786"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a single pixel in the buffer.  <br /></td></tr>
+<tr class="separator:a305b5067e9a077cca0d1510ba4b81786"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6249de8bf760e1bf317b1c1707b7b00" id="r_aa6249de8bf760e1bf317b1c1707b7b00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNOKIA__5110__RPI.html#aa6249de8bf760e1bf317b1c1707b7b00">LCDSetContrast</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">con</a>)</td></tr>
+<tr class="memdesc:aa6249de8bf760e1bf317b1c1707b7b00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to set contrast passed a byte.  <br /></td></tr>
+<tr class="separator:aa6249de8bf760e1bf317b1c1707b7b00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c300bb75f3473185e2e2871aa563b8d" id="r_a0c300bb75f3473185e2e2871aa563b8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNOKIA__5110__RPI.html#a0c300bb75f3473185e2e2871aa563b8d">LCDinvertDisplay</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">inv</a>)</td></tr>
+<tr class="memdesc:a0c300bb75f3473185e2e2871aa563b8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">inverts color on display  <br /></td></tr>
+<tr class="separator:a0c300bb75f3473185e2e2871aa563b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classbicolor__graphics"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classbicolor__graphics')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classbicolor__graphics.html">bicolor_graphics</a></td></tr>
 <tr class="memitem:a9fb0bc74b698471d3e42baceffef3b3a inherit pub_methods_classbicolor__graphics" id="r_a9fb0bc74b698471d3e42baceffef3b3a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a9fb0bc74b698471d3e42baceffef3b3a">bicolor_graphics</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>)</td></tr>
 <tr class="memdesc:a9fb0bc74b698471d3e42baceffef3b3a inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">init the Display Graphics class object  <br /></td></tr>
@@ -206,7 +203,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a67166d063763ff0fe29302cdd0a09a1e inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws a triangle of coordinates (x0,y0), (x1,y1) and (x2,y2).  <br /></td></tr>
 <tr class="separator:a67166d063763ff0fe29302cdd0a09a1e inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef266e20ab7f9906bd65c9a81c1d2533 inherit pub_methods_classbicolor__graphics" id="r_aef266e20ab7f9906bd65c9a81c1d2533"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#aef266e20ab7f9906bd65c9a81c1d2533">fillTriangle</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> x1, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> y1, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> x2, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> y2, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
-<tr class="memdesc:aef266e20ab7f9906bd65c9a81c1d2533 inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills a triangle of coordinates (x0,y0), (x1,y1) and (x2,y2).  <br /></td></tr>
+<tr class="memdesc:aef266e20ab7f9906bd65c9a81c1d2533 inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills a triangle defined by the coordinates (x0, y0), (x1, y1), and (x2, y2).  <br /></td></tr>
 <tr class="separator:aef266e20ab7f9906bd65c9a81c1d2533 inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a220291bdeb535515c174a906a36b502d inherit pub_methods_classbicolor__graphics" id="r_a220291bdeb535515c174a906a36b502d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a220291bdeb535515c174a906a36b502d">drawRoundRect</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">w</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">h</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">radius</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
 <tr class="memdesc:a220291bdeb535515c174a906a36b502d inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws a rectangle with rounded edges  <br /></td></tr>
@@ -217,9 +214,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a978ba9681b0f56d9ea6f7e857e6f0ccb inherit pub_methods_classbicolor__graphics" id="r_a978ba9681b0f56d9ea6f7e857e6f0ccb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a978ba9681b0f56d9ea6f7e857e6f0ccb">drawQuadrilateral</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> x1, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> y1, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> x2, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> y2, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x3</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y3</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
 <tr class="memdesc:a978ba9681b0f56d9ea6f7e857e6f0ccb inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a quadrilateral (four-sided polygon) by connecting four points with lines. This function draws a quadrilateral by drawing four lines between the given vertices. The lines are drawn in the order: (x0, y0) to (x1, y1), (x1, y1) to (x2, y2), (x2, y2) to (x3, y3), and finally (x3, y3) back to (x0, y0).  <br /></td></tr>
 <tr class="separator:a978ba9681b0f56d9ea6f7e857e6f0ccb inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c3edb2e0e7efc76296e186c9b631801 inherit pub_methods_classbicolor__graphics" id="r_a0c3edb2e0e7efc76296e186c9b631801"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a0c3edb2e0e7efc76296e186c9b631801">fillQuadrilateral</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> x1, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> y1, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> x2, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> y2, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x3</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y3</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">useTriangleSplit</a>=<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">true</a>)</td></tr>
-<tr class="memdesc:a0c3edb2e0e7efc76296e186c9b631801 inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills a quadrilateral with the specified color using triangles. This function fills a quadrilateral by dividing it into triangles and filling them individually. The quadrilateral is filled by calling the <code>fillTriangle</code> function three times with appropriate vertex coordinates. The <code>useTriangleSplit</code> parameter determines whether the quadrilateral is divided into two triangles or if only one triangle is used.  <br /></td></tr>
-<tr class="separator:a0c3edb2e0e7efc76296e186c9b631801 inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f308de83d3a7ec7c8d7e9a1a63c40d3 inherit pub_methods_classbicolor__graphics" id="r_a2f308de83d3a7ec7c8d7e9a1a63c40d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a2f308de83d3a7ec7c8d7e9a1a63c40d3">fillQuadrilateral</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y0</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> x1, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> y1, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> x2, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> y2, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x3</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y3</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
+<tr class="memdesc:a2f308de83d3a7ec7c8d7e9a1a63c40d3 inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills a quadrilateral with the specified color using triangles. This function fills a quadrilateral by dividing it into triangles and filling them individually. The quadrilateral is filled by calling the <code>fillTriangle</code> function three times with appropriate vertex coordinates. The <code>useTriangleSplit</code> parameter determines whether the quadrilateral is divided into two triangles or if only one triangle is used.  <br /></td></tr>
+<tr class="separator:a2f308de83d3a7ec7c8d7e9a1a63c40d3 inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a9a3be1000b270de83697acfe99747b inherit pub_methods_classbicolor__graphics" id="r_a2a9a3be1000b270de83697acfe99747b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbicolor__graphics.html#a2a9a3be1000b270de83697acfe99747b">drawPolygon</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">x</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">y</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">sides</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">int16_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">diameter</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">float</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">rotation</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">bool</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">fill</a>, <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">color</a>)</td></tr>
 <tr class="memdesc:a2a9a3be1000b270de83697acfe99747b inherit pub_methods_classbicolor__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a polygon with a specified number of sides, diameter, rotation, and color. This function draws a regular polygon by connecting points equally spaced around a circle, with each point having a distance defined by the diameter. The polygon is rotated by the given angle (in degrees) before being drawn. The number of sides is enforced to be at least 3.  <br /></td></tr>
 <tr class="separator:a2a9a3be1000b270de83697acfe99747b inherit pub_methods_classbicolor__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -379,6 +376,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a05f8f1d69cdaad072fba31092aba0256" id="r_a05f8f1d69cdaad072fba31092aba0256"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNOKIA__5110__RPI.html#a05f8f1d69cdaad072fba31092aba0256">LCDBuffer</a> (std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt; data)</td></tr>
+<tr class="memdesc:a05f8f1d69cdaad072fba31092aba0256"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw an array to the screen.  <br /></td></tr>
+<tr class="separator:a05f8f1d69cdaad072fba31092aba0256"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8453f39023ab09f94423b01a75d30506" id="r_a8453f39023ab09f94423b01a75d30506"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNOKIA__5110__RPI.html#a8453f39023ab09f94423b01a75d30506">LCDWriteData</a> (<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> data)</td></tr>
 <tr class="memdesc:a8453f39023ab09f94423b01a75d30506"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a byte to the PCD8544.  <br /></td></tr>
 <tr class="separator:a8453f39023ab09f94423b01a75d30506"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -434,8 +434,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aa0eac3b16a7a3961527c8f59eab28d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93d218b75daa52f1113cd119c7ab02b8" id="r_a93d218b75daa52f1113cd119c7ab02b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNOKIA__5110__RPI.html#a93d218b75daa52f1113cd119c7ab02b8">_LCD_Display_size</a> = <a class="el" href="classNOKIA__5110__RPI.html#aa0eac3b16a7a3961527c8f59eab28d38">_LCD_WIDTH</a> * (<a class="el" href="classNOKIA__5110__RPI.html#a911d58fcd8fc40a01dd9fae6bf5eebcc">_LCD_HEIGHT</a>/8)</td></tr>
 <tr class="separator:a93d218b75daa52f1113cd119c7ab02b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39567390899d58e1a3a8c1d6e29c707c" id="r_a39567390899d58e1a3a8c1d6e29c707c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNOKIA__5110__RPI.html#a39567390899d58e1a3a8c1d6e29c707c">LCDDisplayBuffer</a> [504]</td></tr>
-<tr class="separator:a39567390899d58e1a3a8c1d6e29c707c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00456f408b6b59f140918a9898b729ee" id="r_a00456f408b6b59f140918a9898b729ee"><td class="memItemLeft" align="right" valign="top">std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNOKIA__5110__RPI.html#a00456f408b6b59f140918a9898b729ee">_LCDbuffer</a></td></tr>
+<tr class="separator:a00456f408b6b59f140918a9898b729ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -878,17 +878,84 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a688b2ce7e1c180d98e70551bc82a750a" name="a688b2ce7e1c180d98e70551bc82a750a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a688b2ce7e1c180d98e70551bc82a750a">&#9670;&#160;</a></span>LCDfillScreenPattern()</h2>
+<a id="a05f8f1d69cdaad072fba31092aba0256" name="a05f8f1d69cdaad072fba31092aba0256"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05f8f1d69cdaad072fba31092aba0256">&#9670;&#160;</a></span>LCDBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a> NOKIA_5110_RPI::LCDBuffer </td>
+          <td>(</td>
+          <td class="paramtype">std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt;&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Draw an array to the screen. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>span to the buffer array </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Called by LCDupdate internally to write buffer to screen </dd></dl>
+
+</div>
+</div>
+<a id="a32acda3d82b404f745d08c4665c42948" name="a32acda3d82b404f745d08c4665c42948"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32acda3d82b404f745d08c4665c42948">&#9670;&#160;</a></span>LCDclearBuffer()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a> NOKIA_5110_RPI::LCDfillScreenPattern </td>
+          <td class="memname"><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> NOKIA_5110_RPI::LCDclearBuffer </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
-          <td class="paramname"><em>Pattern</em></td><td>)</td>
+          <td class="paramname"><em>pattern</em> = <code>0x00</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>clears the buffer of the active screen pointed to by Active Buffer </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pattern</td><td>to fill buffer, by default Zero </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><ol type="1">
+<li>Success</li>
+<li>BufferEmpty if buffer is empty object </li>
+</ol>
+</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Does NOT write to the screen </dd></dl>
+
+</div>
+</div>
+<a id="a7316c28441c0df13ca7f33d282a11e1c" name="a7316c28441c0df13ca7f33d282a11e1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7316c28441c0df13ca7f33d282a11e1c">&#9670;&#160;</a></span>LCDfillScreen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a> NOKIA_5110_RPI::LCDfillScreen </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>Pattern</em> = <code>0x00</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -897,10 +964,11 @@ Additional Inherited Members</h2></td></tr>
 <p>Writes the buffer (with pattern) to the LCD. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Pattern</td><td>The pattern to send 0x00 to 0xFF </td></tr>
+    <tr><td class="paramname">Pattern</td><td>The pattern to send 0x00 to 0xFF, by default 0x00 </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section note"><dt>Note</dt><dd>writes directly to screen, not buffer.s </dd></dl>
 
 </div>
 </div>
@@ -998,6 +1066,38 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a003119f7b8306f1d2791222255175b00" name="a003119f7b8306f1d2791222255175b00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a003119f7b8306f1d2791222255175b00">&#9670;&#160;</a></span>LCDSetBufferPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> NOKIA_5110_RPI::LCDSetBufferPtr </td>
+          <td>(</td>
+          <td class="paramtype">std::span&lt; <a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> &gt;&#160;</td>
+          <td class="paramname"><em>buffer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>sets the buffer pointer to the users screen data buffer </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buffer</td><td>span object for the buffer data. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Will return:<ol type="1">
+<li>0. Success</li>
+<li>2. Buffer size calculations are incorrect BufferSize = w * (h/8),</li>
+<li>3. Not a valid pointer object, buffer empty. </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
 <a id="aa6249de8bf760e1bf317b1c1707b7b00" name="aa6249de8bf760e1bf317b1c1707b7b00"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa6249de8bf760e1bf317b1c1707b7b00">&#9670;&#160;</a></span>LCDSetContrast()</h2>
 
@@ -1046,6 +1146,31 @@ Additional Inherited Members</h2></td></tr>
 <li><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a0e40ec38e9d754b8ce795b4007f93fef">rdlib::GpioPinFree</a></li>
 <li><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a6169a81d0ae5688c76efad17712818f9">rdlib::SPICloseFailure</a></li>
 <li><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a91050c855c6aedfc87e0adb551161bde">rdlib::GpioChipDevice</a> </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<a id="a74616963c069c17e44c0dc14c3f07091" name="a74616963c069c17e44c0dc14c3f07091"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74616963c069c17e44c0dc14c3f07091">&#9670;&#160;</a></span>LCDupdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5">rdlib::Return_Codes_e</a> NOKIA_5110_RPI::LCDupdate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>updates the LCD i.e. writes the shared buffer to the active screen pointed to by Active Buffer </p>
+<dl class="section return"><dt>Returns</dt><dd><ol type="1">
+<li>Success</li>
+<li>BufferEmpty if buffer is empty object </li>
 </ol>
 </dd></dl>
 
@@ -1417,6 +1542,29 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>width of LCD in pixels </p>
+
+</div>
+</div>
+<a id="a00456f408b6b59f140918a9898b729ee" name="a00456f408b6b59f140918a9898b729ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00456f408b6b59f140918a9898b729ee">&#9670;&#160;</a></span>_LCDbuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::span&lt;<a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a>&gt; NOKIA_5110_RPI::_LCDbuffer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Buffer to hold screen data </p>
 
 </div>
 </div>
@@ -1923,29 +2071,6 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Y axis address setting </p>
-
-</div>
-</div>
-<a id="a39567390899d58e1a3a8c1d6e29c707c" name="a39567390899d58e1a3a8c1d6e29c707c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39567390899d58e1a3a8c1d6e29c707c">&#9670;&#160;</a></span>LCDDisplayBuffer</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classPrint.html#aa4546c995106573c1de021834951a6ab">uint8_t</a> NOKIA_5110_RPI::LCDDisplayBuffer[504]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>buffer which holds screen data </p>
 
 </div>
 </div>

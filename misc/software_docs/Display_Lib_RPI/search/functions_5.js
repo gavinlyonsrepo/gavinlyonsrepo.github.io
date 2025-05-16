@@ -1,7 +1,7 @@
 var searchData=
 [
   ['fillcircle_0',['fillcircle',['../classbicolor__graphics.html#aaf48d5808241e148c06fc120c4ed7d9e',1,'bicolor_graphics::fillCircle()'],['../classcolor16__graphics.html#a5efe030fdc2b598884dc2b5eb75c91b1',1,'color16_graphics::fillCircle()']]],
-  ['fillquadrilateral_1',['fillquadrilateral',['../classbicolor__graphics.html#a0c3edb2e0e7efc76296e186c9b631801',1,'bicolor_graphics::fillQuadrilateral()'],['../classcolor16__graphics.html#a42fd895bfaad450cf9c77581873f9ffc',1,'color16_graphics::fillQuadrilateral()']]],
+  ['fillquadrilateral_1',['fillquadrilateral',['../classbicolor__graphics.html#a2f308de83d3a7ec7c8d7e9a1a63c40d3',1,'bicolor_graphics::fillQuadrilateral()'],['../classcolor16__graphics.html#ab606987d1897f7683a0d75d2830cb556',1,'color16_graphics::fillQuadrilateral()']]],
   ['fillrect_2',['fillrect',['../classbicolor__graphics.html#addb9725c60f5a94b34f6bb3f73d8dacc',1,'bicolor_graphics::fillRect()'],['../classcolor16__graphics.html#a1d7bbf1eeffde70d6f41aab36e7ec3e8',1,'color16_graphics::fillRect(uint16_t x, uint16_t y, uint16_t w, uint16_t h, uint16_t color)']]],
   ['fillrectangle_3',['fillRectangle',['../classcolor16__graphics.html#a1c972a814fb3654608ee7e7ce56abf2f',1,'color16_graphics']]],
   ['fillroundrect_4',['fillroundrect',['../classbicolor__graphics.html#ac66aad6e8afbf50d6a93e735d0514587',1,'bicolor_graphics::fillRoundRect()'],['../classcolor16__graphics.html#ac2ff3fcbd0a2814fe532bd3a2bd72f0c',1,'color16_graphics::fillRoundRect()']]],

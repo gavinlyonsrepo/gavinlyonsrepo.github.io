@@ -1,8 +1,4 @@
 var searchData=
 [
-  ['test_20list_0',['Test List',['../test.html',1,'']]],
-  ['tft_20readme_1',['tft readme',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ili9341_2README.html',1,'ILI9341 LCD TFT Readme'],['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2st7735_2README.html',1,'ST7735 TFT Readme'],['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2st7789_2README.html',1,'ST7789 TFT Readme']]],
-  ['tm1637_20readme_2',['TM1637 Readme',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2tm1637_2README.html',1,'']]],
-  ['tm1638_20readme_3',['TM1638 Readme',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2tm1638_2README.html',1,'']]],
-  ['todo_20list_4',['Todo List',['../todo.html',1,'']]]
+  ['nokia_205110_20readme_0',['NOKIA 5110 Readme',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2nokia5110_2README.html',1,'']]]
 ];

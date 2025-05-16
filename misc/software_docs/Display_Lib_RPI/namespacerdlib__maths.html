@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.3.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.4.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -91,6 +91,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ab30d0c398ad37d660ab86c4c293b4538" id="r_ab30d0c398ad37d660ab86c4c293b4538"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacerdlib__maths.html#ab30d0c398ad37d660ab86c4c293b4538">cosineFromDegrees</a> (float angle)</td></tr>
 <tr class="memdesc:ab30d0c398ad37d660ab86c4c293b4538"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the cosine of an angle given in degrees. This function converts the input angle from degrees to radians and then calculates the cosine of that angle using the standard C++ <code>cos</code> function.  <br /></td></tr>
 <tr class="separator:ab30d0c398ad37d660ab86c4c293b4538"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a478281b217ec0f3269a4acd0ffba0418" id="r_a478281b217ec0f3269a4acd0ffba0418"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacerdlib__maths.html#a478281b217ec0f3269a4acd0ffba0418">generateColor</a> (uint8_t value)</td></tr>
+<tr class="memdesc:a478281b217ec0f3269a4acd0ffba0418"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is designed to return a color in the 16-bit RGB format based on the input value, creating a smooth transition between colors in different stages.  <br /></td></tr>
+<tr class="separator:a478281b217ec0f3269a4acd0ffba0418"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Name space for maths related utilities. </p>
@@ -119,6 +122,34 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The cosine value of the given angle. </dd></dl>
+
+</div>
+</div>
+<a id="a478281b217ec0f3269a4acd0ffba0418" name="a478281b217ec0f3269a4acd0ffba0418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a478281b217ec0f3269a4acd0ffba0418">&#9670;&#160;</a></span>generateColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t rdlib_maths::generateColor </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function is designed to return a color in the 16-bit RGB format based on the input value, creating a smooth transition between colors in different stages. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>input value 1-127 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>16 bit color</dd></dl>
+<p>The gradient is calculated by cycling through different color transitions as val increases, allowing for smooth visual effects such as changing hues or creating rainbow-like effects on an LCD. 1-127 will This will create a gradient color between blue and red based on the value. </p>
 
 </div>
 </div>

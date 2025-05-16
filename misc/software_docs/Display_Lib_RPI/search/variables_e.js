@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['x1_0',['x1',['../structXPT__2046__RDL_1_1Touch__Point__t.html#a5816aa2738c7087b42e5d10ea023f2d2',1,'XPT_2046_RDL::Touch_Point_t']]],
-  ['x2_1',['x2',['../structXPT__2046__RDL_1_1Touch__Point__t.html#a7d458a0a28b100082ae49d93dbb65389',1,'XPT_2046_RDL::Touch_Point_t']]],
-  ['xpt_5f8bit_2',['XPT_8BIT',['../classXPT__2046__RDL.html#aa12b8eef798b8b77d263b8cceaed81a5',1,'XPT_2046_RDL']]],
-  ['xpt_5fdef_3',['XPT_DEF',['../classXPT__2046__RDL.html#a168100da2574764576b3a1a76ea657a1',1,'XPT_2046_RDL']]],
-  ['xpt_5fser_4',['XPT_SER',['../classXPT__2046__RDL.html#ab65189c4b683b3fcad247798566e5fa4',1,'XPT_2046_RDL']]],
-  ['xpt_5fstart_5',['XPT_START',['../classXPT__2046__RDL.html#a5e35eef079bdd56d5b900cb3b6d8c33c',1,'XPT_2046_RDL']]],
-  ['xpt_5fxpos_6',['XPT_XPOS',['../classXPT__2046__RDL.html#a1acf32392f282b92af23ce449ee8ff81',1,'XPT_2046_RDL']]],
-  ['xpt_5fypos_7',['XPT_YPOS',['../classXPT__2046__RDL.html#a5bbbceb036ddf6a5f7e4b75502dbf61b',1,'XPT_2046_RDL']]]
+  ['tft_5fmode_0',['TFT_mode',['../classST7735__TFT.html#a7eba20a4789552711f94a9d115220dc6',1,'ST7735_TFT']]],
+  ['tft_5fpcbtype_1',['TFT_PCBtype',['../classST7735__TFT.html#a6538a279d97d94be9422d8e2fa14e122',1,'ST7735_TFT']]],
+  ['tm1637_5fcommand_5f1_2',['TM1637_COMMAND_1',['../classTM1637plus__Model4.html#a292fccfd13f2312ac440cb925ac55e77',1,'TM1637plus_Model4']]],
+  ['tm1637_5fcommand_5f2_3',['TM1637_COMMAND_2',['../classTM1637plus__Model4.html#a9b356d281e6ed0133928785f5998e634',1,'TM1637plus_Model4']]],
+  ['tm1637_5fcommand_5f3_4',['TM1637_COMMAND_3',['../classTM1637plus__Model4.html#a239587eed7a3a4d7de56d99bb53ad86b',1,'TM1637plus_Model4']]],
+  ['tpc_5',['tpc',['../classXPT__2046__RDL.html#af71c38d94b047fce68a32916e94a9732',1,'XPT_2046_RDL']]],
+  ['tps_6',['tps',['../classXPT__2046__RDL.html#a8348903e207f90c50b86b68326cb0fb4',1,'XPT_2046_RDL']]],
+  ['tpx_7',['tpx',['../classXPT__2046__RDL.html#ab2db86f5c732f2b9460d8e39cf7ed93b',1,'XPT_2046_RDL']]]
 ];

@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['sh110x_5frdl_0',['SH110X_RDL',['../classSH110X__RDL.html',1,'']]],
-  ['ssd1306_5frdl_1',['SSD1306_RDL',['../classSSD1306__RDL.html',1,'']]],
-  ['ssd1331_5foled_2',['SSD1331_OLED',['../classSSD1331__OLED.html',1,'']]],
-  ['st7735_5ftft_3',['ST7735_TFT',['../classST7735__TFT.html',1,'']]],
-  ['st7789_5ftft_4',['ST7789_TFT',['../classST7789__TFT.html',1,'']]]
+  ['ninesegmentfont_0',['NineSegmentFont',['../classNineSegmentFont.html',1,'']]],
+  ['nokia_5f5110_5frpi_1',['NOKIA_5110_RPI',['../classNOKIA__5110__RPI.html',1,'']]]
 ];

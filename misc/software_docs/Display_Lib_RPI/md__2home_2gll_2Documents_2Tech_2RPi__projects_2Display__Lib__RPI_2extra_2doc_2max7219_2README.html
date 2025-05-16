@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.3.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.4.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -75,7 +75,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="max7219-7-segment-readme"></a> <a href="https://github.com/gavinlyonsrepo/MAX7219_7SEG_RPI/blob/main/extra/image/max.jpg"><img src="https://github.com/gavinlyonsrepo/MAX7219_7SEG_RPI/blob/main/extra/image/max.jpg" alt=" max image " class="inline"/></a></p>
-<h1><a class="anchor" id="table-of-contents-5"></a>
+<h1><a class="anchor" id="table-of-contents-6"></a>
 Table of contents</h1>
 <ul>
 <li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#overview">Overview</a></li>
@@ -86,16 +86,16 @@ Table of contents</h1>
 </ul>
 </li>
 </ul>
-<h1><a class="anchor" id="overview-5"></a>
+<h1><a class="anchor" id="overview-6"></a>
 Overview</h1>
 <ul>
 <li>Name: MAX7219</li>
 <li>Author: Gavin Lyons.</li>
 <li>Description: A Raspberry pi library to display data on a 8-digit MAX7219 seven segment module. Dynamic install-able system level Raspberry Pi C++ library. Hardware or software SPI, Shutdown mode, test mode and Brightness control supported.</li>
 </ul>
-<h1><a class="anchor" id="software-5"></a>
+<h1><a class="anchor" id="software-6"></a>
 Software</h1>
-<h2><a class="anchor" id="file-system-1"></a>
+<h2><a class="anchor" id="file-system-2"></a>
 File system</h2>
 <p>Example files list:</p>
 <table class="markdownTable">
@@ -112,9 +112,9 @@ File system</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">src/cascade_demo/main.cpp   </td><td class="markdownTableBodyNone">simple Demo showing use of cascaded displays   </td><td class="markdownTableBodyNone">hardware   </td></tr>
 </table>
-<h1><a class="anchor" id="hardware-5"></a>
+<h1><a class="anchor" id="hardware-6"></a>
 Hardware</h1>
-<h2><a class="anchor" id="software-spi"></a>
+<h2><a class="anchor" id="software-spi-1"></a>
 Software SPI</h2>
 <p>For Software SPI Pick any GPIO you want. To get the number for GPIO_CHIP_DEVICE parameter you can check ls /dev/gpiochip* At time of testing it was found that Raspberry pi 5 = 4 and raspberry pi 3 = zero But now it look like both are zero after software update, although 4 should still work for RPi5 if a symlink is in /dev/ folder. In software SPI user may need to increase or decrease CommDelay variable (uS Communication delay) depending on speed of CPU on system.</p>
 <h2><a class="anchor" id="hardware-spi"></a>
