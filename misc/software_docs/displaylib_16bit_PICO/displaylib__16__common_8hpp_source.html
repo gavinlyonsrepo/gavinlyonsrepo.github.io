@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.2.0</span>
+   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.3.0</span>
    </div>
    <div id="projectbrief">Driver for 16-bit colour graphics displays,  Rpi PICO  library.</div>
   </td>
@@ -133,14 +133,14 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment">// GPIO Abstractions , for portability purposes</span></div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">#define DISPLAY_DC_INIT gpio_init(_display_DC)</span></div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#define DISPLAY_RST_INIT gpio_init(_display_RST)</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="preprocessor">#define DISPLAY_CS_INIT gpio_init(_display_CS)</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="preprocessor">#define DISPLAY_CS_INIT if(_display_CS &gt; -1) { gpio_init(_display_CS); }</span></div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">#define DISPLAY_SCLK_INIT gpio_init(_display_SCLK)</span></div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#define DISPLAY_SDATA_INIT gpio_init(_display_SDATA)</span></div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="preprocessor">#define DISPLAY_MISO_INIT gpio_init(_display_MISO)</span></div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="preprocessor">#define DISPLAY_DC_DEINIT gpio_deinit(_display_DC)</span></div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#define DISPLAY_RST_DEINIT gpio_deinit(_display_RST)</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="preprocessor">#define DISPLAY_CS_DEINIT gpio_deinit(_display_CS)</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="preprocessor">#define DISPLAY_CS_DEINIT if(_display_CS &gt; -1) { gpio_deinit(_display_CS); }</span></div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">#define DISPLAY_SCLK_DEINIT gpio_deinit(_display_SCLK)</span></div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">#define DISPLAY_SDATA_DEINIT gpio_deinit(_display_SDATA)</span></div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="preprocessor">#define DISPLAY_MISO_DEINIT gpio_deinit(_display_MISO)</span></div>
@@ -149,8 +149,8 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="preprocessor">#define DISPLAY_DC_SetLow gpio_put(_display_DC, false)</span></div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="preprocessor">#define DISPLAY_RST_SetHigh gpio_put(_display_RST, true)</span></div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="preprocessor">#define DISPLAY_RST_SetLow gpio_put(_display_RST, false)</span></div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="preprocessor">#define DISPLAY_CS_SetHigh gpio_put(_display_CS, true)</span></div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="preprocessor">#define DISPLAY_CS_SetLow gpio_put(_display_CS, false)</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="preprocessor">#define DISPLAY_CS_SetHigh if(_display_CS &gt; -1) { gpio_put(_display_CS, true); }</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="preprocessor">#define DISPLAY_CS_SetLow if(_display_CS &gt; -1) { gpio_put(_display_CS, false); }</span></div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="preprocessor">#define DISPLAY_SCLK_SetHigh gpio_put(_display_SCLK, true)</span></div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="preprocessor">#define DISPLAY_SCLK_SetLow gpio_put(_display_SCLK, false)</span></div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="preprocessor">#define DISPLAY_SDATA_SetHigh gpio_put(_display_SDATA, true)</span></div>
@@ -158,7 +158,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="preprocessor">#define DISPLAY_DC_SetDigitalOutput gpio_set_dir(_display_DC, GPIO_OUT)</span></div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="preprocessor">#define DISPLAY_RST_SetDigitalOutput gpio_set_dir(_display_RST, GPIO_OUT)</span></div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="preprocessor">#define DISPLAY_CS_SetDigitalOutput gpio_set_dir(_display_CS, GPIO_OUT)</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="preprocessor">#define DISPLAY_CS_SetDigitalOutput if(_display_CS &gt; -1) { gpio_set_dir(_display_CS, GPIO_OUT); }</span></div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="preprocessor">#define DISPLAY_SCLK_SetDigitalOutput gpio_set_dir(_display_SCLK, GPIO_OUT)</span></div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="preprocessor">#define DISPLAY_SDATA_SetDigitalOutput gpio_set_dir(_display_SDATA, GPIO_OUT)</span></div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>

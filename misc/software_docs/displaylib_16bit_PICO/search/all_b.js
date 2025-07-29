@@ -56,13 +56,14 @@ var searchData=
   ['gc9a01_5ftft_53',['gc9a01_tft',['../classGC9A01__TFT.html#ad5da853ef7fc648cadaec45331c033df',1,'GC9A01_TFT::GC9A01_TFT()'],['../classGC9A01__TFT.html',1,'GC9A01_TFT']]],
   ['gc9a01_5fvscrdef_54',['GC9A01_VSCRDEF',['../classGC9A01__TFT.html#a54b159e00dd0776da072fc4f78d8d754',1,'GC9A01_TFT']]],
   ['gc9a01_5fvscrsadd_55',['GC9A01_VSCRSADD',['../classGC9A01__TFT.html#a02e8b236a5af89070dbbf3bd7e39ebf4',1,'GC9A01_TFT']]],
-  ['genericerror_56',['GenericError',['../namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaa8d15d951274283979c3213c1c5da67f0',1,'DisLib16']]],
-  ['getarcanglemax_57',['getArcAngleMax',['../classdisplaylib__16__graphics.html#af30763ef9ea764cc88d291bf8f840ccb',1,'displaylib_16_graphics']]],
-  ['getarcangleoffset_58',['getArcAngleOffset',['../classdisplaylib__16__graphics.html#a483a869dc29d1f4f56c55066876635ad',1,'displaylib_16_graphics']]],
-  ['getinvertfont_59',['getInvertFont',['../classdisplay__Fonts.html#a080ad53acb42493bc9599096c11a2f86',1,'display_Fonts']]],
-  ['gettextcharpixelorbuffer_60',['getTextCharPixelOrBuffer',['../classdisplaylib__16__graphics.html#a1a03abf62428fc884eaf7ec2a113b7eb',1,'displaylib_16_graphics']]],
-  ['getwriteerror_61',['getWriteError',['../classPrint.html#a88a4a829fb5d589efb43955ad0cbddcc',1,'Print']]],
-  ['graphic_20displays_20for_20raspberry_20pi_20pico_62',['Display Library for 16-bit color graphic displays for Raspberry PI PICO',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2README.html#autotoc_md87',1,'']]],
-  ['graphics_63',['Advanced Graphics',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2README.html#autotoc_md95',1,'']]],
-  ['graphics_20mode_64',['graphics mode',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2spi__speed_2April__2025__v2_81_80__Performance.html#autotoc_md34',1,'Graphics Mode'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2spi__speed_2April__2025__v2_81_80__Performance.html#autotoc_md40',1,'Graphics Mode'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2spi__speed_2March__2025__v2_80_80__Performance.html#autotoc_md51',1,'Graphics Mode'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2spi__speed_2March__2025__v2_80_80__Performance.html#autotoc_md57',1,'Graphics Mode']]]
+  ['gc9a01a_20readme_56',['GC9A01A Readme',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2gc9a01_2README.html',1,'']]],
+  ['genericerror_57',['GenericError',['../namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaa8d15d951274283979c3213c1c5da67f0',1,'DisLib16']]],
+  ['getarcanglemax_58',['getArcAngleMax',['../classdisplaylib__16__graphics.html#af30763ef9ea764cc88d291bf8f840ccb',1,'displaylib_16_graphics']]],
+  ['getarcangleoffset_59',['getArcAngleOffset',['../classdisplaylib__16__graphics.html#a483a869dc29d1f4f56c55066876635ad',1,'displaylib_16_graphics']]],
+  ['getinvertfont_60',['getInvertFont',['../classdisplay__Fonts.html#a080ad53acb42493bc9599096c11a2f86',1,'display_Fonts']]],
+  ['gettextcharpixelorbuffer_61',['getTextCharPixelOrBuffer',['../classdisplaylib__16__graphics.html#a1a03abf62428fc884eaf7ec2a113b7eb',1,'displaylib_16_graphics']]],
+  ['getwriteerror_62',['getWriteError',['../classPrint.html#a88a4a829fb5d589efb43955ad0cbddcc',1,'Print']]],
+  ['graphic_20displays_20for_20raspberry_20pi_20pico_63',['Display Library for 16-bit color graphic displays for Raspberry PI PICO',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2README.html#autotoc_md93',1,'']]],
+  ['graphics_64',['Advanced Graphics',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2README.html#autotoc_md101',1,'']]],
+  ['graphics_20mode_65',['graphics mode',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2spi__speed_2April__2025__v2_81_80__Performance.html#autotoc_md35',1,'Graphics Mode'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2spi__speed_2April__2025__v2_81_80__Performance.html#autotoc_md44',1,'Graphics Mode'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2spi__speed_2March__2025__v2_80_80__Performance.html#autotoc_md55',1,'Graphics Mode'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2spi__speed_2March__2025__v2_80_80__Performance.html#autotoc_md61',1,'Graphics Mode']]]
 ];

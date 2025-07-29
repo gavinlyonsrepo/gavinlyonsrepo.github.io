@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.4.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.4.1</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -73,6 +73,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
@@ -129,6 +130,11 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>displayClear</b> (voi
 <tr class="memitem:aec9f2153b3ac9bd2c1a7e04e71c283ec" id="r_aec9f2153b3ac9bd2c1a7e04e71c283ec"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#aec9f2153b3ac9bd2c1a7e04e71c283ec">encodeCharacter</a> (unsigned char digit)</td></tr>
 <tr class="memdesc:aec9f2153b3ac9bd2c1a7e04e71c283ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translate a single Character into 7 segment code.  <br /></td></tr>
 <tr class="separator:aec9f2153b3ac9bd2c1a7e04e71c283ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a3fc0e73ab2ffe81178cd3e93bdde7c3d" id="r_a3fc0e73ab2ffe81178cd3e93bdde7c3d"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTM1637plus__Model4.html#a3fc0e73ab2ffe81178cd3e93bdde7c3d">SEMI_COLON_ON</a> = 0x40</td></tr>
+<tr class="separator:a3fc0e73ab2ffe81178cd3e93bdde7c3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -398,7 +404,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Displays the given argument as a decimal number. The dots between the digits (or colon) can be individually controlled </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">number</td><td>The number to be shown </td></tr>
-    <tr><td class="paramname">dots</td><td>decimal point enable. The argument is a bitmask, with each bit corresponding to a dot between the digits (or colon mark, as implemented by each module). The MSB is the leftmost dot of the digit being update. For example, if pos is 1, the MSB of dots will correspond the dot near digit no. 2 from the left. Dots are updated only on those digits actually being update (that is, no more than len digits) </td></tr>
+    <tr><td class="paramname">dots</td><td>decimal point enable. The argument is a bitmask, with each bit corresponding to a dot between the digits (or colon mark, as implemented by each module). The MSB is the leftmost dot of the digit being update. For example, if pos is 1, the MSB of dots will correspond the dot near digit no. 2 from the left. Dots are updated only on those digits actually being update (that is, no more than len digits) For Model 4A the semi-colon set to 0x40 to turn colon on </td></tr>
     <tr><td class="paramname">leading_zero</td><td>When true, leading zeros are displayed. Otherwise unnecessary digits are blank </td></tr>
     <tr><td class="paramname">length</td><td>The number of digits to set. The user must ensure that the number to be shown fits to the number of digits requested (for example, if two digits are to be displayed, the number must be between 0 to 99) </td></tr>
     <tr><td class="paramname">position</td><td>The position least significant digit (0 - leftmost, 3 - rightmost) </td></tr>
@@ -450,7 +456,7 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">numStr</td><td>The character array to be shown </td></tr>
-    <tr><td class="paramname">dots</td><td>decimal point enable. The argument is a bitmask, with each bit corresponding to a dot between the digits (or colon mark, as implemented by each module). The MSB is the leftmost dot of the digit being update. For example, if pos is 1, the MSB of dots will correspond the dot near digit no. 2 from the left. Dots are updated only on those digits actually being update (that is, no more than len digits) </td></tr>
+    <tr><td class="paramname">dots</td><td>decimal point enable. The argument is a bitmask, with each bit corresponding to a dot between the digits (or colon mark, as implemented by each module). The MSB is the leftmost dot of the digit being update. For example, if pos is 1, the MSB of dots will correspond the dot near digit no. 2 from the left. Dots are updated only on those digits actually being update (that is, no more than len digits) For Model 4A the semi-colon set to 0x40 to turn colon on </td></tr>
     <tr><td class="paramname">length</td><td>The number of digits to set. The user must ensure that the number to be shown fits to the number of digits requested </td></tr>
     <tr><td class="paramname">position</td><td>The position most significant digit (0 - leftmost, 3 - rightmost) </td></tr>
   </table>
@@ -793,6 +799,29 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>This returns a handle to a gpiochip device. </p>
+
+</div>
+</div>
+<a id="a3fc0e73ab2ffe81178cd3e93bdde7c3d" name="a3fc0e73ab2ffe81178cd3e93bdde7c3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fc0e73ab2ffe81178cd3e93bdde7c3d">&#9670;&#160;</a></span>SEMI_COLON_ON</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t TM1637plus_Model4::SEMI_COLON_ON = 0x40</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Switch on SEMI_COLON on model 4A </p>
 
 </div>
 </div>

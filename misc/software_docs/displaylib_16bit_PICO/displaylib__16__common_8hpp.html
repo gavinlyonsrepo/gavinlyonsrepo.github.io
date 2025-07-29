@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.2.0</span>
+   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.3.0</span>
    </div>
    <div id="projectbrief">Driver for 16-bit colour graphics displays,  Rpi PICO  library.</div>
   </td>
@@ -105,7 +105,7 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_RST_INIT</b>&#160;&#160;&#160;gpio_init(_display_RST)</td></tr>
 <tr class="separator:a09bae79d490e4f43f993a219eb054c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a6a3c3180ee5079f4d56dbd39c3a2fe" id="r_a8a6a3c3180ee5079f4d56dbd39c3a2fe"><td class="memItemLeft" align="right" valign="top"><a id="a8a6a3c3180ee5079f4d56dbd39c3a2fe" name="a8a6a3c3180ee5079f4d56dbd39c3a2fe"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_CS_INIT</b>&#160;&#160;&#160;gpio_init(_display_CS)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_CS_INIT</b>&#160;&#160;&#160;if(_display_CS &gt; -1) { gpio_init(_display_CS); }</td></tr>
 <tr class="separator:a8a6a3c3180ee5079f4d56dbd39c3a2fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac003d6bdfa6de29e8ce88e2be2a7962a" id="r_ac003d6bdfa6de29e8ce88e2be2a7962a"><td class="memItemLeft" align="right" valign="top"><a id="ac003d6bdfa6de29e8ce88e2be2a7962a" name="ac003d6bdfa6de29e8ce88e2be2a7962a"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_SCLK_INIT</b>&#160;&#160;&#160;gpio_init(_display_SCLK)</td></tr>
@@ -123,7 +123,7 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_RST_DEINIT</b>&#160;&#160;&#160;gpio_deinit(_display_RST)</td></tr>
 <tr class="separator:a022f5de853f7aa85df1cd753ba190e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bd9cf8df7cc054d13bc7f32e47f2ad2" id="r_a4bd9cf8df7cc054d13bc7f32e47f2ad2"><td class="memItemLeft" align="right" valign="top"><a id="a4bd9cf8df7cc054d13bc7f32e47f2ad2" name="a4bd9cf8df7cc054d13bc7f32e47f2ad2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_CS_DEINIT</b>&#160;&#160;&#160;gpio_deinit(_display_CS)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_CS_DEINIT</b>&#160;&#160;&#160;if(_display_CS &gt; -1) { gpio_deinit(_display_CS); }</td></tr>
 <tr class="separator:a4bd9cf8df7cc054d13bc7f32e47f2ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21d1289fbb1d8aaf1b03b2d3b8c28911" id="r_a21d1289fbb1d8aaf1b03b2d3b8c28911"><td class="memItemLeft" align="right" valign="top"><a id="a21d1289fbb1d8aaf1b03b2d3b8c28911" name="a21d1289fbb1d8aaf1b03b2d3b8c28911"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_SCLK_DEINIT</b>&#160;&#160;&#160;gpio_deinit(_display_SCLK)</td></tr>
@@ -147,10 +147,10 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_RST_SetLow</b>&#160;&#160;&#160;gpio_put(_display_RST, false)</td></tr>
 <tr class="separator:a2c5923380b5c1f1f8797bbed69cac8db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92382a3a629db7836942b5b917a56cde" id="r_a92382a3a629db7836942b5b917a56cde"><td class="memItemLeft" align="right" valign="top"><a id="a92382a3a629db7836942b5b917a56cde" name="a92382a3a629db7836942b5b917a56cde"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_CS_SetHigh</b>&#160;&#160;&#160;gpio_put(_display_CS, true)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_CS_SetHigh</b>&#160;&#160;&#160;if(_display_CS &gt; -1) { gpio_put(_display_CS, true); }</td></tr>
 <tr class="separator:a92382a3a629db7836942b5b917a56cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a486f6fec97f79e35da6b2ff1b9116c20" id="r_a486f6fec97f79e35da6b2ff1b9116c20"><td class="memItemLeft" align="right" valign="top"><a id="a486f6fec97f79e35da6b2ff1b9116c20" name="a486f6fec97f79e35da6b2ff1b9116c20"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_CS_SetLow</b>&#160;&#160;&#160;gpio_put(_display_CS, false)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_CS_SetLow</b>&#160;&#160;&#160;if(_display_CS &gt; -1) { gpio_put(_display_CS, false); }</td></tr>
 <tr class="separator:a486f6fec97f79e35da6b2ff1b9116c20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8b07b7e48cbf428fd6f3e076b0d884e" id="r_ab8b07b7e48cbf428fd6f3e076b0d884e"><td class="memItemLeft" align="right" valign="top"><a id="ab8b07b7e48cbf428fd6f3e076b0d884e" name="ab8b07b7e48cbf428fd6f3e076b0d884e"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_SCLK_SetHigh</b>&#160;&#160;&#160;gpio_put(_display_SCLK, true)</td></tr>
@@ -171,7 +171,7 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_RST_SetDigitalOutput</b>&#160;&#160;&#160;gpio_set_dir(_display_RST, GPIO_OUT)</td></tr>
 <tr class="separator:a3a3f3b5638c6ea8ff860ad35d5c5c389"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9c41c73a92af501cac51c03abe75593" id="r_aa9c41c73a92af501cac51c03abe75593"><td class="memItemLeft" align="right" valign="top"><a id="aa9c41c73a92af501cac51c03abe75593" name="aa9c41c73a92af501cac51c03abe75593"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_CS_SetDigitalOutput</b>&#160;&#160;&#160;gpio_set_dir(_display_CS, GPIO_OUT)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_CS_SetDigitalOutput</b>&#160;&#160;&#160;if(_display_CS &gt; -1) { gpio_set_dir(_display_CS, GPIO_OUT); }</td></tr>
 <tr class="separator:aa9c41c73a92af501cac51c03abe75593"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4442fe9065ad878218477fe2dcdbc801" id="r_a4442fe9065ad878218477fe2dcdbc801"><td class="memItemLeft" align="right" valign="top"><a id="a4442fe9065ad878218477fe2dcdbc801" name="a4442fe9065ad878218477fe2dcdbc801"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_SCLK_SetDigitalOutput</b>&#160;&#160;&#160;gpio_set_dir(_display_SCLK, GPIO_OUT)</td></tr>

@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.2.0</span>
+   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.3.0</span>
    </div>
    <div id="projectbrief">Driver for 16-bit colour graphics displays,  Rpi PICO  library.</div>
   </td>
@@ -73,8 +73,8 @@ $(function() {
   <div class="headertitle"><div class="title">ILI9341 LCD TFT Readme</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md21"></a> <a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ili9341.jpg"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ili9341.jpg" alt="Image TFT" class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md22"></a>
+<div class="textblock"><p><a class="anchor" id="autotoc_md22"></a> <a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ili9341.jpg"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ili9341.jpg" alt="Image TFT" class="inline"/></a></p>
+<h1><a class="anchor" id="autotoc_md23"></a>
 Table of contents</h1>
 <ul>
 <li>Overview</li>
@@ -88,16 +88,16 @@ Table of contents</h1>
 <li>Hardware</li>
 <li>Output</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md23"></a>
+<h1><a class="anchor" id="autotoc_md24"></a>
 Overview</h1>
 <ul>
 <li>Name: ILI9341</li>
 <li>Description:</li>
 </ul>
 <p>C++ Raspberry pi PICO library for a TFT SPI LCD,ILI9341 Driver</p>
-<h1><a class="anchor" id="autotoc_md24"></a>
+<h1><a class="anchor" id="autotoc_md25"></a>
 Software</h1>
-<h2><a class="anchor" id="autotoc_md25"></a>
+<h2><a class="anchor" id="autotoc_md26"></a>
 User options</h2>
 <p>In the example files, there are 3 sections in "Setup()" function where user can make adjustments.</p>
 <ul>
@@ -112,7 +112,7 @@ User options</h2>
 <p>Set the five GPIO pins if using Hardware SPI clock and data pins will be tied to the chosen interface eg Spi0 CLK=18 DIN=19). The reset pin is optional if your display/hat uses software reset , set to -1 to 'disable'.</p>
 <p>*User Option Screen size *</p>
 <p>User can adjust screen pixel height, screen pixel width.</p>
-<h2><a class="anchor" id="autotoc_md26"></a>
+<h2><a class="anchor" id="autotoc_md27"></a>
 File system</h2>
 <p>There are example files included. User picks the one they want by editing the CMakeLists.txt :: add_executable(${PROJECT_NAME} section. Comment in one path and one path ONLY.</p>
 <table class="markdownTable">
@@ -127,7 +127,7 @@ File system</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">demo   </td><td class="markdownTableBodyNone">A demo   </td></tr>
 </table>
-<h2><a class="anchor" id="autotoc_md27"></a>
+<h2><a class="anchor" id="autotoc_md28"></a>
 Bitmap</h2>
 <p>Functions to support drawing bitmaps</p>
 <table class="markdownTable">
@@ -148,7 +148,7 @@ Bitmap</h2>
 <li>The data array for 1 is created from image files using file data conversion tool <a href="https://javl.github.io/image2cpp/">link</a></li>
 <li>The data array for 2-4 is created from BMP files using file data conversion tool <a href="https://notisrac.github.io/FileToCArray/">link</a></li>
 </ol>
-<h1><a class="anchor" id="autotoc_md28"></a>
+<h1><a class="anchor" id="autotoc_md29"></a>
 Hardware</h1>
 <p>Tested and developed on:</p>
 <ul>
@@ -169,7 +169,7 @@ Hardware</h1>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">GND   </td><td class="markdownTableBodyNone">GND   </td><td class="markdownTableBodyNone"></td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">CS   </td><td class="markdownTableBodyNone">SPICE0   </td><td class="markdownTableBodyNone">TFT Chip select    </td></tr>
+<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">CS   </td><td class="markdownTableBodyNone">SPICE0   </td><td class="markdownTableBodyNone">TFT Chip select , see point 4 at bottom of table    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">RESET   </td><td class="markdownTableBodyNone">GPIO25   </td><td class="markdownTableBodyNone">Reset, Use any GPIO for this, If no reset pin, pass -1 in here &amp; display will use software rst    </td></tr>
 <tr class="markdownTableRowOdd">
@@ -197,8 +197,9 @@ Hardware</h1>
 <li>This is a 3.3V logic device do NOT connect the I/O logic lines to 5V logic device.</li>
 <li>LED Backlight control is left to user.</li>
 <li>Pins marked with T_ prefix are related to the touchscreen IC XP2046 if user is not using the touch screen do not connect these. The touch screen and TFT share the SPI bus but have different chip select lines. TFT SPI settings(Speed, active chip select) should be refreshed after ever read cycle of XPT2046 sensor, see example.</li>
+<li>To operate without CS pin: pass -1 as argument for CS pin number in SetupGPIO()functions and ground the CS pin on device side.</li>
 </ol>
-<h1><a class="anchor" id="autotoc_md29"></a>
+<h1><a class="anchor" id="autotoc_md30"></a>
 Output</h1>
 <p>Four-Byte Burger 240x320 16-bit bitmap test image, Credits <a href="https://www.youtube.com/watch?v=i4EFkspO5p4">Ahoy</a></p>
 <p><a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ili9341output2.jpg"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/ili9341output2.jpg" alt="output pic" class="inline"/></a> </p>

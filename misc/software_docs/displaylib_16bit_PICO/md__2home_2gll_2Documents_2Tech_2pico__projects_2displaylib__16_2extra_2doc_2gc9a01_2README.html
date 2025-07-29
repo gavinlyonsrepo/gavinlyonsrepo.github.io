@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>displaylib_16bit_PICO: ST7735 Readme</title>
+<title>displaylib_16bit_PICO: GC9A01A Readme</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.2.0</span>
+   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.3.0</span>
    </div>
    <div id="projectbrief">Driver for 16-bit colour graphics displays,  Rpi PICO  library.</div>
   </td>
@@ -70,11 +70,11 @@ $(function() {
 
 </div><!-- top -->
 <div><div class="header">
-  <div class="headertitle"><div class="title">ST7735 Readme</div></div>
+  <div class="headertitle"><div class="title">GC9A01A Readme</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md11"></a> <a href="https://www.paypal.com/paypalme/whitelight976"><img src="https://img.shields.io/badge/Donate-PayPal-green.svg" alt="Donate" style="pointer-events: none;" class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md12"></a>
+<div class="textblock"><p><a class="anchor" id="autotoc_md12"></a> <a href="https://www.paypal.com/paypalme/whitelight976"><img src="https://img.shields.io/badge/Donate-PayPal-green.svg" alt="Donate" style="pointer-events: none;" class="inline"/></a></p>
+<h1><a class="anchor" id="autotoc_md13"></a>
 Table of contents</h1>
 <ul>
 <li>Overview</li>
@@ -87,7 +87,7 @@ Table of contents</h1>
 <li>Hardware</li>
 <li>Output</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md13"></a>
+<h1><a class="anchor" id="autotoc_md14"></a>
 Overview</h1>
 <ul>
 <li>Name: GC9A01A</li>
@@ -100,7 +100,10 @@ Overview</h1>
 <li>Hardware &amp; software SPI</li>
 <li>Tested on 240X240 Round Display</li>
 </ol>
-<h1><a class="anchor" id="autotoc_md14"></a>
+<ul>
+<li><a href="https://buydisplay.com/download/ic/GC9A01A.pdf">DataSheet</a></li>
+</ul>
+<h1><a class="anchor" id="autotoc_md15"></a>
 Test</h1>
 <p>There are example files included. User picks the one they want by editing the CMakeLists.txt :: add_executable(${PROJECT_NAME} section. Comment in one path and one path only.</p>
 <table class="markdownTable">
@@ -117,9 +120,9 @@ Test</h1>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">text_graphics_functions   </td><td class="markdownTableBodyNone">Text + Graphics + Functions   </td><td class="markdownTableBodyNone">&mdash;   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md15"></a>
+<h1><a class="anchor" id="autotoc_md16"></a>
 Software</h1>
-<h2><a class="anchor" id="autotoc_md16"></a>
+<h2><a class="anchor" id="autotoc_md17"></a>
 User Options</h2>
 <p>In the main.cpp example files. There are four sections in "Setup()" function where user can make adjustments to select for SPI type used, PCB type used and screen size.</p>
 <p>0. USER OPTION 0 SPI_SPEED + TYPE</p><ol type="1">
@@ -133,7 +136,7 @@ User Options</h2>
 <p>The 5 GPIO pins used, the clock and data lines must be the clock and data lines of spi interface chosen in option 0 if using hardware SPI.</p>
 <p><em>USER OPTION 2 Screen size</em></p>
 <p>In the main.cpp file, in USER OPTION 2 . User can adjust screen pixel height, screen pixel width.</p>
-<h2><a class="anchor" id="autotoc_md17"></a>
+<h2><a class="anchor" id="autotoc_md18"></a>
 Bitmap</h2>
 <p>Functions to support drawing bitmaps &amp; sprites.</p>
 <table class="markdownTable">
@@ -154,27 +157,27 @@ Bitmap</h2>
 <li>The data array for 1 is created from image files using file data conversion tool <a href="https://javl.github.io/image2cpp/">link</a></li>
 <li>The data array for 2-4 is created from BMP files using file data conversion tool <a href="https://notisrac.github.io/FileToCArray/">link</a></li>
 </ol>
-<h1><a class="anchor" id="autotoc_md18"></a>
+<h1><a class="anchor" id="autotoc_md19"></a>
 Hardware</h1>
-<p><a href="https://github.com/gavinlyonsrepo/displaylib_16bit_PICO/blob/main/extra/images/gc.png"><img src="https://github.com/gavinlyonsrepo/displaylib_16bit_PICO/blob/main/extra/image/gc.png" alt="pic " class="inline"/></a></p>
+<p><a href="https://github.com/gavinlyonsrepo/displaylib_16bit_PICO/blob/main/extra/image/gc1.png"><img src="https://github.com/gavinlyonsrepo/displaylib_16bit_PICO/blob/main/extra/image/gc1.png" alt="pic " class="inline"/></a></p>
 <p>Connections as setup in main.cpp test file.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Pin desc   </th><th class="markdownTableHeadNone">HW SPI    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">VCC   </td><td class="markdownTableBodyNone">3.3 VCC    </td></tr>
-<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">GND Ground   </td><td class="markdownTableBodyNone">GND    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">SDA Data in   </td><td class="markdownTableBodyNone">GPIO 19    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">SCL Clock   </td><td class="markdownTableBodyNone">GPIO 18    </td></tr>
+<td class="markdownTableBodyNone">VCC   </td><td class="markdownTableBodyNone">3.3 VCC    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">CS Chip select   </td><td class="markdownTableBodyNone">GPIO 2    </td></tr>
+<td class="markdownTableBodyNone">SCL Clock   </td><td class="markdownTableBodyNone">GPIO 18    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">SDA Data in   </td><td class="markdownTableBodyNone">GPIO 19    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">RST Reset   </td><td class="markdownTableBodyNone">GPIO 4    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">DC Data or command   </td><td class="markdownTableBodyNone">GPIO 3    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">RST Reset   </td><td class="markdownTableBodyNone">GPIO 4    </td></tr>
+<td class="markdownTableBodyNone">CS Chip select   </td><td class="markdownTableBodyNone">GPIO 2    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">BL Backlight   </td><td class="markdownTableBodyNone">VCC   </td></tr>
 </table>
@@ -182,10 +185,11 @@ Hardware</h1>
 <li>This is a 3.3V logic device do NOT connect the I/O logic lines to 5V logic device.</li>
 <li>SW SPI pick any GPIO you like , HW SPI SCLK and SDA will be tied to spio interface.</li>
 <li>Backlight on/off control is left to user.</li>
+<li>To operate without CS pin: pass -1 as argument for CS pin number in SetupGPIO()functions and ground the CS pin on device side.</li>
 </ol>
-<h1><a class="anchor" id="autotoc_md19"></a>
+<h1><a class="anchor" id="autotoc_md20"></a>
 Output</h1>
-<p><a href="https://github.com/gavinlyonsrepo/displaylib_16bit_PICO/blob/main/extra/image/gc2.jpg"><img src="https://github.com/gavinlyonsrepo/displaylib_16bit_PICO/blob/main/extra/images/gc2.jpg" alt=" Demo pic " class="inline"/></a> </p>
+<p><a href="https://github.com/gavinlyonsrepo/displaylib_16bit_PICO/blob/main/extra/image/gc2.jpg"><img src="https://github.com/gavinlyonsrepo/displaylib_16bit_PICO/blob/main/extra/image/gc2.jpg" alt=" Demo pic " class="inline"/></a> </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 <!-- start footer part -->

@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.2.0</span>
+   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.3.0</span>
    </div>
    <div id="projectbrief">Driver for 16-bit colour graphics displays,  Rpi PICO  library.</div>
   </td>
@@ -109,7 +109,10 @@ Functions</h1>
 <li>All Bitmap functions.</li>
 <li>All Draw text functions only IF <b>textCharPixelOrBuffer = true</b></li>
 </ol>
-<p>The situation with graphic functions is complicated as some use fast draw methods of drawFastVLine() and drawFastHLine(). and fillRectBuffer uses a local buffer in function to write to display VRAM. So depending on the graphic function code may write to screenBuffer and/or VRAM. Note fillRectBuffer is wrapped by fillScreen. </p>
+<p>The situation with graphic functions is complicated as some use fast draw methods of drawFastVLine() and drawFastHLine(). and fillRectBuffer uses a local buffer in function to write to display VRAM. So depending on the graphic function code may write to screenBuffer and/or VRAM. Note fillRectBuffer is wrapped by fillScreen. Bear in mind that advanced buffer mode is not default mode and has added in in version 2.1.0.</p>
+<h1><a class="anchor" id="autotoc_md4"></a>
+Examples</h1>
+<p>There are examples for Advanced buffer mode. There are called "frame_buffer". </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 <!-- start footer part -->

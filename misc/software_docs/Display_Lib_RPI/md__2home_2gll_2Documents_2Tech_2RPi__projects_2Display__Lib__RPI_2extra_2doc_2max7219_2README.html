@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.4.0</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.4.1</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -149,7 +149,8 @@ Connections to RPI:</h2>
 Notes and Issues</h1>
 <h2><a class="anchor" id="cascaded-displays"></a>
 Cascaded Displays</h2>
-<p>Support for Cascaded Displays added is untested as only one display available. Casacded Displays are displays connected together. Din-&gt; Dout and CS lines tied together. </p>
+<p>Support for Cascaded Displays is shown in two of examples files. Multiple displays can be connected together. Cascaded Displays are displays connected together. CS and CLK lines are tied together. The DIN line is connected to the first display only. The DOUT line of the first display is then connected to the DIN line of the next display and so on. Diagram below shows how to connect two displays together. Specify number of displays in constructor parameter.</p>
+<p><img src="https://github.com/gavinlyonsrepo/displaylib_LED_PICO/blob/main/extra/image/max7219cascade.png" alt="img Cascade" class="inline"/> </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 <!-- start footer part -->

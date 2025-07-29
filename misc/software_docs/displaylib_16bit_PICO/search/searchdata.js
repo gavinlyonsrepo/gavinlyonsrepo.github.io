@@ -8,7 +8,7 @@ var indexSectionsWithContent =
   5: "_abcdgimprst",
   6: "bcdprst",
   7: "bcdfghimnoprstw",
-  8: "012abcdfilmoprstv"
+  8: "012abcdfgilmoprstv"
 };
 
 var indexSectionNames =

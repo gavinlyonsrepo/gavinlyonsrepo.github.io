@@ -68,8 +68,9 @@ var searchData=
   ['examples_2fst7789_2fhello_5fworld_2fmain_2ecpp_65',['main.cpp',['../examples_2st7789_2hello__world_2main_8cpp.html',1,'']]],
   ['examples_2fst7789_2fhello_5fworld_5fswspi_2fmain_2ecpp_66',['main.cpp',['../examples_2st7789_2hello__world__swspi_2main_8cpp.html',1,'']]],
   ['examples_2fst7789_2ftext_5fgraphics_5ffunctions_2fmain_2ecpp_67',['main.cpp',['../examples_2st7789_2text__graphics__functions_2main_8cpp.html',1,'']]],
-  ['examples_2ftm1637_2ftest_5fmodel4_2fmain_2ecpp_68',['main.cpp',['../examples_2tm1637_2test__model4_2main_8cpp.html',1,'']]],
-  ['examples_2ftm1638_2ftest_5fmodel2_2fmain_2ecpp_69',['main.cpp',['../examples_2tm1638_2test__model2_2main_8cpp.html',1,'']]],
-  ['examples_2ftm1638_2ftest_5fmodel_5f1_5f3_2fmain_2ecpp_70',['main.cpp',['../examples_2tm1638_2test__model__1__3_2main_8cpp.html',1,'']]],
-  ['examples_2fxpt2046_2fxpt_5ftest_2fmain_2ecpp_71',['main.cpp',['../examples_2xpt2046_2xpt__test_2main_8cpp.html',1,'']]]
+  ['examples_2ftm1637_2ftest_5fmodel4a_5fsemicolon_2fmain_2ecpp_68',['main.cpp',['../examples_2tm1637_2test__model4a__semicolon_2main_8cpp.html',1,'']]],
+  ['examples_2ftm1637_2ftest_5fmodel4b_5fdecimal_5fpoints_2fmain_2ecpp_69',['main.cpp',['../examples_2tm1637_2test__model4b__decimal__points_2main_8cpp.html',1,'']]],
+  ['examples_2ftm1638_2ftest_5fmodel2_2fmain_2ecpp_70',['main.cpp',['../examples_2tm1638_2test__model2_2main_8cpp.html',1,'']]],
+  ['examples_2ftm1638_2ftest_5fmodel_5f1_5f3_2fmain_2ecpp_71',['main.cpp',['../examples_2tm1638_2test__model__1__3_2main_8cpp.html',1,'']]],
+  ['examples_2fxpt2046_2fxpt_5ftest_2fmain_2ecpp_72',['main.cpp',['../examples_2xpt2046_2xpt__test_2main_8cpp.html',1,'']]]
 ];
