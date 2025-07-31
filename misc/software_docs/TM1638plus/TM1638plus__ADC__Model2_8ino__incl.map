@@ -1,6 +1,0 @@
-<map id="TM1638plus_ADC_Model2.ino" name="TM1638plus_ADC_Model2.ino">
-<area shape="rect" id="node1" title="demo file library for model 2 TM1638 module(16 KEY 16 pushbuttons)." alt="" coords="5,5,220,32"/>
-<area shape="rect" id="node2" href="$TM1638plus__Model2_8h.html" title="Arduino library Tm1638plus, Header file for TM1638 module(16 KEY 16 pushbuttons. Model 2." alt="" coords="29,80,197,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="61,229,164,256"/>
-<area shape="rect" id="node4" href="$TM1638plus__common_8h.html" title="Arduino library Tm1638plus, Header file for common data and functions between model classes." alt="" coords="88,155,265,181"/>
-</map>

@@ -4,709 +4,195 @@
 <param name="FrameName" value="right">
 </OBJECT>
 <UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#ad38ddca163e86be02aa31061f1ef9d49"><param name="Name" value="ASCIItoSegment"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#ab7326b9ef8c92b15433a9fe499b79a26"><param name="Name" value="CLOCK_TM"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#ad38ddca163e86be02aa31061f1ef9d49"><param name="Name" value="ASCIItoSegment(const uint8_t values[])"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a48256244d5fe2dfb309cc3331b4b9511"><param name="Name" value="AlignTextType_e"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structButtonState.html"><param name="Name" value="ButtonState"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html"><param name="Name" value="CommonData"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html"><param name="Name" value="CommonData"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#ab7326b9ef8c92b15433a9fe499b79a26"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a28c278baada658dc0388685230f03abc"><param name="Name" value="DEC_POINT_7_MASK"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#ab7326b9ef8c92b15433a9fe499b79a26"><param name="Name" value="CLOCK_TM"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html"><param name="Name" value="CommonData"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#ab7326b9ef8c92b15433a9fe499b79a26"><param name="Name" value="TM1638plus_BUTTON_Model1.ino"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a167888e4b13bf1b1f54098207d915f75a2642a8db91dfbc5c95e18fa4cb1aedf5"><param name="Name" value="DecPointOff"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html#ab7326b9ef8c92b15433a9fe499b79a26"><param name="Name" value="CLOCK_TM"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html"><param name="Name" value="CommonData"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html#ab7326b9ef8c92b15433a9fe499b79a26"><param name="Name" value="TM1638plus_HELLOWORLD_Model1.ino"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a167888e4b13bf1b1f54098207d915f75a9b5a0affb11f9d7ee65c60ca84ab97ea"><param name="Name" value="DecPointOn"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#ab7326b9ef8c92b15433a9fe499b79a26"><param name="Name" value="CLOCK_TM"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html"><param name="Name" value="CommonData"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#ab7326b9ef8c92b15433a9fe499b79a26"><param name="Name" value="TM1638plus_HELLOWORLD_Model2.ino"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a167888e4b13bf1b1f54098207d915f75"><param name="Name" value="DecimalPoint_e"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#ab7326b9ef8c92b15433a9fe499b79a26"><param name="Name" value="CLOCK_TM"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html"><param name="Name" value="CommonData"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#ab7326b9ef8c92b15433a9fe499b79a26"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a1834cf12f241bb8a9e9b6016595e944d"><param name="Name" value="_ASCII_FONT_END"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#ab7326b9ef8c92b15433a9fe499b79a26"><param name="Name" value="CLOCK_TM"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html"><param name="Name" value="CommonData"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#ab7326b9ef8c92b15433a9fe499b79a26"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a9a37cd880939afad27298b9bf230db7c"><param name="Name" value="_ASCII_FONT_HEX_OFFSET"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#ab7326b9ef8c92b15433a9fe499b79a26"><param name="Name" value="CLOCK_TM"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html"><param name="Name" value="CommonData"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#ab7326b9ef8c92b15433a9fe499b79a26"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a8e7c76d02693886c88b3c7ada688efae"><param name="Name" value="_ASCII_FONT_OFFSET"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#acf164409b17d081781e2c3b07b79812f"><param name="Name" value="DIO_TM"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html"><param name="Name" value="CommonData"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#acf164409b17d081781e2c3b07b79812f"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#ab2c903d5716c785fb45dd7f7ac6d4897"><param name="Name" value="displaylib_LED_VersionNum"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#acf164409b17d081781e2c3b07b79812f"><param name="Name" value="DIO_TM"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html"><param name="Name" value="CommonData"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#acf164409b17d081781e2c3b07b79812f"><param name="Name" value="TM1638plus_BUTTON_Model1.ino"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a252b536f641d0448a8481d4fa53493e1"><param name="Name" value="displaylib_LED_debug"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html#acf164409b17d081781e2c3b07b79812f"><param name="Name" value="DIO_TM"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a28c278baada658dc0388685230f03abc"><param name="Name" value="DEC_POINT_7_MASK"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a167888e4b13bf1b1f54098207d915f75a2642a8db91dfbc5c95e18fa4cb1aedf5"><param name="Name" value="DecPointOff"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a167888e4b13bf1b1f54098207d915f75a9b5a0affb11f9d7ee65c60ca84ab97ea"><param name="Name" value="DecPointOn"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a167888e4b13bf1b1f54098207d915f75"><param name="Name" value="DecimalPoint_e"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#a1fdfc83b30290b00bb2ef027b31a9014"><param name="Name" value="DisplayDecNum(unsigned long number, uint8_t dots, boolean leadingZeros=true, AlignTextType_e=TMAlignTextLeft)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#aba1bb2f6938ea570bd425d27c3c56a17"><param name="Name" value="DisplayDecNumNibble(uint16_t numberUpper, uint16_t numberLower, boolean leadingZeros=true, AlignTextType_e=TMAlignTextLeft)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#af5ac037623db475b069afe8f46004a76"><param name="Name" value="DisplayDecNumNibble(uint16_t numberUpper, uint16_t numberLower, uint8_t dots, boolean leadingZeros=true, AlignTextType_e=TMAlignTextLeft)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#a8681813757d53c2ffa00087537dfef49"><param name="Name" value="DisplayDecimal(int num, bool leading_zero, uint8_t length, uint8_t pos)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#a7a6a5123a90138df317fc135b196dc4d"><param name="Name" value="DisplayDecimalwDot(int num, uint8_t dots, bool leading_zero, uint8_t length, uint8_t pos)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#a40c0451f8d1e0eab3af2c76aa4452334"><param name="Name" value="DisplayHexNum(uint16_t numberUpper, uint16_t numberLower, uint8_t dots, boolean leadingZeros=true, AlignTextType_e=TMAlignTextLeft)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#aa0b8f2a9aee98c1868abb0fcf872c3ff"><param name="Name" value="DisplaySegments(uint8_t segment, uint8_t segmentValue)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#a90515564a7065c4eccdbf40115b78a58"><param name="Name" value="DisplayStr(const char *string, const uint16_t dots=0)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#ab15687d951c973b8c93b6ef1102233e2"><param name="Name" value="DisplayString(const char *numStr, uint8_t dots, uint8_t length, uint8_t position)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a6d9998ecb156ce2dabae5168f836c064"><param name="Name" value="HighFreqshiftOut(uint8_t dataPin, uint8_t clockPin, uint8_t bitOrder, uint8_t val)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a1a0877bd687e881ea2e93ffb63edea6e"><param name="Name" value="HighFreqshiftin(uint8_t dataPin, uint8_t clockPin, uint8_t bitOrder)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#a408f81481670ab3aae346f41aa494559"><param name="Name" value="ReadKey16(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#af8686814f4ea89080b74694546cb5e8b"><param name="Name" value="ReadKey16Two(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classSevenSegmentFont.html"><param name="Name" value="SevenSegmentFont"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classSevenSegmentFont.html"><param name="Name" value="SevenSegmentFont"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html#acf164409b17d081781e2c3b07b79812f"><param name="Name" value="TM1638plus_HELLOWORLD_Model1.ino"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSevenSegmentFont.html#a1fee642eaf7f6bc15922a05b1f1d8864"><param name="Name" value="pFontSevenSegptr()"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#acf164409b17d081781e2c3b07b79812f"><param name="Name" value="DIO_TM"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html"><param name="Name" value="TM1637plus_modelX"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#a63a8c361b694810748b52127e1358622"><param name="Name" value="TM1637plus_modelX(uint8_t clock, uint8_t data, int delay, int DisplaySize)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html"><param name="Name" value="TM1637plus_modelX"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#acf164409b17d081781e2c3b07b79812f"><param name="Name" value="TM1638plus_HELLOWORLD_Model2.ino"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#a8681813757d53c2ffa00087537dfef49"><param name="Name" value="DisplayDecimal(int num, bool leading_zero, uint8_t length, uint8_t pos)"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#acf164409b17d081781e2c3b07b79812f"><param name="Name" value="DIO_TM"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html"><param name="Name" value="TM1637plus_modelX"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#acf164409b17d081781e2c3b07b79812f"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#a7a6a5123a90138df317fc135b196dc4d"><param name="Name" value="DisplayDecimalwDot(int num, uint8_t dots, bool leading_zero, uint8_t length, uint8_t pos)"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#acf164409b17d081781e2c3b07b79812f"><param name="Name" value="DIO_TM"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html"><param name="Name" value="TM1637plus_modelX"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#acf164409b17d081781e2c3b07b79812f"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#ab15687d951c973b8c93b6ef1102233e2"><param name="Name" value="DisplayString(const char *numStr, uint8_t dots, uint8_t length, uint8_t position)"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#acf164409b17d081781e2c3b07b79812f"><param name="Name" value="DIO_TM"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html"><param name="Name" value="TM1637plus_modelX"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#acf164409b17d081781e2c3b07b79812f"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#a63a8c361b694810748b52127e1358622"><param name="Name" value="TM1637plus_modelX(uint8_t clock, uint8_t data, int delay, int DisplaySize)"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#a1fdfc83b30290b00bb2ef027b31a9014"><param name="Name" value="DisplayDecNum"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#aba1bb2f6938ea570bd425d27c3c56a17"><param name="Name" value="DisplayDecNumNibble"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html"><param name="Name" value="TM1637plus_modelX"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#aba1bb2f6938ea570bd425d27c3c56a17"><param name="Name" value="TM1638plus"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#aff30b2bc64097c46013bdfd5be1ada5e"><param name="Name" value="displayBegin(void)"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#af5ac037623db475b069afe8f46004a76"><param name="Name" value="DisplayDecNumNibble"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html"><param name="Name" value="TM1637plus_modelX"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#af5ac037623db475b069afe8f46004a76"><param name="Name" value="TM1638plus_Model2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#ac0e80a75eaee9744d6b075f09695a157"><param name="Name" value="displayClear(void)"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#a40c0451f8d1e0eab3af2c76aa4452334"><param name="Name" value="DisplayHexNum"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#aa77620f7ab60eb5ae1fdb62d0ce601ac"><param name="Name" value="DisplayMode"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#aa0b8f2a9aee98c1868abb0fcf872c3ff"><param name="Name" value="DisplaySegments"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#a90515564a7065c4eccdbf40115b78a58"><param name="Name" value="DisplayStr"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a6d9998ecb156ce2dabae5168f836c064"><param name="Name" value="HighFreqshiftOut"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a1a0877bd687e881ea2e93ffb63edea6e"><param name="Name" value="HighFreqshiftin"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a53e395f37611ee827d424f737c48b10b"><param name="Name" value="ModelTwoADC_One"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#ab8896b08fa7db06d88e6211d73b14b61"><param name="Name" value="ModelTwoADC_Three"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#aedca6b0cf1d6457055a1663a9d6e390b"><param name="Name" value="ModelTwoADC_Two"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a71d557699865ebe9bf6380a00b4a4b2c"><param name="Name" value="POT0"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#af4281f9328df5dce43d83c9d867012a3"><param name="Name" value="POT1"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#a408f81481670ab3aae346f41aa494559"><param name="Name" value="ReadKey16"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#af8686814f4ea89080b74694546cb5e8b"><param name="Name" value="ReadKey16Two"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a099a6ff927f1bc41bc1ff31881b7d205"><param name="Name" value="STROBE_TM"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html"><param name="Name" value="TM1637plus_modelX"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a099a6ff927f1bc41bc1ff31881b7d205"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#ac00ead00f065327fdf781ac63fdb1eb8"><param name="Name" value="displayClose(void)"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#a099a6ff927f1bc41bc1ff31881b7d205"><param name="Name" value="STROBE_TM"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html"><param name="Name" value="TM1637plus_modelX"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#a099a6ff927f1bc41bc1ff31881b7d205"><param name="Name" value="TM1638plus_BUTTON_Model1.ino"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#a7d7060827982d5d0d41db2ed7a81ab1c"><param name="Name" value="encodeCharacter(unsigned char digit)"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html#a099a6ff927f1bc41bc1ff31881b7d205"><param name="Name" value="STROBE_TM"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html"><param name="Name" value="TM1637plus_modelX"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html#a099a6ff927f1bc41bc1ff31881b7d205"><param name="Name" value="TM1638plus_HELLOWORLD_Model1.ino"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#a4652c2f9f4a2f7c93542162ed25e5e9e"><param name="Name" value="setBrightness(uint8_t brightness, bool on)"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#a099a6ff927f1bc41bc1ff31881b7d205"><param name="Name" value="STROBE_TM"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html"><param name="Name" value="TM1637plus_modelX"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#a099a6ff927f1bc41bc1ff31881b7d205"><param name="Name" value="TM1638plus_HELLOWORLD_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a099a6ff927f1bc41bc1ff31881b7d205"><param name="Name" value="STROBE_TM"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a099a6ff927f1bc41bc1ff31881b7d205"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a099a6ff927f1bc41bc1ff31881b7d205"><param name="Name" value="STROBE_TM"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a099a6ff927f1bc41bc1ff31881b7d205"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a099a6ff927f1bc41bc1ff31881b7d205"><param name="Name" value="STROBE_TM"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a099a6ff927f1bc41bc1ff31881b7d205"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#ac55e80faf9914f02eb1d780ae6458ea5"><param name="Name" value="Serialinit"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#ac55e80faf9914f02eb1d780ae6458ea5"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#ac55e80faf9914f02eb1d780ae6458ea5"><param name="Name" value="Serialinit"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#ac55e80faf9914f02eb1d780ae6458ea5"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#ac55e80faf9914f02eb1d780ae6458ea5"><param name="Name" value="Serialinit"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#ac55e80faf9914f02eb1d780ae6458ea5"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#ac55e80faf9914f02eb1d780ae6458ea5"><param name="Name" value="Serialinit"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#ac55e80faf9914f02eb1d780ae6458ea5"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#a746cf8ca176b73bb5484a101f3a336d7"><param name="Name" value="setSegments(const uint8_t segments[], uint8_t length, uint8_t pos)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html"><param name="Name" value="TM1638plus"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a6b9cb1d0450934d8da7639fae162aeec"><param name="Name" value="TM1638plus(uint8_t strobe, uint8_t clock, uint8_t data, bool highfreq)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html"><param name="Name" value="TM1638plus"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#aba1bb2f6938ea570bd425d27c3c56a17"><param name="Name" value="DisplayDecNumNibble"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#aba1bb2f6938ea570bd425d27c3c56a17"><param name="Name" value="DisplayDecNumNibble(uint16_t numberUpper, uint16_t numberLower, boolean leadingZeros=true, AlignTextType_e=TMAlignTextLeft)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html"><param name="Name" value="TM1638plus"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a6dc4a6ce5806f5764bd2ac810d810e34"><param name="Name" value="TM1638plus"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a6b9cb1d0450934d8da7639fae162aeec"><param name="Name" value="TM1638plus(uint8_t strobe, uint8_t clock, uint8_t data, bool highfreq)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html"><param name="Name" value="TM1638plus"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a9d8f538db8c5276d6a073910a14d89d4"><param name="Name" value="display7Seg"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a9d8f538db8c5276d6a073910a14d89d4"><param name="Name" value="display7Seg(uint8_t position, uint8_t value)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html"><param name="Name" value="TM1638plus"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a6b03ee2658b82d971f2f94c180815e90"><param name="Name" value="displayASCII"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a1053edc0e87c4af24f1345e47f48d997"><param name="Name" value="displayASCII(uint8_t position, uint8_t ascii, DecimalPoint_e decimalPoint)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html"><param name="Name" value="TM1638plus"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a4116508899fa17e8f708b757035f1aa2"><param name="Name" value="displayASCIIwDot"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#af1e71ea558262d8fed64a67ced98ed90"><param name="Name" value="displayHex(uint8_t position, uint8_t hex)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html"><param name="Name" value="TM1638plus"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#af1e71ea558262d8fed64a67ced98ed90"><param name="Name" value="displayHex"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a7c070aaa51e31d4f011dc3bbe0c42b2c"><param name="Name" value="displayIntNum(unsigned long number, boolean leadingZeros=true, AlignTextType_e=TMAlignTextLeft)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html"><param name="Name" value="TM1638plus"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a7c070aaa51e31d4f011dc3bbe0c42b2c"><param name="Name" value="displayIntNum"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a5cd551c216253fb6adec39595223ade2"><param name="Name" value="displayText(const char *text)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html"><param name="Name" value="TM1638plus"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a5cd551c216253fb6adec39595223ade2"><param name="Name" value="displayText"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a6cdb51cf15ecc8aedc21e5e6d56874ba"><param name="Name" value="readButtons(void)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html"><param name="Name" value="TM1638plus"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a6cdb51cf15ecc8aedc21e5e6d56874ba"><param name="Name" value="readButtons"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#ad2fa960df3e96d7aeeef74463108cf53"><param name="Name" value="setLED(uint8_t position, uint8_t value)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html"><param name="Name" value="TM1638plus"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#ad2fa960df3e96d7aeeef74463108cf53"><param name="Name" value="setLED"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html"><param name="Name" value="TM1638plus"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a8b3031741e52661e66a1673c39abd36b"><param name="Name" value="setLEDs"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#ab7326b9ef8c92b15433a9fe499b79a26"><param name="Name" value="CLOCK_TM"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#acf164409b17d081781e2c3b07b79812f"><param name="Name" value="DIO_TM"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#aa77620f7ab60eb5ae1fdb62d0ce601ac"><param name="Name" value="DisplayMode"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a53e395f37611ee827d424f737c48b10b"><param name="Name" value="ModelTwoADC_One"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#ab8896b08fa7db06d88e6211d73b14b61"><param name="Name" value="ModelTwoADC_Three"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#aedca6b0cf1d6457055a1663a9d6e390b"><param name="Name" value="ModelTwoADC_Two"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a71d557699865ebe9bf6380a00b4a4b2c"><param name="Name" value="POT0"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#af4281f9328df5dce43d83c9d867012a3"><param name="Name" value="POT1"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a099a6ff927f1bc41bc1ff31881b7d205"><param name="Name" value="STROBE_TM"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#ac55e80faf9914f02eb1d780ae6458ea5"><param name="Name" value="Serialinit"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#ace9c6c868a0184661b4529265dbe14c0"><param name="Name" value="high_freq"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a5af59f177d6e9601e0e5a513ed11564d"><param name="Name" value="interval_button"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#ac118fe7b6d2d78c9724507e7ccf5db06"><param name="Name" value="interval_display"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#afe461d27b9c48d5921c00d521181f12f"><param name="Name" value="loop"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a27fc9e52fb0ff46daf65ac07182027bb"><param name="Name" value="previousMillis_button"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a8abfa0188163118c2a5d8d9c257155d7"><param name="Name" value="previousMillis_display"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a78b7d618ba081b80c73be65718aab0d5"><param name="Name" value="sensorValue0"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a125ebb974caab5b47313623e508221cd"><param name="Name" value="sensorValue1"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a4fc01d736fe50cf5b977f755b675f11d"><param name="Name" value="setup"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a6a86c67cd286f3c7b32f186d07e4c8a0"><param name="Name" value="swap_nibbles"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#af57956708c04301eb1e33c116d0ae73b"><param name="Name" value="testMode"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a0ab94d14166d3b495855053f9a85c6da"><param name="Name" value="tm"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html"><param name="Name" value="TM1638plus_BUTTON_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#ab7326b9ef8c92b15433a9fe499b79a26"><param name="Name" value="CLOCK_TM"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html"><param name="Name" value="TM1638plus_BUTTON_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#acf164409b17d081781e2c3b07b79812f"><param name="Name" value="DIO_TM"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html"><param name="Name" value="TM1638plus_BUTTON_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#a099a6ff927f1bc41bc1ff31881b7d205"><param name="Name" value="STROBE_TM"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html"><param name="Name" value="TM1638plus_BUTTON_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#a56be5a3a1f55ddfa5e8b72d365816298"><param name="Name" value="buttonsRead"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html"><param name="Name" value="TM1638plus_BUTTON_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#ace9c6c868a0184661b4529265dbe14c0"><param name="Name" value="high_freq"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html"><param name="Name" value="TM1638plus_BUTTON_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#a0021ea0e9db10b76e915e31a18bc758a"><param name="Name" value="intervalButton"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html"><param name="Name" value="TM1638plus_BUTTON_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#a9b96869d2656f2637a8a1c0d1866d2f5"><param name="Name" value="intervalDisplay"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html"><param name="Name" value="TM1638plus_BUTTON_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#afe461d27b9c48d5921c00d521181f12f"><param name="Name" value="loop"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html"><param name="Name" value="TM1638plus_BUTTON_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#a4fc01d736fe50cf5b977f755b675f11d"><param name="Name" value="setup"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html"><param name="Name" value="TM1638plus_BUTTON_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#ab7229b50fb61900b7b4f23e51290f1c6"><param name="Name" value="tm"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html"><param name="Name" value="TM1638plus_BUTTON_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#abbe87690ce57d18efa15d74a9d4246a7"><param name="Name" value="updateDisplay"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html"><param name="Name" value="TM1638plus_HELLOWORLD_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html#ab7326b9ef8c92b15433a9fe499b79a26"><param name="Name" value="CLOCK_TM"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html"><param name="Name" value="TM1638plus_HELLOWORLD_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html#acf164409b17d081781e2c3b07b79812f"><param name="Name" value="DIO_TM"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html"><param name="Name" value="TM1638plus_HELLOWORLD_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html#a099a6ff927f1bc41bc1ff31881b7d205"><param name="Name" value="STROBE_TM"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html"><param name="Name" value="TM1638plus_HELLOWORLD_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html#ace9c6c868a0184661b4529265dbe14c0"><param name="Name" value="high_freq"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html"><param name="Name" value="TM1638plus_HELLOWORLD_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html#afe461d27b9c48d5921c00d521181f12f"><param name="Name" value="loop"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html"><param name="Name" value="TM1638plus_HELLOWORLD_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html#a4fc01d736fe50cf5b977f755b675f11d"><param name="Name" value="setup"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html"><param name="Name" value="TM1638plus_HELLOWORLD_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html#ab7229b50fb61900b7b4f23e51290f1c6"><param name="Name" value="tm"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html"><param name="Name" value="TM1638plus_HELLOWORLD_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#ab7326b9ef8c92b15433a9fe499b79a26"><param name="Name" value="CLOCK_TM"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html"><param name="Name" value="TM1638plus_HELLOWORLD_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#acf164409b17d081781e2c3b07b79812f"><param name="Name" value="DIO_TM"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html"><param name="Name" value="TM1638plus_HELLOWORLD_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#a099a6ff927f1bc41bc1ff31881b7d205"><param name="Name" value="STROBE_TM"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html"><param name="Name" value="TM1638plus_HELLOWORLD_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#ace9c6c868a0184661b4529265dbe14c0"><param name="Name" value="high_freq"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html"><param name="Name" value="TM1638plus_HELLOWORLD_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#afe461d27b9c48d5921c00d521181f12f"><param name="Name" value="loop"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html"><param name="Name" value="TM1638plus_HELLOWORLD_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#a4fc01d736fe50cf5b977f755b675f11d"><param name="Name" value="setup"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html"><param name="Name" value="TM1638plus_HELLOWORLD_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#a6a86c67cd286f3c7b32f186d07e4c8a0"><param name="Name" value="swap_nibbles"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html"><param name="Name" value="TM1638plus_HELLOWORLD_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#a0ab94d14166d3b495855053f9a85c6da"><param name="Name" value="tm"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a8b3031741e52661e66a1673c39abd36b"><param name="Name" value="setLEDs(uint16_t greenred)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html"><param name="Name" value="TM1638plus_Model2"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#a9cfd7e936149c223464bb8cb2176e7a6"><param name="Name" value="TM1638plus_Model2(uint8_t strobe, uint8_t clock, uint8_t data, bool swap_nibbles=false, bool high_freq=false)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html"><param name="Name" value="TM1638plus_Model2"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#ad38ddca163e86be02aa31061f1ef9d49"><param name="Name" value="ASCIItoSegment"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#ad38ddca163e86be02aa31061f1ef9d49"><param name="Name" value="ASCIItoSegment(const uint8_t values[])"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html"><param name="Name" value="TM1638plus_Model2"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#a1fdfc83b30290b00bb2ef027b31a9014"><param name="Name" value="DisplayDecNum"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#a1fdfc83b30290b00bb2ef027b31a9014"><param name="Name" value="DisplayDecNum(unsigned long number, uint8_t dots, boolean leadingZeros=true, AlignTextType_e=TMAlignTextLeft)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html"><param name="Name" value="TM1638plus_Model2"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#af5ac037623db475b069afe8f46004a76"><param name="Name" value="DisplayDecNumNibble"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#af5ac037623db475b069afe8f46004a76"><param name="Name" value="DisplayDecNumNibble(uint16_t numberUpper, uint16_t numberLower, uint8_t dots, boolean leadingZeros=true, AlignTextType_e=TMAlignTextLeft)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html"><param name="Name" value="TM1638plus_Model2"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#a40c0451f8d1e0eab3af2c76aa4452334"><param name="Name" value="DisplayHexNum"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#a40c0451f8d1e0eab3af2c76aa4452334"><param name="Name" value="DisplayHexNum(uint16_t numberUpper, uint16_t numberLower, uint8_t dots, boolean leadingZeros=true, AlignTextType_e=TMAlignTextLeft)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html"><param name="Name" value="TM1638plus_Model2"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#aa0b8f2a9aee98c1868abb0fcf872c3ff"><param name="Name" value="DisplaySegments"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#aa0b8f2a9aee98c1868abb0fcf872c3ff"><param name="Name" value="DisplaySegments(uint8_t segment, uint8_t segmentValue)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html"><param name="Name" value="TM1638plus_Model2"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#a90515564a7065c4eccdbf40115b78a58"><param name="Name" value="DisplayStr"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#a90515564a7065c4eccdbf40115b78a58"><param name="Name" value="DisplayStr(const char *string, const uint16_t dots=0)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html"><param name="Name" value="TM1638plus_Model2"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#a408f81481670ab3aae346f41aa494559"><param name="Name" value="ReadKey16"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#a408f81481670ab3aae346f41aa494559"><param name="Name" value="ReadKey16(void)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html"><param name="Name" value="TM1638plus_Model2"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#af8686814f4ea89080b74694546cb5e8b"><param name="Name" value="ReadKey16Two"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#af8686814f4ea89080b74694546cb5e8b"><param name="Name" value="ReadKey16Two(void)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html"><param name="Name" value="TM1638plus_Model2"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#a9cfd7e936149c223464bb8cb2176e7a6"><param name="Name" value="TM1638plus_Model2"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#ab7326b9ef8c92b15433a9fe499b79a26"><param name="Name" value="CLOCK_TM"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#acf164409b17d081781e2c3b07b79812f"><param name="Name" value="DIO_TM"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a099a6ff927f1bc41bc1ff31881b7d205"><param name="Name" value="STROBE_TM"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#ac55e80faf9914f02eb1d780ae6458ea5"><param name="Name" value="Serialinit"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a3629eb0cdfe34d5decaf8cd8da79e34f"><param name="Name" value="Test0"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#aec952ea2b3a1edfb1ca930a9090174b5"><param name="Name" value="Test1"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#ab0be5067c2c049267aa684fbeff0b05b"><param name="Name" value="Test10"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a14d8b2fcb9396c7d4c7bb37a5adede61"><param name="Name" value="Test11"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a87e4f9dbdab295ef8fc3fd3baf40967c"><param name="Name" value="Test12"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#aa6b98a5ec2436b5559d864b6be9bdde8"><param name="Name" value="Test13"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a4f3c10ece5ac33f4384c9b7588aea7c7"><param name="Name" value="Test14"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#abeb35d3301776bd3ec0f7455cef601d7"><param name="Name" value="Test2"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a59f594c06e27644d4ba8eb77dab578e3"><param name="Name" value="Test3"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a04764156499ba598abc84d49f1bea225"><param name="Name" value="Test4"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#ae58871f3da7975204828aff7f5b00bc3"><param name="Name" value="Test5"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a4e8da148bcedfde77f2b70990c7db168"><param name="Name" value="Test6"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#aed0c185ff209fa5ef887aa9cb024b926"><param name="Name" value="Test7"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a604822799e555885cc0a4fcb587bd170"><param name="Name" value="Test8"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#ac73a165f004c290d73e51d0dcd31efa1"><param name="Name" value="Test9"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#abc7db9ad365a4b033f0d6f58039627f8"><param name="Name" value="doLEDs"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#ace9c6c868a0184661b4529265dbe14c0"><param name="Name" value="high_freq"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#afe461d27b9c48d5921c00d521181f12f"><param name="Name" value="loop"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#aeaec7867ae5db46a93847a10ca6632ad"><param name="Name" value="myTestDelay"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a7bf02d3c925c203cc2f90440a42ab5e5"><param name="Name" value="myTestDelay1"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a24e8296d09b87b3b3fc37c0bb4797124"><param name="Name" value="myTestDelay3"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a4fc01d736fe50cf5b977f755b675f11d"><param name="Name" value="setup"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#ab7229b50fb61900b7b4f23e51290f1c6"><param name="Name" value="tm"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#ab7326b9ef8c92b15433a9fe499b79a26"><param name="Name" value="CLOCK_TM"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#acf164409b17d081781e2c3b07b79812f"><param name="Name" value="DIO_TM"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a099a6ff927f1bc41bc1ff31881b7d205"><param name="Name" value="STROBE_TM"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#ac55e80faf9914f02eb1d780ae6458ea5"><param name="Name" value="Serialinit"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#ac0de3b2711bd974e31bb2ab8f94b41c1"><param name="Name" value="Test1"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a23aea35f98be87293112f006dc300250"><param name="Name" value="Test2"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a99f6c67539e4870321bf51ba53f9a385"><param name="Name" value="Test3"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#aabd9d9a38a2d58253c351bc242ed40a3"><param name="Name" value="Test4"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#af81dce18ed24f333ad174196307657b8"><param name="Name" value="Test5"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a11bd371d430af5d61694572c014e5f50"><param name="Name" value="Test6"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a83466dd64639788e30b472f73c022f75"><param name="Name" value="Test7"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a5e18cf40833f092e8a902033dc713a36"><param name="Name" value="Test8"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a5718c6eeca58ef68516e77203b3e7b98"><param name="Name" value="Test9"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#ace9c6c868a0184661b4529265dbe14c0"><param name="Name" value="high_freq"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#afe461d27b9c48d5921c00d521181f12f"><param name="Name" value="loop"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#aeaec7867ae5db46a93847a10ca6632ad"><param name="Name" value="myTestDelay"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a7bf02d3c925c203cc2f90440a42ab5e5"><param name="Name" value="myTestDelay1"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a0450b768840c0781c1ed8dced5718cf9"><param name="Name" value="myTestDelay2"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a4fc01d736fe50cf5b977f755b675f11d"><param name="Name" value="setup"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a6a86c67cd286f3c7b32f186d07e4c8a0"><param name="Name" value="swap_nibbles"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#aee36cc851212c7febed025fe08548b0e"><param name="Name" value="testcount"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a0ab94d14166d3b495855053f9a85c6da"><param name="Name" value="tm"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#ab7326b9ef8c92b15433a9fe499b79a26"><param name="Name" value="CLOCK_TM"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#acf164409b17d081781e2c3b07b79812f"><param name="Name" value="DIO_TM"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a099a6ff927f1bc41bc1ff31881b7d205"><param name="Name" value="STROBE_TM"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#ac55e80faf9914f02eb1d780ae6458ea5"><param name="Name" value="Serialinit"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a3629eb0cdfe34d5decaf8cd8da79e34f"><param name="Name" value="Test0"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#aec952ea2b3a1edfb1ca930a9090174b5"><param name="Name" value="Test1"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#ab0be5067c2c049267aa684fbeff0b05b"><param name="Name" value="Test10"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a14d8b2fcb9396c7d4c7bb37a5adede61"><param name="Name" value="Test11"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a87e4f9dbdab295ef8fc3fd3baf40967c"><param name="Name" value="Test12"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#aa6b98a5ec2436b5559d864b6be9bdde8"><param name="Name" value="Test13"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a4f3c10ece5ac33f4384c9b7588aea7c7"><param name="Name" value="Test14"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#abeb35d3301776bd3ec0f7455cef601d7"><param name="Name" value="Test2"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a59f594c06e27644d4ba8eb77dab578e3"><param name="Name" value="Test3"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a04764156499ba598abc84d49f1bea225"><param name="Name" value="Test4"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#ae58871f3da7975204828aff7f5b00bc3"><param name="Name" value="Test5"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a4e8da148bcedfde77f2b70990c7db168"><param name="Name" value="Test6"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#aed0c185ff209fa5ef887aa9cb024b926"><param name="Name" value="Test7"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a604822799e555885cc0a4fcb587bd170"><param name="Name" value="Test8"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#ac73a165f004c290d73e51d0dcd31efa1"><param name="Name" value="Test9"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#ace9c6c868a0184661b4529265dbe14c0"><param name="Name" value="high_freq"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#afe461d27b9c48d5921c00d521181f12f"><param name="Name" value="loop"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#aeaec7867ae5db46a93847a10ca6632ad"><param name="Name" value="myTestDelay"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a7bf02d3c925c203cc2f90440a42ab5e5"><param name="Name" value="myTestDelay1"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a24e8296d09b87b3b3fc37c0bb4797124"><param name="Name" value="myTestDelay3"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a4fc01d736fe50cf5b977f755b675f11d"><param name="Name" value="setup"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#aee36cc851212c7febed025fe08548b0e"><param name="Name" value="testcount"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#ab7229b50fb61900b7b4f23e51290f1c6"><param name="Name" value="tm"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#a9cfd7e936149c223464bb8cb2176e7a6"><param name="Name" value="TM1638plus_Model2(uint8_t strobe, uint8_t clock, uint8_t data, bool swap_nibbles=false, bool high_freq=false)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html"><param name="Name" value="TM1638plus_common"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8cpp.html#a2dbc06989800597dd23b2cbdf6be2708"><param name="Name" value="TM1638plus_common.cpp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html"><param name="Name" value="TM1638plus_common.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a48256244d5fe2dfb309cc3331b4b9511"><param name="Name" value="AlignTextType_e"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html"><param name="Name" value="TM1638plus_common.h"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a48256244d5fe2dfb309cc3331b4b9511a1e1b3ae513ee71f19af2e74d63cb26d3"><param name="Name" value="TMAlignTextLeft"></OBJECT>
@@ -715,93 +201,53 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a48256244d5fe2dfb309cc3331b4b9511a011c88102d8305d9f0de3a356630a15b"><param name="Name" value="TMAlignTextRight"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html"><param name="Name" value="TM1638plus_common.h"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html"><param name="Name" value="TM1638plus_common"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a2520a4f25e33b20ef4913deaabba54ce"><param name="Name" value="TM_ACTIVATE"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html"><param name="Name" value="TM1638plus_common.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a7893c34708614832e838ecf88a06d8b8"><param name="Name" value="TM_ASCII_OFFSET"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html"><param name="Name" value="TM1638plus_common.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a7b3189b6a5920f007bb018f55c6e5c5b"><param name="Name" value="TM_BRIGHT_ADR"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html"><param name="Name" value="TM1638plus_common.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a990af39713054793ad4fb9148197684d"><param name="Name" value="TM_BRIGHT_MASK"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html"><param name="Name" value="TM1638plus_common.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a1b9917a7b37d88bb6d76397b4467b4f9"><param name="Name" value="TM_BUTTONS_MODE"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html"><param name="Name" value="TM1638plus_common.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a1fcda79323ec00c5ff322a35def8118d"><param name="Name" value="TM_DEFAULT_BRIGHTNESS"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html"><param name="Name" value="TM1638plus_common.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a317ccb34e4346f0dffdc4cb6d7085d2c"><param name="Name" value="TM_DISPLAY_SIZE"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html"><param name="Name" value="TM1638plus_common.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#accf3388a889abc4f947bbceb037174a2"><param name="Name" value="TM_DOT_MASK_DEC"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html"><param name="Name" value="TM1638plus_common.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a01aaf665e1a44712796fbf04b1ea70f4"><param name="Name" value="TM_GREEN_LED"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html"><param name="Name" value="TM1638plus_common.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a095990810a9b5164d52e4dc4bf263260"><param name="Name" value="TM_HEX_OFFSET"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html"><param name="Name" value="TM1638plus_common.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#ae8eee8cc907e60024816523dcb9e91e5"><param name="Name" value="TM_HFIN_DELAY"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html"><param name="Name" value="TM1638plus_common.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a61c187fb4d72569bf4b63bd62e1f4e7c"><param name="Name" value="TM_HFOUT_DELAY"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html"><param name="Name" value="TM1638plus_common.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a98a17b9b6608bc16706efcd576e818a6"><param name="Name" value="TM_LEDS_ADR"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html"><param name="Name" value="TM1638plus_common.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#ab1b7afa1d938134d364724095157c4a3"><param name="Name" value="TM_OFF_LED"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html"><param name="Name" value="TM1638plus_common.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a9f423974d2c0d9ccf3380d13f404035e"><param name="Name" value="TM_RED_LED"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html"><param name="Name" value="TM1638plus_common.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a3f0be03700c29d00cad35216c9907d65"><param name="Name" value="TM_SEG_ADR"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html"><param name="Name" value="TM1638plus_common.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#ab276d358c766eee529947956e11704d1"><param name="Name" value="TM_WRITE_INC"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html"><param name="Name" value="TM1638plus_common.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a4948890dbec8da83621abcf93b99b522"><param name="Name" value="TM_WRITE_LOC"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html"><param name="Name" value="TM1638plus_common.h"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a2dbc06989800597dd23b2cbdf6be2708"><param name="Name" value="pFontSevenSegptr"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a6d9998ecb156ce2dabae5168f836c064"><param name="Name" value="HighFreqshiftOut(uint8_t dataPin, uint8_t clockPin, uint8_t bitOrder, uint8_t val)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html"><param name="Name" value="TM1638plus_common"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a6d9998ecb156ce2dabae5168f836c064"><param name="Name" value="HighFreqshiftOut"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a1a0877bd687e881ea2e93ffb63edea6e"><param name="Name" value="HighFreqshiftin(uint8_t dataPin, uint8_t clockPin, uint8_t bitOrder)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html"><param name="Name" value="TM1638plus_common"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a1a0877bd687e881ea2e93ffb63edea6e"><param name="Name" value="HighFreqshiftin"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a86586a000ab3edcd78508717f45bb8c2"><param name="Name" value="TM_ACTIVATE"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html"><param name="Name" value="TM1638plus_common"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a0b5e539c1b3545cab59354ac6e013c84"><param name="Name" value="TM1638plus_common"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a74fbe78da42c56bfca690a508171f8be"><param name="Name" value="TM_BRIGHT_ADR"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html"><param name="Name" value="TM1638plus_common"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#aa7c7d7da1819465b244ea713d51009b5"><param name="Name" value="TM_BRIGHT_MASK"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html"><param name="Name" value="TM1638plus_common"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#ad63b26279768f88cf13096efd32a3487"><param name="Name" value="TM_BUTTONS_MODE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html"><param name="Name" value="TM1638plus_common"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#af97518c539df613d7722f0587e6a1a68"><param name="Name" value="TM_DEFAULT_BRIGHTNESS"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html"><param name="Name" value="TM1638plus_common"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#ac2f6f8402e48171b5ceab077b848454a"><param name="Name" value="TM_DISPLAY_SIZE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html"><param name="Name" value="TM1638plus_common"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a8b272e0a6d1a395c5e3206f637836b0c"><param name="Name" value="TM_LEDS_ADR"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html"><param name="Name" value="TM1638plus_common"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a0662ac9c6a76feb66c2227292ff1265f"><param name="Name" value="TM_SEG_ADR"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html"><param name="Name" value="TM1638plus_common"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a8bb00894a93c412e42ab9c75bc2e093d"><param name="Name" value="TM_WRITE_INC"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html"><param name="Name" value="TM1638plus_common"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a15955666cb74101a208089e3de9e832f"><param name="Name" value="TM_WRITE_LOC"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html"><param name="Name" value="TM1638plus_common"></OBJECT>
   <UL>
@@ -813,6 +259,14 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html"><param name="Name" value="TM1638plus_common"></OBJECT>
   <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#ab12c8828d27bd20f3830abf632ae8524"><param name="Name" value="_HFIN_DELAY"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html"><param name="Name" value="TM1638plus_common"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a8d4376aeaae2444bafb9cc4f049b8d62"><param name="Name" value="_HFOUT_DELAY"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html"><param name="Name" value="TM1638plus_common"></OBJECT>
+  <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a3943fa7762d325e2299c9e06d0d2d2a9"><param name="Name" value="_HIGH_FREQ"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html"><param name="Name" value="TM1638plus_common"></OBJECT>
@@ -821,403 +275,104 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html"><param name="Name" value="TM1638plus_common"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#ad6f3917607961d979050b6e386094ca2"><param name="Name" value="brightness"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#ad6f3917607961d979050b6e386094ca2"><param name="Name" value="brightness(uint8_t brightness)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html"><param name="Name" value="TM1638plus_common"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#af6273a17e52ed7aa340e293eb63c189d"><param name="Name" value="displayBegin"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#af6273a17e52ed7aa340e293eb63c189d"><param name="Name" value="displayBegin()"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html"><param name="Name" value="TM1638plus_common"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#ad6cfc82e91a68bbddf0abafabc35e0e5"><param name="Name" value="reset"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#ad6cfc82e91a68bbddf0abafabc35e0e5"><param name="Name" value="reset(void)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html"><param name="Name" value="TM1638plus_common"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#af540db13644fd5d77807e66deb7c6196"><param name="Name" value="sendCommand"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#af540db13644fd5d77807e66deb7c6196"><param name="Name" value="sendCommand(uint8_t value)"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html"><param name="Name" value="TM1638plus_common"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a07e5ff7fc40a295446ed8da5fbf6c990"><param name="Name" value="sendData"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a07e5ff7fc40a295446ed8da5fbf6c990"><param name="Name" value="sendData(uint8_t data)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__model3.html"><param name="Name" value="TM1638plus_model3"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__model3.html#a6049a5074a63a068f3a42058db835a7d"><param name="Name" value="TM1638plus_model3(uint8_t strobe, uint8_t clock, uint8_t data, bool highfreq)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__model3.html"><param name="Name" value="TM1638plus_model3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__model3.html#a6049a5074a63a068f3a42058db835a7d"><param name="Name" value="TM1638plus_model3(uint8_t strobe, uint8_t clock, uint8_t data, bool highfreq)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__model3.html"><param name="Name" value="TM1638plus_model3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871fec"><param name="Name" value="TMLEDColors"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__model3.html"><param name="Name" value="TM1638plus_model3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871feca3ac604892d92e440c94eea63d9c3bbd2"><param name="Name" value="TM_GREEN_LED"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__model3.html"><param name="Name" value="TM1638plus_model3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871feca07dbe692ac266059fe54d5aa3191e8b1"><param name="Name" value="TM_OFF_LED"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__model3.html"><param name="Name" value="TM1638plus_model3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871fecae6f488ac40c7727728bea22e9f739171"><param name="Name" value="TM_RED_LED"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__model3.html"><param name="Name" value="TM1638plus_model3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__model3.html#aba88e25a1c958286dc49c3a8595f1b03"><param name="Name" value="setLED(uint8_t position, uint8_t value) override"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__model3.html"><param name="Name" value="TM1638plus_model3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__model3.html#a1e6efaee392122ff95ba2e180ee38acd"><param name="Name" value="setLEDs(uint16_t greenred) override"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a48256244d5fe2dfb309cc3331b4b9511a1e1b3ae513ee71f19af2e74d63cb26d3"><param name="Name" value="TMAlignTextLeft"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a48256244d5fe2dfb309cc3331b4b9511a011c88102d8305d9f0de3a356630a15b"><param name="Name" value="TMAlignTextRight"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a2520a4f25e33b20ef4913deaabba54ce"><param name="Name" value="TM_ACTIVATE"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a7893c34708614832e838ecf88a06d8b8"><param name="Name" value="TM_ASCII_OFFSET"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a7b3189b6a5920f007bb018f55c6e5c5b"><param name="Name" value="TM_BRIGHT_ADR"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a990af39713054793ad4fb9148197684d"><param name="Name" value="TM_BRIGHT_MASK"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a1b9917a7b37d88bb6d76397b4467b4f9"><param name="Name" value="TM_BUTTONS_MODE"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a1fcda79323ec00c5ff322a35def8118d"><param name="Name" value="TM_DEFAULT_BRIGHTNESS"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a317ccb34e4346f0dffdc4cb6d7085d2c"><param name="Name" value="TM_DISPLAY_SIZE"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#accf3388a889abc4f947bbceb037174a2"><param name="Name" value="TM_DOT_MASK_DEC"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a01aaf665e1a44712796fbf04b1ea70f4"><param name="Name" value="TM_GREEN_LED"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a095990810a9b5164d52e4dc4bf263260"><param name="Name" value="TM_HEX_OFFSET"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#ae8eee8cc907e60024816523dcb9e91e5"><param name="Name" value="TM_HFIN_DELAY"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a61c187fb4d72569bf4b63bd62e1f4e7c"><param name="Name" value="TM_HFOUT_DELAY"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a98a17b9b6608bc16706efcd576e818a6"><param name="Name" value="TM_LEDS_ADR"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#ab1b7afa1d938134d364724095157c4a3"><param name="Name" value="TM_OFF_LED"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a9f423974d2c0d9ccf3380d13f404035e"><param name="Name" value="TM_RED_LED"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a3f0be03700c29d00cad35216c9907d65"><param name="Name" value="TM_SEG_ADR"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#ab276d358c766eee529947956e11704d1"><param name="Name" value="TM_WRITE_INC"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a4948890dbec8da83621abcf93b99b522"><param name="Name" value="TM_WRITE_LOC"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a3629eb0cdfe34d5decaf8cd8da79e34f"><param name="Name" value="Test0"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a3629eb0cdfe34d5decaf8cd8da79e34f"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a3629eb0cdfe34d5decaf8cd8da79e34f"><param name="Name" value="Test0"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a3629eb0cdfe34d5decaf8cd8da79e34f"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#ab0be5067c2c049267aa684fbeff0b05b"><param name="Name" value="Test10"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#ab0be5067c2c049267aa684fbeff0b05b"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#ab0be5067c2c049267aa684fbeff0b05b"><param name="Name" value="Test10"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#ab0be5067c2c049267aa684fbeff0b05b"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a14d8b2fcb9396c7d4c7bb37a5adede61"><param name="Name" value="Test11"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a14d8b2fcb9396c7d4c7bb37a5adede61"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a14d8b2fcb9396c7d4c7bb37a5adede61"><param name="Name" value="Test11"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a14d8b2fcb9396c7d4c7bb37a5adede61"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a87e4f9dbdab295ef8fc3fd3baf40967c"><param name="Name" value="Test12"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a87e4f9dbdab295ef8fc3fd3baf40967c"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a87e4f9dbdab295ef8fc3fd3baf40967c"><param name="Name" value="Test12"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a87e4f9dbdab295ef8fc3fd3baf40967c"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#aa6b98a5ec2436b5559d864b6be9bdde8"><param name="Name" value="Test13"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#aa6b98a5ec2436b5559d864b6be9bdde8"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#aa6b98a5ec2436b5559d864b6be9bdde8"><param name="Name" value="Test13"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#aa6b98a5ec2436b5559d864b6be9bdde8"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a4f3c10ece5ac33f4384c9b7588aea7c7"><param name="Name" value="Test14"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a4f3c10ece5ac33f4384c9b7588aea7c7"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a4f3c10ece5ac33f4384c9b7588aea7c7"><param name="Name" value="Test14"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a4f3c10ece5ac33f4384c9b7588aea7c7"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#aec952ea2b3a1edfb1ca930a9090174b5"><param name="Name" value="Test1"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#aec952ea2b3a1edfb1ca930a9090174b5"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#ac0de3b2711bd974e31bb2ab8f94b41c1"><param name="Name" value="Test1"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#ac0de3b2711bd974e31bb2ab8f94b41c1"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#aec952ea2b3a1edfb1ca930a9090174b5"><param name="Name" value="Test1"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#aec952ea2b3a1edfb1ca930a9090174b5"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#abeb35d3301776bd3ec0f7455cef601d7"><param name="Name" value="Test2"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#abeb35d3301776bd3ec0f7455cef601d7"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a23aea35f98be87293112f006dc300250"><param name="Name" value="Test2"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a23aea35f98be87293112f006dc300250"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#abeb35d3301776bd3ec0f7455cef601d7"><param name="Name" value="Test2"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#abeb35d3301776bd3ec0f7455cef601d7"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a59f594c06e27644d4ba8eb77dab578e3"><param name="Name" value="Test3"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a59f594c06e27644d4ba8eb77dab578e3"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a99f6c67539e4870321bf51ba53f9a385"><param name="Name" value="Test3"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a99f6c67539e4870321bf51ba53f9a385"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a59f594c06e27644d4ba8eb77dab578e3"><param name="Name" value="Test3"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a59f594c06e27644d4ba8eb77dab578e3"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a04764156499ba598abc84d49f1bea225"><param name="Name" value="Test4"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a04764156499ba598abc84d49f1bea225"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#aabd9d9a38a2d58253c351bc242ed40a3"><param name="Name" value="Test4"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#aabd9d9a38a2d58253c351bc242ed40a3"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a04764156499ba598abc84d49f1bea225"><param name="Name" value="Test4"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a04764156499ba598abc84d49f1bea225"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#ae58871f3da7975204828aff7f5b00bc3"><param name="Name" value="Test5"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#ae58871f3da7975204828aff7f5b00bc3"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#af81dce18ed24f333ad174196307657b8"><param name="Name" value="Test5"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#af81dce18ed24f333ad174196307657b8"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#ae58871f3da7975204828aff7f5b00bc3"><param name="Name" value="Test5"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#ae58871f3da7975204828aff7f5b00bc3"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a4e8da148bcedfde77f2b70990c7db168"><param name="Name" value="Test6"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a4e8da148bcedfde77f2b70990c7db168"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a11bd371d430af5d61694572c014e5f50"><param name="Name" value="Test6"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a11bd371d430af5d61694572c014e5f50"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a4e8da148bcedfde77f2b70990c7db168"><param name="Name" value="Test6"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a4e8da148bcedfde77f2b70990c7db168"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#aed0c185ff209fa5ef887aa9cb024b926"><param name="Name" value="Test7"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#aed0c185ff209fa5ef887aa9cb024b926"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a83466dd64639788e30b472f73c022f75"><param name="Name" value="Test7"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a83466dd64639788e30b472f73c022f75"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#aed0c185ff209fa5ef887aa9cb024b926"><param name="Name" value="Test7"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#aed0c185ff209fa5ef887aa9cb024b926"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a604822799e555885cc0a4fcb587bd170"><param name="Name" value="Test8"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a604822799e555885cc0a4fcb587bd170"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a5e18cf40833f092e8a902033dc713a36"><param name="Name" value="Test8"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a5e18cf40833f092e8a902033dc713a36"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a604822799e555885cc0a4fcb587bd170"><param name="Name" value="Test8"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a604822799e555885cc0a4fcb587bd170"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#ac73a165f004c290d73e51d0dcd31efa1"><param name="Name" value="Test9"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#ac73a165f004c290d73e51d0dcd31efa1"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a5718c6eeca58ef68516e77203b3e7b98"><param name="Name" value="Test9"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a5718c6eeca58ef68516e77203b3e7b98"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#ac73a165f004c290d73e51d0dcd31efa1"><param name="Name" value="Test9"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#ac73a165f004c290d73e51d0dcd31efa1"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871fec"><param name="Name" value="TMLEDColors"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a86586a000ab3edcd78508717f45bb8c2"><param name="Name" value="TM_ACTIVATE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a74fbe78da42c56bfca690a508171f8be"><param name="Name" value="TM_BRIGHT_ADR"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#aa7c7d7da1819465b244ea713d51009b5"><param name="Name" value="TM_BRIGHT_MASK"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#ad63b26279768f88cf13096efd32a3487"><param name="Name" value="TM_BUTTONS_MODE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#af97518c539df613d7722f0587e6a1a68"><param name="Name" value="TM_DEFAULT_BRIGHTNESS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#ac2f6f8402e48171b5ceab077b848454a"><param name="Name" value="TM_DISPLAY_SIZE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871feca3ac604892d92e440c94eea63d9c3bbd2"><param name="Name" value="TM_GREEN_LED"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a8b272e0a6d1a395c5e3206f637836b0c"><param name="Name" value="TM_LEDS_ADR"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871feca07dbe692ac266059fe54d5aa3191e8b1"><param name="Name" value="TM_OFF_LED"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871fecae6f488ac40c7727728bea22e9f739171"><param name="Name" value="TM_RED_LED"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a0662ac9c6a76feb66c2227292ff1265f"><param name="Name" value="TM_SEG_ADR"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a8bb00894a93c412e42ab9c75bc2e093d"><param name="Name" value="TM_WRITE_INC"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a15955666cb74101a208089e3de9e832f"><param name="Name" value="TM_WRITE_LOC"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="test.html"><param name="Name" value="Test List"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a1834cf12f241bb8a9e9b6016595e944d"><param name="Name" value="_ASCII_FONT_END"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a9a37cd880939afad27298b9bf230db7c"><param name="Name" value="_ASCII_FONT_HEX_OFFSET"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a8e7c76d02693886c88b3c7ada688efae"><param name="Name" value="_ASCII_FONT_OFFSET"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a91293adde2d2592d7a3e4fa925ce4051"><param name="Name" value="_CLOCK_IO"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a4d0d1aa9eca0843e2eba3030be9e2ec6"><param name="Name" value="_DATA_IO"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#ab12c8828d27bd20f3830abf632ae8524"><param name="Name" value="_HFIN_DELAY"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a8d4376aeaae2444bafb9cc4f049b8d62"><param name="Name" value="_HFOUT_DELAY"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a3943fa7762d325e2299c9e06d0d2d2a9"><param name="Name" value="_HIGH_FREQ"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a51437dce2570531618ff576754a26b45"><param name="Name" value="_STROBE_IO"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#ad6f3917607961d979050b6e386094ca2"><param name="Name" value="brightness"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#a56be5a3a1f55ddfa5e8b72d365816298"><param name="Name" value="buttonsRead"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a9d8f538db8c5276d6a073910a14d89d4"><param name="Name" value="display7Seg"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a6b03ee2658b82d971f2f94c180815e90"><param name="Name" value="displayASCII"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a4116508899fa17e8f708b757035f1aa2"><param name="Name" value="displayASCIIwDot"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#af6273a17e52ed7aa340e293eb63c189d"><param name="Name" value="displayBegin"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#af1e71ea558262d8fed64a67ced98ed90"><param name="Name" value="displayHex"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a7c070aaa51e31d4f011dc3bbe0c42b2c"><param name="Name" value="displayIntNum"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a5cd551c216253fb6adec39595223ade2"><param name="Name" value="displayText"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#abc7db9ad365a4b033f0d6f58039627f8"><param name="Name" value="doLEDs"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#ace9c6c868a0184661b4529265dbe14c0"><param name="Name" value="high_freq"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#ace9c6c868a0184661b4529265dbe14c0"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#ace9c6c868a0184661b4529265dbe14c0"><param name="Name" value="high_freq"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#ace9c6c868a0184661b4529265dbe14c0"><param name="Name" value="TM1638plus_BUTTON_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html#ace9c6c868a0184661b4529265dbe14c0"><param name="Name" value="high_freq"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html#ace9c6c868a0184661b4529265dbe14c0"><param name="Name" value="TM1638plus_HELLOWORLD_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#ace9c6c868a0184661b4529265dbe14c0"><param name="Name" value="high_freq"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#ace9c6c868a0184661b4529265dbe14c0"><param name="Name" value="TM1638plus_HELLOWORLD_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#ace9c6c868a0184661b4529265dbe14c0"><param name="Name" value="high_freq"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#ace9c6c868a0184661b4529265dbe14c0"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#ace9c6c868a0184661b4529265dbe14c0"><param name="Name" value="high_freq"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#ace9c6c868a0184661b4529265dbe14c0"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#ace9c6c868a0184661b4529265dbe14c0"><param name="Name" value="high_freq"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#ace9c6c868a0184661b4529265dbe14c0"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#a0021ea0e9db10b76e915e31a18bc758a"><param name="Name" value="intervalButton"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#a9b96869d2656f2637a8a1c0d1866d2f5"><param name="Name" value="intervalDisplay"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a5af59f177d6e9601e0e5a513ed11564d"><param name="Name" value="interval_button"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#ac118fe7b6d2d78c9724507e7ccf5db06"><param name="Name" value="interval_display"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#afe461d27b9c48d5921c00d521181f12f"><param name="Name" value="loop"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#afe461d27b9c48d5921c00d521181f12f"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#afe461d27b9c48d5921c00d521181f12f"><param name="Name" value="loop"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#afe461d27b9c48d5921c00d521181f12f"><param name="Name" value="TM1638plus_BUTTON_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html#afe461d27b9c48d5921c00d521181f12f"><param name="Name" value="loop"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html#afe461d27b9c48d5921c00d521181f12f"><param name="Name" value="TM1638plus_HELLOWORLD_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#afe461d27b9c48d5921c00d521181f12f"><param name="Name" value="loop"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#afe461d27b9c48d5921c00d521181f12f"><param name="Name" value="TM1638plus_HELLOWORLD_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#afe461d27b9c48d5921c00d521181f12f"><param name="Name" value="loop"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#afe461d27b9c48d5921c00d521181f12f"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#afe461d27b9c48d5921c00d521181f12f"><param name="Name" value="loop"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#afe461d27b9c48d5921c00d521181f12f"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#afe461d27b9c48d5921c00d521181f12f"><param name="Name" value="loop"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#afe461d27b9c48d5921c00d521181f12f"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a7bf02d3c925c203cc2f90440a42ab5e5"><param name="Name" value="myTestDelay1"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a7bf02d3c925c203cc2f90440a42ab5e5"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a7bf02d3c925c203cc2f90440a42ab5e5"><param name="Name" value="myTestDelay1"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a7bf02d3c925c203cc2f90440a42ab5e5"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a7bf02d3c925c203cc2f90440a42ab5e5"><param name="Name" value="myTestDelay1"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a7bf02d3c925c203cc2f90440a42ab5e5"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a0450b768840c0781c1ed8dced5718cf9"><param name="Name" value="myTestDelay2"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a24e8296d09b87b3b3fc37c0bb4797124"><param name="Name" value="myTestDelay3"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a24e8296d09b87b3b3fc37c0bb4797124"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a24e8296d09b87b3b3fc37c0bb4797124"><param name="Name" value="myTestDelay3"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a24e8296d09b87b3b3fc37c0bb4797124"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#aeaec7867ae5db46a93847a10ca6632ad"><param name="Name" value="myTestDelay"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#aeaec7867ae5db46a93847a10ca6632ad"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#aeaec7867ae5db46a93847a10ca6632ad"><param name="Name" value="myTestDelay"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#aeaec7867ae5db46a93847a10ca6632ad"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#aeaec7867ae5db46a93847a10ca6632ad"><param name="Name" value="myTestDelay"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#aeaec7867ae5db46a93847a10ca6632ad"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8cpp.html#a2dbc06989800597dd23b2cbdf6be2708"><param name="Name" value="pFontSevenSegptr"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8cpp.html#a2dbc06989800597dd23b2cbdf6be2708"><param name="Name" value="TM1638plus_common.cpp"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a2dbc06989800597dd23b2cbdf6be2708"><param name="Name" value="pFontSevenSegptr"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a2dbc06989800597dd23b2cbdf6be2708"><param name="Name" value="TM1638plus_common.h"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a27fc9e52fb0ff46daf65ac07182027bb"><param name="Name" value="previousMillis_button"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a8abfa0188163118c2a5d8d9c257155d7"><param name="Name" value="previousMillis_display"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a6cdb51cf15ecc8aedc21e5e6d56874ba"><param name="Name" value="readButtons"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#ad6cfc82e91a68bbddf0abafabc35e0e5"><param name="Name" value="reset"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#af540db13644fd5d77807e66deb7c6196"><param name="Name" value="sendCommand"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a07e5ff7fc40a295446ed8da5fbf6c990"><param name="Name" value="sendData"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a78b7d618ba081b80c73be65718aab0d5"><param name="Name" value="sensorValue0"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a125ebb974caab5b47313623e508221cd"><param name="Name" value="sensorValue1"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#ad2fa960df3e96d7aeeef74463108cf53"><param name="Name" value="setLED"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a8b3031741e52661e66a1673c39abd36b"><param name="Name" value="setLEDs"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a4fc01d736fe50cf5b977f755b675f11d"><param name="Name" value="setup"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a4fc01d736fe50cf5b977f755b675f11d"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#a4fc01d736fe50cf5b977f755b675f11d"><param name="Name" value="setup"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#a4fc01d736fe50cf5b977f755b675f11d"><param name="Name" value="TM1638plus_BUTTON_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html#a4fc01d736fe50cf5b977f755b675f11d"><param name="Name" value="setup"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html#a4fc01d736fe50cf5b977f755b675f11d"><param name="Name" value="TM1638plus_HELLOWORLD_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#a4fc01d736fe50cf5b977f755b675f11d"><param name="Name" value="setup"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#a4fc01d736fe50cf5b977f755b675f11d"><param name="Name" value="TM1638plus_HELLOWORLD_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a4fc01d736fe50cf5b977f755b675f11d"><param name="Name" value="setup"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#a4fc01d736fe50cf5b977f755b675f11d"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a4fc01d736fe50cf5b977f755b675f11d"><param name="Name" value="setup"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a4fc01d736fe50cf5b977f755b675f11d"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a4fc01d736fe50cf5b977f755b675f11d"><param name="Name" value="setup"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#a4fc01d736fe50cf5b977f755b675f11d"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a6a86c67cd286f3c7b32f186d07e4c8a0"><param name="Name" value="swap_nibbles"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a6a86c67cd286f3c7b32f186d07e4c8a0"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#a6a86c67cd286f3c7b32f186d07e4c8a0"><param name="Name" value="swap_nibbles"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#a6a86c67cd286f3c7b32f186d07e4c8a0"><param name="Name" value="TM1638plus_HELLOWORLD_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a6a86c67cd286f3c7b32f186d07e4c8a0"><param name="Name" value="swap_nibbles"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a6a86c67cd286f3c7b32f186d07e4c8a0"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#af57956708c04301eb1e33c116d0ae73b"><param name="Name" value="testMode"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#aee36cc851212c7febed025fe08548b0e"><param name="Name" value="testcount"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#aee36cc851212c7febed025fe08548b0e"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#aee36cc851212c7febed025fe08548b0e"><param name="Name" value="testcount"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#aee36cc851212c7febed025fe08548b0e"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a0ab94d14166d3b495855053f9a85c6da"><param name="Name" value="tm"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__ADC__Model2_8ino.html#a0ab94d14166d3b495855053f9a85c6da"><param name="Name" value="TM1638plus_ADC_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#ab7229b50fb61900b7b4f23e51290f1c6"><param name="Name" value="tm"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#ab7229b50fb61900b7b4f23e51290f1c6"><param name="Name" value="TM1638plus_BUTTON_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html#ab7229b50fb61900b7b4f23e51290f1c6"><param name="Name" value="tm"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model1_8ino.html#ab7229b50fb61900b7b4f23e51290f1c6"><param name="Name" value="TM1638plus_HELLOWORLD_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#a0ab94d14166d3b495855053f9a85c6da"><param name="Name" value="tm"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__HELLOWORLD__Model2_8ino.html#a0ab94d14166d3b495855053f9a85c6da"><param name="Name" value="TM1638plus_HELLOWORLD_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#ab7229b50fb61900b7b4f23e51290f1c6"><param name="Name" value="tm"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model1_8ino.html#ab7229b50fb61900b7b4f23e51290f1c6"><param name="Name" value="TM1638plus_TEST_Model1.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a0ab94d14166d3b495855053f9a85c6da"><param name="Name" value="tm"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model2_8ino.html#a0ab94d14166d3b495855053f9a85c6da"><param name="Name" value="TM1638plus_TEST_Model2.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#ab7229b50fb61900b7b4f23e51290f1c6"><param name="Name" value="tm"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__TEST__Model3_8ino.html#ab7229b50fb61900b7b4f23e51290f1c6"><param name="Name" value="TM1638plus_TEST_Model3.ino"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__BUTTON__Model1_8ino.html#abbe87690ce57d18efa15d74a9d4246a7"><param name="Name" value="updateDisplay"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#ad6f3917607961d979050b6e386094ca2"><param name="Name" value="brightness(uint8_t brightness)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a9d8f538db8c5276d6a073910a14d89d4"><param name="Name" value="display7Seg(uint8_t position, uint8_t value)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a1053edc0e87c4af24f1345e47f48d997"><param name="Name" value="displayASCII(uint8_t position, uint8_t ascii, DecimalPoint_e decimalPoint)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#af6273a17e52ed7aa340e293eb63c189d"><param name="Name" value="displayBegin()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#aff30b2bc64097c46013bdfd5be1ada5e"><param name="Name" value="displayBegin(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#ac0e80a75eaee9744d6b075f09695a157"><param name="Name" value="displayClear(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#ac00ead00f065327fdf781ac63fdb1eb8"><param name="Name" value="displayClose(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#af1e71ea558262d8fed64a67ced98ed90"><param name="Name" value="displayHex(uint8_t position, uint8_t hex)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a7c070aaa51e31d4f011dc3bbe0c42b2c"><param name="Name" value="displayIntNum(unsigned long number, boolean leadingZeros=true, AlignTextType_e=TMAlignTextLeft)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a5cd551c216253fb6adec39595223ade2"><param name="Name" value="displayText(const char *text)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#ab2c903d5716c785fb45dd7f7ac6d4897"><param name="Name" value="displaylib_LED_VersionNum"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a252b536f641d0448a8481d4fa53493e1"><param name="Name" value="displaylib_LED_debug"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#a7d7060827982d5d0d41db2ed7a81ab1c"><param name="Name" value="encodeCharacter(unsigned char digit)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classSevenSegmentFont.html#a1fee642eaf7f6bc15922a05b1f1d8864"><param name="Name" value="pFontSevenSegptr()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a6cdb51cf15ecc8aedc21e5e6d56874ba"><param name="Name" value="readButtons(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#ad6cfc82e91a68bbddf0abafabc35e0e5"><param name="Name" value="reset(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#af540db13644fd5d77807e66deb7c6196"><param name="Name" value="sendCommand(uint8_t value)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a07e5ff7fc40a295446ed8da5fbf6c990"><param name="Name" value="sendData(uint8_t data)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#a4652c2f9f4a2f7c93542162ed25e5e9e"><param name="Name" value="setBrightness(uint8_t brightness, bool on)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__model3.html#aba88e25a1c958286dc49c3a8595f1b03"><param name="Name" value="setLED(uint8_t position, uint8_t value) override"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#ad2fa960df3e96d7aeeef74463108cf53"><param name="Name" value="setLED(uint8_t position, uint8_t value)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__model3.html#a1e6efaee392122ff95ba2e180ee38acd"><param name="Name" value="setLEDs(uint16_t greenred) override"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a8b3031741e52661e66a1673c39abd36b"><param name="Name" value="setLEDs(uint16_t greenred)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#a746cf8ca176b73bb5484a101f3a336d7"><param name="Name" value="setSegments(const uint8_t segments[], uint8_t length, uint8_t pos)"></OBJECT>
 </UL>
 </BODY>
 </HTML>

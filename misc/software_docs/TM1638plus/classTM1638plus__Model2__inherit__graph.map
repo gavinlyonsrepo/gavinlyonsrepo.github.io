@@ -1,4 +1,9 @@
 <map id="TM1638plus_Model2" name="TM1638plus_Model2">
-<area shape="rect" id="node1" title="Class for Model 2." alt="" coords="10,80,166,107"/>
-<area shape="rect" id="node2" href="$classTM1638plus__common.html" title="The base Class , used to store common data &amp; functions for all models types." alt="" coords="5,5,171,32"/>
+<area shape="rect" id="Node000001" title="Class for Model 2." alt="" coords="79,152,235,177"/>
+<area shape="rect" id="Node000002" href="$classTM1638plus__common.html" title="The base Class , used to store common data &amp; functions for all models types." alt="" coords="74,79,239,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,118,159,152,154,152,154,118"/>
+<area shape="rect" id="Node000003" href="$classSevenSegmentFont.html" title="Class that provides access to a seven&#45;segment font data table." alt="" coords="5,5,153,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="104,38,146,76,142,80,100,42"/>
+<area shape="rect" id="Node000004" href="$classCommonData.html" title="Class that provides access to common data." alt="" coords="178,5,290,31"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="213,42,171,80,168,76,210,38"/>
 </map>

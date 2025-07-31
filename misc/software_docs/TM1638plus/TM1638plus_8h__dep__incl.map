@@ -1,8 +1,0 @@
-<map id="TM1638plus.h" name="TM1638plus.h">
-<area shape="rect" id="node1" title="Arduino library Tm1638plus, Header file for TM1638 module(LED &amp; KEY). Model 1 &amp; Model 3." alt="" coords="549,5,662,32"/>
-<area shape="rect" id="node2" href="$TM1638plus__BUTTON__Model1_8ino.html" title="tm1638_plus ,Model 1 , Simple example of one possible method to &quot;debounce&quot; buttonsRead() method" alt="" coords="5,87,248,114"/>
-<area shape="rect" id="node3" href="$TM1638plus__HELLOWORLD__Model1_8ino.html" title="A demo file library for TM1638 module(LED &amp; KEY). Works on Model 1 and 3 Carries out series most basi..." alt="" coords="273,80,471,121"/>
-<area shape="rect" id="node4" href="$TM1638plus__TEST__Model1_8ino.html" title="demo file library for TM1638 module(LED &amp; KEY). Model 1" alt="" coords="496,87,715,114"/>
-<area shape="rect" id="node5" href="$TM1638plus__TEST__Model3_8ino.html" title="demo file library for TM1638 module(8 bicolour green and red LEDs &amp; 8 pushbuttons)." alt="" coords="739,87,957,114"/>
-<area shape="rect" id="node6" href="$TM1638plus_8cpp.html" title="Arduino library Tm1638plus, Source file for TM1638 module(LED &amp; KEY). Model 1 &amp; Model 3." alt="" coords="981,87,1109,114"/>
-</map>
