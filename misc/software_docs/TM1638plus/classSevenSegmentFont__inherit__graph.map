@@ -1,13 +1,15 @@
 <map id="SevenSegmentFont" name="SevenSegmentFont">
-<area shape="rect" id="Node000001" title="Class that provides access to a seven&#45;segment font data table." alt="" coords="104,5,252,31"/>
-<area shape="rect" id="Node000002" href="$classTM1637plus__modelX.html" title="Class for TM1637 Model 4." alt="" coords="5,79,164,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,41,102,81,98,76,151,37"/>
-<area shape="rect" id="Node000003" href="$classTM1638plus__common.html" title="The base Class , used to store common data &amp; functions for all models types." alt="" coords="189,79,354,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,37,258,76,254,81,202,41"/>
-<area shape="rect" id="Node000004" href="$classTM1638plus.html" title="Class for Model 1 tm1638." alt="" coords="143,152,245,177"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="251,115,208,154,205,150,247,111"/>
-<area shape="rect" id="Node000006" href="$classTM1638plus__Model2.html" title="Class for Model 2." alt="" coords="269,152,425,177"/>
-<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="295,111,337,150,333,154,292,115"/>
-<area shape="rect" id="Node000005" href="$classTM1638plus__model3.html" title="Class for Model 3." alt="" coords="115,225,273,251"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="197,191,197,225,191,225,191,191"/>
+<area shape="rect" id="Node000001" title="Class that provides access to a seven&#45;segment font data table." alt="" coords="201,5,349,31"/>
+<area shape="rect" id="Node000002" href="$classMAX7219plus__Model6.html" title="Drive MAX7219 seven segment displays." alt="" coords="5,79,172,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,38,120,81,118,76,232,33"/>
+<area shape="rect" id="Node000003" href="$classTM1637plus__modelX.html" title="Class for TM1637 Model 4." alt="" coords="196,79,355,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="278,44,278,79,273,79,273,44"/>
+<area shape="rect" id="Node000004" href="$classTM1638plus__common.html" title="The base Class , used to store common data &amp; functions for all models types." alt="" coords="379,79,545,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="319,33,432,76,431,81,317,38"/>
+<area shape="rect" id="Node000005" href="$classTM1638plus.html" title="Class for Model 1 tm1638." alt="" coords="334,152,435,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="441,115,399,154,396,150,438,111"/>
+<area shape="rect" id="Node000007" href="$classTM1638plus__Model2.html" title="Class for Model 2." alt="" coords="460,152,616,177"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="486,111,527,150,524,154,482,115"/>
+<area shape="rect" id="Node000006" href="$classTM1638plus__model3.html" title="Class for Model 3." alt="" coords="306,225,463,251"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="387,191,387,225,382,225,382,191"/>
 </map>

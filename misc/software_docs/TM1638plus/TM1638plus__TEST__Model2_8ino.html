@@ -18,7 +18,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">TM1638_plus<span id="projectnumber">&#160;2.1.0</span>
+   <div id="projectname">TM1638_plus<span id="projectnumber">&#160;2.2.0</span>
    </div>
    <div id="projectbrief">Arduino library for Tm1638 modules</div>
   </td>
@@ -49,6 +49,7 @@
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
@@ -60,6 +61,11 @@
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;<a class="el" href="TM1638plus__Model2_8h_source.html">TM1638plus_Model2.h</a>&gt;</code><br />
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton16Handler.html">Button16Handler</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a099a6ff927f1bc41bc1ff31881b7d205" id="r_a099a6ff927f1bc41bc1ff31881b7d205"><td class="memItemLeft" align="right" valign="top"><a id="a099a6ff927f1bc41bc1ff31881b7d205" name="a099a6ff927f1bc41bc1ff31881b7d205"></a>
@@ -131,15 +137,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>high_freq</b> = false
 <tr class="memitem:a0ab94d14166d3b495855053f9a85c6da" id="r_a0ab94d14166d3b495855053f9a85c6da"><td class="memItemLeft" align="right" valign="top"><a id="a0ab94d14166d3b495855053f9a85c6da" name="a0ab94d14166d3b495855053f9a85c6da"></a>
 <a class="el" href="classTM1638plus__Model2.html">TM1638plus_Model2</a>&#160;</td><td class="memItemRight" valign="bottom"><b>tm</b> (STROBE_TM, CLOCK_TM, DIO_TM, swap_nibbles, high_freq)</td></tr>
 <tr class="separator:a0ab94d14166d3b495855053f9a85c6da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee36cc851212c7febed025fe08548b0e" id="r_aee36cc851212c7febed025fe08548b0e"><td class="memItemLeft" align="right" valign="top"><a id="aee36cc851212c7febed025fe08548b0e" name="aee36cc851212c7febed025fe08548b0e"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>testcount</b> = 0</td></tr>
-<tr class="separator:aee36cc851212c7febed025fe08548b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>demo file library for "model 2" TM1638 module(16 KEY 16 pushbuutons). </p>
-<dl class="section author"><dt>Author</dt><dd>Gavin Lyons </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>Carries out series of tests demonstrating arduino library <a class="el" href="classTM1638plus.html" title="Class for Model 1 tm1638.">TM1638plus</a>. The tests will increment automatically with exception of test9, to enter press S16 during test8 </dd></dl>
-<dl class="test"><dt><b><a class="el" href="test.html#_test000004">Test:</a></b></dt><dd><ol type="1">
+<dl class="section author"><dt>Author</dt><dd>Gavin Lyons</dd></dl>
+<p>Carries out series of tests demonstrating arduino library <a class="el" href="classTM1638plus.html" title="Class for Model 1 tm1638.">TM1638plus</a>. The tests will increment automatically with exception of test9, to enter press S16 during test8 Button Class included for Test8, Output to Serial monitor at 9600 baud</p>
+<dl class="test"><dt><b><a class="el" href="test.html#_test000007">Test:</a></b></dt><dd><ol type="1">
 <li>Test 0 reset function test <br  />
 </li>
 <li>Test 1 decimal numbers</li>

@@ -18,7 +18,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">TM1638_plus<span id="projectnumber">&#160;2.1.0</span>
+   <div id="projectname">TM1638_plus<span id="projectnumber">&#160;2.2.0</span>
    </div>
    <div id="projectbrief">Arduino library for Tm1638 modules</div>
   </td>
@@ -50,7 +50,6 @@
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classCommonData-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">CommonData Class Reference</div></div>
 </div><!--header-->
@@ -59,23 +58,25 @@
 <p>Class that provides access to common data.  
  <a href="classCommonData.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="common__data_8h_source.html">common_data.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="seven__segment__font__data_8h_source.html">seven_segment_font_data.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for CommonData:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCommonData__inherit__graph.png" border="0" usemap="#aCommonData_inherit__map" alt="Inheritance graph"/></div>
 <map name="aCommonData_inherit__map" id="aCommonData_inherit__map">
-<area shape="rect" title="Class that provides access to common data." alt="" coords="122,5,234,31"/>
-<area shape="rect" href="classTM1637plus__modelX.html" title="Class for TM1637 Model 4." alt="" coords="5,79,164,104"/>
-<area shape="poly" title=" " alt="" coords="154,41,102,81,98,76,151,37"/>
-<area shape="rect" href="classTM1638plus__common.html" title="The base Class , used to store common data &amp; functions for all models types." alt="" coords="189,79,354,104"/>
-<area shape="poly" title=" " alt="" coords="205,37,258,76,254,81,202,41"/>
-<area shape="rect" href="classTM1638plus.html" title="Class for Model 1 tm1638." alt="" coords="143,152,245,177"/>
-<area shape="poly" title=" " alt="" coords="251,115,208,154,205,150,247,111"/>
-<area shape="rect" href="classTM1638plus__Model2.html" title="Class for Model 2." alt="" coords="269,152,425,177"/>
-<area shape="poly" title=" " alt="" coords="295,111,337,150,333,154,292,115"/>
-<area shape="rect" href="classTM1638plus__model3.html" title="Class for Model 3." alt="" coords="115,225,273,251"/>
-<area shape="poly" title=" " alt="" coords="197,191,197,225,191,225,191,191"/>
+<area shape="rect" title="Class that provides access to common data." alt="" coords="219,5,331,31"/>
+<area shape="rect" href="classMAX7219plus__Model6.html" title="Drive MAX7219 seven segment displays." alt="" coords="5,79,172,104"/>
+<area shape="poly" title=" " alt="" coords="234,38,120,81,118,76,232,33"/>
+<area shape="rect" href="classTM1637plus__modelX.html" title="Class for TM1637 Model 4." alt="" coords="196,79,355,104"/>
+<area shape="poly" title=" " alt="" coords="278,44,278,79,273,79,273,44"/>
+<area shape="rect" href="classTM1638plus__common.html" title="The base Class , used to store common data &amp; functions for all models types." alt="" coords="379,79,545,104"/>
+<area shape="poly" title=" " alt="" coords="319,33,432,76,431,81,317,38"/>
+<area shape="rect" href="classTM1638plus.html" title="Class for Model 1 tm1638." alt="" coords="334,152,435,177"/>
+<area shape="poly" title=" " alt="" coords="441,115,399,154,396,150,438,111"/>
+<area shape="rect" href="classTM1638plus__Model2.html" title="Class for Model 2." alt="" coords="460,152,616,177"/>
+<area shape="poly" title=" " alt="" coords="486,111,527,150,524,154,482,115"/>
+<area shape="rect" href="classTM1638plus__model3.html" title="Class for Model 3." alt="" coords="306,225,463,251"/>
+<area shape="poly" title=" " alt="" coords="387,191,387,225,382,225,382,191"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -84,7 +85,7 @@ Public Types</h2></td></tr>
 <tr class="memitem:a167888e4b13bf1b1f54098207d915f75" id="r_a167888e4b13bf1b1f54098207d915f75"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCommonData.html#a167888e4b13bf1b1f54098207d915f75">DecimalPoint_e</a> : uint8_t { <a class="el" href="classCommonData.html#a167888e4b13bf1b1f54098207d915f75a2642a8db91dfbc5c95e18fa4cb1aedf5">DecPointOff</a> = 0
 , <a class="el" href="classCommonData.html#a167888e4b13bf1b1f54098207d915f75a9b5a0affb11f9d7ee65c60ca84ab97ea">DecPointOn</a> = 1
  }</td></tr>
-<tr class="memdesc:a167888e4b13bf1b1f54098207d915f75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switch on or off decimal point on a digit.  <a href="classCommonData.html#a167888e4b13bf1b1f54098207d915f75">More...</a><br /></td></tr>
+<tr class="memdesc:a167888e4b13bf1b1f54098207d915f75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decimal point on digit control.  <a href="classCommonData.html#a167888e4b13bf1b1f54098207d915f75">More...</a><br /></td></tr>
 <tr class="separator:a167888e4b13bf1b1f54098207d915f75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -94,19 +95,8 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:ab2c903d5716c785fb45dd7f7ac6d4897" id="r_ab2c903d5716c785fb45dd7f7ac6d4897"><td class="memItemLeft" align="right" valign="top">static constexpr uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCommonData.html#ab2c903d5716c785fb45dd7f7ac6d4897">displaylib_LED_VersionNum</a> = 210</td></tr>
+<tr class="memitem:ab2c903d5716c785fb45dd7f7ac6d4897" id="r_ab2c903d5716c785fb45dd7f7ac6d4897"><td class="memItemLeft" align="right" valign="top">static constexpr uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCommonData.html#ab2c903d5716c785fb45dd7f7ac6d4897">displaylib_LED_VersionNum</a> = 220</td></tr>
 <tr class="separator:ab2c903d5716c785fb45dd7f7ac6d4897"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
-Static Protected Attributes</h2></td></tr>
-<tr class="memitem:a8e7c76d02693886c88b3c7ada688efae" id="r_a8e7c76d02693886c88b3c7ada688efae"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCommonData.html#a8e7c76d02693886c88b3c7ada688efae">_ASCII_FONT_OFFSET</a> = 0x20</td></tr>
-<tr class="separator:a8e7c76d02693886c88b3c7ada688efae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1834cf12f241bb8a9e9b6016595e944d" id="r_a1834cf12f241bb8a9e9b6016595e944d"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCommonData.html#a1834cf12f241bb8a9e9b6016595e944d">_ASCII_FONT_END</a> = 0x7B</td></tr>
-<tr class="separator:a1834cf12f241bb8a9e9b6016595e944d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a37cd880939afad27298b9bf230db7c" id="r_a9a37cd880939afad27298b9bf230db7c"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCommonData.html#a9a37cd880939afad27298b9bf230db7c">_ASCII_FONT_HEX_OFFSET</a> = 0x10</td></tr>
-<tr class="separator:a9a37cd880939afad27298b9bf230db7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28c278baada658dc0388685230f03abc" id="r_a28c278baada658dc0388685230f03abc"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCommonData.html#a28c278baada658dc0388685230f03abc">DEC_POINT_7_MASK</a> = 0x80</td></tr>
-<tr class="separator:a28c278baada658dc0388685230f03abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class that provides access to common data. </p>
@@ -123,7 +113,7 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Switch on or off decimal point on a digit. </p>
+<p>Decimal point on digit control. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a167888e4b13bf1b1f54098207d915f75a2642a8db91dfbc5c95e18fa4cb1aedf5" name="a167888e4b13bf1b1f54098207d915f75a2642a8db91dfbc5c95e18fa4cb1aedf5"></a>DecPointOff&#160;</td><td class="fielddoc"><p>Decimal point segment off </p>
 </td></tr>
@@ -134,98 +124,6 @@ Static Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a1834cf12f241bb8a9e9b6016595e944d" name="a1834cf12f241bb8a9e9b6016595e944d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1834cf12f241bb8a9e9b6016595e944d">&#9670;&#160;</a></span>_ASCII_FONT_END</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr uint8_t CommonData::_ASCII_FONT_END = 0x7B</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>End of ASCII Table + 1 </p>
-
-</div>
-</div>
-<a id="a9a37cd880939afad27298b9bf230db7c" name="a9a37cd880939afad27298b9bf230db7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a37cd880939afad27298b9bf230db7c">&#9670;&#160;</a></span>_ASCII_FONT_HEX_OFFSET</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr uint8_t CommonData::_ASCII_FONT_HEX_OFFSET = 0x10</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>ASCII table offset to reach the number position </p>
-
-</div>
-</div>
-<a id="a8e7c76d02693886c88b3c7ada688efae" name="a8e7c76d02693886c88b3c7ada688efae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e7c76d02693886c88b3c7ada688efae">&#9670;&#160;</a></span>_ASCII_FONT_OFFSET</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr uint8_t CommonData::_ASCII_FONT_OFFSET = 0x20</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Offset in the ASCII table for font Start position </p>
-
-</div>
-</div>
-<a id="a28c278baada658dc0388685230f03abc" name="a28c278baada658dc0388685230f03abc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28c278baada658dc0388685230f03abc">&#9670;&#160;</a></span>DEC_POINT_7_MASK</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr uint8_t CommonData::DEC_POINT_7_MASK = 0x80</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Mask to switch on 7 seg decimal point </p>
-
-</div>
-</div>
 <a id="a252b536f641d0448a8481d4fa53493e1" name="a252b536f641d0448a8481d4fa53493e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a252b536f641d0448a8481d4fa53493e1">&#9670;&#160;</a></span>displaylib_LED_debug</h2>
 
@@ -251,7 +149,7 @@ Static Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr uint16_t CommonData::displaylib_LED_VersionNum = 210</td>
+          <td class="memname">constexpr uint16_t CommonData::displaylib_LED_VersionNum = 220</td>
         </tr>
       </table>
   </td>
@@ -265,7 +163,7 @@ Static Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="common__data_8h_source.html">common_data.h</a></li>
+<li><a class="el" href="seven__segment__font__data_8h_source.html">seven_segment_font_data.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

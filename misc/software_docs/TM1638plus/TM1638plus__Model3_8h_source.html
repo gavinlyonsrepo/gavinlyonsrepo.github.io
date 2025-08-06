@@ -18,7 +18,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">TM1638_plus<span id="projectnumber">&#160;2.1.0</span>
+   <div id="projectname">TM1638_plus<span id="projectnumber">&#160;2.2.0</span>
    </div>
    <div id="projectbrief">Arduino library for Tm1638 modules</div>
   </td>
@@ -55,38 +55,36 @@
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef TM1638PLUS_MODEL3_H</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define TM1638PLUS_MODEL3_H</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;cstdio&gt;</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;cstring&gt;</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="TM1638plus_8h.html">TM1638plus.h</a>&quot;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="classTM1638plus__model3.html">   17</a></span><span class="keyword">class </span><a class="code hl_class" href="classTM1638plus__model3.html">TM1638plus_model3</a> : <span class="keyword">public</span> <a class="code hl_class" href="classTM1638plus.html">TM1638plus</a>   {</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871fec">   21</a></span>    <span class="keyword">enum</span> <a class="code hl_enumeration" href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871fec">TMLEDColors</a> : uint8_t</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    {</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871fecae6f488ac40c7727728bea22e9f739171">   23</a></span>        <a class="code hl_enumvalue" href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871fecae6f488ac40c7727728bea22e9f739171">TM_RED_LED</a> = 0x02,   </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871feca3ac604892d92e440c94eea63d9c3bbd2">   24</a></span>        <a class="code hl_enumvalue" href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871feca3ac604892d92e440c94eea63d9c3bbd2">TM_GREEN_LED</a> = 0x01, </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <a class="code hl_enumvalue" href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871feca07dbe692ac266059fe54d5aa3191e8b1">TM_OFF_LED</a> = 0x00    </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871feca07dbe692ac266059fe54d5aa3191e8b1">   26</a></span>    };</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="comment">// Constructor </span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <a class="code hl_class" href="classTM1638plus__model3.html">TM1638plus_model3</a> (uint8_t strobe, uint8_t clock, uint8_t data, <span class="keywordtype">bool</span> highfreq) ;</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="comment">// These methods over-ride the super class.</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classTM1638plus__model3.html#a1e6efaee392122ff95ba2e180ee38acd">setLEDs</a>(uint16_t greenred) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classTM1638plus__model3.html#aba88e25a1c958286dc49c3a8595f1b03">setLED</a>(uint8_t position, uint8_t value) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>};</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="TM1638plus_8h.html">TM1638plus.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="classTM1638plus__model3.html">   15</a></span><span class="keyword">class </span><a class="code hl_class" href="classTM1638plus__model3.html">TM1638plus_model3</a> : <span class="keyword">public</span> <a class="code hl_class" href="classTM1638plus.html">TM1638plus</a>   {</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871fec">   19</a></span>    <span class="keyword">enum</span> <a class="code hl_enumeration" href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871fec">TMLEDColors</a> : uint8_t</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    {</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871fecae6f488ac40c7727728bea22e9f739171">   21</a></span>        <a class="code hl_enumvalue" href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871fecae6f488ac40c7727728bea22e9f739171">TM_RED_LED</a> = 0x02,   </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871feca3ac604892d92e440c94eea63d9c3bbd2">   22</a></span>        <a class="code hl_enumvalue" href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871feca3ac604892d92e440c94eea63d9c3bbd2">TM_GREEN_LED</a> = 0x01, </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        <a class="code hl_enumvalue" href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871feca07dbe692ac266059fe54d5aa3191e8b1">TM_OFF_LED</a> = 0x00    </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871feca07dbe692ac266059fe54d5aa3191e8b1">   24</a></span>    };</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="comment">// Constructor </span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <a class="code hl_class" href="classTM1638plus__model3.html">TM1638plus_model3</a> (uint8_t strobe, uint8_t clock, uint8_t data, <span class="keywordtype">bool</span> highfreq) ;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="comment">// These methods over-ride the super class.</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classTM1638plus__model3.html#a1e6efaee392122ff95ba2e180ee38acd">setLEDs</a>(uint16_t greenred) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classTM1638plus__model3.html#aba88e25a1c958286dc49c3a8595f1b03">setLED</a>(uint8_t position, uint8_t value) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>};</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aTM1638plus_8h_html"><div class="ttname"><a href="TM1638plus_8h.html">TM1638plus.h</a></div><div class="ttdoc">Arduino library Tm1638plus, Header file for TM1638 module(LED &amp; KEY). Model 1.</div></div>
-<div class="ttc" id="aclassTM1638plus__model3_html"><div class="ttname"><a href="classTM1638plus__model3.html">TM1638plus_model3</a></div><div class="ttdoc">Class for Model 3.</div><div class="ttdef"><b>Definition</b> TM1638plus_Model3.h:17</div></div>
+<div class="ttc" id="aclassTM1638plus__model3_html"><div class="ttname"><a href="classTM1638plus__model3.html">TM1638plus_model3</a></div><div class="ttdoc">Class for Model 3.</div><div class="ttdef"><b>Definition</b> TM1638plus_Model3.h:15</div></div>
 <div class="ttc" id="aclassTM1638plus__model3_html_a1e6efaee392122ff95ba2e180ee38acd"><div class="ttname"><a href="classTM1638plus__model3.html#a1e6efaee392122ff95ba2e180ee38acd">TM1638plus_model3::setLEDs</a></div><div class="ttdeci">virtual void setLEDs(uint16_t greenred) override</div><div class="ttdoc">Set all LED's on or off Model 1 &amp; 3.</div><div class="ttdef"><b>Definition</b> TM1638plus_Model3.cpp:46</div></div>
-<div class="ttc" id="aclassTM1638plus__model3_html_a969b0eebdcf8fa28b2b0a52d66871fec"><div class="ttname"><a href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871fec">TM1638plus_model3::TMLEDColors</a></div><div class="ttdeci">TMLEDColors</div><div class="ttdef"><b>Definition</b> TM1638plus_Model3.h:22</div></div>
-<div class="ttc" id="aclassTM1638plus__model3_html_a969b0eebdcf8fa28b2b0a52d66871feca07dbe692ac266059fe54d5aa3191e8b1"><div class="ttname"><a href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871feca07dbe692ac266059fe54d5aa3191e8b1">TM1638plus_model3::TM_OFF_LED</a></div><div class="ttdeci">@ TM_OFF_LED</div><div class="ttdef"><b>Definition</b> TM1638plus_Model3.h:25</div></div>
-<div class="ttc" id="aclassTM1638plus__model3_html_a969b0eebdcf8fa28b2b0a52d66871feca3ac604892d92e440c94eea63d9c3bbd2"><div class="ttname"><a href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871feca3ac604892d92e440c94eea63d9c3bbd2">TM1638plus_model3::TM_GREEN_LED</a></div><div class="ttdeci">@ TM_GREEN_LED</div><div class="ttdef"><b>Definition</b> TM1638plus_Model3.h:24</div></div>
-<div class="ttc" id="aclassTM1638plus__model3_html_a969b0eebdcf8fa28b2b0a52d66871fecae6f488ac40c7727728bea22e9f739171"><div class="ttname"><a href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871fecae6f488ac40c7727728bea22e9f739171">TM1638plus_model3::TM_RED_LED</a></div><div class="ttdeci">@ TM_RED_LED</div><div class="ttdef"><b>Definition</b> TM1638plus_Model3.h:23</div></div>
+<div class="ttc" id="aclassTM1638plus__model3_html_a969b0eebdcf8fa28b2b0a52d66871fec"><div class="ttname"><a href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871fec">TM1638plus_model3::TMLEDColors</a></div><div class="ttdeci">TMLEDColors</div><div class="ttdef"><b>Definition</b> TM1638plus_Model3.h:20</div></div>
+<div class="ttc" id="aclassTM1638plus__model3_html_a969b0eebdcf8fa28b2b0a52d66871feca07dbe692ac266059fe54d5aa3191e8b1"><div class="ttname"><a href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871feca07dbe692ac266059fe54d5aa3191e8b1">TM1638plus_model3::TM_OFF_LED</a></div><div class="ttdeci">@ TM_OFF_LED</div><div class="ttdef"><b>Definition</b> TM1638plus_Model3.h:23</div></div>
+<div class="ttc" id="aclassTM1638plus__model3_html_a969b0eebdcf8fa28b2b0a52d66871feca3ac604892d92e440c94eea63d9c3bbd2"><div class="ttname"><a href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871feca3ac604892d92e440c94eea63d9c3bbd2">TM1638plus_model3::TM_GREEN_LED</a></div><div class="ttdeci">@ TM_GREEN_LED</div><div class="ttdef"><b>Definition</b> TM1638plus_Model3.h:22</div></div>
+<div class="ttc" id="aclassTM1638plus__model3_html_a969b0eebdcf8fa28b2b0a52d66871fecae6f488ac40c7727728bea22e9f739171"><div class="ttname"><a href="classTM1638plus__model3.html#a969b0eebdcf8fa28b2b0a52d66871fecae6f488ac40c7727728bea22e9f739171">TM1638plus_model3::TM_RED_LED</a></div><div class="ttdeci">@ TM_RED_LED</div><div class="ttdef"><b>Definition</b> TM1638plus_Model3.h:21</div></div>
 <div class="ttc" id="aclassTM1638plus__model3_html_aba88e25a1c958286dc49c3a8595f1b03"><div class="ttname"><a href="classTM1638plus__model3.html#aba88e25a1c958286dc49c3a8595f1b03">TM1638plus_model3::setLED</a></div><div class="ttdeci">virtual void setLED(uint8_t position, uint8_t value) override</div><div class="ttdoc">Set ONE LED on or off Model 1 &amp; 3.</div><div class="ttdef"><b>Definition</b> TM1638plus_Model3.cpp:25</div></div>
-<div class="ttc" id="aclassTM1638plus_html"><div class="ttname"><a href="classTM1638plus.html">TM1638plus</a></div><div class="ttdoc">Class for Model 1 tm1638.</div><div class="ttdef"><b>Definition</b> TM1638plus.h:22</div></div>
+<div class="ttc" id="aclassTM1638plus_html"><div class="ttname"><a href="classTM1638plus.html">TM1638plus</a></div><div class="ttdoc">Class for Model 1 tm1638.</div><div class="ttdef"><b>Definition</b> TM1638plus.h:16</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

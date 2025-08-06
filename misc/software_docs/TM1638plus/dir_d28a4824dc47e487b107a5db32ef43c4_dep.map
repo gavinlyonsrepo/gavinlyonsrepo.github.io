@@ -1,34 +1,43 @@
 <map id="examples" name="examples">
-<area shape="rect" id="node2" href="dir_30da0c77b7890c4e42e5ab48dfc7a9a6.html" title="TM1637_TEST_Model4" alt="" coords="2005,34,2173,59"/>
-<area shape="rect" id="node12" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html" title="src" alt="" coords="1098,115,1139,140"/>
-<area shape="poly" id="edge1" href="dir_000002_000001.html" alt="" coords="2059,62,1994,80,1916,90,1812,99,1564,114,1153,128,1153,123,1564,108,1812,94,1915,85,1993,75,2058,57"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000002_000001.html" title="1" alt="" coords="1153,126,1163,141"/>
-<area shape="rect" id="node3" href="dir_f3ad75da49818709a837ee07f73276a4.html" title="TM1637_TEST_Model5" alt="" coords="1813,34,1981,59"/>
-<area shape="poly" id="edge2" href="dir_000003_000001.html" alt="" coords="1867,62,1802,80,1708,95,1611,107,1424,122,1263,128,1154,129,1153,124,1263,122,1423,116,1611,102,1707,90,1801,75,1866,57"/>
-<area shape="rect" id="edge2-headlabel" href="dir_000003_000001.html" title="1" alt="" coords="1153,127,1162,142"/>
-<area shape="rect" id="node4" href="dir_a36c030a7442ce3350e5a8b84fe6eaa1.html" title="TM1638plus_ADC_Model2" alt="" coords="1598,34,1789,59"/>
-<area shape="poly" id="edge3" href="dir_000004_000001.html" alt="" coords="1658,62,1586,80,1462,99,1339,113,1154,127,1153,122,1338,108,1461,94,1585,75,1657,57"/>
-<area shape="rect" id="edge3-headlabel" href="dir_000004_000001.html" title="1" alt="" coords="1154,125,1163,140"/>
-<area shape="rect" id="node5" href="dir_256fb031f7c4378dc83f70504a2c2a5a.html" title="TM1638plus_BUTTON_Model1" alt="" coords="1355,34,1573,59"/>
-<area shape="poly" id="edge4" href="dir_000005_000001.html" alt="" coords="1419,62,1343,80,1154,121,1153,116,1342,75,1417,57"/>
-<area shape="rect" id="edge4-headlabel" href="dir_000005_000001.html" title="1" alt="" coords="1155,119,1164,133"/>
-<area shape="rect" id="node6" href="dir_c1494bf4f8ede3f1fa7ef6cf81b13bc1.html" title="TM1638plus_HELLOWORLD\l_Model1" alt="" coords="1131,27,1330,67"/>
-<area shape="poly" id="edge5" href="dir_000006_000001.html" alt="" coords="1205,69,1148,109,1145,104,1202,65"/>
-<area shape="rect" id="edge5-headlabel" href="dir_000006_000001.html" title="1" alt="" coords="1150,104,1160,118"/>
-<area shape="rect" id="node7" href="dir_432f5bd0ab668af1b0cf30cff4e769fd.html" title="TM1638plus_HELLOWORLD\l_Model2" alt="" coords="909,27,1107,67"/>
-<area shape="poly" id="edge6" href="dir_000007_000001.html" alt="" coords="1036,65,1093,104,1090,109,1033,69"/>
-<area shape="rect" id="edge6-headlabel" href="dir_000007_000001.html" title="1" alt="" coords="1087,90,1097,104"/>
-<area shape="rect" id="node8" href="dir_e418db195b9670e60a7466c5388532c0.html" title="TM1638plus_MQTT_Model2" alt="" coords="683,34,885,59"/>
-<area shape="poly" id="edge7" href="dir_000008_000001.html" alt="" coords="827,57,898,75,1085,116,1084,121,897,80,826,62"/>
-<area shape="rect" id="edge7-headlabel" href="dir_000008_000001.html" title="1" alt="" coords="1077,102,1087,117"/>
-<area shape="rect" id="node9" href="dir_2de67d515bb7c5c521e87ec1e7fbea4b.html" title="TM1638plus_TEST_Model1" alt="" coords="464,34,659,59"/>
-<area shape="poly" id="edge8" href="dir_000009_000001.html" alt="" coords="600,57,673,75,790,93,907,107,1084,121,1084,127,906,112,790,99,671,80,598,62"/>
-<area shape="rect" id="edge8-headlabel" href="dir_000009_000001.html" title="1" alt="" coords="1075,108,1085,123"/>
-<area shape="rect" id="node10" href="dir_4507c99e684cd59c799f88d061eb4353.html" title="TM1638plus_TEST_Model2" alt="" coords="245,34,440,59"/>
-<area shape="poly" id="edge9" href="dir_000010_000001.html" alt="" coords="379,57,452,75,638,99,821,114,977,121,1084,123,1084,128,977,126,820,119,638,104,452,80,378,62"/>
-<area shape="rect" id="edge9-headlabel" href="dir_000010_000001.html" title="1" alt="" coords="1075,110,1084,125"/>
-<area shape="rect" id="node11" href="dir_b00a962f55d1651e42af3b20f9d67b24.html" title="TM1638plus_TEST_Model3" alt="" coords="27,34,221,59"/>
-<area shape="poly" id="edge10" href="dir_000011_000001.html" alt="" coords="160,57,234,75,360,92,488,105,737,120,947,124,1084,124,1084,129,947,130,737,125,488,110,359,97,233,80,158,62"/>
-<area shape="rect" id="edge10-headlabel" href="dir_000011_000001.html" title="1" alt="" coords="1075,111,1084,126"/>
-<area shape="rect" id="clust1" href="dir_d28a4824dc47e487b107a5db32ef43c4.html" alt="" coords="16,16,2296,77"/>
+<area shape="rect" id="node2" href="dir_2faf5fa4f0044411aab261498d14334c.html" title="MAX7219_BCD_Model6" alt="" coords="2633,34,2807,59"/>
+<area shape="rect" id="node15" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html" title="src" alt="" coords="1443,115,1485,140"/>
+<area shape="poly" id="edge1" href="dir_000003_000006.html" alt="" coords="2689,62,2620,80,2515,93,2374,103,2038,117,1498,128,1498,123,2038,112,2374,98,2514,87,2620,75,2688,57"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000003_000006.html" title="1" alt="" coords="1498,127,1508,141"/>
+<area shape="rect" id="node3" href="dir_47f32764ebe6498f49fa2ef6278d9111.html" title="MAX7219_CASCADE_Model6" alt="" coords="2400,34,2608,59"/>
+<area shape="poly" id="edge2" href="dir_000004_000006.html" alt="" coords="2467,62,2388,80,2256,97,2121,110,1860,125,1640,130,1498,129,1498,124,1640,124,1860,119,2121,105,2256,92,2388,75,2466,57"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000004_000006.html" title="1" alt="" coords="1498,128,1508,142"/>
+<area shape="rect" id="node4" href="dir_b5f94d8cc350aac801ebd3593987b08c.html" title="MAX7219_TEST_Model6" alt="" coords="2197,34,2376,59"/>
+<area shape="poly" id="edge3" href="dir_000005_000006.html" alt="" coords="2254,62,2186,80,2086,95,1983,107,1784,122,1613,128,1499,129,1499,124,1613,123,1783,117,1982,102,2085,90,2185,75,2253,57"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000005_000006.html" title="1" alt="" coords="1498,127,1508,142"/>
+<area shape="rect" id="node5" href="dir_30da0c77b7890c4e42e5ab48dfc7a9a6.html" title="TM1637_TEST_Model4" alt="" coords="2005,34,2173,59"/>
+<area shape="poly" id="edge4" href="dir_000008_000006.html" alt="" coords="2058,62,1994,80,1851,102,1709,117,1499,128,1499,123,1709,111,1850,97,1993,75,2057,57"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000008_000006.html" title="1" alt="" coords="1499,126,1508,141"/>
+<area shape="rect" id="node6" href="dir_f3ad75da49818709a837ee07f73276a4.html" title="TM1637_TEST_Model5" alt="" coords="1813,34,1981,59"/>
+<area shape="poly" id="edge5" href="dir_000009_000006.html" alt="" coords="1865,62,1802,80,1632,110,1498,125,1498,120,1631,104,1801,75,1864,57"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000009_000006.html" title="1" alt="" coords="1499,123,1508,138"/>
+<area shape="rect" id="node7" href="dir_a36c030a7442ce3350e5a8b84fe6eaa1.html" title="TM1638plus_ADC_Model2" alt="" coords="1598,34,1789,59"/>
+<area shape="poly" id="edge6" href="dir_000011_000006.html" alt="" coords="1661,62,1499,117,1497,112,1659,57"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000011_000006.html" title="1" alt="" coords="1500,114,1510,128"/>
+<area shape="rect" id="node8" href="dir_256fb031f7c4378dc83f70504a2c2a5a.html" title="TM1638plus_BUTTON_Model1" alt="" coords="1355,34,1573,59"/>
+<area shape="poly" id="edge7" href="dir_000012_000006.html" alt="" coords="1467,60,1467,101,1461,101,1461,60"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000012_000006.html" title="1" alt="" coords="1468,89,1477,104"/>
+<area shape="rect" id="node9" href="dir_c1494bf4f8ede3f1fa7ef6cf81b13bc1.html" title="TM1638plus_HELLOWORLD\l_Model1" alt="" coords="1131,27,1330,67"/>
+<area shape="poly" id="edge8" href="dir_000013_000006.html" alt="" coords="1287,64,1431,112,1430,117,1286,69"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000013_000006.html" title="1" alt="" coords="1424,98,1433,113"/>
+<area shape="rect" id="node10" href="dir_432f5bd0ab668af1b0cf30cff4e769fd.html" title="TM1638plus_HELLOWORLD\l_Model2" alt="" coords="909,27,1107,67"/>
+<area shape="poly" id="edge9" href="dir_000014_000006.html" alt="" coords="1075,64,1121,75,1294,103,1430,120,1430,125,1293,109,1119,80,1074,69"/>
+<area shape="rect" id="edge9-headlabel" href="dir_000014_000006.html" title="1" alt="" coords="1422,106,1431,121"/>
+<area shape="rect" id="node11" href="dir_e418db195b9670e60a7466c5388532c0.html" title="TM1638plus_MQTT_Model2" alt="" coords="683,34,885,59"/>
+<area shape="poly" id="edge10" href="dir_000015_000006.html" alt="" coords="822,57,898,75,1053,96,1205,110,1430,122,1429,128,1205,116,1052,101,897,80,821,62"/>
+<area shape="rect" id="edge10-headlabel" href="dir_000015_000006.html" title="1" alt="" coords="1421,109,1430,124"/>
+<area shape="rect" id="node12" href="dir_2de67d515bb7c5c521e87ec1e7fbea4b.html" title="TM1638plus_TEST_Model1" alt="" coords="464,34,659,59"/>
+<area shape="poly" id="edge11" href="dir_000016_000006.html" alt="" coords="598,57,672,75,784,90,897,102,1118,117,1305,123,1430,124,1430,129,1305,128,1118,122,897,107,783,96,672,80,597,62"/>
+<area shape="rect" id="edge11-headlabel" href="dir_000016_000006.html" title="1" alt="" coords="1420,111,1430,125"/>
+<area shape="rect" id="node13" href="dir_4507c99e684cd59c799f88d061eb4353.html" title="TM1638plus_TEST_Model2" alt="" coords="245,34,440,59"/>
+<area shape="poly" id="edge12" href="dir_000017_000006.html" alt="" coords="378,57,452,75,544,85,665,95,956,109,1430,123,1430,128,956,114,665,100,543,91,452,80,377,62"/>
+<area shape="rect" id="edge12-headlabel" href="dir_000017_000006.html" title="1" alt="" coords="1420,109,1430,124"/>
+<area shape="rect" id="node14" href="dir_b00a962f55d1651e42af3b20f9d67b24.html" title="TM1638plus_TEST_Model3" alt="" coords="27,34,221,59"/>
+<area shape="poly" id="edge13" href="dir_000018_000006.html" alt="" coords="159,57,234,75,347,87,497,97,857,112,1430,123,1430,128,856,117,497,103,346,92,233,80,158,62"/>
+<area shape="rect" id="edge13-headlabel" href="dir_000018_000006.html" title="1" alt="" coords="1421,110,1430,125"/>
+<area shape="rect" id="clust1" href="dir_d28a4824dc47e487b107a5db32ef43c4.html" alt="" coords="16,16,2929,77"/>
 </map>

@@ -5,13 +5,31 @@
 </OBJECT>
 <UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#ad38ddca163e86be02aa31061f1ef9d49"><param name="Name" value="ASCIItoSegment(const uint8_t values[])"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#aefc64b0d79cf1d953a23a17ee1939489a85ef9898c5651f9fe30aa6e135fac41e"><param name="Name" value="AlignLeft"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#aefc64b0d79cf1d953a23a17ee1939489adec1972ba6a66155d3f919d93f65ac85"><param name="Name" value="AlignRight"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#aefc64b0d79cf1d953a23a17ee1939489ad8fbd18bd0563a721d3d6c6abb490c5f"><param name="Name" value="AlignRightZeros"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="TM1638plus__common_8h.html#a48256244d5fe2dfb309cc3331b4b9511"><param name="Name" value="AlignTextType_e"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classButton16Handler.html"><param name="Name" value="Button16Handler"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="structButtonState.html"><param name="Name" value="ButtonState"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a73877ae668f47dcfafd8c5e72fe23056"><param name="Name" value="ClearDisplay(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015a13eeeeb1b4a9ea122798a41d6dc58589"><param name="Name" value="CodeBFontDash"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015a5646442fc8d3e5cd7375ddbbcb72cb25"><param name="Name" value="CodeBFontE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015a8b0209931925e12ec473b7c35ae78619"><param name="Name" value="CodeBFontEight"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015a96299396701cb040c647b65b6a4c18f6"><param name="Name" value="CodeBFontFive"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015a37fcc7550a2ba873dff010c64446f5ea"><param name="Name" value="CodeBFontFour"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015a32f96c9cc63933c604750625392fb763"><param name="Name" value="CodeBFontH"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015a94669eceb2b1f765cfe4c89b3a8251e3"><param name="Name" value="CodeBFontL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015aa73b531a3e0e8c5ae450fdbbcae09612"><param name="Name" value="CodeBFontNine"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015a49dca4d37323cb30c19bd6c4c88089f5"><param name="Name" value="CodeBFontOne"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015adbcba61b0bc4cf51c581c3d8170a5913"><param name="Name" value="CodeBFontP"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015afda9d2fb8ddca95c5d5094edfdd19052"><param name="Name" value="CodeBFontSeven"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015a8603894ade3e9928d0fbc77e58bea08b"><param name="Name" value="CodeBFontSix"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015abad8b6d9957cd568d9aebf4575351430"><param name="Name" value="CodeBFontSpace"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015adccfe2015a2a7921b9b5ae22ee1952a1"><param name="Name" value="CodeBFontThree"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015a6e8ce28adb786589c7677f1db852b9e9"><param name="Name" value="CodeBFontTwo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015a09b81cc3e9ff71742172d8b21325079e"><param name="Name" value="CodeBFontZero"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015"><param name="Name" value="CodeBFont_e"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html"><param name="Name" value="CommonData"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html"><param name="Name" value="CommonData"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a28c278baada658dc0388685230f03abc"><param name="Name" value="DEC_POINT_7_MASK"></OBJECT>
-  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html"><param name="Name" value="CommonData"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a167888e4b13bf1b1f54098207d915f75a2642a8db91dfbc5c95e18fa4cb1aedf5"><param name="Name" value="DecPointOff"></OBJECT>
@@ -26,46 +44,381 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html"><param name="Name" value="CommonData"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a1834cf12f241bb8a9e9b6016595e944d"><param name="Name" value="_ASCII_FONT_END"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html"><param name="Name" value="CommonData"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a9a37cd880939afad27298b9bf230db7c"><param name="Name" value="_ASCII_FONT_HEX_OFFSET"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html"><param name="Name" value="CommonData"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a8e7c76d02693886c88b3c7ada688efae"><param name="Name" value="_ASCII_FONT_OFFSET"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html"><param name="Name" value="CommonData"></OBJECT>
-  <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#ab2c903d5716c785fb45dd7f7ac6d4897"><param name="Name" value="displaylib_LED_VersionNum"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html"><param name="Name" value="CommonData"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a252b536f641d0448a8481d4fa53493e1"><param name="Name" value="displaylib_LED_debug"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a28c278baada658dc0388685230f03abc"><param name="Name" value="DEC_POINT_7_MASK"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classSevenSegmentFont.html#a88ea4e5a8212b0c3cd3f6177a8d8e9e6"><param name="Name" value="DEC_POINT_7_MASK"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a167888e4b13bf1b1f54098207d915f75a2642a8db91dfbc5c95e18fa4cb1aedf5"><param name="Name" value="DecPointOff"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a167888e4b13bf1b1f54098207d915f75a9b5a0affb11f9d7ee65c60ca84ab97ea"><param name="Name" value="DecPointOn"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a167888e4b13bf1b1f54098207d915f75"><param name="Name" value="DecimalPoint_e"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a4a55dba0c121454174501f1ca6ffa8d3aaad970c6b791a724374d74d88d1f6572"><param name="Name" value="DecodeModeBCDOne"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a4a55dba0c121454174501f1ca6ffa8d3a1b79ab4247ed2aa0b6654a8a6990629d"><param name="Name" value="DecodeModeBCDThree"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a4a55dba0c121454174501f1ca6ffa8d3afcf18cf9411fd63eab83e0c4196a5354"><param name="Name" value="DecodeModeBCDTwo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a4a55dba0c121454174501f1ca6ffa8d3af674c6b798afac13dd7262d2679bf4bc"><param name="Name" value="DecodeModeNone"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a4a55dba0c121454174501f1ca6ffa8d3"><param name="Name" value="DecodeMode_e"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a9e8c6ba20ada6b0d250adf69f99e0f30"><param name="Name" value="DisplayBCDChar(uint8_t digit, CodeBFont_e value)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a4f8ede6f85181e9b803da5729f7ac309"><param name="Name" value="DisplayBCDText(char *text)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a4113380fd56c227a0379241ca27a5252"><param name="Name" value="DisplayChar(uint8_t digit, uint8_t value, DecimalPoint_e decimalPoint)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#a1fdfc83b30290b00bb2ef027b31a9014"><param name="Name" value="DisplayDecNum(unsigned long number, uint8_t dots, boolean leadingZeros=true, AlignTextType_e=TMAlignTextLeft)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a8aaccdcf1b103ec0506004a8a9aa9e3a"><param name="Name" value="DisplayDecNumNibble(uint16_t numberUpper, uint16_t numberLower, TextAlignment_e TextAlignment)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#aba1bb2f6938ea570bd425d27c3c56a17"><param name="Name" value="DisplayDecNumNibble(uint16_t numberUpper, uint16_t numberLower, boolean leadingZeros=true, AlignTextType_e=TMAlignTextLeft)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#af5ac037623db475b069afe8f46004a76"><param name="Name" value="DisplayDecNumNibble(uint16_t numberUpper, uint16_t numberLower, uint8_t dots, boolean leadingZeros=true, AlignTextType_e=TMAlignTextLeft)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#a8681813757d53c2ffa00087537dfef49"><param name="Name" value="DisplayDecimal(int num, bool leading_zero, uint8_t length, uint8_t pos)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#a7a6a5123a90138df317fc135b196dc4d"><param name="Name" value="DisplayDecimalwDot(int num, uint8_t dots, bool leading_zero, uint8_t length, uint8_t pos)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#a40c0451f8d1e0eab3af2c76aa4452334"><param name="Name" value="DisplayHexNum(uint16_t numberUpper, uint16_t numberLower, uint8_t dots, boolean leadingZeros=true, AlignTextType_e=TMAlignTextLeft)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#ae58ec488ae9a463ccdff4e1088672d4f"><param name="Name" value="DisplayIntNum(unsigned long number, TextAlignment_e TextAlignment)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#aa0b8f2a9aee98c1868abb0fcf872c3ff"><param name="Name" value="DisplaySegments(uint8_t segment, uint8_t segmentValue)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#a90515564a7065c4eccdbf40115b78a58"><param name="Name" value="DisplayStr(const char *string, const uint16_t dots=0)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#ab15687d951c973b8c93b6ef1102233e2"><param name="Name" value="DisplayString(const char *numStr, uint8_t dots, uint8_t length, uint8_t position)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a6351ce557518dd1a4ea2d46bd79619d3"><param name="Name" value="DisplayTestMode(bool OnOff)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#af319554bb58e2de42d4e91fa78bfffee"><param name="Name" value="DisplayText(char *text)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a80d7f9401162884d6dea60ecc8caff80"><param name="Name" value="DisplayText(char *text, TextAlignment_e TextAlignment)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a7c6a89c6e02e1aec32ba14641727346c"><param name="Name" value="GetCommDelay(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#abfdf3e4aebf430ca1796cec64bf4e0d5"><param name="Name" value="GetCurrentDisplayNumber(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a6be3ef36020375606408d4324c8e7e08"><param name="Name" value="GetHardwareSPI(void)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a6d9998ecb156ce2dabae5168f836c064"><param name="Name" value="HighFreqshiftOut(uint8_t dataPin, uint8_t clockPin, uint8_t bitOrder, uint8_t val)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a1a0877bd687e881ea2e93ffb63edea6e"><param name="Name" value="HighFreqshiftin(uint8_t dataPin, uint8_t clockPin, uint8_t bitOrder)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a3a16e1ec088cf54710014638ad80706b"><param name="Name" value="InitDisplay(ScanLimit_e numDigits, DecodeMode_e decodeMode)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#affde4ce413f05adc6f4d45682bcdce93a5558dd991ec24850ff792b28f46dde41"><param name="Name" value="IntensityDefault"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#affde4ce413f05adc6f4d45682bcdce93aefbd90f310778663ce3d1b01cb18e5a6"><param name="Name" value="IntensityMax"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#affde4ce413f05adc6f4d45682bcdce93afd2904985be87e57106de1bc4d64a74b"><param name="Name" value="IntensityMin"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#affde4ce413f05adc6f4d45682bcdce93"><param name="Name" value="Intensity_e"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="md__2home_2gll_2Documents_2Tech_2Arduino__LIBS_2TM1638plus_2extra_2doc_2max7219_2README.html"><param name="Name" value="MAX7219 README"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a7795ed1d1cf9df07fa6180ca7c6421d4adec6772e67d21e2abac85b0a1dfbe53b"><param name="Name" value="MAX7219_REG_DecodeMode"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a7795ed1d1cf9df07fa6180ca7c6421d4a51b9ccfff0253b7484e9b7a4137c3d8a"><param name="Name" value="MAX7219_REG_DisplayTest"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a7795ed1d1cf9df07fa6180ca7c6421d4a0cedff410230d5f1e6f60762ce9f8177"><param name="Name" value="MAX7219_REG_Intensity"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a7795ed1d1cf9df07fa6180ca7c6421d4a35a97571b86f32b0d886af4ec840c355"><param name="Name" value="MAX7219_REG_NOP"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a7795ed1d1cf9df07fa6180ca7c6421d4a3734acb9b8bdf6a94bf129bff19f7a21"><param name="Name" value="MAX7219_REG_ScanLimit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a7795ed1d1cf9df07fa6180ca7c6421d4a6a40a7dbc8dec8a7faf4a86e0d079a5e"><param name="Name" value="MAX7219_REG_ShutDown"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="MAX7219plus_8h.html"><param name="Name" value="MAX7219plus.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MAX7219plus_8h.html#ad78cb6585e31bd0c5a4b15c2743be9be"><param name="Name" value="MAX_P_SPI_CLOCK_DIV"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="MAX7219plus_8h.html"><param name="Name" value="MAX7219plus.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MAX7219plus_8h.html#ac1fbcabde3aeb5834053fbe8eb210ce8"><param name="Name" value="MAX_P_SPI_DIRECTION"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="MAX7219plus_8h.html"><param name="Name" value="MAX7219plus.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MAX7219plus_8h.html#a0a77b7358939cfc5922a1f69637a8df8"><param name="Name" value="MAX_P_SPI_FREQ"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="MAX7219plus_8h.html"><param name="Name" value="MAX7219plus.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MAX7219plus_8h.html#a35dddbf07dd3652113953cfc3aaf1a34"><param name="Name" value="MAX_P_SPI_MODE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a4568cf8c4ba5386eb8a2919cfd4b4dc2"><param name="Name" value="MAX7219plus_Model6(uint8_t chipSelect, uint8_t clock, uint8_t data, uint16_t CommDelay, uint8_t totalDisplays)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#ac9fcaaa6eba27cbf4f1522bc2286fae2"><param name="Name" value="MAX7219plus_Model6(uint8_t chipSelect, uint8_t totalDisplays)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#aefc64b0d79cf1d953a23a17ee1939489a85ef9898c5651f9fe30aa6e135fac41e"><param name="Name" value="AlignLeft"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#aefc64b0d79cf1d953a23a17ee1939489adec1972ba6a66155d3f919d93f65ac85"><param name="Name" value="AlignRight"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#aefc64b0d79cf1d953a23a17ee1939489ad8fbd18bd0563a721d3d6c6abb490c5f"><param name="Name" value="AlignRightZeros"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a73877ae668f47dcfafd8c5e72fe23056"><param name="Name" value="ClearDisplay(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015a13eeeeb1b4a9ea122798a41d6dc58589"><param name="Name" value="CodeBFontDash"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015a5646442fc8d3e5cd7375ddbbcb72cb25"><param name="Name" value="CodeBFontE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015a8b0209931925e12ec473b7c35ae78619"><param name="Name" value="CodeBFontEight"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015a96299396701cb040c647b65b6a4c18f6"><param name="Name" value="CodeBFontFive"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015a37fcc7550a2ba873dff010c64446f5ea"><param name="Name" value="CodeBFontFour"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015a32f96c9cc63933c604750625392fb763"><param name="Name" value="CodeBFontH"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015a94669eceb2b1f765cfe4c89b3a8251e3"><param name="Name" value="CodeBFontL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015aa73b531a3e0e8c5ae450fdbbcae09612"><param name="Name" value="CodeBFontNine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015a49dca4d37323cb30c19bd6c4c88089f5"><param name="Name" value="CodeBFontOne"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015adbcba61b0bc4cf51c581c3d8170a5913"><param name="Name" value="CodeBFontP"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015afda9d2fb8ddca95c5d5094edfdd19052"><param name="Name" value="CodeBFontSeven"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015a8603894ade3e9928d0fbc77e58bea08b"><param name="Name" value="CodeBFontSix"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015abad8b6d9957cd568d9aebf4575351430"><param name="Name" value="CodeBFontSpace"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015adccfe2015a2a7921b9b5ae22ee1952a1"><param name="Name" value="CodeBFontThree"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015a6e8ce28adb786589c7677f1db852b9e9"><param name="Name" value="CodeBFontTwo"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015a09b81cc3e9ff71742172d8b21325079e"><param name="Name" value="CodeBFontZero"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a057791f005a9bda45fbb3d134db85015"><param name="Name" value="CodeBFont_e"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a4a55dba0c121454174501f1ca6ffa8d3aaad970c6b791a724374d74d88d1f6572"><param name="Name" value="DecodeModeBCDOne"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a4a55dba0c121454174501f1ca6ffa8d3a1b79ab4247ed2aa0b6654a8a6990629d"><param name="Name" value="DecodeModeBCDThree"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a4a55dba0c121454174501f1ca6ffa8d3afcf18cf9411fd63eab83e0c4196a5354"><param name="Name" value="DecodeModeBCDTwo"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a4a55dba0c121454174501f1ca6ffa8d3af674c6b798afac13dd7262d2679bf4bc"><param name="Name" value="DecodeModeNone"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a4a55dba0c121454174501f1ca6ffa8d3"><param name="Name" value="DecodeMode_e"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a9e8c6ba20ada6b0d250adf69f99e0f30"><param name="Name" value="DisplayBCDChar(uint8_t digit, CodeBFont_e value)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a4f8ede6f85181e9b803da5729f7ac309"><param name="Name" value="DisplayBCDText(char *text)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a4113380fd56c227a0379241ca27a5252"><param name="Name" value="DisplayChar(uint8_t digit, uint8_t value, DecimalPoint_e decimalPoint)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a8aaccdcf1b103ec0506004a8a9aa9e3a"><param name="Name" value="DisplayDecNumNibble(uint16_t numberUpper, uint16_t numberLower, TextAlignment_e TextAlignment)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#ae58ec488ae9a463ccdff4e1088672d4f"><param name="Name" value="DisplayIntNum(unsigned long number, TextAlignment_e TextAlignment)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a6351ce557518dd1a4ea2d46bd79619d3"><param name="Name" value="DisplayTestMode(bool OnOff)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#af319554bb58e2de42d4e91fa78bfffee"><param name="Name" value="DisplayText(char *text)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a80d7f9401162884d6dea60ecc8caff80"><param name="Name" value="DisplayText(char *text, TextAlignment_e TextAlignment)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a7c6a89c6e02e1aec32ba14641727346c"><param name="Name" value="GetCommDelay(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#abfdf3e4aebf430ca1796cec64bf4e0d5"><param name="Name" value="GetCurrentDisplayNumber(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a6be3ef36020375606408d4324c8e7e08"><param name="Name" value="GetHardwareSPI(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a3a16e1ec088cf54710014638ad80706b"><param name="Name" value="InitDisplay(ScanLimit_e numDigits, DecodeMode_e decodeMode)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#affde4ce413f05adc6f4d45682bcdce93a5558dd991ec24850ff792b28f46dde41"><param name="Name" value="IntensityDefault"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#affde4ce413f05adc6f4d45682bcdce93aefbd90f310778663ce3d1b01cb18e5a6"><param name="Name" value="IntensityMax"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#affde4ce413f05adc6f4d45682bcdce93afd2904985be87e57106de1bc4d64a74b"><param name="Name" value="IntensityMin"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#affde4ce413f05adc6f4d45682bcdce93"><param name="Name" value="Intensity_e"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a7795ed1d1cf9df07fa6180ca7c6421d4adec6772e67d21e2abac85b0a1dfbe53b"><param name="Name" value="MAX7219_REG_DecodeMode"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a7795ed1d1cf9df07fa6180ca7c6421d4a51b9ccfff0253b7484e9b7a4137c3d8a"><param name="Name" value="MAX7219_REG_DisplayTest"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a7795ed1d1cf9df07fa6180ca7c6421d4a0cedff410230d5f1e6f60762ce9f8177"><param name="Name" value="MAX7219_REG_Intensity"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a7795ed1d1cf9df07fa6180ca7c6421d4a35a97571b86f32b0d886af4ec840c355"><param name="Name" value="MAX7219_REG_NOP"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a7795ed1d1cf9df07fa6180ca7c6421d4a3734acb9b8bdf6a94bf129bff19f7a21"><param name="Name" value="MAX7219_REG_ScanLimit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a7795ed1d1cf9df07fa6180ca7c6421d4a6a40a7dbc8dec8a7faf4a86e0d079a5e"><param name="Name" value="MAX7219_REG_ShutDown"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a4568cf8c4ba5386eb8a2919cfd4b4dc2"><param name="Name" value="MAX7219plus_Model6(uint8_t chipSelect, uint8_t clock, uint8_t data, uint16_t CommDelay, uint8_t totalDisplays)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#ac9fcaaa6eba27cbf4f1522bc2286fae2"><param name="Name" value="MAX7219plus_Model6(uint8_t chipSelect, uint8_t totalDisplays)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a7795ed1d1cf9df07fa6180ca7c6421d4"><param name="Name" value="RegisterModes_e"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a98d1bd9ce18fea142a625afebc53f1a6a1e588e6e0b4db0f218451ae151ffddf2"><param name="Name" value="ScanEightDigit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a98d1bd9ce18fea142a625afebc53f1a6aa4ec0901e1f2b3a34b42dbc13c1f6f5b"><param name="Name" value="ScanFiveDigit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a98d1bd9ce18fea142a625afebc53f1a6a5d0c892822d501ad65f7af8272375c76"><param name="Name" value="ScanFourDigit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a98d1bd9ce18fea142a625afebc53f1a6"><param name="Name" value="ScanLimit_e"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a98d1bd9ce18fea142a625afebc53f1a6aea673aa50490577066f90edf018cda7b"><param name="Name" value="ScanOneDigit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a98d1bd9ce18fea142a625afebc53f1a6abf2ddbb803df6567043131db205d5a18"><param name="Name" value="ScanSevenDigit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a98d1bd9ce18fea142a625afebc53f1a6ac249d4f1766885c64e9d20de52f25aab"><param name="Name" value="ScanSixDigit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a98d1bd9ce18fea142a625afebc53f1a6a5b519c0f7a430d5756f30dbbdb852b5f"><param name="Name" value="ScanThreeDigit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a98d1bd9ce18fea142a625afebc53f1a6aac979e2a22cd5391d1123def9d167372"><param name="Name" value="ScanTwoDigit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#ac0390ae90c8c438fc1fd7b75217d9ea6"><param name="Name" value="SetBrightness(uint8_t brightness)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a605b3ac53bddd8cdaa0735997ec95b1b"><param name="Name" value="SetCommDelay(uint16_t commDelay)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#aaade67520f3aefbbbbd7af6a48ad697a"><param name="Name" value="SetCurrentDisplayNumber(uint8_t)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#aa499f4156aebddb19d042f8a773abbf7"><param name="Name" value="SetSegment(uint8_t digit, uint8_t segment)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a59b55d55696d7372884b20aaad805ebb"><param name="Name" value="ShutdownMode(bool OnOff)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html"><param name="Name" value="MAX7219plus_Model6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#aefc64b0d79cf1d953a23a17ee1939489"><param name="Name" value="TextAlignment_e"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="MAX7219plus_8h.html#ad78cb6585e31bd0c5a4b15c2743be9be"><param name="Name" value="MAX_P_SPI_CLOCK_DIV"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="MAX7219plus_8h.html#ac1fbcabde3aeb5834053fbe8eb210ce8"><param name="Name" value="MAX_P_SPI_DIRECTION"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="MAX7219plus_8h.html#a0a77b7358939cfc5922a1f69637a8df8"><param name="Name" value="MAX_P_SPI_FREQ"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="MAX7219plus_8h.html#a35dddbf07dd3652113953cfc3aaf1a34"><param name="Name" value="MAX_P_SPI_MODE"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#a408f81481670ab3aae346f41aa494559"><param name="Name" value="ReadKey16(void)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__Model2.html#af8686814f4ea89080b74694546cb5e8b"><param name="Name" value="ReadKey16Two(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a7795ed1d1cf9df07fa6180ca7c6421d4"><param name="Name" value="RegisterModes_e"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a98d1bd9ce18fea142a625afebc53f1a6a1e588e6e0b4db0f218451ae151ffddf2"><param name="Name" value="ScanEightDigit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a98d1bd9ce18fea142a625afebc53f1a6aa4ec0901e1f2b3a34b42dbc13c1f6f5b"><param name="Name" value="ScanFiveDigit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a98d1bd9ce18fea142a625afebc53f1a6a5d0c892822d501ad65f7af8272375c76"><param name="Name" value="ScanFourDigit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a98d1bd9ce18fea142a625afebc53f1a6"><param name="Name" value="ScanLimit_e"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a98d1bd9ce18fea142a625afebc53f1a6aea673aa50490577066f90edf018cda7b"><param name="Name" value="ScanOneDigit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a98d1bd9ce18fea142a625afebc53f1a6abf2ddbb803df6567043131db205d5a18"><param name="Name" value="ScanSevenDigit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a98d1bd9ce18fea142a625afebc53f1a6ac249d4f1766885c64e9d20de52f25aab"><param name="Name" value="ScanSixDigit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a98d1bd9ce18fea142a625afebc53f1a6a5b519c0f7a430d5756f30dbbdb852b5f"><param name="Name" value="ScanThreeDigit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a98d1bd9ce18fea142a625afebc53f1a6aac979e2a22cd5391d1123def9d167372"><param name="Name" value="ScanTwoDigit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#ac0390ae90c8c438fc1fd7b75217d9ea6"><param name="Name" value="SetBrightness(uint8_t brightness)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a605b3ac53bddd8cdaa0735997ec95b1b"><param name="Name" value="SetCommDelay(uint16_t commDelay)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#aaade67520f3aefbbbbd7af6a48ad697a"><param name="Name" value="SetCurrentDisplayNumber(uint8_t)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#aa499f4156aebddb19d042f8a773abbf7"><param name="Name" value="SetSegment(uint8_t digit, uint8_t segment)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classSevenSegmentFont.html"><param name="Name" value="SevenSegmentFont"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classSevenSegmentFont.html"><param name="Name" value="SevenSegmentFont"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSevenSegmentFont.html#a88ea4e5a8212b0c3cd3f6177a8d8e9e6"><param name="Name" value="DEC_POINT_7_MASK"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classSevenSegmentFont.html"><param name="Name" value="SevenSegmentFont"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSevenSegmentFont.html#ac02ab7830efdbe18298de66c30cf2a2d"><param name="Name" value="_ASCII_FONT_END"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classSevenSegmentFont.html"><param name="Name" value="SevenSegmentFont"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSevenSegmentFont.html#adb1dc83e9ee8d1e7676811355446fe16"><param name="Name" value="_ASCII_FONT_HEX_OFFSET"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classSevenSegmentFont.html"><param name="Name" value="SevenSegmentFont"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSevenSegmentFont.html#ae0020b2e8c8e209fd5e6f83d51eee519"><param name="Name" value="_ASCII_FONT_OFFSET"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classSevenSegmentFont.html"><param name="Name" value="SevenSegmentFont"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classSevenSegmentFont.html#a1fee642eaf7f6bc15922a05b1f1d8864"><param name="Name" value="pFontSevenSegptr()"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#a59b55d55696d7372884b20aaad805ebb"><param name="Name" value="ShutdownMode(bool OnOff)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="md__2home_2gll_2Documents_2Tech_2Arduino__LIBS_2TM1638plus_2extra_2doc_2tm1637_2README.html"><param name="Name" value="TM1637 README"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html"><param name="Name" value="TM1637plus_modelX"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#a63a8c361b694810748b52127e1358622"><param name="Name" value="TM1637plus_modelX(uint8_t clock, uint8_t data, int delay, int DisplaySize)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html"><param name="Name" value="TM1637plus_modelX"></OBJECT>
@@ -108,6 +461,7 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1637plus__modelX.html#a746cf8ca176b73bb5484a101f3a336d7"><param name="Name" value="setSegments(const uint8_t segments[], uint8_t length, uint8_t pos)"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="md__2home_2gll_2Documents_2Tech_2Arduino__LIBS_2TM1638plus_2extra_2doc_2tm1638_2README.html"><param name="Name" value="TM1638 README"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html"><param name="Name" value="TM1638plus"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html#a6b9cb1d0450934d8da7639fae162aeec"><param name="Name" value="TM1638plus(uint8_t strobe, uint8_t clock, uint8_t data, bool highfreq)"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus.html"><param name="Name" value="TM1638plus"></OBJECT>
@@ -339,10 +693,12 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a0662ac9c6a76feb66c2227292ff1265f"><param name="Name" value="TM_SEG_ADR"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a8bb00894a93c412e42ab9c75bc2e093d"><param name="Name" value="TM_WRITE_INC"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a15955666cb74101a208089e3de9e832f"><param name="Name" value="TM_WRITE_LOC"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="md__2home_2gll_2Documents_2Tech_2Arduino__LIBS_2TM1638plus_2extra_2TODO.html"><param name="Name" value="TODO"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="test.html"><param name="Name" value="Test List"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a1834cf12f241bb8a9e9b6016595e944d"><param name="Name" value="_ASCII_FONT_END"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a9a37cd880939afad27298b9bf230db7c"><param name="Name" value="_ASCII_FONT_HEX_OFFSET"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommonData.html#a8e7c76d02693886c88b3c7ada688efae"><param name="Name" value="_ASCII_FONT_OFFSET"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMAX7219plus__Model6.html#aefc64b0d79cf1d953a23a17ee1939489"><param name="Name" value="TextAlignment_e"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classSevenSegmentFont.html#ac02ab7830efdbe18298de66c30cf2a2d"><param name="Name" value="_ASCII_FONT_END"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classSevenSegmentFont.html#adb1dc83e9ee8d1e7676811355446fe16"><param name="Name" value="_ASCII_FONT_HEX_OFFSET"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classSevenSegmentFont.html#ae0020b2e8c8e209fd5e6f83d51eee519"><param name="Name" value="_ASCII_FONT_OFFSET"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a91293adde2d2592d7a3e4fa925ce4051"><param name="Name" value="_CLOCK_IO"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#a4d0d1aa9eca0843e2eba3030be9e2ec6"><param name="Name" value="_DATA_IO"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTM1638plus__common.html#ab12c8828d27bd20f3830abf632ae8524"><param name="Name" value="_HFIN_DELAY"></OBJECT>
