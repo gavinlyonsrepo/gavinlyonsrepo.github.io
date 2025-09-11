@@ -6,7 +6,7 @@ var indexSectionsWithContent =
   3: "bdgis",
   4: "abcdefghilnprstw",
   5: "_abcdgimprst",
-  6: "bcdprst",
+  6: "bcdiprst",
   7: "bcdfghimnoprstw",
   8: "012abcdfgilmoprstv"
 };

@@ -90,6 +90,7 @@ var menudata={children:[
 {text:"c",url:"functions_eval.html#index_c"},
 {text:"d",url:"functions_eval.html#index_d"},
 {text:"h",url:"functions_eval.html#index_h"},
+{text:"i",url:"functions_eval.html#index_i"},
 {text:"o",url:"functions_eval.html#index_o"},
 {text:"s",url:"functions_eval.html#index_s"},
 {text:"t",url:"functions_eval.html#index_t"}]}]}]},

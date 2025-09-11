@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.3.0</span>
+   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.3.1</span>
    </div>
    <div id="projectbrief">Driver for 16-bit colour graphics displays,  Rpi PICO  library.</div>
   </td>
@@ -164,6 +164,9 @@ Macros</h2></td></tr>
 <tr class="memitem:aef2318ecbe3741c0fdbba3a90a428815" id="r_aef2318ecbe3741c0fdbba3a90a428815"><td class="memItemLeft" align="right" valign="top"><a id="aef2318ecbe3741c0fdbba3a90a428815" name="aef2318ecbe3741c0fdbba3a90a428815"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_SDATA_SetLow</b>&#160;&#160;&#160;gpio_put(_display_SDATA, false)</td></tr>
 <tr class="separator:aef2318ecbe3741c0fdbba3a90a428815"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5f96ac16355099a53b41a21382ed552" id="r_af5f96ac16355099a53b41a21382ed552"><td class="memItemLeft" align="right" valign="top"><a id="af5f96ac16355099a53b41a21382ed552" name="af5f96ac16355099a53b41a21382ed552"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_MISO_Read</b>&#160;&#160;&#160;gpio_get(_display_MISO)</td></tr>
+<tr class="separator:af5f96ac16355099a53b41a21382ed552"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb16c3507dfd94ba4b035784aeb24e2b" id="r_afb16c3507dfd94ba4b035784aeb24e2b"><td class="memItemLeft" align="right" valign="top"><a id="afb16c3507dfd94ba4b035784aeb24e2b" name="afb16c3507dfd94ba4b035784aeb24e2b"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_DC_SetDigitalOutput</b>&#160;&#160;&#160;gpio_set_dir(_display_DC, GPIO_OUT)</td></tr>
 <tr class="separator:afb16c3507dfd94ba4b035784aeb24e2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -179,18 +182,27 @@ Macros</h2></td></tr>
 <tr class="memitem:ad2fea0c4144f82e5e1cde7edf2ecb98c" id="r_ad2fea0c4144f82e5e1cde7edf2ecb98c"><td class="memItemLeft" align="right" valign="top"><a id="ad2fea0c4144f82e5e1cde7edf2ecb98c" name="ad2fea0c4144f82e5e1cde7edf2ecb98c"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_SDATA_SetDigitalOutput</b>&#160;&#160;&#160;gpio_set_dir(_display_SDATA, GPIO_OUT)</td></tr>
 <tr class="separator:ad2fea0c4144f82e5e1cde7edf2ecb98c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a716bbaa08a476397ad5bb8ad61d3985c" id="r_a716bbaa08a476397ad5bb8ad61d3985c"><td class="memItemLeft" align="right" valign="top"><a id="a716bbaa08a476397ad5bb8ad61d3985c" name="a716bbaa08a476397ad5bb8ad61d3985c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_MISO_SetDigitalInput</b>&#160;&#160;&#160;gpio_set_dir(_display_MISO, GPIO_IN)</td></tr>
+<tr class="separator:a716bbaa08a476397ad5bb8ad61d3985c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf82fa746617405621bd4f79ee6d4f55" id="r_acf82fa746617405621bd4f79ee6d4f55"><td class="memItemLeft" align="right" valign="top"><a id="acf82fa746617405621bd4f79ee6d4f55" name="acf82fa746617405621bd4f79ee6d4f55"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_SCLK_SPI_FUNC</b>&#160;&#160;&#160;gpio_set_function(_display_SCLK, GPIO_FUNC_SPI)</td></tr>
 <tr class="separator:acf82fa746617405621bd4f79ee6d4f55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c5cf48de9def2283e677b5d5213e50a" id="r_a7c5cf48de9def2283e677b5d5213e50a"><td class="memItemLeft" align="right" valign="top"><a id="a7c5cf48de9def2283e677b5d5213e50a" name="a7c5cf48de9def2283e677b5d5213e50a"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_SDATA_SPI_FUNC</b>&#160;&#160;&#160;gpio_set_function(_display_SDATA, GPIO_FUNC_SPI)</td></tr>
 <tr class="separator:a7c5cf48de9def2283e677b5d5213e50a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28b1b4662258fec83b3f165388b971c0" id="r_a28b1b4662258fec83b3f165388b971c0"><td class="memItemLeft" align="right" valign="top"><a id="a28b1b4662258fec83b3f165388b971c0" name="a28b1b4662258fec83b3f165388b971c0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_MISO_SPI_FUNC</b>&#160;&#160;&#160;gpio_set_function(_display_MISO, GPIO_FUNC_SPI)</td></tr>
+<tr class="separator:a28b1b4662258fec83b3f165388b971c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab07371cdb8ca0cbbd58c3a47c44c6321" id="r_ab07371cdb8ca0cbbd58c3a47c44c6321"><td class="memItemLeft" align="right" valign="top"><a id="ab07371cdb8ca0cbbd58c3a47c44c6321" name="ab07371cdb8ca0cbbd58c3a47c44c6321"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_SCLK_SPI_FUNC_OFF</b>&#160;&#160;&#160;gpio_set_function(_display_SCLK, GPIO_FUNC_NULL)</td></tr>
 <tr class="separator:ab07371cdb8ca0cbbd58c3a47c44c6321"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10937b74672a7df362694171a09a136b" id="r_a10937b74672a7df362694171a09a136b"><td class="memItemLeft" align="right" valign="top"><a id="a10937b74672a7df362694171a09a136b" name="a10937b74672a7df362694171a09a136b"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_SDATA_SPI_FUNC_OFF</b>&#160;&#160;&#160;gpio_set_function(_display_SDATA, GPIO_FUNC_NULL)</td></tr>
 <tr class="separator:a10937b74672a7df362694171a09a136b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70413cc2e0483ab2e65bd683547f9637" id="r_a70413cc2e0483ab2e65bd683547f9637"><td class="memItemLeft" align="right" valign="top"><a id="a70413cc2e0483ab2e65bd683547f9637" name="a70413cc2e0483ab2e65bd683547f9637"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_MISO_SPI_FUNC_OFF</b>&#160;&#160;&#160;gpio_set_function(_display_MISO, GPIO_FUNC_NULL)</td></tr>
+<tr class="separator:a70413cc2e0483ab2e65bd683547f9637"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabc3aaf5f9dde8ed1b1472e11419d4d4" id="r_aabc3aaf5f9dde8ed1b1472e11419d4d4"><td class="memItemLeft" align="right" valign="top"><a id="aabc3aaf5f9dde8ed1b1472e11419d4d4" name="aabc3aaf5f9dde8ed1b1472e11419d4d4"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>MILLISEC_DELAY</b>&#160;&#160;&#160;busy_wait_ms</td></tr>
 <tr class="separator:aabc3aaf5f9dde8ed1b1472e11419d4d4"><td class="memSeparator" colspan="2">&#160;</td></tr>

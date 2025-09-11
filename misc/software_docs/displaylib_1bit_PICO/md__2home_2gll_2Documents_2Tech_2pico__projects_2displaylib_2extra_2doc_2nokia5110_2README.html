@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">displaylib_1bit_PICO<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">displaylib_1bit_PICO<span id="projectnumber">&#160;2.0.1</span>
    </div>
    <div id="projectbrief">1-bit colour graphic display library, Rpi PICO RP2040  library</div>
   </td>
@@ -73,8 +73,8 @@ $(function() {
   <div class="headertitle"><div class="title">NOKIA 5110 Readme</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md22"></a> </p>
-<h1><a class="anchor" id="autotoc_md23"></a>
+<div class="textblock"><p><a class="anchor" id="autotoc_md21"></a> </p>
+<h1><a class="anchor" id="autotoc_md22"></a>
 Table of contents</h1>
 <ul>
 <li>Overview</li>
@@ -85,14 +85,13 @@ Table of contents</h1>
 </li>
 <li>Output</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md24"></a>
+<h1><a class="anchor" id="autotoc_md23"></a>
 Overview</h1>
 <ul>
 <li>Name: <a class="el" href="classNOKIA__5110.html" title="Class Controls SPI comms and LCD functionality.">NOKIA_5110</a></li>
 <li>Description:</li>
 </ul>
 <p>0. C++ Library for Nokia 5110 LCD, PCD8544 Driver. 84 x 48 pixels.</p><ol type="1">
-<li>Dynamic install-able Linux based Single Board Computers C++ library.</li>
 <li>Invert colour, rotate, sleep, contrast bias control supported.</li>
 <li>Bitmaps supported.</li>
 <li>Hardware SPI</li>
@@ -100,30 +99,18 @@ Overview</h1>
 <ul>
 <li>Author: Gavin Lyons</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md25"></a>
+<h1><a class="anchor" id="autotoc_md24"></a>
 Hardware</h1>
-<p>The Nokia 5110 is a basic graphic LCD screen for lots of applications. GPIO function on RPI, 5 Nokia 5110 LCD lines SPI bus. Use any GPIO user likes for Software SPI. For Hardware the user can use any GPIO for reset and data/command line</p>
+<p>The Nokia 5110 is a basic graphic LCD screen for lots of applications. GPIO function on RPI, 5 Nokia 5110 LCD lines SPI bus. The user can use any GPIO for reset, data/command line and chip select. Clock and data are tied to hardware interface chosen. The driver chip is PCD8544.</p>
 <p>Example file set up :</p>
-<table class="markdownTable">
-<tr class="markdownTableHead">
-<th class="markdownTableHeadNone">RPI pin(HW SPI)   </th><th class="markdownTableHeadNone">RPI pin(SW SPI)   </th><th class="markdownTableHeadNone">Nokia 5110 LCD    </th></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">SPI_CLK   </td><td class="markdownTableBodyNone">GPIO6   </td><td class="markdownTableBodyNone">LCD_CLK Pin 5 clock in    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">SPI_MOSI   </td><td class="markdownTableBodyNone">GPIO5   </td><td class="markdownTableBodyNone">LCD_DIN Pin 4 data in    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">GPIO24   </td><td class="markdownTableBodyNone">GPIO24   </td><td class="markdownTableBodyNone">LCD_DC Pin 3 data/command    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">SPI_CE0   </td><td class="markdownTableBodyNone">GPIO 21   </td><td class="markdownTableBodyNone">LCD_CE Pin 2 chip enable    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">GPIO25   </td><td class="markdownTableBodyNone">GPIO25   </td><td class="markdownTableBodyNone">LCD_RST Pin 1 reset   </td></tr>
-</table>
+<p>const uint mosi_pin = 19; const uint sck_pin = 18; const uint cs_pin = 17; const uint res_pin = 3; const uint dc_pin = 2;</p>
+<p>| PICO pin(HW SPI) | Nokia 5110 LCD | | ---&mdash; | ---&mdash; | ---&mdash; | | sclk pin GPIO 18 (spi0) | LCD_CLK Pin 5 clock in | | mosi pin GPIO 19 (spi0) | LCD_DIN Pin 4 data in | | DC pin GPIO 2 | LCD_DC Pin 3 data/command| | CS pin GPIO 17 | LCD_CE Pin 2 chip enable | | Reset pin GPIO 3 | LCD_RST Pin 1 reset|</p>
 <p>Connect Nokia 5110 VCC(pin 6)to 3.3V. The user may have to adjust LCD contrast and bias settings, to the screen at hand for optimal display. A resistor or potentiometer can be connected between (Nokia LCD) GND(pin8) and LIGHT(pin7) to switch on /off backlight and adjust brightness.</p>
 <p><a href="https://www.sparkfun.com/datasheets/LCD/Monochrome/Nokia5110.pdf">Nokia 5110 LCD dataSheet</a></p>
 <p><a href="https://github.com/gavinlyonsrepo/pic_16F1619_projects/blob/master/images/NOKIA2.jpg"><img src="https://github.com/gavinlyonsrepo/pic_16F1619_projects/blob/master/images/NOKIA2.jpg" alt=" image nokia " class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md26"></a>
+<h1><a class="anchor" id="autotoc_md25"></a>
 Software</h1>
-<h2><a class="anchor" id="autotoc_md27"></a>
+<h2><a class="anchor" id="autotoc_md26"></a>
 File system</h2>
 <p>Example files</p>
 <table class="markdownTable">
@@ -138,7 +125,7 @@ File system</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">framerate_test   </td><td class="markdownTableBodyNone">Frame rate per second test   </td><td class="markdownTableBodyNone">HW   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md28"></a>
+<h1><a class="anchor" id="autotoc_md27"></a>
 Output</h1>
 <p>Example output.</p>
 <p><a href="https://github.com/gavinlyonsrepo/pic_18F47K42_projects/blob/master/images/nokiagraph1.jpg"><img src="https://github.com/gavinlyonsrepo/pic_18F47K42_projects/blob/master/images/nokiagraph1.jpg" alt="output image" class="inline"/></a> </p>

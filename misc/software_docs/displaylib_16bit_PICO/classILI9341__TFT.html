@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.3.0</span>
+   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.3.1</span>
    </div>
    <div id="projectbrief">Driver for 16-bit colour graphics displays,  Rpi PICO  library.</div>
   </td>
@@ -71,6 +71,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
@@ -113,6 +114,71 @@ Collaboration diagram for ILI9341_TFT:</div>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a91dd6f52dd47c61013a06e2b15386d90" id="r_a91dd6f52dd47c61013a06e2b15386d90"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classILI9341__TFT.html#a91dd6f52dd47c61013a06e2b15386d90">ILI9341_ReadRegister_e</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="classILI9341__TFT.html#a91dd6f52dd47c61013a06e2b15386d90a6879296449a386510d312ab888783fa1">ILI9341_RDID</a> = 0x04
+, <a class="el" href="classILI9341__TFT.html#a91dd6f52dd47c61013a06e2b15386d90acdfd1ca90e071e67730e73596a566011">ILI9341_RDSTATUS</a> = 0x09
+, <a class="el" href="classILI9341__TFT.html#a91dd6f52dd47c61013a06e2b15386d90a4a3f59fa2d34f3fc95f060ec1c3e3362">ILI9341_RDMODE</a> = 0x0A
+, <a class="el" href="classILI9341__TFT.html#a91dd6f52dd47c61013a06e2b15386d90ac5ab4b4e31b361a4dfef7a197d1553e9">ILI9341_RDMADCTL</a> = 0x0B
+, <br />
+&#160;&#160;<a class="el" href="classILI9341__TFT.html#a91dd6f52dd47c61013a06e2b15386d90aa0b3b6454fced7e8830552a34c7c1772">ILI9341_RDPIXFMT</a> = 0x0C
+, <a class="el" href="classILI9341__TFT.html#a91dd6f52dd47c61013a06e2b15386d90a0b3f2afa4b39e20a570c5dc688ffebc5">ILI9341_RDIMGFMT</a> = 0x0D
+, <a class="el" href="classILI9341__TFT.html#a91dd6f52dd47c61013a06e2b15386d90a4f900e8c72dad088465cffcb823d01b4">ILI9341_RDSIGNAL</a> = 0x0E
+, <a class="el" href="classILI9341__TFT.html#a91dd6f52dd47c61013a06e2b15386d90a2cedd8b5c9a96b9527405a91f8c3cd3b">ILI9341_RDSELFDIAG</a> = 0x0F
+<br />
+ }</td></tr>
+<tr class="memdesc:a91dd6f52dd47c61013a06e2b15386d90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register addresses for ILI9341 diagnostic read commands. These constants can be used with <a class="el" href="classILI9341__TFT.html#a4739aeeb2c316f0fa134bb546de801fc" title="Read a single diagnostic byte from the ILI9341 controller. This function sends a diagnostic read comm...">readDiagByte()</a> to query the controller for internal status and diagnostic information. See datasheet section 8.2.3 for more details.  <a href="classILI9341__TFT.html#a91dd6f52dd47c61013a06e2b15386d90">More...</a><br /></td></tr>
+<tr class="separator:a91dd6f52dd47c61013a06e2b15386d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classdisplaylib__16__graphics"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classdisplaylib__16__graphics')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classdisplaylib__16__graphics.html">displaylib_16_graphics</a></td></tr>
+<tr class="memitem:ad807fdb23f6d3fa1c0bc04a25f1de24c inherit pub_types_classdisplaylib__16__graphics" id="r_ad807fdb23f6d3fa1c0bc04a25f1de24c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24c">pixel_color565_e</a> : uint16_t { <br />
+&#160;&#160;<a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24caaba00c0dd83be67289d566137fded03e">C_BLACK</a> = 0x0000
+, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24caacad663490919434da8a343b51b463a2">C_BLUE</a> = 0x001F
+, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca453b843fa43739b74183e78748ceb462">C_RED</a> = 0xF800
+, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca373e094ddf9c81a638873ac5dcfa5512">C_GREEN</a> = 0x07E0
+, <br />
+&#160;&#160;<a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24cab4b63252e90779a648433a2b2428adb5">C_CYAN</a> = 0x07FF
+, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24cad68dc04b5e4b49710f1c01584a21ee48">C_MAGENTA</a> = 0xF81F
+, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca705dd8035c6ddd11ccc44c2b567ee77f">C_YELLOW</a> = 0xFFE0
+, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca000c95ea96422731fe635ce0564ccce3">C_WHITE</a> = 0xFFFF
+, <br />
+&#160;&#160;<a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca22af91b25115c405a76c88c9b8b7f43b">C_TAN</a> = 0xED01
+, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca58ecb2a37d2ffe1dff960d0278371da3">C_GREY</a> = 0x9CD1
+, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca7666a1d816e0cebe8508ceea8cebb85f">C_BROWN</a> = 0x6201
+, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca427d3c50caac9e41de323e7f77a4146c">C_DGREEN</a> = 0x01C0
+, <br />
+&#160;&#160;<a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca99e08c49ce3fa46e19e9fd9fdac30161">C_ORANGE</a> = 0xFC00
+, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca7a04a8cc852d8cbe143b9f253a051c96">C_NAVY</a> = 0x000F
+, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca9d9c4a121286f1cbecf9bb8e8a727373">C_DCYAN</a> = 0x03EF
+, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca50482f05ca8cfa907370662b8b852840">C_MAROON</a> = 0x7800
+, <br />
+&#160;&#160;<a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca50b73d16e579931f513c98024daeb943">C_PURPLE</a> = 0x780F
+, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24cae36687483b2a4c562163ca7b0a5555bb">C_OLIVE</a> = 0x7BE0
+, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca6980ea5f08640dd938794db1a23127e3">C_LGREY</a> = 0xC618
+, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca626a9f6f0e7bb40ee6021cff7d8d47ea">C_DGREY</a> = 0x7BEF
+, <br />
+&#160;&#160;<a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24cad898120e56f4391f64db75cf97713e8b">C_GYELLOW</a> = 0xAFE5
+, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca25817b95d12de04de7f0ebc4a2c03de4">C_PINK</a> = 0xFC18
+, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24cac5aaf693c23bf3340278cb136b1af2a5">C_LBLUE</a> = 0x7E5F
+, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca0ef3210f2ead85df95e7f0a379615c07">C_BEIGE</a> = 0xB5D2
+<br />
+ }</td></tr>
+<tr class="memdesc:ad807fdb23f6d3fa1c0bc04a25f1de24c"><td class="mdescLeft">&#160;</td><td class="mdescRight">16-bit color definitions (RGB565 format).  <a href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24c">More...</a><br /></td></tr>
+<tr class="separator:ad807fdb23f6d3fa1c0bc04a25f1de24c inherit pub_types_classdisplaylib__16__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a964c28cf711efa193079285067543cd4 inherit pub_types_classdisplaylib__16__graphics" id="r_a964c28cf711efa193079285067543cd4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a964c28cf711efa193079285067543cd4">display_rotate_e</a> : uint8_t { <a class="el" href="classdisplaylib__16__graphics.html#a964c28cf711efa193079285067543cd4a6bae15d24f547dd31303982b106ae0e7">Degrees_0</a> = 0
+, <a class="el" href="classdisplaylib__16__graphics.html#a964c28cf711efa193079285067543cd4a55c5cf4626b6fdb6ebf44dd7c24270a0">Degrees_90</a>
+, <a class="el" href="classdisplaylib__16__graphics.html#a964c28cf711efa193079285067543cd4a97ce4006403e749faefa05e3825b2089">Degrees_180</a>
+, <a class="el" href="classdisplaylib__16__graphics.html#a964c28cf711efa193079285067543cd4ae92aeaf0ed264c8ef4dce0129f00949f">Degrees_270</a>
+ }</td></tr>
+<tr class="separator:a964c28cf711efa193079285067543cd4 inherit pub_types_classdisplaylib__16__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classPrint"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classPrint')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classPrint.html">Print</a></td></tr>
+<tr class="memitem:a6d9bda509eaab1f639e14f228c04719b inherit pub_types_classPrint" id="r_a6d9bda509eaab1f639e14f228c04719b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719b">BaseNum</a> : uint8_t { <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba03469b223bf0ffe121977519caf037db">DEC</a> = 10
+, <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba2b7dd3e79aa0cc3a44e0e12113a06aa6">HEX</a> = 16
+, <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719baf8af2cb951ac65d37b44b55f0e77bc70">OCT</a> = 8
+, <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719bae29e65ba20d7690d8b439367989658e1">BIN</a> = 2
+ }</td></tr>
+<tr class="separator:a6d9bda509eaab1f639e14f228c04719b inherit pub_types_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ade2b06e79afb19caa223c05a67558e82" id="r_ade2b06e79afb19caa223c05a67558e82"><td class="memItemLeft" align="right" valign="top"><a id="ade2b06e79afb19caa223c05a67558e82" name="ade2b06e79afb19caa223c05a67558e82"></a>
@@ -122,9 +188,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a041223efb9e4ecc348aca8b76b29cb39" id="r_a041223efb9e4ecc348aca8b76b29cb39"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classILI9341__TFT.html#a041223efb9e4ecc348aca8b76b29cb39">setAddrWindow</a> (uint16_t x, uint16_t y, uint16_t w, uint16_t h) override</td></tr>
 <tr class="memdesc:a041223efb9e4ecc348aca8b76b29cb39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the address window - the rectangle we will write to RAM with the next chunk of SPI data writes. The ILI9341 will automatically wrap the data as each row is filled.  <br /></td></tr>
 <tr class="separator:a041223efb9e4ecc348aca8b76b29cb39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a271c622ccaf3484400dc5ccebffa712d" id="r_a271c622ccaf3484400dc5ccebffa712d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classILI9341__TFT.html#a271c622ccaf3484400dc5ccebffa712d">SetupGPIO</a> (int8_t RST, int8_t DC, int8_t CS, int8_t SCLK, int8_t MOSI)</td></tr>
-<tr class="memdesc:a271c622ccaf3484400dc5ccebffa712d"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets up TFT GPIO  <br /></td></tr>
-<tr class="separator:a271c622ccaf3484400dc5ccebffa712d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a785d207b6188c832e5eebb673c3e7fda" id="r_a785d207b6188c832e5eebb673c3e7fda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classILI9341__TFT.html#a785d207b6188c832e5eebb673c3e7fda">SetupGPIO</a> (int8_t RST, int8_t DC, int8_t CS, int8_t SCLK, int8_t MOSI, int8_t MISO=-1)</td></tr>
+<tr class="memdesc:a785d207b6188c832e5eebb673c3e7fda"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets up TFT GPIO  <br /></td></tr>
+<tr class="separator:a785d207b6188c832e5eebb673c3e7fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1081e4d27a535851e48c8790415a530" id="r_ae1081e4d27a535851e48c8790415a530"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classILI9341__TFT.html#ae1081e4d27a535851e48c8790415a530">SetupScreenSize</a> (uint16_t w, uint16_t h)</td></tr>
 <tr class="memdesc:ae1081e4d27a535851e48c8790415a530"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialise the variables that define the size of the screen  <br /></td></tr>
 <tr class="separator:ae1081e4d27a535851e48c8790415a530"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,6 +235,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>ILI9341Initialize</b>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ResetPin</b> (void)</td></tr>
 <tr class="memdesc:ae38a8665296d0389d93888e0f98a77f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Method for Hardware Reset pin control <br /></td></tr>
 <tr class="separator:ae38a8665296d0389d93888e0f98a77f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4739aeeb2c316f0fa134bb546de801fc" id="r_a4739aeeb2c316f0fa134bb546de801fc"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classILI9341__TFT.html#a4739aeeb2c316f0fa134bb546de801fc">readDiagByte</a> (<a class="el" href="classILI9341__TFT.html#a91dd6f52dd47c61013a06e2b15386d90">ILI9341_ReadRegister_e</a> cmd, uint8_t index)</td></tr>
+<tr class="memdesc:a4739aeeb2c316f0fa134bb546de801fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a single diagnostic byte from the ILI9341 controller. This function sends a diagnostic read command and retrieves the corresponding status or mode byte from the display controller.  <br /></td></tr>
+<tr class="separator:a4739aeeb2c316f0fa134bb546de801fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classdisplaylib__16__graphics"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classdisplaylib__16__graphics')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classdisplaylib__16__graphics.html">displaylib_16_graphics</a></td></tr>
 <tr class="memitem:a0896ca1a3f84e788f53ab46f308d213b inherit pub_methods_classdisplaylib__16__graphics" id="r_a0896ca1a3f84e788f53ab46f308d213b"><td class="memItemLeft" align="right" valign="top">
 &#160;</td><td class="memItemRight" valign="bottom"><b>displaylib_16_graphics</b> ()</td></tr>
@@ -256,7 +325,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>ResetPin</b> (void)</
 <tr class="memdesc:a64c0a68031fdaa93f77ff6a644433b2e inherit pub_methods_classdisplaylib__16__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">write method used in the print class when user calls print  <br /></td></tr>
 <tr class="separator:a64c0a68031fdaa93f77ff6a644433b2e inherit pub_methods_classdisplaylib__16__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf54248a457c81b7279f7cd90ce409b0 inherit pub_methods_classdisplaylib__16__graphics" id="r_abf54248a457c81b7279f7cd90ce409b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#abf54248a457c81b7279f7cd90ce409b0">setTextWrap</a> (bool w)</td></tr>
-<tr class="memdesc:abf54248a457c81b7279f7cd90ce409b0 inherit pub_methods_classdisplaylib__16__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">turn on or off screen wrap of the text (fonts 1-6)  <br /></td></tr>
+<tr class="memdesc:abf54248a457c81b7279f7cd90ce409b0 inherit pub_methods_classdisplaylib__16__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">turn on or off screen wrap of the text  <br /></td></tr>
 <tr class="separator:abf54248a457c81b7279f7cd90ce409b0 inherit pub_methods_classdisplaylib__16__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d1d6201c8aa1b5699d496c7940848a0 inherit pub_methods_classdisplaylib__16__graphics" id="r_a7d1d6201c8aa1b5699d496c7940848a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a7d1d6201c8aa1b5699d496c7940848a0">setTextColor</a> (uint16_t c)</td></tr>
 <tr class="memdesc:a7d1d6201c8aa1b5699d496c7940848a0 inherit pub_methods_classdisplaylib__16__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set text color.  <br /></td></tr>
@@ -291,7 +360,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>ResetPin</b> (void)</
 <tr class="inherit_header pub_methods_classdisplay__Fonts"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classdisplay__Fonts')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classdisplay__Fonts.html">display_Fonts</a></td></tr>
 <tr class="memitem:aa7b403a26a94f4e85a97ff7f4fbc853f inherit pub_methods_classdisplay__Fonts" id="r_aa7b403a26a94f4e85a97ff7f4fbc853f"><td class="memItemLeft" align="right" valign="top">
 &#160;</td><td class="memItemRight" valign="bottom"><b>display_Fonts</b> ()</td></tr>
-<tr class="memdesc:aa7b403a26a94f4e85a97ff7f4fbc853f inherit pub_methods_classdisplay__Fonts"><td class="mdescLeft">&#160;</td><td class="mdescRight">init the OLED font class object constructor <br /></td></tr>
+<tr class="memdesc:aa7b403a26a94f4e85a97ff7f4fbc853f inherit pub_methods_classdisplay__Fonts"><td class="mdescLeft">&#160;</td><td class="mdescRight">init the font class object constructor <br /></td></tr>
 <tr class="separator:aa7b403a26a94f4e85a97ff7f4fbc853f inherit pub_methods_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae97081108619944015f9cc77566abaaa inherit pub_methods_classdisplay__Fonts" id="r_ae97081108619944015f9cc77566abaaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#ae97081108619944015f9cc77566abaaa">setFont</a> (<a class="el" href="displaylib__16__Font_8hpp.html#a4e34a4baa30d127bc21926334fe5a365">display_Font_name_e</a>)</td></tr>
 <tr class="memdesc:ae97081108619944015f9cc77566abaaa inherit pub_methods_classdisplay__Fonts"><td class="mdescLeft">&#160;</td><td class="mdescRight">SetFont.  <br /></td></tr>
@@ -386,6 +455,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>cmdInit</b> (void)</t
 Private Attributes</h2></td></tr>
 <tr class="memitem:a8b16cf1bd7a2617c735306a140007de0" id="r_a8b16cf1bd7a2617c735306a140007de0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classILI9341__TFT.html#a8b16cf1bd7a2617c735306a140007de0">_resetPinOn</a> = true</td></tr>
 <tr class="separator:a8b16cf1bd7a2617c735306a140007de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b1657b7f6291b338b500739d230dd52" id="r_a5b1657b7f6291b338b500739d230dd52"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classILI9341__TFT.html#a5b1657b7f6291b338b500739d230dd52">_MISOPinOn</a> = false</td></tr>
+<tr class="separator:a5b1657b7f6291b338b500739d230dd52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a925a323ed8add2c6f2d45d135a44638c" id="r_a925a323ed8add2c6f2d45d135a44638c"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classILI9341__TFT.html#a925a323ed8add2c6f2d45d135a44638c">_widthStartTFT</a> = 240</td></tr>
 <tr class="separator:a925a323ed8add2c6f2d45d135a44638c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52efa5f7097ce92bd1d0ec12e867ee7e" id="r_a52efa5f7097ce92bd1d0ec12e867ee7e"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classILI9341__TFT.html#a52efa5f7097ce92bd1d0ec12e867ee7e">_heightStartTFT</a> = 320</td></tr>
@@ -504,54 +575,6 @@ Static Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_types_classdisplaylib__16__graphics"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classdisplaylib__16__graphics')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classdisplaylib__16__graphics.html">displaylib_16_graphics</a></td></tr>
-<tr class="memitem:ad807fdb23f6d3fa1c0bc04a25f1de24c inherit pub_types_classdisplaylib__16__graphics" id="r_ad807fdb23f6d3fa1c0bc04a25f1de24c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24c">pixel_color565_e</a> : uint16_t { <br />
-&#160;&#160;<a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24caaba00c0dd83be67289d566137fded03e">C_BLACK</a> = 0x0000
-, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24caacad663490919434da8a343b51b463a2">C_BLUE</a> = 0x001F
-, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca453b843fa43739b74183e78748ceb462">C_RED</a> = 0xF800
-, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca373e094ddf9c81a638873ac5dcfa5512">C_GREEN</a> = 0x07E0
-, <br />
-&#160;&#160;<a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24cab4b63252e90779a648433a2b2428adb5">C_CYAN</a> = 0x07FF
-, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24cad68dc04b5e4b49710f1c01584a21ee48">C_MAGENTA</a> = 0xF81F
-, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca705dd8035c6ddd11ccc44c2b567ee77f">C_YELLOW</a> = 0xFFE0
-, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca000c95ea96422731fe635ce0564ccce3">C_WHITE</a> = 0xFFFF
-, <br />
-&#160;&#160;<a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca22af91b25115c405a76c88c9b8b7f43b">C_TAN</a> = 0xED01
-, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca58ecb2a37d2ffe1dff960d0278371da3">C_GREY</a> = 0x9CD1
-, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca7666a1d816e0cebe8508ceea8cebb85f">C_BROWN</a> = 0x6201
-, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca427d3c50caac9e41de323e7f77a4146c">C_DGREEN</a> = 0x01C0
-, <br />
-&#160;&#160;<a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca99e08c49ce3fa46e19e9fd9fdac30161">C_ORANGE</a> = 0xFC00
-, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca7a04a8cc852d8cbe143b9f253a051c96">C_NAVY</a> = 0x000F
-, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca9d9c4a121286f1cbecf9bb8e8a727373">C_DCYAN</a> = 0x03EF
-, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca50482f05ca8cfa907370662b8b852840">C_MAROON</a> = 0x7800
-, <br />
-&#160;&#160;<a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca50b73d16e579931f513c98024daeb943">C_PURPLE</a> = 0x780F
-, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24cae36687483b2a4c562163ca7b0a5555bb">C_OLIVE</a> = 0x7BE0
-, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca6980ea5f08640dd938794db1a23127e3">C_LGREY</a> = 0xC618
-, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca626a9f6f0e7bb40ee6021cff7d8d47ea">C_DGREY</a> = 0x7BEF
-, <br />
-&#160;&#160;<a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24cad898120e56f4391f64db75cf97713e8b">C_GYELLOW</a> = 0xAFE5
-, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca25817b95d12de04de7f0ebc4a2c03de4">C_PINK</a> = 0xFC18
-, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24cac5aaf693c23bf3340278cb136b1af2a5">C_LBLUE</a> = 0x7E5F
-, <a class="el" href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24ca0ef3210f2ead85df95e7f0a379615c07">C_BEIGE</a> = 0xB5D2
-<br />
- }</td></tr>
-<tr class="memdesc:ad807fdb23f6d3fa1c0bc04a25f1de24c"><td class="mdescLeft">&#160;</td><td class="mdescRight">16-bit color definitions (RGB565 format).  <a href="classdisplaylib__16__graphics.html#ad807fdb23f6d3fa1c0bc04a25f1de24c">More...</a><br /></td></tr>
-<tr class="separator:ad807fdb23f6d3fa1c0bc04a25f1de24c inherit pub_types_classdisplaylib__16__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a964c28cf711efa193079285067543cd4 inherit pub_types_classdisplaylib__16__graphics" id="r_a964c28cf711efa193079285067543cd4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a964c28cf711efa193079285067543cd4">display_rotate_e</a> : uint8_t { <a class="el" href="classdisplaylib__16__graphics.html#a964c28cf711efa193079285067543cd4a6bae15d24f547dd31303982b106ae0e7">Degrees_0</a> = 0
-, <a class="el" href="classdisplaylib__16__graphics.html#a964c28cf711efa193079285067543cd4a55c5cf4626b6fdb6ebf44dd7c24270a0">Degrees_90</a>
-, <a class="el" href="classdisplaylib__16__graphics.html#a964c28cf711efa193079285067543cd4a97ce4006403e749faefa05e3825b2089">Degrees_180</a>
-, <a class="el" href="classdisplaylib__16__graphics.html#a964c28cf711efa193079285067543cd4ae92aeaf0ed264c8ef4dce0129f00949f">Degrees_270</a>
- }</td></tr>
-<tr class="separator:a964c28cf711efa193079285067543cd4 inherit pub_types_classdisplaylib__16__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_types_classPrint"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classPrint')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classPrint.html">Print</a></td></tr>
-<tr class="memitem:a6d9bda509eaab1f639e14f228c04719b inherit pub_types_classPrint" id="r_a6d9bda509eaab1f639e14f228c04719b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719b">BaseNum</a> : uint8_t { <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba03469b223bf0ffe121977519caf037db">DEC</a> = 10
-, <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719ba2b7dd3e79aa0cc3a44e0e12113a06aa6">HEX</a> = 16
-, <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719baf8af2cb951ac65d37b44b55f0e77bc70">OCT</a> = 8
-, <a class="el" href="classPrint.html#a6d9bda509eaab1f639e14f228c04719bae29e65ba20d7690d8b439367989658e1">BIN</a> = 2
- }</td></tr>
-<tr class="separator:a6d9bda509eaab1f639e14f228c04719b inherit pub_types_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classdisplaylib__16__graphics"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classdisplaylib__16__graphics')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classdisplaylib__16__graphics.html">displaylib_16_graphics</a></td></tr>
 <tr class="memitem:a8207438437f5d72c5adfaee2d509be80 inherit pro_methods_classdisplaylib__16__graphics" id="r_a8207438437f5d72c5adfaee2d509be80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a8207438437f5d72c5adfaee2d509be80">writeCommand</a> (uint8_t)</td></tr>
 <tr class="memdesc:a8207438437f5d72c5adfaee2d509be80 inherit pro_methods_classdisplaylib__16__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Write an SPI command to TFT  <br /></td></tr>
@@ -565,6 +588,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a0dff59d2991d92c70d9575688438ab02 inherit pro_methods_classdisplaylib__16__graphics" id="r_a0dff59d2991d92c70d9575688438ab02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a0dff59d2991d92c70d9575688438ab02">spiWriteSoftware</a> (uint8_t spidata)</td></tr>
 <tr class="memdesc:a0dff59d2991d92c70d9575688438ab02 inherit pro_methods_classdisplaylib__16__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a byte to SPI using software SPI.  <br /></td></tr>
 <tr class="separator:a0dff59d2991d92c70d9575688438ab02 inherit pro_methods_classdisplaylib__16__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88623705d2a44b280d5bc9b472df83b7 inherit pro_methods_classdisplaylib__16__graphics" id="r_a88623705d2a44b280d5bc9b472df83b7"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a88623705d2a44b280d5bc9b472df83b7">spiReadSoftware</a> (void)</td></tr>
+<tr class="memdesc:a88623705d2a44b280d5bc9b472df83b7 inherit pro_methods_classdisplaylib__16__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shifts in a byte of data using software SPI.  <br /></td></tr>
+<tr class="separator:a88623705d2a44b280d5bc9b472df83b7 inherit pro_methods_classdisplaylib__16__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad605bc5cdfbc1af916f4d0ce8feaae91 inherit pro_methods_classdisplaylib__16__graphics" id="r_ad605bc5cdfbc1af916f4d0ce8feaae91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#ad605bc5cdfbc1af916f4d0ce8feaae91">spiWriteDataBuffer</a> (uint8_t *spidata, uint32_t len)</td></tr>
 <tr class="memdesc:ad605bc5cdfbc1af916f4d0ce8feaae91 inherit pro_methods_classdisplaylib__16__graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a buffer to SPI, both Software and hardware SPI supported.  <br /></td></tr>
 <tr class="separator:ad605bc5cdfbc1af916f4d0ce8feaae91 inherit pro_methods_classdisplaylib__16__graphics"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -619,12 +645,47 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a42fa0dd2b935782d6e29d46158993f39 inherit pro_attribs_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02ecc4390cb670ea1517d26d76a01d12 inherit pro_attribs_classdisplay__Fonts" id="r_a02ecc4390cb670ea1517d26d76a01d12"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#a02ecc4390cb670ea1517d26d76a01d12">_FontOffset</a> = 0x20</td></tr>
 <tr class="separator:a02ecc4390cb670ea1517d26d76a01d12 inherit pro_attribs_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8177feb6fa222080ddb3a3c48a3e2f69 inherit pro_attribs_classdisplay__Fonts" id="r_a8177feb6fa222080ddb3a3c48a3e2f69"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#a8177feb6fa222080ddb3a3c48a3e2f69">_FontNumChars</a> = 0x5F</td></tr>
+<tr class="memitem:a8177feb6fa222080ddb3a3c48a3e2f69 inherit pro_attribs_classdisplay__Fonts" id="r_a8177feb6fa222080ddb3a3c48a3e2f69"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#a8177feb6fa222080ddb3a3c48a3e2f69">_FontNumChars</a> = 0x5E</td></tr>
 <tr class="separator:a8177feb6fa222080ddb3a3c48a3e2f69 inherit pro_attribs_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class to interface with ILI9341 LCD display. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a91dd6f52dd47c61013a06e2b15386d90" name="a91dd6f52dd47c61013a06e2b15386d90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91dd6f52dd47c61013a06e2b15386d90">&#9670;&#160;</a></span>ILI9341_ReadRegister_e</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classILI9341__TFT.html#a91dd6f52dd47c61013a06e2b15386d90">ILI9341_TFT::ILI9341_ReadRegister_e</a> : uint8_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Register addresses for ILI9341 diagnostic read commands. These constants can be used with <a class="el" href="classILI9341__TFT.html#a4739aeeb2c316f0fa134bb546de801fc" title="Read a single diagnostic byte from the ILI9341 controller. This function sends a diagnostic read comm...">readDiagByte()</a> to query the controller for internal status and diagnostic information. See datasheet section 8.2.3 for more details. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a91dd6f52dd47c61013a06e2b15386d90a6879296449a386510d312ab888783fa1" name="a91dd6f52dd47c61013a06e2b15386d90a6879296449a386510d312ab888783fa1"></a>ILI9341_RDID&#160;</td><td class="fielddoc"><p>Read Display Identification Information, 3 bytes </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a91dd6f52dd47c61013a06e2b15386d90acdfd1ca90e071e67730e73596a566011" name="a91dd6f52dd47c61013a06e2b15386d90acdfd1ca90e071e67730e73596a566011"></a>ILI9341_RDSTATUS&#160;</td><td class="fielddoc"><p>Read Display Status, 4 bytes </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a91dd6f52dd47c61013a06e2b15386d90a4a3f59fa2d34f3fc95f060ec1c3e3362" name="a91dd6f52dd47c61013a06e2b15386d90a4a3f59fa2d34f3fc95f060ec1c3e3362"></a>ILI9341_RDMODE&#160;</td><td class="fielddoc"><p>Read Display Power Mode </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a91dd6f52dd47c61013a06e2b15386d90ac5ab4b4e31b361a4dfef7a197d1553e9" name="a91dd6f52dd47c61013a06e2b15386d90ac5ab4b4e31b361a4dfef7a197d1553e9"></a>ILI9341_RDMADCTL&#160;</td><td class="fielddoc"><p>Read MADCTL </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a91dd6f52dd47c61013a06e2b15386d90aa0b3b6454fced7e8830552a34c7c1772" name="a91dd6f52dd47c61013a06e2b15386d90aa0b3b6454fced7e8830552a34c7c1772"></a>ILI9341_RDPIXFMT&#160;</td><td class="fielddoc"><p>Read Display Pixel Format </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a91dd6f52dd47c61013a06e2b15386d90a0b3f2afa4b39e20a570c5dc688ffebc5" name="a91dd6f52dd47c61013a06e2b15386d90a0b3f2afa4b39e20a570c5dc688ffebc5"></a>ILI9341_RDIMGFMT&#160;</td><td class="fielddoc"><p>Read Display Image Mode </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a91dd6f52dd47c61013a06e2b15386d90a4f900e8c72dad088465cffcb823d01b4" name="a91dd6f52dd47c61013a06e2b15386d90a4f900e8c72dad088465cffcb823d01b4"></a>ILI9341_RDSIGNAL&#160;</td><td class="fielddoc"><p>Read Display Signal Mode </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a91dd6f52dd47c61013a06e2b15386d90a2cedd8b5c9a96b9527405a91f8c3cd3b" name="a91dd6f52dd47c61013a06e2b15386d90a2cedd8b5c9a96b9527405a91f8c3cd3b"></a>ILI9341_RDSELFDIAG&#160;</td><td class="fielddoc"><p>Read Display Self-Diagnostic Result </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a1596ca7f95cf848c1f16a4d2793f1b01" name="a1596ca7f95cf848c1f16a4d2793f1b01"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1596ca7f95cf848c1f16a4d2793f1b01">&#9670;&#160;</a></span>EnableDisplay()</h2>
 
@@ -763,6 +824,45 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Call when powering down TFT. </p>
 <dl class="section note"><dt>Note</dt><dd>Turns off Display Sets GPIO low and turns off SPI </dd></dl>
+
+</div>
+</div>
+<a id="a4739aeeb2c316f0fa134bb546de801fc" name="a4739aeeb2c316f0fa134bb546de801fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4739aeeb2c316f0fa134bb546de801fc">&#9670;&#160;</a></span>readDiagByte()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t ILI9341_TFT::readDiagByte </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classILI9341__TFT.html#a91dd6f52dd47c61013a06e2b15386d90">ILI9341_ReadRegister_e</a>&#160;</td>
+          <td class="paramname"><em>reg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read a single diagnostic byte from the ILI9341 controller. This function sends a diagnostic read command and retrieves the corresponding status or mode byte from the display controller. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">reg</td><td>The diagnostic register to read </td></tr>
+    <tr><td class="paramname">index</td><td>Optional index offset (usually zero). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The diagnostic byte read from the specified register. Will return early in software SPI if MISO pin not set. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This is primarily intended for debugging and testing. </dd></dl>
 
 </div>
 </div>
@@ -916,8 +1016,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a271c622ccaf3484400dc5ccebffa712d" name="a271c622ccaf3484400dc5ccebffa712d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a271c622ccaf3484400dc5ccebffa712d">&#9670;&#160;</a></span>SetupGPIO()</h2>
+<a id="a785d207b6188c832e5eebb673c3e7fda" name="a785d207b6188c832e5eebb673c3e7fda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a785d207b6188c832e5eebb673c3e7fda">&#9670;&#160;</a></span>SetupGPIO()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -950,7 +1050,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int8_t&#160;</td>
-          <td class="paramname"><em>mosi</em>&#160;</td>
+          <td class="paramname"><em>mosi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramname"><em>miso</em> = <code>-1</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -968,6 +1074,7 @@ Additional Inherited Members</h2></td></tr>
     <tr><td class="paramname">cs</td><td>chip select GPIO </td></tr>
     <tr><td class="paramname">sclk</td><td>Data clock GPIO </td></tr>
     <tr><td class="paramname">mosi</td><td>Data to TFT GPIO </td></tr>
+    <tr><td class="paramname">miso</td><td>Data from TFT GPIO, -1 if not used </td></tr>
   </table>
   </dd>
 </dl>
@@ -1097,6 +1204,29 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>never change after first init </p>
+
+</div>
+</div>
+<a id="a5b1657b7f6291b338b500739d230dd52" name="a5b1657b7f6291b338b500739d230dd52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b1657b7f6291b338b500739d230dd52">&#9670;&#160;</a></span>_MISOPinOn</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ILI9341_TFT::_MISOPinOn = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>MISO pin used? true:use MISO pin, false: not used </p>
 
 </div>
 </div>

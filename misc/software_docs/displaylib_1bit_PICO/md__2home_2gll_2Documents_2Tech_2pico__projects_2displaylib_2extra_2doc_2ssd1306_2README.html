@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">displaylib_1bit_PICO<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">displaylib_1bit_PICO<span id="projectnumber">&#160;2.0.1</span>
    </div>
    <div id="projectbrief">1-bit colour graphic display library, Rpi PICO RP2040  library</div>
   </td>
@@ -73,8 +73,8 @@ $(function() {
   <div class="headertitle"><div class="title">SSD1306 README</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md35"></a> <img src="https://github.com/gavinlyonsrepo/SSD1306_OLED_RPI/blob/main/extras/image/device.jpg" alt=" OLED " class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md36"></a>
+<div class="textblock"><p><a class="anchor" id="autotoc_md34"></a> <img src="https://github.com/gavinlyonsrepo/SSD1306_OLED_RPI/blob/main/extras/image/device.jpg" alt=" OLED " class="inline"/></p>
+<h1><a class="anchor" id="autotoc_md35"></a>
 Table of contents</h1>
 <ul>
 <li>Overview</li>
@@ -87,7 +87,7 @@ Table of contents</h1>
 </li>
 <li>Screenshots</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md37"></a>
+<h1><a class="anchor" id="autotoc_md36"></a>
 Overview</h1>
 <ul>
 <li>Name : SSD1306_OLED_RPI</li>
@@ -95,12 +95,8 @@ Overview</h1>
 </ul>
 <p>0. Library to support the I2C OLED Display Module driven by the <a class="el" href="classSSD1306.html" title="class to control OLED and define buffer">SSD1306</a> controller for the Raspberry PI PICO rp2040</p><ol type="1">
 <li>Invert color, rotate, sleep, scroll and contrast control.</li>
-<li>10 fonts included, fonts can easily be added or removed.</li>
-<li>Graphics class included.</li>
-<li>Bitmaps supported.</li>
 <li>Can support both I2C ports. IC20 or IC21 selected by user.</li>
 <li>Tested on 128X64 &amp; 128X32 display size. Should work for 96X16 display size.</li>
-<li>Polymorphic print class included to print many data types.</li>
 </ol>
 <ul>
 <li>Author: Gavin Lyons</li>
@@ -113,7 +109,7 @@ Overview</h1>
 </ol>
 </li>
 </ul>
-<h1><a class="anchor" id="autotoc_md38"></a>
+<h1><a class="anchor" id="autotoc_md37"></a>
 Test</h1>
 <p>There are 9 example files included. User picks the one they want by editing the CMakeLists.txt :: add_executable(${PROJECT_NAME} section. Comment in one path and one path only.</p>
 <table class="markdownTable">
@@ -134,9 +130,9 @@ Test</h1>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">I2C_test   </td><td class="markdownTableBodyNone">I2C interface testing   </td><td class="markdownTableBodyNone">128x64   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md39"></a>
+<h1><a class="anchor" id="autotoc_md38"></a>
 Software</h1>
-<h2><a class="anchor" id="autotoc_md40"></a>
+<h2><a class="anchor" id="autotoc_md39"></a>
 I2C</h2>
 <p>Hardware I2C.</p>
 <ol type="1">
@@ -156,10 +152,10 @@ I2C</h2>
 <li>The user must also specify the data and clk lines which are linked to the interface used</li>
 </ol>
 <p>In all the examples the I2C is set up for :: Address 0x3C , Interface I2C1 , Clock speed 100Khz, Data pin GPIO 18, Clock pin GPIO 19 .</p>
-<h2><a class="anchor" id="autotoc_md41"></a>
+<h2><a class="anchor" id="autotoc_md40"></a>
 Bitmaps</h2>
 <p>Bitmap functions will return an error code in event of an error. A horizontal addressed Bitmap's width MUST be divisible by 8. eg, for a bitmap with width=88 and height=48. Bitmap excepted size = (88/8) * 48 = 528 bytes. A vertically addressed Bitmap's height MUST be divisible by 8. Bitmaps can be turned to data <a href="https://javl.github.io/image2cpp/">here at link</a> See example file "_BITMAP" for more details.</p>
-<h1><a class="anchor" id="autotoc_md42"></a>
+<h1><a class="anchor" id="autotoc_md41"></a>
 Screenshots</h1>
 <p><img src="https://github.com/gavinlyonsrepo/displaylib_1bit_PICO/blob/main/extra/image/3.jpg" alt=" ss " class="inline"/> </p>
 </div></div><!-- contents -->

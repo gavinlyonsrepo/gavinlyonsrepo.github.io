@@ -52,5 +52,5 @@ var searchData=
   ['ermch1115_5fset_5fscroll_5fmode_49',['ERMCH1115_SET_SCROLL_MODE',['../classERMCH1115.html#a8e5e2d5efab65e83958e5307a8252a31',1,'ERMCH1115']]],
   ['ermch1115_5fspage_5fadr_5fset_50',['ERMCH1115_SPAGE_ADR_SET',['../classERMCH1115.html#a34adb07402a735887988e8f0303e2621',1,'ERMCH1115']]],
   ['ermch1115_5ftime_5fset_51',['ERMCH1115_TIME_SET',['../classERMCH1115.html#a0f2fd02102a157ad6ebc5d7dcb546e01',1,'ERMCH1115']]],
-  ['error_20codes_52',['Error Codes',['../index.html#autotoc_md55',1,'']]]
+  ['error_20codes_52',['Error Codes',['../index.html#autotoc_md54',1,'']]]
 ];

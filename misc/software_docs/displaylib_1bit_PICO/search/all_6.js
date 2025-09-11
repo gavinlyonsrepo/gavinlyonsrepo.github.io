@@ -1,8 +1,8 @@
 var searchData=
 [
   ['dec_0',['DEC',['../classPrint.html#a6d9bda509eaab1f639e14f228c04719ba03469b223bf0ffe121977519caf037db',1,'Print']]],
-  ['devices_1',['Supported devices',['../index.html#autotoc_md47',1,'']]],
-  ['display_20library_20for_201_20bit_20color_20graphic_20displays_20for_20raspberry_20pi_20pico_2',['Display Library for 1-bit color graphic displays for Raspberry PI PICO',['../index.html#autotoc_md43',1,'']]],
+  ['devices_1',['Supported devices',['../index.html#autotoc_md46',1,'']]],
+  ['display_20library_20for_201_20bit_20color_20graphic_20displays_20for_20raspberry_20pi_20pico_2',['Display Library for 1-bit color graphic displays for Raspberry PI PICO',['../index.html#autotoc_md42',1,'']]],
   ['display_5fdata_2ehpp_3',['display_data.hpp',['../display__data_8hpp.html',1,'']]],
   ['display_5ffonts_2ecpp_4',['display_fonts.cpp',['../display__fonts_8cpp.html',1,'']]],
   ['display_5ffonts_2ehpp_5',['display_fonts.hpp',['../display__fonts_8hpp.html',1,'']]],
@@ -14,8 +14,8 @@ var searchData=
   ['displaylib_5ffonts_11',['displaylib_fonts',['../classdisplaylib__fonts.html#a2607d0a33a25288a7f4d54acf4e7a1a7',1,'displaylib_fonts::displaylib_fonts()'],['../classdisplaylib__fonts.html',1,'displaylib_fonts']]],
   ['displaylib_5fgraphics_12',['displaylib_graphics',['../classdisplaylib__graphics.html#ab3acefcc125bc748beccc4e6490f6d48',1,'displaylib_graphics::displaylib_graphics()'],['../classdisplaylib__graphics.html',1,'displaylib_graphics']]],
   ['displayret_13',['DisplayRet',['../namespaceDisplayRet.html',1,'']]],
-  ['displays_20for_20raspberry_20pi_20pico_14',['Display Library for 1-bit color graphic displays for Raspberry PI PICO',['../index.html#autotoc_md43',1,'']]],
-  ['documentation_15',['documentation',['../index.html#autotoc_md48',1,'API Documentation'],['../index.html#autotoc_md46',1,'Documentation']]],
+  ['displays_20for_20raspberry_20pi_20pico_14',['Display Library for 1-bit color graphic displays for Raspberry PI PICO',['../index.html#autotoc_md42',1,'']]],
+  ['documentation_15',['documentation',['../index.html#autotoc_md47',1,'API Documentation'],['../index.html#autotoc_md45',1,'Documentation']]],
   ['drawarc_16',['drawArc',['../classdisplaylib__graphics.html#aaf85531363a6e73a7c25ce5b4fb4dea4',1,'displaylib_graphics']]],
   ['drawbitmap_17',['drawBitmap',['../classdisplaylib__graphics.html#a8537d3d4e165dd2932ba4d814e05eec3',1,'displaylib_graphics']]],
   ['drawcircle_18',['drawCircle',['../classdisplaylib__graphics.html#aa4c21678cf04ab950e961106ed3bf8eb',1,'displaylib_graphics']]],

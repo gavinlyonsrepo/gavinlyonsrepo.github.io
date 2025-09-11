@@ -11,6 +11,6 @@ var searchData=
   ['getisconnected_8',['getisconnected',['../classSH110X.html#ae97a3875f568291a55def93d03d0fac5',1,'SH110X::GetIsConnected()'],['../classSSD1306.html#a77411dc4cf4b91c19d4798dd99255625',1,'SSD1306::GetIsConnected()']]],
   ['getrotation_9',['getRotation',['../classdisplaylib__graphics.html#a2f60a24f90347ec7c385d5592a01194d',1,'displaylib_graphics']]],
   ['getwriteerror_10',['getWriteError',['../classPrint.html#a88a4a829fb5d589efb43955ad0cbddcc',1,'Print']]],
-  ['graphic_20displays_20for_20raspberry_20pi_20pico_11',['Display Library for 1-bit color graphic displays for Raspberry PI PICO',['../index.html#autotoc_md43',1,'']]],
-  ['graphics_12',['Advanced Graphics',['../index.html#autotoc_md52',1,'']]]
+  ['graphic_20displays_20for_20raspberry_20pi_20pico_11',['Display Library for 1-bit color graphic displays for Raspberry PI PICO',['../index.html#autotoc_md42',1,'']]],
+  ['graphics_12',['Advanced Graphics',['../index.html#autotoc_md51',1,'']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['screenshots_0',['Screenshots',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib_2extra_2doc_2ssd1306_2README.html#autotoc_md42',1,'']]],
+  ['screenshots_0',['Screenshots',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib_2extra_2doc_2ssd1306_2README.html#autotoc_md41',1,'']]],
   ['send_5fcommand_1',['send_command',['../classERMCH1115.html#ae47cb9a2b7a0a0e47e70b659a5039636',1,'ERMCH1115']]],
   ['send_5fdata_2',['send_data',['../classERMCH1115.html#aae796ccad5672698a6053835be09c479',1,'ERMCH1115']]],
   ['sendcommand_3',['SendCommand',['../classERM19264.html#a8ced06d55450faf149f24da4c7bb3d90',1,'ERM19264']]],
@@ -59,7 +59,7 @@ var searchData=
   ['sh110x_5fsetvcomdetect_56',['SH110X_SETVCOMDETECT',['../classSH110X.html#a5e183170e6e8d1f332d50a098cd9dbea',1,'SH110X']]],
   ['shapescreenbounds_57',['ShapeScreenBounds',['../namespaceDisplayRet.html#ab92e594064a34ab043753c0da73c00fcad97ee8020943ad6a768ab9c5124c2172',1,'DisplayRet']]],
   ['sinefromdegrees_58',['sineFromDegrees',['../classdisplaylib__graphics.html#afa5d9a172a87b6fbc35ada4a35fd0916',1,'displaylib_graphics']]],
-  ['software_59',['software',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib_2extra_2doc_2ch1115_2README.html#autotoc_md5',1,'Software'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib_2extra_2doc_2erm19264_2README.html#autotoc_md15',1,'Software'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib_2extra_2doc_2nokia5110_2README.html#autotoc_md26',1,'Software'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib_2extra_2doc_2sh110x_2README.html#autotoc_md33',1,'Software'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib_2extra_2doc_2ssd1306_2README.html#autotoc_md39',1,'Software'],['../index.html#autotoc_md50',1,'Software']]],
+  ['software_59',['software',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib_2extra_2doc_2ch1115_2README.html#autotoc_md5',1,'Software'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib_2extra_2doc_2erm19264_2README.html#autotoc_md15',1,'Software'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib_2extra_2doc_2nokia5110_2README.html#autotoc_md25',1,'Software'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib_2extra_2doc_2sh110x_2README.html#autotoc_md32',1,'Software'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib_2extra_2doc_2ssd1306_2README.html#autotoc_md38',1,'Software'],['../index.html#autotoc_md49',1,'Software']]],
   ['spi_60',['spi',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib_2extra_2doc_2erm19264_2README.html#autotoc_md16',1,'SPI'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib_2extra_2doc_2ch1115_2README.html#autotoc_md6',1,'SPI']]],
   ['spiinterface_61',['spiInterface',['../classERMCH1115.html#a32f253f3011a2d71a9dd03caf5bfe10b',1,'ERMCH1115']]],
   ['ssd1306_62',['ssd1306',['../classSSD1306.html',1,'SSD1306'],['../classSSD1306.html#aaf748df6699030d8d851cb2df12c307d',1,'SSD1306::SSD1306()']]],
@@ -75,7 +75,7 @@ var searchData=
   ['ssd1306_2ftext_5fgraphics_5ffunctions_2fmain_2ecpp_72',['main.cpp',['../ssd1306_2text__graphics__functions_2main_8cpp.html',1,'']]],
   ['ssd1306_5faddr_73',['SSD1306_ADDR',['../classSSD1306.html#a3e8e43c7f4c24b57dc463ca7717823b4',1,'SSD1306']]],
   ['success_74',['Success',['../namespaceDisplayRet.html#ab92e594064a34ab043753c0da73c00fca13958a3efcdb54565579f3332f797a82',1,'DisplayRet']]],
-  ['supported_20devices_75',['Supported devices',['../index.html#autotoc_md47',1,'']]],
+  ['supported_20devices_75',['Supported devices',['../index.html#autotoc_md46',1,'']]],
   ['swapint16display_76',['swapInt16display',['../classdisplaylib__graphics.html#a2608bfcc56c4e0413a5503b65c7b7a68',1,'displaylib_graphics']]],
-  ['system_77',['system',['../index.html#autotoc_md54',1,'File system'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib_2extra_2doc_2sh110x_2README.html#autotoc_md34',1,'File system'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib_2extra_2doc_2nokia5110_2README.html#autotoc_md27',1,'File system'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib_2extra_2doc_2erm19264_2README.html#autotoc_md19',1,'File system'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib_2extra_2doc_2ch1115_2README.html#autotoc_md9',1,'Files system']]]
+  ['system_77',['system',['../index.html#autotoc_md53',1,'File system'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib_2extra_2doc_2sh110x_2README.html#autotoc_md33',1,'File system'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib_2extra_2doc_2nokia5110_2README.html#autotoc_md26',1,'File system'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib_2extra_2doc_2erm19264_2README.html#autotoc_md19',1,'File system'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib_2extra_2doc_2ch1115_2README.html#autotoc_md9',1,'Files system']]]
 ];

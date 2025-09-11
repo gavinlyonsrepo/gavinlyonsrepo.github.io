@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.3.0</span>
+   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.3.1</span>
    </div>
    <div id="projectbrief">Driver for 16-bit colour graphics displays,  Rpi PICO  library.</div>
   </td>
@@ -125,7 +125,11 @@ File system</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">bmp_data   </td><td class="markdownTableBodyNone">bitmap + FPS testing    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">demo   </td><td class="markdownTableBodyNone">A demo   </td></tr>
+<td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">demo   </td><td class="markdownTableBodyNone">A demo    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">read_diag   </td><td class="markdownTableBodyNone">Read diagnostic registers from ILI9341, needs extra GPIO: MISO    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">6   </td><td class="markdownTableBodyNone">frame_buffer   </td><td class="markdownTableBodyNone">Demo of advanced frame buffer mode   </td></tr>
 </table>
 <h2><a class="anchor" id="autotoc_md28"></a>
 Bitmap</h2>
@@ -160,38 +164,38 @@ Hardware</h1>
 <li>Logic voltage 3.3V</li>
 <li>Touch panel with XPT2046 IC</li>
 </ul>
-<p>Connections as setup in main.cpp test file.</p>
+<p>Connections as setup in main.cpp hello world test file.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
-<th class="markdownTableHeadNone">PinNum   </th><th class="markdownTableHeadNone">Pin description   </th><th class="markdownTableHeadNone">RPI   </th><th class="markdownTableHeadNone">note    </th></tr>
+<th class="markdownTableHeadNone">PinNum   </th><th class="markdownTableHeadNone">Pin description   </th><th class="markdownTableHeadNone">PICO   </th><th class="markdownTableHeadNone">note    </th></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">VCC   </td><td class="markdownTableBodyNone">VCC   </td><td class="markdownTableBodyNone">3.3 or 5V ,CAUTION your display must have 3.3V regulator on back to connect to 5V    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">GND   </td><td class="markdownTableBodyNone">GND   </td><td class="markdownTableBodyNone"></td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">CS   </td><td class="markdownTableBodyNone">SPICE0   </td><td class="markdownTableBodyNone">TFT Chip select , see point 4 at bottom of table    </td></tr>
+<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">CS   </td><td class="markdownTableBodyNone">GPIO2   </td><td class="markdownTableBodyNone">Chip select,Use any GPIO for this, see point 4 at bottom of table    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">RESET   </td><td class="markdownTableBodyNone">GPIO25   </td><td class="markdownTableBodyNone">Reset, Use any GPIO for this, If no reset pin, pass -1 in here &amp; display will use software rst    </td></tr>
+<td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">RESET   </td><td class="markdownTableBodyNone">GPIO3   </td><td class="markdownTableBodyNone">Reset, Use any GPIO for this, If no reset pin, pass -1 in here &amp; display will use software rst    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">DC   </td><td class="markdownTableBodyNone">GPIO24   </td><td class="markdownTableBodyNone">Data or command, Use any GPIO for this line    </td></tr>
+<td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">DC   </td><td class="markdownTableBodyNone">GPIO4   </td><td class="markdownTableBodyNone">Data or command, Use any GPIO for this line    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">6   </td><td class="markdownTableBodyNone">SDI(MOSI)   </td><td class="markdownTableBodyNone">SPIMOSI   </td><td class="markdownTableBodyNone"></td></tr>
+<td class="markdownTableBodyNone">6   </td><td class="markdownTableBodyNone">SDI(MOSI)   </td><td class="markdownTableBodyNone">SPI_MOSI (Spi0 GPIO18)   </td><td class="markdownTableBodyNone">HW SPI tied to interface, SW SPI any GPIO    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">7   </td><td class="markdownTableBodyNone">SCLK   </td><td class="markdownTableBodyNone">SPICLK   </td><td class="markdownTableBodyNone"></td></tr>
+<td class="markdownTableBodyNone">7   </td><td class="markdownTableBodyNone">SCLK   </td><td class="markdownTableBodyNone">SPI_CLK (Spi0 GPIO19)   </td><td class="markdownTableBodyNone">HW SPI tied to interface, SW SPI any GPIO    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">8   </td><td class="markdownTableBodyNone">LED   </td><td class="markdownTableBodyNone">VCC   </td><td class="markdownTableBodyNone">CAUTION Your display may need current limit resistor    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">9   </td><td class="markdownTableBodyNone">SDO(MISO)   </td><td class="markdownTableBodyNone">nc   </td><td class="markdownTableBodyNone">Only needed to read diagnostics from TFT (not implemented yet)    </td></tr>
+<td class="markdownTableBodyNone">9   </td><td class="markdownTableBodyNone">SDO(MISO)   </td><td class="markdownTableBodyNone">SPI_MISO (spi0 GPIO16)   </td><td class="markdownTableBodyNone">HW SPI tied to interface, SW SPI any GPIO, Only needed to read diagnostics from TFT    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">10   </td><td class="markdownTableBodyNone">T_CLK   </td><td class="markdownTableBodyNone">SPICLK   </td><td class="markdownTableBodyNone">Only needed to read for xpt2046 touchscreen(not implemented yet)    </td></tr>
+<td class="markdownTableBodyNone">10   </td><td class="markdownTableBodyNone">T_CLK   </td><td class="markdownTableBodyNone">SPICLK   </td><td class="markdownTableBodyNone">Only needed for xpt2046 touchscreen(not implemented yet)    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">11   </td><td class="markdownTableBodyNone">T_CS   </td><td class="markdownTableBodyNone">SPICE1   </td><td class="markdownTableBodyNone">Only needed to read for xpt2046 touchscreen(not implemented yet)XPT2046 Chip select    </td></tr>
+<td class="markdownTableBodyNone">11   </td><td class="markdownTableBodyNone">T_CS   </td><td class="markdownTableBodyNone">SPICE1   </td><td class="markdownTableBodyNone">Only needed for xpt2046 touchscreen(not implemented yet)XPT2046 Chip select    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">12   </td><td class="markdownTableBodyNone">T_DIN   </td><td class="markdownTableBodyNone">SPIMOSI   </td><td class="markdownTableBodyNone">Only needed to read for xpt2046 touchscreen(not implemented yet)    </td></tr>
+<td class="markdownTableBodyNone">12   </td><td class="markdownTableBodyNone">T_DIN   </td><td class="markdownTableBodyNone">SPIMOSI   </td><td class="markdownTableBodyNone">Only needed for xpt2046 touchscreen(not implemented yet)    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">13   </td><td class="markdownTableBodyNone">T_DO   </td><td class="markdownTableBodyNone">SPIMISO   </td><td class="markdownTableBodyNone">Only needed to read for xpt2046 touchscreen(not implemented yet)    </td></tr>
+<td class="markdownTableBodyNone">13   </td><td class="markdownTableBodyNone">T_DO   </td><td class="markdownTableBodyNone">SPIMISO   </td><td class="markdownTableBodyNone">Only needed for xpt2046 touchscreen(not implemented yet)    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">14   </td><td class="markdownTableBodyNone">T_IRQ   </td><td class="markdownTableBodyNone">GPIO22   </td><td class="markdownTableBodyNone">Only needed to read for xpt2046 touchscreen(not implemented yet)   </td></tr>
+<td class="markdownTableBodyNone">14   </td><td class="markdownTableBodyNone">T_IRQ   </td><td class="markdownTableBodyNone">GPIO22   </td><td class="markdownTableBodyNone">Only needed for xpt2046 touchscreen(not implemented yet)   </td></tr>
 </table>
 <ol type="1">
 <li>This is a 3.3V logic device do NOT connect the I/O logic lines to 5V logic device.</li>

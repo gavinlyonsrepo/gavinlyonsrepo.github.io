@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['raspberry_20pi_20pico_0',['Display Library for 1-bit color graphic displays for Raspberry PI PICO',['../index.html#autotoc_md43',1,'']]],
+  ['raspberry_20pi_20pico_0',['Display Library for 1-bit color graphic displays for Raspberry PI PICO',['../index.html#autotoc_md42',1,'']]],
   ['rdegrees_5f0_1',['rDegrees_0',['../classdisplaylib__graphics.html#a89760cbe9e8d1a29c097809b14cd9531ad8513cfe349ab7e5918e778b93d26c12',1,'displaylib_graphics']]],
   ['rdegrees_5f180_2',['rDegrees_180',['../classdisplaylib__graphics.html#a89760cbe9e8d1a29c097809b14cd9531a8e5bbed476c0d5aa910c4e26493380f2',1,'displaylib_graphics']]],
   ['rdegrees_5f270_3',['rDegrees_270',['../classdisplaylib__graphics.html#a89760cbe9e8d1a29c097809b14cd9531a7cf49cf69ff578d56ab0b20decf874a4',1,'displaylib_graphics']]],

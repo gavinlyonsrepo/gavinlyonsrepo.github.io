@@ -11,8 +11,8 @@ var searchData=
   ['pfontsinclairs_8',['pfontsinclairs',['../display__fonts_8hpp.html#abb50f2b148345f0536b2aba69333880f',1,'pFontSinclairS:&#160;display_fonts.cpp'],['../display__fonts_8cpp.html#abb50f2b148345f0536b2aba69333880f',1,'pFontSinclairS:&#160;display_fonts.cpp']]],
   ['pfontsixteenseg_9',['pfontsixteenseg',['../display__fonts_8hpp.html#a1a0c4ab129be72427fd1bb2d19c99e4b',1,'pFontSixteenSeg:&#160;display_fonts.cpp'],['../display__fonts_8cpp.html#a1a0c4ab129be72427fd1bb2d19c99e4b',1,'pFontSixteenSeg:&#160;display_fonts.cpp']]],
   ['pfontwide_10',['pfontwide',['../display__fonts_8hpp.html#a3ca06e2fd66c56ad2f5a022171ca912a',1,'pFontWide:&#160;display_fonts.cpp'],['../display__fonts_8cpp.html#a3ca06e2fd66c56ad2f5a022171ca912a',1,'pFontWide:&#160;display_fonts.cpp']]],
-  ['pi_20pico_11',['Display Library for 1-bit color graphic displays for Raspberry PI PICO',['../index.html#autotoc_md43',1,'']]],
-  ['pico_12',['Display Library for 1-bit color graphic displays for Raspberry PI PICO',['../index.html#autotoc_md43',1,'']]],
+  ['pi_20pico_11',['Display Library for 1-bit color graphic displays for Raspberry PI PICO',['../index.html#autotoc_md42',1,'']]],
+  ['pico_12',['Display Library for 1-bit color graphic displays for Raspberry PI PICO',['../index.html#autotoc_md42',1,'']]],
   ['pixelcolor_13',['PixelColor',['../classdisplaylib__graphics.html#a743cd71e2cdb1dbb50ced870e9730d20',1,'displaylib_graphics']]],
-  ['print_14',['print',['../classPrint.html',1,'Print'],['../index.html#autotoc_md53',1,'Print']]]
+  ['print_14',['print',['../classPrint.html',1,'Print'],['../index.html#autotoc_md52',1,'Print']]]
 ];

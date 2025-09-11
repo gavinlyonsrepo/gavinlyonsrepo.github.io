@@ -40,6 +40,6 @@ var searchData=
   ['lcdupdate_37',['lcdupdate',['../classERM19264.html#a38ca39791485bff650e461b363bd1a0f',1,'ERM19264::LCDupdate()'],['../classNOKIA__5110.html#ad403128592e4a4ec3ddf6b54df8a4de7',1,'NOKIA_5110::LCDupdate(void)']]],
   ['lcdwritecommand_38',['LCDWriteCommand',['../classNOKIA__5110.html#ad9737c429b5933cb59b4cf26c6ea24ba',1,'NOKIA_5110']]],
   ['lcdwritedata_39',['LCDWriteData',['../classNOKIA__5110.html#a984e16a0270e06838f41599145436ee4',1,'NOKIA_5110']]],
-  ['library_20for_201_20bit_20color_20graphic_20displays_20for_20raspberry_20pi_20pico_40',['Display Library for 1-bit color graphic displays for Raspberry PI PICO',['../index.html#autotoc_md43',1,'']]],
+  ['library_20for_201_20bit_20color_20graphic_20displays_20for_20raspberry_20pi_20pico_40',['Display Library for 1-bit color graphic displays for Raspberry PI PICO',['../index.html#autotoc_md42',1,'']]],
   ['list_41',['Test List',['../test.html',1,'']]]
 ];
