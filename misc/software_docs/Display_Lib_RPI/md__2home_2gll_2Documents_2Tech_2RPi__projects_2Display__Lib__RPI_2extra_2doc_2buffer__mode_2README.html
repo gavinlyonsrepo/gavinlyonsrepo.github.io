@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.4.1</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.4.2</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -97,7 +97,7 @@ Functions</h1>
 <li>All Bitmap functions.</li>
 <li>All Draw text functions only IF <b>textCharPixelOrBuffer = true</b></li>
 </ol>
-<p>The situation with graphic functions is complicated as some use fast draw methods of drawFastVLine() and drawFastHLine(). and fillRectangle() uses a local buffer in function to write to display VRAM. So depending on the graphic function code may write to screenBuffer and/or VRAM. Note fillRectangle() is wrapped by fillScreen.</p>
+<p>The situation with graphic functions is complicated as some use fast draw methods of drawFastVLine() and drawFastHLine() and fillRectangle(): which use a local buffer in function to write to display VRAM. So depending on the graphic function code may write to screenBuffer and/or VRAM. Note fillRectangle() is wrapped by fillScreen.</p>
 <h1><a class="anchor" id="examples"></a>
 Examples</h1>
 <p>There is only one example for Advanced screen buffer mode, for st7735. Path = examples/st7735/advanced_screen_buffer_mode. </p>

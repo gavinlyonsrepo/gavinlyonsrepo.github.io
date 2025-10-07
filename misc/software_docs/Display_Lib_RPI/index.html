@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.4.1</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.4.2</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -139,14 +139,14 @@ Installation</h2>
 </ul>
 </li>
 </ol>
-<div class="fragment"><div class="line">curl -sL https://github.com/gavinlyonsrepo/Display_Lib_RPI/archive/2.4.1.tar.gz | tar xz</div>
+<div class="fragment"><div class="line">curl -sL https://github.com/gavinlyonsrepo/Display_Lib_RPI/archive/2.4.2.tar.gz | tar xz</div>
 </div><!-- fragment --><ol type="1">
 <li>Install library : Run 'make' and 'sudo make install' to run the makefile to build and then install library.<ul>
 <li>It will be installed to usr/local/lib and usr/local/include by default.</li>
 </ul>
 </li>
 </ol>
-<div class="fragment"><div class="line">cd Display_Lib_RPI-2.4.1</div>
+<div class="fragment"><div class="line">cd Display_Lib_RPI-2.4.2</div>
 <div class="line">make</div>
 <div class="line">sudo make install</div>
 </div><!-- fragment --><h2><a class="anchor" id="test"></a>
@@ -226,7 +226,7 @@ File system</h3>
 <li>Installed size = ~500 KiB.</li>
 <li>Namespaces see API.documentation.</li>
 </ol>
-<p>Project Overview :</p>
+<p>Project class overview :</p>
 <p><a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/project.jpg"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/project.jpg" alt="pov img" class="inline"/></a></p>
 <h3><a class="anchor" id="error-codes"></a>
 Error Codes</h3>
@@ -245,7 +245,7 @@ Tool chain</h3>
 </ul>
 <h3><a class="anchor" id="configuration"></a>
 Configuration</h3>
-<p>A configuration file can be created which is read into program by running "rdlib_config::loadConfig()" at start of program If the file is missing it will create it at "/($HOME)/.config/rdlib_config/config.cfg". In this file logging and debug modes can be enabled they are OFF by default. A path to log file can also be set. Certain functions produce debug information to console if this setting is enabled. Some errors conditions trigger logging if it is enabled.</p>
+<p>A configuration file can be created which is read into program by running "rdlib_config::loadConfig()" at start of program If the file is missing it will create it at "/($HOME)/.config/rdlib_config/config.cfg". In this file logging and debug modes can be enabled they are OFF by default. A path to log file can also be set. Certain functions produce debug information to console if the debug setting is enabled. Some errors conditions trigger logging if the logging setting is enabled. The logging function can also be used in user applications: see file <a class="el" href="examples_2misc__test_2utilities__test_2main_8cpp.html" title="Test file to test : return code enum printing , logging and config file functionality requires ch1115...">examples/misc_test/utilities_test/main.cpp</a>.</p>
 <p>Config file :</p>
 <p><a href="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/config.png"><img src="https://github.com/gavinlyonsrepo/Display_Lib_RPI/blob/main/extra/images/config.png" alt="cfg file" class="inline"/></a></p>
 <p>Log file example output :</p>

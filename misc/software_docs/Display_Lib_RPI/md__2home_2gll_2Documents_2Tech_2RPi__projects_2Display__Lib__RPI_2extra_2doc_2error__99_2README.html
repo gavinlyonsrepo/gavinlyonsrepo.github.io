@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.4.1</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.4.2</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -96,7 +96,7 @@ Fix</h1>
 <p><em>On Raspberry Pi's SBC</em></p>
 <p>spidev bufsiz defines the number of bytes that the SPI driver will use as a buffer for data transfers. To check the spidev buf size setting on your device run command:</p>
 <div class="fragment"><div class="line">cat /sys/module/spidev/parameters/bufsiz</div>
-</div><!-- fragment --><p>If it is lower than 65536(or value indictaed by Error 99 message report) you can change it by adding this to the start of line in file /boot/firmware/cmdline.txt. Make sure everything is on one line and there is space ' ' between this parameter and next one. Then reboot machine. Verify again by running last cat command above</p>
+</div><!-- fragment --><p>If it is lower than 65536(or value indicated by Error 99 message report) you can change it by adding this to the start of line in file /boot/firmware/cmdline.txt. Make sure everything is on one line and there is space ' ' between this parameter and next one. Then reboot machine. Verify again by running last cat command above(after reboot)</p>
 <div class="fragment"><div class="line">spidev.bufsiz=65536</div>
 </div><!-- fragment --><h1><a class="anchor" id="software-spi"></a>
 Software SPI</h1>

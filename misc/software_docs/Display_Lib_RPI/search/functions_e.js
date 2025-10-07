@@ -5,8 +5,9 @@ var searchData=
   ['rcmd2red_2',['Rcmd2red',['../classST7735__TFT.html#aa4128179a39c7996c609dbe78475d48a',1,'ST7735_TFT']]],
   ['rcmd3_3',['Rcmd3',['../classST7735__TFT.html#ac1f2d36d83f2f0007de9452f282c3a72',1,'ST7735_TFT']]],
   ['readbuttons_4',['readButtons',['../classTM1638plus__Model1.html#a4a9e37d8d6dc8764c711dcc4c3768008',1,'TM1638plus_Model1']]],
-  ['readkey16_5',['ReadKey16',['../classTM1638plus__Model2.html#a408f81481670ab3aae346f41aa494559',1,'TM1638plus_Model2']]],
-  ['readkey16two_6',['ReadKey16Two',['../classTM1638plus__Model2.html#af8686814f4ea89080b74694546cb5e8b',1,'TM1638plus_Model2']]],
-  ['reset_7',['reset',['../classTM1638plus__common.html#ad6cfc82e91a68bbddf0abafabc35e0e5',1,'TM1638plus_common']]],
-  ['returncodetotext_8',['ReturnCodetoText',['../namespacerdlib.html#a0a371c2969cb1c26592f5c930a1b7411',1,'rdlib']]]
+  ['readdiagbyte_5',['readDiagByte',['../classILI9341__TFT.html#aed4f78bee7016b5847bd87361b8f18c1',1,'ILI9341_TFT']]],
+  ['readkey16_6',['ReadKey16',['../classTM1638plus__Model2.html#a408f81481670ab3aae346f41aa494559',1,'TM1638plus_Model2']]],
+  ['readkey16two_7',['ReadKey16Two',['../classTM1638plus__Model2.html#af8686814f4ea89080b74694546cb5e8b',1,'TM1638plus_Model2']]],
+  ['reset_8',['reset',['../classTM1638plus__common.html#ad6cfc82e91a68bbddf0abafabc35e0e5',1,'TM1638plus_common']]],
+  ['returncodetotext_9',['ReturnCodetoText',['../namespacerdlib.html#a0a371c2969cb1c26592f5c930a1b7411',1,'rdlib']]]
 ];

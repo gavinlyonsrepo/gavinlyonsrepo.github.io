@@ -27,5 +27,6 @@ var searchData=
   ['sleeppartialidleon_24',['SleepPartialIdleOn',['../classGC9A01__TFT.html#ab3017abedb1eea51817f16be1cc6750ca818c36ab684ea46b4c118dda39a395aa',1,'GC9A01_TFT']]],
   ['spiclosefailure_25',['SPICloseFailure',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a6169a81d0ae5688c76efad17712818f9',1,'rdlib']]],
   ['spiopenfailure_26',['SPIOpenFailure',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5ae2f52411247decd2656308eab208c8f8',1,'rdlib']]],
-  ['success_27',['Success',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69',1,'rdlib']]]
+  ['spiwritefailure_27',['SPIWriteFailure',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5adbe065b6fb45a2494c91107d64e7888b',1,'rdlib']]],
+  ['success_28',['Success',['../namespacerdlib.html#a845aeef87d4b9da5c3b3c7d942bf65d5a587bf5d7571f9b1eb4b05db6a2c40b69',1,'rdlib']]]
 ];
