@@ -23,5 +23,6 @@ var searchData=
   ['drawrectwh_20',['drawRectWH',['../classdisplaylib__16__graphics.html#ac89dbc1405f19593cf039713c8a5e670',1,'displaylib_16_graphics']]],
   ['drawroundrect_21',['drawRoundRect',['../classdisplaylib__16__graphics.html#a30510101801c2f67a8936f0b94790975',1,'displaylib_16_graphics']]],
   ['drawspritedata_22',['drawSpriteData',['../classdisplaylib__16__graphics.html#a6480918476b9302ce22815230a9f17b3',1,'displaylib_16_graphics']]],
-  ['drawtriangle_23',['drawTriangle',['../classdisplaylib__16__graphics.html#ac5c694e98a0b2891da6e0396d1e0f03d',1,'displaylib_16_graphics']]]
+  ['drawtriangle_23',['drawTriangle',['../classdisplaylib__16__graphics.html#ac5c694e98a0b2891da6e0396d1e0f03d',1,'displaylib_16_graphics']]],
+  ['dualgatecmdinitsequence_24',['DualGatecmdInitSequence',['../classGC9D01__TFT.html#a6120d0a07a6d3d34b057c7604e55e5b5',1,'GC9D01_TFT']]]
 ];

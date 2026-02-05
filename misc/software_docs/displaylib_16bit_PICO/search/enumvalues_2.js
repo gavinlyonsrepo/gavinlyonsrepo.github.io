@@ -8,5 +8,6 @@ var searchData=
   ['display_5fall_5foff_5',['DISPLAY_ALL_OFF',['../classSSD1331__OLED.html#a3964d818248cf44f0a59a2aa645b69caa0d5ddf4943d05c75f28b258b046ef202',1,'SSD1331_OLED']]],
   ['display_5fall_5fon_6',['DISPLAY_ALL_ON',['../classSSD1331__OLED.html#a3964d818248cf44f0a59a2aa645b69caa6abba9be57348b7c34bf3a151beba5d3',1,'SSD1331_OLED']]],
   ['display_5finverse_7',['DISPLAY_INVERSE',['../classSSD1331__OLED.html#a3964d818248cf44f0a59a2aa645b69caa13b2562ac60f7e1965cc30a742361af9',1,'SSD1331_OLED']]],
-  ['display_5fnormal_8',['DISPLAY_NORMAL',['../classSSD1331__OLED.html#a3964d818248cf44f0a59a2aa645b69caa1ede28fd21db9b11115197e8985eec94',1,'SSD1331_OLED']]]
+  ['display_5fnormal_8',['DISPLAY_NORMAL',['../classSSD1331__OLED.html#a3964d818248cf44f0a59a2aa645b69caa1ede28fd21db9b11115197e8985eec94',1,'SSD1331_OLED']]],
+  ['doublepixel_9',['DoublePixel',['../classGC9D01__TFT.html#a2c9c5e9eb1975602b64164a9bdeb04fcaba344b156656c554f6e52e263668153c',1,'GC9D01_TFT']]]
 ];

@@ -72,5 +72,6 @@ var searchData=
   ['initscreensize_69',['InitScreenSize',['../classSSD1331__OLED.html#a3404a7bc2ee209e4ed480a61e6f6883f',1,'SSD1331_OLED']]],
   ['initspitype_70',['initspitype',['../classSSD1331__OLED.html#a2cb86d599d3b8c75a845806377f77887',1,'SSD1331_OLED::InitSPIType(uint32_t baudrate, spi_inst_t *spi)'],['../classSSD1331__OLED.html#a0d784dc6ce9a2050b09dc2d3e6cc2ded',1,'SSD1331_OLED::InitSPIType(uint16_t CommDelay)']]],
   ['invertdisplay_71',['invertDisplay',['../classILI9341__TFT.html#a28288d03ba49f7d5373068a04f2061c2',1,'ILI9341_TFT']]],
-  ['isdebugmode_72',['isDebugMode',['../namespaceDisLib16.html#a4ea78403a6e2dc201d804a27c6a8f749',1,'DisLib16']]]
+  ['isdebugmode_72',['isDebugMode',['../namespaceDisLib16.html#a4ea78403a6e2dc201d804a27c6a8f749',1,'DisLib16']]],
+  ['issues_73',['Notes and Issues',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2gc9d01_2README.html#autotoc_md33',1,'']]]
 ];
