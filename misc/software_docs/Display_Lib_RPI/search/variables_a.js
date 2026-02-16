@@ -9,9 +9,9 @@ var searchData=
   ['madctl_5frgb_6',['MADCTL_RGB',['../classILI9341__TFT.html#a4b68e97226feb32194c76d7693b856e1',1,'ILI9341_TFT']]],
   ['max_5flen_5fbuffer_7',['MAX_LEN_BUFFER',['../classXPT__2046__RDL.html#a6b15aed062d2d95ec9258cd7dc51bfb2',1,'XPT_2046_RDL']]],
   ['maxtouchpoints_8',['MaxTouchPoints',['../classXPT__2046__RDL.html#acf4ebd49fa8a29732f80d42fb0932e3c',1,'XPT_2046_RDL']]],
-  ['mh_9',['MH',['../structGC9A01__TFT_1_1MADCTL__FLAGS__t.html#a9e5b662f3fe535d18a0598debcdb67ed',1,'GC9A01_TFT::MADCTL_FLAGS_t']]],
-  ['ml_10',['ML',['../structGC9A01__TFT_1_1MADCTL__FLAGS__t.html#a6b02fd8c80491ef70902f24c55206a96',1,'GC9A01_TFT::MADCTL_FLAGS_t']]],
-  ['mv_11',['MV',['../structGC9A01__TFT_1_1MADCTL__FLAGS__t.html#a690e9be20a928d73db4726810ebceb38',1,'GC9A01_TFT::MADCTL_FLAGS_t']]],
-  ['mx_12',['MX',['../structGC9A01__TFT_1_1MADCTL__FLAGS__t.html#a936d3d2dcfb524fb8e9ac4e8c050ab15',1,'GC9A01_TFT::MADCTL_FLAGS_t']]],
-  ['my_13',['MY',['../structGC9A01__TFT_1_1MADCTL__FLAGS__t.html#ae4a3238ee5a6d221721e6bf7ffd41f5a',1,'GC9A01_TFT::MADCTL_FLAGS_t']]]
+  ['mh_9',['mh',['../structGC9A01__TFT_1_1MADCTL__FLAGS__t.html#a9e5b662f3fe535d18a0598debcdb67ed',1,'GC9A01_TFT::MADCTL_FLAGS_t::MH'],['../structGC9D01__TFT_1_1MADCTL__FLAGS__t.html#a6460ee86450ae54b57e2ec96db0f91e0',1,'GC9D01_TFT::MADCTL_FLAGS_t::MH']]],
+  ['ml_10',['ml',['../structGC9A01__TFT_1_1MADCTL__FLAGS__t.html#a6b02fd8c80491ef70902f24c55206a96',1,'GC9A01_TFT::MADCTL_FLAGS_t::ML'],['../structGC9D01__TFT_1_1MADCTL__FLAGS__t.html#ac3728dea26d88f20d1c13e1a7b7f055c',1,'GC9D01_TFT::MADCTL_FLAGS_t::ML']]],
+  ['mv_11',['mv',['../structGC9A01__TFT_1_1MADCTL__FLAGS__t.html#a690e9be20a928d73db4726810ebceb38',1,'GC9A01_TFT::MADCTL_FLAGS_t::MV'],['../structGC9D01__TFT_1_1MADCTL__FLAGS__t.html#a73174383a639da295e6ff6467efb4421',1,'GC9D01_TFT::MADCTL_FLAGS_t::MV']]],
+  ['mx_12',['mx',['../structGC9A01__TFT_1_1MADCTL__FLAGS__t.html#a936d3d2dcfb524fb8e9ac4e8c050ab15',1,'GC9A01_TFT::MADCTL_FLAGS_t::MX'],['../structGC9D01__TFT_1_1MADCTL__FLAGS__t.html#ab313ae8aa178c3539495586198816257',1,'GC9D01_TFT::MADCTL_FLAGS_t::MX']]],
+  ['my_13',['my',['../structGC9A01__TFT_1_1MADCTL__FLAGS__t.html#ae4a3238ee5a6d221721e6bf7ffd41f5a',1,'GC9A01_TFT::MADCTL_FLAGS_t::MY'],['../structGC9D01__TFT_1_1MADCTL__FLAGS__t.html#a19433626eb974a8a937612b5a4772ee6',1,'GC9D01_TFT::MADCTL_FLAGS_t::MY']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['partialidleoff_0',['PartialIdleOff',['../classGC9A01__TFT.html#ab3017abedb1eea51817f16be1cc6750ca887e867ae6e34934de80568a068cef27',1,'GC9A01_TFT']]],
-  ['partialidleon_1',['PartialIdleOn',['../classGC9A01__TFT.html#ab3017abedb1eea51817f16be1cc6750cac5baf9ea0e14749351e8dd124708e2e0',1,'GC9A01_TFT']]]
+  ['off_0',['Off',['../classcolor16__graphics.html#ab1440a9a8250bdee1fa91fec4a326b3ead15305d7a4e34e02489c74a5ef542f36',1,'color16_graphics']]],
+  ['on_1',['On',['../classcolor16__graphics.html#ab1440a9a8250bdee1fa91fec4a326b3ea521c36a31c2762741cf0f8890cbe05e3',1,'color16_graphics']]]
 ];

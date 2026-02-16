@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['ch1115_20oled_20readme_0',['ERM CH1115 OLED Readme',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html',1,'']]],
-  ['codes_20readme_1',['Error codes Readme',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2error__codes_2README.html',1,'']]],
-  ['color_20definitions_20readme_2',['color definitions Readme',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2colors_2README.html',1,'']]],
-  ['control_20history_3',['Version control history',['../version-control-history.html',1,'']]]
+  ['based_20single_20board_20computers_0',['Display Library for Linux based Single Board Computers',['../index.html',1,'']]],
+  ['bit_20color_20displays_20readme_1',['Bitmap 16 bit color displays Readme',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2bitmap__16_2README.html',1,'']]],
+  ['bitmap_2016_20bit_20color_20displays_20readme_2',['Bitmap 16 bit color displays Readme',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2bitmap__16_2README.html',1,'']]],
+  ['board_20computers_3',['Display Library for Linux based Single Board Computers',['../index.html',1,'']]],
+  ['buffer_20mode_20readme_4',['Advanced Screen Buffer Mode Readme',['../md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2buffer__mode_2README.html',1,'']]]
 ];

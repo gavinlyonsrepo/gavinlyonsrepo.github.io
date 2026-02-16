@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.4.2</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.5.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -94,10 +94,59 @@ Functions</h2></td></tr>
 <tr class="memitem:a478281b217ec0f3269a4acd0ffba0418" id="r_a478281b217ec0f3269a4acd0ffba0418"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacerdlib__maths.html#a478281b217ec0f3269a4acd0ffba0418">generateColor</a> (uint8_t value)</td></tr>
 <tr class="memdesc:a478281b217ec0f3269a4acd0ffba0418"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is designed to return a color in the 16-bit RGB format based on the input value, creating a smooth transition between colors in different stages.  <br /></td></tr>
 <tr class="separator:a478281b217ec0f3269a4acd0ffba0418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8aaf3324c6bc9bd89f5c47dae1378492" id="r_a8aaf3324c6bc9bd89f5c47dae1378492"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacerdlib__maths.html#a8aaf3324c6bc9bd89f5c47dae1378492">blend565</a> (uint16_t c1, uint16_t c2, uint8_t amount)</td></tr>
+<tr class="memdesc:a8aaf3324c6bc9bd89f5c47dae1378492"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Blend two RGB565 colors using 8-bit mix factor  <br /></td></tr>
+<tr class="separator:a8aaf3324c6bc9bd89f5c47dae1378492"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Name space for maths related utilities. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
+<a id="a8aaf3324c6bc9bd89f5c47dae1378492" name="a8aaf3324c6bc9bd89f5c47dae1378492"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8aaf3324c6bc9bd89f5c47dae1378492">&#9670;&#160;</a></span>blend565()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t rdlib_maths::blend565 </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>c1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>c2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>amount</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>: Blend two RGB565 colors using 8-bit mix factor </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c1</td><td>first 16-bit color (RGB565) </td></tr>
+    <tr><td class="paramname">c2</td><td>second 16-bit color (RGB565) </td></tr>
+    <tr><td class="paramname">amount</td><td>blend level (0–255), 0=c1, 255=c2 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>mixed 16-bit RGB565 color</dd></dl>
+<p>Performs channel-wise interpolation in 565 space. c1 blended towardc2 using linear scaling. </p>
+
+</div>
+</div>
 <a id="ab30d0c398ad37d660ab86c4c293b4538" name="ab30d0c398ad37d660ab86c4c293b4538"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab30d0c398ad37d660ab86c4c293b4538">&#9670;&#160;</a></span>cosineFromDegrees()</h2>
 

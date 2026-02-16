@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.4.2</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.5.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -80,7 +80,9 @@ $(function() {
 <p>However, it comes with limitations. It requires heap memory to store the buffer vector object and flushing the buffer to the display can introduce a performance overhead. Use advanced buffer mode when you need complex rendering, visual effects, or performance optimizations. For simpler applications where memory is limited, direct display drawing may be more suitable. Bear in mind many functions in normal mode have some form of local buffered writes already.</p>
 <h1><a class="anchor" id="enabling-advanced-buffer-mode"></a>
 Enabling Advanced Buffer Mode</h1>
-<p>To enable advanced buffer mode, you need to define the macro <code>color16_ADVANCED_SCREEN_BUFFER_ENABLE</code>. This macro is located in the file <code><a class="el" href="color16__graphics__RDL_8hpp.html" title="Library header file for 16 bit (565) color graphics library. This file handles the graphic methods.">color16_graphics_RDL.hpp</a></code> (line 22 USER OPTION ). By default, this macro is commented out or undefined. Once enabled, the library will use the <code>_screenBuffer</code> for many drawing operations instead of writing directly to the display VRAM. NOTE :: The library will have to be recompiled and reinstalled as per installation section in main readme.</p>
+<p>To enable advanced buffer mode, you need turn it on</p>
+<div class="fragment"><div class="line">myTFT.setAdvancedScreenBuffer_e(myTFT.AdvancedScreenBuffer_e::On);</div>
+</div><!-- fragment --><p> By default it is OFF, See function SetupBufferMode() in relevant examples for full example code. Once enabled, the library will use the <code>_screenBuffer</code> for many drawing operations instead of writing directly to the display VRAM.</p>
 <h1><a class="anchor" id="usage"></a>
 Usage</h1>
 <ol type="1">
@@ -95,12 +97,13 @@ Functions</h1>
 <ol type="1">
 <li>drawPixel()</li>
 <li>All Bitmap functions.</li>
-<li>All Draw text functions only IF <b>textCharPixelOrBuffer = true</b></li>
+<li>All Draw text functions only IF <b>textCharPixelOrBuffer = true</b> : non default.</li>
+<li>All graphics functions except fillRectBuffer. It uses a local buffer in function to write to display VRAM. fillRectBuffer is wrapped by fillScreen. So fillRectBuffer and fillscreen will still write directly to VRAM of display.</li>
 </ol>
-<p>The situation with graphic functions is complicated as some use fast draw methods of drawFastVLine() and drawFastHLine() and fillRectangle(): which use a local buffer in function to write to display VRAM. So depending on the graphic function code may write to screenBuffer and/or VRAM. Note fillRectangle() is wrapped by fillScreen.</p>
 <h1><a class="anchor" id="examples"></a>
 Examples</h1>
-<p>There is only one example for Advanced screen buffer mode, for st7735. Path = examples/st7735/advanced_screen_buffer_mode. </p>
+<p>There is one example for Advanced screen buffer mode, for st7735. Path = examples/st7735/advanced_screen_buffer_mode.</p>
+<p>All examples for GC9D01 display are for Advanced screen buffer mode. This is because at time of writing there are issues with this display when attempting to draw pixel by pixel into the VRAM made worse by rotation. See my arduino port (GC9D01_LTSM) on github for details. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 <!-- start footer part -->

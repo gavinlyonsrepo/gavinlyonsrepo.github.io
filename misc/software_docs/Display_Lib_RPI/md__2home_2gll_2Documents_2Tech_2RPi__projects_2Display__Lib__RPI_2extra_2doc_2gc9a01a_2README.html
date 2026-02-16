@@ -22,7 +22,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.4.2</span>
+   <div id="projectname">Display_Lib_RPI<span id="projectnumber">&#160;2.5.0</span>
    </div>
    <div id="projectbrief">A C++ Library to connect electronic displays to Linux single board computers.</div>
   </td>
@@ -84,7 +84,7 @@ Table of contents</h1>
 <li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2gc9a01a_2README.html#file-system">File system</a></li>
 <li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2gc9a01a_2README.html#bitmap">Bitmap</a></li>
 <li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2gc9a01a_2README.html#color-codes">Color codes</a></li>
-<li>Advanced screen buffer mode</li>
+<li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2gc9a01a_2README.html#advanced-screen-buffer-mode">Advanced screen buffer mode</a></li>
 </ul>
 </li>
 <li><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2ch1115_2README.html#hardware">Hardware</a></li>
@@ -101,7 +101,7 @@ Overview</h1>
 <li>Description:</li>
 </ul>
 <p>0. C++ Library for a TFT SPI LCD, GC9A01A Driver</p><ol type="1">
-<li>Dynamic install-able Raspberry Pi C++ library.</li>
+<li>Dynamic install-able Linux C++ library.</li>
 <li>Power modes, Invert , Scroll, Rotate, Bitmaps supported.</li>
 <li>Graphics + print class included.</li>
 <li>24 bit colour , 16 bit color, bi-color Bitmaps &amp; sprites supported.</li>
@@ -125,11 +125,14 @@ User options</h2>
 <li>USER OPTION 2 SCREEN SECTION</li>
 <li>USER OPTION 3 SPI SETTINGS</li>
 </ol>
-<p><em>USER OPTION 1 SPI TYPE / GPIO</em></p>
+<h3><a class="anchor" id="user-option-1-spi-type--gpio"></a>
+USER OPTION 1 SPI TYPE / GPIO</h3>
 <p>This library supports both Hardware SPI and software SPI. The SetupGPIO function is overloaded(2 off one for HW SPI the other for SW SPI). The parameters set for SetupGPIO define which is used.</p>
-<p><em>USER OPTION 2 Screen size</em></p>
+<h3><a class="anchor" id="user-option-2-screen-size"></a>
+USER OPTION 2 Screen size</h3>
 <p>User can adjust screen pixel height, screen pixel width. The function InitScreenSize sets them.</p>
-<p><em>USER OPTION 3 SPI Settings</em></p>
+<h3><a class="anchor" id="user-option-3--spi-settings"></a>
+USER OPTION 3  SPI Settings</h3>
 <p>InitSPI function is overloaded(2 off, one for HW SPI the other for SW SPI).</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -150,41 +153,20 @@ User options</h2>
 <p>The user can adjust if having reliability issues with SW SPI in some setups. This is a microsecond delay in SW SPI GPIO loop. It is set to 0 by default, Increasing it will slow down SW SPI further.</p>
 <h2><a class="anchor" id="file-system"></a>
 File system</h2>
-<p>In example folder: The Main.cpp file contains tests showing library functions. A bitmap data file contains data for bi-color bitmaps and icons tests. The color bitmaps used in testing are in bitmap folder.</p>
+<p>In example sub folders: The main.cpp file contains tests showing library functions. A bitmap data file contains data for bi-color bitmaps and icons tests. The color bitmaps used in testing are in bitmap folder. Hello world can be setup for software or hardware SPI by changing "HardwareSPI" at top of file.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
-<th class="markdownTableHeadNone">#   </th><th class="markdownTableHeadNone">example file name   </th><th class="markdownTableHeadNone">Desc    </th></tr>
+<th class="markdownTableHeadNone">#   </th><th class="markdownTableHeadNone">example sub folder name   </th><th class="markdownTableHeadNone">Description    </th></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">hello_world   </td><td class="markdownTableBodyNone">Basic use case    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">text_graphic_functions   </td><td class="markdownTableBodyNone">Tests text,graphics &amp; function testing   </td></tr>
+<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">tests   </td><td class="markdownTableBodyNone">Tests bitmap, text,graphics &amp; function testing    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">demos   </td><td class="markdownTableBodyNone">Various demos   </td></tr>
 </table>
-<p>| 3 | bitmap_Tests | bitmap | bitmap testing| | 4 | hello_world_swspi | Basic use case, software SPI | | 5 | demos | Various demos |</p>
 <h2><a class="anchor" id="bitmap"></a>
 Bitmap</h2>
-<p>Functions to support drawing bitmaps</p>
-<table class="markdownTable">
-<tr class="markdownTableHead">
-<th class="markdownTableHeadNone">Function Name   </th><th class="markdownTableHeadNone">Colour support   </th><th class="markdownTableHeadNone">Pixel size KiB   </th><th class="markdownTableHeadNone">Note    </th></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">drawIcon   </td><td class="markdownTableBodyNone">bi-colour array   </td><td class="markdownTableBodyNone">(0-240) X 8   </td><td class="markdownTableBodyNone">Data vertically addressed    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">drawBitmap   </td><td class="markdownTableBodyNone">bi-colour array   </td><td class="markdownTableBodyNone">7   </td><td class="markdownTableBodyNone">Data horizontally addressed    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">drawBitmap16   </td><td class="markdownTableBodyNone">16 bit color 565 BMP files or array   </td><td class="markdownTableBodyNone">112.5   </td><td class="markdownTableBodyNone">---&mdash;    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">drawBitmap24   </td><td class="markdownTableBodyNone">24 bit color BMP files or array   </td><td class="markdownTableBodyNone">168.8   </td><td class="markdownTableBodyNone">Converted by software to 16-bit color    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">drawSprite   </td><td class="markdownTableBodyNone">16 bit color 565 array   </td><td class="markdownTableBodyNone">112.5   </td><td class="markdownTableBodyNone">Does not use a buffer , draws pixel by pixel , ignores background chosen color   </td></tr>
-</table>
-<ol type="1">
-<li>Bitmap size in kiloBytes = (screenWidth * screenHeight * bitsPerPixel)/(1024 * 8)</li>
-<li>Pixel size column assumes 240 by 240 bitmap.</li>
-<li>The data array for 1 and 2 is created from image files using file data conversion tool <a href="https://javl.github.io/image2cpp/">link</a></li>
-<li>The data array for 3 - 5 is created from BMP files using file data conversion tool <a href="https://notisrac.github.io/FileToCArray/">link</a></li>
-<li>For 3 and 4 better just to use bmp files direct from file system see examples.</li>
-</ol>
-<p>These class functions will return an error code in event of error see API for more details.</p>
+<p><a class="el" href="md__2home_2gll_2Documents_2Tech_2RPi__projects_2Display__Lib__RPI_2extra_2doc_2bitmap__16_2README.html">Bitmap Documentation</a></p>
 <h2><a class="anchor" id="color-codes"></a>
 Color codes</h2>
 <p>For functions that accept a 16 bit color value. There is list of pre-defined colors in the 'colors' folder in doc.</p>
@@ -194,30 +176,30 @@ Advanced screen buffer mode</h2>
 <h1><a class="anchor" id="hardware-2"></a>
 Hardware</h1>
 <p><a href="https://github.com/gavinlyonsrepo/displaylib_16bit_PICO/blob/main/extra/image/gc1.png"><img src="https://github.com/gavinlyonsrepo/displaylib_16bit_PICO/blob/main/extra/image/gc1.png" alt="pic " class="inline"/></a></p>
-<p>Connections as setup in main.cpp test file.</p>
+<p>Connections as setup in main.cpp test file. Connections as setup in main.cpp test file.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
-<th class="markdownTableHeadNone">Pin desc   </th><th class="markdownTableHeadNone">HW SPI    </th></tr>
+<th class="markdownTableHeadNone">TFT PinNum   </th><th class="markdownTableHeadNone">Pindesc   </th><th class="markdownTableHeadNone">RPI HW SPI   </th><th class="markdownTableHeadNone">RPI SW SPI    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">GND Ground   </td><td class="markdownTableBodyNone">GND    </td></tr>
+<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">LED   </td><td class="markdownTableBodyNone">VCC   </td><td class="markdownTableBodyNone">VCC    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">VCC   </td><td class="markdownTableBodyNone">3.3 VCC    </td></tr>
+<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">CS   </td><td class="markdownTableBodyNone">SPI_CE0   </td><td class="markdownTableBodyNone">GPI21    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">SCL Clock   </td><td class="markdownTableBodyNone">GPIO 18    </td></tr>
+<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">DC   </td><td class="markdownTableBodyNone">GPIO24   </td><td class="markdownTableBodyNone">GPIO24    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">SDA Data in   </td><td class="markdownTableBodyNone">GPIO 19    </td></tr>
+<td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">RESET   </td><td class="markdownTableBodyNone">GPI025   </td><td class="markdownTableBodyNone">GPIO25    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">RST Reset   </td><td class="markdownTableBodyNone">GPIO 4    </td></tr>
+<td class="markdownTableBodyNone">5   </td><td class="markdownTableBodyNone">SDA   </td><td class="markdownTableBodyNone">SPI_MOSI   </td><td class="markdownTableBodyNone">GPIO16    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">DC Data or command   </td><td class="markdownTableBodyNone">GPIO 3    </td></tr>
+<td class="markdownTableBodyNone">6   </td><td class="markdownTableBodyNone">SCLK   </td><td class="markdownTableBodyNone">SPI_CLK   </td><td class="markdownTableBodyNone">GPIO20    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">CS Chip select   </td><td class="markdownTableBodyNone">GPIO 2    </td></tr>
+<td class="markdownTableBodyNone">7   </td><td class="markdownTableBodyNone">VCC   </td><td class="markdownTableBodyNone">VCC   </td><td class="markdownTableBodyNone">VCC    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">BL Backlight   </td><td class="markdownTableBodyNone">VCC   </td></tr>
+<td class="markdownTableBodyNone">8   </td><td class="markdownTableBodyNone">GND   </td><td class="markdownTableBodyNone">GND   </td><td class="markdownTableBodyNone">GND   </td></tr>
 </table>
 <ol type="1">
 <li>This is a 3.3V logic device do NOT connect the I/O logic lines to 5V logic device.</li>
-<li>SW SPI pick any GPIO you like , HW SPI SCLK and SDA will be tied to spio interface.</li>
+<li>SW SPI pick any GPIO you like , HW SPI CEX, SCLK and SDA will be tied to SPI interface.</li>
 <li>Backlight on/off control is left to user.</li>
 </ol>
 <h1><a class="anchor" id="output-2"></a>
