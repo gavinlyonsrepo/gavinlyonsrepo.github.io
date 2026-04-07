@@ -5,7 +5,7 @@ permalink: /posts/
 ---
 <html>
 <body>	
-<h3>Blog post sorted by year.  Total : #{{ site.posts | size }}  </h3>
+<h3>Blog post sorted by year, 2021-2026.  Total : #{{ site.posts | size }}  </h3>
 <div class="bgimage">
 	<div class="container">
 		{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
