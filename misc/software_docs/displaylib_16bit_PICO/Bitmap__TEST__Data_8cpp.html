@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.4.0</span>
+   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.5.0</span>
    </div>
    <div id="projectbrief">Driver for 16-bit colour graphics displays,  Rpi PICO  library.</div>
   </td>
@@ -110,19 +110,24 @@ Variables</h2></td></tr>
 <tr class="separator:a6847f136a9871646c1d4406c9075f1e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2d5c46a80022ba66c972f5b7c1ca6eb" id="r_af2d5c46a80022ba66c972f5b7c1ca6eb"><td class="memItemLeft" align="right" valign="top">const std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Bitmap__TEST__Data_8cpp.html#af2d5c46a80022ba66c972f5b7c1ca6eb">sColorTestImage</a> = ColorTestImage</td></tr>
 <tr class="separator:af2d5c46a80022ba66c972f5b7c1ca6eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24c450fb2569489d572e9c2812f25e56" id="r_a24c450fb2569489d572e9c2812f25e56"><td class="memItemLeft" align="right" valign="top">const std::span&lt; const uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Bitmap__TEST__Data_8cpp.html#a24c450fb2569489d572e9c2812f25e56">sFourBitPaletteImage</a> = FourBitPaletteImage</td></tr>
+<tr class="separator:a24c450fb2569489d572e9c2812f25e56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Source file for holding bitmap data. </p>
 <dl class="section author"><dt>Author</dt><dd>Gavin Lyons </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>Not part of core library only used for testing purposes</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>NOT part of core library only used for holding test data, can be omitted in project use or port.</dd></dl>
 <p>bitmaps in file</p><ol type="1">
 <li>ArrowImage : bi-colour 2048 bytes (128x128)</li>
 <li>SunTextImage : bi-colour (40x16) <br  />
 </li>
 <li>motorImage : 16 bit color 565, 32768 bytes (128x128)</li>
-<li>posterImage : 16 bit color, 7680 bytes (80x48) <br  />
+<li>posterImage : 16 bit color 565, 7680 bytes (80x48) <br  />
 </li>
-<li>SpriteTest16 : 16 bit color 565 2048 bytes (32x32) with background 0x7E5F </li>
+<li>SpriteTest16 : 16 bit color 565, 2048 bytes (32x32) with background 0x7E5F</li>
+<li>ColorTestImage : 8 bit color indexed, 9216 bytes (96x96)</li>
+<li>FourBitPaletteImage : 4 bit color indexed, 8192 bytes (128x128)</li>
+<li>6 X small bitmaps arrays: 16x8 and 8x8 bi-colour, horizontally addressed </li>
 </ol>
 </div><h2 class="groupheader">Variable Documentation</h2>
 <a id="a7eeee775d0c13e16d47eac14e8b232dc" name="a7eeee775d0c13e16d47eac14e8b232dc"></a>
@@ -227,6 +232,21 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>8 bit color (96x96x1), 9216 bytes </p>
+
+</div>
+</div>
+<a id="a24c450fb2569489d572e9c2812f25e56" name="a24c450fb2569489d572e9c2812f25e56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24c450fb2569489d572e9c2812f25e56">&#9670;&#160;</a></span>sFourBitPaletteImage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::span&lt;const uint8_t&gt; sFourBitPaletteImage = FourBitPaletteImage</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>4 bit color (128x128x0.5), 8192 bytes </p>
 
 </div>
 </div>

@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.4.0</span>
+   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.5.0</span>
    </div>
    <div id="projectbrief">Driver for 16-bit colour graphics displays,  Rpi PICO  library.</div>
   </td>
@@ -73,7 +73,7 @@ $(function() {
   <div class="headertitle"><div class="title">Advanced Buffer Mode Readme</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md0"></a> This mode was added in Version 2.1.0. and is non-default.</p>
+<div class="textblock"><p><a class="anchor" id="autotoc_md1"></a> This mode was added in Version 2.1.0. and is non-default.</p>
 <p>Advanced buffer mode allows the library to write to a global screen buffer (<code>_screenBuffer</code>) instead of directly writing to the VRAM of the display. This mode is off by default but can be enabled for specific use cases where buffering is advantageous.</p>
 <p>Advanced buffer mode offers several key benefits. It enables double buffering, where all drawing operations are first performed in memory and then written to the display in a single operation. With batch drawing, multiple graphics operations can be completed before updating the screen, improving rendering efficiency. The memory-resident buffer also allows for custom effects like fading or blending to be applied before display. Additionally, since memory operations are faster than direct display writes, this approach leads to optimized performance for applications with frequent updates.</p>
 <p>However, it comes with limitations. It requires significant heap memory and flushing the buffer to the display can introduce a performance overhead. Compatibility is also a concern on memory-constrained devices. Use advanced buffer mode when you need complex rendering, visual effects, or performance optimizations. For simpler applications where memory is limited, direct display drawing may be more suitable. Bear in mind many functions in normal mode have some form of local buffered writes already.</p>
@@ -90,10 +90,10 @@ $(function() {
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">240x320 153,600   </td><td class="markdownTableBodyNone">RP2350 512 KB   </td><td class="markdownTableBodyNone">30   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md1"></a>
+<h1><a class="anchor" id="autotoc_md2"></a>
 Enabling Advanced Buffer Mode</h1>
 <p>To enable advanced buffer mode, you need to define the macro <code>dislib16_ADVANCED_SCREEN_BUFFER_ENABLE</code>. This macro is located in the file <code><a class="el" href="displaylib__16__graphics_8hpp.html" title="header file for graphics library. This file handles the graphic methods">displaylib_16_graphics.hpp</a></code> (line 26 USER OPTION 2). By default, this macro is commented out or undefined. Once enabled, the library will use the <code>_screenBuffer</code> for many drawing operations instead of writing directly to the display VRAM.</p>
-<h1><a class="anchor" id="autotoc_md2"></a>
+<h1><a class="anchor" id="autotoc_md3"></a>
 Usage</h1>
 <ol type="1">
 <li>setBuffer, sets the buffer allocates memory for a buffer to cover entire screen, call at setup of Display operations.</li>
@@ -101,7 +101,7 @@ Usage</h1>
 <li>clearBuffer, fills buffer with a colour, by default black.</li>
 <li>writeBuffer, writes buffer in a single SPI buffered write to screen.</li>
 </ol>
-<h1><a class="anchor" id="autotoc_md3"></a>
+<h1><a class="anchor" id="autotoc_md4"></a>
 Functions</h1>
 <p>Once enabled The following functions will write to screen Buffer instead of VRAM of display.</p>
 <ol type="1">
@@ -110,7 +110,7 @@ Functions</h1>
 <li>All Draw text functions only IF <b>textCharPixelOrBuffer = true</b></li>
 <li>All graphics functions except fillRectBuffer. It uses a local buffer in function to write to display VRAM. fillRectBuffer is wrapped by fillScreen. So fillRectBuffer and fillscreen will still write directly to VRAM of display.</li>
 </ol>
-<h1><a class="anchor" id="autotoc_md4"></a>
+<h1><a class="anchor" id="autotoc_md5"></a>
 Examples</h1>
 <p>There are examples for Advanced buffer mode. These are called "frame_buffer". ALL examples for GC9D01 are for advanced buffer mode. </p>
 </div></div><!-- contents -->

@@ -35,7 +35,7 @@ var searchData=
   ['cmdbegin_32',['cmdBegin',['../classSSD1331__OLED.html#a0fb6501a5768f1b760ed06e8d8563acc',1,'SSD1331_OLED']]],
   ['cmdinit_33',['cmdInit',['../classILI9341__TFT.html#aa165e4da489f3d379747ae75db1c30d2',1,'ILI9341_TFT']]],
   ['cmdinitsequence_34',['cmdInitSequence',['../classGC9A01__TFT.html#a5d171a4a9c3435b4a23a98883c09f361',1,'GC9A01_TFT']]],
-  ['codes_35',['Error Codes',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2README.html#autotoc_md121',1,'']]],
+  ['codes_35',['Error Codes',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2README.html#autotoc_md127',1,'']]],
   ['color_20graphic_20displays_20for_20raspberry_20pi_20pico_36',['Display Library for 16-bit color graphic displays for Raspberry PI PICO',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2README.html',1,'']]],
   ['color_5forder_5fe_37',['color_order_e',['../classSSD1331__OLED.html#a2d2c69539afc60608cea53a5ab653ea3',1,'SSD1331_OLED']]],
   ['colororder_5fbgr_38',['COLORORDER_BGR',['../classSSD1331__OLED.html#a2d2c69539afc60608cea53a5ab653ea3a9ad29e8e29128191ae03d2c5b46f9aed',1,'SSD1331_OLED']]],
@@ -43,12 +43,13 @@ var searchData=
   ['configuecontrast_40',['ConfigueContrast',['../classSSD1331__OLED.html#ad5b7753007f849802ce4bf49737e0b00',1,'SSD1331_OLED']]],
   ['configuedimmode_41',['ConfigueDimMode',['../classSSD1331__OLED.html#a82f62a88edeb9f425dc84c53fac9f052',1,'SSD1331_OLED']]],
   ['constrast_5fvalues_5ft_42',['Constrast_values_t',['../structSSD1331__OLED_1_1Constrast__values__t.html',1,'SSD1331_OLED']]],
-  ['contents_43',['contents',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2README.html#autotoc_md109',1,'Table of contents'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2st7789_2README.html#autotoc_md98',1,'Table of contents'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2st7735_2README.html#autotoc_md89',1,'Table of contents'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2ssd1331_2README.html#autotoc_md80',1,'Table of contents'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2gc9a01_2README.html#autotoc_md13',1,'Table of contents'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2gc9d01_2README.html#autotoc_md22',1,'Table of contents'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2ili9341_2README.html#autotoc_md36',1,'Table of contents']]],
+  ['contents_43',['contents',['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2README.html#autotoc_md114',1,'Table of contents'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2st7789_2README.html#autotoc_md104',1,'Table of contents'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2st7735_2README.html#autotoc_md96',1,'Table of contents'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2ssd1331_2README.html#autotoc_md88',1,'Table of contents'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2ili9341_2README.html#autotoc_md45',1,'Table of contents'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2gc9107_2README.html#autotoc_md14',1,'Table of contents'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2gc9a01_2README.html#autotoc_md24',1,'Table of contents'],['../md__2home_2gll_2Documents_2Tech_2pico__projects_2displaylib__16_2extra_2doc_2gc9d01_2README.html#autotoc_md32',1,'Table of contents']]],
   ['contrastcolora_44',['ContrastColorA',['../structSSD1331__OLED_1_1Constrast__values__t.html#af0a827f89468955c59b6e70048eaa3e1',1,'SSD1331_OLED::Constrast_values_t']]],
   ['contrastcolorb_45',['ContrastColorB',['../structSSD1331__OLED_1_1Constrast__values__t.html#a09b20b6c7de97c1e0f7f9acb3b671b2a',1,'SSD1331_OLED::Constrast_values_t']]],
   ['contrastcolorc_46',['ContrastColorC',['../structSSD1331__OLED_1_1Constrast__values__t.html#ac640841985e46e1c3ed9964504952ff0',1,'SSD1331_OLED::Constrast_values_t']]],
   ['contrastvalues_47',['ContrastValues',['../classSSD1331__OLED.html#ab6bac52b99c6596b7f250b697818f804',1,'SSD1331_OLED']]],
-  ['convert8bitto16bit_48',['convert8bitTo16bit',['../classdisplaylib__16__graphics.html#a7b24bf5b80c9a26b0901fcc28c98f516',1,'displaylib_16_graphics']]],
-  ['copywindowcmd_49',['CopyWindowCmd',['../classSSD1331__OLED.html#ae3d8e2cdad203a897be6aed50b541a75',1,'SSD1331_OLED']]],
-  ['cosinefromdegrees_50',['cosineFromDegrees',['../classdisplaylib__16__graphics.html#a7ca33be25caf0c63d8325180df1b8410',1,'displaylib_16_graphics']]]
+  ['convert4bitto16bit_48',['convert4bitTo16bit',['../classdisplaylib__16__graphics.html#a4e2d58a359e6bd4c783c6ddf1d0cdb49',1,'displaylib_16_graphics']]],
+  ['convert8bitto16bit_49',['convert8bitTo16bit',['../classdisplaylib__16__graphics.html#a7b24bf5b80c9a26b0901fcc28c98f516',1,'displaylib_16_graphics']]],
+  ['copywindowcmd_50',['CopyWindowCmd',['../classSSD1331__OLED.html#ae3d8e2cdad203a897be6aed50b541a75',1,'SSD1331_OLED']]],
+  ['cosinefromdegrees_51',['cosineFromDegrees',['../classdisplaylib__16__graphics.html#a7ca33be25caf0c63d8325180df1b8410',1,'displaylib_16_graphics']]]
 ];

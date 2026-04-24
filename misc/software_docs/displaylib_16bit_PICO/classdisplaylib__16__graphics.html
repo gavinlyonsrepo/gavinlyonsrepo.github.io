@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.4.0</span>
+   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.5.0</span>
    </div>
    <div id="projectbrief">Driver for 16-bit colour graphics displays,  Rpi PICO  library.</div>
   </td>
@@ -73,6 +73,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
@@ -91,23 +92,25 @@ Inheritance diagram for displaylib_16_graphics:</div>
 <div class="dyncontent">
 <div class="center"><img src="classdisplaylib__16__graphics__inherit__graph.png" border="0" usemap="#adisplaylib__16__graphics_inherit__map" alt="Inheritance graph"/></div>
 <map name="adisplaylib__16__graphics_inherit__map" id="adisplaylib__16__graphics_inherit__map">
-<area shape="rect" title="Class to handle fonts and graphics of ST7735 display." alt="" coords="295,79,465,104"/>
-<area shape="rect" href="classGC9A01__TFT.html" title="Class to control GC9A01 TFT basic functionality." alt="" coords="5,152,109,177"/>
-<area shape="poly" title=" " alt="" coords="316,110,110,154,109,149,314,104"/>
-<area shape="rect" href="classGC9D01__TFT.html" title="Class to control GC9D01 TFT basic functionality." alt="" coords="134,152,239,177"/>
-<area shape="poly" title=" " alt="" coords="337,111,219,154,217,149,335,106"/>
-<area shape="rect" href="classILI9341__TFT.html" title="Class to interface with ILI9341 LCD display." alt="" coords="264,152,363,177"/>
-<area shape="poly" title=" " alt="" coords="361,116,326,154,322,150,358,113"/>
-<area shape="rect" href="classSSD1331__OLED.html" title="Class to control SSD1331 OLED basic functionality." alt="" coords="387,152,509,177"/>
-<area shape="poly" title=" " alt="" coords="402,112,439,150,435,154,399,116"/>
-<area shape="rect" href="classST7735__TFT.html" title="Class to control ST7735 TFT basic functionality." alt="" coords="534,152,634,177"/>
-<area shape="poly" title=" " alt="" coords="426,106,552,149,550,154,425,111"/>
-<area shape="rect" href="classST7789__TFT.html" title="Class to control ST7789 TFT basic functionality." alt="" coords="658,152,758,177"/>
-<area shape="poly" title=" " alt="" coords="446,104,658,150,657,155,445,109"/>
-<area shape="rect" href="classdisplay__Fonts.html" title="Font class to hold font data object" alt="" coords="273,5,383,31"/>
-<area shape="poly" title=" " alt="" coords="347,40,374,77,369,80,342,43"/>
-<area shape="rect" href="classPrint.html" title="class that provides polymorphic print methods for printing data" alt="" coords="407,5,459,31"/>
-<area shape="poly" title=" " alt="" coords="419,43,391,80,387,77,414,40"/>
+<area shape="rect" title="Class to handle fonts and graphics of ST7735 display." alt="" coords="355,79,526,104"/>
+<area shape="rect" href="classGC9107__TFT.html" title="Class to control GC9107 TFT basic functionality." alt="" coords="5,152,108,177"/>
+<area shape="poly" title=" " alt="" coords="366,109,109,156,108,151,365,104"/>
+<area shape="rect" href="classGC9A01__TFT.html" title="Class to control GC9A01 TFT basic functionality." alt="" coords="133,152,237,177"/>
+<area shape="poly" title=" " alt="" coords="387,110,227,154,225,149,386,105"/>
+<area shape="rect" href="classGC9D01__TFT.html" title="Class to control GC9D01 TFT basic functionality." alt="" coords="261,152,367,177"/>
+<area shape="poly" title=" " alt="" coords="410,113,336,154,333,149,407,108"/>
+<area shape="rect" href="classILI9341__TFT.html" title="Class to interface with ILI9341 LCD display." alt="" coords="391,152,490,177"/>
+<area shape="poly" title=" " alt="" coords="443,118,443,152,438,152,438,118"/>
+<area shape="rect" href="classSSD1331__OLED.html" title="Class to control SSD1331 OLED basic functionality." alt="" coords="514,152,637,177"/>
+<area shape="poly" title=" " alt="" coords="476,108,555,149,552,154,473,113"/>
+<area shape="rect" href="classST7735__TFT.html" title="Class to control ST7735 TFT basic functionality." alt="" coords="661,152,761,177"/>
+<area shape="poly" title=" " alt="" coords="498,105,668,149,667,154,496,110"/>
+<area shape="rect" href="classST7789__TFT.html" title="Class to control ST7789 TFT basic functionality." alt="" coords="785,152,885,177"/>
+<area shape="poly" title=" " alt="" coords="519,104,774,149,786,151,785,157,774,155,518,109"/>
+<area shape="rect" href="classdisplay__Fonts.html" title="Font class to hold font data object" alt="" coords="333,5,444,31"/>
+<area shape="poly" title=" " alt="" coords="407,40,434,77,430,80,403,43"/>
+<area shape="rect" href="classPrint.html" title="class that provides polymorphic print methods for printing data" alt="" coords="468,5,520,31"/>
+<area shape="poly" title=" " alt="" coords="479,43,451,80,447,77,475,40"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -287,6 +290,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3e987226fc8e9276cf7b288cb0525838" id="r_a3e987226fc8e9276cf7b288cb0525838"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a3e987226fc8e9276cf7b288cb0525838">drawBitmap</a> (int16_t x, int16_t y, int16_t w, int16_t h, uint16_t col, uint16_t bgcol, const std::span&lt; const uint8_t &gt; data)</td></tr>
 <tr class="memdesc:a3e987226fc8e9276cf7b288cb0525838"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Draws an bi-color bitmap to screen  <br /></td></tr>
 <tr class="separator:a3e987226fc8e9276cf7b288cb0525838"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d429c79f990379e84a911ab3fb59d8a" id="r_a8d429c79f990379e84a911ab3fb59d8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a8d429c79f990379e84a911ab3fb59d8a">drawBitmap4Data</a> (uint16_t x, uint16_t y, const std::span&lt; const uint8_t &gt; data, uint16_t w, uint16_t h)</td></tr>
+<tr class="memdesc:a8d429c79f990379e84a911ab3fb59d8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws an 4-bit color bitmap (RBGG format) to the screen. This function reads an 4-bit bitmap stored in RBGG-RBGG format, converts each byte to two 16-bit RGB565, and writes it to the display.  <br /></td></tr>
+<tr class="separator:a8d429c79f990379e84a911ab3fb59d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f65191016994cc4e3fb58013f008c1f" id="r_a5f65191016994cc4e3fb58013f008c1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a5f65191016994cc4e3fb58013f008c1f">drawBitmap8Data</a> (uint16_t x, uint16_t y, const std::span&lt; const uint8_t &gt; data, uint16_t w, uint16_t h)</td></tr>
 <tr class="memdesc:a5f65191016994cc4e3fb58013f008c1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws an 8-bit color bitmap (RRRGGGBB format) to the screen. This function reads an 8-bit bitmap stored in RRRGGGBB format, converts each pixel to 16-bit RGB565, and writes it to the display.  <br /></td></tr>
 <tr class="separator:a5f65191016994cc4e3fb58013f008c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -310,6 +316,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a080ad53acb42493bc9599096c11a2f86 inherit pub_methods_classdisplay__Fonts" id="r_a080ad53acb42493bc9599096c11a2f86"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#a080ad53acb42493bc9599096c11a2f86">getInvertFont</a> (void)</td></tr>
 <tr class="memdesc:a080ad53acb42493bc9599096c11a2f86 inherit pub_methods_classdisplay__Fonts"><td class="mdescLeft">&#160;</td><td class="mdescRight">getInvertFont  <br /></td></tr>
 <tr class="separator:a080ad53acb42493bc9599096c11a2f86 inherit pub_methods_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a200af044afcc8e7076278cca1c6dd174 inherit pub_methods_classdisplay__Fonts" id="r_a200af044afcc8e7076278cca1c6dd174"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#a200af044afcc8e7076278cca1c6dd174">getFont_X</a> (void)</td></tr>
+<tr class="memdesc:a200af044afcc8e7076278cca1c6dd174 inherit pub_methods_classdisplay__Fonts"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the current font character width in pixels  <br /></td></tr>
+<tr class="separator:a200af044afcc8e7076278cca1c6dd174 inherit pub_methods_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4194321c772485466ca9a85d1087478 inherit pub_methods_classdisplay__Fonts" id="r_af4194321c772485466ca9a85d1087478"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplay__Fonts.html#af4194321c772485466ca9a85d1087478">getFont_Y</a> (void)</td></tr>
+<tr class="memdesc:af4194321c772485466ca9a85d1087478 inherit pub_methods_classdisplay__Fonts"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the current font character height in pixels  <br /></td></tr>
+<tr class="separator:af4194321c772485466ca9a85d1087478 inherit pub_methods_classdisplay__Fonts"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classPrint"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classPrint')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classPrint.html">Print</a></td></tr>
 <tr class="memitem:a88a4a829fb5d589efb43955ad0cbddcc inherit pub_methods_classPrint" id="r_a88a4a829fb5d589efb43955ad0cbddcc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a88a4a829fb5d589efb43955ad0cbddcc">getWriteError</a> ()</td></tr>
 <tr class="memdesc:a88a4a829fb5d589efb43955ad0cbddcc inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets the error flag status, zero no error  <br /></td></tr>
@@ -382,6 +394,11 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>println</b> (void)<
 <tr class="memitem:a9e65eed803938e026804a767a9f99336 inherit pub_methods_classPrint" id="r_a9e65eed803938e026804a767a9f99336"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPrint.html#a9e65eed803938e026804a767a9f99336">println</a> (const std::string &amp;s)</td></tr>
 <tr class="memdesc:a9e65eed803938e026804a767a9f99336 inherit pub_methods_classPrint"><td class="mdescLeft">&#160;</td><td class="mdescRight">print an C++ string object followed by new line  <br /></td></tr>
 <tr class="separator:a9e65eed803938e026804a767a9f99336 inherit pub_methods_classPrint"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a10c9aab072a1c3eb254d09b629c846ce" id="r_a10c9aab072a1c3eb254d09b629c846ce"><td class="memItemLeft" align="right" valign="top">static constexpr uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a10c9aab072a1c3eb254d09b629c846ce">palette_4bitcolour</a> [16]</td></tr>
+<tr class="separator:a10c9aab072a1c3eb254d09b629c846ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -467,6 +484,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>swapint16t</b> (int16
 <tr class="memitem:a7b24bf5b80c9a26b0901fcc28c98f516" id="r_a7b24bf5b80c9a26b0901fcc28c98f516"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a7b24bf5b80c9a26b0901fcc28c98f516">convert8bitTo16bit</a> (uint8_t RRRGGGBB)</td></tr>
 <tr class="memdesc:a7b24bf5b80c9a26b0901fcc28c98f516"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert 8 bit color to 16 bit color 565  <br /></td></tr>
 <tr class="separator:a7b24bf5b80c9a26b0901fcc28c98f516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e2d58a359e6bd4c783c6ddf1d0cdb49" id="r_a4e2d58a359e6bd4c783c6ddf1d0cdb49"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdisplaylib__16__graphics.html#a4e2d58a359e6bd4c783c6ddf1d0cdb49">convert4bitTo16bit</a> (uint8_t XXXXRBGG)</td></tr>
+<tr class="memdesc:a4e2d58a359e6bd4c783c6ddf1d0cdb49"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert 4 bit color nibble to 16 bit word color 565  <br /></td></tr>
+<tr class="separator:a4e2d58a359e6bd4c783c6ddf1d0cdb49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2615709b329a73f360f7d0beba38f30a" id="r_a2615709b329a73f360f7d0beba38f30a"><td class="memItemLeft" align="right" valign="top"><a id="a2615709b329a73f360f7d0beba38f30a" name="a2615709b329a73f360f7d0beba38f30a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>drawCircleHelper</b> (int16_t x0, int16_t y0, int16_t r, uint8_t cornername, uint16_t color)</td></tr>
 <tr class="separator:a2615709b329a73f360f7d0beba38f30a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -590,6 +610,41 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4e2d58a359e6bd4c783c6ddf1d0cdb49" name="a4e2d58a359e6bd4c783c6ddf1d0cdb49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e2d58a359e6bd4c783c6ddf1d0cdb49">&#9670;&#160;</a></span>convert4bitTo16bit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t displaylib_16_graphics::convert4bitTo16bit </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>fourBitColor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>convert 4 bit color nibble to 16 bit word color 565 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fourBitColor</td><td>byte of 4 bit color XXXX-RBGG</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>XXXX-RBGG to RRRRRGGGGGGBBBBB , XXX is ignored </p><dl class="section return"><dt>Returns</dt><dd>a uint16_t containing 16 bit 565 color values. </dd></dl>
+
+</div>
+</div>
 <a id="a7b24bf5b80c9a26b0901fcc28c98f516" name="a7b24bf5b80c9a26b0901fcc28c98f516"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7b24bf5b80c9a26b0901fcc28c98f516">&#9670;&#160;</a></span>convert8bitTo16bit()</h2>
 
@@ -603,7 +658,7 @@ Private Attributes</h2></td></tr>
           <td class="memname">uint16_t displaylib_16_graphics::convert8bitTo16bit </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>RRRGGGBB</em></td><td>)</td>
+          <td class="paramname"><em>eightBitColor</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -617,7 +672,7 @@ Private Attributes</h2></td></tr>
 <p>convert 8 bit color to 16 bit color 565 </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">RRRGGGBB</td><td>a byte of 8bit color</td></tr>
+    <tr><td class="paramname">eightBitColor</td><td>a byte of 8 bit color RRRG-GGBB</td></tr>
   </table>
   </dd>
 </dl>
@@ -879,6 +934,72 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a8d429c79f990379e84a911ab3fb59d8a" name="a8d429c79f990379e84a911ab3fb59d8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d429c79f990379e84a911ab3fb59d8a">&#9670;&#160;</a></span>drawBitmap4Data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713ea">DisLib16::Ret_Codes_e</a> displaylib_16_graphics::drawBitmap4Data </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::span&lt; const uint8_t &gt;&#160;</td>
+          <td class="paramname"><em>bitmap</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>h</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Draws an 4-bit color bitmap (RBGG format) to the screen. This function reads an 4-bit bitmap stored in RBGG-RBGG format, converts each byte to two 16-bit RGB565, and writes it to the display. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>X coordinate of the top-left corner of the bitmap. </td></tr>
+    <tr><td class="paramname">y</td><td>Y coordinate of the top-left corner of the bitmap. </td></tr>
+    <tr><td class="paramname">bitmap</td><td>span to the 4-bit bitmap data array. </td></tr>
+    <tr><td class="paramname">w</td><td>Width of the bitmap in pixels. </td></tr>
+    <tr><td class="paramname">h</td><td>Height of the bitmap in pixels. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Display status code:<ol type="1">
+<li><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaaa833130d8beb5e37fcd7543185caf638">DisLib16::Success</a> on success.</li>
+<li><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaaadb37ed76ef23c00e91f94d58d78ec74">DisLib16::BitmapDataEmpty</a> if bitmap is empty.</li>
+<li><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaa9419ed4eaba2784c01330fa7c29f12e6">DisLib16::BitmapScreenBounds</a> if the coordinates are out of screen bounds.</li>
+<li><a class="el" href="namespaceDisLib16.html#a0354caa691c996ed503d454e79e713eaa233803d35e3ad83d7fb706ff4f548ad1">DisLib16::BitmapSize</a> if bitmap is too small. </li>
+</ol>
+</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If dislib16_ADVANCED_SCREEN_BUFFER_ENABLE is defined then the function will write to screen Buffer instead of VRAM. </dd></dl>
+
+</div>
+</div>
 <a id="a5f65191016994cc4e3fb58013f008c1f" name="a5f65191016994cc4e3fb58013f008c1f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5f65191016994cc4e3fb58013f008c1f">&#9670;&#160;</a></span>drawBitmap8Data()</h2>
 
@@ -1051,8 +1172,8 @@ Private Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">x</td><td>The x-coordinate of the top-left corner where The grid of dots will start. </td></tr>
     <tr><td class="paramname">y</td><td>The y-coordinate of the top-left corner where The grid of dots will start. </td></tr>
-    <tr><td class="paramname">w</td><td>The width of the area to draw The grid of dots, from the starting x-coordinate. </td></tr>
-    <tr><td class="paramname">h</td><td>The height of the area to draw The grid of dots, from the starting y-coordinate. </td></tr>
+    <tr><td class="paramname">w</td><td>The absolute x-coordinate of the right edge where The grid of dots will end (not a width). </td></tr>
+    <tr><td class="paramname">h</td><td>The absolute y-coordinate of the bottom edge where The grid of dots will end (not a height). </td></tr>
     <tr><td class="paramname">DotGridGap</td><td>The gap between each dot gap line, controlling the spacing between drawn pixels. </td></tr>
     <tr><td class="paramname">color</td><td>The color of the pixels to draw in The grid of dots. </td></tr>
   </table>
@@ -2373,7 +2494,7 @@ Private Attributes</h2></td></tr>
 
 <p>define in the sub class </p>
 
-<p>Implemented in <a class="el" href="classILI9341__TFT.html#a041223efb9e4ecc348aca8b76b29cb39">ILI9341_TFT</a>, <a class="el" href="classGC9A01__TFT.html#a5f2788ba3f5b33a3ac6dd23771f54886">GC9A01_TFT</a>, <a class="el" href="classGC9D01__TFT.html#a7c5f03d19a8a490a6b557287b8680a1c">GC9D01_TFT</a>, <a class="el" href="classSSD1331__OLED.html#aa0209fca4fa9b3397154ecd63727a510">SSD1331_OLED</a>, <a class="el" href="classST7735__TFT.html#a1613a62e02aa5caf220beb94cb5feea1">ST7735_TFT</a>, and <a class="el" href="classST7789__TFT.html#aee26d5e605f10b5f9f0f239ee4cce9dc">ST7789_TFT</a>.</p>
+<p>Implemented in <a class="el" href="classILI9341__TFT.html#a041223efb9e4ecc348aca8b76b29cb39">ILI9341_TFT</a>, <a class="el" href="classGC9107__TFT.html#a31a33265f3ad715923835ad4233c56b4">GC9107_TFT</a>, <a class="el" href="classGC9A01__TFT.html#a5f2788ba3f5b33a3ac6dd23771f54886">GC9A01_TFT</a>, <a class="el" href="classGC9D01__TFT.html#a7c5f03d19a8a490a6b557287b8680a1c">GC9D01_TFT</a>, <a class="el" href="classSSD1331__OLED.html#aa0209fca4fa9b3397154ecd63727a510">SSD1331_OLED</a>, <a class="el" href="classST7735__TFT.html#a1613a62e02aa5caf220beb94cb5feea1">ST7735_TFT</a>, and <a class="el" href="classST7789__TFT.html#aee26d5e605f10b5f9f0f239ee4cce9dc">ST7789_TFT</a>.</p>
 
 </div>
 </div>
@@ -3473,6 +3594,47 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Records row offset postion </p>
+
+</div>
+</div>
+<a id="a10c9aab072a1c3eb254d09b629c846ce" name="a10c9aab072a1c3eb254d09b629c846ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10c9aab072a1c3eb254d09b629c846ce">&#9670;&#160;</a></span>palette_4bitcolour</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint16_t displaylib_16_graphics::palette_4bitcolour[16]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">        0x0000, </div>
+<div class="line">        0x0AA0, </div>
+<div class="line">        0x0540, </div>
+<div class="line">        0x07E0, </div>
+<div class="line">        0x000F, </div>
+<div class="line">        0x001F, </div>
+<div class="line">        0x2C1F, </div>
+<div class="line">        0x07FF, </div>
+<div class="line">        0xF800, </div>
+<div class="line">        0xFC00, </div>
+<div class="line">        0xFD20, </div>
+<div class="line">        0xFFE0, </div>
+<div class="line">        0xF00F, </div>
+<div class="line">        0xF81F, </div>
+<div class="line">        0xFC1F, </div>
+<div class="line">        0xFFFF, </div>
+<div class="line">    }</div>
+</div><!-- fragment --><p>Palette for 4 bit colour conversion - look up table </p>
 
 </div>
 </div>

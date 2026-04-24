@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['tft_5fmodes_5fe_0',['TFT_modes_e',['../classST7735__TFT.html#a09ec4c00dbd2e041b2f42623349d4647',1,'ST7735_TFT']]],
-  ['tft_5fpcbtype_5fe_1',['TFT_PCBtype_e',['../classST7735__TFT.html#a25e12505b778035ea78e5fe872fef392',1,'ST7735_TFT']]]
+  ['scroll_5fcontrol_5fe_0',['scroll_control_e',['../classSSD1331__OLED.html#af0d18e05eaf6ad477600557f3453c634',1,'SSD1331_OLED']]],
+  ['scroll_5ftime_5finterval_5fe_1',['scroll_time_interval_e',['../classSSD1331__OLED.html#a93c1687b7733b65c8af6662d865d5c28',1,'SSD1331_OLED']]]
 ];

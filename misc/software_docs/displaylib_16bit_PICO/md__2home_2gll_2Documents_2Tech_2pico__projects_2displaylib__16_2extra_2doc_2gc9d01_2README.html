@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.4.0</span>
+   <div id="projectname">displaylib_16bit_PICO<span id="projectnumber">&#160;2.5.0</span>
    </div>
    <div id="projectbrief">Driver for 16-bit colour graphics displays,  Rpi PICO  library.</div>
   </td>
@@ -73,22 +73,21 @@ $(function() {
   <div class="headertitle"><div class="title">GC9D01 Readme</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md21"></a> <a href="https://www.paypal.com/paypalme/whitelight976"><img src="https://img.shields.io/badge/Donate-PayPal-green.svg" alt="Donate" style="pointer-events: none;" class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md22"></a>
+<div class="textblock"><p><a class="anchor" id="autotoc_md31"></a> <a href="https://www.paypal.com/paypalme/whitelight976"><img src="https://img.shields.io/badge/Donate-PayPal-green.svg" alt="Donate" style="pointer-events: none;" class="inline"/></a></p>
+<h1><a class="anchor" id="autotoc_md32"></a>
 Table of contents</h1>
 <ul>
 <li>Overview</li>
 <li><a class="el" href="test.html">Test</a></li>
 <li>Software<ul>
 <li>User Options</li>
-<li>Bitmap</li>
 </ul>
 </li>
 <li>Hardware</li>
 <li>Output</li>
 <li>Notes and Issues</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md23"></a>
+<h1><a class="anchor" id="autotoc_md33"></a>
 Overview</h1>
 <ul>
 <li>Name: GC9D01N</li>
@@ -107,12 +106,11 @@ Overview</h1>
 <li>Advanced frame buffer mode included.</li>
 <li>Bitmaps supported: 1, 8 and 16 bit.</li>
 <li>Sprites supported.</li>
-<li><a href="https://github.com/gavinlyonsrepo/GC9D01_LTSM">Project url link</a></li>
 </ol>
 <ul>
 <li><a href="https://buydisplay.com/download/ic/GC9D01N.pdf">DataSheet</a></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md24"></a>
+<h1><a class="anchor" id="autotoc_md34"></a>
 Test</h1>
 <p>There are example files included. User picks the one they want by editing the CMakeLists.txt :: add_executable(${PROJECT_NAME} section. Comment in one path and one path only. Check Note below table.</p>
 <table class="markdownTable">
@@ -143,23 +141,23 @@ Test</h1>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">160x160 51,200   </td><td class="markdownTableBodyNone">RP2350 512 KB   </td><td class="markdownTableBodyNone">10   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md25"></a>
+<h1><a class="anchor" id="autotoc_md35"></a>
 Software</h1>
-<h2><a class="anchor" id="autotoc_md26"></a>
+<h2><a class="anchor" id="autotoc_md36"></a>
 User Options</h2>
 <p>In the main.cpp example files. There are four sections in "Setup()" function where user can make adjustments to select for SPI type used, PCB type used and screen size.</p>
 <p>0. USER OPTION 0 SPI_SPEED + TYPE</p><ol type="1">
 <li>USER OPTION 1 GPIO</li>
 <li>USER OPTION 2 SCREEN SECTION</li>
 </ol>
-<h3><a class="anchor" id="autotoc_md27"></a>
+<h3><a class="anchor" id="autotoc_md37"></a>
 USER OPTION 0 SPI SPEED</h3>
 <p>Here the user can pass the SPI Bus freq in kiloHertz, Currently set to 8 Mhz. Max SPI speed on the PICO is 62.5Mhz. There is a file with SPI test results for the FPS tests in extra/doc folder. 2nd parameter is the SPI interface(spi0 spi1 etc).</p>
 <p>If users wants software SPI just call this method with just one argument for the optional GPIO software uS delay, which by default is zero. Setting this higher can be used to slow down Software SPI which may be beneficial in some setups.</p>
-<h3><a class="anchor" id="autotoc_md28"></a>
+<h3><a class="anchor" id="autotoc_md38"></a>
 USER OPTION 1 GPIO</h3>
 <p>The 5 GPIO pins used, the clock and data lines must be the clock and data lines of spi interface chosen in option 0 if using hardware SPI.</p>
-<h3><a class="anchor" id="autotoc_md29"></a>
+<h3><a class="anchor" id="autotoc_md39"></a>
 USER OPTIONS 2</h3>
 <p>There are options here user can adjust:</p>
 <ol type="1">
@@ -200,28 +198,7 @@ USER OPTIONS 2</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><code>40x160 Single Gate</code>   </td><td class="markdownTableBodyNone">-60   </td><td class="markdownTableBodyNone">60   </td><td class="markdownTableBodyNone"><b>Tested</b>. Offsets required for 90° and 270° rotations due to centered 40-pixel active area.   </td></tr>
 </table>
-<h2><a class="anchor" id="autotoc_md30"></a>
-Bitmap</h2>
-<p>Functions to support drawing bitmaps &amp; sprites.</p>
-<table class="markdownTable">
-<tr class="markdownTableHead">
-<th class="markdownTableHeadNone">Num   </th><th class="markdownTableHeadNone">Function Name   </th><th class="markdownTableHeadNone">Colour support   </th><th class="markdownTableHeadNone">bitmap size calc   </th><th class="markdownTableHeadNone">Note    </th></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">1   </td><td class="markdownTableBodyNone">drawBitmap   </td><td class="markdownTableBodyNone">bi-colour   </td><td class="markdownTableBodyNone">2048 bytes   </td><td class="markdownTableBodyNone">Data horizontally addressed    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">2   </td><td class="markdownTableBodyNone">drawBitmap8Data   </td><td class="markdownTableBodyNone">8 bit color RRRGGGBB   </td><td class="markdownTableBodyNone">16384   </td><td class="markdownTableBodyNone">Data from array on PICO, Converted by software to 16-bit color    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">3   </td><td class="markdownTableBodyNone">drawBitmap16Data   </td><td class="markdownTableBodyNone">16 bit color 565   </td><td class="markdownTableBodyNone">32768   </td><td class="markdownTableBodyNone">Data from array on PICO    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">4   </td><td class="markdownTableBodyNone">drawSpriteData   </td><td class="markdownTableBodyNone">16 bit color 565   </td><td class="markdownTableBodyNone">32768   </td><td class="markdownTableBodyNone">Data from array on PICO, Draws background color transparent   </td></tr>
-</table>
-<ol type="1">
-<li>Bitmap size in kiloBytes = (screenWidth * screenHeight * bitsPerPixel)/(1024 * 8)</li>
-<li>Math in bitmap size column 1-4 assumes 128x128 bitmap size.</li>
-<li>The data array for 1 is created from image files using file data conversion tool <a href="https://javl.github.io/image2cpp/">link</a></li>
-<li>The data array for 2-4 is created from BMP files using file data conversion tool <a href="https://notisrac.github.io/FileToCArray/">link</a></li>
-</ol>
-<h1><a class="anchor" id="autotoc_md31"></a>
+<h1><a class="anchor" id="autotoc_md40"></a>
 Hardware</h1>
 <p><a href="https://github.com/gavinlyonsrepo/GC9D01_LTSM/blob/main/extras/images/gc2.jpg"><img src="https://github.com/gavinlyonsrepo/GC9D01_LTSM/blob/main/extras/images/gc2.jpg" alt="pic " class="inline"/></a></p>
 <p>Connections as setup in main.cpp test file.</p>
@@ -252,13 +229,13 @@ Hardware</h1>
 <li>If no Reset pin present: pass -1 as argument for Reset pin number in SetupGPIO()functions</li>
 <li>To operate without CS pin: pass -1 as argument for CS pin number in SetupGPIO()function and ground the CS pin on device side.</li>
 </ol>
-<h1><a class="anchor" id="autotoc_md32"></a>
+<h1><a class="anchor" id="autotoc_md41"></a>
 Output</h1>
 <p>160x160 Round Display:</p>
 <p><a href="https://github.com/gavinlyonsrepo/GC9D01_LTSM/blob/main/extras/images/output.jpg"><img src="https://github.com/gavinlyonsrepo/GC9D01_LTSM/blob/main/extras/images/output.jpg" alt="pic2 " class="inline"/></a></p>
 <p>40x160 Bar Display:</p>
 <p><a href="https://github.com/gavinlyonsrepo/GC9D01_LTSM/blob/main/extras/images/output2.jpg"><img src="https://github.com/gavinlyonsrepo/GC9D01_LTSM/blob/main/extras/images/output2.jpg" alt="pic4 " class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md33"></a>
+<h1><a class="anchor" id="autotoc_md42"></a>
 Notes and Issues</h1>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

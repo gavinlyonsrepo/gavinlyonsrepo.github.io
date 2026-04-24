@@ -1,5 +1,5 @@
 var searchData=
 [
   ['baticon_0',['baticon',['../Bitmap__TEST__Data_8hpp.html#ad56378df6d17de3d612743595e268fa8',1,'BatIcon:&#160;Bitmap_TEST_Data.cpp'],['../Bitmap__TEST__Data_8cpp.html#ac0692a2672c23c030c7547e724ac5117',1,'BatIcon:&#160;Bitmap_TEST_Data.cpp']]],
-  ['bgr_1',['bgr',['../structGC9A01__TFT_1_1MADCTL__FLAGS__t.html#a3f3e41d3fb569ba6c71081c85f4fb472',1,'GC9A01_TFT::MADCTL_FLAGS_t::BGR'],['../structGC9D01__TFT_1_1MADCTL__FLAGS__t.html#abb8997e28b47d1107e3df67cc07b825d',1,'GC9D01_TFT::MADCTL_FLAGS_t::BGR']]]
+  ['bgr_1',['bgr',['../structGC9107__TFT_1_1MADCTL__FLAGS__t.html#adae6538988ccf0bb4ec2c20de7bef8ec',1,'GC9107_TFT::MADCTL_FLAGS_t::BGR'],['../structGC9A01__TFT_1_1MADCTL__FLAGS__t.html#a3f3e41d3fb569ba6c71081c85f4fb472',1,'GC9A01_TFT::MADCTL_FLAGS_t::BGR'],['../structGC9D01__TFT_1_1MADCTL__FLAGS__t.html#abb8997e28b47d1107e3df67cc07b825d',1,'GC9D01_TFT::MADCTL_FLAGS_t::BGR']]]
 ];

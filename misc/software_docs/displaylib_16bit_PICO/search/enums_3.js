@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ili9341_5freadregister_5fe_0',['ILI9341_ReadRegister_e',['../classILI9341__TFT.html#a91dd6f52dd47c61013a06e2b15386d90',1,'ILI9341_TFT']]]
+  ['gm_5fmemory_5fbase_5fe_0',['GM_memory_base_e',['../classGC9107__TFT.html#a8a229925285734de47f13c92ba5c84e5',1,'GC9107_TFT']]]
 ];
